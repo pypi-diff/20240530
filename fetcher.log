@@ -1669,3 +1669,24 @@ EOFError: EOF read where object expected
 [2024-05-30 01:44:58] INFO root fetch - processPackages [hymir]: Remove: archive file [/home/abi/fetcher/tmp/hymir-0.1.8.tar.gz]
 [2024-05-30 01:44:58] INFO root fetch - main [MainThread]: End processing [hymir]: success
 [2024-05-30 01:44:58] INFO root fetch - main [MainThread]: Store serial: [23438546]
+[2024-05-30 01:47:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438546]
+[2024-05-30 01:47:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 01:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evo-framework
+[2024-05-30 01:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mktdata
+[2024-05-30 01:47:07] INFO root fetch - processPackages [evo-framework]: New version: [2024.5.30] Old Version: [2024.5.29]
+[2024-05-30 01:47:07] INFO root fetch - processPackages [mktdata]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-30 01:47:07] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/a1/e6/b0ce4f86f0bdd06b02ea0a53232d26f35128dcdaa9f667b1b18b21142cfc/evo_framework-2024.5.29.tar.gz
+[2024-05-30 01:47:07] INFO root fetch - processPackages [mktdata]: Downloading https://files.pythonhosted.org/packages/1f/86/c9053126de7c04226ca3c85e4a5453fc6e765981be4a0b8b3786c7d6e300/mktdata-0.0.2.tar.gz
+[2024-05-30 01:47:07] INFO root fetch - processPackages [mktdata]: Downloading https://files.pythonhosted.org/packages/34/3b/291e5bb606aca8128b75c0d2948cf6b83921caf857f37bc85ea6df948c9c/mktdata-0.0.3.tar.gz
+[2024-05-30 01:47:07] INFO root fetch - processPackages [mktdata]: executing diffoscope
+[2024-05-30 01:47:07] INFO root fetch - processPackages [mktdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mktdata-0.0.2.tar.gz tmp/mktdata-0.0.3.tar.gz --markdown 20240530/m/mktdata/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-30 01:47:07] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/95/54/b3592461b827112d9b3cae09a81551b0cced370aa1dd4237a08ebd9f7f08/evo_framework-2024.5.30.tar.gz
+[2024-05-30 01:47:07] INFO root fetch - processPackages [evo-framework]: executing diffoscope
+[2024-05-30 01:47:07] INFO root fetch - processPackages [evo-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_framework-2024.5.29.tar.gz tmp/evo_framework-2024.5.30.tar.gz --markdown 20240530/e/evo-framework/2024.5.29-2024.5.30/README.md --exclude *.pyd
+[2024-05-30 01:47:08] INFO root fetch - processPackages [mktdata]: Remove: archive file [/home/abi/fetcher/tmp/mktdata-0.0.2.tar.gz]
+[2024-05-30 01:47:08] INFO root fetch - processPackages [mktdata]: Remove: archive file [/home/abi/fetcher/tmp/mktdata-0.0.3.tar.gz]
+[2024-05-30 01:47:08] INFO root fetch - main [MainThread]: End processing [mktdata]: success
+[2024-05-30 01:47:08] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.29.tar.gz]
+[2024-05-30 01:47:08] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.30.tar.gz]
+[2024-05-30 01:47:08] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
+[2024-05-30 01:47:08] INFO root fetch - main [MainThread]: Store serial: [23438552]
