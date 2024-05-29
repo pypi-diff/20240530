@@ -577,3 +577,45 @@ EOFError: EOF read where object expected
 [2024-05-30 00:26:48] INFO root fetch - processPackages [immanuel]: Remove: archive file [/home/abi/fetcher/tmp/immanuel-1.4.1-py3-none-any.whl.zip]
 [2024-05-30 00:26:48] INFO root fetch - main [MainThread]: End processing [immanuel]: success
 [2024-05-30 00:26:48] INFO root fetch - main [MainThread]: Store serial: [23438156]
+[2024-05-30 00:28:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438156]
+[2024-05-30 00:28:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 00:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gnida
+[2024-05-30 00:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logfire
+[2024-05-30 00:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioworldline
+[2024-05-30 00:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dwd-global-radiation
+[2024-05-30 00:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-gnews
+[2024-05-30 00:28:57] INFO root fetch - processPackages [gnida]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-30 00:28:57] INFO root fetch - processPackages [dwd-global-radiation]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2024-05-30 00:28:57] INFO root fetch - processPackages [gnida]: Downloading https://files.pythonhosted.org/packages/1a/6b/b7f4d2f68613762306dac916d39bb0b98c1228651a076676ec3fb32cff7d/gnida-0.0.7.tar.gz
+[2024-05-30 00:28:57] INFO root fetch - processPackages [aioworldline]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 00:28:57] INFO root fetch - processPackages [dwd-global-radiation]: Downloading https://files.pythonhosted.org/packages/bf/06/0f912f2fada015b9c39df08d65a3cc9050a22f7a17f36333fa05b0bc7eff/dwd_global_radiation-1.1.0rc1.tar.gz
+[2024-05-30 00:28:57] WARNING root fetch - processPackages [airbyte-source-gnews]: Skipping, unable to determine old version
+[2024-05-30 00:28:57] INFO root fetch - main [MainThread]: End processing [airbyte-source-gnews] error
+[2024-05-30 00:28:57] INFO root fetch - processPackages [logfire]: New version: [0.37.0] Old Version: [0.36.1]
+[2024-05-30 00:28:57] INFO root fetch - processPackages [aioworldline]: Downloading https://files.pythonhosted.org/packages/aa/c8/10a1bcb5f7b94e2bd51e1c2de08a230b803232c5a49d1fb2d118c506712c/aioworldline-0.1.8.tar.gz
+[2024-05-30 00:28:57] INFO root fetch - processPackages [gnida]: Downloading https://files.pythonhosted.org/packages/aa/5a/a25fe22ea69d2648cf176ceaefbafa07c7a2269f356374053ac34e1e2774/gnida-0.0.9.tar.gz
+[2024-05-30 00:28:57] INFO root fetch - processPackages [dwd-global-radiation]: Downloading https://files.pythonhosted.org/packages/2f/83/a8fa2cfbba0f46dcddee48703a23e2845712ab8f7aa19621a2abc90913a7/dwd_global_radiation-1.1.0rc2.tar.gz
+[2024-05-30 00:28:57] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/c8/66/571cd1e89fdff0d97b1dc14839136ca63481108f00c626cbf1d7daea002d/logfire-0.36.1.tar.gz
+[2024-05-30 00:28:57] INFO root fetch - processPackages [gnida]: executing diffoscope
+[2024-05-30 00:28:57] INFO root fetch - processPackages [gnida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnida-0.0.7.tar.gz tmp/gnida-0.0.9.tar.gz --markdown 20240530/g/gnida/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-30 00:28:57] INFO root fetch - processPackages [dwd-global-radiation]: executing diffoscope
+[2024-05-30 00:28:57] INFO root fetch - processPackages [dwd-global-radiation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwd_global_radiation-1.1.0rc1.tar.gz tmp/dwd_global_radiation-1.1.0rc2.tar.gz --markdown 20240530/d/dwd-global-radiation/1.1.0rc1-1.1.0rc2/README.md --exclude *.pyd
+[2024-05-30 00:28:57] INFO root fetch - processPackages [aioworldline]: Downloading https://files.pythonhosted.org/packages/f7/e9/9b537eab38ee7b44020d1e21de4e3276255267958251b98cf9a1ffc20c6a/aioworldline-0.1.9.tar.gz
+[2024-05-30 00:28:57] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/b2/a4/c43e384b54975d1981628938fc3e2c6c83635ab40f42c10ee110f6c46070/logfire-0.37.0.tar.gz
+[2024-05-30 00:28:57] INFO root fetch - processPackages [aioworldline]: executing diffoscope
+[2024-05-30 00:28:57] INFO root fetch - processPackages [aioworldline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworldline-0.1.8.tar.gz tmp/aioworldline-0.1.9.tar.gz --markdown 20240530/a/aioworldline/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 00:28:58] INFO root fetch - processPackages [logfire]: executing diffoscope
+[2024-05-30 00:28:58] INFO root fetch - processPackages [logfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire-0.36.1.tar.gz tmp/logfire-0.37.0.tar.gz --markdown 20240530/l/logfire/0.36.1-0.37.0/README.md --exclude *.pyd
+[2024-05-30 00:28:58] INFO root fetch - processPackages [gnida]: Remove: archive file [/home/abi/fetcher/tmp/gnida-0.0.7.tar.gz]
+[2024-05-30 00:28:58] INFO root fetch - processPackages [gnida]: Remove: archive file [/home/abi/fetcher/tmp/gnida-0.0.9.tar.gz]
+[2024-05-30 00:28:58] INFO root fetch - main [MainThread]: End processing [gnida]: success
+[2024-05-30 00:28:58] INFO root fetch - processPackages [dwd-global-radiation]: Remove: archive file [/home/abi/fetcher/tmp/dwd_global_radiation-1.1.0rc1.tar.gz]
+[2024-05-30 00:28:58] INFO root fetch - processPackages [dwd-global-radiation]: Remove: archive file [/home/abi/fetcher/tmp/dwd_global_radiation-1.1.0rc2.tar.gz]
+[2024-05-30 00:28:58] INFO root fetch - main [MainThread]: End processing [dwd-global-radiation]: success
+[2024-05-30 00:28:58] INFO root fetch - processPackages [aioworldline]: Remove: archive file [/home/abi/fetcher/tmp/aioworldline-0.1.8.tar.gz]
+[2024-05-30 00:28:58] INFO root fetch - processPackages [aioworldline]: Remove: archive file [/home/abi/fetcher/tmp/aioworldline-0.1.9.tar.gz]
+[2024-05-30 00:28:58] INFO root fetch - main [MainThread]: End processing [aioworldline]: success
+[2024-05-30 00:28:59] INFO root fetch - processPackages [logfire]: Remove: archive file [/home/abi/fetcher/tmp/logfire-0.36.1.tar.gz]
+[2024-05-30 00:28:59] INFO root fetch - processPackages [logfire]: Remove: archive file [/home/abi/fetcher/tmp/logfire-0.37.0.tar.gz]
+[2024-05-30 00:28:59] INFO root fetch - main [MainThread]: End processing [logfire]: success
+[2024-05-30 00:28:59] INFO root fetch - main [MainThread]: Store serial: [23438173]
