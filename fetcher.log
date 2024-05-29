@@ -1077,3 +1077,15 @@ EOFError: EOF read where object expected
 [2024-05-30 01:01:34] WARNING root fetch - processPackages [parle]: Skipping, unable to determine old version
 [2024-05-30 01:01:34] INFO root fetch - main [MainThread]: End processing [parle] error
 [2024-05-30 01:01:34] INFO root fetch - main [MainThread]: Store serial: [23438336]
+[2024-05-30 01:03:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438336]
+[2024-05-30 01:03:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 01:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tonic-textual
+[2024-05-30 01:03:43] INFO root fetch - processPackages [tonic-textual]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-30 01:03:44] INFO root fetch - processPackages [tonic-textual]: Downloading https://files.pythonhosted.org/packages/8b/40/fdc586e9d1afe383cf9183166bee3184313e0197220880a4e2254e4572b0/tonic_textual-2.0.0.tar.gz
+[2024-05-30 01:03:44] INFO root fetch - processPackages [tonic-textual]: Downloading https://files.pythonhosted.org/packages/7b/a8/5087a8c32245a14b9ffc85c369d92fa0a724ae828c0e56baf572db047156/tonic_textual-2.0.1.tar.gz
+[2024-05-30 01:03:44] INFO root fetch - processPackages [tonic-textual]: executing diffoscope
+[2024-05-30 01:03:44] INFO root fetch - processPackages [tonic-textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonic_textual-2.0.0.tar.gz tmp/tonic_textual-2.0.1.tar.gz --markdown 20240530/t/tonic-textual/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-30 01:03:45] INFO root fetch - processPackages [tonic-textual]: Remove: archive file [/home/abi/fetcher/tmp/tonic_textual-2.0.0.tar.gz]
+[2024-05-30 01:03:45] INFO root fetch - processPackages [tonic-textual]: Remove: archive file [/home/abi/fetcher/tmp/tonic_textual-2.0.1.tar.gz]
+[2024-05-30 01:03:45] INFO root fetch - main [MainThread]: End processing [tonic-textual]: success
+[2024-05-30 01:03:45] INFO root fetch - main [MainThread]: Store serial: [23438339]
