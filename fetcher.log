@@ -1425,3 +1425,42 @@ EOFError: EOF read where object expected
 [2024-05-30 01:25:35] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.99.tar.gz]
 [2024-05-30 01:25:35] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
 [2024-05-30 01:25:35] INFO root fetch - main [MainThread]: Store serial: [23438459]
+[2024-05-30 01:27:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438459]
+[2024-05-30 01:27:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 01:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kdp-api-python-client
+[2024-05-30 01:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-all-star
+[2024-05-30 01:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poke-env
+[2024-05-30 01:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dante-corpora
+[2024-05-30 01:27:44] INFO root fetch - processPackages [dante-corpora]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-30 01:27:44] INFO root fetch - processPackages [dante-corpora]: Downloading https://files.pythonhosted.org/packages/3b/32/a1e84144194f05fde6fd1498b65bc77559a37bd07c5f7909b7bbea3ca178/dante_corpora-1.0.3.tar.gz
+[2024-05-30 01:27:44] INFO root fetch - processPackages [gpt-all-star]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-30 01:27:44] INFO root fetch - processPackages [poke-env]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-30 01:27:44] INFO root fetch - processPackages [kdp-api-python-client]: New version: [4.99.0] Old Version: [4.98.0]
+[2024-05-30 01:27:45] INFO root fetch - processPackages [gpt-all-star]: Downloading https://files.pythonhosted.org/packages/95/00/47f2780dce549d1ce8aad7cb17a7c758209c4539c6f75dcdbe0e9322ce0e/gpt_all_star-0.0.7.tar.gz
+[2024-05-30 01:27:45] INFO root fetch - processPackages [poke-env]: Downloading https://files.pythonhosted.org/packages/a2/a4/99a67554cd9cdaaa1722850969c45a130fec9906d8b2a79fe614f0a54a73/poke_env-0.8.0.tar.gz
+[2024-05-30 01:27:45] INFO root fetch - processPackages [kdp-api-python-client]: Downloading https://files.pythonhosted.org/packages/46/b2/68c43660af0fe2c7d53c93038db9ca31ddd128caca21bb57962a6fc78413/kdp-api-python-client-4.98.0.tar.gz
+[2024-05-30 01:27:45] INFO root fetch - processPackages [dante-corpora]: Downloading https://files.pythonhosted.org/packages/04/1e/fa714584e3d63e74ba4cf045e38238581529f7c76aca07d1c8bc1d29176a/dante_corpora-1.0.4.tar.gz
+[2024-05-30 01:27:45] INFO root fetch - processPackages [gpt-all-star]: Downloading https://files.pythonhosted.org/packages/96/40/c6f6b9dc146ffbf8c97d68b1ad200a51bb0f5a239c5e4d11725f1fff5f45/gpt_all_star-0.0.9.tar.gz
+[2024-05-30 01:27:45] INFO root fetch - processPackages [kdp-api-python-client]: Downloading https://files.pythonhosted.org/packages/10/df/e139683c19dbe53b0109746bec3dc990f3051099839fdf00cf46a309126f/kdp-api-python-client-4.99.0.tar.gz
+[2024-05-30 01:27:45] INFO root fetch - processPackages [dante-corpora]: executing diffoscope
+[2024-05-30 01:27:45] INFO root fetch - processPackages [dante-corpora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dante_corpora-1.0.3.tar.gz tmp/dante_corpora-1.0.4.tar.gz --markdown 20240530/d/dante-corpora/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-30 01:27:45] INFO root fetch - processPackages [kdp-api-python-client]: executing diffoscope
+[2024-05-30 01:27:45] INFO root fetch - processPackages [kdp-api-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-api-python-client-4.98.0.tar.gz tmp/kdp-api-python-client-4.99.0.tar.gz --markdown 20240530/k/kdp-api-python-client/4.98.0-4.99.0/README.md --exclude *.pyd
+[2024-05-30 01:27:45] INFO root fetch - processPackages [poke-env]: Downloading https://files.pythonhosted.org/packages/a5/74/db9a55d7e272af0ef2e0466d6a563f48a7d7cb304e02d292821a1a64afac/poke_env-0.8.1.tar.gz
+[2024-05-30 01:27:45] INFO root fetch - processPackages [gpt-all-star]: executing diffoscope
+[2024-05-30 01:27:45] INFO root fetch - processPackages [gpt-all-star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_all_star-0.0.7.tar.gz tmp/gpt_all_star-0.0.9.tar.gz --markdown 20240530/g/gpt-all-star/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-30 01:27:45] INFO root fetch - processPackages [poke-env]: executing diffoscope
+[2024-05-30 01:27:45] INFO root fetch - processPackages [poke-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poke_env-0.8.0.tar.gz tmp/poke_env-0.8.1.tar.gz --markdown 20240530/p/poke-env/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-30 01:27:46] INFO root fetch - processPackages [dante-corpora]: Remove: archive file [/home/abi/fetcher/tmp/dante_corpora-1.0.3.tar.gz]
+[2024-05-30 01:27:46] INFO root fetch - processPackages [dante-corpora]: Remove: archive file [/home/abi/fetcher/tmp/dante_corpora-1.0.4.tar.gz]
+[2024-05-30 01:27:46] INFO root fetch - main [MainThread]: End processing [dante-corpora]: success
+[2024-05-30 01:27:46] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.7.tar.gz]
+[2024-05-30 01:27:46] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.9.tar.gz]
+[2024-05-30 01:27:46] INFO root fetch - main [MainThread]: End processing [gpt-all-star]: success
+[2024-05-30 01:27:48] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.98.0.tar.gz]
+[2024-05-30 01:27:48] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.99.0.tar.gz]
+[2024-05-30 01:27:48] INFO root fetch - main [MainThread]: End processing [kdp-api-python-client]: success
+[2024-05-30 01:27:52] INFO root fetch - processPackages [poke-env]: Remove: archive file [/home/abi/fetcher/tmp/poke_env-0.8.0.tar.gz]
+[2024-05-30 01:27:52] INFO root fetch - processPackages [poke-env]: Remove: archive file [/home/abi/fetcher/tmp/poke_env-0.8.1.tar.gz]
+[2024-05-30 01:27:52] INFO root fetch - main [MainThread]: End processing [poke-env]: success
+[2024-05-30 01:27:52] INFO root fetch - main [MainThread]: Store serial: [23438470]
