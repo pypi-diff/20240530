@@ -298,3 +298,51 @@ EOFError: EOF read where object expected
 [2024-05-30 00:11:07] INFO root fetch - processPackages [xminds]: Remove: archive file [/home/abi/fetcher/tmp/xminds-0.7.0.tar.gz]
 [2024-05-30 00:11:07] INFO root fetch - main [MainThread]: End processing [xminds]: success
 [2024-05-30 00:11:07] INFO root fetch - main [MainThread]: Store serial: [23438021]
+[2024-05-30 00:13:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438021]
+[2024-05-30 00:13:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 00:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neopyter
+[2024-05-30 00:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langwatch
+[2024-05-30 00:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astro-datalab
+[2024-05-30 00:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agentdesk
+[2024-05-30 00:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opera-utils
+[2024-05-30 00:13:15] INFO root fetch - processPackages [langwatch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 00:13:15] INFO root fetch - processPackages [neopyter]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-30 00:13:15] INFO root fetch - processPackages [astro-datalab]: New version: [2.23.0] Old Version: [2.22.1]
+[2024-05-30 00:13:15] INFO root fetch - processPackages [opera-utils]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-30 00:13:15] INFO root fetch - processPackages [langwatch]: Downloading https://files.pythonhosted.org/packages/5a/e9/3864799ca400b5ae11962a267077e41212e295457c88da2b48a58594d35b/langwatch-0.0.8.tar.gz
+[2024-05-30 00:13:15] INFO root fetch - processPackages [opera-utils]: Downloading https://files.pythonhosted.org/packages/05/a4/a5e3549b14f1afd55fb29ab66fb3490e9025e18e8ec01dae1649516204d6/opera-utils-0.3.0.tar.gz
+[2024-05-30 00:13:15] INFO root fetch - processPackages [agentdesk]: New version: [0.2.9] Old Version: [0.2.82]
+[2024-05-30 00:13:15] INFO root fetch - processPackages [astro-datalab]: Downloading https://files.pythonhosted.org/packages/6d/41/06e915d367076589e438334e01f6336f729ad873c5c6f45a3e8bddea52d0/astro-datalab-2.22.1.tar.gz
+[2024-05-30 00:13:16] INFO root fetch - processPackages [neopyter]: Downloading https://files.pythonhosted.org/packages/2f/25/eeaa0018adf6b8fb56cf564620e55692a34c030900b27dbc8a0e254895a3/neopyter-0.2.1.tar.gz
+[2024-05-30 00:13:16] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/0d/ca/58e1e70afeeaa04d9b4642ab25d57b6163c3a6262e0e5e514909c2c5679b/agentdesk-0.2.82.tar.gz
+[2024-05-30 00:13:16] INFO root fetch - processPackages [langwatch]: Downloading https://files.pythonhosted.org/packages/ca/d2/7dba8299d65257fe500a9d804ac2a4a507381a01516d584c45950754b775/langwatch-0.0.9.tar.gz
+[2024-05-30 00:13:16] INFO root fetch - processPackages [opera-utils]: Downloading https://files.pythonhosted.org/packages/5b/94/58a10e21e2a815b754fa23e77c19f271137ba3f5710e6931f3262597c8b1/opera_utils-0.3.1.tar.gz
+[2024-05-30 00:13:16] INFO root fetch - processPackages [astro-datalab]: Downloading https://files.pythonhosted.org/packages/a5/78/c0cdf1ccf5e114dfbda414aff99855434c5189e1dee939094872dfdbadf6/astro_datalab-2.23.0.tar.gz
+[2024-05-30 00:13:16] INFO root fetch - processPackages [langwatch]: executing diffoscope
+[2024-05-30 00:13:16] INFO root fetch - processPackages [langwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langwatch-0.0.8.tar.gz tmp/langwatch-0.0.9.tar.gz --markdown 20240530/l/langwatch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 00:13:16] INFO root fetch - processPackages [opera-utils]: executing diffoscope
+[2024-05-30 00:13:16] INFO root fetch - processPackages [opera-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opera-utils-0.3.0.tar.gz tmp/opera_utils-0.3.1.tar.gz --markdown 20240530/o/opera-utils/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-30 00:13:16] INFO root fetch - processPackages [astro-datalab]: executing diffoscope
+[2024-05-30 00:13:16] INFO root fetch - processPackages [astro-datalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-datalab-2.22.1.tar.gz tmp/astro_datalab-2.23.0.tar.gz --markdown 20240530/a/astro-datalab/2.22.1-2.23.0/README.md --exclude *.pyd
+[2024-05-30 00:13:16] INFO root fetch - processPackages [neopyter]: Downloading https://files.pythonhosted.org/packages/84/4c/b4579ac336d3e1a21a77683124b14698c8eddd0066efb4f21e4ea6c41da6/neopyter-0.2.2.tar.gz
+[2024-05-30 00:13:16] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/24/26/ad035fd9f7aedb4d5a78e0198ca36d0599d9ed6d9f5cfeeb84e922907596/agentdesk-0.2.9.tar.gz
+[2024-05-30 00:13:16] INFO root fetch - processPackages [agentdesk]: executing diffoscope
+[2024-05-30 00:13:16] INFO root fetch - processPackages [agentdesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentdesk-0.2.82.tar.gz tmp/agentdesk-0.2.9.tar.gz --markdown 20240530/a/agentdesk/0.2.82-0.2.9/README.md --exclude *.pyd
+[2024-05-30 00:13:16] INFO root fetch - processPackages [neopyter]: executing diffoscope
+[2024-05-30 00:13:16] INFO root fetch - processPackages [neopyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neopyter-0.2.1.tar.gz tmp/neopyter-0.2.2.tar.gz --markdown 20240530/n/neopyter/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-30 00:13:16] INFO root fetch - processPackages [langwatch]: Remove: archive file [/home/abi/fetcher/tmp/langwatch-0.0.8.tar.gz]
+[2024-05-30 00:13:16] INFO root fetch - processPackages [langwatch]: Remove: archive file [/home/abi/fetcher/tmp/langwatch-0.0.9.tar.gz]
+[2024-05-30 00:13:16] INFO root fetch - main [MainThread]: End processing [langwatch]: success
+[2024-05-30 00:13:17] INFO root fetch - processPackages [opera-utils]: Remove: archive file [/home/abi/fetcher/tmp/opera-utils-0.3.0.tar.gz]
+[2024-05-30 00:13:17] INFO root fetch - processPackages [opera-utils]: Remove: archive file [/home/abi/fetcher/tmp/opera_utils-0.3.1.tar.gz]
+[2024-05-30 00:13:17] INFO root fetch - main [MainThread]: End processing [opera-utils]: success
+[2024-05-30 00:13:17] INFO root fetch - processPackages [astro-datalab]: Remove: archive file [/home/abi/fetcher/tmp/astro-datalab-2.22.1.tar.gz]
+[2024-05-30 00:13:17] INFO root fetch - processPackages [astro-datalab]: Remove: archive file [/home/abi/fetcher/tmp/astro_datalab-2.23.0.tar.gz]
+[2024-05-30 00:13:17] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.82.tar.gz]
+[2024-05-30 00:13:17] INFO root fetch - main [MainThread]: End processing [astro-datalab]: success
+[2024-05-30 00:13:17] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.9.tar.gz]
+[2024-05-30 00:13:17] INFO root fetch - main [MainThread]: End processing [agentdesk]: success
+[2024-05-30 00:13:19] INFO root fetch - processPackages [neopyter]: Remove: archive file [/home/abi/fetcher/tmp/neopyter-0.2.1.tar.gz]
+[2024-05-30 00:13:19] INFO root fetch - processPackages [neopyter]: Remove: archive file [/home/abi/fetcher/tmp/neopyter-0.2.2.tar.gz]
+[2024-05-30 00:13:19] INFO root fetch - main [MainThread]: End processing [neopyter]: success
+[2024-05-30 00:13:19] INFO root fetch - main [MainThread]: Store serial: [23438051]
