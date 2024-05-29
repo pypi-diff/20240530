@@ -1,0 +1,66 @@
+[2024-05-30 00:02:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23437864]
+[2024-05-30 00:02:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 00:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acryl-datahub-cloud
+[2024-05-30 00:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbagclimenu
+[2024-05-30 00:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strideutils
+[2024-05-30 00:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-reusable
+[2024-05-30 00:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dre4my-detection
+[2024-05-30 00:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psyke
+[2024-05-30 00:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: virtool-core
+[2024-05-30 00:02:18] INFO root fetch - processPackages [airbagclimenu]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-30 00:02:18] INFO root fetch - processPackages [dre4my-detection]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 00:02:18] INFO root fetch - processPackages [airbagclimenu]: Downloading https://files.pythonhosted.org/packages/40/a0/bf73dc7d03b653df852a2add1a597f70f32fd07b3421238ee076f6057181/airbagclimenu-1.0.1.tar.gz
+[2024-05-30 00:02:18] INFO root fetch - processPackages [dre4my-detection]: Downloading https://files.pythonhosted.org/packages/42/09/75148a3dcac874b835c5c0e7b27acc601e2cb5a450fa4a9f765b7c3a8247/dre4my_detection-0.1.0.tar.gz
+[2024-05-30 00:02:18] INFO root fetch - processPackages [django-reusable]: New version: [9.9] Old Version: [9.8]
+[2024-05-30 00:02:18] INFO root fetch - processPackages [virtool-core]: New version: [9.0.0] Old Version: [8.0.2]
+[2024-05-30 00:02:18] INFO root fetch - processPackages [strideutils]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-30 00:02:18] INFO root fetch - processPackages [acryl-datahub-cloud]: New version: [0.3.2rc9] Old Version: [0.3.2rc8]
+[2024-05-30 00:02:18] INFO root fetch - processPackages [psyke]: New version: [0.8.9.dev7] Old Version: [0.8.9.dev6]
+[2024-05-30 00:02:18] INFO root fetch - processPackages [dre4my-detection]: Downloading https://files.pythonhosted.org/packages/a2/13/f66664702583130cdcb906cbe2d41c1badca962b569fd8533efc06396f26/dre4my_detection-0.1.1.tar.gz
+[2024-05-30 00:02:18] INFO root fetch - processPackages [django-reusable]: Downloading https://files.pythonhosted.org/packages/56/76/2298d24f3350c8efc192ca0676bb8f98d637289f4c582497fe04bc9e4630/django-reusable-9.8.tar.gz
+[2024-05-30 00:02:18] INFO root fetch - processPackages [airbagclimenu]: Downloading https://files.pythonhosted.org/packages/11/2f/a8bcd219b178a02f68fcd8406be9a2934bd5f79a449bca30709891841836/airbagclimenu-1.1.0.tar.gz
+[2024-05-30 00:02:18] INFO root fetch - processPackages [acryl-datahub-cloud]: Downloading https://files.pythonhosted.org/packages/8c/34/0ac46c0016b6d395b9e08c97137a35a48a32c50f64d2e1c188582f3aedb8/acryl_datahub_cloud-0.3.2rc8.tar.gz
+[2024-05-30 00:02:18] INFO root fetch - processPackages [virtool-core]: Downloading https://files.pythonhosted.org/packages/c7/c0/7c2c0149c81c463f1d508e3aef90977c422fe5da9c6ee0a932ca4cd534e9/virtool_core-8.0.2.tar.gz
+[2024-05-30 00:02:18] INFO root fetch - processPackages [strideutils]: Downloading https://files.pythonhosted.org/packages/e1/9b/56aec2f6b0d3c1e259f903acc0ff580043e88223ec37558b2e4a2ee21b6e/strideutils-0.3.8.tar.gz
+[2024-05-30 00:02:18] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/57/b3/a380cb0e189a5d2d85cec0f5ae2fe0a3f69cbef6b6829b58f840fb11f220/psyke-0.8.9.dev6.tar.gz
+[2024-05-30 00:02:18] INFO root fetch - processPackages [dre4my-detection]: executing diffoscope
+[2024-05-30 00:02:18] INFO root fetch - processPackages [dre4my-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dre4my_detection-0.1.0.tar.gz tmp/dre4my_detection-0.1.1.tar.gz --markdown 20240530/d/dre4my-detection/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 00:02:18] INFO root fetch - processPackages [airbagclimenu]: executing diffoscope
+[2024-05-30 00:02:18] INFO root fetch - processPackages [airbagclimenu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbagclimenu-1.0.1.tar.gz tmp/airbagclimenu-1.1.0.tar.gz --markdown 20240530/a/airbagclimenu/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-30 00:02:18] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/aa/ef/293adbe852c9360bee73ff892bd6cfbfbaeac4110fb03212b27260d18d86/psyke-0.8.9.dev7.tar.gz
+[2024-05-30 00:02:18] INFO root fetch - processPackages [virtool-core]: Downloading https://files.pythonhosted.org/packages/fe/37/ea53d83e4b38d8b05206a6814977083f141aa5cfb8688fb4232311f9f599/virtool_core-9.0.0.tar.gz
+[2024-05-30 00:02:18] INFO root fetch - processPackages [acryl-datahub-cloud]: Downloading https://files.pythonhosted.org/packages/f8/d8/1e88c6de8e078deee9f13099e2364a2466bc062f1085fa3cf0d831ccffa0/acryl_datahub_cloud-0.3.2rc9.tar.gz
+[2024-05-30 00:02:18] INFO root fetch - processPackages [strideutils]: Downloading https://files.pythonhosted.org/packages/37/92/d67613eba81b67a968cad26eb4681b8c30b3f9f90ee0d106177b8bc07a2c/strideutils-0.3.9.tar.gz
+[2024-05-30 00:02:18] INFO root fetch - processPackages [django-reusable]: Downloading https://files.pythonhosted.org/packages/56/89/0bdf225fa2de427dbbd30299059a9f8b8dc00f4b1f5477e033e2f7a18ff0/django-reusable-9.9.tar.gz
+[2024-05-30 00:02:18] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2024-05-30 00:02:18] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.8.9.dev6.tar.gz tmp/psyke-0.8.9.dev7.tar.gz --markdown 20240530/p/psyke/0.8.9.dev6-0.8.9.dev7/README.md --exclude *.pyd
+[2024-05-30 00:02:18] INFO root fetch - processPackages [virtool-core]: executing diffoscope
+[2024-05-30 00:02:18] INFO root fetch - processPackages [virtool-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtool_core-8.0.2.tar.gz tmp/virtool_core-9.0.0.tar.gz --markdown 20240530/v/virtool-core/8.0.2-9.0.0/README.md --exclude *.pyd
+[2024-05-30 00:02:19] INFO root fetch - processPackages [strideutils]: executing diffoscope
+[2024-05-30 00:02:19] INFO root fetch - processPackages [strideutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strideutils-0.3.8.tar.gz tmp/strideutils-0.3.9.tar.gz --markdown 20240530/s/strideutils/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-30 00:02:19] INFO root fetch - processPackages [acryl-datahub-cloud]: executing diffoscope
+[2024-05-30 00:02:19] INFO root fetch - processPackages [acryl-datahub-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl_datahub_cloud-0.3.2rc8.tar.gz tmp/acryl_datahub_cloud-0.3.2rc9.tar.gz --markdown 20240530/a/acryl-datahub-cloud/0.3.2rc8-0.3.2rc9/README.md --exclude *.pyd
+[2024-05-30 00:02:19] INFO root fetch - processPackages [dre4my-detection]: Remove: archive file [/home/abi/fetcher/tmp/dre4my_detection-0.1.0.tar.gz]
+[2024-05-30 00:02:19] INFO root fetch - processPackages [dre4my-detection]: Remove: archive file [/home/abi/fetcher/tmp/dre4my_detection-0.1.1.tar.gz]
+[2024-05-30 00:02:19] INFO root fetch - main [MainThread]: End processing [dre4my-detection]: success
+[2024-05-30 00:02:19] INFO root fetch - processPackages [django-reusable]: executing diffoscope
+[2024-05-30 00:02:19] INFO root fetch - processPackages [django-reusable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-reusable-9.8.tar.gz tmp/django-reusable-9.9.tar.gz --markdown 20240530/d/django-reusable/9.8-9.9/README.md --exclude *.pyd
+[2024-05-30 00:02:19] INFO root fetch - processPackages [airbagclimenu]: Remove: archive file [/home/abi/fetcher/tmp/airbagclimenu-1.0.1.tar.gz]
+[2024-05-30 00:02:19] INFO root fetch - processPackages [airbagclimenu]: Remove: archive file [/home/abi/fetcher/tmp/airbagclimenu-1.1.0.tar.gz]
+[2024-05-30 00:02:19] INFO root fetch - main [MainThread]: End processing [airbagclimenu]: success
+[2024-05-30 00:02:19] INFO root fetch - processPackages [strideutils]: Remove: archive file [/home/abi/fetcher/tmp/strideutils-0.3.8.tar.gz]
+[2024-05-30 00:02:19] INFO root fetch - processPackages [strideutils]: Remove: archive file [/home/abi/fetcher/tmp/strideutils-0.3.9.tar.gz]
+[2024-05-30 00:02:19] INFO root fetch - main [MainThread]: End processing [strideutils]: success
+[2024-05-30 00:02:19] INFO root fetch - processPackages [virtool-core]: Remove: archive file [/home/abi/fetcher/tmp/virtool_core-8.0.2.tar.gz]
+[2024-05-30 00:02:19] INFO root fetch - processPackages [virtool-core]: Remove: archive file [/home/abi/fetcher/tmp/virtool_core-9.0.0.tar.gz]
+[2024-05-30 00:02:19] INFO root fetch - main [MainThread]: End processing [virtool-core]: success
+[2024-05-30 00:02:19] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.9.dev6.tar.gz]
+[2024-05-30 00:02:19] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.9.dev7.tar.gz]
+[2024-05-30 00:02:19] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2024-05-30 00:02:19] INFO root fetch - processPackages [django-reusable]: Remove: archive file [/home/abi/fetcher/tmp/django-reusable-9.8.tar.gz]
+[2024-05-30 00:02:19] INFO root fetch - processPackages [django-reusable]: Remove: archive file [/home/abi/fetcher/tmp/django-reusable-9.9.tar.gz]
+[2024-05-30 00:02:19] INFO root fetch - main [MainThread]: End processing [django-reusable]: success
+[2024-05-30 00:02:20] INFO root fetch - processPackages [acryl-datahub-cloud]: Remove: archive file [/home/abi/fetcher/tmp/acryl_datahub_cloud-0.3.2rc8.tar.gz]
+[2024-05-30 00:02:20] INFO root fetch - processPackages [acryl-datahub-cloud]: Remove: archive file [/home/abi/fetcher/tmp/acryl_datahub_cloud-0.3.2rc9.tar.gz]
+[2024-05-30 00:02:20] INFO root fetch - main [MainThread]: End processing [acryl-datahub-cloud]: success
+[2024-05-30 00:02:20] INFO root fetch - main [MainThread]: Store serial: [23437889]
