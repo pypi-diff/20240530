@@ -1738,3 +1738,49 @@ EOFError: EOF read where object expected
 [2024-05-30 01:49:20] INFO root fetch - processPackages [chipsec]: Remove: archive file [/home/abi/fetcher/tmp/chipsec-1.5.1.tar.gz]
 [2024-05-30 01:49:20] INFO root fetch - main [MainThread]: End processing [chipsec]: success
 [2024-05-30 01:49:20] INFO root fetch - main [MainThread]: Store serial: [23438569]
+[2024-05-30 01:51:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438569]
+[2024-05-30 01:51:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 01:51:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nextstrain-cli
+[2024-05-30 01:51:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mktdata
+[2024-05-30 01:51:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinxcontrib-typer
+[2024-05-30 01:51:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mktdata
+[2024-05-30 01:51:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evo-framework
+[2024-05-30 01:51:28] INFO root fetch - processPackages [mktdata]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-30 01:51:28] INFO root fetch - processPackages [evo-framework]: New version: [2024.5.31] Old Version: [2024.5.30]
+[2024-05-30 01:51:28] INFO root fetch - processPackages [mktdata]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-30 01:51:28] INFO root fetch - processPackages [nextstrain-cli]: New version: [8.3.0] Old Version: [8.2.0]
+[2024-05-30 01:51:29] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/95/54/b3592461b827112d9b3cae09a81551b0cced370aa1dd4237a08ebd9f7f08/evo_framework-2024.5.30.tar.gz
+[2024-05-30 01:51:29] INFO root fetch - processPackages [mktdata]: Downloading https://files.pythonhosted.org/packages/34/3b/291e5bb606aca8128b75c0d2948cf6b83921caf857f37bc85ea6df948c9c/mktdata-0.0.3.tar.gz
+[2024-05-30 01:51:29] INFO root fetch - processPackages [mktdata]: Downloading https://files.pythonhosted.org/packages/34/3b/291e5bb606aca8128b75c0d2948cf6b83921caf857f37bc85ea6df948c9c/mktdata-0.0.3.tar.gz
+[2024-05-30 01:51:29] INFO root fetch - processPackages [sphinxcontrib-typer]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-30 01:51:29] INFO root fetch - processPackages [nextstrain-cli]: Downloading https://files.pythonhosted.org/packages/72/d3/def297832df3049c0fe3d6851bcd26ea68f482420b9d71e28d2bf83f415e/nextstrain-cli-8.2.0.tar.gz
+[2024-05-30 01:51:29] INFO root fetch - processPackages [sphinxcontrib-typer]: Downloading https://files.pythonhosted.org/packages/a3/3c/7fda361524e47a6c9730eb52b8ef9efa7b681f8a0fd1c1f28d82af254cd8/sphinxcontrib_typer-0.2.3.tar.gz
+[2024-05-30 01:51:29] INFO root fetch - processPackages [mktdata]: Downloading https://files.pythonhosted.org/packages/fc/cf/14bae310f931bd2677088d7934404eb9c69ca8993c710d6547bfc54ac0fb/mktdata-0.0.5.tar.gz
+[2024-05-30 01:51:29] INFO root fetch - processPackages [mktdata]: Downloading https://files.pythonhosted.org/packages/fc/cf/14bae310f931bd2677088d7934404eb9c69ca8993c710d6547bfc54ac0fb/mktdata-0.0.5.tar.gz
+[2024-05-30 01:51:29] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/04/fb/96f5b004a38c710348e86fe1e0aff3c99d05363570cfbdb660e322eb9857/evo_framework-2024.5.31.tar.gz
+[2024-05-30 01:51:29] INFO root fetch - processPackages [nextstrain-cli]: Downloading https://files.pythonhosted.org/packages/f9/c5/64d4c1c4a744527dcb76526ba7f1b04a44e5c61fe229f0a9e3c0d652347f/nextstrain_cli-8.3.0.tar.gz
+[2024-05-30 01:51:29] INFO root fetch - processPackages [mktdata]: executing diffoscope
+[2024-05-30 01:51:29] INFO root fetch - processPackages [mktdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mktdata-0.0.3.tar.gz tmp/mktdata-0.0.5.tar.gz --markdown 20240530/m/mktdata/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-30 01:51:29] INFO root fetch - processPackages [mktdata]: executing diffoscope
+[2024-05-30 01:51:29] INFO root fetch - processPackages [mktdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mktdata-0.0.3.tar.gz tmp/mktdata-0.0.5.tar.gz --markdown 20240530/m/mktdata/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-30 01:51:29] INFO root fetch - processPackages [evo-framework]: executing diffoscope
+[2024-05-30 01:51:29] INFO root fetch - processPackages [evo-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_framework-2024.5.30.tar.gz tmp/evo_framework-2024.5.31.tar.gz --markdown 20240530/e/evo-framework/2024.5.30-2024.5.31/README.md --exclude *.pyd
+[2024-05-30 01:51:29] INFO root fetch - processPackages [sphinxcontrib-typer]: Downloading https://files.pythonhosted.org/packages/12/b5/4a24e38a4ecdc33a04f13844fc10bae3ea91a55caee6003d47cdbd4ff990/sphinxcontrib_typer-0.2.4.tar.gz
+[2024-05-30 01:51:29] INFO root fetch - processPackages [sphinxcontrib-typer]: executing diffoscope
+[2024-05-30 01:51:29] INFO root fetch - processPackages [sphinxcontrib-typer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib_typer-0.2.3.tar.gz tmp/sphinxcontrib_typer-0.2.4.tar.gz --markdown 20240530/s/sphinxcontrib-typer/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-30 01:51:29] INFO root fetch - processPackages [nextstrain-cli]: executing diffoscope
+[2024-05-30 01:51:29] INFO root fetch - processPackages [nextstrain-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextstrain-cli-8.2.0.tar.gz tmp/nextstrain_cli-8.3.0.tar.gz --markdown 20240530/n/nextstrain-cli/8.2.0-8.3.0/README.md --exclude *.pyd
+[2024-05-30 01:51:30] INFO root fetch - processPackages [mktdata]: Remove: archive file [/home/abi/fetcher/tmp/mktdata-0.0.3.tar.gz]
+[2024-05-30 01:51:30] INFO root fetch - processPackages [mktdata]: Remove: archive file [/home/abi/fetcher/tmp/mktdata-0.0.5.tar.gz]
+[2024-05-30 01:51:30] INFO root fetch - main [MainThread]: End processing [mktdata]: success
+[2024-05-30 01:51:30] INFO root fetch - main [MainThread]: End processing [mktdata]: success
+[2024-05-30 01:51:30] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.30.tar.gz]
+[2024-05-30 01:51:30] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.31.tar.gz]
+[2024-05-30 01:51:30] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
+[2024-05-30 01:51:30] INFO root fetch - processPackages [sphinxcontrib-typer]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_typer-0.2.3.tar.gz]
+[2024-05-30 01:51:30] INFO root fetch - processPackages [sphinxcontrib-typer]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_typer-0.2.4.tar.gz]
+[2024-05-30 01:51:30] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-typer]: success
+[2024-05-30 01:51:30] INFO root fetch - processPackages [nextstrain-cli]: Remove: archive file [/home/abi/fetcher/tmp/nextstrain-cli-8.2.0.tar.gz]
+[2024-05-30 01:51:30] INFO root fetch - processPackages [nextstrain-cli]: Remove: archive file [/home/abi/fetcher/tmp/nextstrain_cli-8.3.0.tar.gz]
+[2024-05-30 01:51:30] INFO root fetch - main [MainThread]: End processing [nextstrain-cli]: success
+[2024-05-30 01:51:30] INFO root fetch - main [MainThread]: Store serial: [23438584]
