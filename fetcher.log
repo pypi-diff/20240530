@@ -199,3 +199,48 @@ EOFError: EOF read where object expected
 
 [2024-05-30 00:04:32] INFO root fetch - main [MainThread]: End processing [agilicus] error
 [2024-05-30 00:04:32] INFO root fetch - main [MainThread]: Store serial: [23437927]
+[2024-05-30 00:06:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23437927]
+[2024-05-30 00:06:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 00:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dre4my-detection
+[2024-05-30 00:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pseudovisium
+[2024-05-30 00:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pqm
+[2024-05-30 00:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CherwellAPIClient
+[2024-05-30 00:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: procaaso-state-machine
+[2024-05-30 00:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airbyte-source-tmdb
+[2024-05-30 00:06:42] INFO root fetch - processPackages [dre4my-detection]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-30 00:06:42] INFO root fetch - processPackages [Pseudovisium]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 00:06:42] WARNING root fetch - processPackages [pqm]: Skipping, unable to determine old version
+[2024-05-30 00:06:42] INFO root fetch - main [MainThread]: End processing [pqm] error
+[2024-05-30 00:06:42] WARNING root fetch - processPackages [CherwellAPIClient]: Skipping, unable to determine old version
+[2024-05-30 00:06:42] INFO root fetch - main [MainThread]: End processing [CherwellAPIClient] error
+[2024-05-30 00:06:42] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/ec/02/4f0ff6ebfecb2857195a25c3ca342a7a1af99e21acd71f8a0f89061491f0/Pseudovisium-0.0.8.tar.gz
+[2024-05-30 00:06:42] INFO root fetch - processPackages [airbyte-source-tmdb]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 00:06:42] INFO root fetch - processPackages [dre4my-detection]: Downloading https://files.pythonhosted.org/packages/a2/13/f66664702583130cdcb906cbe2d41c1badca962b569fd8533efc06396f26/dre4my_detection-0.1.1.tar.gz
+[2024-05-30 00:06:42] INFO root fetch - processPackages [procaaso-state-machine]: New version: [0.2.0b1] Old Version: [0.0.2]
+[2024-05-30 00:06:42] INFO root fetch - processPackages [airbyte-source-tmdb]: Downloading https://files.pythonhosted.org/packages/2c/3d/8e386760e17d3ebff2895bc50629a332bd314667c6811027fb05010298fc/airbyte-source-tmdb-0.1.0.tar.gz
+[2024-05-30 00:06:42] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/6a/7f/032756880a4d5dbead5465d90e6d9ef1046690f858021036f62dfcda246a/Pseudovisium-0.0.9.tar.gz
+[2024-05-30 00:06:42] INFO root fetch - processPackages [procaaso-state-machine]: Downloading https://files.pythonhosted.org/packages/05/63/7c69465fe311cda9506e274adbdf8a67d5b91a6d7168a9aa89798441b19e/procaaso_state_machine-0.0.2.tar.gz
+[2024-05-30 00:06:42] INFO root fetch - processPackages [dre4my-detection]: Downloading https://files.pythonhosted.org/packages/b8/b3/b44f130678ec428a14e3c275e9c0e5cb931f110aca8a1b725c310eadbff7/dre4my_detection-0.1.2.tar.gz
+[2024-05-30 00:06:43] INFO root fetch - processPackages [Pseudovisium]: executing diffoscope
+[2024-05-30 00:06:43] INFO root fetch - processPackages [Pseudovisium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pseudovisium-0.0.8.tar.gz tmp/Pseudovisium-0.0.9.tar.gz --markdown 20240530/P/Pseudovisium/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 00:06:43] INFO root fetch - processPackages [dre4my-detection]: executing diffoscope
+[2024-05-30 00:06:43] INFO root fetch - processPackages [dre4my-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dre4my_detection-0.1.1.tar.gz tmp/dre4my_detection-0.1.2.tar.gz --markdown 20240530/d/dre4my-detection/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-30 00:06:43] INFO root fetch - processPackages [airbyte-source-tmdb]: Downloading https://files.pythonhosted.org/packages/85/95/16be6ad98bdff75d7169429e40ecdfa561d2607faaaff4d8a5787e5276a9/airbyte_source_tmdb-0.1.1.tar.gz
+[2024-05-30 00:06:43] INFO root fetch - processPackages [procaaso-state-machine]: Downloading https://files.pythonhosted.org/packages/ef/db/9a8bdae2ccf677419079c480f4acdcc8e000687a9608a87584d1af1d60b4/procaaso_state_machine-0.2.0b1.tar.gz
+[2024-05-30 00:06:43] INFO root fetch - processPackages [airbyte-source-tmdb]: executing diffoscope
+[2024-05-30 00:06:43] INFO root fetch - processPackages [airbyte-source-tmdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-tmdb-0.1.0.tar.gz tmp/airbyte_source_tmdb-0.1.1.tar.gz --markdown 20240530/a/airbyte-source-tmdb/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 00:06:43] INFO root fetch - processPackages [procaaso-state-machine]: executing diffoscope
+[2024-05-30 00:06:43] INFO root fetch - processPackages [procaaso-state-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procaaso_state_machine-0.0.2.tar.gz tmp/procaaso_state_machine-0.2.0b1.tar.gz --markdown 20240530/p/procaaso-state-machine/0.0.2-0.2.0b1/README.md --exclude *.pyd
+[2024-05-30 00:06:43] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.8.tar.gz]
+[2024-05-30 00:06:43] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.9.tar.gz]
+[2024-05-30 00:06:43] INFO root fetch - main [MainThread]: End processing [Pseudovisium]: success
+[2024-05-30 00:06:43] INFO root fetch - processPackages [dre4my-detection]: Remove: archive file [/home/abi/fetcher/tmp/dre4my_detection-0.1.1.tar.gz]
+[2024-05-30 00:06:43] INFO root fetch - processPackages [dre4my-detection]: Remove: archive file [/home/abi/fetcher/tmp/dre4my_detection-0.1.2.tar.gz]
+[2024-05-30 00:06:43] INFO root fetch - main [MainThread]: End processing [dre4my-detection]: success
+[2024-05-30 00:06:44] INFO root fetch - processPackages [airbyte-source-tmdb]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-tmdb-0.1.0.tar.gz]
+[2024-05-30 00:06:44] INFO root fetch - processPackages [airbyte-source-tmdb]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_tmdb-0.1.1.tar.gz]
+[2024-05-30 00:06:44] INFO root fetch - main [MainThread]: End processing [airbyte-source-tmdb]: success
+[2024-05-30 00:06:44] INFO root fetch - processPackages [procaaso-state-machine]: Remove: archive file [/home/abi/fetcher/tmp/procaaso_state_machine-0.0.2.tar.gz]
+[2024-05-30 00:06:44] INFO root fetch - processPackages [procaaso-state-machine]: Remove: archive file [/home/abi/fetcher/tmp/procaaso_state_machine-0.2.0b1.tar.gz]
+[2024-05-30 00:06:44] INFO root fetch - main [MainThread]: End processing [procaaso-state-machine]: success
+[2024-05-30 00:06:44] INFO root fetch - main [MainThread]: Store serial: [23437954]
