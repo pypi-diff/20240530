@@ -1127,3 +1127,29 @@ EOFError: EOF read where object expected
 [2024-05-30 01:05:55] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240529-py3-none-any.whl.zip]
 [2024-05-30 01:05:55] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-05-30 01:05:55] INFO root fetch - main [MainThread]: Store serial: [23438352]
+[2024-05-30 01:07:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438352]
+[2024-05-30 01:08:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 01:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xplainable-client
+[2024-05-30 01:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-cfdi
+[2024-05-30 01:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchdrivesim
+[2024-05-30 01:08:03] INFO root fetch - processPackages [xplainable-client]: New version: [1.2.5.post5] Old Version: [1.2.5.post4]
+[2024-05-30 01:08:03] INFO root fetch - processPackages [xplainable-client]: Downloading https://files.pythonhosted.org/packages/2e/e1/7ee8fb696408bc44054f5b5f29de45342f688bf28285790fdc3c35658d1a/xplainable_client-1.2.5.post4.tar.gz
+[2024-05-30 01:08:03] INFO root fetch - processPackages [torchdrivesim]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-30 01:08:03] INFO root fetch - processPackages [torchdrivesim]: Downloading https://files.pythonhosted.org/packages/ae/68/8b15340f46a2b23ae95605f11b7fd8a86136fce86de55159db7fcee3c18e/torchdrivesim-0.2.1.tar.gz
+[2024-05-30 01:08:04] INFO root fetch - processPackages [xplainable-client]: Downloading https://files.pythonhosted.org/packages/a8/e3/ce72498d106def0eb8be055f7a4e57c5f0f933c86faec19cbf9a16d88e71/xplainable_client-1.2.5.post5.tar.gz
+[2024-05-30 01:08:04] INFO root fetch - processPackages [django-cfdi]: New version: [2.99] Old Version: [2.98]
+[2024-05-30 01:08:04] WARNING root fetch - processPackages [torchdrivesim]: Skipping package: exceeds size limit 51183489>=10485760
+[2024-05-30 01:08:04] INFO root fetch - main [MainThread]: End processing [torchdrivesim] error
+[2024-05-30 01:08:04] INFO root fetch - processPackages [xplainable-client]: executing diffoscope
+[2024-05-30 01:08:04] INFO root fetch - processPackages [xplainable-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplainable_client-1.2.5.post4.tar.gz tmp/xplainable_client-1.2.5.post5.tar.gz --markdown 20240530/x/xplainable-client/1.2.5.post4-1.2.5.post5/README.md --exclude *.pyd
+[2024-05-30 01:08:04] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/d8/7d/d99ae3e7add96c4909780286d44633880055d97463ac4470484411b34ba8/django_cfdi-2.98-py3-none-any.whl
+[2024-05-30 01:08:04] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/68/29/ce9ebc4855819720b4e8fb4fee0d3d7ed2dd66bd0e56db087e971e65b112/django_cfdi-2.99-py3-none-any.whl
+[2024-05-30 01:08:04] INFO root fetch - processPackages [django-cfdi]: executing diffoscope
+[2024-05-30 01:08:04] INFO root fetch - processPackages [django-cfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cfdi-2.98-py3-none-any.whl.zip tmp/django_cfdi-2.99-py3-none-any.whl.zip --markdown 20240530/d/django-cfdi/2.98-2.99/README.md --exclude *.pyd
+[2024-05-30 01:08:04] INFO root fetch - processPackages [xplainable-client]: Remove: archive file [/home/abi/fetcher/tmp/xplainable_client-1.2.5.post4.tar.gz]
+[2024-05-30 01:08:04] INFO root fetch - processPackages [xplainable-client]: Remove: archive file [/home/abi/fetcher/tmp/xplainable_client-1.2.5.post5.tar.gz]
+[2024-05-30 01:08:04] INFO root fetch - main [MainThread]: End processing [xplainable-client]: success
+[2024-05-30 01:08:07] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.98-py3-none-any.whl.zip]
+[2024-05-30 01:08:07] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.99-py3-none-any.whl.zip]
+[2024-05-30 01:08:07] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
+[2024-05-30 01:08:07] INFO root fetch - main [MainThread]: Store serial: [23438361]
