@@ -379,3 +379,36 @@ EOFError: EOF read where object expected
 [2024-05-30 00:15:33] INFO root fetch - processPackages [tensorstore]: Remove: archive file [/home/abi/fetcher/tmp/tensorstore-0.1.9.tar.gz]
 [2024-05-30 00:15:33] INFO root fetch - main [MainThread]: End processing [tensorstore]: success
 [2024-05-30 00:15:33] INFO root fetch - main [MainThread]: Store serial: [23438081]
+[2024-05-30 00:17:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438081]
+[2024-05-30 00:17:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 00:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-validity
+[2024-05-30 00:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timelined_array
+[2024-05-30 00:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jellyfin-api-client
+[2024-05-30 00:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: obsaq
+[2024-05-30 00:17:42] INFO root fetch - processPackages [netbox-validity]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-05-30 00:17:42] INFO root fetch - processPackages [jellyfin-api-client]: New version: [10.9.3] Old Version: [10.8.10.post2]
+[2024-05-30 00:17:42] WARNING root fetch - processPackages [obsaq]: Skipping, unable to determine old version
+[2024-05-30 00:17:42] INFO root fetch - processPackages [timelined_array]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-30 00:17:42] INFO root fetch - main [MainThread]: End processing [obsaq] error
+[2024-05-30 00:17:42] INFO root fetch - processPackages [netbox-validity]: Downloading https://files.pythonhosted.org/packages/eb/17/67149b088f1fffb6950baed8e96f05017a8d3c96cecab60cfaac4b49a5c5/netbox_validity-2.2.1.tar.gz
+[2024-05-30 00:17:42] INFO root fetch - processPackages [timelined_array]: Downloading https://files.pythonhosted.org/packages/9f/75/eb0fba6b27acd53cc4722ea3e5afb90ca178b3315f6302e6f6d5cb8a84f2/timelined_array-0.0.7.tar.gz
+[2024-05-30 00:17:42] INFO root fetch - processPackages [jellyfin-api-client]: Downloading https://files.pythonhosted.org/packages/32/6f/1a9fee5d1af30c61408c3cb1954e527730520f7ac509da93a858e55c8b9d/jellyfin_api_client-10.8.10.post2.tar.gz
+[2024-05-30 00:17:42] INFO root fetch - processPackages [netbox-validity]: Downloading https://files.pythonhosted.org/packages/88/c4/312900eaded3eb2583b43bfa8f2901d6e5fe5effef38f35f725d3715e480/netbox_validity-2.3.0.tar.gz
+[2024-05-30 00:17:42] INFO root fetch - processPackages [timelined_array]: Downloading https://files.pythonhosted.org/packages/01/15/98780f93f008eed9f29c1f16e8c8cff74f6dc678ea575189e29712ccee03/timelined_array-0.0.8.tar.gz
+[2024-05-30 00:17:42] INFO root fetch - processPackages [jellyfin-api-client]: Downloading https://files.pythonhosted.org/packages/00/f2/debfed3d7f088ba2751beebcf77ee157de0051187ff0d46c46bc39fe9df5/jellyfin_api_client-10.9.3.tar.gz
+[2024-05-30 00:17:42] INFO root fetch - processPackages [netbox-validity]: executing diffoscope
+[2024-05-30 00:17:42] INFO root fetch - processPackages [netbox-validity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_validity-2.2.1.tar.gz tmp/netbox_validity-2.3.0.tar.gz --markdown 20240530/n/netbox-validity/2.2.1-2.3.0/README.md --exclude *.pyd
+[2024-05-30 00:17:43] INFO root fetch - processPackages [timelined_array]: executing diffoscope
+[2024-05-30 00:17:43] INFO root fetch - processPackages [timelined_array]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timelined_array-0.0.7.tar.gz tmp/timelined_array-0.0.8.tar.gz --markdown 20240530/t/timelined_array/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-30 00:17:43] INFO root fetch - processPackages [jellyfin-api-client]: executing diffoscope
+[2024-05-30 00:17:43] INFO root fetch - processPackages [jellyfin-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jellyfin_api_client-10.8.10.post2.tar.gz tmp/jellyfin_api_client-10.9.3.tar.gz --markdown 20240530/j/jellyfin-api-client/10.8.10.post2-10.9.3/README.md --exclude *.pyd
+[2024-05-30 00:17:43] INFO root fetch - processPackages [timelined_array]: Remove: archive file [/home/abi/fetcher/tmp/timelined_array-0.0.7.tar.gz]
+[2024-05-30 00:17:43] INFO root fetch - processPackages [timelined_array]: Remove: archive file [/home/abi/fetcher/tmp/timelined_array-0.0.8.tar.gz]
+[2024-05-30 00:17:43] INFO root fetch - main [MainThread]: End processing [timelined_array]: success
+[2024-05-30 00:17:44] INFO root fetch - processPackages [netbox-validity]: Remove: archive file [/home/abi/fetcher/tmp/netbox_validity-2.2.1.tar.gz]
+[2024-05-30 00:17:44] INFO root fetch - processPackages [netbox-validity]: Remove: archive file [/home/abi/fetcher/tmp/netbox_validity-2.3.0.tar.gz]
+[2024-05-30 00:17:44] INFO root fetch - main [MainThread]: End processing [netbox-validity]: success
+[2024-05-30 00:17:48] INFO root fetch - processPackages [jellyfin-api-client]: Remove: archive file [/home/abi/fetcher/tmp/jellyfin_api_client-10.8.10.post2.tar.gz]
+[2024-05-30 00:17:48] INFO root fetch - processPackages [jellyfin-api-client]: Remove: archive file [/home/abi/fetcher/tmp/jellyfin_api_client-10.9.3.tar.gz]
+[2024-05-30 00:17:48] INFO root fetch - main [MainThread]: End processing [jellyfin-api-client]: success
+[2024-05-30 00:17:48] INFO root fetch - main [MainThread]: Store serial: [23438091]
