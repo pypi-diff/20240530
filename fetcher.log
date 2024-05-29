@@ -1278,3 +1278,33 @@ EOFError: EOF read where object expected
 [2024-05-30 01:16:48] INFO root fetch - main [MainThread]: End processing [jpfiddle-extension]: success
 [2024-05-30 01:16:48] INFO root fetch - main [MainThread]: End processing [jpfiddle-extension]: success
 [2024-05-30 01:16:48] INFO root fetch - main [MainThread]: Store serial: [23438408]
+[2024-05-30 01:18:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438408]
+[2024-05-30 01:18:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 01:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dante-corpora
+[2024-05-30 01:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mktdata
+[2024-05-30 01:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devsecops-engine-tools
+[2024-05-30 01:18:57] INFO root fetch - processPackages [dante-corpora]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-30 01:18:57] INFO root fetch - processPackages [mktdata]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-30 01:18:57] INFO root fetch - processPackages [devsecops-engine-tools]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-30 01:18:57] INFO root fetch - processPackages [dante-corpora]: Downloading https://files.pythonhosted.org/packages/01/e4/c1ee636e62c714b7f48a5ce1b58ab19e461d58c6c41613d1a229dc94f6c5/dante_corpora-1.0.0.tar.gz
+[2024-05-30 01:18:57] INFO root fetch - processPackages [devsecops-engine-tools]: Downloading https://files.pythonhosted.org/packages/40/47/0a8eb946801a13a37207ff69655d341f8072b6b18180764c4b0f0da04572/devsecops_engine_tools-1.7.8.tar.gz
+[2024-05-30 01:18:57] INFO root fetch - processPackages [mktdata]: Downloading https://files.pythonhosted.org/packages/1f/86/c9053126de7c04226ca3c85e4a5453fc6e765981be4a0b8b3786c7d6e300/mktdata-0.0.2.tar.gz
+[2024-05-30 01:18:57] INFO root fetch - processPackages [dante-corpora]: Downloading https://files.pythonhosted.org/packages/19/2d/35a258faef25de98c0e1ad81b8f2c9e9bef64c503a6c384647a3714ca230/dante_corpora-1.0.1.tar.gz
+[2024-05-30 01:18:57] INFO root fetch - processPackages [mktdata]: Downloading https://files.pythonhosted.org/packages/34/3b/291e5bb606aca8128b75c0d2948cf6b83921caf857f37bc85ea6df948c9c/mktdata-0.0.3.tar.gz
+[2024-05-30 01:18:58] INFO root fetch - processPackages [dante-corpora]: executing diffoscope
+[2024-05-30 01:18:58] INFO root fetch - processPackages [dante-corpora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dante_corpora-1.0.0.tar.gz tmp/dante_corpora-1.0.1.tar.gz --markdown 20240530/d/dante-corpora/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-30 01:18:58] INFO root fetch - processPackages [devsecops-engine-tools]: Downloading https://files.pythonhosted.org/packages/be/1d/5f4f024228a7ceeb3bedcc406b6abf0e317521845fad816d4d1f5fa7729d/devsecops_engine_tools-1.7.9.tar.gz
+[2024-05-30 01:18:58] INFO root fetch - processPackages [devsecops-engine-tools]: executing diffoscope
+[2024-05-30 01:18:58] INFO root fetch - processPackages [devsecops-engine-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devsecops_engine_tools-1.7.8.tar.gz tmp/devsecops_engine_tools-1.7.9.tar.gz --markdown 20240530/d/devsecops-engine-tools/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-30 01:18:58] INFO root fetch - processPackages [mktdata]: executing diffoscope
+[2024-05-30 01:18:58] INFO root fetch - processPackages [mktdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mktdata-0.0.2.tar.gz tmp/mktdata-0.0.3.tar.gz --markdown 20240530/m/mktdata/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-30 01:18:58] INFO root fetch - processPackages [dante-corpora]: Remove: archive file [/home/abi/fetcher/tmp/dante_corpora-1.0.0.tar.gz]
+[2024-05-30 01:18:58] INFO root fetch - processPackages [dante-corpora]: Remove: archive file [/home/abi/fetcher/tmp/dante_corpora-1.0.1.tar.gz]
+[2024-05-30 01:18:58] INFO root fetch - main [MainThread]: End processing [dante-corpora]: success
+[2024-05-30 01:18:58] INFO root fetch - processPackages [mktdata]: Remove: archive file [/home/abi/fetcher/tmp/mktdata-0.0.2.tar.gz]
+[2024-05-30 01:18:58] INFO root fetch - processPackages [mktdata]: Remove: archive file [/home/abi/fetcher/tmp/mktdata-0.0.3.tar.gz]
+[2024-05-30 01:18:58] INFO root fetch - main [MainThread]: End processing [mktdata]: success
+[2024-05-30 01:18:59] INFO root fetch - processPackages [devsecops-engine-tools]: Remove: archive file [/home/abi/fetcher/tmp/devsecops_engine_tools-1.7.8.tar.gz]
+[2024-05-30 01:18:59] INFO root fetch - processPackages [devsecops-engine-tools]: Remove: archive file [/home/abi/fetcher/tmp/devsecops_engine_tools-1.7.9.tar.gz]
+[2024-05-30 01:18:59] INFO root fetch - main [MainThread]: End processing [devsecops-engine-tools]: success
+[2024-05-30 01:18:59] INFO root fetch - main [MainThread]: Store serial: [23438417]
