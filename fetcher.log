@@ -1823,3 +1823,90 @@ EOFError: EOF read where object expected
 [2024-05-30 01:56:25] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.7.0-py3-none-any.whl.zip]
 [2024-05-30 01:56:25] INFO root fetch - main [MainThread]: End processing [mesop]: success
 [2024-05-30 01:56:25] INFO root fetch - main [MainThread]: Store serial: [23438595]
+[2024-05-30 01:58:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438595]
+[2024-05-30 01:58:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-30 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maestro-compose
+[2024-05-30 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ragdaemon
+[2024-05-30 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: palimpzest
+[2024-05-30 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latch
+[2024-05-30 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maestro-compose
+[2024-05-30 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-api
+[2024-05-30 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evo-framework
+[2024-05-30 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-randomprime
+[2024-05-30 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: redivis
+[2024-05-30 01:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ncompare
+[2024-05-30 01:58:44] INFO root fetch - processPackages [evo-framework]: New version: [2024.5.33] Old Version: [2024.5.32]
+[2024-05-30 01:58:44] INFO root fetch - processPackages [palimpzest]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-30 01:58:44] INFO root fetch - processPackages [redivis]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-30 01:58:44] INFO root fetch - processPackages [py-randomprime]: New version: [16.3] Old Version: [1.9.6]
+[2024-05-30 01:58:44] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-30 01:58:44] INFO root fetch - processPackages [maestro-compose]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-30 01:58:44] INFO root fetch - processPackages [maestro-compose]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-30 01:58:44] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/f9/7e/ebaf95b6f61298b417f022f59bb82dc9f661b6fd0cd5f136eccaf2d89f7b/evo_framework-2024.5.32.tar.gz
+[2024-05-30 01:58:44] INFO root fetch - processPackages [composabl-api]: New version: [0.8.0] Old Version: [0.0.0]
+[2024-05-30 01:58:44] INFO root fetch - processPackages [ragdaemon]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-30 01:58:44] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/f0/b5/bd0388e9f3bdc75b51adedf7b235927ab1b81462c1683713c21e23880b2a/palimpzest-0.1.2.tar.gz
+[2024-05-30 01:58:44] INFO root fetch - processPackages [ncompare]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-30 01:58:44] INFO root fetch - processPackages [redivis]: Downloading https://files.pythonhosted.org/packages/3d/83/fbeb47bc43c8d9c7b8608fd4c9ffb0993a894a6141f62a5031201ed2920b/redivis-0.9.0.tar.gz
+[2024-05-30 01:58:44] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2024-05-30 01:58:44] INFO root fetch - processPackages [py-randomprime]: Downloading https://files.pythonhosted.org/packages/c5/cb/9cc1448eb361b462e124fc84bb2c65b7f7564775472990df44de475a065c/py-randomprime-16.3.tar.gz
+[2024-05-30 01:58:44] INFO root fetch - processPackages [maestro-compose]: Downloading https://files.pythonhosted.org/packages/5f/75/f66c41384950fbaa599b2407ddbc86f562820fd884af8ffcf11a405bfd3e/maestro_compose-0.1.6.tar.gz
+[2024-05-30 01:58:44] WARNING root fetch - processPackages [py-randomprime]: Skipping package: exceeds size limit 32716661>=10485760
+[2024-05-30 01:58:44] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/af/92/9e475f724bcb95012e65888eee516231ac968671e51a9b5cd64379bd8a60/ragdaemon-0.7.3.tar.gz
+[2024-05-30 01:58:44] INFO root fetch - main [MainThread]: End processing [py-randomprime] error
+[2024-05-30 01:58:44] INFO root fetch - processPackages [maestro-compose]: Downloading https://files.pythonhosted.org/packages/5f/75/f66c41384950fbaa599b2407ddbc86f562820fd884af8ffcf11a405bfd3e/maestro_compose-0.1.6.tar.gz
+[2024-05-30 01:58:44] INFO root fetch - processPackages [composabl-api]: Downloading https://files.pythonhosted.org/packages/24/3c/7365a29e2fcfd63d431421b77003bb58b7cf8010790449d5bf8cba830897/composabl_api-0.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 01:58:44] INFO root fetch - processPackages [ncompare]: Downloading https://files.pythonhosted.org/packages/0c/fe/824f961d1c859ff97cb84febac3e4b4bdb616e95869aa45597ea66243d49/ncompare-1.8.0.tar.gz
+[2024-05-30 01:58:44] INFO root fetch - processPackages [redivis]: Downloading https://files.pythonhosted.org/packages/fc/b7/8e87aa3597067847f359d7f578b25dc23c16d87725161e60bf98df2b4289/redivis-0.9.1.tar.gz
+[2024-05-30 01:58:45] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/1f/c8/bb6f119822f20bcf142ed7e105ee14930a3b40a2209e14bd83b64fe4dcf3/evo_framework-2024.5.33.tar.gz
+[2024-05-30 01:58:45] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/60/ca/b1bb66023edc8d814598cafeae166d69e16ddd2239e94c2bded6b01dad71/palimpzest-0.1.3.tar.gz
+[2024-05-30 01:58:45] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2024-05-30 01:58:45] INFO root fetch - processPackages [redivis]: executing diffoscope
+[2024-05-30 01:58:45] INFO root fetch - processPackages [redivis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redivis-0.9.0.tar.gz tmp/redivis-0.9.1.tar.gz --markdown 20240530/r/redivis/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-30 01:58:45] INFO root fetch - processPackages [evo-framework]: executing diffoscope
+[2024-05-30 01:58:45] INFO root fetch - processPackages [evo-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_framework-2024.5.32.tar.gz tmp/evo_framework-2024.5.33.tar.gz --markdown 20240530/e/evo-framework/2024.5.32-2024.5.33/README.md --exclude *.pyd
+[2024-05-30 01:58:45] INFO root fetch - processPackages [latch]: executing diffoscope
+[2024-05-30 01:58:45] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20240530/l/latch/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-30 01:58:45] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/67/c5/4d27b36c162567c49b474569fe1f212f58905959f7ae2c5b292a29e3c7cc/ragdaemon-0.7.4.tar.gz
+[2024-05-30 01:58:45] INFO root fetch - processPackages [maestro-compose]: Downloading https://files.pythonhosted.org/packages/33/d4/8883a12c184e0a143bebcc0f96b249c949694f73d9049505c46a6f4a9533/maestro_compose-0.1.7.tar.gz
+[2024-05-30 01:58:45] INFO root fetch - processPackages [maestro-compose]: Downloading https://files.pythonhosted.org/packages/33/d4/8883a12c184e0a143bebcc0f96b249c949694f73d9049505c46a6f4a9533/maestro_compose-0.1.7.tar.gz
+[2024-05-30 01:58:45] INFO root fetch - processPackages [palimpzest]: executing diffoscope
+[2024-05-30 01:58:45] INFO root fetch - processPackages [palimpzest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palimpzest-0.1.2.tar.gz tmp/palimpzest-0.1.3.tar.gz --markdown 20240530/p/palimpzest/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-30 01:58:45] INFO root fetch - processPackages [maestro-compose]: executing diffoscope
+[2024-05-30 01:58:45] INFO root fetch - processPackages [maestro-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestro_compose-0.1.6.tar.gz tmp/maestro_compose-0.1.7.tar.gz --markdown 20240530/m/maestro-compose/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-30 01:58:45] INFO root fetch - processPackages [maestro-compose]: executing diffoscope
+[2024-05-30 01:58:45] INFO root fetch - processPackages [maestro-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestro_compose-0.1.6.tar.gz tmp/maestro_compose-0.1.7.tar.gz --markdown 20240530/m/maestro-compose/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-30 01:58:45] INFO root fetch - processPackages [ncompare]: Downloading https://files.pythonhosted.org/packages/ed/4b/2b8f8b5a9f69ee796a2a8d002dfc616a9260316324983dd6b2d7dfba88d0/ncompare-1.9.0.tar.gz
+[2024-05-30 01:58:45] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-05-30 01:58:45] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.7.3.tar.gz tmp/ragdaemon-0.7.4.tar.gz --markdown 20240530/r/ragdaemon/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-30 01:58:45] INFO root fetch - processPackages [composabl-api]: Downloading https://files.pythonhosted.org/packages/24/d2/1ae8439bac77b4ef26d1008fcb9e0cb103c7800493aa4c0c28979c7ac229/composabl_api-0.8.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 01:58:45] INFO root fetch - processPackages [ncompare]: executing diffoscope
+[2024-05-30 01:58:45] INFO root fetch - processPackages [ncompare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncompare-1.8.0.tar.gz tmp/ncompare-1.9.0.tar.gz --markdown 20240530/n/ncompare/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-30 01:58:45] INFO root fetch - processPackages [redivis]: Remove: archive file [/home/abi/fetcher/tmp/redivis-0.9.0.tar.gz]
+[2024-05-30 01:58:45] INFO root fetch - processPackages [redivis]: Remove: archive file [/home/abi/fetcher/tmp/redivis-0.9.1.tar.gz]
+[2024-05-30 01:58:45] INFO root fetch - main [MainThread]: End processing [redivis]: success
+[2024-05-30 01:58:45] INFO root fetch - processPackages [composabl-api]: executing diffoscope
+[2024-05-30 01:58:45] INFO root fetch - processPackages [composabl-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_api-0.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_api-0.8.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240530/c/composabl-api/0.0.0-0.8.0/README.md --exclude *.pyd
+[2024-05-30 01:58:46] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.32.tar.gz]
+[2024-05-30 01:58:46] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.33.tar.gz]
+[2024-05-30 01:58:46] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
+[2024-05-30 01:58:46] INFO root fetch - processPackages [maestro-compose]: Remove: archive file [/home/abi/fetcher/tmp/maestro_compose-0.1.6.tar.gz]
+[2024-05-30 01:58:46] INFO root fetch - processPackages [maestro-compose]: Remove: archive file [/home/abi/fetcher/tmp/maestro_compose-0.1.7.tar.gz]
+[2024-05-30 01:58:46] INFO root fetch - main [MainThread]: End processing [maestro-compose]: success
+[2024-05-30 01:58:46] INFO root fetch - main [MainThread]: End processing [maestro-compose]: success
+[2024-05-30 01:58:46] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.2.tar.gz]
+[2024-05-30 01:58:46] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.3.tar.gz]
+[2024-05-30 01:58:46] INFO root fetch - main [MainThread]: End processing [palimpzest]: success
+[2024-05-30 01:58:46] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2024-05-30 01:58:46] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2024-05-30 01:58:46] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2024-05-30 01:58:46] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.7.3.tar.gz]
+[2024-05-30 01:58:46] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.7.4.tar.gz]
+[2024-05-30 01:58:46] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-05-30 01:58:46] INFO root fetch - processPackages [ncompare]: Remove: archive file [/home/abi/fetcher/tmp/ncompare-1.8.0.tar.gz]
+[2024-05-30 01:58:46] INFO root fetch - processPackages [ncompare]: Remove: archive file [/home/abi/fetcher/tmp/ncompare-1.9.0.tar.gz]
+[2024-05-30 01:58:46] INFO root fetch - main [MainThread]: End processing [ncompare]: success
+[2024-05-30 01:58:46] INFO root fetch - processPackages [composabl-api]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api-0.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-30 01:58:46] INFO root fetch - processPackages [composabl-api]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api-0.8.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-30 01:58:46] INFO root fetch - main [MainThread]: End processing [composabl-api]: success
+[2024-05-30 01:58:46] INFO root fetch - main [MainThread]: Store serial: [23438629]
