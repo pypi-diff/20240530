@@ -873,3 +873,27 @@ EOFError: EOF read where object expected
 [2024-05-30 00:46:22] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.9.9.tar.gz]
 [2024-05-30 00:46:22] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
 [2024-05-30 00:46:22] INFO root fetch - main [MainThread]: Store serial: [23438261]
+[2024-05-30 00:48:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438261]
+[2024-05-30 00:48:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 00:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: captif-db-config
+[2024-05-30 00:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nautobot-device-onboarding
+[2024-05-30 00:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pathlabelrecon
+[2024-05-30 00:48:30] INFO root fetch - processPackages [captif-db-config]: New version: [0.9] Old Version: [0.8]
+[2024-05-30 00:48:31] INFO root fetch - processPackages [captif-db-config]: Downloading https://files.pythonhosted.org/packages/c8/5b/5c4ae473fad07231a67bd47ae7f25f9b2b30765398721e3e7739bca919a4/captif-db-config-0.8.tar.gz
+[2024-05-30 00:48:31] INFO root fetch - processPackages [nautobot-device-onboarding]: New version: [4.0.0b1] Old Version: [3.0.1]
+[2024-05-30 00:48:31] WARNING root fetch - processPackages [pathlabelrecon]: Skipping, unable to determine old version
+[2024-05-30 00:48:31] INFO root fetch - main [MainThread]: End processing [pathlabelrecon] error
+[2024-05-30 00:48:31] INFO root fetch - processPackages [captif-db-config]: Downloading https://files.pythonhosted.org/packages/1a/89/bb517d0bc0ac898d127191d158eb4f8911536c0726b5b42406673432c8b5/captif-db-config-0.9.tar.gz
+[2024-05-30 00:48:31] INFO root fetch - processPackages [nautobot-device-onboarding]: Downloading https://files.pythonhosted.org/packages/a7/e0/61960eb743f77f503600ca397c361dc1f4d5431572f255d12ca17206ec95/nautobot_device_onboarding-3.0.1.tar.gz
+[2024-05-30 00:48:31] INFO root fetch - processPackages [captif-db-config]: executing diffoscope
+[2024-05-30 00:48:31] INFO root fetch - processPackages [captif-db-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif-db-config-0.8.tar.gz tmp/captif-db-config-0.9.tar.gz --markdown 20240530/c/captif-db-config/0.8-0.9/README.md --exclude *.pyd
+[2024-05-30 00:48:31] INFO root fetch - processPackages [nautobot-device-onboarding]: Downloading https://files.pythonhosted.org/packages/b0/db/3caaca58a155e2bdb0cccb5f73e879f5145bf7d50c2d1ea39627f03efa63/nautobot_device_onboarding-4.0.0b1.tar.gz
+[2024-05-30 00:48:31] INFO root fetch - processPackages [nautobot-device-onboarding]: executing diffoscope
+[2024-05-30 00:48:31] INFO root fetch - processPackages [nautobot-device-onboarding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautobot_device_onboarding-3.0.1.tar.gz tmp/nautobot_device_onboarding-4.0.0b1.tar.gz --markdown 20240530/n/nautobot-device-onboarding/3.0.1-4.0.0b1/README.md --exclude *.pyd
+[2024-05-30 00:48:31] INFO root fetch - processPackages [captif-db-config]: Remove: archive file [/home/abi/fetcher/tmp/captif-db-config-0.8.tar.gz]
+[2024-05-30 00:48:31] INFO root fetch - processPackages [captif-db-config]: Remove: archive file [/home/abi/fetcher/tmp/captif-db-config-0.9.tar.gz]
+[2024-05-30 00:48:31] INFO root fetch - main [MainThread]: End processing [captif-db-config]: success
+[2024-05-30 00:48:32] INFO root fetch - processPackages [nautobot-device-onboarding]: Remove: archive file [/home/abi/fetcher/tmp/nautobot_device_onboarding-3.0.1.tar.gz]
+[2024-05-30 00:48:32] INFO root fetch - processPackages [nautobot-device-onboarding]: Remove: archive file [/home/abi/fetcher/tmp/nautobot_device_onboarding-4.0.0b1.tar.gz]
+[2024-05-30 00:48:32] INFO root fetch - main [MainThread]: End processing [nautobot-device-onboarding]: success
+[2024-05-30 00:48:32] INFO root fetch - main [MainThread]: Store serial: [23438267]
