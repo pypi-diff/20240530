@@ -274,3 +274,27 @@ EOFError: EOF read where object expected
 [2024-05-30 00:08:57] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
 [2024-05-30 00:08:57] INFO root fetch - main [MainThread]: End processing [anyscale]: success
 [2024-05-30 00:08:57] INFO root fetch - main [MainThread]: Store serial: [23438008]
+[2024-05-30 00:11:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438008]
+[2024-05-30 00:11:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 00:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manifestly
+[2024-05-30 00:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit_pandera
+[2024-05-30 00:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xminds
+[2024-05-30 00:11:06] WARNING root fetch - processPackages [manifestly]: Skipping, unable to determine old version
+[2024-05-30 00:11:06] INFO root fetch - main [MainThread]: End processing [manifestly] error
+[2024-05-30 00:11:06] INFO root fetch - processPackages [xminds]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-30 00:11:06] INFO root fetch - processPackages [streamlit_pandera]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 00:11:06] INFO root fetch - processPackages [xminds]: Downloading https://files.pythonhosted.org/packages/6f/19/1e884543cfa1cacba9bce9606d92c2c8feea28deb290b900a121f12cf5a6/xminds-0.6.0.tar.gz
+[2024-05-30 00:11:06] INFO root fetch - processPackages [streamlit_pandera]: Downloading https://files.pythonhosted.org/packages/a6/7c/b947ae62753163032e5a4a16d323691c7499c8eb76e61ebad90603fdf6f3/streamlit_pandera-0.0.1.tar.gz
+[2024-05-30 00:11:06] INFO root fetch - processPackages [xminds]: Downloading https://files.pythonhosted.org/packages/09/65/a3065f6c6d3a35523bfb1806a1fe0e28e2125d6f5a3703f945f106ab7928/xminds-0.7.0.tar.gz
+[2024-05-30 00:11:06] INFO root fetch - processPackages [streamlit_pandera]: Downloading https://files.pythonhosted.org/packages/c3/ac/769799a81216e1afc2b303b805fc50c21fb5aaa62a5c90954299759614de/streamlit_pandera-0.0.2.tar.gz
+[2024-05-30 00:11:06] INFO root fetch - processPackages [xminds]: executing diffoscope
+[2024-05-30 00:11:06] INFO root fetch - processPackages [xminds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xminds-0.6.0.tar.gz tmp/xminds-0.7.0.tar.gz --markdown 20240530/x/xminds/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-30 00:11:06] INFO root fetch - processPackages [streamlit_pandera]: executing diffoscope
+[2024-05-30 00:11:06] INFO root fetch - processPackages [streamlit_pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_pandera-0.0.1.tar.gz tmp/streamlit_pandera-0.0.2.tar.gz --markdown 20240530/s/streamlit_pandera/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 00:11:07] INFO root fetch - processPackages [streamlit_pandera]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_pandera-0.0.1.tar.gz]
+[2024-05-30 00:11:07] INFO root fetch - processPackages [streamlit_pandera]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_pandera-0.0.2.tar.gz]
+[2024-05-30 00:11:07] INFO root fetch - main [MainThread]: End processing [streamlit_pandera]: success
+[2024-05-30 00:11:07] INFO root fetch - processPackages [xminds]: Remove: archive file [/home/abi/fetcher/tmp/xminds-0.6.0.tar.gz]
+[2024-05-30 00:11:07] INFO root fetch - processPackages [xminds]: Remove: archive file [/home/abi/fetcher/tmp/xminds-0.7.0.tar.gz]
+[2024-05-30 00:11:07] INFO root fetch - main [MainThread]: End processing [xminds]: success
+[2024-05-30 00:11:07] INFO root fetch - main [MainThread]: Store serial: [23438021]
