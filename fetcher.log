@@ -1153,3 +1153,41 @@ EOFError: EOF read where object expected
 [2024-05-30 01:08:07] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.99-py3-none-any.whl.zip]
 [2024-05-30 01:08:07] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
 [2024-05-30 01:08:07] INFO root fetch - main [MainThread]: Store serial: [23438361]
+[2024-05-30 01:10:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438361]
+[2024-05-30 01:10:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 01:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trackastra
+[2024-05-30 01:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osbot-utils
+[2024-05-30 01:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gradio
+[2024-05-30 01:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osbot-aws
+[2024-05-30 01:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gradio-client
+[2024-05-30 01:10:15] INFO root fetch - processPackages [osbot-utils]: New version: [1.7.7] Old Version: [1.7.1]
+[2024-05-30 01:10:15] INFO root fetch - processPackages [osbot-aws]: New version: [2.9.0] Old Version: [2.7.0]
+[2024-05-30 01:10:15] INFO root fetch - processPackages [osbot-utils]: Downloading https://files.pythonhosted.org/packages/17/ba/567fc87a42e9dbe7bdef8e98ec5b8f974267559ebe882bb32e6a087267d7/osbot_utils-1.7.1.tar.gz
+[2024-05-30 01:10:15] INFO root fetch - processPackages [osbot-aws]: Downloading https://files.pythonhosted.org/packages/f5/90/bed402efb9c72b55130caa05d60dc74a01cfbab086fa867f7fca9893a7fb/osbot_aws-2.7.0.tar.gz
+[2024-05-30 01:10:15] WARNING root fetch - processPackages [trackastra]: Skipping, unable to determine old version
+[2024-05-30 01:10:15] INFO root fetch - main [MainThread]: End processing [trackastra] error
+[2024-05-30 01:10:15] INFO root fetch - processPackages [gradio-client]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-30 01:10:15] INFO root fetch - processPackages [gradio]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-05-30 01:10:15] INFO root fetch - processPackages [gradio-client]: Downloading https://files.pythonhosted.org/packages/43/8a/1e90ee2bfd602ae3eed6e043d256b754a13d9c26462260e83d0dab39a31e/gradio_client-0.8.1.tar.gz
+[2024-05-30 01:10:15] INFO root fetch - processPackages [osbot-utils]: Downloading https://files.pythonhosted.org/packages/14/e0/7fb4a632bcebd76e537cc1fa59be128fd366ccbf9cefee0e3015450c1577/osbot_utils-1.7.7.tar.gz
+[2024-05-30 01:10:15] INFO root fetch - processPackages [osbot-aws]: Downloading https://files.pythonhosted.org/packages/99/18/c39f3526c6a885f4bc1ec0798d1daa03e77c57fc2bbb3123c3cfb80a7148/osbot_aws-2.9.0.tar.gz
+[2024-05-30 01:10:15] INFO root fetch - processPackages [osbot-utils]: executing diffoscope
+[2024-05-30 01:10:15] INFO root fetch - processPackages [osbot-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osbot_utils-1.7.1.tar.gz tmp/osbot_utils-1.7.7.tar.gz --markdown 20240530/o/osbot-utils/1.7.1-1.7.7/README.md --exclude *.pyd
+[2024-05-30 01:10:15] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/eb/a2/56c39c590c6c0e5d2583115b6e478de4bf1c9aa42b45cc47d81d88f93665/gradio-4.9.0.tar.gz
+[2024-05-30 01:10:15] INFO root fetch - processPackages [osbot-aws]: executing diffoscope
+[2024-05-30 01:10:15] INFO root fetch - processPackages [osbot-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osbot_aws-2.7.0.tar.gz tmp/osbot_aws-2.9.0.tar.gz --markdown 20240530/o/osbot-aws/2.7.0-2.9.0/README.md --exclude *.pyd
+[2024-05-30 01:10:16] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 26124496>=10485760
+[2024-05-30 01:10:16] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2024-05-30 01:10:16] INFO root fetch - processPackages [gradio-client]: Downloading https://files.pythonhosted.org/packages/7b/af/4443670ba46252320607429d325bd5b202b6b6c3d90edb8ac851405a0aef/gradio_client-0.9.0.tar.gz
+[2024-05-30 01:10:16] INFO root fetch - processPackages [gradio-client]: executing diffoscope
+[2024-05-30 01:10:16] INFO root fetch - processPackages [gradio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_client-0.8.1.tar.gz tmp/gradio_client-0.9.0.tar.gz --markdown 20240530/g/gradio-client/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-30 01:10:16] INFO root fetch - processPackages [osbot-utils]: Remove: archive file [/home/abi/fetcher/tmp/osbot_utils-1.7.1.tar.gz]
+[2024-05-30 01:10:16] INFO root fetch - processPackages [osbot-utils]: Remove: archive file [/home/abi/fetcher/tmp/osbot_utils-1.7.7.tar.gz]
+[2024-05-30 01:10:16] INFO root fetch - main [MainThread]: End processing [osbot-utils]: success
+[2024-05-30 01:10:16] INFO root fetch - processPackages [osbot-aws]: Remove: archive file [/home/abi/fetcher/tmp/osbot_aws-2.7.0.tar.gz]
+[2024-05-30 01:10:16] INFO root fetch - processPackages [osbot-aws]: Remove: archive file [/home/abi/fetcher/tmp/osbot_aws-2.9.0.tar.gz]
+[2024-05-30 01:10:16] INFO root fetch - main [MainThread]: End processing [osbot-aws]: success
+[2024-05-30 01:10:17] INFO root fetch - processPackages [gradio-client]: Remove: archive file [/home/abi/fetcher/tmp/gradio_client-0.8.1.tar.gz]
+[2024-05-30 01:10:17] INFO root fetch - processPackages [gradio-client]: Remove: archive file [/home/abi/fetcher/tmp/gradio_client-0.9.0.tar.gz]
+[2024-05-30 01:10:17] INFO root fetch - main [MainThread]: End processing [gradio-client]: success
+[2024-05-30 01:10:17] INFO root fetch - main [MainThread]: Store serial: [23438378]
