@@ -412,3 +412,39 @@ EOFError: EOF read where object expected
 [2024-05-30 00:17:48] INFO root fetch - processPackages [jellyfin-api-client]: Remove: archive file [/home/abi/fetcher/tmp/jellyfin_api_client-10.9.3.tar.gz]
 [2024-05-30 00:17:48] INFO root fetch - main [MainThread]: End processing [jellyfin-api-client]: success
 [2024-05-30 00:17:48] INFO root fetch - main [MainThread]: Store serial: [23438091]
+[2024-05-30 00:19:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438091]
+[2024-05-30 00:19:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 00:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: obsaq
+[2024-05-30 00:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jinjax
+[2024-05-30 00:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agentql
+[2024-05-30 00:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systembridgedata
+[2024-05-30 00:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gnida
+[2024-05-30 00:19:57] INFO root fetch - processPackages [gnida]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-30 00:19:57] WARNING root fetch - processPackages [systembridgedata]: Skipping, unable to determine old version
+[2024-05-30 00:19:57] INFO root fetch - main [MainThread]: End processing [systembridgedata] error
+[2024-05-30 00:19:57] WARNING root fetch - processPackages [obsaq]: Skipping, unable to determine old version
+[2024-05-30 00:19:57] INFO root fetch - main [MainThread]: End processing [obsaq] error
+[2024-05-30 00:19:58] INFO root fetch - processPackages [jinjax]: New version: [0.37] Old Version: [0.36]
+[2024-05-30 00:19:58] INFO root fetch - processPackages [agentql]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-30 00:19:58] INFO root fetch - processPackages [gnida]: Downloading https://files.pythonhosted.org/packages/a3/c5/d35e3006b785e2150f1b61b0300c62a4659756db3d3126e370f1d80ff452/gnida-0.0.6.tar.gz
+[2024-05-30 00:19:58] INFO root fetch - processPackages [agentql]: Downloading https://files.pythonhosted.org/packages/68/c9/fccc0b57b45ceea9f3b0422a1cc4f86ea15d195bd6adb85d03b1e847bb23/agentql-0.4.5.tar.gz
+[2024-05-30 00:19:58] INFO root fetch - processPackages [jinjax]: Downloading https://files.pythonhosted.org/packages/d7/30/05f89f5e78c08972f84f2b1663bf4ced1b3865e8a314c80c1548b82eef30/jinjax-0.36.tar.gz
+[2024-05-30 00:19:58] INFO root fetch - processPackages [gnida]: Downloading https://files.pythonhosted.org/packages/1a/6b/b7f4d2f68613762306dac916d39bb0b98c1228651a076676ec3fb32cff7d/gnida-0.0.7.tar.gz
+[2024-05-30 00:19:58] INFO root fetch - processPackages [gnida]: executing diffoscope
+[2024-05-30 00:19:58] INFO root fetch - processPackages [gnida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnida-0.0.6.tar.gz tmp/gnida-0.0.7.tar.gz --markdown 20240530/g/gnida/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-30 00:19:58] INFO root fetch - processPackages [jinjax]: Downloading https://files.pythonhosted.org/packages/c7/30/d19629af5ffcdb03ea1b7cad75cb40d92b5ae24f77d6d0639b12f4aa32f7/jinjax-0.37.tar.gz
+[2024-05-30 00:19:58] INFO root fetch - processPackages [agentql]: Downloading https://files.pythonhosted.org/packages/89/18/3f9382f71e3f1559a6bd8396263af99f91acef5fc4a0ead4b7e32c82a3dd/agentql-0.4.6.tar.gz
+[2024-05-30 00:19:58] INFO root fetch - processPackages [jinjax]: executing diffoscope
+[2024-05-30 00:19:58] INFO root fetch - processPackages [jinjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinjax-0.36.tar.gz tmp/jinjax-0.37.tar.gz --markdown 20240530/j/jinjax/0.36-0.37/README.md --exclude *.pyd
+[2024-05-30 00:19:58] INFO root fetch - processPackages [agentql]: executing diffoscope
+[2024-05-30 00:19:58] INFO root fetch - processPackages [agentql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentql-0.4.5.tar.gz tmp/agentql-0.4.6.tar.gz --markdown 20240530/a/agentql/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-30 00:19:59] INFO root fetch - processPackages [gnida]: Remove: archive file [/home/abi/fetcher/tmp/gnida-0.0.6.tar.gz]
+[2024-05-30 00:19:59] INFO root fetch - processPackages [gnida]: Remove: archive file [/home/abi/fetcher/tmp/gnida-0.0.7.tar.gz]
+[2024-05-30 00:19:59] INFO root fetch - main [MainThread]: End processing [gnida]: success
+[2024-05-30 00:19:59] INFO root fetch - processPackages [jinjax]: Remove: archive file [/home/abi/fetcher/tmp/jinjax-0.36.tar.gz]
+[2024-05-30 00:19:59] INFO root fetch - processPackages [jinjax]: Remove: archive file [/home/abi/fetcher/tmp/jinjax-0.37.tar.gz]
+[2024-05-30 00:19:59] INFO root fetch - main [MainThread]: End processing [jinjax]: success
+[2024-05-30 00:19:59] INFO root fetch - processPackages [agentql]: Remove: archive file [/home/abi/fetcher/tmp/agentql-0.4.5.tar.gz]
+[2024-05-30 00:19:59] INFO root fetch - processPackages [agentql]: Remove: archive file [/home/abi/fetcher/tmp/agentql-0.4.6.tar.gz]
+[2024-05-30 00:19:59] INFO root fetch - main [MainThread]: End processing [agentql]: success
+[2024-05-30 00:19:59] INFO root fetch - main [MainThread]: Store serial: [23438107]
