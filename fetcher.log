@@ -1690,3 +1690,51 @@ EOFError: EOF read where object expected
 [2024-05-30 01:47:08] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.30.tar.gz]
 [2024-05-30 01:47:08] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
 [2024-05-30 01:47:08] INFO root fetch - main [MainThread]: Store serial: [23438552]
+[2024-05-30 01:49:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438552]
+[2024-05-30 01:49:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 01:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argendolar
+[2024-05-30 01:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chipsec
+[2024-05-30 01:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slurmgen
+[2024-05-30 01:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: surfkit
+[2024-05-30 01:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emmett
+[2024-05-30 01:49:16] INFO root fetch - processPackages [argendolar]: New version: [2.2.1] Old Version: [2.1.1]
+[2024-05-30 01:49:16] INFO root fetch - processPackages [argendolar]: Downloading https://files.pythonhosted.org/packages/5a/9e/f9daf8f2ecfe05a284f1ecd371c127732803685d1ebb2729525283c49e3c/argendolar-2.1.1.tar.gz
+[2024-05-30 01:49:16] INFO root fetch - processPackages [chipsec]: New version: [1.5.1] Old Version: [1.4.4]
+[2024-05-30 01:49:16] INFO root fetch - processPackages [slurmgen]: New version: [3.7.0] Old Version: [3.6.0]
+[2024-05-30 01:49:16] INFO root fetch - processPackages [emmett]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-05-30 01:49:16] INFO root fetch - processPackages [surfkit]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-30 01:49:17] INFO root fetch - processPackages [chipsec]: Downloading https://files.pythonhosted.org/packages/90/90/81c7673faccad48b106f78c884101c12f6f7f5e4effdab101f89779cd4ab/chipsec-1.4.4.0.tar.gz
+[2024-05-30 01:49:17] INFO root fetch - processPackages [slurmgen]: Downloading https://files.pythonhosted.org/packages/fc/74/be60041186f501e9f2d110f9b37bee6dd3a95c57fd89caf38d2e6f301620/slurmgen-3.6.0.tar.gz
+[2024-05-30 01:49:17] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c2/e4/d9d6efb4013a22047e07b2174dc8716a86fe2b3fe0652e6e1edddbde177b/surfkit-0.1.98.tar.gz
+[2024-05-30 01:49:17] INFO root fetch - processPackages [emmett]: Downloading https://files.pythonhosted.org/packages/ac/cd/1d29aa26b268f565b2e06acbaa36d8c7fb85a4f2074ff2bac8702997433b/emmett-2.5.8.tar.gz
+[2024-05-30 01:49:17] INFO root fetch - processPackages [argendolar]: Downloading https://files.pythonhosted.org/packages/c0/b4/85f76ee7e30cca4266bd6b1d921c1a5163385110f289fab54983d0bd62ab/argendolar-2.2.1.tar.gz
+[2024-05-30 01:49:17] INFO root fetch - processPackages [argendolar]: executing diffoscope
+[2024-05-30 01:49:17] INFO root fetch - processPackages [argendolar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argendolar-2.1.1.tar.gz tmp/argendolar-2.2.1.tar.gz --markdown 20240530/a/argendolar/2.1.1-2.2.1/README.md --exclude *.pyd
+[2024-05-30 01:49:17] INFO root fetch - processPackages [slurmgen]: Downloading https://files.pythonhosted.org/packages/65/94/e83196ba1d1622ffd9969e4d29793aa47765fa7ece5c635e0d1e9e0b3c60/slurmgen-3.7.0.tar.gz
+[2024-05-30 01:49:17] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/65/a8/bfc822b58240522d18c4cf24a25a6f2476da037058406af11377393fa476/surfkit-0.1.99.tar.gz
+[2024-05-30 01:49:17] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-30 01:49:17] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.98.tar.gz tmp/surfkit-0.1.99.tar.gz --markdown 20240530/s/surfkit/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-30 01:49:17] INFO root fetch - processPackages [emmett]: Downloading https://files.pythonhosted.org/packages/6a/46/2cdbcae91ede5cb499d28a747444f5d07e06a27e7326998bbb06f4f22471/emmett-2.5.9.tar.gz
+[2024-05-30 01:49:17] INFO root fetch - processPackages [slurmgen]: executing diffoscope
+[2024-05-30 01:49:17] INFO root fetch - processPackages [slurmgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurmgen-3.6.0.tar.gz tmp/slurmgen-3.7.0.tar.gz --markdown 20240530/s/slurmgen/3.6.0-3.7.0/README.md --exclude *.pyd
+[2024-05-30 01:49:17] INFO root fetch - processPackages [argendolar]: Remove: archive file [/home/abi/fetcher/tmp/argendolar-2.1.1.tar.gz]
+[2024-05-30 01:49:17] INFO root fetch - processPackages [argendolar]: Remove: archive file [/home/abi/fetcher/tmp/argendolar-2.2.1.tar.gz]
+[2024-05-30 01:49:17] INFO root fetch - main [MainThread]: End processing [argendolar]: success
+[2024-05-30 01:49:17] INFO root fetch - processPackages [chipsec]: Downloading https://files.pythonhosted.org/packages/44/9e/fa63ce34fd9536c609d4af25c06adb42adb9199ed0d0e9e3931d9ad7c45a/chipsec-1.5.1.tar.gz
+[2024-05-30 01:49:17] INFO root fetch - processPackages [emmett]: executing diffoscope
+[2024-05-30 01:49:17] INFO root fetch - processPackages [emmett]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmett-2.5.8.tar.gz tmp/emmett-2.5.9.tar.gz --markdown 20240530/e/emmett/2.5.8-2.5.9/README.md --exclude *.pyd
+[2024-05-30 01:49:18] INFO root fetch - processPackages [chipsec]: executing diffoscope
+[2024-05-30 01:49:18] INFO root fetch - processPackages [chipsec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chipsec-1.4.4.0.tar.gz tmp/chipsec-1.5.1.tar.gz --markdown 20240530/c/chipsec/1.4.4-1.5.1/README.md --exclude *.pyd
+[2024-05-30 01:49:18] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.98.tar.gz]
+[2024-05-30 01:49:18] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
+[2024-05-30 01:49:18] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-30 01:49:18] INFO root fetch - processPackages [slurmgen]: Remove: archive file [/home/abi/fetcher/tmp/slurmgen-3.6.0.tar.gz]
+[2024-05-30 01:49:18] INFO root fetch - processPackages [slurmgen]: Remove: archive file [/home/abi/fetcher/tmp/slurmgen-3.7.0.tar.gz]
+[2024-05-30 01:49:18] INFO root fetch - main [MainThread]: End processing [slurmgen]: success
+[2024-05-30 01:49:19] INFO root fetch - processPackages [emmett]: Remove: archive file [/home/abi/fetcher/tmp/emmett-2.5.8.tar.gz]
+[2024-05-30 01:49:19] INFO root fetch - processPackages [emmett]: Remove: archive file [/home/abi/fetcher/tmp/emmett-2.5.9.tar.gz]
+[2024-05-30 01:49:19] INFO root fetch - main [MainThread]: End processing [emmett]: success
+[2024-05-30 01:49:20] INFO root fetch - processPackages [chipsec]: Remove: archive file [/home/abi/fetcher/tmp/chipsec-1.4.4.0.tar.gz]
+[2024-05-30 01:49:20] INFO root fetch - processPackages [chipsec]: Remove: archive file [/home/abi/fetcher/tmp/chipsec-1.5.1.tar.gz]
+[2024-05-30 01:49:20] INFO root fetch - main [MainThread]: End processing [chipsec]: success
+[2024-05-30 01:49:20] INFO root fetch - main [MainThread]: Store serial: [23438569]
