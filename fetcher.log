@@ -244,3 +244,33 @@ EOFError: EOF read where object expected
 [2024-05-30 00:06:44] INFO root fetch - processPackages [procaaso-state-machine]: Remove: archive file [/home/abi/fetcher/tmp/procaaso_state_machine-0.2.0b1.tar.gz]
 [2024-05-30 00:06:44] INFO root fetch - main [MainThread]: End processing [procaaso-state-machine]: success
 [2024-05-30 00:06:44] INFO root fetch - main [MainThread]: Store serial: [23437954]
+[2024-05-30 00:08:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23437954]
+[2024-05-30 00:08:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 00:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anyscale
+[2024-05-30 00:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyarcamsolo
+[2024-05-30 00:08:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: almax-common
+[2024-05-30 00:08:52] INFO root fetch - processPackages [almax-common]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-30 00:08:52] INFO root fetch - processPackages [almax-common]: Downloading https://files.pythonhosted.org/packages/4e/da/e292fff03a1bf1b63ef5329729a2f8fa247388735e126b000efeba0cfd23/almax_common-0.9.0.tar.gz
+[2024-05-30 00:08:52] INFO root fetch - processPackages [pyarcamsolo]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-30 00:08:52] INFO root fetch - processPackages [anyscale]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-30 00:08:53] INFO root fetch - processPackages [almax-common]: Downloading https://files.pythonhosted.org/packages/bd/ad/141e5b723d0de5127e81d8dead97a0ce2a02c26d7718fe62644e56614546/almax_common-0.9.1.tar.gz
+[2024-05-30 00:08:53] INFO root fetch - processPackages [pyarcamsolo]: Downloading https://files.pythonhosted.org/packages/11/d7/8825282ce234cbd0e561888a6285815c8759ad91068e6be67f9655f09efb/pyarcamsolo-0.1.5.tar.gz
+[2024-05-30 00:08:53] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/0d/64/8bf86d6d00617c61b31e91a8455e6fb08278056ee4d72abf6317509d592e/anyscale-0.5.98.tar.gz
+[2024-05-30 00:08:53] INFO root fetch - processPackages [almax-common]: executing diffoscope
+[2024-05-30 00:08:53] INFO root fetch - processPackages [almax-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almax_common-0.9.0.tar.gz tmp/almax_common-0.9.1.tar.gz --markdown 20240530/a/almax-common/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-30 00:08:53] INFO root fetch - processPackages [pyarcamsolo]: Downloading https://files.pythonhosted.org/packages/09/66/400a9504bdd236edcc0df77f919252f17f843aee428274131df789ff9455/pyarcamsolo-0.1.6.tar.gz
+[2024-05-30 00:08:53] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/61/f0/917cf3e18c478eaae2e53db68c9d20607edab461774054c8f509cc4885b6/anyscale-0.5.99.tar.gz
+[2024-05-30 00:08:53] INFO root fetch - processPackages [pyarcamsolo]: executing diffoscope
+[2024-05-30 00:08:53] INFO root fetch - processPackages [pyarcamsolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarcamsolo-0.1.5.tar.gz tmp/pyarcamsolo-0.1.6.tar.gz --markdown 20240530/p/pyarcamsolo/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-30 00:08:53] INFO root fetch - processPackages [almax-common]: Remove: archive file [/home/abi/fetcher/tmp/almax_common-0.9.0.tar.gz]
+[2024-05-30 00:08:53] INFO root fetch - processPackages [almax-common]: Remove: archive file [/home/abi/fetcher/tmp/almax_common-0.9.1.tar.gz]
+[2024-05-30 00:08:53] INFO root fetch - main [MainThread]: End processing [almax-common]: success
+[2024-05-30 00:08:53] INFO root fetch - processPackages [anyscale]: executing diffoscope
+[2024-05-30 00:08:53] INFO root fetch - processPackages [anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyscale-0.5.98.tar.gz tmp/anyscale-0.5.99.tar.gz --markdown 20240530/a/anyscale/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-30 00:08:54] INFO root fetch - processPackages [pyarcamsolo]: Remove: archive file [/home/abi/fetcher/tmp/pyarcamsolo-0.1.5.tar.gz]
+[2024-05-30 00:08:54] INFO root fetch - processPackages [pyarcamsolo]: Remove: archive file [/home/abi/fetcher/tmp/pyarcamsolo-0.1.6.tar.gz]
+[2024-05-30 00:08:54] INFO root fetch - main [MainThread]: End processing [pyarcamsolo]: success
+[2024-05-30 00:08:57] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.98.tar.gz]
+[2024-05-30 00:08:57] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
+[2024-05-30 00:08:57] INFO root fetch - main [MainThread]: End processing [anyscale]: success
+[2024-05-30 00:08:57] INFO root fetch - main [MainThread]: Store serial: [23438008]
