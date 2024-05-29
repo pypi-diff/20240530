@@ -1071,3 +1071,9 @@ EOFError: EOF read where object expected
 [2024-05-30 00:59:25] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.3.9.tar.gz]
 [2024-05-30 00:59:25] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
 [2024-05-30 00:59:25] INFO root fetch - main [MainThread]: Store serial: [23438330]
+[2024-05-30 01:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438330]
+[2024-05-30 01:01:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 01:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parle
+[2024-05-30 01:01:34] WARNING root fetch - processPackages [parle]: Skipping, unable to determine old version
+[2024-05-30 01:01:34] INFO root fetch - main [MainThread]: End processing [parle] error
+[2024-05-30 01:01:34] INFO root fetch - main [MainThread]: Store serial: [23438336]
