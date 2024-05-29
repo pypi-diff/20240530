@@ -1089,3 +1089,41 @@ EOFError: EOF read where object expected
 [2024-05-30 01:03:45] INFO root fetch - processPackages [tonic-textual]: Remove: archive file [/home/abi/fetcher/tmp/tonic_textual-2.0.1.tar.gz]
 [2024-05-30 01:03:45] INFO root fetch - main [MainThread]: End processing [tonic-textual]: success
 [2024-05-30 01:03:45] INFO root fetch - main [MainThread]: Store serial: [23438339]
+[2024-05-30 01:05:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438339]
+[2024-05-30 01:05:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dante-corpora
+[2024-05-30 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2024-05-30 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ProjectManagerSdk
+[2024-05-30 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-airtable
+[2024-05-30 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flwr-nightly
+[2024-05-30 01:05:53] WARNING root fetch - processPackages [dante-corpora]: Skipping, unable to determine old version
+[2024-05-30 01:05:53] INFO root fetch - main [MainThread]: End processing [dante-corpora] error
+[2024-05-30 01:05:53] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240528] Old Version: [0.7.52b20240527]
+[2024-05-30 01:05:53] INFO root fetch - processPackages [airbyte-source-airtable]: New version: [4.2.1] Old Version: [4.2.0]
+[2024-05-30 01:05:53] INFO root fetch - processPackages [ProjectManagerSdk]: New version: [99.0.2548] Old Version: [98.0.2363]
+[2024-05-30 01:05:53] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/70/e3/ea0f31347a121838ebfccd1a58d0c4880cbcd2d897985a434d2e6c8df82b/tmnt-0.7.52b20240527.tar.gz
+[2024-05-30 01:05:53] INFO root fetch - processPackages [airbyte-source-airtable]: Downloading https://files.pythonhosted.org/packages/e8/53/b7272eaf3935a444990003bca463adfea6c02798b07a1543e7750a96e6a3/airbyte_source_airtable-4.2.0.tar.gz
+[2024-05-30 01:05:53] INFO root fetch - processPackages [ProjectManagerSdk]: Downloading https://files.pythonhosted.org/packages/f0/45/49559c46865487ad95b8f1806012a0233f0f35d347af9045f4155eb60c8a/projectmanagersdk-98.0.2363.tar.gz
+[2024-05-30 01:05:53] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240529] Old Version: [1.9.0.dev20240528]
+[2024-05-30 01:05:53] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/a2/e1/7e3fd3c1cd6625e89286b7c2eb2fea7d5e6548ed00f39a417d6eeb2d148f/tmnt-0.7.52b20240528.tar.gz
+[2024-05-30 01:05:53] ERROR root fetch - processPackages [airbyte-source-airtable]: Unable to fetch info: No such project/version 'airbyte-source-airtable' 4.2.1
+[2024-05-30 01:05:53] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-30 01:05:53] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240527.tar.gz tmp/tmnt-0.7.52b20240528.tar.gz --markdown 20240530/t/tmnt/0.7.52b20240527-0.7.52b20240528/README.md --exclude *.pyd
+[2024-05-30 01:05:53] INFO root fetch - main [MainThread]: End processing [airbyte-source-airtable] error
+[2024-05-30 01:05:53] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/32/77/e2cab0b72076d6743f555d058b70a5c158beda8ee0314ed237ac01ad4e4c/flwr_nightly-1.9.0.dev20240528.tar.gz
+[2024-05-30 01:05:53] INFO root fetch - processPackages [ProjectManagerSdk]: Downloading https://files.pythonhosted.org/packages/e3/78/e80343fedbd3ab4e43b758945ee5b012611773a2f5675b9fc35050e8230a/projectmanagersdk-99.0.2548.tar.gz
+[2024-05-30 01:05:54] INFO root fetch - processPackages [ProjectManagerSdk]: executing diffoscope
+[2024-05-30 01:05:54] INFO root fetch - processPackages [ProjectManagerSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectmanagersdk-98.0.2363.tar.gz tmp/projectmanagersdk-99.0.2548.tar.gz --markdown 20240530/P/ProjectManagerSdk/98.0.2363-99.0.2548/README.md --exclude *.pyd
+[2024-05-30 01:05:54] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/91/78/f993f1e7fc1d7234699a22c023fa700ceffc5588b24ab68938d40f1e0c41/flwr_nightly-1.9.0.dev20240529-py3-none-any.whl
+[2024-05-30 01:05:54] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240527.tar.gz]
+[2024-05-30 01:05:54] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240528.tar.gz]
+[2024-05-30 01:05:54] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-30 01:05:54] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-30 01:05:54] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240528.tar.gz tmp/flwr_nightly-1.9.0.dev20240529-py3-none-any.whl.zip --markdown 20240530/f/flwr-nightly/1.9.0.dev20240528-1.9.0.dev20240529/README.md --exclude *.pyd
+[2024-05-30 01:05:55] INFO root fetch - processPackages [ProjectManagerSdk]: Remove: archive file [/home/abi/fetcher/tmp/projectmanagersdk-98.0.2363.tar.gz]
+[2024-05-30 01:05:55] INFO root fetch - processPackages [ProjectManagerSdk]: Remove: archive file [/home/abi/fetcher/tmp/projectmanagersdk-99.0.2548.tar.gz]
+[2024-05-30 01:05:55] INFO root fetch - main [MainThread]: End processing [ProjectManagerSdk]: success
+[2024-05-30 01:05:55] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240528.tar.gz]
+[2024-05-30 01:05:55] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240529-py3-none-any.whl.zip]
+[2024-05-30 01:05:55] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-30 01:05:55] INFO root fetch - main [MainThread]: Store serial: [23438352]
