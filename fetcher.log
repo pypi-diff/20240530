@@ -769,3 +769,29 @@ EOFError: EOF read where object expected
 [2024-05-30 00:39:50] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
 [2024-05-30 00:39:50] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-05-30 00:39:50] INFO root fetch - main [MainThread]: Store serial: [23438228]
+[2024-05-30 00:41:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438228]
+[2024-05-30 00:41:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 00:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scale-egp
+[2024-05-30 00:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: equiadapt
+[2024-05-30 00:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: csvtex
+[2024-05-30 00:41:59] INFO root fetch - processPackages [csvtex]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-30 00:41:59] INFO root fetch - processPackages [equiadapt]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-30 00:41:59] INFO root fetch - processPackages [scale-egp]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-30 00:41:59] INFO root fetch - processPackages [csvtex]: Downloading https://files.pythonhosted.org/packages/7d/b0/92cc794b5fa989775439eb9294d63d8c116590c3f7e2e632332b1192f753/csvtex-1.0.0.tar.gz
+[2024-05-30 00:41:59] INFO root fetch - processPackages [equiadapt]: Downloading https://files.pythonhosted.org/packages/7b/f3/05361238fc57d272094f59b2ec875a46a41c0db532e6923523258b4ad172/equiadapt-0.1.1.tar.gz
+[2024-05-30 00:41:59] INFO root fetch - processPackages [scale-egp]: Downloading https://files.pythonhosted.org/packages/e9/7b/af6f748be127ccf39d481ccdc1815e2499dfdeae37687647ca3ec72d5097/scale_egp-1.1.8.tar.gz
+[2024-05-30 00:41:59] WARNING root fetch - processPackages [equiadapt]: Skipping package: exceeds size limit 77433602>=10485760
+[2024-05-30 00:41:59] INFO root fetch - main [MainThread]: End processing [equiadapt] error
+[2024-05-30 00:41:59] INFO root fetch - processPackages [csvtex]: Downloading https://files.pythonhosted.org/packages/9b/af/0472fe73d9a1a34911b9edca277651adcff290c3ee723cf26f9f282c1359/csvtex-1.0.1.tar.gz
+[2024-05-30 00:41:59] INFO root fetch - processPackages [scale-egp]: Downloading https://files.pythonhosted.org/packages/db/79/201a643f5b240155a97842d825e5fd9553673d1ee165ad54be23b72d92cb/scale_egp-1.1.9.tar.gz
+[2024-05-30 00:41:59] INFO root fetch - processPackages [csvtex]: executing diffoscope
+[2024-05-30 00:41:59] INFO root fetch - processPackages [csvtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvtex-1.0.0.tar.gz tmp/csvtex-1.0.1.tar.gz --markdown 20240530/c/csvtex/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-30 00:41:59] INFO root fetch - processPackages [scale-egp]: executing diffoscope
+[2024-05-30 00:41:59] INFO root fetch - processPackages [scale-egp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_egp-1.1.8.tar.gz tmp/scale_egp-1.1.9.tar.gz --markdown 20240530/s/scale-egp/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-30 00:42:00] INFO root fetch - processPackages [csvtex]: Remove: archive file [/home/abi/fetcher/tmp/csvtex-1.0.0.tar.gz]
+[2024-05-30 00:42:00] INFO root fetch - processPackages [csvtex]: Remove: archive file [/home/abi/fetcher/tmp/csvtex-1.0.1.tar.gz]
+[2024-05-30 00:42:00] INFO root fetch - main [MainThread]: End processing [csvtex]: success
+[2024-05-30 00:42:00] INFO root fetch - processPackages [scale-egp]: Remove: archive file [/home/abi/fetcher/tmp/scale_egp-1.1.8.tar.gz]
+[2024-05-30 00:42:00] INFO root fetch - processPackages [scale-egp]: Remove: archive file [/home/abi/fetcher/tmp/scale_egp-1.1.9.tar.gz]
+[2024-05-30 00:42:00] INFO root fetch - main [MainThread]: End processing [scale-egp]: success
+[2024-05-30 00:42:00] INFO root fetch - main [MainThread]: Store serial: [23438238]
