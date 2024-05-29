@@ -1059,3 +1059,15 @@ EOFError: EOF read where object expected
 [2024-05-30 00:57:16] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.5.1.tar.gz]
 [2024-05-30 00:57:16] INFO root fetch - main [MainThread]: End processing [nadl]: success
 [2024-05-30 00:57:16] INFO root fetch - main [MainThread]: Store serial: [23438327]
+[2024-05-30 00:59:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438327]
+[2024-05-30 00:59:24] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 00:59:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyberdrop-dl
+[2024-05-30 00:59:24] INFO root fetch - processPackages [cyberdrop-dl]: New version: [5.3.9] Old Version: [5.3.8]
+[2024-05-30 00:59:24] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/9d/0d/5f6820ed8061d9c3ff5d6ac484bb19d78089d028e21d06652c84bd57af6a/cyberdrop_dl-5.3.8.tar.gz
+[2024-05-30 00:59:24] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/29/03/640df8fe473e716b8fe88043148066f5b785815db2a2fd62adac919eb5a3/cyberdrop_dl-5.3.9.tar.gz
+[2024-05-30 00:59:25] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2024-05-30 00:59:25] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop_dl-5.3.8.tar.gz tmp/cyberdrop_dl-5.3.9.tar.gz --markdown 20240530/c/cyberdrop-dl/5.3.8-5.3.9/README.md --exclude *.pyd
+[2024-05-30 00:59:25] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.3.8.tar.gz]
+[2024-05-30 00:59:25] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.3.9.tar.gz]
+[2024-05-30 00:59:25] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2024-05-30 00:59:25] INFO root fetch - main [MainThread]: Store serial: [23438330]
