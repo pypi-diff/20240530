@@ -795,3 +795,24 @@ EOFError: EOF read where object expected
 [2024-05-30 00:42:00] INFO root fetch - processPackages [scale-egp]: Remove: archive file [/home/abi/fetcher/tmp/scale_egp-1.1.9.tar.gz]
 [2024-05-30 00:42:00] INFO root fetch - main [MainThread]: End processing [scale-egp]: success
 [2024-05-30 00:42:00] INFO root fetch - main [MainThread]: Store serial: [23438238]
+[2024-05-30 00:44:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438238]
+[2024-05-30 00:44:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 00:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foundry-platform-sdk
+[2024-05-30 00:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver-organizations
+[2024-05-30 00:44:09] INFO root fetch - processPackages [foundry-platform-sdk]: New version: [0.5.0] Old Version: [0.3.0]
+[2024-05-30 00:44:09] INFO root fetch - processPackages [heaserver-organizations]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-30 00:44:09] INFO root fetch - processPackages [heaserver-organizations]: Downloading https://files.pythonhosted.org/packages/f8/6e/728a4ab9fa94eb8ab024c9cb37ec8ae61c792f17d68bc77363250c57e9d6/heaserver_organizations-1.4.2.tar.gz
+[2024-05-30 00:44:09] INFO root fetch - processPackages [foundry-platform-sdk]: Downloading https://files.pythonhosted.org/packages/93/34/b83396097e551fcbb3556a54d87a9d7c8799a3d8134ee14917553f36f00a/foundry_platform_sdk-0.3.0.tar.gz
+[2024-05-30 00:44:09] INFO root fetch - processPackages [heaserver-organizations]: Downloading https://files.pythonhosted.org/packages/9f/c1/e533c8fd792bdeac718addc5ae67878a3f45e53bedcb0338cb49562f1030/heaserver_organizations-1.4.3.tar.gz
+[2024-05-30 00:44:09] INFO root fetch - processPackages [foundry-platform-sdk]: Downloading https://files.pythonhosted.org/packages/23/8b/f6f7286f02cb7c3dba1739f05e337da222379d9d8ba94b2d5835e5152047/foundry_platform_sdk-0.5.0.tar.gz
+[2024-05-30 00:44:09] INFO root fetch - processPackages [heaserver-organizations]: executing diffoscope
+[2024-05-30 00:44:09] INFO root fetch - processPackages [heaserver-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver_organizations-1.4.2.tar.gz tmp/heaserver_organizations-1.4.3.tar.gz --markdown 20240530/h/heaserver-organizations/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-30 00:44:09] INFO root fetch - processPackages [foundry-platform-sdk]: executing diffoscope
+[2024-05-30 00:44:09] INFO root fetch - processPackages [foundry-platform-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundry_platform_sdk-0.3.0.tar.gz tmp/foundry_platform_sdk-0.5.0.tar.gz --markdown 20240530/f/foundry-platform-sdk/0.3.0-0.5.0/README.md --exclude *.pyd
+[2024-05-30 00:44:10] INFO root fetch - processPackages [heaserver-organizations]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_organizations-1.4.2.tar.gz]
+[2024-05-30 00:44:10] INFO root fetch - processPackages [heaserver-organizations]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_organizations-1.4.3.tar.gz]
+[2024-05-30 00:44:10] INFO root fetch - main [MainThread]: End processing [heaserver-organizations]: success
+[2024-05-30 00:44:10] INFO root fetch - processPackages [foundry-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/foundry_platform_sdk-0.3.0.tar.gz]
+[2024-05-30 00:44:10] INFO root fetch - processPackages [foundry-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/foundry_platform_sdk-0.5.0.tar.gz]
+[2024-05-30 00:44:10] INFO root fetch - main [MainThread]: End processing [foundry-platform-sdk]: success
+[2024-05-30 00:44:10] INFO root fetch - main [MainThread]: Store serial: [23438245]
