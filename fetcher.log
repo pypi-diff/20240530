@@ -346,3 +346,36 @@ EOFError: EOF read where object expected
 [2024-05-30 00:13:19] INFO root fetch - processPackages [neopyter]: Remove: archive file [/home/abi/fetcher/tmp/neopyter-0.2.2.tar.gz]
 [2024-05-30 00:13:19] INFO root fetch - main [MainThread]: End processing [neopyter]: success
 [2024-05-30 00:13:19] INFO root fetch - main [MainThread]: Store serial: [23438051]
+[2024-05-30 00:15:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438051]
+[2024-05-30 00:15:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 00:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: npcolony
+[2024-05-30 00:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intropy
+[2024-05-30 00:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorstore
+[2024-05-30 00:15:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-restit
+[2024-05-30 00:15:27] WARNING root fetch - processPackages [npcolony]: Skipping, unable to determine old version
+[2024-05-30 00:15:27] INFO root fetch - main [MainThread]: End processing [npcolony] error
+[2024-05-30 00:15:27] INFO root fetch - processPackages [django-restit]: New version: [4.2.90] Old Version: [4.2.9]
+[2024-05-30 00:15:27] INFO root fetch - processPackages [intropy]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-30 00:15:27] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/04/6a/4a0798142c60a6490ec67b5805d087bb35d3e9fc4b5da82c2af6c231a3d8/django_restit-4.2.9.tar.gz
+[2024-05-30 00:15:27] INFO root fetch - processPackages [tensorstore]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 00:15:28] INFO root fetch - processPackages [intropy]: Downloading https://files.pythonhosted.org/packages/93/0b/23fd4b66b9cb98be19259cab578b9ce9fd0a919342fff2b513f6171d83c1/intropy-0.5.0.tar.gz
+[2024-05-30 00:15:28] INFO root fetch - processPackages [tensorstore]: Downloading https://files.pythonhosted.org/packages/91/85/d520af7c93cb7ea407f4a7814fb740d2773739bf5fcb8ce8d3ea05bfbbea/tensorstore-0.1.8.tar.gz
+[2024-05-30 00:15:28] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/df/2b/da89566bbb8e1de4ea7f4c47b0e3540221cc7148dd3a3899d43ca42cca93/django_restit-4.2.90.tar.gz
+[2024-05-30 00:15:28] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2024-05-30 00:15:28] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.2.9.tar.gz tmp/django_restit-4.2.90.tar.gz --markdown 20240530/d/django-restit/4.2.9-4.2.90/README.md --exclude *.pyd
+[2024-05-30 00:15:28] INFO root fetch - processPackages [intropy]: Downloading https://files.pythonhosted.org/packages/1f/f7/12e839015773bd9228d211fa9ef0d8ab8bab3a396f969c9200a0aa9c2683/intropy-0.6.0.tar.gz
+[2024-05-30 00:15:28] INFO root fetch - processPackages [intropy]: executing diffoscope
+[2024-05-30 00:15:28] INFO root fetch - processPackages [intropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intropy-0.5.0.tar.gz tmp/intropy-0.6.0.tar.gz --markdown 20240530/i/intropy/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-30 00:15:28] INFO root fetch - processPackages [tensorstore]: Downloading https://files.pythonhosted.org/packages/b2/32/db4d88bd55abe82dd0df19cb8e9db65c99760a695385a6e9ed867b36b052/tensorstore-0.1.9.tar.gz
+[2024-05-30 00:15:28] INFO root fetch - processPackages [tensorstore]: executing diffoscope
+[2024-05-30 00:15:28] INFO root fetch - processPackages [tensorstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorstore-0.1.8.tar.gz tmp/tensorstore-0.1.9.tar.gz --markdown 20240530/t/tensorstore/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 00:15:29] INFO root fetch - processPackages [intropy]: Remove: archive file [/home/abi/fetcher/tmp/intropy-0.5.0.tar.gz]
+[2024-05-30 00:15:29] INFO root fetch - processPackages [intropy]: Remove: archive file [/home/abi/fetcher/tmp/intropy-0.6.0.tar.gz]
+[2024-05-30 00:15:29] INFO root fetch - main [MainThread]: End processing [intropy]: success
+[2024-05-30 00:15:30] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
+[2024-05-30 00:15:30] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.90.tar.gz]
+[2024-05-30 00:15:30] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2024-05-30 00:15:33] INFO root fetch - processPackages [tensorstore]: Remove: archive file [/home/abi/fetcher/tmp/tensorstore-0.1.8.tar.gz]
+[2024-05-30 00:15:33] INFO root fetch - processPackages [tensorstore]: Remove: archive file [/home/abi/fetcher/tmp/tensorstore-0.1.9.tar.gz]
+[2024-05-30 00:15:33] INFO root fetch - main [MainThread]: End processing [tensorstore]: success
+[2024-05-30 00:15:33] INFO root fetch - main [MainThread]: Store serial: [23438081]
