@@ -1627,3 +1627,24 @@ EOFError: EOF read where object expected
 [2024-05-30 01:40:39] INFO root fetch - processPackages [pvorcademo]: Remove: archive file [/home/abi/fetcher/tmp/pvorcademo-0.2.3.tar.gz]
 [2024-05-30 01:40:39] INFO root fetch - main [MainThread]: End processing [pvorcademo]: success
 [2024-05-30 01:40:39] INFO root fetch - main [MainThread]: Store serial: [23438534]
+[2024-05-30 01:42:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438534]
+[2024-05-30 01:42:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 01:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nadl
+[2024-05-30 01:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lithic
+[2024-05-30 01:42:47] INFO root fetch - processPackages [nadl]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-05-30 01:42:47] INFO root fetch - processPackages [lithic]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-30 01:42:47] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/ef/9c/2c76fb9ceaa4d3195a9476b30cb0bcc5df4a6d453aaff6309d92b42a06e7/nadl-1.5.1.tar.gz
+[2024-05-30 01:42:47] INFO root fetch - processPackages [lithic]: Downloading https://files.pythonhosted.org/packages/59/d1/4b77bd3d15afec27243035efe9cb7ec52264a7cdbb21b887c3336449dcc2/lithic-0.8.0.tar.gz
+[2024-05-30 01:42:47] INFO root fetch - processPackages [lithic]: Downloading https://files.pythonhosted.org/packages/11/8d/f3dce2caf53a5809b580f08cdad352d9a928b2cf614da9fac7cff2249f1c/lithic-0.9.0.tar.gz
+[2024-05-30 01:42:48] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/e9/60/f0e4a8dfa7d0e3442d3e06a63a0d03a003a826a9d608c55d945d887561d7/nadl-1.5.2.tar.gz
+[2024-05-30 01:42:48] INFO root fetch - processPackages [lithic]: executing diffoscope
+[2024-05-30 01:42:48] INFO root fetch - processPackages [lithic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lithic-0.8.0.tar.gz tmp/lithic-0.9.0.tar.gz --markdown 20240530/l/lithic/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-30 01:42:48] INFO root fetch - processPackages [nadl]: executing diffoscope
+[2024-05-30 01:42:48] INFO root fetch - processPackages [nadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nadl-1.5.1.tar.gz tmp/nadl-1.5.2.tar.gz --markdown 20240530/n/nadl/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-05-30 01:42:48] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.5.1.tar.gz]
+[2024-05-30 01:42:48] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.5.2.tar.gz]
+[2024-05-30 01:42:48] INFO root fetch - main [MainThread]: End processing [nadl]: success
+[2024-05-30 01:42:48] INFO root fetch - processPackages [lithic]: Remove: archive file [/home/abi/fetcher/tmp/lithic-0.8.0.tar.gz]
+[2024-05-30 01:42:48] INFO root fetch - processPackages [lithic]: Remove: archive file [/home/abi/fetcher/tmp/lithic-0.9.0.tar.gz]
+[2024-05-30 01:42:48] INFO root fetch - main [MainThread]: End processing [lithic]: success
+[2024-05-30 01:42:48] INFO root fetch - main [MainThread]: Store serial: [23438540]
