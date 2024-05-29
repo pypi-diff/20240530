@@ -897,3 +897,18 @@ EOFError: EOF read where object expected
 [2024-05-30 00:48:32] INFO root fetch - processPackages [nautobot-device-onboarding]: Remove: archive file [/home/abi/fetcher/tmp/nautobot_device_onboarding-4.0.0b1.tar.gz]
 [2024-05-30 00:48:32] INFO root fetch - main [MainThread]: End processing [nautobot-device-onboarding]: success
 [2024-05-30 00:48:32] INFO root fetch - main [MainThread]: Store serial: [23438267]
+[2024-05-30 00:50:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438267]
+[2024-05-30 00:50:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 00:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pathlabelrecon
+[2024-05-30 00:50:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypomes-core
+[2024-05-30 00:50:41] WARNING root fetch - processPackages [pathlabelrecon]: Skipping, unable to determine old version
+[2024-05-30 00:50:41] INFO root fetch - main [MainThread]: End processing [pathlabelrecon] error
+[2024-05-30 00:50:41] INFO root fetch - processPackages [pypomes-core]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-30 00:50:41] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/42/1e/2997407a700e646313aa128204cd1413359af156fd355923c906dc4e5eb0/pypomes_core-1.0.9.tar.gz
+[2024-05-30 00:50:41] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/48/eb/08ced347aff1ac853cf59f916133e88165be9ef20c95eedfea4d7ada05ca/pypomes_core-1.1.0.tar.gz
+[2024-05-30 00:50:41] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2024-05-30 00:50:41] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-1.0.9.tar.gz tmp/pypomes_core-1.1.0.tar.gz --markdown 20240530/p/pypomes-core/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-30 00:50:42] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.0.9.tar.gz]
+[2024-05-30 00:50:42] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.1.0.tar.gz]
+[2024-05-30 00:50:42] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2024-05-30 00:50:42] INFO root fetch - main [MainThread]: Store serial: [23438276]
