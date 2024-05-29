@@ -1044,3 +1044,18 @@ EOFError: EOF read where object expected
 [2024-05-30 00:55:06] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.9.tar.gz]
 [2024-05-30 00:55:06] INFO root fetch - main [MainThread]: End processing [Files.com]: success
 [2024-05-30 00:55:06] INFO root fetch - main [MainThread]: Store serial: [23438320]
+[2024-05-30 00:57:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438320]
+[2024-05-30 00:57:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 00:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nadl
+[2024-05-30 00:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tclwins
+[2024-05-30 00:57:15] INFO root fetch - processPackages [nadl]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-30 00:57:15] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/5f/c9/ceb531f0f0064cdb6cde674403d6d1f18d2cf43e774c7c4657be52c43a77/nadl-1.5.0.tar.gz
+[2024-05-30 00:57:15] WARNING root fetch - processPackages [tclwins]: Skipping, unable to determine old version
+[2024-05-30 00:57:15] INFO root fetch - main [MainThread]: End processing [tclwins] error
+[2024-05-30 00:57:15] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/ef/9c/2c76fb9ceaa4d3195a9476b30cb0bcc5df4a6d453aaff6309d92b42a06e7/nadl-1.5.1.tar.gz
+[2024-05-30 00:57:15] INFO root fetch - processPackages [nadl]: executing diffoscope
+[2024-05-30 00:57:15] INFO root fetch - processPackages [nadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nadl-1.5.0.tar.gz tmp/nadl-1.5.1.tar.gz --markdown 20240530/n/nadl/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-30 00:57:16] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.5.0.tar.gz]
+[2024-05-30 00:57:16] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.5.1.tar.gz]
+[2024-05-30 00:57:16] INFO root fetch - main [MainThread]: End processing [nadl]: success
+[2024-05-30 00:57:16] INFO root fetch - main [MainThread]: Store serial: [23438327]
