@@ -64,3 +64,138 @@
 [2024-05-30 00:02:20] INFO root fetch - processPackages [acryl-datahub-cloud]: Remove: archive file [/home/abi/fetcher/tmp/acryl_datahub_cloud-0.3.2rc9.tar.gz]
 [2024-05-30 00:02:20] INFO root fetch - main [MainThread]: End processing [acryl-datahub-cloud]: success
 [2024-05-30 00:02:20] INFO root fetch - main [MainThread]: Store serial: [23437889]
+[2024-05-30 00:04:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23437889]
+[2024-05-30 00:04:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-30 00:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2024-05-30 00:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agilicus
+[2024-05-30 00:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiocloudweather
+[2024-05-30 00:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cu-automata-3d
+[2024-05-30 00:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: people-local
+[2024-05-30 00:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sustaingym
+[2024-05-30 00:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iql
+[2024-05-30 00:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: abstract-factories
+[2024-05-30 00:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: viking-log-keeper
+[2024-05-30 00:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bec-widgets
+[2024-05-30 00:04:30] INFO root fetch - processPackages [people-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 00:04:30] INFO root fetch - processPackages [abstract-factories]: New version: [0.2.41] Old Version: [0.2.4]
+[2024-05-30 00:04:30] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-30 00:04:30] INFO root fetch - processPackages [iql]: New version: [1.8.5] Old Version: [1.7.2]
+[2024-05-30 00:04:30] INFO root fetch - processPackages [sustaingym]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-30 00:04:30] INFO root fetch - processPackages [people-local]: Downloading https://files.pythonhosted.org/packages/8b/1c/6315cdb848f482a3caf92189f2b65376a69c68543b2b6f4db62d865cb36e/people-local-0.0.8.tar.gz
+[2024-05-30 00:04:30] INFO root fetch - processPackages [viking-log-keeper]: New version: [1.4.0] Old Version: [1.3.2]
+[2024-05-30 00:04:30] WARNING root fetch - processPackages [aiocloudweather]: Skipping, unable to determine old version
+[2024-05-30 00:04:30] INFO root fetch - processPackages [aiocloudweather]: Start processing: new-natnet-client
+[2024-05-30 00:04:30] INFO root fetch - main [MainThread]: End processing [aiocloudweather] error
+[2024-05-30 00:04:30] WARNING root fetch - processPackages [cu-automata-3d]: Skipping, unable to determine old version
+[2024-05-30 00:04:30] INFO root fetch - main [MainThread]: End processing [cu-automata-3d] error
+[2024-05-30 00:04:30] INFO root fetch - processPackages [bec-widgets]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-30 00:04:30] INFO root fetch - processPackages [agilicus]: New version: [1.99.0] Old Version: [1.98.9]
+[2024-05-30 00:04:30] INFO root fetch - processPackages [new-natnet-client]: New version: [4.3.3] Old Version: [4.3.2]
+[2024-05-30 00:04:30] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-30 00:04:30] INFO root fetch - processPackages [abstract-factories]: Downloading https://files.pythonhosted.org/packages/9f/f3/85282c2d62dc82f5ba391f85c7974ca3458fd64a4752c7fd368f37148027/abstract_factories-0.2.4.tar.gz
+[2024-05-30 00:04:30] INFO root fetch - processPackages [new-natnet-client]: Downloading https://files.pythonhosted.org/packages/b9/f5/248c4b1079a47e736075cda97d1a2c8058b6eff1487d94bfb625f5b2794a/new_natnet_client-4.3.2.tar.gz
+[2024-05-30 00:04:30] INFO root fetch - processPackages [sustaingym]: Downloading https://files.pythonhosted.org/packages/24/73/6df9d8dc80a0d908effaf0ce2229a1cc1ac90f385318e0fb3c6789e81b9b/sustaingym-0.1.5.tar.gz
+[2024-05-30 00:04:30] INFO root fetch - processPackages [iql]: Downloading https://files.pythonhosted.org/packages/d6/d2/d762998e65973eba3175728e3080acde4d79aa4b50290066851ad0e1b75d/iql-1.7.2-py3-none-any.whl
+[2024-05-30 00:04:30] INFO root fetch - processPackages [viking-log-keeper]: Downloading https://files.pythonhosted.org/packages/c9/f5/4aa12ea54d1a412771e5640ce21900979dc5f23aec7d0cbe5ca9341fe9f8/viking-log-keeper-1.3.2.tar.gz
+[2024-05-30 00:04:30] INFO root fetch - processPackages [people-local]: Downloading https://files.pythonhosted.org/packages/cc/ba/07a77e133c7523ecf4191eb3efb5529e4cee964e55f5dff0504d09de7d34/people-local-0.0.9.tar.gz
+[2024-05-30 00:04:30] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/d4/a4/036c9cedb9f9879c6b5fee42a6aa51583c18be1eaa61ffbad1171b243b07/bec_widgets-0.8.1.tar.gz
+[2024-05-30 00:04:30] WARNING root fetch - processPackages [sustaingym]: Skipping package: exceeds size limit 78445592>=10485760
+[2024-05-30 00:04:30] INFO root fetch - main [MainThread]: End processing [sustaingym] error
+[2024-05-30 00:04:30] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-30 00:04:30] INFO root fetch - processPackages [people-local]: executing diffoscope
+[2024-05-30 00:04:30] INFO root fetch - processPackages [people-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/people-local-0.0.8.tar.gz tmp/people-local-0.0.9.tar.gz --markdown 20240530/p/people-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 00:04:30] INFO root fetch - processPackages [abstract-factories]: Downloading https://files.pythonhosted.org/packages/83/a4/adfefc40f960c2d389b6fedcb5c2a07b457d4b70afeb50c3358774d28322/abstract_factories-0.2.41.tar.gz
+[2024-05-30 00:04:30] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-30 00:04:30] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240530/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-30 00:04:30] INFO root fetch - processPackages [agilicus]: executing diffoscope
+[2024-05-30 00:04:30] INFO root fetch - processPackages [agilicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilicus-1.98.9.tar.gz tmp/agilicus-1.99.0.tar.gz --markdown 20240530/a/agilicus/1.98.9-1.99.0/README.md --exclude *.pyd
+[2024-05-30 00:04:30] INFO root fetch - processPackages [new-natnet-client]: Downloading https://files.pythonhosted.org/packages/f3/2d/f810463f2abc2b1dfd4c51f6e0c4c814d4a232a46fc0f2a2278086658c1a/new_natnet_client-4.3.3.tar.gz
+[2024-05-30 00:04:30] INFO root fetch - processPackages [iql]: Downloading https://files.pythonhosted.org/packages/cb/13/ad153d275bfef5922228d069f9f062c8b6ac861932aa693cd23c0e7541ed/iql-1.8.5.tar.gz
+[2024-05-30 00:04:30] INFO root fetch - processPackages [viking-log-keeper]: Downloading https://files.pythonhosted.org/packages/34/9b/a76c36a21e539d4110c130e04e48bd249cc972988dd2b89b944b84abc568/viking-log-keeper-1.4.0.tar.gz
+[2024-05-30 00:04:30] INFO root fetch - processPackages [abstract-factories]: executing diffoscope
+[2024-05-30 00:04:30] INFO root fetch - processPackages [abstract-factories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_factories-0.2.4.tar.gz tmp/abstract_factories-0.2.41.tar.gz --markdown 20240530/a/abstract-factories/0.2.4-0.2.41/README.md --exclude *.pyd
+[2024-05-30 00:04:30] INFO root fetch - processPackages [new-natnet-client]: executing diffoscope
+[2024-05-30 00:04:30] INFO root fetch - processPackages [new-natnet-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/new_natnet_client-4.3.2.tar.gz tmp/new_natnet_client-4.3.3.tar.gz --markdown 20240530/n/new-natnet-client/4.3.2-4.3.3/README.md --exclude *.pyd
+[2024-05-30 00:04:31] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/7b/e6/68a9811ec8510a320cd3cd5f47b87f8dd777a4f16143aeb7bd115645485b/bec_widgets-0.9.0.tar.gz
+[2024-05-30 00:04:31] INFO root fetch - processPackages [viking-log-keeper]: executing diffoscope
+[2024-05-30 00:04:31] INFO root fetch - processPackages [viking-log-keeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viking-log-keeper-1.3.2.tar.gz tmp/viking-log-keeper-1.4.0.tar.gz --markdown 20240530/v/viking-log-keeper/1.3.2-1.4.0/README.md --exclude *.pyd
+[2024-05-30 00:04:31] INFO root fetch - processPackages [iql]: executing diffoscope
+[2024-05-30 00:04:31] INFO root fetch - processPackages [iql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iql-1.7.2-py3-none-any.whl.zip tmp/iql-1.8.5.tar.gz --markdown 20240530/i/iql/1.7.2-1.8.5/README.md --exclude *.pyd
+[2024-05-30 00:04:31] INFO root fetch - processPackages [bec-widgets]: executing diffoscope
+[2024-05-30 00:04:31] INFO root fetch - processPackages [bec-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_widgets-0.8.1.tar.gz tmp/bec_widgets-0.9.0.tar.gz --markdown 20240530/b/bec-widgets/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-30 00:04:31] INFO root fetch - processPackages [people-local]: Remove: archive file [/home/abi/fetcher/tmp/people-local-0.0.8.tar.gz]
+[2024-05-30 00:04:31] INFO root fetch - processPackages [people-local]: Remove: archive file [/home/abi/fetcher/tmp/people-local-0.0.9.tar.gz]
+[2024-05-30 00:04:31] INFO root fetch - main [MainThread]: End processing [people-local]: success
+[2024-05-30 00:04:31] INFO root fetch - processPackages [abstract-factories]: Remove: archive file [/home/abi/fetcher/tmp/abstract_factories-0.2.4.tar.gz]
+[2024-05-30 00:04:31] INFO root fetch - processPackages [abstract-factories]: Remove: archive file [/home/abi/fetcher/tmp/abstract_factories-0.2.41.tar.gz]
+[2024-05-30 00:04:31] INFO root fetch - main [MainThread]: End processing [abstract-factories]: success
+[2024-05-30 00:04:31] INFO root fetch - processPackages [new-natnet-client]: Remove: archive file [/home/abi/fetcher/tmp/new_natnet_client-4.3.2.tar.gz]
+[2024-05-30 00:04:31] INFO root fetch - processPackages [new-natnet-client]: Remove: archive file [/home/abi/fetcher/tmp/new_natnet_client-4.3.3.tar.gz]
+[2024-05-30 00:04:31] INFO root fetch - main [MainThread]: End processing [new-natnet-client]: success
+[2024-05-30 00:04:31] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-30 00:04:31] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-30 00:04:31] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-30 00:04:31] INFO root fetch - processPackages [iql]: Remove: archive file [/home/abi/fetcher/tmp/iql-1.7.2-py3-none-any.whl.zip]
+[2024-05-30 00:04:31] INFO root fetch - processPackages [iql]: Remove: archive file [/home/abi/fetcher/tmp/iql-1.8.5.tar.gz]
+[2024-05-30 00:04:31] INFO root fetch - main [MainThread]: End processing [iql]: success
+[2024-05-30 00:04:31] INFO root fetch - processPackages [viking-log-keeper]: Remove: archive file [/home/abi/fetcher/tmp/viking-log-keeper-1.3.2.tar.gz]
+[2024-05-30 00:04:31] INFO root fetch - processPackages [viking-log-keeper]: Remove: archive file [/home/abi/fetcher/tmp/viking-log-keeper-1.4.0.tar.gz]
+[2024-05-30 00:04:31] INFO root fetch - main [MainThread]: End processing [viking-log-keeper]: success
+[2024-05-30 00:04:31] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.8.1.tar.gz]
+[2024-05-30 00:04:31] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.9.0.tar.gz]
+[2024-05-30 00:04:31] INFO root fetch - main [MainThread]: End processing [bec-widgets]: success
+[2024-05-30 00:04:32] ERROR root fetch - processPackages [agilicus]: Diffoscope failed: time="2024-05-30T00:04:30+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-05-30 00:04:32] INFO root fetch - main [MainThread]: End processing [agilicus] error
+[2024-05-30 00:04:32] INFO root fetch - main [MainThread]: Store serial: [23437927]
