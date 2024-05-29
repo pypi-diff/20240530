@@ -816,3 +816,60 @@ EOFError: EOF read where object expected
 [2024-05-30 00:44:10] INFO root fetch - processPackages [foundry-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/foundry_platform_sdk-0.5.0.tar.gz]
 [2024-05-30 00:44:10] INFO root fetch - main [MainThread]: End processing [foundry-platform-sdk]: success
 [2024-05-30 00:44:10] INFO root fetch - main [MainThread]: Store serial: [23438245]
+[2024-05-30 00:46:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438245]
+[2024-05-30 00:46:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: truss
+[2024-05-30 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: harambe-sdk
+[2024-05-30 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyminerva
+[2024-05-30 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-automation
+[2024-05-30 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ReverseBox
+[2024-05-30 00:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: captif-db-config
+[2024-05-30 00:46:20] INFO root fetch - processPackages [truss]: New version: [0.9.9rc4] Old Version: [0.9.9rc3]
+[2024-05-30 00:46:20] INFO root fetch - processPackages [harambe-sdk]: New version: [0.9.31] Old Version: [0.9.3]
+[2024-05-30 00:46:20] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/b0/fe/165730089543a7078c47d298684f4672008a47e0f974249692ddb97b2ea5/truss-0.9.9rc3.tar.gz
+[2024-05-30 00:46:20] INFO root fetch - processPackages [ReverseBox]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-30 00:46:20] INFO root fetch - processPackages [harambe-sdk]: Downloading https://files.pythonhosted.org/packages/8a/29/70c1e341702a75670340859abdeafbe68cb6fa274930e4b86f21ff64d611/harambe_sdk-0.9.3.tar.gz
+[2024-05-30 00:46:20] INFO root fetch - processPackages [gpt-automation]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-30 00:46:20] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-30 00:46:20] INFO root fetch - processPackages [captif-db-config]: New version: [0.9] Old Version: [0.8]
+[2024-05-30 00:46:20] INFO root fetch - processPackages [harambe-sdk]: Downloading https://files.pythonhosted.org/packages/6e/21/ff31778f4ef78ef2228b77600b97f4af048bcbd2609054e0c462863fbeb5/harambe_sdk-0.9.31.tar.gz
+[2024-05-30 00:46:20] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/8f/d7/9ca2a06c33ed80c149e8e25246ce0bb8e5a19858328ac2b9feeb6b3b9734/truss-0.9.9rc4.tar.gz
+[2024-05-30 00:46:20] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/4a/58/7a7b782237cfeaa6f4930edfd83b87995cd40b65c79be087c32798140949/ReverseBox-0.9.8.tar.gz
+[2024-05-30 00:46:20] INFO root fetch - processPackages [gpt-automation]: Downloading https://files.pythonhosted.org/packages/30/21/7beed24b1a75e3ce3bcb0e14f61803b82d1f632db3575b64ce246c9a24c7/gpt_automation-0.1.6.tar.gz
+[2024-05-30 00:46:20] INFO root fetch - processPackages [captif-db-config]: Downloading https://files.pythonhosted.org/packages/c8/5b/5c4ae473fad07231a67bd47ae7f25f9b2b30765398721e3e7739bca919a4/captif-db-config-0.8.tar.gz
+[2024-05-30 00:46:20] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-05-30 00:46:20] INFO root fetch - processPackages [harambe-sdk]: executing diffoscope
+[2024-05-30 00:46:20] INFO root fetch - processPackages [harambe-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harambe_sdk-0.9.3.tar.gz tmp/harambe_sdk-0.9.31.tar.gz --markdown 20240530/h/harambe-sdk/0.9.3-0.9.31/README.md --exclude *.pyd
+[2024-05-30 00:46:20] INFO root fetch - processPackages [truss]: executing diffoscope
+[2024-05-30 00:46:20] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.9.9rc3.tar.gz tmp/truss-0.9.9rc4.tar.gz --markdown 20240530/t/truss/0.9.9rc3-0.9.9rc4/README.md --exclude *.pyd
+[2024-05-30 00:46:21] INFO root fetch - processPackages [gpt-automation]: Downloading https://files.pythonhosted.org/packages/d2/63/59e324bec9e251c7a9ec73182c263152ee2460b5d1e583de1ca84f8f12bd/gpt_automation-0.1.7.tar.gz
+[2024-05-30 00:46:21] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-05-30 00:46:21] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/d7/8f/aa29e161586daf66c5f6fd603cf46241f860d6b15409053887e60b6bf890/ReverseBox-0.9.9.tar.gz
+[2024-05-30 00:46:21] INFO root fetch - processPackages [captif-db-config]: Downloading https://files.pythonhosted.org/packages/1a/89/bb517d0bc0ac898d127191d158eb4f8911536c0726b5b42406673432c8b5/captif-db-config-0.9.tar.gz
+[2024-05-30 00:46:21] INFO root fetch - processPackages [gpt-automation]: executing diffoscope
+[2024-05-30 00:46:21] INFO root fetch - processPackages [gpt-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_automation-0.1.6.tar.gz tmp/gpt_automation-0.1.7.tar.gz --markdown 20240530/g/gpt-automation/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-30 00:46:21] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-05-30 00:46:21] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240530/p/pyminerva/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-30 00:46:21] INFO root fetch - processPackages [captif-db-config]: executing diffoscope
+[2024-05-30 00:46:21] INFO root fetch - processPackages [captif-db-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif-db-config-0.8.tar.gz tmp/captif-db-config-0.9.tar.gz --markdown 20240530/c/captif-db-config/0.8-0.9/README.md --exclude *.pyd
+[2024-05-30 00:46:21] INFO root fetch - processPackages [ReverseBox]: executing diffoscope
+[2024-05-30 00:46:21] INFO root fetch - processPackages [ReverseBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseBox-0.9.8.tar.gz tmp/ReverseBox-0.9.9.tar.gz --markdown 20240530/R/ReverseBox/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-30 00:46:21] INFO root fetch - processPackages [harambe-sdk]: Remove: archive file [/home/abi/fetcher/tmp/harambe_sdk-0.9.3.tar.gz]
+[2024-05-30 00:46:21] INFO root fetch - processPackages [harambe-sdk]: Remove: archive file [/home/abi/fetcher/tmp/harambe_sdk-0.9.31.tar.gz]
+[2024-05-30 00:46:21] INFO root fetch - main [MainThread]: End processing [harambe-sdk]: success
+[2024-05-30 00:46:21] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-05-30 00:46:21] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-05-30 00:46:21] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-05-30 00:46:21] INFO root fetch - processPackages [gpt-automation]: Remove: archive file [/home/abi/fetcher/tmp/gpt_automation-0.1.6.tar.gz]
+[2024-05-30 00:46:21] INFO root fetch - processPackages [gpt-automation]: Remove: archive file [/home/abi/fetcher/tmp/gpt_automation-0.1.7.tar.gz]
+[2024-05-30 00:46:21] INFO root fetch - main [MainThread]: End processing [gpt-automation]: success
+[2024-05-30 00:46:22] INFO root fetch - processPackages [captif-db-config]: Remove: archive file [/home/abi/fetcher/tmp/captif-db-config-0.8.tar.gz]
+[2024-05-30 00:46:22] INFO root fetch - processPackages [captif-db-config]: Remove: archive file [/home/abi/fetcher/tmp/captif-db-config-0.9.tar.gz]
+[2024-05-30 00:46:22] INFO root fetch - main [MainThread]: End processing [captif-db-config]: success
+[2024-05-30 00:46:22] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.9rc3.tar.gz]
+[2024-05-30 00:46:22] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.9rc4.tar.gz]
+[2024-05-30 00:46:22] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2024-05-30 00:46:22] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.9.8.tar.gz]
+[2024-05-30 00:46:22] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.9.9.tar.gz]
+[2024-05-30 00:46:22] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
+[2024-05-30 00:46:22] INFO root fetch - main [MainThread]: Store serial: [23438261]
