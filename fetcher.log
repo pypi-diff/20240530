@@ -670,3 +670,15 @@ EOFError: EOF read where object expected
 [2024-05-30 00:33:20] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.1.0a9.tar.gz]
 [2024-05-30 00:33:20] INFO root fetch - main [MainThread]: End processing [structifyai]: success
 [2024-05-30 00:33:20] INFO root fetch - main [MainThread]: Store serial: [23438188]
+[2024-05-30 00:35:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438188]
+[2024-05-30 00:35:28] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 00:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databricks-genai
+[2024-05-30 00:35:28] INFO root fetch - processPackages [databricks-genai]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-30 00:35:28] INFO root fetch - processPackages [databricks-genai]: Downloading https://files.pythonhosted.org/packages/d1/d0/d4c405954ae5e3d781b77617a5f3b6b89624d6d3efb0a00440de9eae67c0/databricks_genai-1.0.2.tar.gz
+[2024-05-30 00:35:29] INFO root fetch - processPackages [databricks-genai]: Downloading https://files.pythonhosted.org/packages/f5/87/3c52c338ff7cf833d54966499a1ecd2fa6ff23e39df6c090046b986a9e7a/databricks_genai-1.0.3.tar.gz
+[2024-05-30 00:35:29] INFO root fetch - processPackages [databricks-genai]: executing diffoscope
+[2024-05-30 00:35:29] INFO root fetch - processPackages [databricks-genai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_genai-1.0.2.tar.gz tmp/databricks_genai-1.0.3.tar.gz --markdown 20240530/d/databricks-genai/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-30 00:35:29] INFO root fetch - processPackages [databricks-genai]: Remove: archive file [/home/abi/fetcher/tmp/databricks_genai-1.0.2.tar.gz]
+[2024-05-30 00:35:29] INFO root fetch - processPackages [databricks-genai]: Remove: archive file [/home/abi/fetcher/tmp/databricks_genai-1.0.3.tar.gz]
+[2024-05-30 00:35:29] INFO root fetch - main [MainThread]: End processing [databricks-genai]: success
+[2024-05-30 00:35:29] INFO root fetch - main [MainThread]: Store serial: [23438192]
