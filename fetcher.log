@@ -448,3 +448,51 @@ EOFError: EOF read where object expected
 [2024-05-30 00:19:59] INFO root fetch - processPackages [agentql]: Remove: archive file [/home/abi/fetcher/tmp/agentql-0.4.6.tar.gz]
 [2024-05-30 00:19:59] INFO root fetch - main [MainThread]: End processing [agentql]: success
 [2024-05-30 00:19:59] INFO root fetch - main [MainThread]: Store serial: [23438107]
+[2024-05-30 00:22:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438107]
+[2024-05-30 00:22:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 00:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MethodicConfigurator
+[2024-05-30 00:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ruleset-checking-tool
+[2024-05-30 00:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MORALS
+[2024-05-30 00:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python3-commons
+[2024-05-30 00:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gnida
+[2024-05-30 00:22:08] INFO root fetch - processPackages [python3-commons]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-30 00:22:08] INFO root fetch - processPackages [gnida]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-30 00:22:08] INFO root fetch - processPackages [ruleset-checking-tool]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-30 00:22:08] INFO root fetch - processPackages [MethodicConfigurator]: New version: [0.6.4] Old Version: [0.6.1]
+[2024-05-30 00:22:08] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/35/29/04bb622e2626fb498390aa890931f4ff04502353ea36a199be8493c0f44f/python3_commons-0.5.3.tar.gz
+[2024-05-30 00:22:08] INFO root fetch - processPackages [gnida]: Downloading https://files.pythonhosted.org/packages/1a/6b/b7f4d2f68613762306dac916d39bb0b98c1228651a076676ec3fb32cff7d/gnida-0.0.7.tar.gz
+[2024-05-30 00:22:08] INFO root fetch - processPackages [MORALS]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-30 00:22:09] INFO root fetch - processPackages [MethodicConfigurator]: Downloading https://files.pythonhosted.org/packages/94/cc/96054bf1e0393ff2f2a23df6a898952c18b5c3c621791c4e0f0f1102ebe5/methodicconfigurator-0.6.1.tar.gz
+[2024-05-30 00:22:09] INFO root fetch - processPackages [MORALS]: Downloading https://files.pythonhosted.org/packages/b8/79/685683a8d6834cf53bfa811b21840468d96f63b66a23df15ec8425802e6a/MORALS-0.1.1.tar.gz
+[2024-05-30 00:22:09] INFO root fetch - processPackages [ruleset-checking-tool]: Downloading https://files.pythonhosted.org/packages/bf/18/329eb43b61b91afc13cfe28c33e6ea7add4f8b2def7a9abeaca557ef4583/ruleset_checking_tool-0.2.6.tar.gz
+[2024-05-30 00:22:09] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/23/4b/20ca9e8267016317972d2180441a0ac28a905defeb73888aa900baa1d355/python3_commons-0.5.4.tar.gz
+[2024-05-30 00:22:09] INFO root fetch - processPackages [gnida]: Downloading https://files.pythonhosted.org/packages/aa/5a/a25fe22ea69d2648cf176ceaefbafa07c7a2269f356374053ac34e1e2774/gnida-0.0.9.tar.gz
+[2024-05-30 00:22:09] INFO root fetch - processPackages [gnida]: executing diffoscope
+[2024-05-30 00:22:09] INFO root fetch - processPackages [gnida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnida-0.0.7.tar.gz tmp/gnida-0.0.9.tar.gz --markdown 20240530/g/gnida/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-30 00:22:09] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2024-05-30 00:22:09] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3_commons-0.5.3.tar.gz tmp/python3_commons-0.5.4.tar.gz --markdown 20240530/p/python3-commons/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-30 00:22:09] INFO root fetch - processPackages [MORALS]: Downloading https://files.pythonhosted.org/packages/c5/2d/de532ef0097ce6cc2026d59b9aabf7fb39ac099ef361e8b984417337070d/morals-0.1.2.tar.gz
+[2024-05-30 00:22:09] INFO root fetch - processPackages [MethodicConfigurator]: Downloading https://files.pythonhosted.org/packages/ca/11/54154fc47d670b6dbcfa4bf29bdfac8558525dc52be4988f03d29ff64d1b/methodicconfigurator-0.6.4.tar.gz
+[2024-05-30 00:22:09] INFO root fetch - processPackages [MORALS]: executing diffoscope
+[2024-05-30 00:22:09] INFO root fetch - processPackages [MORALS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MORALS-0.1.1.tar.gz tmp/morals-0.1.2.tar.gz --markdown 20240530/M/MORALS/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-30 00:22:09] INFO root fetch - processPackages [ruleset-checking-tool]: Downloading https://files.pythonhosted.org/packages/31/67/aed49d40982c07aa501c3989e8e5ca6e73ddb577338c358715ee68ad5459/ruleset_checking_tool-0.2.7.tar.gz
+[2024-05-30 00:22:09] INFO root fetch - processPackages [MethodicConfigurator]: executing diffoscope
+[2024-05-30 00:22:09] INFO root fetch - processPackages [MethodicConfigurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/methodicconfigurator-0.6.1.tar.gz tmp/methodicconfigurator-0.6.4.tar.gz --markdown 20240530/M/MethodicConfigurator/0.6.1-0.6.4/README.md --exclude *.pyd
+[2024-05-30 00:22:10] INFO root fetch - processPackages [gnida]: Remove: archive file [/home/abi/fetcher/tmp/gnida-0.0.7.tar.gz]
+[2024-05-30 00:22:10] INFO root fetch - processPackages [gnida]: Remove: archive file [/home/abi/fetcher/tmp/gnida-0.0.9.tar.gz]
+[2024-05-30 00:22:10] INFO root fetch - main [MainThread]: End processing [gnida]: success
+[2024-05-30 00:22:10] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3_commons-0.5.3.tar.gz]
+[2024-05-30 00:22:10] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3_commons-0.5.4.tar.gz]
+[2024-05-30 00:22:10] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2024-05-30 00:22:10] INFO root fetch - processPackages [MORALS]: Remove: archive file [/home/abi/fetcher/tmp/MORALS-0.1.1.tar.gz]
+[2024-05-30 00:22:10] INFO root fetch - processPackages [MORALS]: Remove: archive file [/home/abi/fetcher/tmp/morals-0.1.2.tar.gz]
+[2024-05-30 00:22:10] INFO root fetch - main [MainThread]: End processing [MORALS]: success
+[2024-05-30 00:22:10] INFO root fetch - processPackages [ruleset-checking-tool]: executing diffoscope
+[2024-05-30 00:22:10] INFO root fetch - processPackages [ruleset-checking-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruleset_checking_tool-0.2.6.tar.gz tmp/ruleset_checking_tool-0.2.7.tar.gz --markdown 20240530/r/ruleset-checking-tool/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-30 00:22:16] INFO root fetch - processPackages [MethodicConfigurator]: Remove: archive file [/home/abi/fetcher/tmp/methodicconfigurator-0.6.1.tar.gz]
+[2024-05-30 00:22:16] INFO root fetch - processPackages [MethodicConfigurator]: Remove: archive file [/home/abi/fetcher/tmp/methodicconfigurator-0.6.4.tar.gz]
+[2024-05-30 00:22:16] INFO root fetch - main [MainThread]: End processing [MethodicConfigurator]: success
+[2024-05-30 00:22:22] INFO root fetch - processPackages [ruleset-checking-tool]: Remove: archive file [/home/abi/fetcher/tmp/ruleset_checking_tool-0.2.6.tar.gz]
+[2024-05-30 00:22:22] INFO root fetch - processPackages [ruleset-checking-tool]: Remove: archive file [/home/abi/fetcher/tmp/ruleset_checking_tool-0.2.7.tar.gz]
+[2024-05-30 00:22:22] INFO root fetch - main [MainThread]: End processing [ruleset-checking-tool]: success
+[2024-05-30 00:22:22] INFO root fetch - main [MainThread]: Store serial: [23438124]
