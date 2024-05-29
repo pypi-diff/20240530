@@ -544,3 +544,36 @@ EOFError: EOF read where object expected
 [2024-05-30 00:24:37] INFO root fetch - processPackages [immanuel]: Remove: archive file [/home/abi/fetcher/tmp/immanuel-1.4.1-py3-none-any.whl.zip]
 [2024-05-30 00:24:37] INFO root fetch - main [MainThread]: End processing [immanuel]: success
 [2024-05-30 00:24:37] INFO root fetch - main [MainThread]: Store serial: [23438140]
+[2024-05-30 00:26:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438140]
+[2024-05-30 00:26:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 00:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: immanuel
+[2024-05-30 00:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exploitfarm
+[2024-05-30 00:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: storyweaver
+[2024-05-30 00:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otaku-watcher
+[2024-05-30 00:26:46] INFO root fetch - processPackages [immanuel]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-30 00:26:46] INFO root fetch - processPackages [exploitfarm]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 00:26:46] INFO root fetch - processPackages [otaku-watcher]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-30 00:26:46] WARNING root fetch - processPackages [storyweaver]: Skipping, unable to determine old version
+[2024-05-30 00:26:46] INFO root fetch - main [MainThread]: End processing [storyweaver] error
+[2024-05-30 00:26:46] INFO root fetch - processPackages [immanuel]: Downloading https://files.pythonhosted.org/packages/dc/c1/9dc895bfa469b2d932d81efaffb3c77638ea49ce0c2333f9af6a72c9b1b3/immanuel-1.4.0.tar.gz
+[2024-05-30 00:26:46] INFO root fetch - processPackages [otaku-watcher]: Downloading https://files.pythonhosted.org/packages/78/89/45c8da17dd56e5b9d3c87efc10cc3fcd9351b6abceae60044f39f5ec9b9f/otaku_watcher-1.1.5.tar.gz
+[2024-05-30 00:26:46] INFO root fetch - processPackages [exploitfarm]: Downloading https://files.pythonhosted.org/packages/65/9e/a3b14a64aa6e5d32bcb57eb95f7d61a7ac4a25c89b4a44c3c530d99eb834/exploitfarm-0.1.0.tar.gz
+[2024-05-30 00:26:47] INFO root fetch - processPackages [otaku-watcher]: Downloading https://files.pythonhosted.org/packages/df/4c/746cc3ce284eb3bb3cbc9dd01bca9f9abfaff6741fd6a8fc26aaeb51afc7/otaku_watcher-1.1.6.tar.gz
+[2024-05-30 00:26:47] INFO root fetch - processPackages [immanuel]: Downloading https://files.pythonhosted.org/packages/b6/03/335d7b85736774609e87cc53fae3bd77199bfe2667ceb6c29406063a530c/immanuel-1.4.1-py3-none-any.whl
+[2024-05-30 00:26:47] INFO root fetch - processPackages [exploitfarm]: Downloading https://files.pythonhosted.org/packages/e3/1a/6f3b7ad18ebc6fc06c47776dbf1ef92c0111cb3780efef61f103ef38d86a/exploitfarm-0.1.1.tar.gz
+[2024-05-30 00:26:47] INFO root fetch - processPackages [otaku-watcher]: executing diffoscope
+[2024-05-30 00:26:47] INFO root fetch - processPackages [otaku-watcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otaku_watcher-1.1.5.tar.gz tmp/otaku_watcher-1.1.6.tar.gz --markdown 20240530/o/otaku-watcher/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-30 00:26:47] INFO root fetch - processPackages [exploitfarm]: executing diffoscope
+[2024-05-30 00:26:47] INFO root fetch - processPackages [exploitfarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exploitfarm-0.1.0.tar.gz tmp/exploitfarm-0.1.1.tar.gz --markdown 20240530/e/exploitfarm/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 00:26:47] INFO root fetch - processPackages [immanuel]: executing diffoscope
+[2024-05-30 00:26:47] INFO root fetch - processPackages [immanuel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immanuel-1.4.0.tar.gz tmp/immanuel-1.4.1-py3-none-any.whl.zip --markdown 20240530/i/immanuel/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-30 00:26:47] INFO root fetch - processPackages [otaku-watcher]: Remove: archive file [/home/abi/fetcher/tmp/otaku_watcher-1.1.5.tar.gz]
+[2024-05-30 00:26:47] INFO root fetch - processPackages [otaku-watcher]: Remove: archive file [/home/abi/fetcher/tmp/otaku_watcher-1.1.6.tar.gz]
+[2024-05-30 00:26:47] INFO root fetch - main [MainThread]: End processing [otaku-watcher]: success
+[2024-05-30 00:26:48] INFO root fetch - processPackages [exploitfarm]: Remove: archive file [/home/abi/fetcher/tmp/exploitfarm-0.1.0.tar.gz]
+[2024-05-30 00:26:48] INFO root fetch - processPackages [exploitfarm]: Remove: archive file [/home/abi/fetcher/tmp/exploitfarm-0.1.1.tar.gz]
+[2024-05-30 00:26:48] INFO root fetch - main [MainThread]: End processing [exploitfarm]: success
+[2024-05-30 00:26:48] INFO root fetch - processPackages [immanuel]: Remove: archive file [/home/abi/fetcher/tmp/immanuel-1.4.0.tar.gz]
+[2024-05-30 00:26:48] INFO root fetch - processPackages [immanuel]: Remove: archive file [/home/abi/fetcher/tmp/immanuel-1.4.1-py3-none-any.whl.zip]
+[2024-05-30 00:26:48] INFO root fetch - main [MainThread]: End processing [immanuel]: success
+[2024-05-30 00:26:48] INFO root fetch - main [MainThread]: Store serial: [23438156]
