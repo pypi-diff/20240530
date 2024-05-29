@@ -757,3 +757,15 @@ EOFError: EOF read where object expected
 [2024-05-30 00:37:40] INFO root fetch - processPackages [vht]: Remove: archive file [/home/abi/fetcher/tmp/vht-0.3.96.tar.gz]
 [2024-05-30 00:37:40] INFO root fetch - main [MainThread]: End processing [vht]: success
 [2024-05-30 00:37:40] INFO root fetch - main [MainThread]: Store serial: [23438224]
+[2024-05-30 00:39:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438224]
+[2024-05-30 00:39:49] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 00:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdo-sdk-python
+[2024-05-30 00:39:49] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-30 00:39:49] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-30 00:39:49] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-30 00:39:49] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-30 00:39:49] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240530/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-30 00:39:50] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-30 00:39:50] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-30 00:39:50] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-30 00:39:50] INFO root fetch - main [MainThread]: Store serial: [23438228]
