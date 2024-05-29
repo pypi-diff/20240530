@@ -1229,3 +1229,33 @@ EOFError: EOF read where object expected
 [2024-05-30 01:12:27] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-1.9.tar.gz]
 [2024-05-30 01:12:27] INFO root fetch - main [MainThread]: End processing [convocations]: success
 [2024-05-30 01:12:27] INFO root fetch - main [MainThread]: Store serial: [23438389]
+[2024-05-30 01:14:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438389]
+[2024-05-30 01:14:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 01:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qualipy
+[2024-05-30 01:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xtracto
+[2024-05-30 01:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: punkweb-bb
+[2024-05-30 01:14:36] INFO root fetch - processPackages [punkweb-bb]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-30 01:14:36] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/ee/16/13bb964071188de47516885f6e00ad5daa2f5d1ffd570f7574db60e7dc44/punkweb_bb-0.2.1.tar.gz
+[2024-05-30 01:14:36] INFO root fetch - processPackages [qualipy]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-30 01:14:36] INFO root fetch - processPackages [xtracto]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-30 01:14:36] INFO root fetch - processPackages [qualipy]: Downloading https://files.pythonhosted.org/packages/61/b8/790127b2f487e86c354e0304b066eeddde0470dbc450c16da3ff051bcdff/qualipy-1.1.0.tar.gz
+[2024-05-30 01:14:36] INFO root fetch - processPackages [xtracto]: Downloading https://files.pythonhosted.org/packages/fc/e8/d2dc07a39c5ea3f9b26fe95c2729788b2776f078df7e898bb357bfcebefe/xtracto-0.0.4.tar.gz
+[2024-05-30 01:14:37] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/82/7d/d1214c865b02176d5387baa3da675bc1f9d5248159f246e54c8f70de47ea/punkweb_bb-0.2.2.tar.gz
+[2024-05-30 01:14:37] INFO root fetch - processPackages [qualipy]: Downloading https://files.pythonhosted.org/packages/82/e1/8eb125ae5ecc469d15aac4ab4b94dd2c92bedc6b3950acca05b9c31f3ae9/qualipy-1.1.1.tar.gz
+[2024-05-30 01:14:37] INFO root fetch - processPackages [xtracto]: Downloading https://files.pythonhosted.org/packages/40/62/dfe5848e3427db6c9693f4fbb392130283bb1c7d217d1e3485d24fe109d6/xtracto-0.0.5.tar.gz
+[2024-05-30 01:14:37] INFO root fetch - processPackages [punkweb-bb]: executing diffoscope
+[2024-05-30 01:14:37] INFO root fetch - processPackages [punkweb-bb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punkweb_bb-0.2.1.tar.gz tmp/punkweb_bb-0.2.2.tar.gz --markdown 20240530/p/punkweb-bb/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-30 01:14:37] INFO root fetch - processPackages [qualipy]: executing diffoscope
+[2024-05-30 01:14:37] INFO root fetch - processPackages [qualipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualipy-1.1.0.tar.gz tmp/qualipy-1.1.1.tar.gz --markdown 20240530/q/qualipy/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-30 01:14:37] INFO root fetch - processPackages [xtracto]: executing diffoscope
+[2024-05-30 01:14:37] INFO root fetch - processPackages [xtracto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtracto-0.0.4.tar.gz tmp/xtracto-0.0.5.tar.gz --markdown 20240530/x/xtracto/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-30 01:14:37] INFO root fetch - processPackages [qualipy]: Remove: archive file [/home/abi/fetcher/tmp/qualipy-1.1.0.tar.gz]
+[2024-05-30 01:14:37] INFO root fetch - processPackages [qualipy]: Remove: archive file [/home/abi/fetcher/tmp/qualipy-1.1.1.tar.gz]
+[2024-05-30 01:14:37] INFO root fetch - main [MainThread]: End processing [qualipy]: success
+[2024-05-30 01:14:38] INFO root fetch - processPackages [xtracto]: Remove: archive file [/home/abi/fetcher/tmp/xtracto-0.0.4.tar.gz]
+[2024-05-30 01:14:38] INFO root fetch - processPackages [xtracto]: Remove: archive file [/home/abi/fetcher/tmp/xtracto-0.0.5.tar.gz]
+[2024-05-30 01:14:38] INFO root fetch - main [MainThread]: End processing [xtracto]: success
+[2024-05-30 01:14:38] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.2.1.tar.gz]
+[2024-05-30 01:14:38] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.2.2.tar.gz]
+[2024-05-30 01:14:38] INFO root fetch - main [MainThread]: End processing [punkweb-bb]: success
+[2024-05-30 01:14:38] INFO root fetch - main [MainThread]: Store serial: [23438399]
