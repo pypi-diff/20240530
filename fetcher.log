@@ -1784,3 +1784,42 @@ EOFError: EOF read where object expected
 [2024-05-30 01:51:30] INFO root fetch - processPackages [nextstrain-cli]: Remove: archive file [/home/abi/fetcher/tmp/nextstrain_cli-8.3.0.tar.gz]
 [2024-05-30 01:51:30] INFO root fetch - main [MainThread]: End processing [nextstrain-cli]: success
 [2024-05-30 01:51:30] INFO root fetch - main [MainThread]: Store serial: [23438584]
+[2024-05-30 01:53:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438584]
+[2024-05-30 01:53:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: svg-ultralight
+[2024-05-30 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inngest
+[2024-05-30 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evo-framework
+[2024-05-30 01:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mesop
+[2024-05-30 01:53:39] INFO root fetch - processPackages [evo-framework]: New version: [2024.5.32] Old Version: [2024.5.31]
+[2024-05-30 01:53:39] INFO root fetch - processPackages [inngest]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-30 01:53:39] INFO root fetch - processPackages [svg-ultralight]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-30 01:53:39] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/04/fb/96f5b004a38c710348e86fe1e0aff3c99d05363570cfbdb660e322eb9857/evo_framework-2024.5.31.tar.gz
+[2024-05-30 01:53:39] INFO root fetch - processPackages [mesop]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-30 01:53:39] INFO root fetch - processPackages [svg-ultralight]: Downloading https://files.pythonhosted.org/packages/8d/82/ff6a14335591a3825078854462c3d572b43c2991ea316cbf69e09a7b3573/svg_ultralight-0.8.2.tar.gz
+[2024-05-30 01:53:39] INFO root fetch - processPackages [inngest]: Downloading https://files.pythonhosted.org/packages/4e/be/6af3c80e98198eaf9d43381f17fb76dd8fd86e8c650e9598c2b9ed0d742c/inngest-0.3.8.tar.gz
+[2024-05-30 01:53:39] INFO root fetch - processPackages [svg-ultralight]: Downloading https://files.pythonhosted.org/packages/1c/73/43e2a4c495a8fe97fa74642c7884ba3b040c603c744d8fb23adb4408eef7/svg_ultralight-0.9.0.tar.gz
+[2024-05-30 01:53:39] INFO root fetch - processPackages [mesop]: Downloading https://files.pythonhosted.org/packages/c2/7a/772d508006f27bbb2c8c1df179d4544fb04072e6b45c6cae6b08ea69d910/mesop-0.6.0-py3-none-any.whl
+[2024-05-30 01:53:39] INFO root fetch - processPackages [inngest]: Downloading https://files.pythonhosted.org/packages/3f/8b/d12f3e2af00158cfea42533c98f19e9f4700781bcac2b601473d5f9446f0/inngest-0.3.9.tar.gz
+[2024-05-30 01:53:39] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/f9/7e/ebaf95b6f61298b417f022f59bb82dc9f661b6fd0cd5f136eccaf2d89f7b/evo_framework-2024.5.32.tar.gz
+[2024-05-30 01:53:39] INFO root fetch - processPackages [svg-ultralight]: executing diffoscope
+[2024-05-30 01:53:39] INFO root fetch - processPackages [svg-ultralight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svg_ultralight-0.8.2.tar.gz tmp/svg_ultralight-0.9.0.tar.gz --markdown 20240530/s/svg-ultralight/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-30 01:53:39] INFO root fetch - processPackages [inngest]: executing diffoscope
+[2024-05-30 01:53:39] INFO root fetch - processPackages [inngest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inngest-0.3.8.tar.gz tmp/inngest-0.3.9.tar.gz --markdown 20240530/i/inngest/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-30 01:53:39] INFO root fetch - processPackages [evo-framework]: executing diffoscope
+[2024-05-30 01:53:39] INFO root fetch - processPackages [evo-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_framework-2024.5.31.tar.gz tmp/evo_framework-2024.5.32.tar.gz --markdown 20240530/e/evo-framework/2024.5.31-2024.5.32/README.md --exclude *.pyd
+[2024-05-30 01:53:40] INFO root fetch - processPackages [svg-ultralight]: Remove: archive file [/home/abi/fetcher/tmp/svg_ultralight-0.8.2.tar.gz]
+[2024-05-30 01:53:40] INFO root fetch - processPackages [svg-ultralight]: Remove: archive file [/home/abi/fetcher/tmp/svg_ultralight-0.9.0.tar.gz]
+[2024-05-30 01:53:40] INFO root fetch - main [MainThread]: End processing [svg-ultralight]: success
+[2024-05-30 01:53:40] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.31.tar.gz]
+[2024-05-30 01:53:40] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.32.tar.gz]
+[2024-05-30 01:53:40] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
+[2024-05-30 01:53:40] INFO root fetch - processPackages [inngest]: Remove: archive file [/home/abi/fetcher/tmp/inngest-0.3.8.tar.gz]
+[2024-05-30 01:53:40] INFO root fetch - processPackages [inngest]: Remove: archive file [/home/abi/fetcher/tmp/inngest-0.3.9.tar.gz]
+[2024-05-30 01:53:40] INFO root fetch - main [MainThread]: End processing [inngest]: success
+[2024-05-30 01:53:40] INFO root fetch - processPackages [mesop]: Downloading https://files.pythonhosted.org/packages/ac/02/9613beea81708066fabec818ddd6e9442c8e8bcdc9098a838b7aeb4e98f3/mesop-0.7.0-py3-none-any.whl
+[2024-05-30 01:53:41] INFO root fetch - processPackages [mesop]: executing diffoscope
+[2024-05-30 01:53:41] INFO root fetch - processPackages [mesop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesop-0.6.0-py3-none-any.whl.zip tmp/mesop-0.7.0-py3-none-any.whl.zip --markdown 20240530/m/mesop/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-30 01:56:25] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.6.0-py3-none-any.whl.zip]
+[2024-05-30 01:56:25] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.7.0-py3-none-any.whl.zip]
+[2024-05-30 01:56:25] INFO root fetch - main [MainThread]: End processing [mesop]: success
+[2024-05-30 01:56:25] INFO root fetch - main [MainThread]: Store serial: [23438595]
