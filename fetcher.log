@@ -1497,3 +1497,47 @@ EOFError: EOF read where object expected
 [2024-05-30 01:32:18] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.9.tar.gz]
 [2024-05-30 01:32:18] INFO root fetch - main [MainThread]: End processing [camera-ui-python-types]: success
 [2024-05-30 01:32:18] INFO root fetch - main [MainThread]: Store serial: [23438479]
+[2024-05-30 01:34:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438479]
+[2024-05-30 01:34:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 01:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: palimpzest
+[2024-05-30 01:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kdp-python-connector
+[2024-05-30 01:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marimo
+[2024-05-30 01:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: homeassistant
+[2024-05-30 01:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evo-framework
+[2024-05-30 01:34:27] INFO root fetch - processPackages [palimpzest]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-30 01:34:27] INFO root fetch - processPackages [evo-framework]: New version: [2024.5.29] Old Version: [2024.5.28]
+[2024-05-30 01:34:27] INFO root fetch - processPackages [marimo]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-30 01:34:27] INFO root fetch - processPackages [homeassistant]: New version: [2024.6.0b1] Old Version: [2024.6.0b0]
+[2024-05-30 01:34:27] INFO root fetch - processPackages [kdp-python-connector]: New version: [0.67.0] Old Version: [0.66.0]
+[2024-05-30 01:34:27] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/2f/d3/ee69bc89e7a8f49da0ec7d2790768fb894a76ca21098995c19cd3dde465f/palimpzest-0.1.1.tar.gz
+[2024-05-30 01:34:27] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/14/5f/e754fdc3884fc193a1a38b2198c82cb12795bcd7046ea53ca1da3e721956/evo_framework-2024.5.28.tar.gz
+[2024-05-30 01:34:27] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/19/5f/6b5db5b8ac67c260b7eea913c5d8abe965b5d57e7696b72a86c0ec1e0210/marimo-0.6.8.tar.gz
+[2024-05-30 01:34:27] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/44/69/cbfce1b2ba2d49fce027c11831608a58a3a159464ec083cbf8c4b57e1a25/homeassistant-2024.6.0b0.tar.gz
+[2024-05-30 01:34:27] INFO root fetch - processPackages [kdp-python-connector]: Downloading https://files.pythonhosted.org/packages/9b/c2/871fc5f09d4f1590ba0dbbdc0a07cae580909f441bf064624c3321586f1c/kdp-python-connector-0.66.0.tar.gz
+[2024-05-30 01:34:27] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 21176370>=10485760
+[2024-05-30 01:34:27] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2024-05-30 01:34:27] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/f0/b5/bd0388e9f3bdc75b51adedf7b235927ab1b81462c1683713c21e23880b2a/palimpzest-0.1.2.tar.gz
+[2024-05-30 01:34:27] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/a1/e6/b0ce4f86f0bdd06b02ea0a53232d26f35128dcdaa9f667b1b18b21142cfc/evo_framework-2024.5.29.tar.gz
+[2024-05-30 01:34:27] INFO root fetch - processPackages [palimpzest]: executing diffoscope
+[2024-05-30 01:34:27] INFO root fetch - processPackages [palimpzest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palimpzest-0.1.1.tar.gz tmp/palimpzest-0.1.2.tar.gz --markdown 20240530/p/palimpzest/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-30 01:34:27] INFO root fetch - processPackages [evo-framework]: executing diffoscope
+[2024-05-30 01:34:27] INFO root fetch - processPackages [evo-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_framework-2024.5.28.tar.gz tmp/evo_framework-2024.5.29.tar.gz --markdown 20240530/e/evo-framework/2024.5.28-2024.5.29/README.md --exclude *.pyd
+[2024-05-30 01:34:27] INFO root fetch - processPackages [kdp-python-connector]: Downloading https://files.pythonhosted.org/packages/26/20/38200c837ce69cd2028fc93f53cd4f2bd72bf0929ca355f5c5cee7c4581a/kdp-python-connector-0.67.0.tar.gz
+[2024-05-30 01:34:27] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/d9/2f/1dac346e018161bfdf470f31116359ece9b1f32e1b0ed9e7f5edddf31f05/marimo-0.6.9.tar.gz
+[2024-05-30 01:34:27] INFO root fetch - processPackages [kdp-python-connector]: executing diffoscope
+[2024-05-30 01:34:27] INFO root fetch - processPackages [kdp-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-python-connector-0.66.0.tar.gz tmp/kdp-python-connector-0.67.0.tar.gz --markdown 20240530/k/kdp-python-connector/0.66.0-0.67.0/README.md --exclude *.pyd
+[2024-05-30 01:34:28] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.1.tar.gz]
+[2024-05-30 01:34:28] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.2.tar.gz]
+[2024-05-30 01:34:28] INFO root fetch - main [MainThread]: End processing [palimpzest]: success
+[2024-05-30 01:34:28] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.28.tar.gz]
+[2024-05-30 01:34:28] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.29.tar.gz]
+[2024-05-30 01:34:28] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
+[2024-05-30 01:34:28] INFO root fetch - processPackages [kdp-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/kdp-python-connector-0.66.0.tar.gz]
+[2024-05-30 01:34:28] INFO root fetch - processPackages [kdp-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/kdp-python-connector-0.67.0.tar.gz]
+[2024-05-30 01:34:28] INFO root fetch - main [MainThread]: End processing [kdp-python-connector]: success
+[2024-05-30 01:34:28] INFO root fetch - processPackages [marimo]: executing diffoscope
+[2024-05-30 01:34:28] INFO root fetch - processPackages [marimo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marimo-0.6.8.tar.gz tmp/marimo-0.6.9.tar.gz --markdown 20240530/m/marimo/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-30 01:36:11] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.6.8.tar.gz]
+[2024-05-30 01:36:11] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.6.9.tar.gz]
+[2024-05-30 01:36:11] INFO root fetch - main [MainThread]: End processing [marimo]: success
+[2024-05-30 01:36:11] INFO root fetch - main [MainThread]: Store serial: [23438494]
