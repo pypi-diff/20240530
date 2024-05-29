@@ -1308,3 +1308,72 @@ EOFError: EOF read where object expected
 [2024-05-30 01:18:59] INFO root fetch - processPackages [devsecops-engine-tools]: Remove: archive file [/home/abi/fetcher/tmp/devsecops_engine_tools-1.7.9.tar.gz]
 [2024-05-30 01:18:59] INFO root fetch - main [MainThread]: End processing [devsecops-engine-tools]: success
 [2024-05-30 01:18:59] INFO root fetch - main [MainThread]: Store serial: [23438417]
+[2024-05-30 01:21:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438417]
+[2024-05-30 01:21:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 01:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-05-30 01:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycoare
+[2024-05-30 01:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-databricks
+[2024-05-30 01:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cocnc
+[2024-05-30 01:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dante-corpora
+[2024-05-30 01:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python3-commons
+[2024-05-30 01:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evo-framework
+[2024-05-30 01:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rococo-prod
+[2024-05-30 01:21:07] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2024-05-30 01:21:07] INFO root fetch - processPackages [evo-framework]: New version: [2024.5.28] Old Version: [2024.5.27]
+[2024-05-30 01:21:07] INFO root fetch - processPackages [dante-corpora]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-30 01:21:07] INFO root fetch - processPackages [cocnc]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 01:21:07] INFO root fetch - processPackages [python3-commons]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-30 01:21:07] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240529152006] Old Version: [3.4.1.dev20240529133213]
+[2024-05-30 01:21:07] INFO root fetch - processPackages [pycoare]: New version: [2023.4a5] Old Version: [2023.4a4]
+[2024-05-30 01:21:07] WARNING root fetch - processPackages [rococo-prod]: Skipping, unable to determine old version
+[2024-05-30 01:21:07] INFO root fetch - main [MainThread]: End processing [rococo-prod] error
+[2024-05-30 01:21:07] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2024-05-30 01:21:07] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/a5/dc/ae8564183b5e049b6440028ed7791435b04ebeace0e5905cf627360c32ec/evo_framework-2024.5.27.tar.gz
+[2024-05-30 01:21:07] INFO root fetch - processPackages [dante-corpora]: Downloading https://files.pythonhosted.org/packages/19/2d/35a258faef25de98c0e1ad81b8f2c9e9bef64c503a6c384647a3714ca230/dante_corpora-1.0.1.tar.gz
+[2024-05-30 01:21:07] INFO root fetch - processPackages [cocnc]: Downloading https://files.pythonhosted.org/packages/8f/53/d222655a3184119ad7235757e60bc9421995dfdb5c684744be497a60ccbe/cocnc-0.1.8.tar.gz
+[2024-05-30 01:21:07] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/42/b8/81aab350517f350672bf21d3af2063d573b06fc0a71c8a9b140b1baf68e8/localstack_core-3.4.1.dev20240529133213.tar.gz
+[2024-05-30 01:21:07] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/23/4b/20ca9e8267016317972d2180441a0ac28a905defeb73888aa900baa1d355/python3_commons-0.5.4.tar.gz
+[2024-05-30 01:21:07] INFO root fetch - processPackages [pycoare]: Downloading https://files.pythonhosted.org/packages/de/4f/8d8aef3dc34d331e96e5232a9294b285af4f22845ade5fa7a197aae23a44/pycoare-2023.4a4.tar.gz
+[2024-05-30 01:21:07] INFO root fetch - processPackages [cocnc]: Downloading https://files.pythonhosted.org/packages/11/0f/d418ca5d8390c074d4d2fd32a3827a7818cd87da671aac1f78d0a1df1d76/cocnc-0.1.9.tar.gz
+[2024-05-30 01:21:07] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2024-05-30 01:21:07] INFO root fetch - processPackages [dante-corpora]: Downloading https://files.pythonhosted.org/packages/19/e6/ecaef7e6903f1c0423ee7814cdfd1af518d7f62664be9015b2ba33eccae8/dante_corpora-1.0.2.tar.gz
+[2024-05-30 01:21:08] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/14/5f/e754fdc3884fc193a1a38b2198c82cb12795bcd7046ea53ca1da3e721956/evo_framework-2024.5.28.tar.gz
+[2024-05-30 01:21:08] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/4c/09/e5b1b95bc3774117a7067e8feb93de75349fdc5c464c624af4df47f82b3b/python3_commons-0.5.5.tar.gz
+[2024-05-30 01:21:08] INFO root fetch - processPackages [cocnc]: executing diffoscope
+[2024-05-30 01:21:08] INFO root fetch - processPackages [cocnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocnc-0.1.8.tar.gz tmp/cocnc-0.1.9.tar.gz --markdown 20240530/c/cocnc/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 01:21:08] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2024-05-30 01:21:08] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20240530/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/README.md --exclude *.pyd
+[2024-05-30 01:21:08] INFO root fetch - processPackages [pycoare]: Downloading https://files.pythonhosted.org/packages/4f/52/c3815e52c302b22964c753f8d746161f6a4a47cd9bda60e4403b98a73e39/pycoare-2023.4a5.tar.gz
+[2024-05-30 01:21:08] INFO root fetch - processPackages [evo-framework]: executing diffoscope
+[2024-05-30 01:21:08] INFO root fetch - processPackages [evo-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_framework-2024.5.27.tar.gz tmp/evo_framework-2024.5.28.tar.gz --markdown 20240530/e/evo-framework/2024.5.27-2024.5.28/README.md --exclude *.pyd
+[2024-05-30 01:21:08] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/89/a9/1563b6081f2a56502c7b955ddd1f119e4b986110e8738ae359b02ecd3f8f/localstack_core-3.4.1.dev20240529152006.tar.gz
+[2024-05-30 01:21:08] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2024-05-30 01:21:08] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3_commons-0.5.4.tar.gz tmp/python3_commons-0.5.5.tar.gz --markdown 20240530/p/python3-commons/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-30 01:21:08] INFO root fetch - processPackages [dante-corpora]: executing diffoscope
+[2024-05-30 01:21:08] INFO root fetch - processPackages [dante-corpora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dante_corpora-1.0.1.tar.gz tmp/dante_corpora-1.0.2.tar.gz --markdown 20240530/d/dante-corpora/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-30 01:21:08] INFO root fetch - processPackages [pycoare]: executing diffoscope
+[2024-05-30 01:21:08] INFO root fetch - processPackages [pycoare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycoare-2023.4a4.tar.gz tmp/pycoare-2023.4a5.tar.gz --markdown 20240530/p/pycoare/2023.4a4-2023.4a5/README.md --exclude *.pyd
+[2024-05-30 01:21:08] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-30 01:21:08] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240529133213.tar.gz tmp/localstack_core-3.4.1.dev20240529152006.tar.gz --markdown 20240530/l/localstack-core/3.4.1.dev20240529133213-3.4.1.dev20240529152006/README.md --exclude *.pyd
+[2024-05-30 01:21:08] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3_commons-0.5.4.tar.gz]
+[2024-05-30 01:21:08] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3_commons-0.5.5.tar.gz]
+[2024-05-30 01:21:08] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2024-05-30 01:21:09] INFO root fetch - processPackages [pycoare]: Remove: archive file [/home/abi/fetcher/tmp/pycoare-2023.4a4.tar.gz]
+[2024-05-30 01:21:09] INFO root fetch - processPackages [pycoare]: Remove: archive file [/home/abi/fetcher/tmp/pycoare-2023.4a5.tar.gz]
+[2024-05-30 01:21:09] INFO root fetch - main [MainThread]: End processing [pycoare]: success
+[2024-05-30 01:21:09] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.27.tar.gz]
+[2024-05-30 01:21:09] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.28.tar.gz]
+[2024-05-30 01:21:09] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
+[2024-05-30 01:21:09] INFO root fetch - processPackages [cocnc]: Remove: archive file [/home/abi/fetcher/tmp/cocnc-0.1.8.tar.gz]
+[2024-05-30 01:21:09] INFO root fetch - processPackages [cocnc]: Remove: archive file [/home/abi/fetcher/tmp/cocnc-0.1.9.tar.gz]
+[2024-05-30 01:21:09] INFO root fetch - main [MainThread]: End processing [cocnc]: success
+[2024-05-30 01:21:09] INFO root fetch - processPackages [dante-corpora]: Remove: archive file [/home/abi/fetcher/tmp/dante_corpora-1.0.1.tar.gz]
+[2024-05-30 01:21:09] INFO root fetch - processPackages [dante-corpora]: Remove: archive file [/home/abi/fetcher/tmp/dante_corpora-1.0.2.tar.gz]
+[2024-05-30 01:21:09] INFO root fetch - main [MainThread]: End processing [dante-corpora]: success
+[2024-05-30 01:21:09] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2024-05-30 01:21:09] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2024-05-30 01:21:09] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2024-05-30 01:21:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240529133213.tar.gz]
+[2024-05-30 01:21:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240529152006.tar.gz]
+[2024-05-30 01:21:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-30 01:21:12] INFO root fetch - main [MainThread]: Store serial: [23438442]
