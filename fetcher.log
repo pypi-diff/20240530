@@ -1191,3 +1191,41 @@ EOFError: EOF read where object expected
 [2024-05-30 01:10:17] INFO root fetch - processPackages [gradio-client]: Remove: archive file [/home/abi/fetcher/tmp/gradio_client-0.9.0.tar.gz]
 [2024-05-30 01:10:17] INFO root fetch - main [MainThread]: End processing [gradio-client]: success
 [2024-05-30 01:10:17] INFO root fetch - main [MainThread]: Store serial: [23438378]
+[2024-05-30 01:12:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438378]
+[2024-05-30 01:12:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 01:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smaht-submitr
+[2024-05-30 01:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: convocations
+[2024-05-30 01:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evo-framework
+[2024-05-30 01:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypomes-core
+[2024-05-30 01:12:25] INFO root fetch - processPackages [pypomes-core]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-30 01:12:25] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.2.1b9] Old Version: [0.8.2.1b8]
+[2024-05-30 01:12:25] INFO root fetch - processPackages [evo-framework]: New version: [2024.5.28] Old Version: [2024.5.27]
+[2024-05-30 01:12:25] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/42/1e/2997407a700e646313aa128204cd1413359af156fd355923c906dc4e5eb0/pypomes_core-1.0.9.tar.gz
+[2024-05-30 01:12:25] INFO root fetch - processPackages [convocations]: New version: [1.9] Old Version: [1.8]
+[2024-05-30 01:12:25] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/94/70/b34d2d34c394fc3e3b347e32bec8900b8b8643db5842d59991c4e84ea528/smaht_submitr-0.8.2.1b8.tar.gz
+[2024-05-30 01:12:25] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/48/eb/08ced347aff1ac853cf59f916133e88165be9ef20c95eedfea4d7ada05ca/pypomes_core-1.1.0.tar.gz
+[2024-05-30 01:12:25] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/fb/db/da2992e9f055eacb2edfe5237427e57be8ce302e032f3050481941ae1bf7/convocations-1.8.tar.gz
+[2024-05-30 01:12:25] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/49/5f/4a0cbcc953b126fd89e8d3c5beafcab7cf195845995d05395f40952ad23c/smaht_submitr-0.8.2.1b9.tar.gz
+[2024-05-30 01:12:25] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2024-05-30 01:12:25] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-1.0.9.tar.gz tmp/pypomes_core-1.1.0.tar.gz --markdown 20240530/p/pypomes-core/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-30 01:12:26] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-05-30 01:12:26] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.2.1b8.tar.gz tmp/smaht_submitr-0.8.2.1b9.tar.gz --markdown 20240530/s/smaht-submitr/0.8.2.1b8-0.8.2.1b9/README.md --exclude *.pyd
+[2024-05-30 01:12:26] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/14/5f/e754fdc3884fc193a1a38b2198c82cb12795bcd7046ea53ca1da3e721956/evo_framework-2024.5.28.tar.gz
+[2024-05-30 01:12:26] INFO root fetch - processPackages [evo-framework]: executing diffoscope
+[2024-05-30 01:12:26] INFO root fetch - processPackages [evo-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_framework-2024.5.27.tar.gz tmp/evo_framework-2024.5.28.tar.gz --markdown 20240530/e/evo-framework/2024.5.27-2024.5.28/README.md --exclude *.pyd
+[2024-05-30 01:12:26] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/26/06/8cba7e1f874d3ad177924e3e894b6709038b6ca3e28d49b7f73b9a438925/convocations-1.9.tar.gz
+[2024-05-30 01:12:26] INFO root fetch - processPackages [convocations]: executing diffoscope
+[2024-05-30 01:12:26] INFO root fetch - processPackages [convocations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convocations-1.8.tar.gz tmp/convocations-1.9.tar.gz --markdown 20240530/c/convocations/1.8-1.9/README.md --exclude *.pyd
+[2024-05-30 01:12:26] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.0.9.tar.gz]
+[2024-05-30 01:12:26] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.1.0.tar.gz]
+[2024-05-30 01:12:26] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2024-05-30 01:12:26] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.27.tar.gz]
+[2024-05-30 01:12:26] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.28.tar.gz]
+[2024-05-30 01:12:26] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
+[2024-05-30 01:12:26] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b8.tar.gz]
+[2024-05-30 01:12:26] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b9.tar.gz]
+[2024-05-30 01:12:26] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-05-30 01:12:27] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-1.8.tar.gz]
+[2024-05-30 01:12:27] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-1.9.tar.gz]
+[2024-05-30 01:12:27] INFO root fetch - main [MainThread]: End processing [convocations]: success
+[2024-05-30 01:12:27] INFO root fetch - main [MainThread]: Store serial: [23438389]
