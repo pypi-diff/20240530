@@ -649,3 +649,24 @@ EOFError: EOF read where object expected
 [2024-05-30 00:31:10] INFO root fetch - processPackages [binary-refinery]: Remove: archive file [/home/abi/fetcher/tmp/binary-refinery-0.6.9.tar.gz]
 [2024-05-30 00:31:10] INFO root fetch - main [MainThread]: End processing [binary-refinery]: success
 [2024-05-30 00:31:10] INFO root fetch - main [MainThread]: Store serial: [23438181]
+[2024-05-30 00:33:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438181]
+[2024-05-30 00:33:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 00:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: structifyai
+[2024-05-30 00:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: new-natnet-client
+[2024-05-30 00:33:18] INFO root fetch - processPackages [new-natnet-client]: New version: [4.3.5] Old Version: [4.3.3]
+[2024-05-30 00:33:18] INFO root fetch - processPackages [structifyai]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2024-05-30 00:33:19] INFO root fetch - processPackages [new-natnet-client]: Downloading https://files.pythonhosted.org/packages/f3/2d/f810463f2abc2b1dfd4c51f6e0c4c814d4a232a46fc0f2a2278086658c1a/new_natnet_client-4.3.3.tar.gz
+[2024-05-30 00:33:19] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/e7/0e/0f95626e193b36f0490342fe7667772e7d3d399e68446bff231a2d1f3d00/structifyai-0.1.0a8.tar.gz
+[2024-05-30 00:33:19] INFO root fetch - processPackages [new-natnet-client]: Downloading https://files.pythonhosted.org/packages/5e/f4/c0be814466aed10fff08d877fa66593cb7af19e3e41d1e8e5bfd3763958d/new_natnet_client-4.3.5.tar.gz
+[2024-05-30 00:33:19] INFO root fetch - processPackages [new-natnet-client]: executing diffoscope
+[2024-05-30 00:33:19] INFO root fetch - processPackages [new-natnet-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/new_natnet_client-4.3.3.tar.gz tmp/new_natnet_client-4.3.5.tar.gz --markdown 20240530/n/new-natnet-client/4.3.3-4.3.5/README.md --exclude *.pyd
+[2024-05-30 00:33:19] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/a4/3a/73b2f2ba84e7b27b41e8f8451363d1509d0052ce1abb6498cd4285c92105/structifyai-0.1.0a9.tar.gz
+[2024-05-30 00:33:19] INFO root fetch - processPackages [structifyai]: executing diffoscope
+[2024-05-30 00:33:19] INFO root fetch - processPackages [structifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structifyai-0.1.0a8.tar.gz tmp/structifyai-0.1.0a9.tar.gz --markdown 20240530/s/structifyai/0.1.0a8-0.1.0a9/README.md --exclude *.pyd
+[2024-05-30 00:33:20] INFO root fetch - processPackages [new-natnet-client]: Remove: archive file [/home/abi/fetcher/tmp/new_natnet_client-4.3.3.tar.gz]
+[2024-05-30 00:33:20] INFO root fetch - processPackages [new-natnet-client]: Remove: archive file [/home/abi/fetcher/tmp/new_natnet_client-4.3.5.tar.gz]
+[2024-05-30 00:33:20] INFO root fetch - main [MainThread]: End processing [new-natnet-client]: success
+[2024-05-30 00:33:20] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.1.0a8.tar.gz]
+[2024-05-30 00:33:20] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.1.0a9.tar.gz]
+[2024-05-30 00:33:20] INFO root fetch - main [MainThread]: End processing [structifyai]: success
+[2024-05-30 00:33:20] INFO root fetch - main [MainThread]: Store serial: [23438188]
