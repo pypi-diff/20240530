@@ -1377,3 +1377,18 @@ EOFError: EOF read where object expected
 [2024-05-30 01:21:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240529152006.tar.gz]
 [2024-05-30 01:21:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-30 01:21:12] INFO root fetch - main [MainThread]: Store serial: [23438442]
+[2024-05-30 01:23:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438442]
+[2024-05-30 01:23:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 01:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: projen
+[2024-05-30 01:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-custom-outputs
+[2024-05-30 01:23:21] WARNING root fetch - processPackages [pytest-custom-outputs]: Skipping, unable to determine old version
+[2024-05-30 01:23:21] INFO root fetch - main [MainThread]: End processing [pytest-custom-outputs] error
+[2024-05-30 01:23:21] INFO root fetch - processPackages [projen]: New version: [0.82.2] Old Version: [0.82.1]
+[2024-05-30 01:23:21] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/45/08/8a8d4df7233a8419f62c427743cddde60f2fb86a895e23b31d17be9b531a/projen-0.82.1.tar.gz
+[2024-05-30 01:23:22] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/4b/b4/07c9fe54cb21434055682380249512c721360f2e121665c1aaaaeb532d2d/projen-0.82.2.tar.gz
+[2024-05-30 01:23:22] INFO root fetch - processPackages [projen]: executing diffoscope
+[2024-05-30 01:23:22] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.82.1.tar.gz tmp/projen-0.82.2.tar.gz --markdown 20240530/p/projen/0.82.1-0.82.2/README.md --exclude *.pyd
+[2024-05-30 01:23:23] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.82.1.tar.gz]
+[2024-05-30 01:23:23] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.82.2.tar.gz]
+[2024-05-30 01:23:23] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2024-05-30 01:23:23] INFO root fetch - main [MainThread]: Store serial: [23438445]
