@@ -1392,3 +1392,36 @@ EOFError: EOF read where object expected
 [2024-05-30 01:23:23] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.82.2.tar.gz]
 [2024-05-30 01:23:23] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2024-05-30 01:23:23] INFO root fetch - main [MainThread]: Store serial: [23438445]
+[2024-05-30 01:25:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438445]
+[2024-05-30 01:25:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 01:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-custom-outputs
+[2024-05-30 01:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dante-corpora
+[2024-05-30 01:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: binsync
+[2024-05-30 01:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nomad-media-pip
+[2024-05-30 01:25:31] INFO root fetch - processPackages [dante-corpora]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-30 01:25:31] WARNING root fetch - processPackages [pytest-custom-outputs]: Skipping, unable to determine old version
+[2024-05-30 01:25:31] INFO root fetch - main [MainThread]: End processing [pytest-custom-outputs] error
+[2024-05-30 01:25:31] INFO root fetch - processPackages [nomad-media-pip]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-30 01:25:32] INFO root fetch - processPackages [dante-corpora]: Downloading https://files.pythonhosted.org/packages/19/e6/ecaef7e6903f1c0423ee7814cdfd1af518d7f62664be9015b2ba33eccae8/dante_corpora-1.0.2.tar.gz
+[2024-05-30 01:25:32] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/89/17/9542f18838ecc3189b9eaaec4a7ccfe38f999660bb42c8092050b37835fd/nomad_media_pip-0.0.98.tar.gz
+[2024-05-30 01:25:32] INFO root fetch - processPackages [binsync]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-05-30 01:25:32] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/2b/93/9572cd6061f7b751abb490b170eb8add5795cf245ede93c0b7d20b885a13/nomad_media_pip-0.0.99.tar.gz
+[2024-05-30 01:25:32] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/b9/3d/6bf3f12bc0935065d807b8a1c42972074fa613fb8582b54df1f3159fc849/binsync-4.1.8.tar.gz
+[2024-05-30 01:25:32] INFO root fetch - processPackages [nomad-media-pip]: executing diffoscope
+[2024-05-30 01:25:32] INFO root fetch - processPackages [nomad-media-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_media_pip-0.0.98.tar.gz tmp/nomad_media_pip-0.0.99.tar.gz --markdown 20240530/n/nomad-media-pip/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-30 01:25:32] INFO root fetch - processPackages [dante-corpora]: Downloading https://files.pythonhosted.org/packages/3b/32/a1e84144194f05fde6fd1498b65bc77559a37bd07c5f7909b7bbea3ca178/dante_corpora-1.0.3.tar.gz
+[2024-05-30 01:25:32] INFO root fetch - processPackages [dante-corpora]: executing diffoscope
+[2024-05-30 01:25:32] INFO root fetch - processPackages [dante-corpora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dante_corpora-1.0.2.tar.gz tmp/dante_corpora-1.0.3.tar.gz --markdown 20240530/d/dante-corpora/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-30 01:25:32] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/f1/b8/4e65a473170f8f00a472db6610a4206ecdcfd2cbc2b15efdf1942fdf314a/binsync-4.1.9.tar.gz
+[2024-05-30 01:25:32] INFO root fetch - processPackages [binsync]: executing diffoscope
+[2024-05-30 01:25:32] INFO root fetch - processPackages [binsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binsync-4.1.8.tar.gz tmp/binsync-4.1.9.tar.gz --markdown 20240530/b/binsync/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-05-30 01:25:33] INFO root fetch - processPackages [dante-corpora]: Remove: archive file [/home/abi/fetcher/tmp/dante_corpora-1.0.2.tar.gz]
+[2024-05-30 01:25:33] INFO root fetch - processPackages [dante-corpora]: Remove: archive file [/home/abi/fetcher/tmp/dante_corpora-1.0.3.tar.gz]
+[2024-05-30 01:25:33] INFO root fetch - main [MainThread]: End processing [dante-corpora]: success
+[2024-05-30 01:25:33] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-4.1.8.tar.gz]
+[2024-05-30 01:25:33] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-4.1.9.tar.gz]
+[2024-05-30 01:25:33] INFO root fetch - main [MainThread]: End processing [binsync]: success
+[2024-05-30 01:25:35] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.98.tar.gz]
+[2024-05-30 01:25:35] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.99.tar.gz]
+[2024-05-30 01:25:35] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
+[2024-05-30 01:25:35] INFO root fetch - main [MainThread]: Store serial: [23438459]
