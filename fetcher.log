@@ -1464,3 +1464,15 @@ EOFError: EOF read where object expected
 [2024-05-30 01:27:52] INFO root fetch - processPackages [poke-env]: Remove: archive file [/home/abi/fetcher/tmp/poke_env-0.8.1.tar.gz]
 [2024-05-30 01:27:52] INFO root fetch - main [MainThread]: End processing [poke-env]: success
 [2024-05-30 01:27:52] INFO root fetch - main [MainThread]: Store serial: [23438470]
+[2024-05-30 01:30:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438470]
+[2024-05-30 01:30:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 01:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: systembridgedata
+[2024-05-30 01:30:07] INFO root fetch - processPackages [systembridgedata]: New version: [5.0.0.dev1] Old Version: [5.0.0.dev0]
+[2024-05-30 01:30:07] INFO root fetch - processPackages [systembridgedata]: Downloading https://files.pythonhosted.org/packages/d1/26/7d28703063513da39c13e545318286c299c3d4bbf3632d233ee3f49acb6a/systembridgedata-5.0.0.dev0.tar.gz
+[2024-05-30 01:30:07] INFO root fetch - processPackages [systembridgedata]: Downloading https://files.pythonhosted.org/packages/8a/2b/235f5ccbb5d764d114cd8b06fd0c3569a39c5351d5c75076e21bfa049e2d/systembridgedata-5.0.0.dev1.tar.gz
+[2024-05-30 01:30:07] INFO root fetch - processPackages [systembridgedata]: executing diffoscope
+[2024-05-30 01:30:07] INFO root fetch - processPackages [systembridgedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgedata-5.0.0.dev0.tar.gz tmp/systembridgedata-5.0.0.dev1.tar.gz --markdown 20240530/s/systembridgedata/5.0.0.dev0-5.0.0.dev1/README.md --exclude *.pyd
+[2024-05-30 01:30:08] INFO root fetch - processPackages [systembridgedata]: Remove: archive file [/home/abi/fetcher/tmp/systembridgedata-5.0.0.dev0.tar.gz]
+[2024-05-30 01:30:08] INFO root fetch - processPackages [systembridgedata]: Remove: archive file [/home/abi/fetcher/tmp/systembridgedata-5.0.0.dev1.tar.gz]
+[2024-05-30 01:30:08] INFO root fetch - main [MainThread]: End processing [systembridgedata]: success
+[2024-05-30 01:30:08] INFO root fetch - main [MainThread]: Store serial: [23438473]
