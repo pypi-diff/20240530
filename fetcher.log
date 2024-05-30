@@ -21692,3 +21692,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:49:38] INFO root fetch - processPackages [alyx-connector]: Remove: archive file [/home/abi/fetcher/tmp/alyx_connector-2.1.5.tar.gz]
 [2024-05-30 11:49:38] INFO root fetch - main [MainThread]: End processing [alyx-connector]: success
 [2024-05-30 11:49:38] INFO root fetch - main [MainThread]: Store serial: [23446489]
+[2024-05-30 11:51:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446489]
+[2024-05-30 11:51:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-30 11:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: satip
+[2024-05-30 11:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eventum-studio
+[2024-05-30 11:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentry-stack-dingding
+[2024-05-30 11:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartlink-local
+[2024-05-30 11:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xcube-core
+[2024-05-30 11:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pms-nvidia-processor
+[2024-05-30 11:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dingosdk
+[2024-05-30 11:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-command-center
+[2024-05-30 11:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lark-oapi
+[2024-05-30 11:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ccpstencil
+[2024-05-30 11:51:46] WARNING root fetch - processPackages [pms-nvidia-processor]: Skipping, unable to determine old version
+[2024-05-30 11:51:46] INFO root fetch - processPackages [pms-nvidia-processor]: Start processing: inspectnn
+[2024-05-30 11:51:46] INFO root fetch - main [MainThread]: End processing [pms-nvidia-processor] error
+[2024-05-30 11:51:46] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc9] Old Version: [0.1rc8.post1]
+[2024-05-30 11:51:46] WARNING root fetch - processPackages [eventum-studio]: Skipping, unable to determine old version
+[2024-05-30 11:51:46] INFO root fetch - processPackages [eventum-studio]: Start processing: YWP
+[2024-05-30 11:51:46] INFO root fetch - main [MainThread]: End processing [eventum-studio] error
+[2024-05-30 11:51:47] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 11:51:47] INFO root fetch - processPackages [satip]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-30 11:51:47] INFO root fetch - processPackages [sentry-stack-dingding]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-30 11:51:47] INFO root fetch - processPackages [inspectnn]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-30 11:51:47] INFO root fetch - processPackages [YWP]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-30 11:51:47] INFO root fetch - processPackages [lark-oapi]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-30 11:51:47] INFO root fetch - processPackages [dbt-command-center]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-30 11:51:47] INFO root fetch - processPackages [xcube-core]: New version: [1.6.0.dev2] Old Version: [1.6.0.dev1]
+[2024-05-30 11:51:47] INFO root fetch - processPackages [ccpstencil]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-30 11:51:47] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/7b/10/2c6bb88645e870b167392150b76711fb4823aa921ee4bc314ba468f0d5dd/dingosdk-0.1rc8.post1.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/c3/e8/b3c5caf4db2b47fab258763e006a81315f49cf587e12e65aa7025968b03f/satip-2.9.8.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [inspectnn]: Downloading https://files.pythonhosted.org/packages/7d/b9/8c51a12cd97fdc1cdfd7bbca610f06682800d9bc7b58f3495c815068bb00/inspectnn-0.5.2.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [YWP]: Downloading https://files.pythonhosted.org/packages/32/a4/6cb7fcc5211cdc8d20f46528bb7881ba06db746d4a239191e73cd3d06d99/ywp-0.4.0.tar.gz
+[2024-05-30 11:51:47] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 63305453>=10485760
+[2024-05-30 11:51:47] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-30 11:51:47] WARNING root fetch - processPackages [inspectnn]: Skipping package: exceeds size limit 20018335>=10485760
+[2024-05-30 11:51:47] INFO root fetch - main [MainThread]: End processing [inspectnn] error
+[2024-05-30 11:51:47] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/08/f4/efe4a553e289342e7f16ab6afe3d87c7c5fc61f7ff9703a45873ece8103a/sentry-stack-dingding-1.0.8.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [dbt-command-center]: Downloading https://files.pythonhosted.org/packages/01/1b/b3a16f1335d817a431b89df023fe68b4ae98a62b41ae5dfdc557e393be2f/dbt_command_center-0.1.1.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/c7/65/3ebba06a24b024c2cb7fe05732aa54f5be00ffa0360c843a9cf9904ae507/lark-oapi-1.2.6.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [xcube-core]: Downloading https://files.pythonhosted.org/packages/28/7f/25c794f9dcfcd020d259c4d5fb2ddc2e6c60957845687f55bc96a3fbad16/xcube_core-1.6.0.dev1.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [ccpstencil]: Downloading https://files.pythonhosted.org/packages/9a/65/b35c60ce8b247d63f4aaef1945e3a9c70b6ed9b08f1f31fb13dfb961a3b1/ccpstencil-0.3.0.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/06/5b/8bd6eec7428e98b330d6546e21261944d9361dcedd4e96b25bee4a5ee145/satip-2.9.9.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-30 11:51:47] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240530/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 11:51:47] INFO root fetch - processPackages [YWP]: Downloading https://files.pythonhosted.org/packages/25/1d/3fce0ae71194ba27d3cdd68fcf4e0c9ba694b7021d04896239ae8af005c7/ywp-0.5.0.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [satip]: executing diffoscope
+[2024-05-30 11:51:47] INFO root fetch - processPackages [satip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satip-2.9.8.tar.gz tmp/satip-2.9.9.tar.gz --markdown 20240530/s/satip/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-30 11:51:47] INFO root fetch - processPackages [YWP]: executing diffoscope
+[2024-05-30 11:51:47] INFO root fetch - processPackages [YWP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ywp-0.4.0.tar.gz tmp/ywp-0.5.0.tar.gz --markdown 20240530/Y/YWP/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-30 11:51:47] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/b6/d7/f8ee3de9d36e27746e446086077f59149fe522febdc65a2e825271c70ba8/sentry-stack-dingding-1.0.9.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [dbt-command-center]: Downloading https://files.pythonhosted.org/packages/5d/2b/34bf1b3bdb6031978e2fc3b9b0af5e379dc3863306ab197d7dcbc035b696/dbt_command_center-0.1.2.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [ccpstencil]: Downloading https://files.pythonhosted.org/packages/64/bd/04ef03a992eeeb47360074c587677de608f28168f8f7e11e077ac6651dd1/ccpstencil-0.4.0.tar.gz
+[2024-05-30 11:51:47] INFO root fetch - processPackages [sentry-stack-dingding]: executing diffoscope
+[2024-05-30 11:51:47] INFO root fetch - processPackages [sentry-stack-dingding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-stack-dingding-1.0.8.tar.gz tmp/sentry-stack-dingding-1.0.9.tar.gz --markdown 20240530/s/sentry-stack-dingding/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-30 11:51:48] INFO root fetch - processPackages [xcube-core]: Downloading https://files.pythonhosted.org/packages/9e/75/052b98127f7636f0984d887f109099d3bdfb2b3cc35e96d54fe39abd258d/xcube_core-1.6.0.dev2.tar.gz
+[2024-05-30 11:51:48] INFO root fetch - processPackages [ccpstencil]: executing diffoscope
+[2024-05-30 11:51:48] INFO root fetch - processPackages [ccpstencil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpstencil-0.3.0.tar.gz tmp/ccpstencil-0.4.0.tar.gz --markdown 20240530/c/ccpstencil/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-30 11:51:48] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/f3/71/05de91392444b06f4afa5300adac2eac57698860fa3dc0659f087705bfd4/lark-oapi-1.2.7.tar.gz
+[2024-05-30 11:51:48] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-30 11:51:48] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-30 11:51:48] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-30 11:51:48] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.8.tar.gz]
+[2024-05-30 11:51:48] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.9.tar.gz]
+[2024-05-30 11:51:48] INFO root fetch - main [MainThread]: End processing [satip]: success
+[2024-05-30 11:51:48] INFO root fetch - processPackages [xcube-core]: executing diffoscope
+[2024-05-30 11:51:48] INFO root fetch - processPackages [xcube-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcube_core-1.6.0.dev1.tar.gz tmp/xcube_core-1.6.0.dev2.tar.gz --markdown 20240530/x/xcube-core/1.6.0.dev1-1.6.0.dev2/README.md --exclude *.pyd
+[2024-05-30 11:51:48] INFO root fetch - processPackages [YWP]: Remove: archive file [/home/abi/fetcher/tmp/ywp-0.4.0.tar.gz]
+[2024-05-30 11:51:48] INFO root fetch - processPackages [YWP]: Remove: archive file [/home/abi/fetcher/tmp/ywp-0.5.0.tar.gz]
+[2024-05-30 11:51:48] INFO root fetch - main [MainThread]: End processing [YWP]: success
+[2024-05-30 11:51:48] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.8.tar.gz]
+[2024-05-30 11:51:48] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.9.tar.gz]
+[2024-05-30 11:51:48] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding]: success
+[2024-05-30 11:51:48] INFO root fetch - processPackages [dbt-command-center]: executing diffoscope
+[2024-05-30 11:51:48] INFO root fetch - processPackages [dbt-command-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_command_center-0.1.1.tar.gz tmp/dbt_command_center-0.1.2.tar.gz --markdown 20240530/d/dbt-command-center/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-30 11:51:48] INFO root fetch - processPackages [lark-oapi]: executing diffoscope
+[2024-05-30 11:51:48] INFO root fetch - processPackages [lark-oapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lark-oapi-1.2.6.tar.gz tmp/lark-oapi-1.2.7.tar.gz --markdown 20240530/l/lark-oapi/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-30 11:51:48] INFO root fetch - processPackages [ccpstencil]: Remove: archive file [/home/abi/fetcher/tmp/ccpstencil-0.3.0.tar.gz]
+[2024-05-30 11:51:48] INFO root fetch - processPackages [ccpstencil]: Remove: archive file [/home/abi/fetcher/tmp/ccpstencil-0.4.0.tar.gz]
+[2024-05-30 11:51:48] INFO root fetch - main [MainThread]: End processing [ccpstencil]: success
+[2024-05-30 11:51:51] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.1.tar.gz]
+[2024-05-30 11:51:51] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.2.tar.gz]
+[2024-05-30 11:51:51] INFO root fetch - main [MainThread]: End processing [dbt-command-center]: success
+[2024-05-30 11:52:14] INFO root fetch - processPackages [xcube-core]: Remove: archive file [/home/abi/fetcher/tmp/xcube_core-1.6.0.dev1.tar.gz]
+[2024-05-30 11:52:14] INFO root fetch - processPackages [xcube-core]: Remove: archive file [/home/abi/fetcher/tmp/xcube_core-1.6.0.dev2.tar.gz]
+[2024-05-30 11:52:14] INFO root fetch - main [MainThread]: End processing [xcube-core]: success
+[2024-05-30 11:52:30] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.2.6.tar.gz]
+[2024-05-30 11:52:30] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.2.7.tar.gz]
+[2024-05-30 11:52:30] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
+[2024-05-30 11:52:30] INFO root fetch - main [MainThread]: Store serial: [23446526]
