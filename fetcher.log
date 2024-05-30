@@ -12766,3 +12766,11 @@ EOFError: EOF read where object expected
 [2024-05-30 07:34:51] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.1.4.tar.gz]
 [2024-05-30 07:34:51] INFO root fetch - main [MainThread]: End processing [petisco]: success
 [2024-05-30 07:34:51] INFO root fetch - main [MainThread]: Store serial: [23442791]
+[2024-05-30 07:36:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442791]
+[2024-05-30 07:37:01] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 07:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckdb
+[2024-05-30 07:37:01] INFO root fetch - processPackages [duckdb]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-30 07:37:01] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/83/36/ea553454969fa7f356555da1ffcf31acc82172548be77278159002d34514/duckdb-0.9.1.tar.gz
+[2024-05-30 07:37:01] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
+[2024-05-30 07:37:01] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2024-05-30 07:37:01] INFO root fetch - main [MainThread]: Store serial: [23442831]
