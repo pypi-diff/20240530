@@ -22030,3 +22030,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:57:13] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.9.dev8.tar.gz]
 [2024-05-30 11:57:13] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-05-30 11:57:13] INFO root fetch - main [MainThread]: Store serial: [23446626]
+[2024-05-30 11:59:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446626]
+[2024-05-30 11:59:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-30 11:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HABSlib
+[2024-05-30 11:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-resources
+[2024-05-30 11:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ziginstall
+[2024-05-30 11:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BarteSDK
+[2024-05-30 11:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: giotto-tda
+[2024-05-30 11:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-ctrl-mpexec
+[2024-05-30 11:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbis-tm
+[2024-05-30 11:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: elegantmotd
+[2024-05-30 11:59:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ReverseBox
+[2024-05-30 11:59:23] INFO root fetch - processPackages [HABSlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 11:59:23] INFO root fetch - processPackages [ReverseBox]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-30 11:59:23] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/92/a2/3472f44ce5fbc12a46ed53af9061d73c2ad2a08f4cfc95d85c9f0d590c52/habslib-0.1.8.tar.gz
+[2024-05-30 11:59:23] INFO root fetch - processPackages [lsst-resources]: New version: [27.2024.2200] Old Version: [27.2024.2100]
+[2024-05-30 11:59:23] WARNING root fetch - processPackages [ziginstall]: Skipping, unable to determine old version
+[2024-05-30 11:59:23] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/4a/58/7a7b782237cfeaa6f4930edfd83b87995cd40b65c79be087c32798140949/ReverseBox-0.9.8.tar.gz
+[2024-05-30 11:59:23] INFO root fetch - main [MainThread]: End processing [ziginstall] error
+[2024-05-30 11:59:23] INFO root fetch - processPackages [elegantmotd]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-30 11:59:23] INFO root fetch - processPackages [dbis-tm]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-30 11:59:23] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 11:59:23] INFO root fetch - processPackages [giotto-tda]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-30 11:59:23] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [27.2024.2200] Old Version: [27.2024.2100]
+[2024-05-30 11:59:23] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/b2/ea/3eb2099f135cfbcea8c24a4ef575773e1c92246ed65b1611aba761b07ff2/habslib-0.1.9.tar.gz
+[2024-05-30 11:59:23] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/ae/f1/91eba10618ea8deb2ae26076d2a3e5d266913a33464b02373eb4391fe013/lsst_resources-27.2024.2100.tar.gz
+[2024-05-30 11:59:23] INFO root fetch - processPackages [elegantmotd]: Downloading https://files.pythonhosted.org/packages/18/f0/0a6b2592ddc1f08da3c89a5ec501189b86b8673aede6ac01c719fefe75e6/elegantmotd-0.4.1.tar.gz
+[2024-05-30 11:59:23] INFO root fetch - processPackages [dbis-tm]: Downloading https://files.pythonhosted.org/packages/ac/5e/fd1238b87f9ac81906c70e75e1af2ff52d9a74b626bb678a36b7a165dbbd/dbis_tm-2.0.0.tar.gz
+[2024-05-30 11:59:23] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-30 11:59:23] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/7c/01/45feafd41713fe40c4491e5e2e4fc4e1a7f744129fb5cd4eb808012b03ec/lsst_ctrl_mpexec-27.2024.2100.tar.gz
+[2024-05-30 11:59:23] INFO root fetch - processPackages [giotto-tda]: Downloading https://files.pythonhosted.org/packages/1f/67/e55afc4f8a0e0c1fa08d003c103f6c98e4b1dee98bf84d450d9b92fcd7a9/giotto_tda-0.6.1-cp39-cp39-win_amd64.whl
+[2024-05-30 11:59:23] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/d7/8f/aa29e161586daf66c5f6fd603cf46241f860d6b15409053887e60b6bf890/ReverseBox-0.9.9.tar.gz
+[2024-05-30 11:59:23] INFO root fetch - processPackages [HABSlib]: executing diffoscope
+[2024-05-30 11:59:23] INFO root fetch - processPackages [HABSlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habslib-0.1.8.tar.gz tmp/habslib-0.1.9.tar.gz --markdown 20240530/H/HABSlib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 11:59:23] INFO root fetch - processPackages [ReverseBox]: executing diffoscope
+[2024-05-30 11:59:23] INFO root fetch - processPackages [ReverseBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseBox-0.9.8.tar.gz tmp/ReverseBox-0.9.9.tar.gz --markdown 20240530/R/ReverseBox/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-30 11:59:24] INFO root fetch - processPackages [elegantmotd]: Downloading https://files.pythonhosted.org/packages/29/a4/f781656a5b470c5d034fb69a81f328d1e58cbf7701d16f12450cc1cb87fc/elegantmotd-0.4.2.tar.gz
+[2024-05-30 11:59:24] INFO root fetch - processPackages [dbis-tm]: Downloading https://files.pythonhosted.org/packages/47/c0/15c8d1e252335b208ab0b92f066364064594e139034dcc5751a52d51c269/dbis_tm-2.0.1.tar.gz
+[2024-05-30 11:59:24] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-30 11:59:24] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/ac/6f/154c92bc40c46768dc11d619c81f110a56844fb5e19bde18b2c43ea16532/lsst_ctrl_mpexec-27.2024.2200.tar.gz
+[2024-05-30 11:59:24] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/8f/ff/81b3c110718bf4ebba1a35a86ef3e7803b6d2b2a834c1130fb45bb2fd820/lsst_resources-27.2024.2200.tar.gz
+[2024-05-30 11:59:24] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-30 11:59:24] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240530/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 11:59:24] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2024-05-30 11:59:24] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_ctrl_mpexec-27.2024.2100.tar.gz tmp/lsst_ctrl_mpexec-27.2024.2200.tar.gz --markdown 20240530/l/lsst-ctrl-mpexec/27.2024.2100-27.2024.2200/README.md --exclude *.pyd
+[2024-05-30 11:59:24] INFO root fetch - processPackages [elegantmotd]: executing diffoscope
+[2024-05-30 11:59:24] INFO root fetch - processPackages [elegantmotd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elegantmotd-0.4.1.tar.gz tmp/elegantmotd-0.4.2.tar.gz --markdown 20240530/e/elegantmotd/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-30 11:59:24] INFO root fetch - processPackages [dbis-tm]: executing diffoscope
+[2024-05-30 11:59:24] INFO root fetch - processPackages [dbis-tm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbis_tm-2.0.0.tar.gz tmp/dbis_tm-2.0.1.tar.gz --markdown 20240530/d/dbis-tm/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-30 11:59:24] INFO root fetch - processPackages [lsst-resources]: executing diffoscope
+[2024-05-30 11:59:24] INFO root fetch - processPackages [giotto-tda]: Downloading https://files.pythonhosted.org/packages/ac/f0/359ffb24383e3f6c4fea5d1ebe9beccef134a39973422eb1dfc462d4f20f/giotto_tda-0.6.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 11:59:24] INFO root fetch - processPackages [lsst-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_resources-27.2024.2100.tar.gz tmp/lsst_resources-27.2024.2200.tar.gz --markdown 20240530/l/lsst-resources/27.2024.2100-27.2024.2200/README.md --exclude *.pyd
+[2024-05-30 11:59:24] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.8.tar.gz]
+[2024-05-30 11:59:24] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.9.tar.gz]
+[2024-05-30 11:59:24] INFO root fetch - main [MainThread]: End processing [HABSlib]: success
+[2024-05-30 11:59:24] INFO root fetch - processPackages [giotto-tda]: executing diffoscope
+[2024-05-30 11:59:24] INFO root fetch - processPackages [giotto-tda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giotto_tda-0.6.1-cp39-cp39-win_amd64.whl.zip tmp/giotto_tda-0.6.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240530/g/giotto-tda/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-30 11:59:24] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-30 11:59:24] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-30 11:59:24] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-30 11:59:24] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.9.8.tar.gz]
+[2024-05-30 11:59:24] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.9.9.tar.gz]
+[2024-05-30 11:59:24] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
+[2024-05-30 11:59:25] INFO root fetch - processPackages [elegantmotd]: Remove: archive file [/home/abi/fetcher/tmp/elegantmotd-0.4.1.tar.gz]
+[2024-05-30 11:59:25] INFO root fetch - processPackages [elegantmotd]: Remove: archive file [/home/abi/fetcher/tmp/elegantmotd-0.4.2.tar.gz]
+[2024-05-30 11:59:25] INFO root fetch - main [MainThread]: End processing [elegantmotd]: success
+[2024-05-30 11:59:25] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_mpexec-27.2024.2100.tar.gz]
+[2024-05-30 11:59:25] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_mpexec-27.2024.2200.tar.gz]
+[2024-05-30 11:59:25] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2024-05-30 11:59:25] INFO root fetch - processPackages [dbis-tm]: Remove: archive file [/home/abi/fetcher/tmp/dbis_tm-2.0.0.tar.gz]
+[2024-05-30 11:59:25] INFO root fetch - processPackages [dbis-tm]: Remove: archive file [/home/abi/fetcher/tmp/dbis_tm-2.0.1.tar.gz]
+[2024-05-30 11:59:25] INFO root fetch - main [MainThread]: End processing [dbis-tm]: success
+[2024-05-30 11:59:25] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst_resources-27.2024.2100.tar.gz]
+[2024-05-30 11:59:25] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst_resources-27.2024.2200.tar.gz]
+[2024-05-30 11:59:25] INFO root fetch - main [MainThread]: End processing [lsst-resources]: success
+[2024-05-30 11:59:26] INFO root fetch - processPackages [giotto-tda]: Remove: archive file [/home/abi/fetcher/tmp/giotto_tda-0.6.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 11:59:26] INFO root fetch - processPackages [giotto-tda]: Remove: archive file [/home/abi/fetcher/tmp/giotto_tda-0.6.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-30 11:59:26] INFO root fetch - main [MainThread]: End processing [giotto-tda]: success
+[2024-05-30 11:59:26] INFO root fetch - main [MainThread]: Store serial: [23446657]
