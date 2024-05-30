@@ -17562,3 +17562,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:21:04] INFO root fetch - processPackages [pycrdt]: Remove: archive file [/home/abi/fetcher/tmp/pycrdt-0.8.9.tar.gz]
 [2024-05-30 10:21:04] INFO root fetch - main [MainThread]: End processing [pycrdt]: success
 [2024-05-30 10:21:04] INFO root fetch - main [MainThread]: Store serial: [23444898]
+[2024-05-30 10:23:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444898]
+[2024-05-30 10:23:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-30 10:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unittestreport-yami
+[2024-05-30 10:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lakefs-sdk
+[2024-05-30 10:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lakefs-client
+[2024-05-30 10:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client-v2
+[2024-05-30 10:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ms-teams-notify
+[2024-05-30 10:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: doptools
+[2024-05-30 10:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-pyoidc
+[2024-05-30 10:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zaku
+[2024-05-30 10:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flask-scheema
+[2024-05-30 10:23:13] INFO root fetch - processPackages [zaku]: New version: [0.0.9] Old Version: [0.0.8rc1]
+[2024-05-30 10:23:13] INFO root fetch - processPackages [unittestreport-yami]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-30 10:23:13] INFO root fetch - processPackages [doptools]: New version: [1.0b2] Old Version: [1.0b1]
+[2024-05-30 10:23:13] INFO root fetch - processPackages [django-pyoidc]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-30 10:23:13] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-30 10:23:13] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/36/63/843de81065e8c450c9dd14f7dd36425a40393dc131450c91bebeb4c5dd43/zaku-0.0.8rc1-py3-none-any.whl
+[2024-05-30 10:23:13] INFO root fetch - processPackages [flask-scheema]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-30 10:23:13] WARNING root fetch - processPackages [ms-teams-notify]: Skipping, unable to determine old version
+[2024-05-30 10:23:13] INFO root fetch - main [MainThread]: End processing [ms-teams-notify] error
+[2024-05-30 10:23:13] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/31/c4/fd0a17d6977bd50c099ee5743521513f2944b312b050a17d798383313a5f/unittestreport_yami-0.1.6.tar.gz
+[2024-05-30 10:23:13] INFO root fetch - processPackages [lakefs-sdk]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-30 10:23:13] INFO root fetch - processPackages [lakefs-client]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-30 10:23:13] INFO root fetch - processPackages [doptools]: Downloading https://files.pythonhosted.org/packages/b2/c9/161ec0953f02d51bb1f00a9fcf1282bfb16ab43932f6c0217efd65eaba7d/doptools-1.0b1.tar.gz
+[2024-05-30 10:23:13] INFO root fetch - processPackages [django-pyoidc]: Downloading https://files.pythonhosted.org/packages/4f/68/02ff2984174af389a1971a06fdbc5d3bd85c9de0da242d7410c95c6f392c/django_pyoidc-0.0.5.tar.gz
+[2024-05-30 10:23:13] INFO root fetch - processPackages [lakefs-sdk]: Downloading https://files.pythonhosted.org/packages/57/be/a4450c759e43b20b40f85c0bb00fb07959df9d30e7555c87ec6683a285d8/lakefs-sdk-1.9.0.tar.gz
+[2024-05-30 10:23:13] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-05-30 10:23:13] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8a/a8/c118a1a9de1af9d2cfdb2bc98899995f06e7e07f261a5f0591ab761ddea3/flask_scheema-0.0.7.8-py3-none-any.whl
+[2024-05-30 10:23:13] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/b5/8b/0e57e5ca7f72b64dcd56587dff33da866b14e4d1dd505d5c315efc513c08/lakefs-client-1.9.0.tar.gz
+[2024-05-30 10:23:13] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/cf/0e/96a80c4cc62c4a2fa75fb4a3fbfabb21a029116202d8e513617930bcdd4a/zaku-0.0.9-py3-none-any.whl
+[2024-05-30 10:23:13] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/d8/07/b1e85ae67ce135b27c6d2039c6091b77818dcdb2602dd50410d4ac0251c9/unittestreport_yami-0.1.7.tar.gz
+[2024-05-30 10:23:13] INFO root fetch - processPackages [zaku]: executing diffoscope
+[2024-05-30 10:23:13] INFO root fetch - processPackages [zaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaku-0.0.8rc1-py3-none-any.whl.zip tmp/zaku-0.0.9-py3-none-any.whl.zip --markdown 20240530/z/zaku/0.0.8rc1-0.0.9/README.md --exclude *.pyd
+[2024-05-30 10:23:13] INFO root fetch - processPackages [unittestreport-yami]: executing diffoscope
+[2024-05-30 10:23:13] INFO root fetch - processPackages [unittestreport-yami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unittestreport_yami-0.1.6.tar.gz tmp/unittestreport_yami-0.1.7.tar.gz --markdown 20240530/u/unittestreport-yami/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-30 10:23:13] INFO root fetch - processPackages [doptools]: Downloading https://files.pythonhosted.org/packages/aa/5b/335de56148e06a426169041465a5d2264a5eb8b48e6adf1cbb86cda27686/doptools-1.0b2.tar.gz
+[2024-05-30 10:23:13] INFO root fetch - processPackages [django-pyoidc]: Downloading https://files.pythonhosted.org/packages/e6/3e/878f18d05db150176a99a1d5bfaac81a7230b1cb801e6fe516014a27c9dc/django_pyoidc-0.0.6.tar.gz
+[2024-05-30 10:23:13] INFO root fetch - processPackages [doptools]: executing diffoscope
+[2024-05-30 10:23:13] INFO root fetch - processPackages [doptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doptools-1.0b1.tar.gz tmp/doptools-1.0b2.tar.gz --markdown 20240530/d/doptools/1.0b1-1.0b2/README.md --exclude *.pyd
+[2024-05-30 10:23:13] INFO root fetch - processPackages [flask-scheema]: Downloading https://files.pythonhosted.org/packages/8d/72/2b05409a035543afa7987e691a45f3763c48d23d25871cec1a36af2069b4/flask_scheema-0.0.7.9-py3-none-any.whl
+[2024-05-30 10:23:13] INFO root fetch - processPackages [django-pyoidc]: executing diffoscope
+[2024-05-30 10:23:13] INFO root fetch - processPackages [django-pyoidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pyoidc-0.0.5.tar.gz tmp/django_pyoidc-0.0.6.tar.gz --markdown 20240530/d/django-pyoidc/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-30 10:23:13] INFO root fetch - processPackages [lakefs-sdk]: Downloading https://files.pythonhosted.org/packages/13/cf/5e0682fc74d8210e18babfe0e44ebb9eee4c4f86cb6a012c84ba0b18fcc2/lakefs-sdk-1.9.1.tar.gz
+[2024-05-30 10:23:13] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-05-30 10:23:13] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/71/39/dbe6ee4e66e711c97a1ccfa218019d31013870cb273ac42fd4ac3f84928b/lakefs-client-1.9.1.tar.gz
+[2024-05-30 10:23:14] INFO root fetch - processPackages [flask-scheema]: executing diffoscope
+[2024-05-30 10:23:14] INFO root fetch - processPackages [flask-scheema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip --markdown 20240530/f/flask-scheema/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-30 10:23:14] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-05-30 10:23:14] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240530/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-30 10:23:14] INFO root fetch - processPackages [lakefs-client]: executing diffoscope
+[2024-05-30 10:23:14] INFO root fetch - processPackages [lakefs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-client-1.9.0.tar.gz tmp/lakefs-client-1.9.1.tar.gz --markdown 20240530/l/lakefs-client/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-30 10:23:14] INFO root fetch - processPackages [lakefs-sdk]: executing diffoscope
+[2024-05-30 10:23:14] INFO root fetch - processPackages [lakefs-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-sdk-1.9.0.tar.gz tmp/lakefs-sdk-1.9.1.tar.gz --markdown 20240530/l/lakefs-sdk/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-30 10:23:14] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.8rc1-py3-none-any.whl.zip]
+[2024-05-30 10:23:14] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.9-py3-none-any.whl.zip]
+[2024-05-30 10:23:14] INFO root fetch - main [MainThread]: End processing [zaku]: success
+[2024-05-30 10:23:14] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.6.tar.gz]
+[2024-05-30 10:23:14] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.7.tar.gz]
+[2024-05-30 10:23:14] INFO root fetch - main [MainThread]: End processing [unittestreport-yami]: success
+[2024-05-30 10:23:14] INFO root fetch - processPackages [doptools]: Remove: archive file [/home/abi/fetcher/tmp/doptools-1.0b1.tar.gz]
+[2024-05-30 10:23:14] INFO root fetch - processPackages [doptools]: Remove: archive file [/home/abi/fetcher/tmp/doptools-1.0b2.tar.gz]
+[2024-05-30 10:23:14] INFO root fetch - main [MainThread]: End processing [doptools]: success
+[2024-05-30 10:23:14] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.8-py3-none-any.whl.zip]
+[2024-05-30 10:23:14] INFO root fetch - processPackages [flask-scheema]: Remove: archive file [/home/abi/fetcher/tmp/flask_scheema-0.0.7.9-py3-none-any.whl.zip]
+[2024-05-30 10:23:14] INFO root fetch - processPackages [django-pyoidc]: Remove: archive file [/home/abi/fetcher/tmp/django_pyoidc-0.0.5.tar.gz]
+[2024-05-30 10:23:14] INFO root fetch - main [MainThread]: End processing [flask-scheema]: success
+[2024-05-30 10:23:14] INFO root fetch - processPackages [django-pyoidc]: Remove: archive file [/home/abi/fetcher/tmp/django_pyoidc-0.0.6.tar.gz]
+[2024-05-30 10:23:14] INFO root fetch - main [MainThread]: End processing [django-pyoidc]: success
+[2024-05-30 10:23:15] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-05-30 10:23:15] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-05-30 10:23:15] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-05-30 10:23:15] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-1.9.0.tar.gz]
+[2024-05-30 10:23:15] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-1.9.1.tar.gz]
+[2024-05-30 10:23:15] INFO root fetch - main [MainThread]: End processing [lakefs-client]: success
+[2024-05-30 10:23:15] INFO root fetch - processPackages [lakefs-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-sdk-1.9.0.tar.gz]
+[2024-05-30 10:23:15] INFO root fetch - processPackages [lakefs-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-sdk-1.9.1.tar.gz]
+[2024-05-30 10:23:15] INFO root fetch - main [MainThread]: End processing [lakefs-sdk]: success
+[2024-05-30 10:23:15] INFO root fetch - main [MainThread]: Store serial: [23444926]
