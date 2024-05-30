@@ -20414,3 +20414,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:07:16] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240529.tar.gz]
 [2024-05-30 11:07:16] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
 [2024-05-30 11:07:16] INFO root fetch - main [MainThread]: Store serial: [23445903]
+[2024-05-30 11:09:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23445903]
+[2024-05-30 11:09:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 11:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-05-30 11:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crawlee
+[2024-05-30 11:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tanjiro
+[2024-05-30 11:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentry-qiwei
+[2024-05-30 11:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c2cwsgiutils
+[2024-05-30 11:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: colomoto-docker
+[2024-05-30 11:09:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: feynmodel
+[2024-05-30 11:09:25] INFO root fetch - processPackages [crawlee]: New version: [0.0.4b3] Old Version: [0.0.4b2]
+[2024-05-30 11:09:25] INFO root fetch - processPackages [colomoto-docker]: New version: [9.0] Old Version: [8.3]
+[2024-05-30 11:09:25] INFO root fetch - processPackages [feynmodel]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-30 11:09:25] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-30 11:09:25] WARNING root fetch - processPackages [sentry-qiwei]: Skipping, unable to determine old version
+[2024-05-30 11:09:25] INFO root fetch - main [MainThread]: End processing [sentry-qiwei] error
+[2024-05-30 11:09:25] WARNING root fetch - processPackages [tanjiro]: Skipping, unable to determine old version
+[2024-05-30 11:09:25] INFO root fetch - main [MainThread]: End processing [tanjiro] error
+[2024-05-30 11:09:25] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/7e/45/f2d2ec1f182ea48b370038dc22dc4604a9181c3c0108775f26f8f77346a1/crawlee-0.0.4b2.tar.gz
+[2024-05-30 11:09:25] INFO root fetch - processPackages [colomoto-docker]: Downloading https://files.pythonhosted.org/packages/c8/29/735992a5d8220724eb447f40d57be584ac4327db052edeb763f91ff85857/colomoto_docker-8.3.tar.gz
+[2024-05-30 11:09:25] INFO root fetch - processPackages [feynmodel]: Downloading https://files.pythonhosted.org/packages/07/bb/2aa82991812d8cf44f5b8e93e9113ea104dafbd6e9705431dd3d7d7474e6/feynmodel-0.0.7.tar.gz
+[2024-05-30 11:09:25] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-05-30 11:09:25] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-30 11:09:25] INFO root fetch - processPackages [feynmodel]: Downloading https://files.pythonhosted.org/packages/8e/43/a6acbeb10b7a00a233ab0eabdbfcc1ddc0229ecd0f684dd3ebc030c01f48/feynmodel-0.0.9.tar.gz
+[2024-05-30 11:09:25] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/b6/ab/6fc25a446500aea82f6ce281a0a1c46e751bf1cb801951e0919639816882/crawlee-0.0.4b3.tar.gz
+[2024-05-30 11:09:25] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-05-30 11:09:26] INFO root fetch - processPackages [colomoto-docker]: Downloading https://files.pythonhosted.org/packages/43/ce/b0aa4ae0906146df812778259e83c82358394a62adfe023d1b199ef2b69a/colomoto_docker-9.0.tar.gz
+[2024-05-30 11:09:26] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-30 11:09:26] INFO root fetch - processPackages [feynmodel]: executing diffoscope
+[2024-05-30 11:09:26] INFO root fetch - processPackages [feynmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feynmodel-0.0.7.tar.gz tmp/feynmodel-0.0.9.tar.gz --markdown 20240530/f/feynmodel/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-30 11:09:26] INFO root fetch - processPackages [crawlee]: executing diffoscope
+[2024-05-30 11:09:26] INFO root fetch - processPackages [crawlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlee-0.0.4b2.tar.gz tmp/crawlee-0.0.4b3.tar.gz --markdown 20240530/c/crawlee/0.0.4b2-0.0.4b3/README.md --exclude *.pyd
+[2024-05-30 11:09:26] INFO root fetch - processPackages [colomoto-docker]: executing diffoscope
+[2024-05-30 11:09:26] INFO root fetch - processPackages [colomoto-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colomoto_docker-8.3.tar.gz tmp/colomoto_docker-9.0.tar.gz --markdown 20240530/c/colomoto-docker/8.3-9.0/README.md --exclude *.pyd
+[2024-05-30 11:09:26] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-30 11:09:26] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240530/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-30 11:09:26] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-05-30 11:09:26] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-05-30 11:09:26] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240530/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/README.md --exclude *.pyd
+[2024-05-30 11:09:26] INFO root fetch - processPackages [colomoto-docker]: Remove: archive file [/home/abi/fetcher/tmp/colomoto_docker-8.3.tar.gz]
+[2024-05-30 11:09:26] INFO root fetch - processPackages [colomoto-docker]: Remove: archive file [/home/abi/fetcher/tmp/colomoto_docker-9.0.tar.gz]
+[2024-05-30 11:09:26] INFO root fetch - main [MainThread]: End processing [colomoto-docker]: success
+[2024-05-30 11:09:26] INFO root fetch - processPackages [feynmodel]: Remove: archive file [/home/abi/fetcher/tmp/feynmodel-0.0.7.tar.gz]
+[2024-05-30 11:09:26] INFO root fetch - processPackages [feynmodel]: Remove: archive file [/home/abi/fetcher/tmp/feynmodel-0.0.9.tar.gz]
+[2024-05-30 11:09:26] INFO root fetch - main [MainThread]: End processing [feynmodel]: success
+[2024-05-30 11:09:26] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.4b2.tar.gz]
+[2024-05-30 11:09:26] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.4b3.tar.gz]
+[2024-05-30 11:09:26] INFO root fetch - main [MainThread]: End processing [crawlee]: success
+[2024-05-30 11:09:27] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-05-30 11:09:27] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-05-30 11:09:27] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-05-30 11:09:28] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-30 11:09:28] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-30 11:09:28] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-30 11:09:28] INFO root fetch - main [MainThread]: Store serial: [23445926]
