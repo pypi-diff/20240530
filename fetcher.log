@@ -22326,3 +22326,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 12:07:00] INFO root fetch - processPackages [h2lib]: Remove: archive file [/home/abi/fetcher/tmp/h2lib-13.1.4-cp39-cp39-win_amd64.whl.zip]
 [2024-05-30 12:07:00] INFO root fetch - main [MainThread]: End processing [h2lib]: success
 [2024-05-30 12:07:00] INFO root fetch - main [MainThread]: Store serial: [23446748]
+[2024-05-30 12:09:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446748]
+[2024-05-30 12:09:09] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-30 12:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentry-qiwei
+[2024-05-30 12:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-gutendex
+[2024-05-30 12:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataset-convert-toolkit
+[2024-05-30 12:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osvg
+[2024-05-30 12:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: milvus-haystack
+[2024-05-30 12:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HABSlib
+[2024-05-30 12:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-cryptomus-test1
+[2024-05-30 12:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MolScore
+[2024-05-30 12:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: luminesce-sdk-preview
+[2024-05-30 12:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbt-command-center
+[2024-05-30 12:09:09] INFO root fetch - processPackages [sentry-qiwei]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-05-30 12:09:09] INFO root fetch - processPackages [dbt-command-center]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-30 12:09:09] INFO root fetch - processPackages [HABSlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 12:09:09] WARNING root fetch - processPackages [dataset-convert-toolkit]: Skipping, unable to determine old version
+[2024-05-30 12:09:09] INFO root fetch - processPackages [dataset-convert-toolkit]: Start processing: BarteSDK
+[2024-05-30 12:09:09] INFO root fetch - main [MainThread]: End processing [dataset-convert-toolkit] error
+[2024-05-30 12:09:09] INFO root fetch - processPackages [sentry-qiwei]: Downloading https://files.pythonhosted.org/packages/72/18/a178a49f37eecc4881994002c8e8b5aaeecf4c534c82c92f95fdcb483595/sentry_qiwei-1.0.2.tar.gz
+[2024-05-30 12:09:09] INFO root fetch - processPackages [osvg]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-30 12:09:09] WARNING root fetch - processPackages [django-cryptomus-test1]: Skipping, unable to determine old version
+[2024-05-30 12:09:09] INFO root fetch - processPackages [django-cryptomus-test1]: Start processing: guppylang
+[2024-05-30 12:09:09] INFO root fetch - main [MainThread]: End processing [django-cryptomus-test1] error
+[2024-05-30 12:09:09] INFO root fetch - processPackages [MolScore]: New version: [1.6] Old Version: [1.5.5]
+[2024-05-30 12:09:09] INFO root fetch - processPackages [milvus-haystack]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-30 12:09:09] INFO root fetch - processPackages [airbyte-source-gutendex]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 12:09:09] INFO root fetch - processPackages [dbt-command-center]: Downloading https://files.pythonhosted.org/packages/01/1b/b3a16f1335d817a431b89df023fe68b4ae98a62b41ae5dfdc557e393be2f/dbt_command_center-0.1.1.tar.gz
+[2024-05-30 12:09:09] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 12:09:09] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/92/a2/3472f44ce5fbc12a46ed53af9061d73c2ad2a08f4cfc95d85c9f0d590c52/habslib-0.1.8.tar.gz
+[2024-05-30 12:09:09] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-05-30 12:09:09] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-30 12:09:09] INFO root fetch - processPackages [airbyte-source-gutendex]: Downloading https://files.pythonhosted.org/packages/5e/c9/31b98b3b7b713329ee99ec3079d1722fed7571536fee0e6128aebf60106c/airbyte-source-gutendex-0.1.0.tar.gz
+[2024-05-30 12:09:09] INFO root fetch - processPackages [guppylang]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-30 12:09:09] INFO root fetch - processPackages [osvg]: Downloading https://files.pythonhosted.org/packages/58/59/e10314e11fdb6e01971e2a525f4c1aa29da9178873e8245fa8a8857f3fb9/osvg-1.1.0.tar.gz
+[2024-05-30 12:09:09] INFO root fetch - processPackages [milvus-haystack]: Downloading https://files.pythonhosted.org/packages/a6/b9/1acc4d17b12403af0b20a8d77d91403583c2a9ef94e9dee52132f71db205/milvus_haystack-0.0.6.tar.gz
+[2024-05-30 12:09:09] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/b2/ea/3eb2099f135cfbcea8c24a4ef575773e1c92246ed65b1611aba761b07ff2/habslib-0.1.9.tar.gz
+[2024-05-30 12:09:09] INFO root fetch - processPackages [MolScore]: Downloading https://files.pythonhosted.org/packages/38/6f/c6512b782943226acdbdbe0e82326565fa890a30e0c724b5056845463874/MolScore-1.5.5-py3-none-any.whl
+[2024-05-30 12:09:09] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-05-30 12:09:09] INFO root fetch - processPackages [sentry-qiwei]: Downloading https://files.pythonhosted.org/packages/95/15/ceb380d9922f8e72dde8ae13bfee5c9648afb53ed57ad26f0e5d84467524/sentry_qiwei-1.0.4.tar.gz
+[2024-05-30 12:09:09] INFO root fetch - processPackages [dbt-command-center]: Downloading https://files.pythonhosted.org/packages/5d/2b/34bf1b3bdb6031978e2fc3b9b0af5e379dc3863306ab197d7dcbc035b696/dbt_command_center-0.1.2.tar.gz
+[2024-05-30 12:09:10] INFO root fetch - processPackages [HABSlib]: executing diffoscope
+[2024-05-30 12:09:10] INFO root fetch - processPackages [HABSlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habslib-0.1.8.tar.gz tmp/habslib-0.1.9.tar.gz --markdown 20240530/H/HABSlib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 12:09:10] WARNING root fetch - processPackages [MolScore]: Skipping package: exceeds size limit 54526008>=10485760
+[2024-05-30 12:09:10] INFO root fetch - main [MainThread]: End processing [MolScore] error
+[2024-05-30 12:09:10] INFO root fetch - processPackages [guppylang]: Downloading https://files.pythonhosted.org/packages/da/82/267ec067c807f866ce17701339b085656906f0b7450fb4cbfa29b28d3f8b/guppylang-0.3.0.tar.gz
+[2024-05-30 12:09:10] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-30 12:09:10] INFO root fetch - processPackages [sentry-qiwei]: executing diffoscope
+[2024-05-30 12:09:10] INFO root fetch - processPackages [sentry-qiwei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_qiwei-1.0.2.tar.gz tmp/sentry_qiwei-1.0.4.tar.gz --markdown 20240530/s/sentry-qiwei/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-05-30 12:09:10] INFO root fetch - processPackages [airbyte-source-gutendex]: Downloading https://files.pythonhosted.org/packages/a1/6b/b99e32b53bdb9de3d82dd52574dba8e5a9b1839454e10b5243bf7bb297f1/airbyte_source_gutendex-0.1.1.tar.gz
+[2024-05-30 12:09:10] INFO root fetch - processPackages [osvg]: Downloading https://files.pythonhosted.org/packages/dc/d0/96471e011e81bb5f9a44dd1002844eec2eb7c8d2daccb7df7cf09f050b84/osvg-1.1.1.tar.gz
+[2024-05-30 12:09:10] INFO root fetch - processPackages [dbt-command-center]: executing diffoscope
+[2024-05-30 12:09:10] INFO root fetch - processPackages [dbt-command-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_command_center-0.1.1.tar.gz tmp/dbt_command_center-0.1.2.tar.gz --markdown 20240530/d/dbt-command-center/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-30 12:09:10] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-30 12:09:10] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240530/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 12:09:10] INFO root fetch - processPackages [milvus-haystack]: Downloading https://files.pythonhosted.org/packages/86/4e/1bea6a9ee208fd85a0f85b84e0b040026392fe30af2fe485b0be849f3c88/milvus_haystack-0.0.7.tar.gz
+[2024-05-30 12:09:10] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-05-30 12:09:10] INFO root fetch - processPackages [airbyte-source-gutendex]: executing diffoscope
+[2024-05-30 12:09:10] INFO root fetch - processPackages [airbyte-source-gutendex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-gutendex-0.1.0.tar.gz tmp/airbyte_source_gutendex-0.1.1.tar.gz --markdown 20240530/a/airbyte-source-gutendex/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 12:09:10] INFO root fetch - processPackages [osvg]: executing diffoscope
+[2024-05-30 12:09:10] INFO root fetch - processPackages [osvg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osvg-1.1.0.tar.gz tmp/osvg-1.1.1.tar.gz --markdown 20240530/o/osvg/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-30 12:09:10] INFO root fetch - processPackages [guppylang]: Downloading https://files.pythonhosted.org/packages/0f/a6/9a0c10b8b016f376f11425ae6b7f596795dc6349e8721b08f57ff003b08d/guppylang-0.4.0.tar.gz
+[2024-05-30 12:09:10] INFO root fetch - processPackages [milvus-haystack]: executing diffoscope
+[2024-05-30 12:09:10] INFO root fetch - processPackages [milvus-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milvus_haystack-0.0.6.tar.gz tmp/milvus_haystack-0.0.7.tar.gz --markdown 20240530/m/milvus-haystack/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-30 12:09:10] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-05-30 12:09:10] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240530/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-05-30 12:09:10] INFO root fetch - processPackages [guppylang]: executing diffoscope
+[2024-05-30 12:09:10] INFO root fetch - processPackages [guppylang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guppylang-0.3.0.tar.gz tmp/guppylang-0.4.0.tar.gz --markdown 20240530/g/guppylang/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-30 12:09:10] INFO root fetch - processPackages [sentry-qiwei]: Remove: archive file [/home/abi/fetcher/tmp/sentry_qiwei-1.0.2.tar.gz]
+[2024-05-30 12:09:10] INFO root fetch - processPackages [sentry-qiwei]: Remove: archive file [/home/abi/fetcher/tmp/sentry_qiwei-1.0.4.tar.gz]
+[2024-05-30 12:09:10] INFO root fetch - main [MainThread]: End processing [sentry-qiwei]: success
+[2024-05-30 12:09:10] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.8.tar.gz]
+[2024-05-30 12:09:10] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.9.tar.gz]
+[2024-05-30 12:09:10] INFO root fetch - main [MainThread]: End processing [HABSlib]: success
+[2024-05-30 12:09:10] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-30 12:09:10] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-30 12:09:10] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-30 12:09:11] INFO root fetch - processPackages [airbyte-source-gutendex]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-gutendex-0.1.0.tar.gz]
+[2024-05-30 12:09:11] INFO root fetch - processPackages [airbyte-source-gutendex]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_gutendex-0.1.1.tar.gz]
+[2024-05-30 12:09:11] INFO root fetch - main [MainThread]: End processing [airbyte-source-gutendex]: success
+[2024-05-30 12:09:11] INFO root fetch - processPackages [milvus-haystack]: Remove: archive file [/home/abi/fetcher/tmp/milvus_haystack-0.0.6.tar.gz]
+[2024-05-30 12:09:11] INFO root fetch - processPackages [milvus-haystack]: Remove: archive file [/home/abi/fetcher/tmp/milvus_haystack-0.0.7.tar.gz]
+[2024-05-30 12:09:11] INFO root fetch - main [MainThread]: End processing [milvus-haystack]: success
+[2024-05-30 12:09:11] INFO root fetch - processPackages [osvg]: Remove: archive file [/home/abi/fetcher/tmp/osvg-1.1.0.tar.gz]
+[2024-05-30 12:09:11] INFO root fetch - processPackages [osvg]: Remove: archive file [/home/abi/fetcher/tmp/osvg-1.1.1.tar.gz]
+[2024-05-30 12:09:11] INFO root fetch - main [MainThread]: End processing [osvg]: success
+[2024-05-30 12:09:11] INFO root fetch - processPackages [guppylang]: Remove: archive file [/home/abi/fetcher/tmp/guppylang-0.3.0.tar.gz]
+[2024-05-30 12:09:11] INFO root fetch - processPackages [guppylang]: Remove: archive file [/home/abi/fetcher/tmp/guppylang-0.4.0.tar.gz]
+[2024-05-30 12:09:11] INFO root fetch - main [MainThread]: End processing [guppylang]: success
+[2024-05-30 12:09:11] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-05-30 12:09:11] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-05-30 12:09:11] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-05-30 12:09:13] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.1.tar.gz]
+[2024-05-30 12:09:13] INFO root fetch - processPackages [dbt-command-center]: Remove: archive file [/home/abi/fetcher/tmp/dbt_command_center-0.1.2.tar.gz]
+[2024-05-30 12:09:13] INFO root fetch - main [MainThread]: End processing [dbt-command-center]: success
+[2024-05-30 12:09:13] INFO root fetch - main [MainThread]: Store serial: [23446799]
