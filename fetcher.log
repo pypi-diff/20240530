@@ -8478,3 +8478,17 @@ EOFError: EOF read where object expected
 [2024-05-30 04:09:23] INFO root fetch - processPackages [maskalib]: Remove: archive file [/home/abi/fetcher/tmp/maskalib-0.6.tar.gz]
 [2024-05-30 04:09:23] INFO root fetch - main [MainThread]: End processing [maskalib]: success
 [2024-05-30 04:09:23] INFO root fetch - main [MainThread]: Store serial: [23441156]
+[2024-05-30 04:11:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441156]
+[2024-05-30 04:11:31] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-30 04:13:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441156]
+[2024-05-30 04:13:37] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 04:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-parse
+[2024-05-30 04:13:37] INFO root fetch - processPackages [llama-parse]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-30 04:13:37] INFO root fetch - processPackages [llama-parse]: Downloading https://files.pythonhosted.org/packages/25/07/1bc577cc7ced1ae4168097be7e7318cd978645937c1dc1dbe8d4f310cfe2/llama_parse-0.4.2.tar.gz
+[2024-05-30 04:13:37] INFO root fetch - processPackages [llama-parse]: Downloading https://files.pythonhosted.org/packages/ec/9f/f32609218f50f2a4c6a2dc8ce0bdca374203157b1172f0e1130029d10838/llama_parse-0.4.3.tar.gz
+[2024-05-30 04:13:37] INFO root fetch - processPackages [llama-parse]: executing diffoscope
+[2024-05-30 04:13:37] INFO root fetch - processPackages [llama-parse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_parse-0.4.2.tar.gz tmp/llama_parse-0.4.3.tar.gz --markdown 20240530/l/llama-parse/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-30 04:13:38] INFO root fetch - processPackages [llama-parse]: Remove: archive file [/home/abi/fetcher/tmp/llama_parse-0.4.2.tar.gz]
+[2024-05-30 04:13:38] INFO root fetch - processPackages [llama-parse]: Remove: archive file [/home/abi/fetcher/tmp/llama_parse-0.4.3.tar.gz]
+[2024-05-30 04:13:38] INFO root fetch - main [MainThread]: End processing [llama-parse]: success
+[2024-05-30 04:13:38] INFO root fetch - main [MainThread]: Store serial: [23441159]
