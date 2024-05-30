@@ -21355,3 +21355,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:38:18] INFO root fetch - processPackages [lwk]: Remove: archive file [/home/abi/fetcher/tmp/lwk-0.4.1-py3-none-win_amd64.whl.zip]
 [2024-05-30 11:38:18] INFO root fetch - main [MainThread]: End processing [lwk]: success
 [2024-05-30 11:38:18] INFO root fetch - main [MainThread]: Store serial: [23446299]
+[2024-05-30 11:40:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446299]
+[2024-05-30 11:40:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: indusmes
+[2024-05-30 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: satip
+[2024-05-30 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdo-sdk-python
+[2024-05-30 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-zxcvbn-password-validator
+[2024-05-30 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-command-center
+[2024-05-30 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: papery
+[2024-05-30 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: satip
+[2024-05-30 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ultralytics
+[2024-05-30 11:40:46] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-30 11:40:46] INFO root fetch - processPackages [ultralytics]: New version: [8.2.9] Old Version: [8.2.8]
+[2024-05-30 11:40:46] INFO root fetch - processPackages [indusmes]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-30 11:40:46] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-30 11:40:46] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/2d/1f/773ce923d52559a9246fe5b3e4d86c67714d941216658acdb23bf9d46212/ultralytics-8.2.8.tar.gz
+[2024-05-30 11:40:46] WARNING root fetch - processPackages [dbt-command-center]: Skipping, unable to determine old version
+[2024-05-30 11:40:46] INFO root fetch - main [MainThread]: End processing [dbt-command-center] error
+[2024-05-30 11:40:46] INFO root fetch - processPackages [django-zxcvbn-password-validator]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-30 11:40:46] INFO root fetch - processPackages [papery]: New version: [0.8.0] Old Version: [0.7.2]
+[2024-05-30 11:40:46] INFO root fetch - processPackages [satip]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-30 11:40:46] INFO root fetch - processPackages [satip]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-30 11:40:47] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/17/6e/89a05ffed4bbaae94368f45323ff75db71965c94c1259457ef61dc551645/ultralytics-8.2.9.tar.gz
+[2024-05-30 11:40:47] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-30 11:40:47] INFO root fetch - processPackages [papery]: Downloading https://files.pythonhosted.org/packages/ce/f7/d543816821229a14587984f1a6431589b4d52f994effc2427643b0f087fd/papery-0.7.2.tar.gz
+[2024-05-30 11:40:47] INFO root fetch - processPackages [django-zxcvbn-password-validator]: Downloading https://files.pythonhosted.org/packages/e1/50/01cf3755cd72b7a433e695ab106d0ed91cd3b315c8364fd7f14fb2dd5db3/django-zxcvbn-password-validator-1.4.3.tar.gz
+[2024-05-30 11:40:47] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/c3/e8/b3c5caf4db2b47fab258763e006a81315f49cf587e12e65aa7025968b03f/satip-2.9.8.tar.gz
+[2024-05-30 11:40:47] INFO root fetch - processPackages [indusmes]: Downloading https://files.pythonhosted.org/packages/a8/ce/424463aa7c3ca7b4aa15c44c9199ea9c296c7f0915f3c4a2edc0682239de/indusmes-1.0.0-py3-none-any.whl
+[2024-05-30 11:40:47] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/c3/e8/b3c5caf4db2b47fab258763e006a81315f49cf587e12e65aa7025968b03f/satip-2.9.8.tar.gz
+[2024-05-30 11:40:47] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-30 11:40:47] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240530/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-30 11:40:47] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-05-30 11:40:47] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.2.8.tar.gz tmp/ultralytics-8.2.9.tar.gz --markdown 20240530/u/ultralytics/8.2.8-8.2.9/README.md --exclude *.pyd
+[2024-05-30 11:40:47] INFO root fetch - processPackages [papery]: Downloading https://files.pythonhosted.org/packages/39/9f/df2f3d13eb5afd12b903acce79cf80034865015f0caee9124f40638257ab/papery-0.8.0.tar.gz
+[2024-05-30 11:40:47] INFO root fetch - processPackages [django-zxcvbn-password-validator]: Downloading https://files.pythonhosted.org/packages/f7/bb/bed8e368fb7d756fe796b50569710a8116f2c03090bff8b40a0b59a2485b/django_zxcvbn_password_validator-1.4.4.tar.gz
+[2024-05-30 11:40:47] INFO root fetch - processPackages [indusmes]: Downloading https://files.pythonhosted.org/packages/90/8c/f33e6eaa6cd8c763cd75a6301db960a6ca7ad312cffe4fdc44f7664f2253/indusmes-1.0.1.tar.gz
+[2024-05-30 11:40:47] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/06/5b/8bd6eec7428e98b330d6546e21261944d9361dcedd4e96b25bee4a5ee145/satip-2.9.9.tar.gz
+[2024-05-30 11:40:47] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/06/5b/8bd6eec7428e98b330d6546e21261944d9361dcedd4e96b25bee4a5ee145/satip-2.9.9.tar.gz
+[2024-05-30 11:40:47] INFO root fetch - processPackages [satip]: executing diffoscope
+[2024-05-30 11:40:47] INFO root fetch - processPackages [satip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satip-2.9.8.tar.gz tmp/satip-2.9.9.tar.gz --markdown 20240530/s/satip/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-30 11:40:47] INFO root fetch - processPackages [indusmes]: executing diffoscope
+[2024-05-30 11:40:47] INFO root fetch - processPackages [indusmes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indusmes-1.0.0-py3-none-any.whl.zip tmp/indusmes-1.0.1.tar.gz --markdown 20240530/i/indusmes/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-30 11:40:47] INFO root fetch - processPackages [django-zxcvbn-password-validator]: executing diffoscope
+[2024-05-30 11:40:47] INFO root fetch - processPackages [django-zxcvbn-password-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-zxcvbn-password-validator-1.4.3.tar.gz tmp/django_zxcvbn_password_validator-1.4.4.tar.gz --markdown 20240530/d/django-zxcvbn-password-validator/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-30 11:40:47] INFO root fetch - processPackages [satip]: executing diffoscope
+[2024-05-30 11:40:47] INFO root fetch - processPackages [satip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satip-2.9.8.tar.gz tmp/satip-2.9.9.tar.gz --markdown 20240530/s/satip/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-30 11:40:47] INFO root fetch - processPackages [papery]: executing diffoscope
+[2024-05-30 11:40:47] INFO root fetch - processPackages [papery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papery-0.7.2.tar.gz tmp/papery-0.8.0.tar.gz --markdown 20240530/p/papery/0.7.2-0.8.0/README.md --exclude *.pyd
+[2024-05-30 11:40:48] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.8.tar.gz]
+[2024-05-30 11:40:48] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.9.tar.gz]
+[2024-05-30 11:40:48] INFO root fetch - main [MainThread]: End processing [satip]: success
+[2024-05-30 11:40:48] INFO root fetch - processPackages [django-zxcvbn-password-validator]: Remove: archive file [/home/abi/fetcher/tmp/django-zxcvbn-password-validator-1.4.3.tar.gz]
+[2024-05-30 11:40:48] INFO root fetch - processPackages [django-zxcvbn-password-validator]: Remove: archive file [/home/abi/fetcher/tmp/django_zxcvbn_password_validator-1.4.4.tar.gz]
+[2024-05-30 11:40:48] INFO root fetch - main [MainThread]: End processing [django-zxcvbn-password-validator]: success
+[2024-05-30 11:40:48] INFO root fetch - main [MainThread]: End processing [satip]: success
+[2024-05-30 11:40:48] INFO root fetch - processPackages [papery]: Remove: archive file [/home/abi/fetcher/tmp/papery-0.7.2.tar.gz]
+[2024-05-30 11:40:48] INFO root fetch - processPackages [papery]: Remove: archive file [/home/abi/fetcher/tmp/papery-0.8.0.tar.gz]
+[2024-05-30 11:40:48] INFO root fetch - main [MainThread]: End processing [papery]: success
+[2024-05-30 11:40:48] INFO root fetch - processPackages [indusmes]: Remove: archive file [/home/abi/fetcher/tmp/indusmes-1.0.0-py3-none-any.whl.zip]
+[2024-05-30 11:40:48] INFO root fetch - processPackages [indusmes]: Remove: archive file [/home/abi/fetcher/tmp/indusmes-1.0.1.tar.gz]
+[2024-05-30 11:40:48] INFO root fetch - main [MainThread]: End processing [indusmes]: success
+[2024-05-30 11:40:48] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-30 11:40:48] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-30 11:40:48] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-30 11:40:48] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.8.tar.gz]
+[2024-05-30 11:40:48] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.9.tar.gz]
+[2024-05-30 11:40:48] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-05-30 11:40:48] INFO root fetch - main [MainThread]: Store serial: [23446342]
