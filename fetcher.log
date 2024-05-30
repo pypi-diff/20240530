@@ -12256,3 +12256,61 @@ EOFError: EOF read where object expected
 [2024-05-30 07:14:37] INFO root fetch - processPackages [recycling]: Remove: archive file [/home/abi/fetcher/tmp/recycling-1.1.0.tar.gz]
 [2024-05-30 07:14:37] INFO root fetch - main [MainThread]: End processing [recycling]: success
 [2024-05-30 07:14:37] INFO root fetch - main [MainThread]: Store serial: [23442549]
+[2024-05-30 07:16:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442549]
+[2024-05-30 07:16:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 07:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2024-05-30 07:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpu4pyscf-cuda11x
+[2024-05-30 07:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molecular-interaction-rules
+[2024-05-30 07:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpu4pyscf-cuda12x
+[2024-05-30 07:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: topologicpy
+[2024-05-30 07:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agency-swarm
+[2024-05-30 07:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lxdbapi
+[2024-05-30 07:16:46] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-30 07:16:46] INFO root fetch - processPackages [gpu4pyscf-cuda12x]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-05-30 07:16:46] INFO root fetch - processPackages [topologicpy]: New version: [6.0.0] Old Version: [0.7.9]
+[2024-05-30 07:16:46] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-30 07:16:46] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/c9/ed/13156f011d21e5e41bfdbb389669cf5f87ca7d607c1a80699340032ea03d/molecular_interaction_rules-0.6.1.tar.gz
+[2024-05-30 07:16:46] INFO root fetch - processPackages [gpu4pyscf-cuda12x]: Downloading https://files.pythonhosted.org/packages/e1/63/cb63f394b269dd6865146fa4ab768e2ad3ee4378dc4d3e6791cfe5133373/gpu4pyscf_cuda12x-0.7.7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 07:16:46] INFO root fetch - processPackages [gpu4pyscf-cuda11x]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-30 07:16:46] INFO root fetch - processPackages [agency-swarm]: New version: [0.2.5] Old Version: [0.2.3]
+[2024-05-30 07:16:46] INFO root fetch - processPackages [lxdbapi]: New version: [2.3.202405291717] Old Version: [2.3.202405230004]
+[2024-05-30 07:16:46] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-30 07:16:46] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/3e/52/7c597ff5ce0e8a466096408b371dcdd4d6a43fc858cedf97fa4d3cdb0954/topologicpy-0.7.9-py3-none-any.whl
+[2024-05-30 07:16:46] WARNING root fetch - processPackages [gpu4pyscf-cuda12x]: Skipping package: exceeds size limit 135631599>=10485760
+[2024-05-30 07:16:46] INFO root fetch - main [MainThread]: End processing [gpu4pyscf-cuda12x] error
+[2024-05-30 07:16:46] INFO root fetch - processPackages [lxdbapi]: Downloading https://files.pythonhosted.org/packages/49/18/e56c57b285373fc3d53f5ac1c464450e8c489936ca79c3d905c2202ebb3d/lxdbapi-2.3.202405230004.tar.gz
+[2024-05-30 07:16:46] INFO root fetch - processPackages [gpu4pyscf-cuda11x]: Downloading https://files.pythonhosted.org/packages/fe/6a/2f001e1c79b29345cb5a96eaa37cad11f772138932208103f40fa943798a/gpu4pyscf_cuda11x-0.7.8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 07:16:46] INFO root fetch - processPackages [agency-swarm]: Downloading https://files.pythonhosted.org/packages/d4/d8/beba2c686f9bcd4534393976312b5107fcd15a71e0a62b97ecb97e690ec2/agency_swarm-0.2.3.tar.gz
+[2024-05-30 07:16:47] WARNING root fetch - processPackages [gpu4pyscf-cuda11x]: Skipping package: exceeds size limit 135769309>=10485760
+[2024-05-30 07:16:47] INFO root fetch - main [MainThread]: End processing [gpu4pyscf-cuda11x] error
+[2024-05-30 07:16:47] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-30 07:16:47] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/da/70/5242672ac64a35f1c29e447bb3d56655848afcd233019294c589e76bfd11/molecular_interaction_rules-0.6.2.tar.gz
+[2024-05-30 07:16:47] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/65/d7/de982dd19dedb2387a9d3c48ff9384633b27b874064c9d3614a3c6dc530b/topologicpy-6.0.0-py3-none-any.whl
+[2024-05-30 07:16:47] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-30 07:16:47] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240530/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-30 07:16:47] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 07:16:47] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.6.1.tar.gz tmp/molecular_interaction_rules-0.6.2.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-30 07:16:47] INFO root fetch - processPackages [topologicpy]: executing diffoscope
+[2024-05-30 07:16:47] INFO root fetch - processPackages [topologicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topologicpy-0.7.9-py3-none-any.whl.zip tmp/topologicpy-6.0.0-py3-none-any.whl.zip --markdown 20240530/t/topologicpy/0.7.9-6.0.0/README.md --exclude *.pyd
+[2024-05-30 07:16:47] INFO root fetch - processPackages [lxdbapi]: Downloading https://files.pythonhosted.org/packages/d8/e6/e80e88c4711f842412611cc5948e984d3080151c2cd035f22d280d415277/lxdbapi-2.3.202405291717.tar.gz
+[2024-05-30 07:16:47] INFO root fetch - processPackages [agency-swarm]: Downloading https://files.pythonhosted.org/packages/c1/55/6dd691575edd1ed2d6276eb2148a2e24fcd035e6d2d433e48bd829717a99/agency_swarm-0.2.5.tar.gz
+[2024-05-30 07:16:47] INFO root fetch - processPackages [lxdbapi]: executing diffoscope
+[2024-05-30 07:16:47] INFO root fetch - processPackages [lxdbapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxdbapi-2.3.202405230004.tar.gz tmp/lxdbapi-2.3.202405291717.tar.gz --markdown 20240530/l/lxdbapi/2.3.202405230004-2.3.202405291717/README.md --exclude *.pyd
+[2024-05-30 07:16:47] INFO root fetch - processPackages [agency-swarm]: executing diffoscope
+[2024-05-30 07:16:47] INFO root fetch - processPackages [agency-swarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agency_swarm-0.2.3.tar.gz tmp/agency_swarm-0.2.5.tar.gz --markdown 20240530/a/agency-swarm/0.2.3-0.2.5/README.md --exclude *.pyd
+[2024-05-30 07:16:48] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.6.1.tar.gz]
+[2024-05-30 07:16:48] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.6.2.tar.gz]
+[2024-05-30 07:16:48] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 07:16:48] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-30 07:16:48] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-30 07:16:48] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-30 07:16:48] INFO root fetch - processPackages [agency-swarm]: Remove: archive file [/home/abi/fetcher/tmp/agency_swarm-0.2.3.tar.gz]
+[2024-05-30 07:16:48] INFO root fetch - processPackages [agency-swarm]: Remove: archive file [/home/abi/fetcher/tmp/agency_swarm-0.2.5.tar.gz]
+[2024-05-30 07:16:48] INFO root fetch - main [MainThread]: End processing [agency-swarm]: success
+[2024-05-30 07:16:48] INFO root fetch - processPackages [topologicpy]: Remove: archive file [/home/abi/fetcher/tmp/topologicpy-0.7.9-py3-none-any.whl.zip]
+[2024-05-30 07:16:48] INFO root fetch - processPackages [topologicpy]: Remove: archive file [/home/abi/fetcher/tmp/topologicpy-6.0.0-py3-none-any.whl.zip]
+[2024-05-30 07:16:48] INFO root fetch - main [MainThread]: End processing [topologicpy]: success
+[2024-05-30 07:16:49] INFO root fetch - processPackages [lxdbapi]: Remove: archive file [/home/abi/fetcher/tmp/lxdbapi-2.3.202405230004.tar.gz]
+[2024-05-30 07:16:49] INFO root fetch - processPackages [lxdbapi]: Remove: archive file [/home/abi/fetcher/tmp/lxdbapi-2.3.202405291717.tar.gz]
+[2024-05-30 07:16:49] INFO root fetch - main [MainThread]: End processing [lxdbapi]: success
+[2024-05-30 07:16:49] INFO root fetch - main [MainThread]: Store serial: [23442569]
