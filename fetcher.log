@@ -20906,3 +20906,130 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:22:02] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-05-30 11:22:02] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-05-30 11:22:02] INFO root fetch - main [MainThread]: Store serial: [23446119]
+[2024-05-30 11:24:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446119]
+[2024-05-30 11:24:11] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-30 11:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: port-ocean
+[2024-05-30 11:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: romms-glaficplots
+[2024-05-30 11:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bintang
+[2024-05-30 11:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composio-langchain
+[2024-05-30 11:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycaputo
+[2024-05-30 11:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: extrautilities
+[2024-05-30 11:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spm1d
+[2024-05-30 11:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-lyzr
+[2024-05-30 11:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imio.smartweb.common
+[2024-05-30 11:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: romms-glaficplots
+[2024-05-30 11:24:11] INFO root fetch - processPackages [composio-langchain]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-30 11:24:11] INFO root fetch - processPackages [romms-glaficplots]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 11:24:11] INFO root fetch - processPackages [extrautilities]: New version: [1.4] Old Version: [1.3]
+[2024-05-30 11:24:11] INFO root fetch - processPackages [romms-glaficplots]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 11:24:11] INFO root fetch - processPackages [port-ocean]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-30 11:24:11] INFO root fetch - processPackages [spm1d]: New version: [0.4.30] Old Version: [0.4.29]
+[2024-05-30 11:24:11] INFO root fetch - processPackages [composio-lyzr]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-30 11:24:11] INFO root fetch - processPackages [pycaputo]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-30 11:24:11] INFO root fetch - processPackages [bintang]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 11:24:11] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-05-30 11:24:11] INFO root fetch - processPackages [imio.smartweb.common]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-30 11:24:11] INFO root fetch - processPackages [romms-glaficplots]: Downloading https://files.pythonhosted.org/packages/38/4e/571af2e2fd0229bc978af83fd27331e105ea2fc535287b7a23309f68056c/romms_glaficplots-0.0.8.tar.gz
+[2024-05-30 11:24:11] INFO root fetch - processPackages [extrautilities]: Downloading https://files.pythonhosted.org/packages/86/b8/9a781ae0cd50abe57060f42f347062a5b190c626056990e67cd93ca4fe41/extrautilities-1.3.tar.gz
+[2024-05-30 11:24:11] INFO root fetch - processPackages [romms-glaficplots]: Downloading https://files.pythonhosted.org/packages/38/4e/571af2e2fd0229bc978af83fd27331e105ea2fc535287b7a23309f68056c/romms_glaficplots-0.0.8.tar.gz
+[2024-05-30 11:24:12] INFO root fetch - processPackages [spm1d]: Downloading https://files.pythonhosted.org/packages/6c/0f/7e90f0b10d88cf904ceddbdbc218573c58d13a6107fa54b2769d263bcaf9/spm1d-0.4.29.tar.gz
+[2024-05-30 11:24:12] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-05-30 11:24:12] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/78/bc/7cc9e8e2e79075a3c79c00273aaeb13f895d17585c027c53b61f77bdaba4/port_ocean-0.5.8.tar.gz
+[2024-05-30 11:24:12] INFO root fetch - processPackages [pycaputo]: Downloading https://files.pythonhosted.org/packages/85/29/085e4a7af7be5c504fe1c3b81d01c9565e3bd96c65d4548dc1b2acaeb6bb/pycaputo-0.5.0.tar.gz
+[2024-05-30 11:24:12] INFO root fetch - processPackages [bintang]: Downloading https://files.pythonhosted.org/packages/0c/12/02f1deed00fdb23f2756001580ecc7bb0663bc250a53848ffe2f09d1b9aa/bintang-0.1.8-py3-none-any.whl
+[2024-05-30 11:24:12] INFO root fetch - processPackages [imio.smartweb.common]: Downloading https://files.pythonhosted.org/packages/a8/10/446f945c7faaeda4e31be5b66463c99b6a78ed1a1729a1241a0433d74d14/imio.smartweb.common-1.2.8.tar.gz
+[2024-05-30 11:24:12] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/e6/fa/344d72b11046189d6b8e76f344f3cf4df9bf2d3f5b3ecf613bb365e9578b/composio_langchain-0.3.0.tar.gz
+[2024-05-30 11:24:12] INFO root fetch - processPackages [romms-glaficplots]: Downloading https://files.pythonhosted.org/packages/be/5f/ec560e93e981ecb2c7e391063bbd16c36e6b90b5273f41bbb9d7daf4eee0/romms_glaficplots-0.0.9.tar.gz
+[2024-05-30 11:24:12] INFO root fetch - processPackages [romms-glaficplots]: Downloading https://files.pythonhosted.org/packages/be/5f/ec560e93e981ecb2c7e391063bbd16c36e6b90b5273f41bbb9d7daf4eee0/romms_glaficplots-0.0.9.tar.gz
+[2024-05-30 11:24:12] INFO root fetch - processPackages [extrautilities]: Downloading https://files.pythonhosted.org/packages/bf/3f/e4cd3838cfee64325ffe1871043520e5bcc05ade0916326cc79dfb6b48d6/extrautilities-1.4.tar.gz
+[2024-05-30 11:24:12] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/3a/6b/c08978dd046429ddf27ef83e1380ae2e0ae385a1107aa9189632d85efa43/composio_lyzr-0.3.0.tar.gz
+[2024-05-30 11:24:12] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/9a/b8/b4b21f5c3d509271ff988cb9644c8429ce3f2eb23c44e309e16fc3f2c3d6/port_ocean-0.5.9.tar.gz
+[2024-05-30 11:24:12] INFO root fetch - processPackages [spm1d]: Downloading https://files.pythonhosted.org/packages/07/2d/079bab5c534a594d455cf32075ff01f880963513bf18b062c97d83ad7ddf/spm1d-0.4.30.tar.gz
+[2024-05-30 11:24:12] INFO root fetch - processPackages [extrautilities]: executing diffoscope
+[2024-05-30 11:24:12] INFO root fetch - processPackages [extrautilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extrautilities-1.3.tar.gz tmp/extrautilities-1.4.tar.gz --markdown 20240530/e/extrautilities/1.3-1.4/README.md --exclude *.pyd
+[2024-05-30 11:24:12] INFO root fetch - processPackages [romms-glaficplots]: executing diffoscope
+[2024-05-30 11:24:12] INFO root fetch - processPackages [romms-glaficplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/romms_glaficplots-0.0.8.tar.gz tmp/romms_glaficplots-0.0.9.tar.gz --markdown 20240530/r/romms-glaficplots/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 11:24:12] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-05-30 11:24:12] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.9.tar.gz tmp/composio_langchain-0.3.0.tar.gz --markdown 20240530/c/composio-langchain/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-30 11:24:12] INFO root fetch - processPackages [romms-glaficplots]: executing diffoscope
+[2024-05-30 11:24:12] INFO root fetch - processPackages [romms-glaficplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/romms_glaficplots-0.0.8.tar.gz tmp/romms_glaficplots-0.0.9.tar.gz --markdown 20240530/r/romms-glaficplots/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 11:24:12] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-05-30 11:24:12] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.9.tar.gz tmp/composio_lyzr-0.3.0.tar.gz --markdown 20240530/c/composio-lyzr/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-30 11:24:12] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2024-05-30 11:24:12] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.5.8.tar.gz tmp/port_ocean-0.5.9.tar.gz --markdown 20240530/p/port-ocean/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-30 11:24:12] INFO root fetch - processPackages [bintang]: Downloading https://files.pythonhosted.org/packages/d0/cc/72e661a38c9e931da8c1bbd590d364c8660716097a0b0643b9afaa7dbc03/bintang-0.1.9-py3-none-any.whl
+[2024-05-30 11:24:12] INFO root fetch - processPackages [pycaputo]: Downloading https://files.pythonhosted.org/packages/f2/d5/93a0ac4aec505b309afd8f8b9e6b8f74e783933472fd06c603ece43142b4/pycaputo-0.6.0.tar.gz
+[2024-05-30 11:24:12] INFO root fetch - processPackages [bintang]: executing diffoscope
+[2024-05-30 11:24:12] INFO root fetch - processPackages [bintang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bintang-0.1.8-py3-none-any.whl.zip tmp/bintang-0.1.9-py3-none-any.whl.zip --markdown 20240530/b/bintang/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 11:24:12] INFO root fetch - processPackages [pycaputo]: executing diffoscope
+[2024-05-30 11:24:12] INFO root fetch - processPackages [pycaputo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycaputo-0.5.0.tar.gz tmp/pycaputo-0.6.0.tar.gz --markdown 20240530/p/pycaputo/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-30 11:24:12] INFO root fetch - processPackages [spm1d]: executing diffoscope
+[2024-05-30 11:24:12] INFO root fetch - processPackages [spm1d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spm1d-0.4.29.tar.gz tmp/spm1d-0.4.30.tar.gz --markdown 20240530/s/spm1d/0.4.29-0.4.30/README.md --exclude *.pyd
+[2024-05-30 11:24:13] INFO root fetch - processPackages [imio.smartweb.common]: Downloading https://files.pythonhosted.org/packages/91/5e/d0034350465921f436497838bf83b0a442bcbce6d7ad0120d81ad61da38c/imio.smartweb.common-1.2.9.tar.gz
+[2024-05-30 11:24:13] INFO root fetch - processPackages [imio.smartweb.common]: executing diffoscope
+[2024-05-30 11:24:13] INFO root fetch - processPackages [imio.smartweb.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.common-1.2.8.tar.gz tmp/imio.smartweb.common-1.2.9.tar.gz --markdown 20240530/i/imio.smartweb.common/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-30 11:24:13] INFO root fetch - processPackages [romms-glaficplots]: Remove: archive file [/home/abi/fetcher/tmp/romms_glaficplots-0.0.8.tar.gz]
+[2024-05-30 11:24:13] INFO root fetch - processPackages [romms-glaficplots]: Remove: archive file [/home/abi/fetcher/tmp/romms_glaficplots-0.0.9.tar.gz]
+[2024-05-30 11:24:13] INFO root fetch - processPackages [romms-glaficplots]: Start processing: lanQ
+[2024-05-30 11:24:13] INFO root fetch - main [MainThread]: End processing [romms-glaficplots]: success
+[2024-05-30 11:24:13] INFO root fetch - processPackages [extrautilities]: Remove: archive file [/home/abi/fetcher/tmp/extrautilities-1.3.tar.gz]
+[2024-05-30 11:24:13] INFO root fetch - processPackages [extrautilities]: Remove: archive file [/home/abi/fetcher/tmp/extrautilities-1.4.tar.gz]
+[2024-05-30 11:24:13] INFO root fetch - processPackages [extrautilities]: Start processing: composio-openai
+[2024-05-30 11:24:13] INFO root fetch - main [MainThread]: End processing [extrautilities]: success
+[2024-05-30 11:24:13] INFO root fetch - processPackages [composio-openai]: New version: [0.3.0] Old Version: [0.2.64]
+[2024-05-30 11:24:13] INFO root fetch - processPackages [lanQ]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-05-30 11:24:13] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-05-30 11:24:13] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.3.0.tar.gz]
+[2024-05-30 11:24:13] INFO root fetch - processPackages [composio-lyzr]: Start processing: pynteracta
+[2024-05-30 11:24:13] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-05-30 11:24:13] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/06/21/51e0c2c7e86b6349421cdb10eb29184429ae76e680320ccc5d574530d3dd/composio_openai-0.2.64.tar.gz
+[2024-05-30 11:24:13] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-05-30 11:24:13] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.3.0.tar.gz]
+[2024-05-30 11:24:13] INFO root fetch - processPackages [composio-langchain]: Start processing: extrautilities
+[2024-05-30 11:24:13] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-05-30 11:24:13] INFO root fetch - main [MainThread]: End processing [romms-glaficplots]: success
+[2024-05-30 11:24:13] INFO root fetch - processPackages [extrautilities]: New version: [1.6] Old Version: [1.5]
+[2024-05-30 11:24:13] INFO root fetch - processPackages [pynteracta]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-30 11:24:13] INFO root fetch - processPackages [lanQ]: Downloading https://files.pythonhosted.org/packages/01/2c/a538e2d11300b1f1214652b4525b311207372f66198db302dc586c05e7b6/lanQ-1.4.4.tar.gz
+[2024-05-30 11:24:13] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.8.tar.gz]
+[2024-05-30 11:24:13] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.9.tar.gz]
+[2024-05-30 11:24:13] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2024-05-30 11:24:13] INFO root fetch - processPackages [bintang]: Remove: archive file [/home/abi/fetcher/tmp/bintang-0.1.8-py3-none-any.whl.zip]
+[2024-05-30 11:24:13] INFO root fetch - processPackages [bintang]: Remove: archive file [/home/abi/fetcher/tmp/bintang-0.1.9-py3-none-any.whl.zip]
+[2024-05-30 11:24:13] INFO root fetch - main [MainThread]: End processing [bintang]: success
+[2024-05-30 11:24:13] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/9c/ca/b4535a889aa9acfa6cf21dceb2ac04fb2291e7e58f0718bec69399676879/composio_openai-0.3.0.tar.gz
+[2024-05-30 11:24:13] INFO root fetch - processPackages [extrautilities]: Downloading https://files.pythonhosted.org/packages/96/bf/2140343cbf684a1f690f108f3b9d09794702a39db5d6e306cb6ecd4086c8/extrautilities-1.5.tar.gz
+[2024-05-30 11:24:13] INFO root fetch - processPackages [pynteracta]: Downloading https://files.pythonhosted.org/packages/5b/30/6d91d08e9bd34350b93580722a1336a8f5b457819b982c6e8f1b76b975da/pynteracta-0.4.8.tar.gz
+[2024-05-30 11:24:13] INFO root fetch - processPackages [composio-openai]: executing diffoscope
+[2024-05-30 11:24:13] INFO root fetch - processPackages [composio-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_openai-0.2.64.tar.gz tmp/composio_openai-0.3.0.tar.gz --markdown 20240530/c/composio-openai/0.2.64-0.3.0/README.md --exclude *.pyd
+[2024-05-30 11:24:14] INFO root fetch - processPackages [lanQ]: Downloading https://files.pythonhosted.org/packages/87/60/4fc9489557ce165fb1214c11b91069553fcc0711bb12fd9d53e21673a9f6/lanQ-1.4.5.tar.gz
+[2024-05-30 11:24:14] INFO root fetch - processPackages [extrautilities]: Downloading https://files.pythonhosted.org/packages/14/12/eff8414ca503c87c5e7336f536d05d7339a99b99f8681243f6d2d009776e/extrautilities-1.6.tar.gz
+[2024-05-30 11:24:14] INFO root fetch - processPackages [lanQ]: executing diffoscope
+[2024-05-30 11:24:14] INFO root fetch - processPackages [lanQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanQ-1.4.4.tar.gz tmp/lanQ-1.4.5.tar.gz --markdown 20240530/l/lanQ/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-05-30 11:24:14] INFO root fetch - processPackages [pynteracta]: Downloading https://files.pythonhosted.org/packages/33/17/afbdcefddd5ecc4a8356f158bf44dec618d587035ac3b4a963ba3c20bb6c/pynteracta-0.4.9.tar.gz
+[2024-05-30 11:24:14] INFO root fetch - processPackages [pycaputo]: Remove: archive file [/home/abi/fetcher/tmp/pycaputo-0.5.0.tar.gz]
+[2024-05-30 11:24:14] INFO root fetch - processPackages [pycaputo]: Remove: archive file [/home/abi/fetcher/tmp/pycaputo-0.6.0.tar.gz]
+[2024-05-30 11:24:14] INFO root fetch - processPackages [extrautilities]: executing diffoscope
+[2024-05-30 11:24:14] INFO root fetch - main [MainThread]: End processing [pycaputo]: success
+[2024-05-30 11:24:14] INFO root fetch - processPackages [extrautilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extrautilities-1.5.tar.gz tmp/extrautilities-1.6.tar.gz --markdown 20240530/e/extrautilities/1.5-1.6/README.md --exclude *.pyd
+[2024-05-30 11:24:14] INFO root fetch - processPackages [pynteracta]: executing diffoscope
+[2024-05-30 11:24:14] INFO root fetch - processPackages [pynteracta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynteracta-0.4.8.tar.gz tmp/pynteracta-0.4.9.tar.gz --markdown 20240530/p/pynteracta/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-30 11:24:14] INFO root fetch - processPackages [imio.smartweb.common]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.common-1.2.8.tar.gz]
+[2024-05-30 11:24:14] INFO root fetch - processPackages [imio.smartweb.common]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.common-1.2.9.tar.gz]
+[2024-05-30 11:24:14] INFO root fetch - main [MainThread]: End processing [imio.smartweb.common]: success
+[2024-05-30 11:24:14] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.64.tar.gz]
+[2024-05-30 11:24:14] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.3.0.tar.gz]
+[2024-05-30 11:24:14] INFO root fetch - main [MainThread]: End processing [composio-openai]: success
+[2024-05-30 11:24:14] INFO root fetch - processPackages [lanQ]: Remove: archive file [/home/abi/fetcher/tmp/lanQ-1.4.4.tar.gz]
+[2024-05-30 11:24:14] INFO root fetch - processPackages [lanQ]: Remove: archive file [/home/abi/fetcher/tmp/lanQ-1.4.5.tar.gz]
+[2024-05-30 11:24:14] INFO root fetch - main [MainThread]: End processing [lanQ]: success
+[2024-05-30 11:24:15] INFO root fetch - processPackages [extrautilities]: Remove: archive file [/home/abi/fetcher/tmp/extrautilities-1.5.tar.gz]
+[2024-05-30 11:24:15] INFO root fetch - processPackages [extrautilities]: Remove: archive file [/home/abi/fetcher/tmp/extrautilities-1.6.tar.gz]
+[2024-05-30 11:24:15] INFO root fetch - main [MainThread]: End processing [extrautilities]: success
+[2024-05-30 11:24:15] INFO root fetch - processPackages [pynteracta]: Remove: archive file [/home/abi/fetcher/tmp/pynteracta-0.4.8.tar.gz]
+[2024-05-30 11:24:15] INFO root fetch - processPackages [pynteracta]: Remove: archive file [/home/abi/fetcher/tmp/pynteracta-0.4.9.tar.gz]
+[2024-05-30 11:24:15] INFO root fetch - main [MainThread]: End processing [pynteracta]: success
+[2024-05-30 11:24:15] INFO root fetch - processPackages [spm1d]: Remove: archive file [/home/abi/fetcher/tmp/spm1d-0.4.29.tar.gz]
+[2024-05-30 11:24:15] INFO root fetch - processPackages [spm1d]: Remove: archive file [/home/abi/fetcher/tmp/spm1d-0.4.30.tar.gz]
+[2024-05-30 11:24:15] INFO root fetch - main [MainThread]: End processing [spm1d]: success
+[2024-05-30 11:24:15] INFO root fetch - main [MainThread]: Store serial: [23446165]
