@@ -17245,3 +17245,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:07:32] INFO root fetch - processPackages [SMASunnyIsland]: Remove: archive file [/home/abi/fetcher/tmp/smasunnyisland-0.44.tar.gz]
 [2024-05-30 10:07:32] INFO root fetch - main [MainThread]: End processing [SMASunnyIsland]: success
 [2024-05-30 10:07:32] INFO root fetch - main [MainThread]: Store serial: [23444678]
+[2024-05-30 10:09:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444678]
+[2024-05-30 10:09:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 10:09:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CI-CloudConnector
+[2024-05-30 10:09:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyglove
+[2024-05-30 10:09:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tahrir-api
+[2024-05-30 10:09:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bundestag-api
+[2024-05-30 10:09:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SMASunnyIsland
+[2024-05-30 10:09:42] INFO root fetch - processPackages [SMASunnyIsland]: New version: [0.45] Old Version: [0.44]
+[2024-05-30 10:09:42] INFO root fetch - processPackages [CI-CloudConnector]: New version: [1.4] Old Version: [1.3]
+[2024-05-30 10:09:42] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240529] Old Version: [0.4.5.dev20240528]
+[2024-05-30 10:09:42] INFO root fetch - processPackages [SMASunnyIsland]: Downloading https://files.pythonhosted.org/packages/79/c0/5b99f43c99408885828a72d9ce1dab804debf7a18f490b314181aadc12cc/smasunnyisland-0.44.tar.gz
+[2024-05-30 10:09:42] INFO root fetch - processPackages [tahrir-api]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-30 10:09:42] INFO root fetch - processPackages [bundestag-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-30 10:09:42] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/1e/d6/76a6d20f714fb3da200656c6b84a781302be43ed425c87781ce4e41fa451/ci_cloudconnector-1.3.tar.gz
+[2024-05-30 10:09:42] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/5f/38/f78087f8efa28b4a556a87239182450fc7ddc3fcffc08a872e94b8a21458/pyglove-0.4.5.dev20240528.tar.gz
+[2024-05-30 10:09:42] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/03/26/267a6ec410f3c3bf30de7e367f67e22ecabfd343cd06de3b309e7cdd309b/ci_cloudconnector-1.4.tar.gz
+[2024-05-30 10:09:42] INFO root fetch - processPackages [bundestag-api]: Downloading https://files.pythonhosted.org/packages/6d/4b/1fe64367aa8053563fd6ababe223d344911ed88fd23c2a069e8bbb6731c2/bundestag_api-1.0.3.tar.gz
+[2024-05-30 10:09:42] INFO root fetch - processPackages [tahrir-api]: Downloading https://files.pythonhosted.org/packages/d1/0e/4bf3e40fbc02be2783f7e3fe96f2c1731002fec0fa9c67293889d11465d3/tahrir_api-1.1.2.tar.gz
+[2024-05-30 10:09:43] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-30 10:09:43] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-1.3.tar.gz tmp/ci_cloudconnector-1.4.tar.gz --markdown 20240530/C/CI-CloudConnector/1.3-1.4/README.md --exclude *.pyd
+[2024-05-30 10:09:43] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/dd/9e/b0acb469b329236b225d459cb03d9f43adf7ef85dfc9b9a0c94bff657543/pyglove-0.4.5.dev20240529.tar.gz
+[2024-05-30 10:09:43] INFO root fetch - processPackages [SMASunnyIsland]: Downloading https://files.pythonhosted.org/packages/7d/97/afd89b44fd22bdc97d01a22f2f43416b6789307efcd77cec8bc115731a65/smasunnyisland-0.45.tar.gz
+[2024-05-30 10:09:43] INFO root fetch - processPackages [SMASunnyIsland]: executing diffoscope
+[2024-05-30 10:09:43] INFO root fetch - processPackages [SMASunnyIsland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smasunnyisland-0.44.tar.gz tmp/smasunnyisland-0.45.tar.gz --markdown 20240530/S/SMASunnyIsland/0.44-0.45/README.md --exclude *.pyd
+[2024-05-30 10:09:43] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-30 10:09:43] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240528.tar.gz tmp/pyglove-0.4.5.dev20240529.tar.gz --markdown 20240530/p/pyglove/0.4.5.dev20240528-0.4.5.dev20240529/README.md --exclude *.pyd
+[2024-05-30 10:09:43] INFO root fetch - processPackages [bundestag-api]: Downloading https://files.pythonhosted.org/packages/20/76/2a95f8b7c01b2ec2717c090fc151d4c7b3813cfc33be70e5f3a4260c6406/bundestag_api-1.0.4.tar.gz
+[2024-05-30 10:09:43] INFO root fetch - processPackages [tahrir-api]: Downloading https://files.pythonhosted.org/packages/48/33/591b1a54c3fd706af855c2ecbb2d7875a67363014a61647cfee8dbb79fca/tahrir_api-1.1.3.tar.gz
+[2024-05-30 10:09:43] INFO root fetch - processPackages [bundestag-api]: executing diffoscope
+[2024-05-30 10:09:43] INFO root fetch - processPackages [bundestag-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bundestag_api-1.0.3.tar.gz tmp/bundestag_api-1.0.4.tar.gz --markdown 20240530/b/bundestag-api/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-30 10:09:43] INFO root fetch - processPackages [tahrir-api]: executing diffoscope
+[2024-05-30 10:09:43] INFO root fetch - processPackages [tahrir-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tahrir_api-1.1.2.tar.gz tmp/tahrir_api-1.1.3.tar.gz --markdown 20240530/t/tahrir-api/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-30 10:09:43] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.3.tar.gz]
+[2024-05-30 10:09:43] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.4.tar.gz]
+[2024-05-30 10:09:43] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-30 10:09:43] INFO root fetch - processPackages [SMASunnyIsland]: Remove: archive file [/home/abi/fetcher/tmp/smasunnyisland-0.44.tar.gz]
+[2024-05-30 10:09:43] INFO root fetch - processPackages [SMASunnyIsland]: Remove: archive file [/home/abi/fetcher/tmp/smasunnyisland-0.45.tar.gz]
+[2024-05-30 10:09:43] INFO root fetch - main [MainThread]: End processing [SMASunnyIsland]: success
+[2024-05-30 10:09:43] INFO root fetch - processPackages [bundestag-api]: Remove: archive file [/home/abi/fetcher/tmp/bundestag_api-1.0.3.tar.gz]
+[2024-05-30 10:09:43] INFO root fetch - processPackages [bundestag-api]: Remove: archive file [/home/abi/fetcher/tmp/bundestag_api-1.0.4.tar.gz]
+[2024-05-30 10:09:43] INFO root fetch - main [MainThread]: End processing [bundestag-api]: success
+[2024-05-30 10:09:44] INFO root fetch - processPackages [tahrir-api]: Remove: archive file [/home/abi/fetcher/tmp/tahrir_api-1.1.2.tar.gz]
+[2024-05-30 10:09:44] INFO root fetch - processPackages [tahrir-api]: Remove: archive file [/home/abi/fetcher/tmp/tahrir_api-1.1.3.tar.gz]
+[2024-05-30 10:09:44] INFO root fetch - main [MainThread]: End processing [tahrir-api]: success
+[2024-05-30 10:09:44] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240528.tar.gz]
+[2024-05-30 10:09:44] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240529.tar.gz]
+[2024-05-30 10:09:44] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-30 10:09:44] INFO root fetch - main [MainThread]: Store serial: [23444699]
