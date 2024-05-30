@@ -8283,3 +8283,74 @@ EOFError: EOF read where object expected
 [2024-05-30 03:56:17] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
 [2024-05-30 03:56:17] INFO root fetch - main [MainThread]: End processing [ok-script]: success
 [2024-05-30 03:56:17] INFO root fetch - main [MainThread]: Store serial: [23441082]
+[2024-05-30 03:58:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441082]
+[2024-05-30 03:58:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 03:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xplainable-client
+[2024-05-30 03:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jmpy4
+[2024-05-30 03:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marker-pdf
+[2024-05-30 03:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dtfilterthumbor
+[2024-05-30 03:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ooo-dev-tools
+[2024-05-30 03:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mummichog
+[2024-05-30 03:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: myfunctions-andreibelous16
+[2024-05-30 03:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airbyte-source-workable
+[2024-05-30 03:58:25] INFO root fetch - processPackages [xplainable-client]: New version: [1.2.5.post6] Old Version: [1.2.5.post5]
+[2024-05-30 03:58:25] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-30 03:58:25] INFO root fetch - processPackages [marker-pdf]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-30 03:58:25] INFO root fetch - processPackages [dtfilterthumbor]: New version: [1.0.3] Old Version: [1.0.1]
+[2024-05-30 03:58:25] INFO root fetch - processPackages [myfunctions-andreibelous16]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-30 03:58:25] INFO root fetch - processPackages [jmpy4]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-30 03:58:26] INFO root fetch - processPackages [myfunctions-andreibelous16]: Downloading https://files.pythonhosted.org/packages/e9/fa/1a58d939618a16f9581604a9bd89b7b1a839103818c6a0973af3dd07aea2/myfunctions_andreibelous16-0.0.3.tar.gz
+[2024-05-30 03:58:26] INFO root fetch - processPackages [airbyte-source-workable]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 03:58:26] INFO root fetch - processPackages [marker-pdf]: Downloading https://files.pythonhosted.org/packages/9c/7f/aa27a6ddcc12d073279b373b7fe5d4f23ee5c342dd6bc535ee052a6ff702/marker_pdf-0.2.8.tar.gz
+[2024-05-30 03:58:26] INFO root fetch - processPackages [xplainable-client]: Downloading https://files.pythonhosted.org/packages/a8/e3/ce72498d106def0eb8be055f7a4e57c5f0f933c86faec19cbf9a16d88e71/xplainable_client-1.2.5.post5.tar.gz
+[2024-05-30 03:58:26] INFO root fetch - processPackages [dtfilterthumbor]: Downloading https://files.pythonhosted.org/packages/3d/2f/05793e9290cfd2d905c354db5309a127429b4629f8a4b668cf4a89ccea0f/dtfilterthumbor-1.0.1.tar.gz
+[2024-05-30 03:58:26] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/41/44/3184c5212ea19d64e5dcf92dc1f7e0c08bda64a5787bdf62a49038d1b40a/ooo_dev_tools-0.9.7.tar.gz
+[2024-05-30 03:58:26] INFO root fetch - processPackages [myfunctions-andreibelous16]: Downloading https://files.pythonhosted.org/packages/48/2b/9efc04e2ea0fd905f6ef87d8834412759ba36d5c4c8072344437cee600e0/myfunctions_andreibelous16-0.0.4.tar.gz
+[2024-05-30 03:58:26] INFO root fetch - processPackages [jmpy4]: Downloading https://files.pythonhosted.org/packages/9b/32/4ca24ae789529bbb884c087adfbae60b5b0aa93c1a603617f35cbf300a4c/jmpy4-1.0.7.tar.gz
+[2024-05-30 03:58:26] INFO root fetch - processPackages [airbyte-source-workable]: Downloading https://files.pythonhosted.org/packages/6c/46/a213f15977e31f6282eb0a44094fc8006b63b8945d48c0fb937f872a7a94/airbyte-source-workable-0.1.0.tar.gz
+[2024-05-30 03:58:26] INFO root fetch - processPackages [mummichog]: New version: [2.7.0] Old Version: [2.6.1]
+[2024-05-30 03:58:26] INFO root fetch - processPackages [marker-pdf]: Downloading https://files.pythonhosted.org/packages/50/c3/93dd7686515c4e0290e5a3b37ae17a9de05318d79324c6f5b0cc45d5aa96/marker_pdf-0.2.9.tar.gz
+[2024-05-30 03:58:26] INFO root fetch - processPackages [myfunctions-andreibelous16]: executing diffoscope
+[2024-05-30 03:58:26] INFO root fetch - processPackages [myfunctions-andreibelous16]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_andreibelous16-0.0.3.tar.gz tmp/myfunctions_andreibelous16-0.0.4.tar.gz --markdown 20240530/m/myfunctions-andreibelous16/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-30 03:58:26] INFO root fetch - processPackages [dtfilterthumbor]: Downloading https://files.pythonhosted.org/packages/50/ef/ab97c40116b18544764aa60c82bbb11766439b2852ede8969ffbecb63024/dtfilterthumbor-1.0.3.tar.gz
+[2024-05-30 03:58:26] INFO root fetch - processPackages [marker-pdf]: executing diffoscope
+[2024-05-30 03:58:26] INFO root fetch - processPackages [marker-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marker_pdf-0.2.8.tar.gz tmp/marker_pdf-0.2.9.tar.gz --markdown 20240530/m/marker-pdf/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-30 03:58:26] INFO root fetch - processPackages [xplainable-client]: Downloading https://files.pythonhosted.org/packages/6c/c8/768ef492afa5cda9a331c2741b7bc433c8d145f76f9326c7628cb693c249/xplainable_client-1.2.5.post6.tar.gz
+[2024-05-30 03:58:26] INFO root fetch - processPackages [mummichog]: Downloading https://files.pythonhosted.org/packages/c7/60/03f3b553a393e75f057d08813fbf5a459f535507b6d128834a93cb742abb/mummichog-2.6.1.tar.gz
+[2024-05-30 03:58:26] ERROR root fetch - processPackages [airbyte-source-workable]: Unable to fetch info: No such project/version 'airbyte-source-workable' 0.1.1
+[2024-05-30 03:58:26] INFO root fetch - main [MainThread]: End processing [airbyte-source-workable] error
+[2024-05-30 03:58:26] INFO root fetch - processPackages [xplainable-client]: executing diffoscope
+[2024-05-30 03:58:26] INFO root fetch - processPackages [xplainable-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplainable_client-1.2.5.post5.tar.gz tmp/xplainable_client-1.2.5.post6.tar.gz --markdown 20240530/x/xplainable-client/1.2.5.post5-1.2.5.post6/README.md --exclude *.pyd
+[2024-05-30 03:58:26] INFO root fetch - processPackages [jmpy4]: Downloading https://files.pythonhosted.org/packages/dd/28/540f292542071ae3cf54848126d7b243c0ed2f8f96720b6ee52b8a2d4182/jmpy4-1.0.8.tar.gz
+[2024-05-30 03:58:26] INFO root fetch - processPackages [dtfilterthumbor]: executing diffoscope
+[2024-05-30 03:58:26] INFO root fetch - processPackages [dtfilterthumbor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfilterthumbor-1.0.1.tar.gz tmp/dtfilterthumbor-1.0.3.tar.gz --markdown 20240530/d/dtfilterthumbor/1.0.1-1.0.3/README.md --exclude *.pyd
+[2024-05-30 03:58:26] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/20/e8/b38a2ad24f414b81985e10c35e1192cb22350ca6b0dc68f0104509e3c0bf/ooo_dev_tools-0.9.8.tar.gz
+[2024-05-30 03:58:26] INFO root fetch - processPackages [jmpy4]: executing diffoscope
+[2024-05-30 03:58:26] INFO root fetch - processPackages [jmpy4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmpy4-1.0.7.tar.gz tmp/jmpy4-1.0.8.tar.gz --markdown 20240530/j/jmpy4/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-30 03:58:26] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2024-05-30 03:58:26] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.7.tar.gz tmp/ooo_dev_tools-0.9.8.tar.gz --markdown 20240530/o/ooo-dev-tools/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-30 03:58:27] INFO root fetch - processPackages [myfunctions-andreibelous16]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_andreibelous16-0.0.3.tar.gz]
+[2024-05-30 03:58:27] INFO root fetch - processPackages [myfunctions-andreibelous16]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_andreibelous16-0.0.4.tar.gz]
+[2024-05-30 03:58:27] INFO root fetch - main [MainThread]: End processing [myfunctions-andreibelous16]: success
+[2024-05-30 03:58:27] INFO root fetch - processPackages [dtfilterthumbor]: Remove: archive file [/home/abi/fetcher/tmp/dtfilterthumbor-1.0.1.tar.gz]
+[2024-05-30 03:58:27] INFO root fetch - processPackages [dtfilterthumbor]: Remove: archive file [/home/abi/fetcher/tmp/dtfilterthumbor-1.0.3.tar.gz]
+[2024-05-30 03:58:27] INFO root fetch - main [MainThread]: End processing [dtfilterthumbor]: success
+[2024-05-30 03:58:27] INFO root fetch - processPackages [xplainable-client]: Remove: archive file [/home/abi/fetcher/tmp/xplainable_client-1.2.5.post5.tar.gz]
+[2024-05-30 03:58:27] INFO root fetch - processPackages [xplainable-client]: Remove: archive file [/home/abi/fetcher/tmp/xplainable_client-1.2.5.post6.tar.gz]
+[2024-05-30 03:58:27] INFO root fetch - main [MainThread]: End processing [xplainable-client]: success
+[2024-05-30 03:58:27] INFO root fetch - processPackages [marker-pdf]: Remove: archive file [/home/abi/fetcher/tmp/marker_pdf-0.2.8.tar.gz]
+[2024-05-30 03:58:27] INFO root fetch - processPackages [marker-pdf]: Remove: archive file [/home/abi/fetcher/tmp/marker_pdf-0.2.9.tar.gz]
+[2024-05-30 03:58:27] INFO root fetch - main [MainThread]: End processing [marker-pdf]: success
+[2024-05-30 03:58:27] INFO root fetch - processPackages [mummichog]: Downloading https://files.pythonhosted.org/packages/e3/2d/8d50e0ec0ad3e5aa761296e156c7789205b5a65fc024a022530bd4a4845f/mummichog-2.7.0.tar.gz
+[2024-05-30 03:58:27] INFO root fetch - processPackages [jmpy4]: Remove: archive file [/home/abi/fetcher/tmp/jmpy4-1.0.7.tar.gz]
+[2024-05-30 03:58:27] INFO root fetch - processPackages [jmpy4]: Remove: archive file [/home/abi/fetcher/tmp/jmpy4-1.0.8.tar.gz]
+[2024-05-30 03:58:27] INFO root fetch - main [MainThread]: End processing [jmpy4]: success
+[2024-05-30 03:58:28] INFO root fetch - processPackages [mummichog]: executing diffoscope
+[2024-05-30 03:58:28] INFO root fetch - processPackages [mummichog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mummichog-2.6.1.tar.gz tmp/mummichog-2.7.0.tar.gz --markdown 20240530/m/mummichog/2.6.1-2.7.0/README.md --exclude *.pyd
+[2024-05-30 03:58:29] INFO root fetch - processPackages [mummichog]: Remove: archive file [/home/abi/fetcher/tmp/mummichog-2.6.1.tar.gz]
+[2024-05-30 03:58:29] INFO root fetch - processPackages [mummichog]: Remove: archive file [/home/abi/fetcher/tmp/mummichog-2.7.0.tar.gz]
+[2024-05-30 03:58:29] INFO root fetch - main [MainThread]: End processing [mummichog]: success
+[2024-05-30 03:58:29] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.7.tar.gz]
+[2024-05-30 03:58:29] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
+[2024-05-30 03:58:29] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2024-05-30 03:58:29] INFO root fetch - main [MainThread]: Store serial: [23441106]
