@@ -20618,3 +20618,112 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:13:50] INFO root fetch - processPackages [mongodb-atlas-haystack]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_atlas_haystack-0.3.0.tar.gz]
 [2024-05-30 11:13:50] INFO root fetch - main [MainThread]: End processing [mongodb-atlas-haystack]: success
 [2024-05-30 11:13:50] INFO root fetch - main [MainThread]: Store serial: [23446008]
+[2024-05-30 11:15:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446008]
+[2024-05-30 11:15:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-30 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opensearch-haystack
+[2024-05-30 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-05-30 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgvector-haystack
+[2024-05-30 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fa2-modified
+[2024-05-30 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sentiment-analysis-model
+[2024-05-30 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2024-05-30 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: microlearn-llm-factory
+[2024-05-30 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fnschool
+[2024-05-30 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: HABSlib
+[2024-05-30 11:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-core
+[2024-05-30 11:15:59] INFO root fetch - processPackages [HABSlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 11:15:59] INFO root fetch - processPackages [fnschool]: New version: [20240530.81353.829] Old Version: [20240530.80314.824]
+[2024-05-30 11:15:59] INFO root fetch - processPackages [sentiment-analysis-model]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-30 11:15:59] INFO root fetch - processPackages [composio-core]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-30 11:15:59] INFO root fetch - processPackages [opensearch-haystack]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-30 11:15:59] INFO root fetch - processPackages [pgvector-haystack]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-30 11:15:59] INFO root fetch - processPackages [microlearn-llm-factory]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-30 11:15:59] INFO root fetch - processPackages [fa2-modified]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-30 11:15:59] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/92/a2/3472f44ce5fbc12a46ed53af9061d73c2ad2a08f4cfc95d85c9f0d590c52/habslib-0.1.8.tar.gz
+[2024-05-30 11:15:59] INFO root fetch - processPackages [sentiment-analysis-model]: Downloading https://files.pythonhosted.org/packages/15/b0/fa30576efa67bf1a489220c6db1df5229278dc51b454dbca31c12e705c1e/sentiment_analysis_model-0.0.4.tar.gz
+[2024-05-30 11:15:59] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/3a/92/9c3833d5a336b3e82319fbcbd77e36118e6c088704f9da5daaddb31c1ea7/fnschool-20240530.80314.824.tar.gz
+[2024-05-30 11:15:59] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-05-30 11:15:59] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-30 11:15:59] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-30 11:16:00] INFO root fetch - processPackages [pgvector-haystack]: Downloading https://files.pythonhosted.org/packages/32/9a/22e9c8e178b9081a578137f55e97f47d88a11fd4ebc8d788f8efbbdcebb8/pgvector_haystack-0.2.0.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [opensearch-haystack]: Downloading https://files.pythonhosted.org/packages/b8/1e/9021b90e88c157461eff48a0b845007cd3463f4c1f1ca5bcbacf99f08de2/opensearch_haystack-0.4.0.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [microlearn-llm-factory]: Downloading https://files.pythonhosted.org/packages/6a/bd/394143eeb957d4477d97ac56a4740831e7776ee9a96dc2386977cc6d6e17/microlearn_llm_factory-0.0.7.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [fa2-modified]: Downloading https://files.pythonhosted.org/packages/9c/09/3067e5ea082c0745bb55057d26e958e35f33d0822e4d000cc569b9c7c012/fa2_modified-0.3.8.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/b2/ea/3eb2099f135cfbcea8c24a4ef575773e1c92246ed65b1611aba761b07ff2/habslib-0.1.9.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/6c/2a/078d79ade6b58e700d7d6f2c2f123c651e4c9b0386448290447b23dcb1ef/composio_core-0.3.0.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/65/1f/8206b6204a0311619c0a007a7ea399e5c349f29eef5aaa6f397851cb36ee/fnschool-20240530.81353.829.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [sentiment-analysis-model]: Downloading https://files.pythonhosted.org/packages/33/d1/cf46da9db4335f845a4a9a411d68e365d101af1b2a745953dfd730a6d38e/sentiment_analysis_model-0.0.5.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [HABSlib]: executing diffoscope
+[2024-05-30 11:16:00] INFO root fetch - processPackages [HABSlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habslib-0.1.8.tar.gz tmp/habslib-0.1.9.tar.gz --markdown 20240530/H/HABSlib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 11:16:00] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-05-30 11:16:00] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.9.tar.gz tmp/composio_core-0.3.0.tar.gz --markdown 20240530/c/composio-core/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-30 11:16:00] INFO root fetch - processPackages [pgvector-haystack]: Downloading https://files.pythonhosted.org/packages/7e/2d/824f53dab8d5c4642ea49e66a410b87a1acc0dbaef5c624cb9d5c9bae097/pgvector_haystack-0.3.0-py3-none-any.whl
+[2024-05-30 11:16:00] INFO root fetch - processPackages [opensearch-haystack]: Downloading https://files.pythonhosted.org/packages/a6/8e/9f72bd95086586e61c34b2f5b5958fca9c2391f8f68bcf598150ef1d98c0/opensearch_haystack-0.5.0.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [sentiment-analysis-model]: executing diffoscope
+[2024-05-30 11:16:00] INFO root fetch - processPackages [sentiment-analysis-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analysis_model-0.0.4.tar.gz tmp/sentiment_analysis_model-0.0.5.tar.gz --markdown 20240530/s/sentiment-analysis-model/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-30 11:16:00] INFO root fetch - processPackages [microlearn-llm-factory]: Downloading https://files.pythonhosted.org/packages/d8/77/9ef04bd2dea0b293b3e7375e0c900e902cc9dd9807d19bf3731e3faed9ea/microlearn_llm_factory-0.0.9.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-05-30 11:16:00] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240530.80314.824.tar.gz tmp/fnschool-20240530.81353.829.tar.gz --markdown 20240530/f/fnschool/20240530.80314.824-20240530.81353.829/README.md --exclude *.pyd
+[2024-05-30 11:16:00] INFO root fetch - processPackages [fa2-modified]: Downloading https://files.pythonhosted.org/packages/f2/d4/da0fd18dbe14a1667223b0c6de14a81c2d1d9d9c888711cdd74aaf56e7e2/fa2_modified-0.3.9.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [pgvector-haystack]: executing diffoscope
+[2024-05-30 11:16:00] INFO root fetch - processPackages [pgvector-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgvector_haystack-0.2.0.tar.gz tmp/pgvector_haystack-0.3.0-py3-none-any.whl.zip --markdown 20240530/p/pgvector-haystack/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-30 11:16:00] INFO root fetch - processPackages [opensearch-haystack]: executing diffoscope
+[2024-05-30 11:16:00] INFO root fetch - processPackages [opensearch-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensearch_haystack-0.4.0.tar.gz tmp/opensearch_haystack-0.5.0.tar.gz --markdown 20240530/o/opensearch-haystack/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-30 11:16:00] INFO root fetch - processPackages [microlearn-llm-factory]: executing diffoscope
+[2024-05-30 11:16:00] INFO root fetch - processPackages [microlearn-llm-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microlearn_llm_factory-0.0.7.tar.gz tmp/microlearn_llm_factory-0.0.9.tar.gz --markdown 20240530/m/microlearn-llm-factory/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-30 11:16:00] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-30 11:16:00] INFO root fetch - processPackages [fa2-modified]: executing diffoscope
+[2024-05-30 11:16:00] INFO root fetch - processPackages [fa2-modified]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa2_modified-0.3.8.tar.gz tmp/fa2_modified-0.3.9.tar.gz --markdown 20240530/f/fa2-modified/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-30 11:16:00] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-30 11:16:00] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240530/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-30 11:16:00] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-30 11:16:00] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240530/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-30 11:16:01] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.8.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.9.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - processPackages [HABSlib]: Start processing: pyclpu
+[2024-05-30 11:16:01] INFO root fetch - main [MainThread]: End processing [HABSlib]: success
+[2024-05-30 11:16:01] INFO root fetch - processPackages [pyclpu]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-05-30 11:16:01] INFO root fetch - processPackages [pyclpu]: Downloading https://files.pythonhosted.org/packages/c1/43/b78134282909da0c42649fe003c6a84c0be7efcfd348a66fba7143285503/pyclpu-1.1.9.tar.gz
+[2024-05-30 11:16:01] INFO root fetch - processPackages [sentiment-analysis-model]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_model-0.0.4.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - processPackages [sentiment-analysis-model]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_model-0.0.5.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - processPackages [sentiment-analysis-model]: Start processing: richie
+[2024-05-30 11:16:01] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-model]: success
+[2024-05-30 11:16:01] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.3.0.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-05-30 11:16:01] INFO root fetch - processPackages [pgvector-haystack]: Remove: archive file [/home/abi/fetcher/tmp/pgvector_haystack-0.2.0.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - processPackages [pgvector-haystack]: Remove: archive file [/home/abi/fetcher/tmp/pgvector_haystack-0.3.0-py3-none-any.whl.zip]
+[2024-05-30 11:16:01] INFO root fetch - main [MainThread]: End processing [pgvector-haystack]: success
+[2024-05-30 11:16:01] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-30 11:16:01] INFO root fetch - processPackages [microlearn-llm-factory]: Remove: archive file [/home/abi/fetcher/tmp/microlearn_llm_factory-0.0.7.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - processPackages [microlearn-llm-factory]: Remove: archive file [/home/abi/fetcher/tmp/microlearn_llm_factory-0.0.9.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - main [MainThread]: End processing [microlearn-llm-factory]: success
+[2024-05-30 11:16:01] INFO root fetch - processPackages [pyclpu]: Downloading https://files.pythonhosted.org/packages/fe/83/6dd3a6a22540e83e748a3d2db004c8adeed3159b4bd58d075d2dbf12ccc5/pyclpu-1.2.0.tar.gz
+[2024-05-30 11:16:01] INFO root fetch - processPackages [pyclpu]: executing diffoscope
+[2024-05-30 11:16:01] INFO root fetch - processPackages [pyclpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclpu-1.1.9.tar.gz tmp/pyclpu-1.2.0.tar.gz --markdown 20240530/p/pyclpu/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-05-30 11:16:01] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-05-30 11:16:01] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240530.80314.824.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240530.81353.829.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-05-30 11:16:01] INFO root fetch - processPackages [opensearch-haystack]: Remove: archive file [/home/abi/fetcher/tmp/opensearch_haystack-0.4.0.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - processPackages [opensearch-haystack]: Remove: archive file [/home/abi/fetcher/tmp/opensearch_haystack-0.5.0.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - main [MainThread]: End processing [opensearch-haystack]: success
+[2024-05-30 11:16:01] INFO root fetch - processPackages [fa2-modified]: Remove: archive file [/home/abi/fetcher/tmp/fa2_modified-0.3.8.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - processPackages [fa2-modified]: Remove: archive file [/home/abi/fetcher/tmp/fa2_modified-0.3.9.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - main [MainThread]: End processing [fa2-modified]: success
+[2024-05-30 11:16:01] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-30 11:16:01] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-30 11:16:01] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-30 11:16:02] INFO root fetch - processPackages [pyclpu]: Remove: archive file [/home/abi/fetcher/tmp/pyclpu-1.1.9.tar.gz]
+[2024-05-30 11:16:02] INFO root fetch - processPackages [pyclpu]: Remove: archive file [/home/abi/fetcher/tmp/pyclpu-1.2.0.tar.gz]
+[2024-05-30 11:16:02] INFO root fetch - main [MainThread]: End processing [pyclpu]: success
+[2024-05-30 11:16:02] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-05-30 11:16:02] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-05-30 11:16:02] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240530/r/richie/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-30 11:17:56] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-05-30 11:17:56] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-05-30 11:17:56] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-05-30 11:17:56] INFO root fetch - main [MainThread]: Store serial: [23446052]
