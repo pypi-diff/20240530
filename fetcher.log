@@ -22108,3 +22108,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:59:26] INFO root fetch - processPackages [giotto-tda]: Remove: archive file [/home/abi/fetcher/tmp/giotto_tda-0.6.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-30 11:59:26] INFO root fetch - main [MainThread]: End processing [giotto-tda]: success
 [2024-05-30 11:59:26] INFO root fetch - main [MainThread]: Store serial: [23446657]
+[2024-05-30 12:01:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446657]
+[2024-05-30 12:01:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 12:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: harp-proxy
+[2024-05-30 12:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superlinked
+[2024-05-30 12:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: truefoundry
+[2024-05-30 12:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: turboflow
+[2024-05-30 12:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HABSlib
+[2024-05-30 12:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kumparanian
+[2024-05-30 12:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: encord
+[2024-05-30 12:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: question-type-cls
+[2024-05-30 12:01:35] INFO root fetch - processPackages [HABSlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 12:01:35] INFO root fetch - processPackages [kumparanian]: New version: [1.2.0rc1] Old Version: [1.1.0]
+[2024-05-30 12:01:35] INFO root fetch - processPackages [harp-proxy]: New version: [0.5.0b6] Old Version: [0.5.0b5]
+[2024-05-30 12:01:35] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/92/a2/3472f44ce5fbc12a46ed53af9061d73c2ad2a08f4cfc95d85c9f0d590c52/habslib-0.1.8.tar.gz
+[2024-05-30 12:01:35] INFO root fetch - processPackages [superlinked]: New version: [5.8.1] Old Version: [5.8.0]
+[2024-05-30 12:01:35] INFO root fetch - processPackages [turboflow]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 12:01:35] WARNING root fetch - processPackages [question-type-cls]: Skipping, unable to determine old version
+[2024-05-30 12:01:35] INFO root fetch - main [MainThread]: End processing [question-type-cls] error
+[2024-05-30 12:01:35] INFO root fetch - processPackages [truefoundry]: New version: [0.2.4] Old Version: [0.2.3rc1]
+[2024-05-30 12:01:35] INFO root fetch - processPackages [encord]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-30 12:01:36] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/11/5c/f97af150f892bfaf45cc81d7ac3275d37815296188c793f2b83e71cb042e/kumparanian-1.1.0.tar.gz
+[2024-05-30 12:01:36] INFO root fetch - processPackages [harp-proxy]: Downloading https://files.pythonhosted.org/packages/66/fe/f0d06495b50a7c86d571bccd1c0f49992a1c0f488fc9c75246f542f2bda8/harp_proxy-0.5.0b5.tar.gz
+[2024-05-30 12:01:36] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/b2/ea/3eb2099f135cfbcea8c24a4ef575773e1c92246ed65b1611aba761b07ff2/habslib-0.1.9.tar.gz
+[2024-05-30 12:01:36] INFO root fetch - processPackages [turboflow]: Downloading https://files.pythonhosted.org/packages/5f/c5/ea038679bc471e93ec4992a7f05de50f56cd8123bc0656fc0a225a8c9dd4/turboflow-0.1.0.tar.gz
+[2024-05-30 12:01:36] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/b2/fd/f81463ca97f0399cf06fee5b361587732ee3ef0c467fbce703320b31bef3/truefoundry-0.2.3rc1.tar.gz
+[2024-05-30 12:01:36] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/ac/b1/9d4ac3e7649f63f4fc91602a6260c68d58fbcdaa0d5b26e16a8b96faacaa/superlinked-5.8.0.tar.gz
+[2024-05-30 12:01:36] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/f0/34/d6ab4f7213dd4dd42f226ed7b328ac3ff55006a7b5ce96d4012adeedb08d/encord-0.1.98.tar.gz
+[2024-05-30 12:01:36] INFO root fetch - processPackages [HABSlib]: executing diffoscope
+[2024-05-30 12:01:36] INFO root fetch - processPackages [HABSlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habslib-0.1.8.tar.gz tmp/habslib-0.1.9.tar.gz --markdown 20240530/H/HABSlib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 12:01:36] INFO root fetch - processPackages [kumparanian]: Downloading https://files.pythonhosted.org/packages/e3/36/f37eed1b4fb49552247bb06a6c176e21c2641b18631b6cd1685a3ecd9dee/kumparanian-1.2.0rc1.tar.gz
+[2024-05-30 12:01:36] INFO root fetch - processPackages [turboflow]: Downloading https://files.pythonhosted.org/packages/fa/40/b3318f067c6ea8b451af9a721351b4a5f118d8535cc18d961683e7704216/turboflow-0.1.1.tar.gz
+[2024-05-30 12:01:36] INFO root fetch - processPackages [harp-proxy]: Downloading https://files.pythonhosted.org/packages/d2/0b/2812a718eddecbb843a05f669384058e19595dd6282c21b95c1618b4c92a/harp_proxy-0.5.0b6.tar.gz
+[2024-05-30 12:01:36] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/99/8a/00a835ad2514c69e2a373e300dbdaa26af78443bc647cd3933e50abeba59/truefoundry-0.2.4.tar.gz
+[2024-05-30 12:01:36] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/48/1e/3755f479a113bba909a53c7bb87941289fe7bc12a9b0d9eab164acd4518b/superlinked-5.8.1.tar.gz
+[2024-05-30 12:01:36] INFO root fetch - processPackages [kumparanian]: executing diffoscope
+[2024-05-30 12:01:36] INFO root fetch - processPackages [kumparanian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kumparanian-1.1.0.tar.gz tmp/kumparanian-1.2.0rc1.tar.gz --markdown 20240530/k/kumparanian/1.1.0-1.2.0rc1/README.md --exclude *.pyd
+[2024-05-30 12:01:36] INFO root fetch - processPackages [turboflow]: executing diffoscope
+[2024-05-30 12:01:36] INFO root fetch - processPackages [turboflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turboflow-0.1.0.tar.gz tmp/turboflow-0.1.1.tar.gz --markdown 20240530/t/turboflow/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 12:01:36] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-05-30 12:01:36] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-5.8.0.tar.gz tmp/superlinked-5.8.1.tar.gz --markdown 20240530/s/superlinked/5.8.0-5.8.1/README.md --exclude *.pyd
+[2024-05-30 12:01:36] INFO root fetch - processPackages [truefoundry]: executing diffoscope
+[2024-05-30 12:01:36] INFO root fetch - processPackages [truefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truefoundry-0.2.3rc1.tar.gz tmp/truefoundry-0.2.4.tar.gz --markdown 20240530/t/truefoundry/0.2.3rc1-0.2.4/README.md --exclude *.pyd
+[2024-05-30 12:01:36] INFO root fetch - processPackages [harp-proxy]: executing diffoscope
+[2024-05-30 12:01:36] INFO root fetch - processPackages [harp-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harp_proxy-0.5.0b5.tar.gz tmp/harp_proxy-0.5.0b6.tar.gz --markdown 20240530/h/harp-proxy/0.5.0b5-0.5.0b6/README.md --exclude *.pyd
+[2024-05-30 12:01:36] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/ec/62/9a0b4770d9ee7f4e82c28b9f55065be20b0b96007b04c6c9c226ceffa842/encord-0.1.99.tar.gz
+[2024-05-30 12:01:36] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.8.tar.gz]
+[2024-05-30 12:01:36] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.9.tar.gz]
+[2024-05-30 12:01:36] INFO root fetch - main [MainThread]: End processing [HABSlib]: success
+[2024-05-30 12:01:37] INFO root fetch - processPackages [encord]: executing diffoscope
+[2024-05-30 12:01:37] INFO root fetch - processPackages [encord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-0.1.98.tar.gz tmp/encord-0.1.99.tar.gz --markdown 20240530/e/encord/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-30 12:01:37] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.1.0.tar.gz]
+[2024-05-30 12:01:37] INFO root fetch - processPackages [kumparanian]: Remove: archive file [/home/abi/fetcher/tmp/kumparanian-1.2.0rc1.tar.gz]
+[2024-05-30 12:01:37] INFO root fetch - main [MainThread]: End processing [kumparanian]: success
+[2024-05-30 12:01:37] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.3rc1.tar.gz]
+[2024-05-30 12:01:37] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.4.tar.gz]
+[2024-05-30 12:01:37] INFO root fetch - main [MainThread]: End processing [truefoundry]: success
+[2024-05-30 12:01:37] INFO root fetch - processPackages [turboflow]: Remove: archive file [/home/abi/fetcher/tmp/turboflow-0.1.0.tar.gz]
+[2024-05-30 12:01:37] INFO root fetch - processPackages [turboflow]: Remove: archive file [/home/abi/fetcher/tmp/turboflow-0.1.1.tar.gz]
+[2024-05-30 12:01:37] INFO root fetch - main [MainThread]: End processing [turboflow]: success
+[2024-05-30 12:01:37] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-5.8.0.tar.gz]
+[2024-05-30 12:01:37] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-5.8.1.tar.gz]
+[2024-05-30 12:01:37] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-05-30 12:01:38] INFO root fetch - processPackages [encord]: Remove: archive file [/home/abi/fetcher/tmp/encord-0.1.98.tar.gz]
+[2024-05-30 12:01:38] INFO root fetch - processPackages [encord]: Remove: archive file [/home/abi/fetcher/tmp/encord-0.1.99.tar.gz]
+[2024-05-30 12:01:38] INFO root fetch - main [MainThread]: End processing [encord]: success
+[2024-05-30 12:01:44] INFO root fetch - processPackages [harp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/harp_proxy-0.5.0b5.tar.gz]
+[2024-05-30 12:01:44] INFO root fetch - processPackages [harp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/harp_proxy-0.5.0b6.tar.gz]
+[2024-05-30 12:01:44] INFO root fetch - main [MainThread]: End processing [harp-proxy]: success
+[2024-05-30 12:01:44] INFO root fetch - main [MainThread]: Store serial: [23446688]
