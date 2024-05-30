@@ -2848,3 +2848,51 @@ EOFError: EOF read where object expected
 [2024-05-30 02:50:20] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
 [2024-05-30 02:50:20] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
 [2024-05-30 02:50:20] INFO root fetch - main [MainThread]: Store serial: [23439062]
+[2024-05-30 02:52:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439062]
+[2024-05-30 02:52:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 02:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maestro-compose
+[2024-05-30 02:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: r2r
+[2024-05-30 02:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-sns-notify
+[2024-05-30 02:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multi-med-image-ml
+[2024-05-30 02:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bioversions
+[2024-05-30 02:52:30] INFO root fetch - processPackages [multi-med-image-ml]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-30 02:52:30] INFO root fetch - processPackages [maestro-compose]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-30 02:52:30] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-30 02:52:30] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/13/2b/1e15c05d41c1bbf69dc50bbed8b193b04b2ee66a05dd396cda5a0f877a7e/multi_med_image_ml-0.0.2.tar.gz
+[2024-05-30 02:52:30] INFO root fetch - processPackages [r2r]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-30 02:52:30] INFO root fetch - processPackages [maestro-compose]: Downloading https://files.pythonhosted.org/packages/5f/75/f66c41384950fbaa599b2407ddbc86f562820fd884af8ffcf11a405bfd3e/maestro_compose-0.1.6.tar.gz
+[2024-05-30 02:52:30] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-30 02:52:30] INFO root fetch - processPackages [r2r]: Downloading https://files.pythonhosted.org/packages/06/81/c50879c84ff47f1cba9f65b758a29c59454b0ca2a9bdafca13b7bdf377a2/r2r-0.2.0.tar.gz
+[2024-05-30 02:52:30] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-30 02:52:30] INFO root fetch - processPackages [maestro-compose]: Downloading https://files.pythonhosted.org/packages/33/d4/8883a12c184e0a143bebcc0f96b249c949694f73d9049505c46a6f4a9533/maestro_compose-0.1.7.tar.gz
+[2024-05-30 02:52:30] INFO root fetch - processPackages [maestro-compose]: executing diffoscope
+[2024-05-30 02:52:30] INFO root fetch - processPackages [maestro-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestro_compose-0.1.6.tar.gz tmp/maestro_compose-0.1.7.tar.gz --markdown 20240530/m/maestro-compose/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-30 02:52:30] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-30 02:52:30] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-05-30 02:52:30] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/71/5f/703379648ffbe484ee9a2587a391068be73af572cb52a79cc5462bf39437/multi_med_image_ml-0.0.3.tar.gz
+[2024-05-30 02:52:30] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-30 02:52:30] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240530/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-30 02:52:30] INFO root fetch - processPackages [maestro-compose]: Remove: archive file [/home/abi/fetcher/tmp/maestro_compose-0.1.6.tar.gz]
+[2024-05-30 02:52:30] INFO root fetch - processPackages [maestro-compose]: Remove: archive file [/home/abi/fetcher/tmp/maestro_compose-0.1.7.tar.gz]
+[2024-05-30 02:52:30] INFO root fetch - main [MainThread]: End processing [maestro-compose]: success
+[2024-05-30 02:52:30] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-05-30 02:52:31] INFO root fetch - processPackages [multi-med-image-ml]: executing diffoscope
+[2024-05-30 02:52:31] INFO root fetch - processPackages [multi-med-image-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_med_image_ml-0.0.2.tar.gz tmp/multi_med_image_ml-0.0.3.tar.gz --markdown 20240530/m/multi-med-image-ml/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-30 02:52:31] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-05-30 02:52:31] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240530/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-30 02:52:31] INFO root fetch - processPackages [r2r]: Downloading https://files.pythonhosted.org/packages/20/c9/103d3548392723581f5a7f0aedf37547c37427d95b0ea35b4789920289f9/r2r-0.2.1.tar.gz
+[2024-05-30 02:52:31] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-05-30 02:52:31] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-05-30 02:52:31] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-05-30 02:52:31] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.2.tar.gz]
+[2024-05-30 02:52:31] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.3.tar.gz]
+[2024-05-30 02:52:31] INFO root fetch - main [MainThread]: End processing [multi-med-image-ml]: success
+[2024-05-30 02:52:32] INFO root fetch - processPackages [r2r]: executing diffoscope
+[2024-05-30 02:52:32] INFO root fetch - processPackages [r2r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2r-0.2.0.tar.gz tmp/r2r-0.2.1.tar.gz --markdown 20240530/r/r2r/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-30 02:52:33] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.2.0.tar.gz]
+[2024-05-30 02:52:33] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.2.1.tar.gz]
+[2024-05-30 02:52:33] INFO root fetch - main [MainThread]: End processing [r2r]: success
+[2024-05-30 02:52:49] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-30 02:52:49] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-30 02:52:49] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-30 02:52:49] INFO root fetch - main [MainThread]: Store serial: [23439079]
