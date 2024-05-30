@@ -17081,3 +17081,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:03:07] INFO root fetch - processPackages [SMASunnyIsland]: Remove: archive file [/home/abi/fetcher/tmp/smasunnyisland-0.43.tar.gz]
 [2024-05-30 10:03:07] INFO root fetch - main [MainThread]: End processing [SMASunnyIsland]: success
 [2024-05-30 10:03:07] INFO root fetch - main [MainThread]: Store serial: [23444581]
+[2024-05-30 10:05:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444581]
+[2024-05-30 10:05:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-30 10:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyflagser
+[2024-05-30 10:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-mgmt-hybridcompute
+[2024-05-30 10:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: giotto-ph
+[2024-05-30 10:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langfun
+[2024-05-30 10:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: weaverbird
+[2024-05-30 10:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nestipy-schedule
+[2024-05-30 10:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apify-client
+[2024-05-30 10:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: messages-local
+[2024-05-30 10:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sentiment-analysis-model
+[2024-05-30 10:05:17] WARNING root fetch - processPackages [sentiment-analysis-model]: Skipping, unable to determine old version
+[2024-05-30 10:05:17] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-model] error
+[2024-05-30 10:05:17] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240529] Old Version: [0.0.2.dev20240528]
+[2024-05-30 10:05:17] INFO root fetch - processPackages [messages-local]: New version: [0.0.62] Old Version: [0.0.61]
+[2024-05-30 10:05:17] INFO root fetch - processPackages [pyflagser]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-30 10:05:17] INFO root fetch - processPackages [nestipy-schedule]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 10:05:17] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/68/d9/7169f64c8fa0b02f419b9a0d45dfdb0ef5f9d50f41bd52bcca64b0ee6c30/messages_local-0.0.61.tar.gz
+[2024-05-30 10:05:17] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/5e/9a/0a1807c3ee032a2dd909c2df7eb858fd9e0e583e12aed4f9fea0f30f690b/langfun-0.0.2.dev20240528.tar.gz
+[2024-05-30 10:05:17] INFO root fetch - processPackages [azure-mgmt-hybridcompute]: New version: [9.0.0b3] Old Version: [9.0.0b2]
+[2024-05-30 10:05:17] INFO root fetch - processPackages [giotto-ph]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-30 10:05:17] INFO root fetch - processPackages [apify-client]: New version: [1.7.1b5] Old Version: [1.7.1b4]
+[2024-05-30 10:05:17] INFO root fetch - processPackages [weaverbird]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-30 10:05:18] INFO root fetch - processPackages [pyflagser]: Downloading https://files.pythonhosted.org/packages/9f/94/e129f696d4a15e12c6edb3fef3b30e020711a16aae0e0fe084dc62fc0446/pyflagser-0.4.6-cp39-cp39-win_amd64.whl
+[2024-05-30 10:05:18] INFO root fetch - processPackages [azure-mgmt-hybridcompute]: Downloading https://files.pythonhosted.org/packages/be/3b/b0927f8f2ff7b0e9815b368cd9930c2c88db60e9ef6f20c1bf38d2b10a7e/azure-mgmt-hybridcompute-9.0.0b2.tar.gz
+[2024-05-30 10:05:18] INFO root fetch - processPackages [giotto-ph]: Downloading https://files.pythonhosted.org/packages/8c/53/6992903ac1d205d37bb3ab30f9e589565a0fa92906a1974fe75c2f56d719/giotto_ph-0.2.3-cp39-cp39-win_amd64.whl
+[2024-05-30 10:05:18] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/d8/a2/fc73896ef735bf7eb4382a385790c2cb5b53e12f20e4b3696aaecaff981b/messages_local-0.0.62.tar.gz
+[2024-05-30 10:05:18] INFO root fetch - processPackages [nestipy-schedule]: Downloading https://files.pythonhosted.org/packages/c8/61/522ca6ba702ec9c43a71f075a46cbed79a8c2b008cbe6708d2dde8d179da/nestipy_schedule-0.1.0.tar.gz
+[2024-05-30 10:05:18] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/13/d4/a67794d24aede09e2291acd8527a2687b1bb832998e72426432346f1c29b/weaverbird-0.8.9.tar.gz
+[2024-05-30 10:05:18] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/a2/6c/f7b357087f9c716f7225a21e2d1790100ba9e96853fed52f981fef1b5625/apify_client-1.7.1b4.tar.gz
+[2024-05-30 10:05:18] INFO root fetch - processPackages [messages-local]: executing diffoscope
+[2024-05-30 10:05:18] INFO root fetch - processPackages [messages-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messages_local-0.0.61.tar.gz tmp/messages_local-0.0.62.tar.gz --markdown 20240530/m/messages-local/0.0.61-0.0.62/README.md --exclude *.pyd
+[2024-05-30 10:05:18] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/1f/a9/3363071d063c138e13fa8bf48ae69014be5b59cbe7f4647fd64be07c0851/langfun-0.0.2.dev20240529.tar.gz
+[2024-05-30 10:05:18] INFO root fetch - processPackages [azure-mgmt-hybridcompute]: Downloading https://files.pythonhosted.org/packages/ce/2d/21033dc45600b7104cc0713f179fef9faa6895d861a5e84e442351a47239/azure-mgmt-hybridcompute-9.0.0b3.tar.gz
+[2024-05-30 10:05:18] INFO root fetch - processPackages [nestipy-schedule]: Downloading https://files.pythonhosted.org/packages/e3/22/ee889e83e1ba7f59cc6e1924c4c484dc5f4a313bdbc4d9d5390cb89149d9/nestipy_schedule-0.1.1.tar.gz
+[2024-05-30 10:05:18] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-30 10:05:18] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240528.tar.gz tmp/langfun-0.0.2.dev20240529.tar.gz --markdown 20240530/l/langfun/0.0.2.dev20240528-0.0.2.dev20240529/README.md --exclude *.pyd
+[2024-05-30 10:05:18] INFO root fetch - processPackages [pyflagser]: Downloading https://files.pythonhosted.org/packages/89/9a/178e0ea8c289c08a7c1ec65e955323e87aff97097ec18fca8e9b2e937391/pyflagser-0.4.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 10:05:18] INFO root fetch - processPackages [giotto-ph]: Downloading https://files.pythonhosted.org/packages/f3/dd/488af7346685354841a3cfac499575e17f426247fa9f45d4026312f0d874/giotto_ph-0.2.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 10:05:18] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/3e/3f/984976dec9a99f477667d5d52ebff97915b2295b0ce504ab42e2ae6182a6/apify_client-1.7.1b5.tar.gz
+[2024-05-30 10:05:18] INFO root fetch - processPackages [azure-mgmt-hybridcompute]: executing diffoscope
+[2024-05-30 10:05:18] INFO root fetch - processPackages [azure-mgmt-hybridcompute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-hybridcompute-9.0.0b2.tar.gz tmp/azure-mgmt-hybridcompute-9.0.0b3.tar.gz --markdown 20240530/a/azure-mgmt-hybridcompute/9.0.0b2-9.0.0b3/README.md --exclude *.pyd
+[2024-05-30 10:05:18] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/7d/6c/1b304fa798ee7d82dbc5bc587a90653cc03647f25d1c498a0020b52a5f78/weaverbird-0.9.0.tar.gz
+[2024-05-30 10:05:18] INFO root fetch - processPackages [nestipy-schedule]: executing diffoscope
+[2024-05-30 10:05:18] INFO root fetch - processPackages [nestipy-schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy_schedule-0.1.0.tar.gz tmp/nestipy_schedule-0.1.1.tar.gz --markdown 20240530/n/nestipy-schedule/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 10:05:18] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2024-05-30 10:05:18] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.7.1b4.tar.gz tmp/apify_client-1.7.1b5.tar.gz --markdown 20240530/a/apify-client/1.7.1b4-1.7.1b5/README.md --exclude *.pyd
+[2024-05-30 10:05:18] INFO root fetch - processPackages [pyflagser]: executing diffoscope
+[2024-05-30 10:05:18] INFO root fetch - processPackages [pyflagser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflagser-0.4.6-cp39-cp39-win_amd64.whl.zip tmp/pyflagser-0.4.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240530/p/pyflagser/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-30 10:05:18] INFO root fetch - processPackages [weaverbird]: executing diffoscope
+[2024-05-30 10:05:18] INFO root fetch - processPackages [weaverbird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaverbird-0.8.9.tar.gz tmp/weaverbird-0.9.0.tar.gz --markdown 20240530/w/weaverbird/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-30 10:05:18] INFO root fetch - processPackages [giotto-ph]: executing diffoscope
+[2024-05-30 10:05:18] INFO root fetch - processPackages [giotto-ph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giotto_ph-0.2.3-cp39-cp39-win_amd64.whl.zip tmp/giotto_ph-0.2.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240530/g/giotto-ph/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-30 10:05:18] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.61.tar.gz]
+[2024-05-30 10:05:18] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.62.tar.gz]
+[2024-05-30 10:05:18] INFO root fetch - main [MainThread]: End processing [messages-local]: success
+[2024-05-30 10:05:19] INFO root fetch - processPackages [nestipy-schedule]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_schedule-0.1.0.tar.gz]
+[2024-05-30 10:05:19] INFO root fetch - processPackages [nestipy-schedule]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_schedule-0.1.1.tar.gz]
+[2024-05-30 10:05:19] INFO root fetch - main [MainThread]: End processing [nestipy-schedule]: success
+[2024-05-30 10:05:19] INFO root fetch - processPackages [pyflagser]: Remove: archive file [/home/abi/fetcher/tmp/pyflagser-0.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 10:05:19] INFO root fetch - processPackages [pyflagser]: Remove: archive file [/home/abi/fetcher/tmp/pyflagser-0.4.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-30 10:05:19] INFO root fetch - main [MainThread]: End processing [pyflagser]: success
+[2024-05-30 10:05:19] INFO root fetch - processPackages [apify-client]: Remove: archive file [/home/abi/fetcher/tmp/apify_client-1.7.1b4.tar.gz]
+[2024-05-30 10:05:19] INFO root fetch - processPackages [apify-client]: Remove: archive file [/home/abi/fetcher/tmp/apify_client-1.7.1b5.tar.gz]
+[2024-05-30 10:05:19] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2024-05-30 10:05:19] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240528.tar.gz]
+[2024-05-30 10:05:19] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240529.tar.gz]
+[2024-05-30 10:05:19] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-30 10:05:19] INFO root fetch - processPackages [azure-mgmt-hybridcompute]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-hybridcompute-9.0.0b2.tar.gz]
+[2024-05-30 10:05:19] INFO root fetch - processPackages [azure-mgmt-hybridcompute]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-hybridcompute-9.0.0b3.tar.gz]
+[2024-05-30 10:05:19] INFO root fetch - main [MainThread]: End processing [azure-mgmt-hybridcompute]: success
+[2024-05-30 10:05:19] INFO root fetch - processPackages [giotto-ph]: Remove: archive file [/home/abi/fetcher/tmp/giotto_ph-0.2.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 10:05:19] INFO root fetch - processPackages [giotto-ph]: Remove: archive file [/home/abi/fetcher/tmp/giotto_ph-0.2.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-30 10:05:19] INFO root fetch - main [MainThread]: End processing [giotto-ph]: success
+[2024-05-30 10:05:20] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.8.9.tar.gz]
+[2024-05-30 10:05:20] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.9.0.tar.gz]
+[2024-05-30 10:05:20] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
+[2024-05-30 10:05:20] INFO root fetch - main [MainThread]: Store serial: [23444637]
