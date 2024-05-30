@@ -11771,3 +11771,56 @@ EOFError: EOF read where object expected
 [2024-05-30 06:45:48] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.3.3.tar.gz]
 [2024-05-30 06:45:48] INFO root fetch - main [MainThread]: End processing [laktory]: success
 [2024-05-30 06:45:48] INFO root fetch - main [MainThread]: Store serial: [23442320]
+[2024-05-30 06:47:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442320]
+[2024-05-30 06:47:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 06:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-product-company
+[2024-05-30 06:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-multi-company
+[2024-05-30 06:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-qaseio
+[2024-05-30 06:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whisk-janelia
+[2024-05-30 06:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: indexify
+[2024-05-30 06:47:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hivemind-bus-client
+[2024-05-30 06:47:57] INFO root fetch - processPackages [odoo-addon-sale-product-company]: New version: [16.0.2.0.0.1] Old Version: [16.0.1.0.0.5]
+[2024-05-30 06:47:57] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: New version: [16.0.20240516.0] Old Version: [16.0.20240409.0]
+[2024-05-30 06:47:57] INFO root fetch - processPackages [indexify]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 06:47:57] INFO root fetch - processPackages [pytest-qaseio]: New version: [2.0.0] Old Version: [1.2.0]
+[2024-05-30 06:47:57] INFO root fetch - processPackages [whisk-janelia]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-30 06:47:57] INFO root fetch - processPackages [hivemind-bus-client]: New version: [0.0.4a9] Old Version: [0.0.4a8]
+[2024-05-30 06:47:57] INFO root fetch - processPackages [odoo-addon-sale-product-company]: Downloading https://files.pythonhosted.org/packages/ff/c0/48b4a8012b28cbacab1c6872bcd54cbe327b615759cc9440597246328c85/odoo_addon_sale_product_company-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-30 06:47:57] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/b2/e6/92311a61a839ed19787e957863500c9df3154f9827fd6246399895f7cbec/odoo_addons_oca_multi_company-16.0.20240409.0-py3-none-any.whl
+[2024-05-30 06:47:57] INFO root fetch - processPackages [pytest-qaseio]: Downloading https://files.pythonhosted.org/packages/a9/74/998d1c51a1f3979bf52d3e44989524e463d04df8716866b26ecffb9be061/pytest_qaseio-1.2.0.tar.gz
+[2024-05-30 06:47:57] INFO root fetch - processPackages [whisk-janelia]: Downloading https://files.pythonhosted.org/packages/ba/3f/2ecd1829ea026ccb54414b4bda79b50983eeb931bedd0f1d5e7c86a8c451/whisk-janelia-1.1.8.tar.gz
+[2024-05-30 06:47:57] INFO root fetch - processPackages [indexify]: Downloading https://files.pythonhosted.org/packages/f8/a3/de0a3191fc02ea1f246e36e2907d80b8e522872eacb5fbfcd5bf72733b5c/indexify-0.0.8.tar.gz
+[2024-05-30 06:47:57] INFO root fetch - processPackages [hivemind-bus-client]: Downloading https://files.pythonhosted.org/packages/9e/79/60cf7398e91b7d0ed44341c531b9764aec2069d9fa9b79c5edb7c505ed14/hivemind_bus_client-0.0.4a8-py3-none-any.whl
+[2024-05-30 06:47:57] WARNING root fetch - processPackages [whisk-janelia]: Skipping package: exceeds size limit 18951033>=10485760
+[2024-05-30 06:47:57] INFO root fetch - main [MainThread]: End processing [whisk-janelia] error
+[2024-05-30 06:47:57] INFO root fetch - processPackages [odoo-addon-sale-product-company]: Downloading https://files.pythonhosted.org/packages/83/df/044f078627b4129bae518f01806f2f218c66f02b50ff60bfacf0f9cf9572/odoo_addon_sale_product_company-16.0.2.0.0.1-py3-none-any.whl
+[2024-05-30 06:47:57] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/7f/4c/5db37341339d2b5fc7579f2bc9d16af58147c5df6a5c2de736043e19a90d/odoo_addons_oca_multi_company-16.0.20240516.0-py3-none-any.whl
+[2024-05-30 06:47:57] INFO root fetch - processPackages [odoo-addon-sale-product-company]: executing diffoscope
+[2024-05-30 06:47:57] INFO root fetch - processPackages [odoo-addon-sale-product-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_product_company-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_sale_product_company-16.0.2.0.0.1-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-sale-product-company/16.0.1.0.0.5-16.0.2.0.0.1/README.md --exclude *.pyd
+[2024-05-30 06:47:57] INFO root fetch - processPackages [pytest-qaseio]: Downloading https://files.pythonhosted.org/packages/97/f9/9ee3fe5e7b0be9a785958dcfa339093c8248df9e4f7fcf66a30ce271d701/pytest_qaseio-2.0.0.tar.gz
+[2024-05-30 06:47:57] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: executing diffoscope
+[2024-05-30 06:47:57] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_multi_company-16.0.20240409.0-py3-none-any.whl.zip tmp/odoo_addons_oca_multi_company-16.0.20240516.0-py3-none-any.whl.zip --markdown 20240530/o/odoo-addons-oca-multi-company/16.0.20240409.0-16.0.20240516.0/README.md --exclude *.pyd
+[2024-05-30 06:47:57] INFO root fetch - processPackages [indexify]: Downloading https://files.pythonhosted.org/packages/4e/e0/a60b294a8d7968ee0e712e54f1e8c22a898a1db1870c852c6523d9f6c569/indexify-0.0.9.tar.gz
+[2024-05-30 06:47:57] INFO root fetch - processPackages [hivemind-bus-client]: Downloading https://files.pythonhosted.org/packages/07/9e/683aecae06cdcb3a54522b44dbcf9c0429d4677a8192a03bfe08dd970b17/hivemind_bus_client-0.0.4a9-py3-none-any.whl
+[2024-05-30 06:47:57] INFO root fetch - processPackages [pytest-qaseio]: executing diffoscope
+[2024-05-30 06:47:57] INFO root fetch - processPackages [pytest-qaseio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_qaseio-1.2.0.tar.gz tmp/pytest_qaseio-2.0.0.tar.gz --markdown 20240530/p/pytest-qaseio/1.2.0-2.0.0/README.md --exclude *.pyd
+[2024-05-30 06:47:58] INFO root fetch - processPackages [hivemind-bus-client]: executing diffoscope
+[2024-05-30 06:47:58] INFO root fetch - processPackages [hivemind-bus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivemind_bus_client-0.0.4a8-py3-none-any.whl.zip tmp/hivemind_bus_client-0.0.4a9-py3-none-any.whl.zip --markdown 20240530/h/hivemind-bus-client/0.0.4a8-0.0.4a9/README.md --exclude *.pyd
+[2024-05-30 06:47:58] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_multi_company-16.0.20240409.0-py3-none-any.whl.zip]
+[2024-05-30 06:47:58] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_multi_company-16.0.20240516.0-py3-none-any.whl.zip]
+[2024-05-30 06:47:58] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-multi-company]: success
+[2024-05-30 06:47:58] INFO root fetch - processPackages [odoo-addon-sale-product-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_company-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-30 06:47:58] INFO root fetch - processPackages [odoo-addon-sale-product-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_company-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2024-05-30 06:47:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-product-company]: success
+[2024-05-30 06:47:58] INFO root fetch - processPackages [pytest-qaseio]: Remove: archive file [/home/abi/fetcher/tmp/pytest_qaseio-1.2.0.tar.gz]
+[2024-05-30 06:47:58] INFO root fetch - processPackages [pytest-qaseio]: Remove: archive file [/home/abi/fetcher/tmp/pytest_qaseio-2.0.0.tar.gz]
+[2024-05-30 06:47:58] INFO root fetch - main [MainThread]: End processing [pytest-qaseio]: success
+[2024-05-30 06:47:58] INFO root fetch - processPackages [hivemind-bus-client]: Remove: archive file [/home/abi/fetcher/tmp/hivemind_bus_client-0.0.4a8-py3-none-any.whl.zip]
+[2024-05-30 06:47:58] INFO root fetch - processPackages [hivemind-bus-client]: Remove: archive file [/home/abi/fetcher/tmp/hivemind_bus_client-0.0.4a9-py3-none-any.whl.zip]
+[2024-05-30 06:47:58] INFO root fetch - main [MainThread]: End processing [hivemind-bus-client]: success
+[2024-05-30 06:47:58] INFO root fetch - processPackages [indexify]: executing diffoscope
+[2024-05-30 06:47:58] INFO root fetch - processPackages [indexify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexify-0.0.8.tar.gz tmp/indexify-0.0.9.tar.gz --markdown 20240530/i/indexify/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 06:47:59] INFO root fetch - processPackages [indexify]: Remove: archive file [/home/abi/fetcher/tmp/indexify-0.0.8.tar.gz]
+[2024-05-30 06:47:59] INFO root fetch - processPackages [indexify]: Remove: archive file [/home/abi/fetcher/tmp/indexify-0.0.9.tar.gz]
+[2024-05-30 06:47:59] INFO root fetch - main [MainThread]: End processing [indexify]: success
+[2024-05-30 06:47:59] INFO root fetch - main [MainThread]: Store serial: [23442335]
