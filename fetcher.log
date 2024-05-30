@@ -15505,3 +15505,38 @@ EOFError: EOF read where object expected
 [2024-05-30 09:03:16] INFO root fetch - processPackages [spm1d]: Remove: archive file [/home/abi/fetcher/tmp/spm1d-0.4.30.tar.gz]
 [2024-05-30 09:03:16] INFO root fetch - main [MainThread]: End processing [spm1d]: success
 [2024-05-30 09:03:16] INFO root fetch - main [MainThread]: Store serial: [23443855]
+[2024-05-30 09:05:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443855]
+[2024-05-30 09:05:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 09:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ucdp-regf
+[2024-05-30 09:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-dms
+[2024-05-30 09:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: groqon
+[2024-05-30 09:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynumint
+[2024-05-30 09:05:26] INFO root fetch - processPackages [pynumint]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 09:05:26] INFO root fetch - processPackages [odoo-addon-dms]: New version: [16.0.1.7.0.9] Old Version: [16.0.1.7.0.8]
+[2024-05-30 09:05:26] INFO root fetch - processPackages [pynumint]: Downloading https://files.pythonhosted.org/packages/a5/8b/aa52621a14e5896fa9c3812a5b94fb7ddcda1f8dd1176eb9389b5c7c763c/pynumint-0.0.1.tar.gz
+[2024-05-30 09:05:26] INFO root fetch - processPackages [odoo-addon-dms]: Downloading https://files.pythonhosted.org/packages/0a/93/11076202082d352dfbadc2048f154bba24ade07ae59ac4db7085d023b66a/odoo_addon_dms-16.0.1.7.0.8-py3-none-any.whl
+[2024-05-30 09:05:26] INFO root fetch - processPackages [groqon]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-30 09:05:26] INFO root fetch - processPackages [ucdp-regf]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-30 09:05:26] WARNING root fetch - processPackages [odoo-addon-dms]: Skipping package: exceeds size limit 15665063>=10485760
+[2024-05-30 09:05:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms] error
+[2024-05-30 09:05:26] INFO root fetch - processPackages [ucdp-regf]: Downloading https://files.pythonhosted.org/packages/ed/d5/f0594d554cd2ddefac81de3fa11ba2daf575d41637f1d0973c968dae35d7/ucdp_regf-0.1.0.tar.gz
+[2024-05-30 09:05:26] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/3e/cf/8788db9d2164a2052080feb26d32b373c44eab29f44a49efc57114cba534/groqon-0.1.6.tar.gz
+[2024-05-30 09:05:26] INFO root fetch - processPackages [pynumint]: Downloading https://files.pythonhosted.org/packages/57/45/056e34a56921bc134efbae89a01621a7aad54fcbcec4f110363eaa7417d5/pynumint-0.0.2.tar.gz
+[2024-05-30 09:05:26] INFO root fetch - processPackages [pynumint]: executing diffoscope
+[2024-05-30 09:05:26] INFO root fetch - processPackages [pynumint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynumint-0.0.1.tar.gz tmp/pynumint-0.0.2.tar.gz --markdown 20240530/p/pynumint/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 09:05:26] INFO root fetch - processPackages [ucdp-regf]: Downloading https://files.pythonhosted.org/packages/9a/24/fa4f29d5934c860a4111a409e9df806ad51f47267cb54acee47fcf761bc6/ucdp_regf-0.2.0.tar.gz
+[2024-05-30 09:05:26] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/d1/1e/70f9ebcaaf3b1f3e75fd26a23d1f913e7f10f23707dff6bda63a0b41c149/groqon-0.1.7.tar.gz
+[2024-05-30 09:05:26] INFO root fetch - processPackages [ucdp-regf]: executing diffoscope
+[2024-05-30 09:05:26] INFO root fetch - processPackages [ucdp-regf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucdp_regf-0.1.0.tar.gz tmp/ucdp_regf-0.2.0.tar.gz --markdown 20240530/u/ucdp-regf/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-30 09:05:26] INFO root fetch - processPackages [groqon]: executing diffoscope
+[2024-05-30 09:05:26] INFO root fetch - processPackages [groqon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groqon-0.1.6.tar.gz tmp/groqon-0.1.7.tar.gz --markdown 20240530/g/groqon/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-30 09:05:27] INFO root fetch - processPackages [pynumint]: Remove: archive file [/home/abi/fetcher/tmp/pynumint-0.0.1.tar.gz]
+[2024-05-30 09:05:27] INFO root fetch - processPackages [pynumint]: Remove: archive file [/home/abi/fetcher/tmp/pynumint-0.0.2.tar.gz]
+[2024-05-30 09:05:27] INFO root fetch - main [MainThread]: End processing [pynumint]: success
+[2024-05-30 09:05:27] INFO root fetch - processPackages [ucdp-regf]: Remove: archive file [/home/abi/fetcher/tmp/ucdp_regf-0.1.0.tar.gz]
+[2024-05-30 09:05:27] INFO root fetch - processPackages [ucdp-regf]: Remove: archive file [/home/abi/fetcher/tmp/ucdp_regf-0.2.0.tar.gz]
+[2024-05-30 09:05:27] INFO root fetch - main [MainThread]: End processing [ucdp-regf]: success
+[2024-05-30 09:05:27] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.6.tar.gz]
+[2024-05-30 09:05:27] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.7.tar.gz]
+[2024-05-30 09:05:27] INFO root fetch - main [MainThread]: End processing [groqon]: success
+[2024-05-30 09:05:27] INFO root fetch - main [MainThread]: Store serial: [23443867]
