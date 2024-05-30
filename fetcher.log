@@ -8354,3 +8354,15 @@ EOFError: EOF read where object expected
 [2024-05-30 03:58:29] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
 [2024-05-30 03:58:29] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2024-05-30 03:58:29] INFO root fetch - main [MainThread]: Store serial: [23441106]
+[2024-05-30 04:00:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441106]
+[2024-05-30 04:00:38] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 04:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deeporigin
+[2024-05-30 04:00:38] INFO root fetch - processPackages [deeporigin]: New version: [1.2.0] Old Version: [0.1.1]
+[2024-05-30 04:00:38] INFO root fetch - processPackages [deeporigin]: Downloading https://files.pythonhosted.org/packages/46/fa/6b7c3eb00a5b18f383767b67504c57842903828dd76e05b849fd40db4555/deeporigin-0.1.1.tar.gz
+[2024-05-30 04:00:39] INFO root fetch - processPackages [deeporigin]: Downloading https://files.pythonhosted.org/packages/61/89/fa58b9326e11fce3093f9f45664420ae132c8b45fef86d45ef58be9fd3bb/deeporigin-1.2.0.tar.gz
+[2024-05-30 04:00:39] INFO root fetch - processPackages [deeporigin]: executing diffoscope
+[2024-05-30 04:00:39] INFO root fetch - processPackages [deeporigin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeporigin-0.1.1.tar.gz tmp/deeporigin-1.2.0.tar.gz --markdown 20240530/d/deeporigin/0.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-30 04:00:40] INFO root fetch - processPackages [deeporigin]: Remove: archive file [/home/abi/fetcher/tmp/deeporigin-0.1.1.tar.gz]
+[2024-05-30 04:00:40] INFO root fetch - processPackages [deeporigin]: Remove: archive file [/home/abi/fetcher/tmp/deeporigin-1.2.0.tar.gz]
+[2024-05-30 04:00:40] INFO root fetch - main [MainThread]: End processing [deeporigin]: success
+[2024-05-30 04:00:40] INFO root fetch - main [MainThread]: Store serial: [23441109]
