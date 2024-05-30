@@ -17332,3 +17332,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:11:54] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.3.tar.gz]
 [2024-05-30 10:11:54] INFO root fetch - main [MainThread]: End processing [hestia-earth-validation]: success
 [2024-05-30 10:11:54] INFO root fetch - main [MainThread]: Store serial: [23444718]
+[2024-05-30 10:13:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444718]
+[2024-05-30 10:14:03] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-05-30 10:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqprefect-contrib-dip
+[2024-05-30 10:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sq-probably
+[2024-05-30 10:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cash-support-mlm-prefect2
+[2024-05-30 10:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-apicall-plugin
+[2024-05-30 10:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqdlt
+[2024-05-30 10:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqtflint
+[2024-05-30 10:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sq-mbn-tools
+[2024-05-30 10:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cash-tecton
+[2024-05-30 10:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqprefect-contrib-mlflow
+[2024-05-30 10:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-botmanager
+[2024-05-30 10:14:03] INFO root fetch - processPackages [django-botmanager]: New version: [0.2.20] Old Version: [0.2.19]
+[2024-05-30 10:14:03] INFO root fetch - processPackages [mkdocs-apicall-plugin]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-05-30 10:14:03] WARNING root fetch - processPackages [cash-tecton]: Skipping, unable to determine old version
+[2024-05-30 10:14:03] INFO root fetch - processPackages [cash-tecton]: Start processing: sq-cloudfoundry
+[2024-05-30 10:14:03] INFO root fetch - main [MainThread]: End processing [cash-tecton] error
+[2024-05-30 10:14:03] WARNING root fetch - processPackages [sqdlt]: Skipping, unable to determine old version
+[2024-05-30 10:14:03] INFO root fetch - processPackages [sqdlt]: Start processing: squid-common
+[2024-05-30 10:14:03] INFO root fetch - main [MainThread]: End processing [sqdlt] error
+[2024-05-30 10:14:03] INFO root fetch - processPackages [django-botmanager]: Downloading https://files.pythonhosted.org/packages/7c/1f/ccaa82a7e812936a15413f074db244023d7c648fe2d651ac06dbd4fc6f39/django_botmanager-0.2.19.tar.gz
+[2024-05-30 10:14:03] INFO root fetch - processPackages [mkdocs-apicall-plugin]: Downloading https://files.pythonhosted.org/packages/4d/90/c0cbbbdde6c1cdfb717ddb0b8b17f39b91c33fa38435236de2b974ea1494/mkdocs_apicall_plugin-0.1.8.tar.gz
+[2024-05-30 10:14:03] WARNING root fetch - processPackages [sqtflint]: Skipping, unable to determine old version
+[2024-05-30 10:14:03] INFO root fetch - processPackages [sqtflint]: Start processing: django-customvueadmin
+[2024-05-30 10:14:03] INFO root fetch - main [MainThread]: End processing [sqtflint] error
+[2024-05-30 10:14:03] WARNING root fetch - processPackages [sq-probably]: Skipping, unable to determine old version
+[2024-05-30 10:14:03] INFO root fetch - processPackages [sq-probably]: Start processing: oarepo-global-search
+[2024-05-30 10:14:03] INFO root fetch - main [MainThread]: End processing [sq-probably] error
+[2024-05-30 10:14:03] WARNING root fetch - processPackages [sqprefect-contrib-mlflow]: Skipping, unable to determine old version
+[2024-05-30 10:14:03] INFO root fetch - processPackages [sqprefect-contrib-mlflow]: Start processing: redbacktechpy
+[2024-05-30 10:14:03] WARNING root fetch - processPackages [cash-support-mlm-prefect2]: Skipping, unable to determine old version
+[2024-05-30 10:14:03] INFO root fetch - main [MainThread]: End processing [sqprefect-contrib-mlflow] error
+[2024-05-30 10:14:03] INFO root fetch - processPackages [cash-support-mlm-prefect2]: Start processing: pysui-utils
+[2024-05-30 10:14:03] WARNING root fetch - processPackages [sq-mbn-tools]: Skipping, unable to determine old version
+[2024-05-30 10:14:03] WARNING root fetch - processPackages [sqprefect-contrib-dip]: Skipping, unable to determine old version
+[2024-05-30 10:14:03] INFO root fetch - main [MainThread]: End processing [cash-support-mlm-prefect2] error
+[2024-05-30 10:14:03] INFO root fetch - processPackages [sq-mbn-tools]: Start processing: z2m-log-parser
+[2024-05-30 10:14:03] INFO root fetch - processPackages [sqprefect-contrib-dip]: Start processing: CI-CloudConnector
+[2024-05-30 10:14:03] INFO root fetch - main [MainThread]: End processing [sq-mbn-tools] error
+[2024-05-30 10:14:03] INFO root fetch - main [MainThread]: End processing [sqprefect-contrib-dip] error
+[2024-05-30 10:14:04] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-30 10:14:04] INFO root fetch - processPackages [redbacktechpy]: New version: [0.5.5] Old Version: [0.5.0]
+[2024-05-30 10:14:04] INFO root fetch - processPackages [CI-CloudConnector]: New version: [1.5] Old Version: [1.4]
+[2024-05-30 10:14:04] WARNING root fetch - processPackages [sq-cloudfoundry]: Skipping, unable to determine old version
+[2024-05-30 10:14:04] INFO root fetch - processPackages [sq-cloudfoundry]: Start processing: zaku
+[2024-05-30 10:14:04] INFO root fetch - main [MainThread]: End processing [sq-cloudfoundry] error
+[2024-05-30 10:14:04] WARNING root fetch - processPackages [squid-common]: Skipping, unable to determine old version
+[2024-05-30 10:14:04] INFO root fetch - main [MainThread]: End processing [squid-common] error
+[2024-05-30 10:14:04] INFO root fetch - processPackages [oarepo-global-search]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-30 10:14:04] WARNING root fetch - processPackages [pysui-utils]: Skipping, unable to determine old version
+[2024-05-30 10:14:04] INFO root fetch - main [MainThread]: End processing [pysui-utils] error
+[2024-05-30 10:14:04] INFO root fetch - processPackages [z2m-log-parser]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 10:14:04] INFO root fetch - processPackages [zaku]: New version: [0.0.9] Old Version: [0.0.8rc1]
+[2024-05-30 10:14:04] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/cd/76/d69f3bcfb225da8b2c3acdf5292ed6ab47bd462797def9763470369a4ccc/django_customvueadmin-0.2.8.tar.gz
+[2024-05-30 10:14:04] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/21/c9/13831b717999ea5186629e969e67f8a75ceaaade42f5e963c5846f101a5e/redbacktechpy-0.5.0.tar.gz
+[2024-05-30 10:14:04] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/03/26/267a6ec410f3c3bf30de7e367f67e22ecabfd343cd06de3b309e7cdd309b/ci_cloudconnector-1.4.tar.gz
+[2024-05-30 10:14:04] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/36/63/843de81065e8c450c9dd14f7dd36425a40393dc131450c91bebeb4c5dd43/zaku-0.0.8rc1-py3-none-any.whl
+[2024-05-30 10:14:04] INFO root fetch - processPackages [oarepo-global-search]: Downloading https://files.pythonhosted.org/packages/93/1a/f6c5fabdbce170ffb2334f73ee3f00c884c8f5f9fbbb9abd9d75e7899562/oarepo_global_search-1.0.8.tar.gz
+[2024-05-30 10:14:04] INFO root fetch - processPackages [django-botmanager]: Downloading https://files.pythonhosted.org/packages/0c/df/3d08b5cf669788015db67c362c5d2f76bb6241b829f9e270a558294eb3b2/django_botmanager-0.2.20.tar.gz
+[2024-05-30 10:14:04] INFO root fetch - processPackages [mkdocs-apicall-plugin]: Downloading https://files.pythonhosted.org/packages/f5/f7/6ec8e53c11a463a32ac7e557772fac5724122b5789e292ff4482bdf38d5d/mkdocs_apicall_plugin-0.2.0.tar.gz
+[2024-05-30 10:14:04] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/06/9c/b931cbe71d6db936e1f1e94f80fe8b5aae2fd204ba8d0e2576f40255b4f4/z2m_log_parser-0.1.0.tar.gz
+[2024-05-30 10:14:04] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/c2/0f/e2b899886d8666766b63cfa4e23ad360f247141f783af34aece38659994a/redbacktechpy-0.5.5.tar.gz
+[2024-05-30 10:14:04] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/cf/0e/96a80c4cc62c4a2fa75fb4a3fbfabb21a029116202d8e513617930bcdd4a/zaku-0.0.9-py3-none-any.whl
+[2024-05-30 10:14:04] INFO root fetch - processPackages [mkdocs-apicall-plugin]: executing diffoscope
+[2024-05-30 10:14:04] INFO root fetch - processPackages [mkdocs-apicall-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_apicall_plugin-0.1.8.tar.gz tmp/mkdocs_apicall_plugin-0.2.0.tar.gz --markdown 20240530/m/mkdocs-apicall-plugin/0.1.8-0.2.0/README.md --exclude *.pyd
+[2024-05-30 10:14:04] INFO root fetch - processPackages [django-botmanager]: executing diffoscope
+[2024-05-30 10:14:04] INFO root fetch - processPackages [django-botmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_botmanager-0.2.19.tar.gz tmp/django_botmanager-0.2.20.tar.gz --markdown 20240530/d/django-botmanager/0.2.19-0.2.20/README.md --exclude *.pyd
+[2024-05-30 10:14:04] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/4e/16/3a24fe9008e4af1f112ef03f71a7177da7a96b1015ba1f9337b91a6341bb/ci_cloudconnector-1.5.tar.gz
+[2024-05-30 10:14:04] INFO root fetch - processPackages [redbacktechpy]: executing diffoscope
+[2024-05-30 10:14:04] INFO root fetch - processPackages [redbacktechpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbacktechpy-0.5.0.tar.gz tmp/redbacktechpy-0.5.5.tar.gz --markdown 20240530/r/redbacktechpy/0.5.0-0.5.5/README.md --exclude *.pyd
+[2024-05-30 10:14:04] INFO root fetch - processPackages [zaku]: executing diffoscope
+[2024-05-30 10:14:04] INFO root fetch - processPackages [zaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaku-0.0.8rc1-py3-none-any.whl.zip tmp/zaku-0.0.9-py3-none-any.whl.zip --markdown 20240530/z/zaku/0.0.8rc1-0.0.9/README.md --exclude *.pyd
+[2024-05-30 10:14:04] INFO root fetch - processPackages [oarepo-global-search]: Downloading https://files.pythonhosted.org/packages/7c/ba/7a09ad7214d2bde0b0e9ec5159c14c1b2d9588143a324c0270838f334f87/oarepo_global_search-1.0.9.tar.gz
+[2024-05-30 10:14:04] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-30 10:14:04] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-1.4.tar.gz tmp/ci_cloudconnector-1.5.tar.gz --markdown 20240530/C/CI-CloudConnector/1.4-1.5/README.md --exclude *.pyd
+[2024-05-30 10:14:04] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/ee/7b/bc29ddb1585425e8738f7c46f715bf2633c8fc923eff807dcc4289a75f62/django_customvueadmin-0.2.9.tar.gz
+[2024-05-30 10:14:04] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/ae/78/f9c6f7d5bacca529ebf42d9c5e5e1b2a194f8b794541a494eb8a2d212594/z2m_log_parser-0.1.1.tar.gz
+[2024-05-30 10:14:04] INFO root fetch - processPackages [oarepo-global-search]: executing diffoscope
+[2024-05-30 10:14:04] INFO root fetch - processPackages [oarepo-global-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo_global_search-1.0.8.tar.gz tmp/oarepo_global_search-1.0.9.tar.gz --markdown 20240530/o/oarepo-global-search/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-30 10:14:04] INFO root fetch - processPackages [z2m-log-parser]: executing diffoscope
+[2024-05-30 10:14:04] INFO root fetch - processPackages [z2m-log-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z2m_log_parser-0.1.0.tar.gz tmp/z2m_log_parser-0.1.1.tar.gz --markdown 20240530/z/z2m-log-parser/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 10:14:05] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-05-30 10:14:05] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_customvueadmin-0.2.8.tar.gz tmp/django_customvueadmin-0.2.9.tar.gz --markdown 20240530/d/django-customvueadmin/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-30 10:14:05] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.8rc1-py3-none-any.whl.zip]
+[2024-05-30 10:14:05] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.9-py3-none-any.whl.zip]
+[2024-05-30 10:14:05] INFO root fetch - main [MainThread]: End processing [zaku]: success
+[2024-05-30 10:14:05] INFO root fetch - processPackages [django-botmanager]: Remove: archive file [/home/abi/fetcher/tmp/django_botmanager-0.2.19.tar.gz]
+[2024-05-30 10:14:05] INFO root fetch - processPackages [django-botmanager]: Remove: archive file [/home/abi/fetcher/tmp/django_botmanager-0.2.20.tar.gz]
+[2024-05-30 10:14:05] INFO root fetch - main [MainThread]: End processing [django-botmanager]: success
+[2024-05-30 10:14:05] INFO root fetch - processPackages [mkdocs-apicall-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_apicall_plugin-0.1.8.tar.gz]
+[2024-05-30 10:14:05] INFO root fetch - processPackages [mkdocs-apicall-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_apicall_plugin-0.2.0.tar.gz]
+[2024-05-30 10:14:05] INFO root fetch - main [MainThread]: End processing [mkdocs-apicall-plugin]: success
+[2024-05-30 10:14:05] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-0.5.0.tar.gz]
+[2024-05-30 10:14:05] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-0.5.5.tar.gz]
+[2024-05-30 10:14:05] INFO root fetch - main [MainThread]: End processing [redbacktechpy]: success
+[2024-05-30 10:14:05] INFO root fetch - processPackages [oarepo-global-search]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_global_search-1.0.8.tar.gz]
+[2024-05-30 10:14:05] INFO root fetch - processPackages [oarepo-global-search]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_global_search-1.0.9.tar.gz]
+[2024-05-30 10:14:05] INFO root fetch - main [MainThread]: End processing [oarepo-global-search]: success
+[2024-05-30 10:14:05] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.4.tar.gz]
+[2024-05-30 10:14:05] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.5.tar.gz]
+[2024-05-30 10:14:05] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-30 10:14:05] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.1.0.tar.gz]
+[2024-05-30 10:14:05] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.1.1.tar.gz]
+[2024-05-30 10:14:05] INFO root fetch - main [MainThread]: End processing [z2m-log-parser]: success
+[2024-05-30 10:14:29] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.8.tar.gz]
+[2024-05-30 10:14:29] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.9.tar.gz]
+[2024-05-30 10:14:29] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-05-30 10:14:29] INFO root fetch - main [MainThread]: Store serial: [23444771]
