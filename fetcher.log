@@ -3294,3 +3294,33 @@ EOFError: EOF read where object expected
 [2024-05-30 03:08:11] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.6-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-30 03:08:11] INFO root fetch - main [MainThread]: End processing [generate-tools]: success
 [2024-05-30 03:08:11] INFO root fetch - main [MainThread]: Store serial: [23439295]
+[2024-05-30 03:10:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439295]
+[2024-05-30 03:10:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 03:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: r2r
+[2024-05-30 03:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multi-med-image-ml
+[2024-05-30 03:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parallax-app
+[2024-05-30 03:10:21] INFO root fetch - processPackages [multi-med-image-ml]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-30 03:10:21] INFO root fetch - processPackages [r2r]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-30 03:10:21] INFO root fetch - processPackages [r2r]: Downloading https://files.pythonhosted.org/packages/06/81/c50879c84ff47f1cba9f65b758a29c59454b0ca2a9bdafca13b7bdf377a2/r2r-0.2.0.tar.gz
+[2024-05-30 03:10:21] INFO root fetch - processPackages [parallax-app]: New version: [0.37.9] Old Version: [0.37.8]
+[2024-05-30 03:10:21] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/71/5f/703379648ffbe484ee9a2587a391068be73af572cb52a79cc5462bf39437/multi_med_image_ml-0.0.3.tar.gz
+[2024-05-30 03:10:21] INFO root fetch - processPackages [parallax-app]: Downloading https://files.pythonhosted.org/packages/ef/00/2d5652c77a8813a44dcb383cfe8be1044516bf22a3ed7a93abd80a23c16a/parallax_app-0.37.8.tar.gz
+[2024-05-30 03:10:21] INFO root fetch - processPackages [r2r]: Downloading https://files.pythonhosted.org/packages/20/c9/103d3548392723581f5a7f0aedf37547c37427d95b0ea35b4789920289f9/r2r-0.2.1.tar.gz
+[2024-05-30 03:10:21] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/fa/b1/1c8acc0e016436884d2566c1cbdd10878da74f84e6222d470954c382528d/multi_med_image_ml-0.0.5.tar.gz
+[2024-05-30 03:10:21] INFO root fetch - processPackages [parallax-app]: Downloading https://files.pythonhosted.org/packages/48/0b/5dcba1a2c1c839274999c25aca03e93ab2510c6d45b0fa102a7fcf904ad7/parallax_app-0.37.9.tar.gz
+[2024-05-30 03:10:21] INFO root fetch - processPackages [r2r]: executing diffoscope
+[2024-05-30 03:10:21] INFO root fetch - processPackages [r2r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2r-0.2.0.tar.gz tmp/r2r-0.2.1.tar.gz --markdown 20240530/r/r2r/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-30 03:10:22] INFO root fetch - processPackages [multi-med-image-ml]: executing diffoscope
+[2024-05-30 03:10:22] INFO root fetch - processPackages [multi-med-image-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_med_image_ml-0.0.3.tar.gz tmp/multi_med_image_ml-0.0.5.tar.gz --markdown 20240530/m/multi-med-image-ml/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-30 03:10:22] INFO root fetch - processPackages [parallax-app]: executing diffoscope
+[2024-05-30 03:10:22] INFO root fetch - processPackages [parallax-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parallax_app-0.37.8.tar.gz tmp/parallax_app-0.37.9.tar.gz --markdown 20240530/p/parallax-app/0.37.8-0.37.9/README.md --exclude *.pyd
+[2024-05-30 03:10:22] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.3.tar.gz]
+[2024-05-30 03:10:22] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.5.tar.gz]
+[2024-05-30 03:10:22] INFO root fetch - main [MainThread]: End processing [multi-med-image-ml]: success
+[2024-05-30 03:10:22] INFO root fetch - processPackages [parallax-app]: Remove: archive file [/home/abi/fetcher/tmp/parallax_app-0.37.8.tar.gz]
+[2024-05-30 03:10:22] INFO root fetch - processPackages [parallax-app]: Remove: archive file [/home/abi/fetcher/tmp/parallax_app-0.37.9.tar.gz]
+[2024-05-30 03:10:22] INFO root fetch - main [MainThread]: End processing [parallax-app]: success
+[2024-05-30 03:10:22] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.2.0.tar.gz]
+[2024-05-30 03:10:22] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.2.1.tar.gz]
+[2024-05-30 03:10:22] INFO root fetch - main [MainThread]: End processing [r2r]: success
+[2024-05-30 03:10:22] INFO root fetch - main [MainThread]: Store serial: [23439304]
