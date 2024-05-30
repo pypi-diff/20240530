@@ -17842,3 +17842,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:30:31] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.9.9rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-30 10:30:31] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2024-05-30 10:30:31] INFO root fetch - main [MainThread]: Store serial: [23445031]
+[2024-05-30 10:32:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23445031]
+[2024-05-30 10:32:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 10:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lightning-sdk
+[2024-05-30 10:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aTeam-PySparkLibrary
+[2024-05-30 10:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drex
+[2024-05-30 10:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scalegen-function-calling
+[2024-05-30 10:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mercury-robust
+[2024-05-30 10:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bluepyemodel
+[2024-05-30 10:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: annet
+[2024-05-30 10:32:48] INFO root fetch - processPackages [scalegen-function-calling]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-30 10:32:48] INFO root fetch - processPackages [aTeam-PySparkLibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 10:32:48] INFO root fetch - processPackages [lightning-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 10:32:48] INFO root fetch - processPackages [drex]: New version: [0.0.246] Old Version: [0.0.245]
+[2024-05-30 10:32:48] INFO root fetch - processPackages [mercury-robust]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-30 10:32:48] INFO root fetch - processPackages [bluepyemodel]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-30 10:32:48] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/a2/2e/1d6481b8487316b5ef587bec1a35494da504ddd8b889542a6a0f2df01410/ateam_pysparklibrary-0.0.8.tar.gz
+[2024-05-30 10:32:48] INFO root fetch - processPackages [scalegen-function-calling]: Downloading https://files.pythonhosted.org/packages/b8/11/1acd8a27cbc8864bea61931fd93e69c5836b7761bf8ddcba955e32964b55/scalegen-function-calling-0.1.1.tar.gz
+[2024-05-30 10:32:48] INFO root fetch - processPackages [annet]: New version: [0.9] Old Version: [0.8]
+[2024-05-30 10:32:48] INFO root fetch - processPackages [mercury-robust]: Downloading https://files.pythonhosted.org/packages/4d/bf/53861f44580051ccb3223b07e2d271e350990285d5488452f18e6d2e5a81/mercury-robust-0.0.2.tar.gz
+[2024-05-30 10:32:48] INFO root fetch - processPackages [lightning-sdk]: Downloading https://files.pythonhosted.org/packages/a7/77/4e5a259651b992f41c77a8a87eb7913eb976531a6330281bc82db26f94f9/lightning_sdk-0.1.8-py3-none-any.whl
+[2024-05-30 10:32:48] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/78/d5/55236fa143e4aa7508e2538180f482a6544e13511721d46a39696b1432c1/drex-0.0.245.tar.gz
+[2024-05-30 10:32:48] INFO root fetch - processPackages [scalegen-function-calling]: Downloading https://files.pythonhosted.org/packages/53/bb/1c173c8dbff33ad29170c8ce409f0a0b138e863d13b7fa961111c2b044ef/scalegen-function-calling-0.1.2.tar.gz
+[2024-05-30 10:32:48] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/e9/d2/aeddb456bd2964ac5d6053e8d9bb51e4a330281981e77a00dad7238f2061/ateam_pysparklibrary-0.0.9.tar.gz
+[2024-05-30 10:32:48] INFO root fetch - processPackages [bluepyemodel]: Downloading https://files.pythonhosted.org/packages/ae/1c/9a66b9e064763a88e12392ff7254bc1d5a41fd664021437ea9a52d570600/bluepyemodel-0.0.98.tar.gz
+[2024-05-30 10:32:48] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/43/03/2bd7e8afe1cef1ffcdf8b3a53c32197a76076672190d4a3f0684979508f9/annet-0.8.tar.gz
+[2024-05-30 10:32:48] INFO root fetch - processPackages [scalegen-function-calling]: executing diffoscope
+[2024-05-30 10:32:48] INFO root fetch - processPackages [scalegen-function-calling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalegen-function-calling-0.1.1.tar.gz tmp/scalegen-function-calling-0.1.2.tar.gz --markdown 20240530/s/scalegen-function-calling/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-30 10:32:49] INFO root fetch - processPackages [aTeam-PySparkLibrary]: executing diffoscope
+[2024-05-30 10:32:49] INFO root fetch - processPackages [aTeam-PySparkLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ateam_pysparklibrary-0.0.8.tar.gz tmp/ateam_pysparklibrary-0.0.9.tar.gz --markdown 20240530/a/aTeam-PySparkLibrary/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 10:32:49] INFO root fetch - processPackages [mercury-robust]: Downloading https://files.pythonhosted.org/packages/64/1c/e7ff0c790d3ccf64734be803b9a7f69211f00c02edb2cb2bf946c4cd81a7/mercury_robust-0.0.3.tar.gz
+[2024-05-30 10:32:49] INFO root fetch - processPackages [lightning-sdk]: Downloading https://files.pythonhosted.org/packages/90/6d/2be1fced5e4785ff63b83c65e1738a63b38e8c3bc3b764f8fa86e4cb8ee0/lightning_sdk-0.1.9-py3-none-any.whl
+[2024-05-30 10:32:49] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/7a/e5/c1d0081b332f93f41977ffdd0ad716a4f4dcbb42fbcf3816c8a0ecc2713f/drex-0.0.246.tar.gz
+[2024-05-30 10:32:49] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/41/c3/39483a248016582b415acc5071d94f0dfba19bb328455d81cb638d77d2ed/annet-0.9.tar.gz
+[2024-05-30 10:32:49] INFO root fetch - processPackages [mercury-robust]: executing diffoscope
+[2024-05-30 10:32:49] INFO root fetch - processPackages [mercury-robust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-robust-0.0.2.tar.gz tmp/mercury_robust-0.0.3.tar.gz --markdown 20240530/m/mercury-robust/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-30 10:32:49] INFO root fetch - processPackages [lightning-sdk]: executing diffoscope
+[2024-05-30 10:32:49] INFO root fetch - processPackages [lightning-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_sdk-0.1.8-py3-none-any.whl.zip tmp/lightning_sdk-0.1.9-py3-none-any.whl.zip --markdown 20240530/l/lightning-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 10:32:49] INFO root fetch - processPackages [annet]: executing diffoscope
+[2024-05-30 10:32:49] INFO root fetch - processPackages [annet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annet-0.8.tar.gz tmp/annet-0.9.tar.gz --markdown 20240530/a/annet/0.8-0.9/README.md --exclude *.pyd
+[2024-05-30 10:32:49] INFO root fetch - processPackages [scalegen-function-calling]: Remove: archive file [/home/abi/fetcher/tmp/scalegen-function-calling-0.1.1.tar.gz]
+[2024-05-30 10:32:49] INFO root fetch - processPackages [scalegen-function-calling]: Remove: archive file [/home/abi/fetcher/tmp/scalegen-function-calling-0.1.2.tar.gz]
+[2024-05-30 10:32:49] INFO root fetch - main [MainThread]: End processing [scalegen-function-calling]: success
+[2024-05-30 10:32:49] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.8.tar.gz]
+[2024-05-30 10:32:49] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.9.tar.gz]
+[2024-05-30 10:32:49] INFO root fetch - main [MainThread]: End processing [aTeam-PySparkLibrary]: success
+[2024-05-30 10:32:49] INFO root fetch - processPackages [drex]: executing diffoscope
+[2024-05-30 10:32:49] INFO root fetch - processPackages [drex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drex-0.0.245.tar.gz tmp/drex-0.0.246.tar.gz --markdown 20240530/d/drex/0.0.245-0.0.246/README.md --exclude *.pyd
+[2024-05-30 10:32:49] INFO root fetch - processPackages [bluepyemodel]: Downloading https://files.pythonhosted.org/packages/4f/47/cdb97d873b536d0c711e95e2b3623dd29d62b3dedad06807f9db9e2e1d2c/bluepyemodel-0.0.99.tar.gz
+[2024-05-30 10:32:50] INFO root fetch - processPackages [mercury-robust]: Remove: archive file [/home/abi/fetcher/tmp/mercury-robust-0.0.2.tar.gz]
+[2024-05-30 10:32:50] INFO root fetch - processPackages [mercury-robust]: Remove: archive file [/home/abi/fetcher/tmp/mercury_robust-0.0.3.tar.gz]
+[2024-05-30 10:32:50] INFO root fetch - main [MainThread]: End processing [mercury-robust]: success
+[2024-05-30 10:32:50] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.8.tar.gz]
+[2024-05-30 10:32:50] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.9.tar.gz]
+[2024-05-30 10:32:50] INFO root fetch - main [MainThread]: End processing [annet]: success
+[2024-05-30 10:32:50] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.245.tar.gz]
+[2024-05-30 10:32:50] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.246.tar.gz]
+[2024-05-30 10:32:50] INFO root fetch - main [MainThread]: End processing [drex]: success
+[2024-05-30 10:32:50] INFO root fetch - processPackages [bluepyemodel]: executing diffoscope
+[2024-05-30 10:32:50] INFO root fetch - processPackages [bluepyemodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyemodel-0.0.98.tar.gz tmp/bluepyemodel-0.0.99.tar.gz --markdown 20240530/b/bluepyemodel/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-30 10:32:52] INFO root fetch - processPackages [lightning-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lightning_sdk-0.1.8-py3-none-any.whl.zip]
+[2024-05-30 10:32:52] INFO root fetch - processPackages [lightning-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lightning_sdk-0.1.9-py3-none-any.whl.zip]
+[2024-05-30 10:32:52] INFO root fetch - main [MainThread]: End processing [lightning-sdk]: success
+[2024-05-30 10:32:54] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.98.tar.gz]
+[2024-05-30 10:32:54] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.99.tar.gz]
+[2024-05-30 10:32:54] INFO root fetch - main [MainThread]: End processing [bluepyemodel]: success
+[2024-05-30 10:32:54] INFO root fetch - main [MainThread]: Store serial: [23445079]
