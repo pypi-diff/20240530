@@ -21783,3 +21783,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:52:30] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.2.7.tar.gz]
 [2024-05-30 11:52:30] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
 [2024-05-30 11:52:30] INFO root fetch - main [MainThread]: Store serial: [23446526]
+[2024-05-30 11:54:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446526]
+[2024-05-30 11:54:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-30 11:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YWP
+[2024-05-30 11:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumiverse-zitadel
+[2024-05-30 11:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transstellar
+[2024-05-30 11:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nkululeko
+[2024-05-30 11:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pathlibs3
+[2024-05-30 11:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: afnaan
+[2024-05-30 11:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cognite-toolkit
+[2024-05-30 11:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: servicefoundry
+[2024-05-30 11:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: micropython-winbond
+[2024-05-30 11:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deepsights-api
+[2024-05-30 11:54:47] INFO root fetch - processPackages [YWP]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-30 11:54:47] INFO root fetch - processPackages [transstellar]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-05-30 11:54:47] INFO root fetch - processPackages [pathlibs3]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-30 11:54:47] INFO root fetch - processPackages [nkululeko]: New version: [0.86.1] Old Version: [0.86.0]
+[2024-05-30 11:54:47] INFO root fetch - processPackages [micropython-winbond]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-30 11:54:47] INFO root fetch - processPackages [pulumiverse-zitadel]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-30 11:54:47] INFO root fetch - processPackages [YWP]: Downloading https://files.pythonhosted.org/packages/25/1d/3fce0ae71194ba27d3cdd68fcf4e0c9ba694b7021d04896239ae8af005c7/ywp-0.5.0.tar.gz
+[2024-05-30 11:54:47] INFO root fetch - processPackages [deepsights-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-30 11:54:47] INFO root fetch - processPackages [cognite-toolkit]: New version: [0.2.0b1] Old Version: [0.2.0a5]
+[2024-05-30 11:54:47] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/7c/ef/11c124d8825f85731257f950940b364d85e645d3a97a37a5d2a3d556b9aa/transstellar-2.5.0.tar.gz
+[2024-05-30 11:54:47] WARNING root fetch - processPackages [afnaan]: Skipping, unable to determine old version
+[2024-05-30 11:54:47] INFO root fetch - main [MainThread]: End processing [afnaan] error
+[2024-05-30 11:54:47] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.9rc2] Old Version: [0.9.9rc1]
+[2024-05-30 11:54:47] INFO root fetch - processPackages [pathlibs3]: Downloading https://files.pythonhosted.org/packages/33/82/1aaffc03fe76b3f5bb8acc55b7434dfce4ac613eae9c18f551f60f399398/pathlibs3-0.2.5.tar.gz
+[2024-05-30 11:54:47] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/7b/91/cbdf4612cbcf8f060757410d0fe37926bfa9e5ab448af2b34ac907583e1b/nkululeko-0.86.0.tar.gz
+[2024-05-30 11:54:47] INFO root fetch - processPackages [micropython-winbond]: Downloading https://files.pythonhosted.org/packages/ba/3f/60d743f09a5cefb6b55d1b5d76e930738f4d3866cc73c8c324d3e64aedf0/micropython-winbond-0.5.2.tar.gz
+[2024-05-30 11:54:47] INFO root fetch - processPackages [pulumiverse-zitadel]: Downloading https://files.pythonhosted.org/packages/57/de/df9e485334e31ddec54c25bdebddeb7a447c310337eca7506a9f67ea5b86/pulumiverse_zitadel-0.1.7.tar.gz
+[2024-05-30 11:54:47] INFO root fetch - processPackages [deepsights-api]: Downloading https://files.pythonhosted.org/packages/10/07/49d0abc9d90cae5af6f87e79a3f9ad861066d876743c117297bab9818d8a/deepsights-api-1.0.2.tar.gz
+[2024-05-30 11:54:47] INFO root fetch - processPackages [cognite-toolkit]: Downloading https://files.pythonhosted.org/packages/df/61/ec38cedb00eec51afa616e4a01774a7234cbd9a851fe3fad7abdbba57335/cognite_toolkit-0.2.0a5.tar.gz
+[2024-05-30 11:54:47] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/02/05/5016312c66b2c7a88f194b61f74c045e7449386ad8b2d1c5248a45a6094f/servicefoundry-0.9.9rc1.tar.gz
+[2024-05-30 11:54:47] INFO root fetch - processPackages [pathlibs3]: Downloading https://files.pythonhosted.org/packages/5d/ac/44d6bc041c472b66d6d2aaf13f581a60ffaf420a14d99ee813e03d42ae63/pathlibs3-0.2.6.tar.gz
+[2024-05-30 11:54:47] WARNING root fetch - processPackages [cognite-toolkit]: Skipping package: exceeds size limit 14623019>=10485760
+[2024-05-30 11:54:47] INFO root fetch - main [MainThread]: End processing [cognite-toolkit] error
+[2024-05-30 11:54:47] INFO root fetch - processPackages [YWP]: Downloading https://files.pythonhosted.org/packages/1c/79/04e92549358e4de84680e0f87debf4fcb32b1859d0ce8b5a66dd78603b1d/ywp-0.6.0.tar.gz
+[2024-05-30 11:54:47] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/99/40/5973c90a16dd75b74218b1d3b33c79b7f6b6581538cb28b4454f86e28665/transstellar-2.5.1.tar.gz
+[2024-05-30 11:54:47] INFO root fetch - processPackages [pathlibs3]: executing diffoscope
+[2024-05-30 11:54:47] INFO root fetch - processPackages [pathlibs3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathlibs3-0.2.5.tar.gz tmp/pathlibs3-0.2.6.tar.gz --markdown 20240530/p/pathlibs3/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-30 11:54:47] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/34/93/7e814e08129226182f1dd52f2ad5698e53aec4f4f6be946eab2c7b2064ad/nkululeko-0.86.1.tar.gz
+[2024-05-30 11:54:47] INFO root fetch - processPackages [YWP]: executing diffoscope
+[2024-05-30 11:54:47] INFO root fetch - processPackages [YWP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ywp-0.5.0.tar.gz tmp/ywp-0.6.0.tar.gz --markdown 20240530/Y/YWP/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-30 11:54:48] INFO root fetch - processPackages [transstellar]: executing diffoscope
+[2024-05-30 11:54:48] INFO root fetch - processPackages [transstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar-2.5.0.tar.gz tmp/transstellar-2.5.1.tar.gz --markdown 20240530/t/transstellar/2.5.0-2.5.1/README.md --exclude *.pyd
+[2024-05-30 11:54:48] INFO root fetch - processPackages [micropython-winbond]: Downloading https://files.pythonhosted.org/packages/e8/cf/621b1622378eacd921fd91b7c042f2a9a84fd3d257913cdb3a8e6a2a2707/micropython-winbond-0.5.3.tar.gz
+[2024-05-30 11:54:48] INFO root fetch - processPackages [deepsights-api]: Downloading https://files.pythonhosted.org/packages/d1/a2/58ea1d7c3eb87ac5ce9c86745d0653d55527a9ba1083b3892ab3bf80ff05/deepsights-api-1.0.3.tar.gz
+[2024-05-30 11:54:48] INFO root fetch - processPackages [pulumiverse-zitadel]: Downloading https://files.pythonhosted.org/packages/99/b8/2096d7976c66c4baaa9becc0b51544718eca9c696f417ec54d20fb189370/pulumiverse_zitadel-0.1.8.tar.gz
+[2024-05-30 11:54:48] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2024-05-30 11:54:48] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.86.0.tar.gz tmp/nkululeko-0.86.1.tar.gz --markdown 20240530/n/nkululeko/0.86.0-0.86.1/README.md --exclude *.pyd
+[2024-05-30 11:54:48] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/95/2d/4d48175602335d472c23250316e448a45d05e4002ce13dc0e65cd515514a/servicefoundry-0.9.9rc2.tar.gz
+[2024-05-30 11:54:48] INFO root fetch - processPackages [pulumiverse-zitadel]: executing diffoscope
+[2024-05-30 11:54:48] INFO root fetch - processPackages [pulumiverse-zitadel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_zitadel-0.1.7.tar.gz tmp/pulumiverse_zitadel-0.1.8.tar.gz --markdown 20240530/p/pulumiverse-zitadel/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-30 11:54:48] INFO root fetch - processPackages [deepsights-api]: executing diffoscope
+[2024-05-30 11:54:48] INFO root fetch - processPackages [deepsights-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsights-api-1.0.2.tar.gz tmp/deepsights-api-1.0.3.tar.gz --markdown 20240530/d/deepsights-api/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-30 11:54:48] INFO root fetch - processPackages [micropython-winbond]: executing diffoscope
+[2024-05-30 11:54:48] INFO root fetch - processPackages [micropython-winbond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-winbond-0.5.2.tar.gz tmp/micropython-winbond-0.5.3.tar.gz --markdown 20240530/m/micropython-winbond/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-30 11:54:48] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2024-05-30 11:54:48] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.9rc1.tar.gz tmp/servicefoundry-0.9.9rc2.tar.gz --markdown 20240530/s/servicefoundry/0.9.9rc1-0.9.9rc2/README.md --exclude *.pyd
+[2024-05-30 11:54:48] INFO root fetch - processPackages [pathlibs3]: Remove: archive file [/home/abi/fetcher/tmp/pathlibs3-0.2.5.tar.gz]
+[2024-05-30 11:54:48] INFO root fetch - processPackages [pathlibs3]: Remove: archive file [/home/abi/fetcher/tmp/pathlibs3-0.2.6.tar.gz]
+[2024-05-30 11:54:48] INFO root fetch - main [MainThread]: End processing [pathlibs3]: success
+[2024-05-30 11:54:48] INFO root fetch - processPackages [YWP]: Remove: archive file [/home/abi/fetcher/tmp/ywp-0.5.0.tar.gz]
+[2024-05-30 11:54:48] INFO root fetch - processPackages [YWP]: Remove: archive file [/home/abi/fetcher/tmp/ywp-0.6.0.tar.gz]
+[2024-05-30 11:54:48] INFO root fetch - main [MainThread]: End processing [YWP]: success
+[2024-05-30 11:54:48] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.5.0.tar.gz]
+[2024-05-30 11:54:48] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.5.1.tar.gz]
+[2024-05-30 11:54:48] INFO root fetch - main [MainThread]: End processing [transstellar]: success
+[2024-05-30 11:54:49] INFO root fetch - processPackages [micropython-winbond]: Remove: archive file [/home/abi/fetcher/tmp/micropython-winbond-0.5.2.tar.gz]
+[2024-05-30 11:54:49] INFO root fetch - processPackages [micropython-winbond]: Remove: archive file [/home/abi/fetcher/tmp/micropython-winbond-0.5.3.tar.gz]
+[2024-05-30 11:54:49] INFO root fetch - main [MainThread]: End processing [micropython-winbond]: success
+[2024-05-30 11:54:49] INFO root fetch - processPackages [deepsights-api]: Remove: archive file [/home/abi/fetcher/tmp/deepsights-api-1.0.2.tar.gz]
+[2024-05-30 11:54:49] INFO root fetch - processPackages [deepsights-api]: Remove: archive file [/home/abi/fetcher/tmp/deepsights-api-1.0.3.tar.gz]
+[2024-05-30 11:54:49] INFO root fetch - main [MainThread]: End processing [deepsights-api]: success
+[2024-05-30 11:54:49] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc1.tar.gz]
+[2024-05-30 11:54:49] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc2.tar.gz]
+[2024-05-30 11:54:49] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2024-05-30 11:54:49] INFO root fetch - processPackages [pulumiverse-zitadel]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_zitadel-0.1.7.tar.gz]
+[2024-05-30 11:54:49] INFO root fetch - processPackages [pulumiverse-zitadel]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_zitadel-0.1.8.tar.gz]
+[2024-05-30 11:54:49] INFO root fetch - main [MainThread]: End processing [pulumiverse-zitadel]: success
+[2024-05-30 11:54:49] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.86.0.tar.gz]
+[2024-05-30 11:54:49] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.86.1.tar.gz]
+[2024-05-30 11:54:49] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2024-05-30 11:54:49] INFO root fetch - main [MainThread]: Store serial: [23446560]
