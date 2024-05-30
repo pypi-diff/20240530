@@ -12074,3 +12074,69 @@ EOFError: EOF read where object expected
 [2024-05-30 07:03:16] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-05-30 07:03:16] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-05-30 07:03:16] INFO root fetch - main [MainThread]: Store serial: [23442481]
+[2024-05-30 07:05:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442481]
+[2024-05-30 07:05:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 07:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpu4pyscf
+[2024-05-30 07:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geodesic-api
+[2024-05-30 07:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgc-finder
+[2024-05-30 07:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyDolarVenezuela
+[2024-05-30 07:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycodata
+[2024-05-30 07:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: api-pipe
+[2024-05-30 07:05:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rapid-pe
+[2024-05-30 07:05:26] INFO root fetch - processPackages [pgc-finder]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-30 07:05:26] INFO root fetch - processPackages [gpu4pyscf]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-05-30 07:05:26] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240529] Old Version: [0.1.2.dev20240528]
+[2024-05-30 07:05:26] INFO root fetch - processPackages [pgc-finder]: Downloading https://files.pythonhosted.org/packages/bc/e0/5d78f5418283c821aa34ed767ce6d104d1e1b4fae91c557b2ac2cb145b8e/pgc-finder-0.0.2.tar.gz
+[2024-05-30 07:05:26] INFO root fetch - processPackages [pycodata]: New version: [1.1.1] Old Version: [1.1.0a0]
+[2024-05-30 07:05:26] INFO root fetch - processPackages [gpu4pyscf]: Downloading https://files.pythonhosted.org/packages/94/a6/c5e6cdb40944439c7c7f5b1504ad21df5a7f7043b5a525c36bab899ceb7f/gpu4pyscf-0.7.7.tar.gz
+[2024-05-30 07:05:26] INFO root fetch - processPackages [geodesic-api]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-05-30 07:05:26] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/3f/ff/63c5f718a394871f5513e5907086e843f3722a3f70d3a9848ad61b6fd1b6/rapid_pe-0.1.2.dev20240528.tar.gz
+[2024-05-30 07:05:26] INFO root fetch - processPackages [api-pipe]: New version: [2.0.22] Old Version: [2.0.19]
+[2024-05-30 07:05:26] INFO root fetch - processPackages [pyDolarVenezuela]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-30 07:05:27] INFO root fetch - processPackages [gpu4pyscf]: Downloading https://files.pythonhosted.org/packages/6f/c0/7252228af57ca5a01f8d6f3c66e5f46eb82154687cf60c8f98d2db0f4605/gpu4pyscf-0.7.8.tar.gz
+[2024-05-30 07:05:27] INFO root fetch - processPackages [pycodata]: Downloading https://files.pythonhosted.org/packages/eb/da/62c04e233dc02bd74c1117f3bf1ff470e747eeb8ad9c644ef9a4c24fe6da/pycodata-1.1.0a0.tar.gz
+[2024-05-30 07:05:27] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/f0/04/d0fce85c1f612899930b42f9d3dc3007b0b40c4478ce2b3ca39f0909b868/pydolarvenezuela-1.5.8.tar.gz
+[2024-05-30 07:05:27] INFO root fetch - processPackages [pgc-finder]: Downloading https://files.pythonhosted.org/packages/4b/78/979f25513ed42682a7a4efd4e4e4bae50c5b0d2ae9cc1b77b561b9de132f/pgc-finder-0.0.3.tar.gz
+[2024-05-30 07:05:27] INFO root fetch - processPackages [api-pipe]: Downloading https://files.pythonhosted.org/packages/73/55/19af6faf7f2e3c1788a77189038b5f5eebae790d3c30e048733f46c52735/api_pipe-2.0.19.tar.gz
+[2024-05-30 07:05:27] INFO root fetch - processPackages [geodesic-api]: Downloading https://files.pythonhosted.org/packages/6a/a8/14dfb83cda43cbac659279db5f70de1b36c3e82ad69a56b069a6770e1bc8/geodesic_api-0.8.7-py3-none-any.whl
+[2024-05-30 07:05:27] INFO root fetch - processPackages [pgc-finder]: executing diffoscope
+[2024-05-30 07:05:27] INFO root fetch - processPackages [pgc-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgc-finder-0.0.2.tar.gz tmp/pgc-finder-0.0.3.tar.gz --markdown 20240530/p/pgc-finder/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-30 07:05:27] INFO root fetch - processPackages [gpu4pyscf]: executing diffoscope
+[2024-05-30 07:05:27] INFO root fetch - processPackages [gpu4pyscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpu4pyscf-0.7.7.tar.gz tmp/gpu4pyscf-0.7.8.tar.gz --markdown 20240530/g/gpu4pyscf/0.7.7-0.7.8/README.md --exclude *.pyd
+[2024-05-30 07:05:27] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/da/5e/75f829cf083f1a65cbf899700989304bf1c0362d26aa0132ec18e72d607f/rapid_pe-0.1.2.dev20240529.tar.gz
+[2024-05-30 07:05:27] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-30 07:05:27] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240528.tar.gz tmp/rapid_pe-0.1.2.dev20240529.tar.gz --markdown 20240530/r/rapid-pe/0.1.2.dev20240528-0.1.2.dev20240529/README.md --exclude *.pyd
+[2024-05-30 07:05:27] INFO root fetch - processPackages [api-pipe]: Downloading https://files.pythonhosted.org/packages/dd/23/c44031add9877134246eab80a63726c0a6a095cac0747da779b0dfa3f6c0/api_pipe-2.0.22.tar.gz
+[2024-05-30 07:05:27] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/fa/69/ac4cb4d649debb631d342850e0d90cf8e4b0f9f7ad5833bf422d22cdfae9/pydolarvenezuela-1.5.9.tar.gz
+[2024-05-30 07:05:27] INFO root fetch - processPackages [geodesic-api]: Downloading https://files.pythonhosted.org/packages/b5/87/6f6437e716fb0cb26a0c09ae9e51e19882b0f84a7d7d8e55aaeca7125838/geodesic_api-0.9.0-py3-none-any.whl
+[2024-05-30 07:05:27] INFO root fetch - processPackages [pycodata]: Downloading https://files.pythonhosted.org/packages/eb/42/d87dd6b1d500420bae91c666b070fa7d95e5bb11fabb802e5e9376e5ca34/pycodata-1.1.1.tar.gz
+[2024-05-30 07:05:27] INFO root fetch - processPackages [geodesic-api]: executing diffoscope
+[2024-05-30 07:05:27] INFO root fetch - processPackages [geodesic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodesic_api-0.8.7-py3-none-any.whl.zip tmp/geodesic_api-0.9.0-py3-none-any.whl.zip --markdown 20240530/g/geodesic-api/0.8.7-0.9.0/README.md --exclude *.pyd
+[2024-05-30 07:05:27] INFO root fetch - processPackages [api-pipe]: executing diffoscope
+[2024-05-30 07:05:27] INFO root fetch - processPackages [api-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_pipe-2.0.19.tar.gz tmp/api_pipe-2.0.22.tar.gz --markdown 20240530/a/api-pipe/2.0.19-2.0.22/README.md --exclude *.pyd
+[2024-05-30 07:05:27] INFO root fetch - processPackages [pyDolarVenezuela]: executing diffoscope
+[2024-05-30 07:05:27] INFO root fetch - processPackages [pyDolarVenezuela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydolarvenezuela-1.5.8.tar.gz tmp/pydolarvenezuela-1.5.9.tar.gz --markdown 20240530/p/pyDolarVenezuela/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-30 07:05:27] INFO root fetch - processPackages [pgc-finder]: Remove: archive file [/home/abi/fetcher/tmp/pgc-finder-0.0.2.tar.gz]
+[2024-05-30 07:05:27] INFO root fetch - processPackages [pgc-finder]: Remove: archive file [/home/abi/fetcher/tmp/pgc-finder-0.0.3.tar.gz]
+[2024-05-30 07:05:27] INFO root fetch - main [MainThread]: End processing [pgc-finder]: success
+[2024-05-30 07:05:28] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240528.tar.gz]
+[2024-05-30 07:05:28] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240529.tar.gz]
+[2024-05-30 07:05:28] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-30 07:05:28] INFO root fetch - processPackages [api-pipe]: Remove: archive file [/home/abi/fetcher/tmp/api_pipe-2.0.19.tar.gz]
+[2024-05-30 07:05:28] INFO root fetch - processPackages [api-pipe]: Remove: archive file [/home/abi/fetcher/tmp/api_pipe-2.0.22.tar.gz]
+[2024-05-30 07:05:28] INFO root fetch - main [MainThread]: End processing [api-pipe]: success
+[2024-05-30 07:05:28] INFO root fetch - processPackages [pycodata]: executing diffoscope
+[2024-05-30 07:05:28] INFO root fetch - processPackages [pycodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycodata-1.1.0a0.tar.gz tmp/pycodata-1.1.1.tar.gz --markdown 20240530/p/pycodata/1.1.0a0-1.1.1/README.md --exclude *.pyd
+[2024-05-30 07:05:28] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.5.8.tar.gz]
+[2024-05-30 07:05:28] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.5.9.tar.gz]
+[2024-05-30 07:05:28] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
+[2024-05-30 07:05:28] INFO root fetch - processPackages [geodesic-api]: Remove: archive file [/home/abi/fetcher/tmp/geodesic_api-0.8.7-py3-none-any.whl.zip]
+[2024-05-30 07:05:28] INFO root fetch - processPackages [geodesic-api]: Remove: archive file [/home/abi/fetcher/tmp/geodesic_api-0.9.0-py3-none-any.whl.zip]
+[2024-05-30 07:05:28] INFO root fetch - main [MainThread]: End processing [geodesic-api]: success
+[2024-05-30 07:05:28] INFO root fetch - processPackages [gpu4pyscf]: Remove: archive file [/home/abi/fetcher/tmp/gpu4pyscf-0.7.7.tar.gz]
+[2024-05-30 07:05:28] INFO root fetch - processPackages [gpu4pyscf]: Remove: archive file [/home/abi/fetcher/tmp/gpu4pyscf-0.7.8.tar.gz]
+[2024-05-30 07:05:28] INFO root fetch - main [MainThread]: End processing [gpu4pyscf]: success
+[2024-05-30 07:05:29] INFO root fetch - processPackages [pycodata]: Remove: archive file [/home/abi/fetcher/tmp/pycodata-1.1.0a0.tar.gz]
+[2024-05-30 07:05:29] INFO root fetch - processPackages [pycodata]: Remove: archive file [/home/abi/fetcher/tmp/pycodata-1.1.1.tar.gz]
+[2024-05-30 07:05:29] INFO root fetch - main [MainThread]: End processing [pycodata]: success
+[2024-05-30 07:05:29] INFO root fetch - main [MainThread]: Store serial: [23442501]
