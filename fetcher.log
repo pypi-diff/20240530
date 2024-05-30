@@ -10225,3 +10225,66 @@ EOFError: EOF read where object expected
 [2024-05-30 05:46:54] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl.zip]
 [2024-05-30 05:46:54] INFO root fetch - main [MainThread]: End processing [Print-Tricks-And-More-Alpha]: success
 [2024-05-30 05:46:54] INFO root fetch - main [MainThread]: Store serial: [23441816]
+[2024-05-30 05:49:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441816]
+[2024-05-30 05:49:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 05:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyoptinterface
+[2024-05-30 05:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-ddmrp-product-replace
+[2024-05-30 05:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-ddmrp-warning
+[2024-05-30 05:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-buffer-route
+[2024-05-30 05:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azure-mgmt-informaticadatamanagement
+[2024-05-30 05:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-ddmrp-exclude-moves-adu-calc
+[2024-05-30 05:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gusense
+[2024-05-30 05:49:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: molecular-interaction-rules
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-stock-buffer-route]: New version: [16.0.1.2.0.4] Old Version: [16.0.1.2.0.2]
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.5]
+[2024-05-30 05:49:05] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-30 05:49:05] WARNING root fetch - processPackages [gusense]: Skipping, unable to determine old version
+[2024-05-30 05:49:05] INFO root fetch - main [MainThread]: End processing [gusense] error
+[2024-05-30 05:49:05] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/20/26/97d274e5eebd397258e16e1b70a69a8dfb1bf50e593510258904ac991243/molecular_interaction_rules-0.5.5.tar.gz
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-exclude-moves-adu-calc]: New version: [16.0.1.0.1.5] Old Version: [16.0.1.0.1.4]
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-product-replace]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2024-05-30 05:49:05] WARNING root fetch - processPackages [azure-mgmt-informaticadatamanagement]: Skipping, unable to determine old version
+[2024-05-30 05:49:05] INFO root fetch - main [MainThread]: End processing [azure-mgmt-informaticadatamanagement] error
+[2024-05-30 05:49:05] INFO root fetch - processPackages [pyoptinterface]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/88/37/c44b950c2d7f9b810745cc3d25740479ce53e345fbbf828868dd8e567505/odoo_addon_ddmrp_warning-16.0.1.1.0.5-py3-none-any.whl
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-stock-buffer-route]: Downloading https://files.pythonhosted.org/packages/6b/0d/a769cca8df1d07c5abc5da1e6cd2054a28b88ee1f7ac06633702c795196f/odoo_addon_stock_buffer_route-16.0.1.2.0.2-py3-none-any.whl
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-product-replace]: Downloading https://files.pythonhosted.org/packages/69/67/a6e0e7926cd2ea522b35174a9a8e3f26b1bf29d35b25f3a4d6cf1933c203/odoo_addon_ddmrp_product_replace-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-exclude-moves-adu-calc]: Downloading https://files.pythonhosted.org/packages/e5/bb/7cb2d8f4a538085fc61601a6233fbfba24232f904e7929e0d476e51c9fbe/odoo_addon_ddmrp_exclude_moves_adu_calc-16.0.1.0.1.4-py3-none-any.whl
+[2024-05-30 05:49:05] INFO root fetch - processPackages [pyoptinterface]: Downloading https://files.pythonhosted.org/packages/33/6e/e36a814b5c2ad183eaef7b6d0266892080d3c2eabbbcfd21cde9efe34d4b/pyoptinterface-0.2.2-cp39-cp39-win_amd64.whl
+[2024-05-30 05:49:05] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/cc/b6/c9459856e79b87c38ea7dc3e791ecc91afead6ec3357d54e6442d0519832/molecular_interaction_rules-0.5.6.tar.gz
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/39/51/457cf1c70222e9c7cdce0ebe63cf3ee7956f56a8f3cd8198fe7d0ccab4e2/odoo_addon_ddmrp_warning-16.0.1.2.0-py3-none-any.whl
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-stock-buffer-route]: Downloading https://files.pythonhosted.org/packages/f8/73/966ca77c624961f606466bd4ebe9b82f09c31ab3bfaa5c44cdc80ab057c0/odoo_addon_stock_buffer_route-16.0.1.2.0.4-py3-none-any.whl
+[2024-05-30 05:49:05] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 05:49:05] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.5.tar.gz tmp/molecular_interaction_rules-0.5.6.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-product-replace]: Downloading https://files.pythonhosted.org/packages/9e/85/6d867d33f0c3ff910a216e6ee76ab012f20dbd9deae2be759d0ada644499/odoo_addon_ddmrp_product_replace-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-exclude-moves-adu-calc]: Downloading https://files.pythonhosted.org/packages/91/72/fb728454ce948e57a7631ca007e46807c6da2a91a5e357e6997148eab7cc/odoo_addon_ddmrp_exclude_moves_adu_calc-16.0.1.0.1.5-py3-none-any.whl
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: executing diffoscope
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_warning-16.0.1.1.0.5-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_warning-16.0.1.2.0-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-ddmrp-warning/16.0.1.1.0.5-16.0.1.2.0/README.md --exclude *.pyd
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-stock-buffer-route]: executing diffoscope
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-stock-buffer-route]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_buffer_route-16.0.1.2.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_buffer_route-16.0.1.2.0.4-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-stock-buffer-route/16.0.1.2.0.2-16.0.1.2.0.4/README.md --exclude *.pyd
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-product-replace]: executing diffoscope
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-product-replace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_product_replace-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_product_replace-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-ddmrp-product-replace/16.0.1.1.0.1-16.0.1.1.0.2/README.md --exclude *.pyd
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-exclude-moves-adu-calc]: executing diffoscope
+[2024-05-30 05:49:05] INFO root fetch - processPackages [odoo-addon-ddmrp-exclude-moves-adu-calc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_exclude_moves_adu_calc-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_exclude_moves_adu_calc-16.0.1.0.1.5-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-ddmrp-exclude-moves-adu-calc/16.0.1.0.1.4-16.0.1.0.1.5/README.md --exclude *.pyd
+[2024-05-30 05:49:06] INFO root fetch - processPackages [pyoptinterface]: Downloading https://files.pythonhosted.org/packages/34/66/e9d63eee754f254e39b706be80084269b25c04d57f6a388130f323342e59/pyoptinterface-0.2.3-cp39-cp39-win_amd64.whl
+[2024-05-30 05:49:06] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.5.tar.gz]
+[2024-05-30 05:49:06] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.6.tar.gz]
+[2024-05-30 05:49:06] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 05:49:06] INFO root fetch - processPackages [odoo-addon-stock-buffer-route]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_buffer_route-16.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-05-30 05:49:06] INFO root fetch - processPackages [odoo-addon-stock-buffer-route]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_buffer_route-16.0.1.2.0.4-py3-none-any.whl.zip]
+[2024-05-30 05:49:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-buffer-route]: success
+[2024-05-30 05:49:06] INFO root fetch - processPackages [odoo-addon-ddmrp-exclude-moves-adu-calc]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_exclude_moves_adu_calc-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2024-05-30 05:49:06] INFO root fetch - processPackages [odoo-addon-ddmrp-exclude-moves-adu-calc]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_exclude_moves_adu_calc-16.0.1.0.1.5-py3-none-any.whl.zip]
+[2024-05-30 05:49:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-exclude-moves-adu-calc]: success
+[2024-05-30 05:49:06] INFO root fetch - processPackages [odoo-addon-ddmrp-product-replace]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_product_replace-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-30 05:49:06] INFO root fetch - processPackages [odoo-addon-ddmrp-product-replace]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_product_replace-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-30 05:49:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-product-replace]: success
+[2024-05-30 05:49:06] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_warning-16.0.1.1.0.5-py3-none-any.whl.zip]
+[2024-05-30 05:49:06] INFO root fetch - processPackages [odoo-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_warning-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-30 05:49:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-warning]: success
+[2024-05-30 05:49:06] INFO root fetch - processPackages [pyoptinterface]: executing diffoscope
+[2024-05-30 05:49:06] INFO root fetch - processPackages [pyoptinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoptinterface-0.2.2-cp39-cp39-win_amd64.whl.zip tmp/pyoptinterface-0.2.3-cp39-cp39-win_amd64.whl.zip --markdown 20240530/p/pyoptinterface/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-30 05:49:07] INFO root fetch - processPackages [pyoptinterface]: Remove: archive file [/home/abi/fetcher/tmp/pyoptinterface-0.2.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 05:49:07] INFO root fetch - processPackages [pyoptinterface]: Remove: archive file [/home/abi/fetcher/tmp/pyoptinterface-0.2.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 05:49:07] INFO root fetch - main [MainThread]: End processing [pyoptinterface]: success
+[2024-05-30 05:49:07] INFO root fetch - main [MainThread]: Store serial: [23441856]
