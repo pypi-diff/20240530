@@ -3324,3 +3324,59 @@ EOFError: EOF read where object expected
 [2024-05-30 03:10:22] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.2.1.tar.gz]
 [2024-05-30 03:10:22] INFO root fetch - main [MainThread]: End processing [r2r]: success
 [2024-05-30 03:10:22] INFO root fetch - main [MainThread]: Store serial: [23439304]
+[2024-05-30 03:12:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439304]
+[2024-05-30 03:12:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-30 03:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OZI
+[2024-05-30 03:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiruka-fib-py
+[2024-05-30 03:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygeoflow
+[2024-05-30 03:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assisted-service-client
+[2024-05-30 03:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: equiflow
+[2024-05-30 03:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: epubcrush
+[2024-05-30 03:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lancedb
+[2024-05-30 03:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: r2r
+[2024-05-30 03:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mailbit
+[2024-05-30 03:12:31] INFO root fetch - processPackages [r2r]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-30 03:12:31] WARNING root fetch - processPackages [mailbit]: Skipping, unable to determine old version
+[2024-05-30 03:12:31] INFO root fetch - main [MainThread]: End processing [mailbit] error
+[2024-05-30 03:12:31] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-30 03:12:31] WARNING root fetch - processPackages [equiflow]: Skipping, unable to determine old version
+[2024-05-30 03:12:31] INFO root fetch - main [MainThread]: End processing [equiflow] error
+[2024-05-30 03:12:31] WARNING root fetch - processPackages [tiruka-fib-py]: Skipping, unable to determine old version
+[2024-05-30 03:12:31] INFO root fetch - main [MainThread]: End processing [tiruka-fib-py] error
+[2024-05-30 03:12:31] WARNING root fetch - processPackages [pygeoflow]: Skipping, unable to determine old version
+[2024-05-30 03:12:31] INFO root fetch - main [MainThread]: End processing [pygeoflow] error
+[2024-05-30 03:12:31] INFO root fetch - processPackages [epubcrush]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-30 03:12:31] INFO root fetch - processPackages [r2r]: Downloading https://files.pythonhosted.org/packages/20/c9/103d3548392723581f5a7f0aedf37547c37427d95b0ea35b4789920289f9/r2r-0.2.1.tar.gz
+[2024-05-30 03:12:31] INFO root fetch - processPackages [lancedb]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-30 03:12:31] INFO root fetch - processPackages [OZI]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-30 03:12:31] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-30 03:12:31] INFO root fetch - processPackages [epubcrush]: Downloading https://files.pythonhosted.org/packages/a6/28/137acd7793b13b6b3ec7f3b0ff959b77e4eaa3abec245b0b579528e8652a/epubcrush-2.0.3.tar.gz
+[2024-05-30 03:12:31] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/5c/e1/5dcecdc522dc79b65d747dd7c5a5ce664406601e3494ce7986ea0ff7d77e/OZI-1.9.8.tar.gz
+[2024-05-30 03:12:31] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/1b/4e/24531d53d3d68ce14aa16da71cb6ef598ed122dd5509af47c7f6f2a0aefc/lancedb-0.8.0-cp38-abi3-win_amd64.whl
+[2024-05-30 03:12:31] WARNING root fetch - processPackages [lancedb]: Skipping package: exceeds size limit 19967722>=10485760
+[2024-05-30 03:12:31] INFO root fetch - main [MainThread]: End processing [lancedb] error
+[2024-05-30 03:12:31] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-30 03:12:31] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-30 03:12:31] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240530/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-30 03:12:31] INFO root fetch - processPackages [epubcrush]: Downloading https://files.pythonhosted.org/packages/31/3b/117d4ba246ed9baf361ab62753f771b2b3d8edd6f9481c11366448a8b0f6/epubcrush-2.0.4.tar.gz
+[2024-05-30 03:12:31] INFO root fetch - processPackages [r2r]: Downloading https://files.pythonhosted.org/packages/d7/45/46c267946832d5dadff5f94fdb94275c0c79d188a86b5cf1c40b502afa30/r2r-0.2.2.tar.gz
+[2024-05-30 03:12:31] INFO root fetch - processPackages [epubcrush]: executing diffoscope
+[2024-05-30 03:12:31] INFO root fetch - processPackages [epubcrush]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epubcrush-2.0.3.tar.gz tmp/epubcrush-2.0.4.tar.gz --markdown 20240530/e/epubcrush/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-30 03:12:31] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/ab/99/ab1c3e61a11ea596082ff863558d0791ad93c978444381445c685250cd3b/OZI-1.9.9.tar.gz
+[2024-05-30 03:12:32] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-30 03:12:32] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.9.8.tar.gz tmp/OZI-1.9.9.tar.gz --markdown 20240530/O/OZI/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-30 03:12:32] INFO root fetch - processPackages [r2r]: executing diffoscope
+[2024-05-30 03:12:32] INFO root fetch - processPackages [r2r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r2r-0.2.1.tar.gz tmp/r2r-0.2.2.tar.gz --markdown 20240530/r/r2r/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-30 03:12:32] INFO root fetch - processPackages [epubcrush]: Remove: archive file [/home/abi/fetcher/tmp/epubcrush-2.0.3.tar.gz]
+[2024-05-30 03:12:32] INFO root fetch - processPackages [epubcrush]: Remove: archive file [/home/abi/fetcher/tmp/epubcrush-2.0.4.tar.gz]
+[2024-05-30 03:12:32] INFO root fetch - main [MainThread]: End processing [epubcrush]: success
+[2024-05-30 03:12:33] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-30 03:12:33] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-30 03:12:33] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-30 03:12:33] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.8.tar.gz]
+[2024-05-30 03:12:33] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.9.tar.gz]
+[2024-05-30 03:12:33] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-30 03:12:33] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.2.1.tar.gz]
+[2024-05-30 03:12:33] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.2.2.tar.gz]
+[2024-05-30 03:12:33] INFO root fetch - main [MainThread]: End processing [r2r]: success
+[2024-05-30 03:12:33] INFO root fetch - main [MainThread]: Store serial: [23439340]
