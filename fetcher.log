@@ -11954,3 +11954,21 @@ EOFError: EOF read where object expected
 [2024-05-30 06:56:43] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.6.tar.gz]
 [2024-05-30 06:56:43] INFO root fetch - main [MainThread]: End processing [unittestreport-yami]: success
 [2024-05-30 06:56:43] INFO root fetch - main [MainThread]: Store serial: [23442375]
+[2024-05-30 06:58:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442375]
+[2024-05-30 06:58:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 06:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anysd
+[2024-05-30 06:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidstats
+[2024-05-30 06:58:52] INFO root fetch - processPackages [anysd]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-30 06:58:52] INFO root fetch - processPackages [anysd]: Downloading https://files.pythonhosted.org/packages/17/94/12759fb9f56e19b3520059c65e79f591d648df13efb38147d5e1b31a549a/anysd-1.1.8.tar.gz
+[2024-05-30 06:58:52] INFO root fetch - processPackages [rapidstats]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-30 06:58:52] INFO root fetch - processPackages [anysd]: Downloading https://files.pythonhosted.org/packages/2e/fa/2f04757fdae7ce3e339c62fd83b6c0baebc7dd0f289dc7b14fa41bb1e50d/anysd-1.1.9.tar.gz
+[2024-05-30 06:58:52] INFO root fetch - processPackages [rapidstats]: Downloading https://files.pythonhosted.org/packages/ad/6d/96f51cf22f8086709994a3796885a813098938ee80c2b17dd168518c3725/rapidstats-0.0.3.tar.gz
+[2024-05-30 06:58:52] INFO root fetch - processPackages [anysd]: executing diffoscope
+[2024-05-30 06:58:52] INFO root fetch - processPackages [anysd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anysd-1.1.8.tar.gz tmp/anysd-1.1.9.tar.gz --markdown 20240530/a/anysd/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-30 06:58:52] INFO root fetch - processPackages [rapidstats]: Downloading https://files.pythonhosted.org/packages/1c/58/2104f7c31d67129be25a0e819ca6fba895170bc80cb2f4f4b23c93ee862a/rapidstats-0.0.4-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl
+[2024-05-30 06:58:53] INFO root fetch - processPackages [anysd]: Remove: archive file [/home/abi/fetcher/tmp/anysd-1.1.8.tar.gz]
+[2024-05-30 06:58:53] INFO root fetch - processPackages [anysd]: Remove: archive file [/home/abi/fetcher/tmp/anysd-1.1.9.tar.gz]
+[2024-05-30 06:58:53] INFO root fetch - main [MainThread]: End processing [anysd]: success
+[2024-05-30 06:58:53] WARNING root fetch - processPackages [rapidstats]: Skipping package: exceeds size limit 13210819>=10485760
+[2024-05-30 06:58:53] INFO root fetch - main [MainThread]: End processing [rapidstats] error
+[2024-05-30 06:58:53] INFO root fetch - main [MainThread]: Store serial: [23442415]
