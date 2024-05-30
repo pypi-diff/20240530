@@ -1,4 +1,4 @@
-# Comparing `tmp/plone_app_contenttypes-3.0.7.tar.gz` & `tmp/plone.app.contenttypes-3.0.8-py3-none-any.whl.zip`
+# Comparing `tmp/plone_app_contenttypes-3.0.7.tar.gz` & `tmp/plone_app_contenttypes-3.0.8.tar.gz`
 
 ## filetype from file(1)
 
