@@ -11411,3 +11411,15 @@ EOFError: EOF read where object expected
 [2024-05-30 06:28:18] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240529.1.tar.gz]
 [2024-05-30 06:28:18] INFO root fetch - main [MainThread]: End processing [py4web]: success
 [2024-05-30 06:28:18] INFO root fetch - main [MainThread]: Store serial: [23442228]
+[2024-05-30 06:30:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442228]
+[2024-05-30 06:30:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 06:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-maintenance-team-hierarchy
+[2024-05-30 06:30:26] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-30 06:30:26] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: Downloading https://files.pythonhosted.org/packages/8f/79/000ee37e833c4d0023b3febefdc87518a41109bb7a5fd8af439cab1a3ef4/odoo_addon_maintenance_team_hierarchy-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-30 06:30:27] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: Downloading https://files.pythonhosted.org/packages/2e/03/0d44b4e7c9ae7e98a2e54f9b0b5cc3fbe606e1f9ac9de11ada397ab6bbe5/odoo_addon_maintenance_team_hierarchy-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-30 06:30:27] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: executing diffoscope
+[2024-05-30 06:30:27] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_team_hierarchy-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_maintenance_team_hierarchy-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-maintenance-team-hierarchy/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-30 06:30:27] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_team_hierarchy-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-30 06:30:27] INFO root fetch - processPackages [odoo-addon-maintenance-team-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_team_hierarchy-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-30 06:30:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-team-hierarchy]: success
+[2024-05-30 06:30:27] INFO root fetch - main [MainThread]: Store serial: [23442233]
