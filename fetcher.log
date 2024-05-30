@@ -2797,3 +2797,30 @@ EOFError: EOF read where object expected
 [2024-05-30 02:43:42] INFO root fetch - processPackages [nrtk]: Remove: archive file [/home/abi/fetcher/tmp/nrtk-0.5.0.tar.gz]
 [2024-05-30 02:43:42] INFO root fetch - main [MainThread]: End processing [nrtk]: success
 [2024-05-30 02:43:42] INFO root fetch - main [MainThread]: Store serial: [23439037]
+[2024-05-30 02:45:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439037]
+[2024-05-30 02:45:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 02:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windows-util-controls
+[2024-05-30 02:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wildfire-structlog
+[2024-05-30 02:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2024-05-30 02:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: palimpzest
+[2024-05-30 02:45:51] INFO root fetch - processPackages [palimpzest]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-30 02:45:51] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405291539] Old Version: [4.9.4.dev202405290044]
+[2024-05-30 02:45:51] WARNING root fetch - processPackages [wildfire-structlog]: Skipping, unable to determine old version
+[2024-05-30 02:45:51] INFO root fetch - main [MainThread]: End processing [wildfire-structlog] error
+[2024-05-30 02:45:51] WARNING root fetch - processPackages [windows-util-controls]: Skipping, unable to determine old version
+[2024-05-30 02:45:51] INFO root fetch - main [MainThread]: End processing [windows-util-controls] error
+[2024-05-30 02:45:51] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/db/be/9eb263595a60502fccb72adf615a24e7845f9abb22be10dce2f7723985a0/palimpzest-0.1.7.tar.gz
+[2024-05-30 02:45:51] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/08/81/8ee7578f3eafc7fc5df4f77d3ae3a77c4a7986f4f4459561abb224a7e46c/tfds-nightly-4.9.4.dev202405290044.tar.gz
+[2024-05-30 02:45:51] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/4f/6a/2373a1d9284af8fbd1d9e599fd052a5a8824a28746e225f00d26dd59a76a/palimpzest-0.1.8.tar.gz
+[2024-05-30 02:45:51] INFO root fetch - processPackages [palimpzest]: executing diffoscope
+[2024-05-30 02:45:51] INFO root fetch - processPackages [palimpzest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palimpzest-0.1.7.tar.gz tmp/palimpzest-0.1.8.tar.gz --markdown 20240530/p/palimpzest/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-30 02:45:51] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/f9/99/b3b54b0a026b619b37b2bb9dd80b1c4936b5fa29466b0bef59b9850b1fcc/tfds-nightly-4.9.4.dev202405291539.tar.gz
+[2024-05-30 02:45:51] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-30 02:45:51] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405290044.tar.gz tmp/tfds-nightly-4.9.4.dev202405291539.tar.gz --markdown 20240530/t/tfds-nightly/4.9.4.dev202405290044-4.9.4.dev202405291539/README.md --exclude *.pyd
+[2024-05-30 02:45:52] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.7.tar.gz]
+[2024-05-30 02:45:52] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.8.tar.gz]
+[2024-05-30 02:45:52] INFO root fetch - main [MainThread]: End processing [palimpzest]: success
+[2024-05-30 02:46:00] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405290044.tar.gz]
+[2024-05-30 02:46:00] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405291539.tar.gz]
+[2024-05-30 02:46:00] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-30 02:46:00] INFO root fetch - main [MainThread]: Store serial: [23439051]
