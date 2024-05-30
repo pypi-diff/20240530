@@ -8773,3 +8773,42 @@ EOFError: EOF read where object expected
 [2024-05-30 04:26:49] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240529.tar.gz]
 [2024-05-30 04:26:49] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-05-30 04:26:49] INFO root fetch - main [MainThread]: Store serial: [23441278]
+[2024-05-30 04:29:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441278]
+[2024-05-30 04:29:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 04:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-05-30 04:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: package-tea-two
+[2024-05-30 04:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anotify
+[2024-05-30 04:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydflow
+[2024-05-30 04:29:07] INFO root fetch - processPackages [pydflow]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-30 04:29:07] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240530011955] Old Version: [3.4.1.dev20240529231838]
+[2024-05-30 04:29:07] INFO root fetch - processPackages [package-tea-two]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-30 04:29:07] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/8d/22/584c02b6b9a49c26a40cc22b7f10af25724fe70df5357e5a527c2c36729a/pydflow-1.8.8.tar.gz
+[2024-05-30 04:29:07] INFO root fetch - processPackages [anotify]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 04:29:07] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/2c/01/b1fe8e6f468132bd23db0f74c2cb2c335eafbefd00f4e9fe8187fa71979b/localstack_core-3.4.1.dev20240529231838.tar.gz
+[2024-05-30 04:29:07] INFO root fetch - processPackages [package-tea-two]: Downloading https://files.pythonhosted.org/packages/6f/c2/0191189dc693cd579032d2f6b03f9df54a4be77baa1a9d80630ef6d2b21e/package-tea-two-1.0.0.tar.gz
+[2024-05-30 04:29:07] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/06/25/eaf1b0b816f699ddb8dcf17d1c5a7210b5ce54275f1134eff988a3f171ad/anotify-0.1.0.tar.gz
+[2024-05-30 04:29:07] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/b8/ee/62435e12ce818ae5c15b7256f01e225eb1dd5e3d49e3bde8e913944b4caa/pydflow-1.8.9.tar.gz
+[2024-05-30 04:29:07] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2024-05-30 04:29:07] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.8.8.tar.gz tmp/pydflow-1.8.9.tar.gz --markdown 20240530/p/pydflow/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-30 04:29:07] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ef/11/5d35f7a6dd1fc9e4a00e69142e3790a2d230f2566fc6e41685a1c8863422/localstack_core-3.4.1.dev20240530011955.tar.gz
+[2024-05-30 04:29:07] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/ce/e7/4ff262c8f4d87dbe0f496d2c731d71941b3db9593f4547a8ee375e43cb5c/anotify-0.1.1.tar.gz
+[2024-05-30 04:29:07] INFO root fetch - processPackages [package-tea-two]: Downloading https://files.pythonhosted.org/packages/ae/19/5963318e0d7cbd1adc5ad909aa6cd2cd5ba7ebc32125e66d9fb48d03395b/package-tea-two-1.0.1.tar.gz
+[2024-05-30 04:29:08] INFO root fetch - processPackages [anotify]: executing diffoscope
+[2024-05-30 04:29:08] INFO root fetch - processPackages [anotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anotify-0.1.0.tar.gz tmp/anotify-0.1.1.tar.gz --markdown 20240530/a/anotify/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 04:29:08] INFO root fetch - processPackages [package-tea-two]: executing diffoscope
+[2024-05-30 04:29:08] INFO root fetch - processPackages [package-tea-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/package-tea-two-1.0.0.tar.gz tmp/package-tea-two-1.0.1.tar.gz --markdown 20240530/p/package-tea-two/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-30 04:29:08] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-30 04:29:08] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240529231838.tar.gz tmp/localstack_core-3.4.1.dev20240530011955.tar.gz --markdown 20240530/l/localstack-core/3.4.1.dev20240529231838-3.4.1.dev20240530011955/README.md --exclude *.pyd
+[2024-05-30 04:29:08] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.8.8.tar.gz]
+[2024-05-30 04:29:08] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.8.9.tar.gz]
+[2024-05-30 04:29:08] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2024-05-30 04:29:08] INFO root fetch - processPackages [package-tea-two]: Remove: archive file [/home/abi/fetcher/tmp/package-tea-two-1.0.0.tar.gz]
+[2024-05-30 04:29:08] INFO root fetch - processPackages [package-tea-two]: Remove: archive file [/home/abi/fetcher/tmp/package-tea-two-1.0.1.tar.gz]
+[2024-05-30 04:29:08] INFO root fetch - main [MainThread]: End processing [package-tea-two]: success
+[2024-05-30 04:29:08] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.1.0.tar.gz]
+[2024-05-30 04:29:08] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.1.1.tar.gz]
+[2024-05-30 04:29:08] INFO root fetch - main [MainThread]: End processing [anotify]: success
+[2024-05-30 04:29:11] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240529231838.tar.gz]
+[2024-05-30 04:29:11] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240530011955.tar.gz]
+[2024-05-30 04:29:11] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-30 04:29:11] INFO root fetch - main [MainThread]: Store serial: [23441291]
