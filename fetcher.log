@@ -12816,3 +12816,33 @@ EOFError: EOF read where object expected
 [2024-05-30 07:39:12] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
 [2024-05-30 07:39:12] INFO root fetch - main [MainThread]: End processing [eirStru]: success
 [2024-05-30 07:39:12] INFO root fetch - main [MainThread]: Store serial: [23442853]
+[2024-05-30 07:41:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442853]
+[2024-05-30 07:41:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 07:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: red_utils
+[2024-05-30 07:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: api-pipe
+[2024-05-30 07:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-timeseries
+[2024-05-30 07:41:21] INFO root fetch - processPackages [torch-timeseries]: New version: [0.0.3a2] Old Version: [0.0.3a1]
+[2024-05-30 07:41:21] INFO root fetch - processPackages [api-pipe]: New version: [2.0.22] Old Version: [2.0.19]
+[2024-05-30 07:41:21] INFO root fetch - processPackages [api-pipe]: Downloading https://files.pythonhosted.org/packages/73/55/19af6faf7f2e3c1788a77189038b5f5eebae790d3c30e048733f46c52735/api_pipe-2.0.19.tar.gz
+[2024-05-30 07:41:21] INFO root fetch - processPackages [torch-timeseries]: Downloading https://files.pythonhosted.org/packages/8d/40/83e272479fac5bc81ca0987959b73e263f5cd9180cf76c002a572644184f/torch_timeseries-0.0.3a1.tar.gz
+[2024-05-30 07:41:21] INFO root fetch - processPackages [red_utils]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-30 07:41:21] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/01/49/5b5df4cabf6cd1cd227d223a4a8c604952ae25b027d256c421197f2999ff/red_utils-0.2.8.tar.gz
+[2024-05-30 07:41:21] INFO root fetch - processPackages [api-pipe]: Downloading https://files.pythonhosted.org/packages/dd/23/c44031add9877134246eab80a63726c0a6a095cac0747da779b0dfa3f6c0/api_pipe-2.0.22.tar.gz
+[2024-05-30 07:41:21] INFO root fetch - processPackages [torch-timeseries]: Downloading https://files.pythonhosted.org/packages/b5/ea/3595b86fdba95225da9a49237749ee7e9bd52c460c20599fd69c9900b730/torch_timeseries-0.0.3a2.tar.gz
+[2024-05-30 07:41:21] INFO root fetch - processPackages [api-pipe]: executing diffoscope
+[2024-05-30 07:41:21] INFO root fetch - processPackages [api-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_pipe-2.0.19.tar.gz tmp/api_pipe-2.0.22.tar.gz --markdown 20240530/a/api-pipe/2.0.19-2.0.22/README.md --exclude *.pyd
+[2024-05-30 07:41:21] INFO root fetch - processPackages [torch-timeseries]: executing diffoscope
+[2024-05-30 07:41:21] INFO root fetch - processPackages [torch-timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_timeseries-0.0.3a1.tar.gz tmp/torch_timeseries-0.0.3a2.tar.gz --markdown 20240530/t/torch-timeseries/0.0.3a1-0.0.3a2/README.md --exclude *.pyd
+[2024-05-30 07:41:21] INFO root fetch - processPackages [red_utils]: Downloading https://files.pythonhosted.org/packages/27/50/8b809c64b9b6d9c951d2543605156cf5c87969a8de173e26de7e332ff1ea/red_utils-0.2.9.tar.gz
+[2024-05-30 07:41:22] INFO root fetch - processPackages [red_utils]: executing diffoscope
+[2024-05-30 07:41:22] INFO root fetch - processPackages [red_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_utils-0.2.8.tar.gz tmp/red_utils-0.2.9.tar.gz --markdown 20240530/r/red_utils/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-30 07:41:22] INFO root fetch - processPackages [api-pipe]: Remove: archive file [/home/abi/fetcher/tmp/api_pipe-2.0.19.tar.gz]
+[2024-05-30 07:41:22] INFO root fetch - processPackages [api-pipe]: Remove: archive file [/home/abi/fetcher/tmp/api_pipe-2.0.22.tar.gz]
+[2024-05-30 07:41:22] INFO root fetch - main [MainThread]: End processing [api-pipe]: success
+[2024-05-30 07:41:22] INFO root fetch - processPackages [torch-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/torch_timeseries-0.0.3a1.tar.gz]
+[2024-05-30 07:41:22] INFO root fetch - processPackages [torch-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/torch_timeseries-0.0.3a2.tar.gz]
+[2024-05-30 07:41:22] INFO root fetch - main [MainThread]: End processing [torch-timeseries]: success
+[2024-05-30 07:41:22] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.2.8.tar.gz]
+[2024-05-30 07:41:22] INFO root fetch - processPackages [red_utils]: Remove: archive file [/home/abi/fetcher/tmp/red_utils-0.2.9.tar.gz]
+[2024-05-30 07:41:22] INFO root fetch - main [MainThread]: End processing [red_utils]: success
+[2024-05-30 07:41:22] INFO root fetch - main [MainThread]: Store serial: [23442861]
