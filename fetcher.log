@@ -11648,3 +11648,33 @@ EOFError: EOF read where object expected
 [2024-05-30 06:37:05] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
 [2024-05-30 06:37:05] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-05-30 06:37:05] INFO root fetch - main [MainThread]: Store serial: [23442286]
+[2024-05-30 06:39:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442286]
+[2024-05-30 06:39:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 06:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-manufacture
+[2024-05-30 06:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: molecular-interaction-rules
+[2024-05-30 06:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stencila_types
+[2024-05-30 06:39:14] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.5.96] Old Version: [0.5.95]
+[2024-05-30 06:39:14] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: New version: [16.0.20240327.2] Old Version: [16.0.20240302.1]
+[2024-05-30 06:39:14] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/d3/e0/eef5da96f94a31651be6fad6990c634421b970114f283a33b9d8878578f4/molecular_interaction_rules-0.5.95.tar.gz
+[2024-05-30 06:39:14] INFO root fetch - processPackages [stencila_types]: New version: [2.0.0a31] Old Version: [2.0.0a30]
+[2024-05-30 06:39:14] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/34/0e/23faa46a864cd82cb6cfb55722b409ca7d2d4616516b8e888f1292548cc5/odoo_addons_oca_manufacture-16.0.20240302.1-py3-none-any.whl
+[2024-05-30 06:39:14] INFO root fetch - processPackages [stencila_types]: Downloading https://files.pythonhosted.org/packages/f5/8a/be94668d8e126d86d8b49dc33399cf35a4d6c18101119842b5e8a0bc64a8/stencila_types-2.0.0a30.tar.gz
+[2024-05-30 06:39:14] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/f0/ed/6e7bebd7cbf98df07a1b122b478dfcf2ae4f2692deec1c38384c0c011e0e/molecular_interaction_rules-0.5.96.tar.gz
+[2024-05-30 06:39:14] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/e4/15/ecef7f829fdebd308f6c4170d02e787ab5dcad88eea494b24c59121c206a/odoo_addons_oca_manufacture-16.0.20240327.2-py3-none-any.whl
+[2024-05-30 06:39:14] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 06:39:14] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.95.tar.gz tmp/molecular_interaction_rules-0.5.96.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5.95-0.5.96/README.md --exclude *.pyd
+[2024-05-30 06:39:15] INFO root fetch - processPackages [stencila_types]: Downloading https://files.pythonhosted.org/packages/9a/a8/1b2b636204cccc529e5b100c396027de2b3e0dbea339c5b6834bf92e878a/stencila_types-2.0.0a31.tar.gz
+[2024-05-30 06:39:15] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: executing diffoscope
+[2024-05-30 06:39:15] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_manufacture-16.0.20240302.1-py3-none-any.whl.zip tmp/odoo_addons_oca_manufacture-16.0.20240327.2-py3-none-any.whl.zip --markdown 20240530/o/odoo-addons-oca-manufacture/16.0.20240302.1-16.0.20240327.2/README.md --exclude *.pyd
+[2024-05-30 06:39:15] INFO root fetch - processPackages [stencila_types]: executing diffoscope
+[2024-05-30 06:39:15] INFO root fetch - processPackages [stencila_types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stencila_types-2.0.0a30.tar.gz tmp/stencila_types-2.0.0a31.tar.gz --markdown 20240530/s/stencila_types/2.0.0a30-2.0.0a31/README.md --exclude *.pyd
+[2024-05-30 06:39:15] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_manufacture-16.0.20240302.1-py3-none-any.whl.zip]
+[2024-05-30 06:39:15] INFO root fetch - processPackages [odoo-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_manufacture-16.0.20240327.2-py3-none-any.whl.zip]
+[2024-05-30 06:39:15] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-manufacture]: success
+[2024-05-30 06:39:15] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.95.tar.gz]
+[2024-05-30 06:39:15] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.96.tar.gz]
+[2024-05-30 06:39:15] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 06:39:15] INFO root fetch - processPackages [stencila_types]: Remove: archive file [/home/abi/fetcher/tmp/stencila_types-2.0.0a30.tar.gz]
+[2024-05-30 06:39:15] INFO root fetch - processPackages [stencila_types]: Remove: archive file [/home/abi/fetcher/tmp/stencila_types-2.0.0a31.tar.gz]
+[2024-05-30 06:39:15] INFO root fetch - main [MainThread]: End processing [stencila_types]: success
+[2024-05-30 06:39:15] INFO root fetch - main [MainThread]: Store serial: [23442293]
