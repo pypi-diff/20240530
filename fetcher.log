@@ -13504,3 +13504,78 @@ EOFError: EOF read where object expected
 [2024-05-30 08:09:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-30 08:09:53] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-30 08:09:53] INFO root fetch - main [MainThread]: Store serial: [23443152]
+[2024-05-30 08:11:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443152]
+[2024-05-30 08:12:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 08:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyds-cli
+[2024-05-30 08:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-mail-tracking-mailgun
+[2024-05-30 08:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bees-challenge
+[2024-05-30 08:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-mail-tracking-mass-mailing
+[2024-05-30 08:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mail-tracking
+[2024-05-30 08:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vns-explorer
+[2024-05-30 08:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-115
+[2024-05-30 08:12:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-spreadsheet-oca
+[2024-05-30 08:12:02] INFO root fetch - processPackages [pyds-cli]: New version: [0.5.0] Old Version: [0.4.4]
+[2024-05-30 08:12:02] INFO root fetch - processPackages [bees-challenge]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-30 08:12:02] INFO root fetch - processPackages [odoo-addon-mail-tracking]: New version: [16.0.1.0.4.8] Old Version: [16.0.1.0.4.77]
+[2024-05-30 08:12:02] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-30 08:12:02] INFO root fetch - processPackages [vns-explorer]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-30 08:12:02] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: New version: [16.0.1.2.3.3] Old Version: [16.0.1.2.3]
+[2024-05-30 08:12:02] INFO root fetch - processPackages [python-115]: New version: [0.0.8.7] Old Version: [0.0.8.6.1]
+[2024-05-30 08:12:02] INFO root fetch - processPackages [pyds-cli]: Downloading https://files.pythonhosted.org/packages/37/40/92d13d06c04cf6747dfca784438112f4a5aabded61c596268870f29083d1/pyds-cli-0.4.4.tar.gz
+[2024-05-30 08:12:02] INFO root fetch - processPackages [odoo-addon-mail-tracking-mailgun]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-05-30 08:12:02] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/12/03/60ec5831a8b79f96574298442e4d745732cb29cffe5a16696b849d9c300a/bees-challenge-0.4.0.tar.gz
+[2024-05-30 08:12:02] INFO root fetch - processPackages [vns-explorer]: Downloading https://files.pythonhosted.org/packages/ca/23/5bb92f186a74d4c33b82f0ded0136f39e09a1153e374ef1e93cd2e936b98/vns_explorer-1.0.3.tar.gz
+[2024-05-30 08:12:02] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/66/64/075c91a3093d7fca88b24003e60f14721bc45528abb3b1b45ca91899de25/python_115-0.0.8.6.1.tar.gz
+[2024-05-30 08:12:02] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Downloading https://files.pythonhosted.org/packages/a0/b8/ef501db39867464a3f339765ca2859e4c0b1ff584179dabf0e275e5950e4/odoo_addon_spreadsheet_oca-16.0.1.2.3-py3-none-any.whl
+[2024-05-30 08:12:02] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/5e/f7/cf5214912f247b0ca5db7f9e7bb5c8996a8c5e4dac3e54d3d94b7b711a18/odoo_addon_mail_tracking-16.0.1.0.4.77-py3-none-any.whl
+[2024-05-30 08:12:02] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: Downloading https://files.pythonhosted.org/packages/b4/ed/aa4a1059c51699445cffe415240ef5fa46943d8595e68052e52a271f5810/odoo_addon_mail_tracking_mass_mailing-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-30 08:12:02] INFO root fetch - processPackages [odoo-addon-mail-tracking-mailgun]: Downloading https://files.pythonhosted.org/packages/b8/e6/e303c5b7c12b08b480d7d0844818dbf4190961cb924c9be63edfa01b333d/odoo_addon_mail_tracking_mailgun-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-30 08:12:02] INFO root fetch - processPackages [pyds-cli]: Downloading https://files.pythonhosted.org/packages/85/cd/1c110608142118a016c6992de0d6b5f15df305d77992e892b4b80ce3e18c/pyds_cli-0.5.0.tar.gz
+[2024-05-30 08:12:02] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/41/8b/f43861a32606774ba66444f6a628508737b3f885437255fa39dbdf9bec97/python_115-0.0.8.7.tar.gz
+[2024-05-30 08:12:02] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/89/24/4733a13f84677afdd70034693899dbd52670aa1d011f012aa99a8d4e5bb1/bees-challenge-0.5.0.tar.gz
+[2024-05-30 08:12:02] INFO root fetch - processPackages [pyds-cli]: executing diffoscope
+[2024-05-30 08:12:02] INFO root fetch - processPackages [pyds-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyds-cli-0.4.4.tar.gz tmp/pyds_cli-0.5.0.tar.gz --markdown 20240530/p/pyds-cli/0.4.4-0.5.0/README.md --exclude *.pyd
+[2024-05-30 08:12:02] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/a9/b5/fe980727422eb439e605ad729f40089261801552e5074675cce97c3dbd4f/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl
+[2024-05-30 08:12:02] INFO root fetch - processPackages [vns-explorer]: Downloading https://files.pythonhosted.org/packages/2c/f9/2c70697219f35a6334fa3878a8cf84960c90b51432acca9f20edf845edcf/vns_explorer-1.0.4.tar.gz
+[2024-05-30 08:12:02] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Downloading https://files.pythonhosted.org/packages/a2/bf/3d4fed658e25b46d0ae711a6927947b926125c5e276a1ae8d2da23a0d157/odoo_addon_spreadsheet_oca-16.0.1.2.3.3-py3-none-any.whl
+[2024-05-30 08:12:02] INFO root fetch - processPackages [bees-challenge]: executing diffoscope
+[2024-05-30 08:12:02] INFO root fetch - processPackages [bees-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bees-challenge-0.4.0.tar.gz tmp/bees-challenge-0.5.0.tar.gz --markdown 20240530/b/bees-challenge/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-30 08:12:02] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-05-30 08:12:02] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.8.6.1.tar.gz tmp/python_115-0.0.8.7.tar.gz --markdown 20240530/p/python-115/0.0.8.6.1-0.0.8.7/README.md --exclude *.pyd
+[2024-05-30 08:12:02] INFO root fetch - processPackages [odoo-addon-mail-tracking-mailgun]: Downloading https://files.pythonhosted.org/packages/e6/ac/4c45af16100d633ce76e0674b529ba7818c16eec395110cc7b37361c0a36/odoo_addon_mail_tracking_mailgun-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-30 08:12:03] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: Downloading https://files.pythonhosted.org/packages/b0/f4/c2cbf7cd6b447cf04b68f4d9b2ff5fd3adeed01e9663ac6690dd0542edaa/odoo_addon_mail_tracking_mass_mailing-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-30 08:12:03] INFO root fetch - processPackages [odoo-addon-mail-tracking]: executing diffoscope
+[2024-05-30 08:12:03] INFO root fetch - processPackages [odoo-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking-16.0.1.0.4.77-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-mail-tracking/16.0.1.0.4.77-16.0.1.0.4.8/README.md --exclude *.pyd
+[2024-05-30 08:12:03] INFO root fetch - processPackages [vns-explorer]: executing diffoscope
+[2024-05-30 08:12:03] INFO root fetch - processPackages [vns-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vns_explorer-1.0.3.tar.gz tmp/vns_explorer-1.0.4.tar.gz --markdown 20240530/v/vns-explorer/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-30 08:12:03] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: executing diffoscope
+[2024-05-30 08:12:03] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_spreadsheet_oca-16.0.1.2.3-py3-none-any.whl.zip tmp/odoo_addon_spreadsheet_oca-16.0.1.2.3.3-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-spreadsheet-oca/16.0.1.2.3-16.0.1.2.3.3/README.md --exclude *.pyd
+[2024-05-30 08:12:03] INFO root fetch - processPackages [odoo-addon-mail-tracking-mailgun]: executing diffoscope
+[2024-05-30 08:12:03] INFO root fetch - processPackages [odoo-addon-mail-tracking-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking_mailgun-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking_mailgun-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-mail-tracking-mailgun/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-30 08:12:03] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: executing diffoscope
+[2024-05-30 08:12:03] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking_mass_mailing-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking_mass_mailing-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-mail-tracking-mass-mailing/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-30 08:12:03] INFO root fetch - processPackages [pyds-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyds-cli-0.4.4.tar.gz]
+[2024-05-30 08:12:03] INFO root fetch - processPackages [pyds-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyds_cli-0.5.0.tar.gz]
+[2024-05-30 08:12:03] INFO root fetch - main [MainThread]: End processing [pyds-cli]: success
+[2024-05-30 08:12:03] INFO root fetch - processPackages [vns-explorer]: Remove: archive file [/home/abi/fetcher/tmp/vns_explorer-1.0.3.tar.gz]
+[2024-05-30 08:12:03] INFO root fetch - processPackages [vns-explorer]: Remove: archive file [/home/abi/fetcher/tmp/vns_explorer-1.0.4.tar.gz]
+[2024-05-30 08:12:03] INFO root fetch - main [MainThread]: End processing [vns-explorer]: success
+[2024-05-30 08:12:03] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.4.0.tar.gz]
+[2024-05-30 08:12:03] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.5.0.tar.gz]
+[2024-05-30 08:12:03] INFO root fetch - main [MainThread]: End processing [bees-challenge]: success
+[2024-05-30 08:12:03] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_oca-16.0.1.2.3-py3-none-any.whl.zip]
+[2024-05-30 08:12:03] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_oca-16.0.1.2.3.3-py3-none-any.whl.zip]
+[2024-05-30 08:12:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-spreadsheet-oca]: success
+[2024-05-30 08:12:04] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking_mass_mailing-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-30 08:12:04] INFO root fetch - processPackages [odoo-addon-mail-tracking-mass-mailing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking_mass_mailing-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-30 08:12:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking-mass-mailing]: success
+[2024-05-30 08:12:04] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.6.1.tar.gz]
+[2024-05-30 08:12:04] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.7.tar.gz]
+[2024-05-30 08:12:04] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-05-30 08:12:04] INFO root fetch - processPackages [odoo-addon-mail-tracking-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking_mailgun-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-30 08:12:04] INFO root fetch - processPackages [odoo-addon-mail-tracking-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking_mailgun-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-30 08:12:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking-mailgun]: success
+[2024-05-30 08:12:04] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.77-py3-none-any.whl.zip]
+[2024-05-30 08:12:04] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip]
+[2024-05-30 08:12:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
+[2024-05-30 08:12:04] INFO root fetch - main [MainThread]: Store serial: [23443172]
