@@ -2539,3 +2539,105 @@ EOFError: EOF read where object expected
 [2024-05-30 02:28:29] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.174-cp39-cp39-macosx_10_15_x86_64.whl.zip]
 [2024-05-30 02:28:29] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
 [2024-05-30 02:28:29] INFO root fetch - main [MainThread]: Store serial: [23438920]
+[2024-05-30 02:30:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438920]
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2024-05-30 02:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-certbot-dns-route53
+[2024-05-30 02:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-gitlab-runner
+[2024-05-30 02:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aurora-globaldatabase
+[2024-05-30 02:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cash-contacts-bq-utils
+[2024-05-30 02:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sq-counselor
+[2024-05-30 02:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sq-flask-example
+[2024-05-30 02:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sq-sql-utils
+[2024-05-30 02:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yoto-api
+[2024-05-30 02:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sq-llm-checker
+[2024-05-30 02:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqtest-esw-platform
+[2024-05-30 02:30:39] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-30 02:30:39] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-30 02:30:39] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-30 02:30:39] WARNING root fetch - processPackages [cash-contacts-bq-utils]: Skipping, unable to determine old version
+[2024-05-30 02:30:39] INFO root fetch - processPackages [cash-contacts-bq-utils]: Start processing: sq-llm-guardrails
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: End processing [cash-contacts-bq-utils] error
+[2024-05-30 02:30:39] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-30 02:30:39] WARNING root fetch - processPackages [sq-llm-checker]: Skipping, unable to determine old version
+[2024-05-30 02:30:39] WARNING root fetch - processPackages [sqtest-esw-platform]: Skipping, unable to determine old version
+[2024-05-30 02:30:39] WARNING root fetch - processPackages [sq-counselor]: Skipping, unable to determine old version
+[2024-05-30 02:30:39] WARNING root fetch - processPackages [sq-sql-utils]: Skipping, unable to determine old version
+[2024-05-30 02:30:39] WARNING root fetch - processPackages [sq-flask-example]: Skipping, unable to determine old version
+[2024-05-30 02:30:39] INFO root fetch - processPackages [sq-llm-checker]: Start processing: sq-crane
+[2024-05-30 02:30:39] INFO root fetch - processPackages [sqtest-esw-platform]: Start processing: sq-flask-common
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: End processing [sq-llm-checker] error
+[2024-05-30 02:30:39] INFO root fetch - processPackages [sq-counselor]: Start processing: sqlive
+[2024-05-30 02:30:39] INFO root fetch - processPackages [sq-sql-utils]: Start processing: squarewave-cli
+[2024-05-30 02:30:39] INFO root fetch - processPackages [sq-flask-example]: Start processing: block-forge
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: End processing [sqtest-esw-platform] error
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: End processing [sq-counselor] error
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: End processing [sq-sql-utils] error
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: End processing [sq-flask-example] error
+[2024-05-30 02:30:39] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-30 02:30:39] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-30 02:30:39] WARNING root fetch - processPackages [sq-crane]: Skipping, unable to determine old version
+[2024-05-30 02:30:39] INFO root fetch - processPackages [sq-crane]: Start processing: sq-pysnowflake
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: End processing [sq-crane] error
+[2024-05-30 02:30:39] WARNING root fetch - processPackages [sq-llm-guardrails]: Skipping, unable to determine old version
+[2024-05-30 02:30:39] INFO root fetch - processPackages [sq-llm-guardrails]: Start processing: squid-security-tools
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: End processing [sq-llm-guardrails] error
+[2024-05-30 02:30:39] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-30 02:30:39] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-30 02:30:39] WARNING root fetch - processPackages [squarewave-cli]: Skipping, unable to determine old version
+[2024-05-30 02:30:39] INFO root fetch - processPackages [squarewave-cli]: Start processing: cash-rm-annotations-ml
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: End processing [squarewave-cli] error
+[2024-05-30 02:30:39] WARNING root fetch - processPackages [block-forge]: Skipping, unable to determine old version
+[2024-05-30 02:30:39] INFO root fetch - processPackages [block-forge]: Start processing: fortiedr
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: End processing [block-forge] error
+[2024-05-30 02:30:39] WARNING root fetch - processPackages [sq-flask-common]: Skipping, unable to determine old version
+[2024-05-30 02:30:39] INFO root fetch - processPackages [sq-flask-common]: Start processing: sq-dataset
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: End processing [sq-flask-common] error
+[2024-05-30 02:30:39] WARNING root fetch - processPackages [sqlive]: Skipping, unable to determine old version
+[2024-05-30 02:30:39] INFO root fetch - processPackages [sqlive]: Start processing: cash-contacts-ml
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: End processing [sqlive] error
+[2024-05-30 02:30:39] WARNING root fetch - processPackages [squid-security-tools]: Skipping, unable to determine old version
+[2024-05-30 02:30:39] INFO root fetch - processPackages [squid-security-tools]: Start processing: sq-squid
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: End processing [squid-security-tools] error
+[2024-05-30 02:30:39] ERROR root fetch - processPackages [sq-pysnowflake]: Unable to get metadata: No such project 'sq-pysnowflake'
+[2024-05-30 02:30:39] INFO root fetch - main [MainThread]: End processing [sq-pysnowflake] error
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-30 02:30:40] ERROR root fetch - processPackages [cash-rm-annotations-ml]: Unable to get metadata: No such project 'cash-rm-annotations-ml'
+[2024-05-30 02:30:40] INFO root fetch - main [MainThread]: End processing [cash-rm-annotations-ml] error
+[2024-05-30 02:30:40] INFO root fetch - processPackages [fortiedr]: New version: [3.6.9] Old Version: [3.6.8]
+[2024-05-30 02:30:40] ERROR root fetch - processPackages [sq-dataset]: Unable to get metadata: No such project 'sq-dataset'
+[2024-05-30 02:30:40] INFO root fetch - main [MainThread]: End processing [sq-dataset] error
+[2024-05-30 02:30:40] ERROR root fetch - processPackages [cash-contacts-ml]: Unable to get metadata: No such project 'cash-contacts-ml'
+[2024-05-30 02:30:40] INFO root fetch - main [MainThread]: End processing [cash-contacts-ml] error
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-30 02:30:40] ERROR root fetch - processPackages [sq-squid]: Unable to get metadata: No such project 'sq-squid'
+[2024-05-30 02:30:40] INFO root fetch - main [MainThread]: End processing [sq-squid] error
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240530/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240530/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-30 02:30:40] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240530/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-30 02:30:40] INFO root fetch - processPackages [fortiedr]: Downloading https://files.pythonhosted.org/packages/af/67/b1371604ba65d005ce85709b48be36a1b357ec1b376a3676dd12761f67e4/fortiedr-3.6.8.tar.gz
+[2024-05-30 02:30:40] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-30 02:30:40] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240530/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-30 02:30:40] INFO root fetch - processPackages [fortiedr]: Downloading https://files.pythonhosted.org/packages/d3/41/464bfda21b933534b1444278f1df22983a42684b64483ce21c2fa4955e25/fortiedr-3.6.9.tar.gz
+[2024-05-30 02:30:40] INFO root fetch - processPackages [fortiedr]: executing diffoscope
+[2024-05-30 02:30:40] INFO root fetch - processPackages [fortiedr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortiedr-3.6.8.tar.gz tmp/fortiedr-3.6.9.tar.gz --markdown 20240530/f/fortiedr/3.6.8-3.6.9/README.md --exclude *.pyd
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-30 02:30:40] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-30 02:30:40] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-30 02:30:40] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-30 02:30:40] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-30 02:30:41] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-30 02:30:41] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-30 02:30:41] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-30 02:30:41] INFO root fetch - processPackages [fortiedr]: Remove: archive file [/home/abi/fetcher/tmp/fortiedr-3.6.8.tar.gz]
+[2024-05-30 02:30:41] INFO root fetch - processPackages [fortiedr]: Remove: archive file [/home/abi/fetcher/tmp/fortiedr-3.6.9.tar.gz]
+[2024-05-30 02:30:41] INFO root fetch - main [MainThread]: End processing [fortiedr]: success
+[2024-05-30 02:30:41] INFO root fetch - main [MainThread]: Store serial: [23438975]
