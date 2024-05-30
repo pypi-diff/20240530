@@ -15110,3 +15110,36 @@ EOFError: EOF read where object expected
 [2024-05-30 08:43:29] INFO root fetch - processPackages [olive-ai]: Remove: archive file [/home/abi/fetcher/tmp/olive_ai-0.6.0-py3-none-any.whl.zip]
 [2024-05-30 08:43:29] INFO root fetch - main [MainThread]: End processing [olive-ai]: success
 [2024-05-30 08:43:29] INFO root fetch - main [MainThread]: Store serial: [23443697]
+[2024-05-30 08:45:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443697]
+[2024-05-30 08:45:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 08:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyastroweatherio
+[2024-05-30 08:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2024-05-30 08:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssi-fctrading
+[2024-05-30 08:45:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: YWP
+[2024-05-30 08:45:38] WARNING root fetch - processPackages [YWP]: Skipping, unable to determine old version
+[2024-05-30 08:45:38] INFO root fetch - main [MainThread]: End processing [YWP] error
+[2024-05-30 08:45:38] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.99] Old Version: [3.2.98]
+[2024-05-30 08:45:38] INFO root fetch - processPackages [ssi-fctrading]: New version: [2.5.0] Old Version: [2.4.2]
+[2024-05-30 08:45:38] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.50.3] Old Version: [0.50.2]
+[2024-05-30 08:45:38] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/5e/b5/7cd86ab5bf038cd7943f580e675768a014b20cb33f33518059ce303b9c9d/bridgecrew-3.2.98.tar.gz
+[2024-05-30 08:45:38] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/0e/90/976cbf08941a729f595930f6ed04ebb66c6ddb6f53ce1587c9b94d3b67d9/ssi-fctrading-2.4.2.tar.gz
+[2024-05-30 08:45:38] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/07/b3/42c35aa7b7ea4722471b0725c8259ed48d9f45c8a470ff9f42b097528a83/pyastroweatherio-0.50.2.tar.gz
+[2024-05-30 08:45:38] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/8c/e2/de43e2e6c966fe98c0624abafa7f7374b59b424536aaa809a4d6a8fe4aa1/bridgecrew-3.2.99.tar.gz
+[2024-05-30 08:45:39] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-30 08:45:39] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.98.tar.gz tmp/bridgecrew-3.2.99.tar.gz --markdown 20240530/b/bridgecrew/3.2.98-3.2.99/README.md --exclude *.pyd
+[2024-05-30 08:45:39] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/b1/f3/225334bcb1d13a4a96083094049397b26df14b22e6901c306372aee3b557/ssi-fctrading-2.5.0.tar.gz
+[2024-05-30 08:45:39] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/34/e9/760c5b88aae560eaf038609e00cc3aac7f7e5960dd0d33d9511271bfe335/pyastroweatherio-0.50.3.tar.gz
+[2024-05-30 08:45:39] INFO root fetch - processPackages [ssi-fctrading]: executing diffoscope
+[2024-05-30 08:45:39] INFO root fetch - processPackages [ssi-fctrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi-fctrading-2.4.2.tar.gz tmp/ssi-fctrading-2.5.0.tar.gz --markdown 20240530/s/ssi-fctrading/2.4.2-2.5.0/README.md --exclude *.pyd
+[2024-05-30 08:45:39] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-05-30 08:45:39] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.50.2.tar.gz tmp/pyastroweatherio-0.50.3.tar.gz --markdown 20240530/p/pyastroweatherio/0.50.2-0.50.3/README.md --exclude *.pyd
+[2024-05-30 08:45:39] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.98.tar.gz]
+[2024-05-30 08:45:39] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.99.tar.gz]
+[2024-05-30 08:45:39] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-30 08:45:39] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi-fctrading-2.4.2.tar.gz]
+[2024-05-30 08:45:39] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi-fctrading-2.5.0.tar.gz]
+[2024-05-30 08:45:39] INFO root fetch - main [MainThread]: End processing [ssi-fctrading]: success
+[2024-05-30 08:45:39] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.2.tar.gz]
+[2024-05-30 08:45:39] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.3.tar.gz]
+[2024-05-30 08:45:39] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-05-30 08:45:39] INFO root fetch - main [MainThread]: Store serial: [23443707]
