@@ -8436,3 +8436,15 @@ EOFError: EOF read where object expected
 [2024-05-30 04:05:03] INFO root fetch - processPackages [django_medilab_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medilab_dental-3.1.0.tar.gz]
 [2024-05-30 04:05:03] INFO root fetch - main [MainThread]: End processing [django_medilab_dental]: success
 [2024-05-30 04:05:03] INFO root fetch - main [MainThread]: Store serial: [23441140]
+[2024-05-30 04:07:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441140]
+[2024-05-30 04:07:12] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 04:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: palimpzest
+[2024-05-30 04:07:12] INFO root fetch - processPackages [palimpzest]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 04:07:12] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/4f/6a/2373a1d9284af8fbd1d9e599fd052a5a8824a28746e225f00d26dd59a76a/palimpzest-0.1.8.tar.gz
+[2024-05-30 04:07:12] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/a7/2f/4c5d4dc8fc0b28cfc59adc448f482eb20b789f2fc4d6ad4f25d08d42541b/palimpzest-0.1.9.tar.gz
+[2024-05-30 04:07:12] INFO root fetch - processPackages [palimpzest]: executing diffoscope
+[2024-05-30 04:07:12] INFO root fetch - processPackages [palimpzest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palimpzest-0.1.8.tar.gz tmp/palimpzest-0.1.9.tar.gz --markdown 20240530/p/palimpzest/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 04:07:13] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.8.tar.gz]
+[2024-05-30 04:07:13] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.9.tar.gz]
+[2024-05-30 04:07:13] INFO root fetch - main [MainThread]: End processing [palimpzest]: success
+[2024-05-30 04:07:13] INFO root fetch - main [MainThread]: Store serial: [23441143]
