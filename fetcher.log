@@ -18423,3 +18423,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:48:52] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-30 10:48:52] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-30 10:48:52] INFO root fetch - main [MainThread]: Store serial: [23445327]
+[2024-05-30 10:50:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23445327]
+[2024-05-30 10:51:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 10:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aicli
+[2024-05-30 10:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nemreader
+[2024-05-30 10:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: steinbock
+[2024-05-30 10:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataverk-airflow
+[2024-05-30 10:51:02] INFO root fetch - processPackages [steinbock]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-30 10:51:02] INFO root fetch - processPackages [dataverk-airflow]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-30 10:51:03] INFO root fetch - processPackages [nemreader]: New version: [0.9.1] Old Version: [0.8.8]
+[2024-05-30 10:51:03] INFO root fetch - processPackages [aicli]: New version: [99.0.202405300848] Old Version: [99.0.202405260854]
+[2024-05-30 10:51:03] INFO root fetch - processPackages [steinbock]: Downloading https://files.pythonhosted.org/packages/6a/d3/ffd1d9a4ec9fd11626be1d431ea4f3b45664582e01d09dbca27806a6dfb6/steinbock-0.9.0.tar.gz
+[2024-05-30 10:51:03] INFO root fetch - processPackages [dataverk-airflow]: Downloading https://files.pythonhosted.org/packages/c9/77/acbb00ce4878cc84dbd5e26e92c7d708e071e9bf962bac535f45a81b2b4e/dataverk_airflow-1.7.0.tar.gz
+[2024-05-30 10:51:03] INFO root fetch - processPackages [nemreader]: Downloading https://files.pythonhosted.org/packages/fe/87/c93620f30a7de309f892915b7f09bea4a1e4ee4b35c45f001d7c622a9d8b/nemreader-0.8.8.tar.gz
+[2024-05-30 10:51:03] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/85/6c/ed407a5813ed177ba2e5bf3af7b5958a3206fdebf6ca50f70acf872c6f61/aicli-99.0.202405260854-py3-none-any.whl
+[2024-05-30 10:51:03] INFO root fetch - processPackages [dataverk-airflow]: Downloading https://files.pythonhosted.org/packages/5a/a8/157857bf7a2a3927d6ea64da9e7f4e86190fbe5240be2f42a099150daa7a/dataverk_airflow-1.7.1.tar.gz
+[2024-05-30 10:51:03] INFO root fetch - processPackages [nemreader]: Downloading https://files.pythonhosted.org/packages/21/7d/7bd97abfaef8bb9f2d789c0e0a8e3e952707f401ab67a930bd839ead8e0b/nemreader-0.9.1.tar.gz
+[2024-05-30 10:51:03] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/38/50/775795a3ae3da16c922c03f69d8c3ba5c7db3b57e933405caaa11d012604/aicli-99.0.202405300848-py3-none-any.whl
+[2024-05-30 10:51:03] INFO root fetch - processPackages [dataverk-airflow]: executing diffoscope
+[2024-05-30 10:51:03] INFO root fetch - processPackages [dataverk-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverk_airflow-1.7.0.tar.gz tmp/dataverk_airflow-1.7.1.tar.gz --markdown 20240530/d/dataverk-airflow/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-30 10:51:03] INFO root fetch - processPackages [nemreader]: executing diffoscope
+[2024-05-30 10:51:03] INFO root fetch - processPackages [nemreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemreader-0.8.8.tar.gz tmp/nemreader-0.9.1.tar.gz --markdown 20240530/n/nemreader/0.8.8-0.9.1/README.md --exclude *.pyd
+[2024-05-30 10:51:03] INFO root fetch - processPackages [steinbock]: Downloading https://files.pythonhosted.org/packages/e0/ce/672131c6a0a7c51513a735e8cebbd3fcf72c2e0d7c21bffe6be6bd9c6b4d/steinbock-0.9.1.tar.gz
+[2024-05-30 10:51:03] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2024-05-30 10:51:03] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202405260854-py3-none-any.whl.zip tmp/aicli-99.0.202405300848-py3-none-any.whl.zip --markdown 20240530/a/aicli/99.0.202405260854-99.0.202405300848/README.md --exclude *.pyd
+[2024-05-30 10:51:03] INFO root fetch - processPackages [steinbock]: executing diffoscope
+[2024-05-30 10:51:03] INFO root fetch - processPackages [steinbock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steinbock-0.9.0.tar.gz tmp/steinbock-0.9.1.tar.gz --markdown 20240530/s/steinbock/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-30 10:51:04] INFO root fetch - processPackages [dataverk-airflow]: Remove: archive file [/home/abi/fetcher/tmp/dataverk_airflow-1.7.0.tar.gz]
+[2024-05-30 10:51:04] INFO root fetch - processPackages [dataverk-airflow]: Remove: archive file [/home/abi/fetcher/tmp/dataverk_airflow-1.7.1.tar.gz]
+[2024-05-30 10:51:04] INFO root fetch - main [MainThread]: End processing [dataverk-airflow]: success
+[2024-05-30 10:51:04] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202405260854-py3-none-any.whl.zip]
+[2024-05-30 10:51:04] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202405300848-py3-none-any.whl.zip]
+[2024-05-30 10:51:04] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2024-05-30 10:51:04] INFO root fetch - processPackages [nemreader]: Remove: archive file [/home/abi/fetcher/tmp/nemreader-0.8.8.tar.gz]
+[2024-05-30 10:51:04] INFO root fetch - processPackages [nemreader]: Remove: archive file [/home/abi/fetcher/tmp/nemreader-0.9.1.tar.gz]
+[2024-05-30 10:51:04] INFO root fetch - main [MainThread]: End processing [nemreader]: success
+[2024-05-30 10:51:04] INFO root fetch - processPackages [steinbock]: Remove: archive file [/home/abi/fetcher/tmp/steinbock-0.9.0.tar.gz]
+[2024-05-30 10:51:04] INFO root fetch - processPackages [steinbock]: Remove: archive file [/home/abi/fetcher/tmp/steinbock-0.9.1.tar.gz]
+[2024-05-30 10:51:04] INFO root fetch - main [MainThread]: End processing [steinbock]: success
+[2024-05-30 10:51:04] INFO root fetch - main [MainThread]: Store serial: [23445340]
