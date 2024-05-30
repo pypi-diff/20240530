@@ -10717,3 +10717,42 @@ EOFError: EOF read where object expected
 [2024-05-30 06:06:39] INFO root fetch - processPackages [beets]: Remove: archive file [/home/abi/fetcher/tmp/beets-1.6.1.tar.gz]
 [2024-05-30 06:06:39] INFO root fetch - main [MainThread]: End processing [beets]: success
 [2024-05-30 06:06:39] INFO root fetch - main [MainThread]: Store serial: [23441975]
+[2024-05-30 06:08:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441975]
+[2024-05-30 06:08:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 06:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beets
+[2024-05-30 06:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: molecular-interaction-rules
+[2024-05-30 06:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-fauna
+[2024-05-30 06:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-zhipu
+[2024-05-30 06:08:49] INFO root fetch - processPackages [llm-zhipu]: New version: [0.4] Old Version: [0.2]
+[2024-05-30 06:08:49] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-30 06:08:49] INFO root fetch - processPackages [beets]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-30 06:08:49] INFO root fetch - processPackages [pytest-fauna]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-05-30 06:08:49] INFO root fetch - processPackages [llm-zhipu]: Downloading https://files.pythonhosted.org/packages/38/99/cf10526560494c7894327cfea90b69369a959ecf2655d504967c794c157c/llm_zhipu-0.2-py3-none-any.whl
+[2024-05-30 06:08:49] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/56/9f/b914befce2cf7faff9e58ebbe7df232adac29692c71bad5b0ce0245591e8/molecular_interaction_rules-0.5.8.tar.gz
+[2024-05-30 06:08:49] INFO root fetch - processPackages [beets]: Downloading https://files.pythonhosted.org/packages/28/88/9861e37ad40f01406ae32adf11739804b39fbcc5c613012a339515692d9c/beets-1.6.0.tar.gz
+[2024-05-30 06:08:49] INFO root fetch - processPackages [llm-zhipu]: Downloading https://files.pythonhosted.org/packages/b9/af/55c9a9f51162fafb41c6b671f60efa989a16b8ff44ddb3c78e0a1d42c4b2/llm_zhipu-0.4.tar.gz
+[2024-05-30 06:08:49] INFO root fetch - processPackages [pytest-fauna]: Downloading https://files.pythonhosted.org/packages/3a/74/63f2fa4e5e9225e358a2ae63e17c4c04102b4901afecd6792a509df999bc/pytest_fauna-1.0.0.tar.gz
+[2024-05-30 06:08:49] INFO root fetch - processPackages [llm-zhipu]: executing diffoscope
+[2024-05-30 06:08:49] INFO root fetch - processPackages [llm-zhipu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_zhipu-0.2-py3-none-any.whl.zip tmp/llm_zhipu-0.4.tar.gz --markdown 20240530/l/llm-zhipu/0.2-0.4/README.md --exclude *.pyd
+[2024-05-30 06:08:49] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/5e/0f/d1e091da1fceb9c8dcf7423f4bc4c99e8757179d63a1c10cdbd3ffede176/molecular_interaction_rules-0.5.9.tar.gz
+[2024-05-30 06:08:49] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 06:08:49] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.8.tar.gz tmp/molecular_interaction_rules-0.5.9.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-30 06:08:49] INFO root fetch - processPackages [beets]: Downloading https://files.pythonhosted.org/packages/8e/29/8903e4a2269b360d0104b4551151eece9560875dc6d2945a3dcdd537dc53/beets-1.6.1.tar.gz
+[2024-05-30 06:08:49] INFO root fetch - processPackages [pytest-fauna]: Downloading https://files.pythonhosted.org/packages/c1/4c/3c29101af48b7c8d395021c4e12676723f030b3ee220990c2811ffd5bcda/pytest_fauna-2.0.0.tar.gz
+[2024-05-30 06:08:49] INFO root fetch - processPackages [pytest-fauna]: executing diffoscope
+[2024-05-30 06:08:49] INFO root fetch - processPackages [pytest-fauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_fauna-1.0.0.tar.gz tmp/pytest_fauna-2.0.0.tar.gz --markdown 20240530/p/pytest-fauna/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-05-30 06:08:49] INFO root fetch - processPackages [beets]: executing diffoscope
+[2024-05-30 06:08:49] INFO root fetch - processPackages [beets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beets-1.6.0.tar.gz tmp/beets-1.6.1.tar.gz --markdown 20240530/b/beets/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-30 06:08:50] INFO root fetch - processPackages [llm-zhipu]: Remove: archive file [/home/abi/fetcher/tmp/llm_zhipu-0.2-py3-none-any.whl.zip]
+[2024-05-30 06:08:50] INFO root fetch - processPackages [llm-zhipu]: Remove: archive file [/home/abi/fetcher/tmp/llm_zhipu-0.4.tar.gz]
+[2024-05-30 06:08:50] INFO root fetch - main [MainThread]: End processing [llm-zhipu]: success
+[2024-05-30 06:08:50] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.8.tar.gz]
+[2024-05-30 06:08:50] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.9.tar.gz]
+[2024-05-30 06:08:50] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 06:08:50] INFO root fetch - processPackages [pytest-fauna]: Remove: archive file [/home/abi/fetcher/tmp/pytest_fauna-1.0.0.tar.gz]
+[2024-05-30 06:08:50] INFO root fetch - processPackages [pytest-fauna]: Remove: archive file [/home/abi/fetcher/tmp/pytest_fauna-2.0.0.tar.gz]
+[2024-05-30 06:08:50] INFO root fetch - main [MainThread]: End processing [pytest-fauna]: success
+[2024-05-30 06:08:54] INFO root fetch - processPackages [beets]: Remove: archive file [/home/abi/fetcher/tmp/beets-1.6.0.tar.gz]
+[2024-05-30 06:08:54] INFO root fetch - processPackages [beets]: Remove: archive file [/home/abi/fetcher/tmp/beets-1.6.1.tar.gz]
+[2024-05-30 06:08:54] INFO root fetch - main [MainThread]: End processing [beets]: success
+[2024-05-30 06:08:54] INFO root fetch - main [MainThread]: Store serial: [23441989]
