@@ -12924,3 +12924,24 @@ EOFError: EOF read where object expected
 [2024-05-30 07:43:33] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.2.2.tar.gz]
 [2024-05-30 07:43:33] INFO root fetch - main [MainThread]: End processing [replit-river]: success
 [2024-05-30 07:43:33] INFO root fetch - main [MainThread]: Store serial: [23442887]
+[2024-05-30 07:45:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442887]
+[2024-05-30 07:45:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 07:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhousf-lib
+[2024-05-30 07:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-timeseries
+[2024-05-30 07:45:41] INFO root fetch - processPackages [torch-timeseries]: New version: [0.0.3a3] Old Version: [0.0.3a2]
+[2024-05-30 07:45:41] INFO root fetch - processPackages [zhousf-lib]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-05-30 07:45:41] INFO root fetch - processPackages [torch-timeseries]: Downloading https://files.pythonhosted.org/packages/b5/ea/3595b86fdba95225da9a49237749ee7e9bd52c460c20599fd69c9900b730/torch_timeseries-0.0.3a2.tar.gz
+[2024-05-30 07:45:41] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/39/6b/cfa99724a5f18e7bb6f855ef78f49a20045babc30a7e3ac5e4f72518bfb6/zhousf-lib-1.5.6.tar.gz
+[2024-05-30 07:45:42] INFO root fetch - processPackages [torch-timeseries]: Downloading https://files.pythonhosted.org/packages/34/33/3e06148cd99e50fd316221b28b75f8db9808ec64073a36766fca0e616878/torch_timeseries-0.0.3a3.tar.gz
+[2024-05-30 07:45:42] INFO root fetch - processPackages [torch-timeseries]: executing diffoscope
+[2024-05-30 07:45:42] INFO root fetch - processPackages [torch-timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_timeseries-0.0.3a2.tar.gz tmp/torch_timeseries-0.0.3a3.tar.gz --markdown 20240530/t/torch-timeseries/0.0.3a2-0.0.3a3/README.md --exclude *.pyd
+[2024-05-30 07:45:42] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/f5/19/b062f9bc819501dd05d44ca51df2dd37a848aa5ea4a152dee22fb6c718ab/zhousf-lib-1.5.7.tar.gz
+[2024-05-30 07:45:42] INFO root fetch - processPackages [torch-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/torch_timeseries-0.0.3a2.tar.gz]
+[2024-05-30 07:45:42] INFO root fetch - processPackages [torch-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/torch_timeseries-0.0.3a3.tar.gz]
+[2024-05-30 07:45:42] INFO root fetch - main [MainThread]: End processing [torch-timeseries]: success
+[2024-05-30 07:45:43] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2024-05-30 07:45:43] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-1.5.6.tar.gz tmp/zhousf-lib-1.5.7.tar.gz --markdown 20240530/z/zhousf-lib/1.5.6-1.5.7/README.md --exclude *.pyd
+[2024-05-30 07:45:45] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.5.6.tar.gz]
+[2024-05-30 07:45:45] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.5.7.tar.gz]
+[2024-05-30 07:45:45] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2024-05-30 07:45:45] INFO root fetch - main [MainThread]: Store serial: [23442892]
