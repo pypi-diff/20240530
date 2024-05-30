@@ -11609,3 +11609,42 @@ EOFError: EOF read where object expected
 [2024-05-30 06:34:54] INFO root fetch - processPackages [odoo-addon-mgmtsystem-action]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_action-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2024-05-30 06:34:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-action]: success
 [2024-05-30 06:34:54] INFO root fetch - main [MainThread]: Store serial: [23442277]
+[2024-05-30 06:36:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442277]
+[2024-05-30 06:37:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 06:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2024-05-30 06:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rad4sea
+[2024-05-30 06:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-account-move-line-mrp-info
+[2024-05-30 06:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-quality-control-stock-oca
+[2024-05-30 06:37:03] INFO root fetch - processPackages [odoo14-addon-account-move-line-mrp-info]: New version: [14.0.1.1.1.dev6] Old Version: [14.0.1.1.1.dev4]
+[2024-05-30 06:37:03] INFO root fetch - processPackages [odoo-addon-quality-control-stock-oca]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-30 06:37:03] INFO root fetch - processPackages [rad4sea]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 06:37:03] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-30 06:37:03] INFO root fetch - processPackages [odoo14-addon-account-move-line-mrp-info]: Downloading https://files.pythonhosted.org/packages/b2/bb/71f190e58f5f50ccc730bbbf1be8f2e401ab61f7d7ff7c6c75d451e662ba/odoo14_addon_account_move_line_mrp_info-14.0.1.1.1.dev4-py3-none-any.whl
+[2024-05-30 06:37:03] INFO root fetch - processPackages [odoo-addon-quality-control-stock-oca]: Downloading https://files.pythonhosted.org/packages/2d/8d/8676b827de4180f49574b5ef93da5b6ee08ae8208d22a0f4a744acbac842/odoo_addon_quality_control_stock_oca-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-30 06:37:03] INFO root fetch - processPackages [rad4sea]: Downloading https://files.pythonhosted.org/packages/60/39/0036eb0020b2ea3203dbe6b9efeb9f24546b79cf07332b8cfda3a4e66677/rad4sea-0.0.1.tar.gz
+[2024-05-30 06:37:03] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-30 06:37:03] INFO root fetch - processPackages [odoo14-addon-account-move-line-mrp-info]: Downloading https://files.pythonhosted.org/packages/15/2d/f5f19f9cc1a286f8a61cc54050ec840a246bdbbf015d8ed1cbdd3b770fc9/odoo14_addon_account_move_line_mrp_info-14.0.1.1.1.dev6-py3-none-any.whl
+[2024-05-30 06:37:03] INFO root fetch - processPackages [odoo14-addon-account-move-line-mrp-info]: executing diffoscope
+[2024-05-30 06:37:03] INFO root fetch - processPackages [odoo14-addon-account-move-line-mrp-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_move_line_mrp_info-14.0.1.1.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_account_move_line_mrp_info-14.0.1.1.1.dev6-py3-none-any.whl.zip --markdown 20240530/o/odoo14-addon-account-move-line-mrp-info/14.0.1.1.1.dev4-14.0.1.1.1.dev6/README.md --exclude *.pyd
+[2024-05-30 06:37:03] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-30 06:37:03] INFO root fetch - processPackages [odoo-addon-quality-control-stock-oca]: Downloading https://files.pythonhosted.org/packages/2d/02/ea79b638587b7d7520f7aa9ff65937761fb27ac827cc5de9a5f6a5f8b61f/odoo_addon_quality_control_stock_oca-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-30 06:37:03] INFO root fetch - processPackages [rad4sea]: Downloading https://files.pythonhosted.org/packages/c9/95/ba3f93de00464bb970a241dde1d149057955cd5de7d3a328f7a8add0edce/rad4sea-0.0.2.tar.gz
+[2024-05-30 06:37:03] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-30 06:37:03] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240530/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-30 06:37:03] INFO root fetch - processPackages [odoo-addon-quality-control-stock-oca]: executing diffoscope
+[2024-05-30 06:37:03] INFO root fetch - processPackages [odoo-addon-quality-control-stock-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_quality_control_stock_oca-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_quality_control_stock_oca-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-quality-control-stock-oca/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-30 06:37:04] INFO root fetch - processPackages [rad4sea]: executing diffoscope
+[2024-05-30 06:37:04] INFO root fetch - processPackages [rad4sea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rad4sea-0.0.1.tar.gz tmp/rad4sea-0.0.2.tar.gz --markdown 20240530/r/rad4sea/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 06:37:04] INFO root fetch - processPackages [odoo14-addon-account-move-line-mrp-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_line_mrp_info-14.0.1.1.1.dev4-py3-none-any.whl.zip]
+[2024-05-30 06:37:04] INFO root fetch - processPackages [odoo14-addon-account-move-line-mrp-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_line_mrp_info-14.0.1.1.1.dev6-py3-none-any.whl.zip]
+[2024-05-30 06:37:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-line-mrp-info]: success
+[2024-05-30 06:37:04] INFO root fetch - processPackages [rad4sea]: Remove: archive file [/home/abi/fetcher/tmp/rad4sea-0.0.1.tar.gz]
+[2024-05-30 06:37:04] INFO root fetch - processPackages [rad4sea]: Remove: archive file [/home/abi/fetcher/tmp/rad4sea-0.0.2.tar.gz]
+[2024-05-30 06:37:04] INFO root fetch - main [MainThread]: End processing [rad4sea]: success
+[2024-05-30 06:37:04] INFO root fetch - processPackages [odoo-addon-quality-control-stock-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_stock_oca-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-30 06:37:04] INFO root fetch - processPackages [odoo-addon-quality-control-stock-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_stock_oca-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-30 06:37:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-quality-control-stock-oca]: success
+[2024-05-30 06:37:05] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-30 06:37:05] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-30 06:37:05] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-30 06:37:05] INFO root fetch - main [MainThread]: Store serial: [23442286]
