@@ -8397,3 +8397,42 @@ EOFError: EOF read where object expected
 [2024-05-30 04:02:50] INFO root fetch - processPackages [edx-completion]: Remove: archive file [/home/abi/fetcher/tmp/edx_completion-4.6.1.tar.gz]
 [2024-05-30 04:02:50] INFO root fetch - main [MainThread]: End processing [edx-completion]: success
 [2024-05-30 04:02:50] INFO root fetch - main [MainThread]: Store serial: [23441121]
+[2024-05-30 04:04:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441121]
+[2024-05-30 04:04:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 04:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django_medilab_dental
+[2024-05-30 04:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-salesloft
+[2024-05-30 04:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyiron-workflow
+[2024-05-30 04:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: txdpy
+[2024-05-30 04:04:58] INFO root fetch - processPackages [django_medilab_dental]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-30 04:04:58] INFO root fetch - processPackages [airbyte-source-salesloft]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-30 04:04:58] INFO root fetch - processPackages [txdpy]: New version: [8.9.2] Old Version: [8.9.1]
+[2024-05-30 04:04:58] INFO root fetch - processPackages [pyiron-workflow]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-05-30 04:04:59] INFO root fetch - processPackages [txdpy]: Downloading https://files.pythonhosted.org/packages/23/6a/bca707e072635cb760662b12d3b544de0478b1a86515cbb1017cf1732d59/txdpy-8.9.1.tar.gz
+[2024-05-30 04:04:59] INFO root fetch - processPackages [django_medilab_dental]: Downloading https://files.pythonhosted.org/packages/32/62/fc138c21082d7d65ba6098570adbbab56cbcce99f190425542df2b49cb77/django_medilab_dental-3.0.0.tar.gz
+[2024-05-30 04:04:59] INFO root fetch - processPackages [airbyte-source-salesloft]: Downloading https://files.pythonhosted.org/packages/c3/33/a73e1bb60a7389bcf973cb7fdbf0e8fa499ca0592f79b9fd51f23c71e8b3/airbyte-source-salesloft-1.2.0.tar.gz
+[2024-05-30 04:04:59] INFO root fetch - processPackages [pyiron-workflow]: Downloading https://files.pythonhosted.org/packages/1f/7a/f2310f50f2ffc145f71924c2d6e14ed3e4c2701a1f649727a9c6ff01d68b/pyiron_workflow-0.7.1.tar.gz
+[2024-05-30 04:04:59] INFO root fetch - processPackages [txdpy]: Downloading https://files.pythonhosted.org/packages/99/19/0d51cc479425b9f5fbe3034f510f8eedd3d27cebf498a06430fb59e8c813/txdpy-8.9.2.tar.gz
+[2024-05-30 04:04:59] INFO root fetch - processPackages [airbyte-source-salesloft]: Downloading https://files.pythonhosted.org/packages/bc/99/79e6ad91e07bf89015ab2ef1ac8d6e289f8db687992b1abf95f8e067fde6/airbyte_source_salesloft-1.2.1.tar.gz
+[2024-05-30 04:04:59] INFO root fetch - processPackages [pyiron-workflow]: Downloading https://files.pythonhosted.org/packages/06/fd/034068647e5fd1c50a143c9c5d7ef05577d1c598359abe6246c0617f62e2/pyiron_workflow-0.8.0.tar.gz
+[2024-05-30 04:04:59] INFO root fetch - processPackages [txdpy]: executing diffoscope
+[2024-05-30 04:04:59] INFO root fetch - processPackages [txdpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txdpy-8.9.1.tar.gz tmp/txdpy-8.9.2.tar.gz --markdown 20240530/t/txdpy/8.9.1-8.9.2/README.md --exclude *.pyd
+[2024-05-30 04:04:59] INFO root fetch - processPackages [airbyte-source-salesloft]: executing diffoscope
+[2024-05-30 04:04:59] INFO root fetch - processPackages [airbyte-source-salesloft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-salesloft-1.2.0.tar.gz tmp/airbyte_source_salesloft-1.2.1.tar.gz --markdown 20240530/a/airbyte-source-salesloft/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-30 04:04:59] INFO root fetch - processPackages [django_medilab_dental]: Downloading https://files.pythonhosted.org/packages/72/72/bac5cb7183216ee7868ab7306325c82075aacb37ecdf1b03872126189ee6/django_medilab_dental-3.1.0.tar.gz
+[2024-05-30 04:04:59] INFO root fetch - processPackages [pyiron-workflow]: executing diffoscope
+[2024-05-30 04:04:59] INFO root fetch - processPackages [pyiron-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_workflow-0.7.1.tar.gz tmp/pyiron_workflow-0.8.0.tar.gz --markdown 20240530/p/pyiron-workflow/0.7.1-0.8.0/README.md --exclude *.pyd
+[2024-05-30 04:05:00] INFO root fetch - processPackages [airbyte-source-salesloft]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-salesloft-1.2.0.tar.gz]
+[2024-05-30 04:05:00] INFO root fetch - processPackages [airbyte-source-salesloft]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesloft-1.2.1.tar.gz]
+[2024-05-30 04:05:00] INFO root fetch - main [MainThread]: End processing [airbyte-source-salesloft]: success
+[2024-05-30 04:05:00] INFO root fetch - processPackages [txdpy]: Remove: archive file [/home/abi/fetcher/tmp/txdpy-8.9.1.tar.gz]
+[2024-05-30 04:05:00] INFO root fetch - processPackages [txdpy]: Remove: archive file [/home/abi/fetcher/tmp/txdpy-8.9.2.tar.gz]
+[2024-05-30 04:05:00] INFO root fetch - main [MainThread]: End processing [txdpy]: success
+[2024-05-30 04:05:00] INFO root fetch - processPackages [pyiron-workflow]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_workflow-0.7.1.tar.gz]
+[2024-05-30 04:05:00] INFO root fetch - processPackages [pyiron-workflow]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_workflow-0.8.0.tar.gz]
+[2024-05-30 04:05:00] INFO root fetch - main [MainThread]: End processing [pyiron-workflow]: success
+[2024-05-30 04:05:01] INFO root fetch - processPackages [django_medilab_dental]: executing diffoscope
+[2024-05-30 04:05:01] INFO root fetch - processPackages [django_medilab_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_medilab_dental-3.0.0.tar.gz tmp/django_medilab_dental-3.1.0.tar.gz --markdown 20240530/d/django_medilab_dental/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-30 04:05:03] INFO root fetch - processPackages [django_medilab_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medilab_dental-3.0.0.tar.gz]
+[2024-05-30 04:05:03] INFO root fetch - processPackages [django_medilab_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medilab_dental-3.1.0.tar.gz]
+[2024-05-30 04:05:03] INFO root fetch - main [MainThread]: End processing [django_medilab_dental]: success
+[2024-05-30 04:05:03] INFO root fetch - main [MainThread]: Store serial: [23441140]
