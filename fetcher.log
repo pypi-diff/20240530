@@ -8492,3 +8492,24 @@ EOFError: EOF read where object expected
 [2024-05-30 04:13:38] INFO root fetch - processPackages [llama-parse]: Remove: archive file [/home/abi/fetcher/tmp/llama_parse-0.4.3.tar.gz]
 [2024-05-30 04:13:38] INFO root fetch - main [MainThread]: End processing [llama-parse]: success
 [2024-05-30 04:13:38] INFO root fetch - main [MainThread]: Store serial: [23441159]
+[2024-05-30 04:15:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441159]
+[2024-05-30 04:15:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 04:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-riskplus
+[2024-05-30 04:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: palimpzest
+[2024-05-30 04:15:46] INFO root fetch - processPackages [palimpzest]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 04:15:46] INFO root fetch - processPackages [antchain-riskplus]: New version: [1.9.5] Old Version: [1.9.3]
+[2024-05-30 04:15:47] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/bf/c1/dbe03c2d25af3fa0175660a07bf2ec833509da27dea50cc2c6116d0311e4/antchain_riskplus-1.9.3.tar.gz
+[2024-05-30 04:15:47] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/4f/6a/2373a1d9284af8fbd1d9e599fd052a5a8824a28746e225f00d26dd59a76a/palimpzest-0.1.8.tar.gz
+[2024-05-30 04:15:47] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/12/c2/d3710d50579d01a29713d277bd95ab4c8f88ed9d297a3ffb73afbd01cb30/antchain_riskplus-1.9.5.tar.gz
+[2024-05-30 04:15:47] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/a7/2f/4c5d4dc8fc0b28cfc59adc448f482eb20b789f2fc4d6ad4f25d08d42541b/palimpzest-0.1.9.tar.gz
+[2024-05-30 04:15:47] INFO root fetch - processPackages [antchain-riskplus]: executing diffoscope
+[2024-05-30 04:15:47] INFO root fetch - processPackages [antchain-riskplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_riskplus-1.9.3.tar.gz tmp/antchain_riskplus-1.9.5.tar.gz --markdown 20240530/a/antchain-riskplus/1.9.3-1.9.5/README.md --exclude *.pyd
+[2024-05-30 04:15:47] INFO root fetch - processPackages [palimpzest]: executing diffoscope
+[2024-05-30 04:15:47] INFO root fetch - processPackages [palimpzest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palimpzest-0.1.8.tar.gz tmp/palimpzest-0.1.9.tar.gz --markdown 20240530/p/palimpzest/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 04:15:48] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.8.tar.gz]
+[2024-05-30 04:15:48] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.9.tar.gz]
+[2024-05-30 04:15:48] INFO root fetch - main [MainThread]: End processing [palimpzest]: success
+[2024-05-30 04:15:48] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.3.tar.gz]
+[2024-05-30 04:15:48] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.5.tar.gz]
+[2024-05-30 04:15:48] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
+[2024-05-30 04:15:48] INFO root fetch - main [MainThread]: Store serial: [23441165]
