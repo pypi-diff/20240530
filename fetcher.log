@@ -16595,3 +16595,54 @@ EOFError: EOF read where object expected
 [2024-05-30 09:49:51] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
 [2024-05-30 09:49:51] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
 [2024-05-30 09:49:51] INFO root fetch - main [MainThread]: Store serial: [23444419]
+[2024-05-30 09:51:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444419]
+[2024-05-30 09:52:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 09:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-05-30 09:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airflow-hop-plugin
+[2024-05-30 09:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CI-CloudConnector
+[2024-05-30 09:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: monday-code
+[2024-05-30 09:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-schedulerx220190430
+[2024-05-30 09:52:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-tasks
+[2024-05-30 09:52:01] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-30 09:52:01] INFO root fetch - processPackages [CI-CloudConnector]: New version: [1.2] Old Version: [1.1]
+[2024-05-30 09:52:01] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-30 09:52:01] INFO root fetch - processPackages [monday-code]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-30 09:52:01] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/19/53/19f3603d392530860cf09ca005988932863a13de480e982d6497c21f0603/ci_cloudconnector-1.1.tar.gz
+[2024-05-30 09:52:01] INFO root fetch - processPackages [airflow-hop-plugin]: New version: [0.1.0b4] Old Version: [0.1.0b3]
+[2024-05-30 09:52:01] WARNING root fetch - processPackages [django-tasks]: Skipping, unable to determine old version
+[2024-05-30 09:52:01] INFO root fetch - main [MainThread]: End processing [django-tasks] error
+[2024-05-30 09:52:01] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-30 09:52:01] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: Downloading https://files.pythonhosted.org/packages/32/60/350585393a803cd68fddd287b1285df3989a26e8091d389ec97c9f63ccf8/alibabacloud_schedulerx220190430-1.1.8.tar.gz
+[2024-05-30 09:52:01] INFO root fetch - processPackages [monday-code]: Downloading https://files.pythonhosted.org/packages/a4/09/286e592ec176e3a7e2bba5689a5ba6145fb3a713df236b2b4a77933f528f/monday_code-0.0.5.tar.gz
+[2024-05-30 09:52:02] INFO root fetch - processPackages [airflow-hop-plugin]: Downloading https://files.pythonhosted.org/packages/e9/50/191da146c14a77ae001a695c7d1d8affe8d3e29ba21483fe47f5f2b52c64/airflow-hop-plugin-0.1.0b3.tar.gz
+[2024-05-30 09:52:02] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/96/f2/c2a68dfc8f1b04acd86accb55a216b2a5c50d53918285f42b038296f2ece/ci_cloudconnector-1.2.tar.gz
+[2024-05-30 09:52:02] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-30 09:52:02] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: Downloading https://files.pythonhosted.org/packages/2b/e7/a2c25333e9d7eb58c4b84ce13554a4be642c7d3f262f90ae4603f896a472/alibabacloud_schedulerx220190430-1.1.9.tar.gz
+[2024-05-30 09:52:02] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-30 09:52:02] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-1.1.tar.gz tmp/ci_cloudconnector-1.2.tar.gz --markdown 20240530/C/CI-CloudConnector/1.1-1.2/README.md --exclude *.pyd
+[2024-05-30 09:52:02] INFO root fetch - processPackages [monday-code]: Downloading https://files.pythonhosted.org/packages/d7/e0/9fbf9e21abdd331f936238892a672855bda33861fbb7a5f9aeadd825dac5/monday_code-0.0.6.tar.gz
+[2024-05-30 09:52:02] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: executing diffoscope
+[2024-05-30 09:52:02] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_schedulerx220190430-1.1.8.tar.gz tmp/alibabacloud_schedulerx220190430-1.1.9.tar.gz --markdown 20240530/a/alibabacloud-schedulerx220190430/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-30 09:52:02] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-30 09:52:02] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240530/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-30 09:52:02] INFO root fetch - processPackages [airflow-hop-plugin]: Downloading https://files.pythonhosted.org/packages/d1/2e/9bc256a279ea6ef25a51ddcaafd7fb23714b9c27172df91956a9e7e4aafc/airflow_hop_plugin-0.1.0b4.tar.gz
+[2024-05-30 09:52:02] INFO root fetch - processPackages [monday-code]: executing diffoscope
+[2024-05-30 09:52:02] INFO root fetch - processPackages [monday-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monday_code-0.0.5.tar.gz tmp/monday_code-0.0.6.tar.gz --markdown 20240530/m/monday-code/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-30 09:52:02] INFO root fetch - processPackages [airflow-hop-plugin]: executing diffoscope
+[2024-05-30 09:52:02] INFO root fetch - processPackages [airflow-hop-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-hop-plugin-0.1.0b3.tar.gz tmp/airflow_hop_plugin-0.1.0b4.tar.gz --markdown 20240530/a/airflow-hop-plugin/0.1.0b3-0.1.0b4/README.md --exclude *.pyd
+[2024-05-30 09:52:02] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.1.tar.gz]
+[2024-05-30 09:52:02] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.2.tar.gz]
+[2024-05-30 09:52:02] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-30 09:52:03] INFO root fetch - processPackages [airflow-hop-plugin]: Remove: archive file [/home/abi/fetcher/tmp/airflow-hop-plugin-0.1.0b3.tar.gz]
+[2024-05-30 09:52:03] INFO root fetch - processPackages [airflow-hop-plugin]: Remove: archive file [/home/abi/fetcher/tmp/airflow_hop_plugin-0.1.0b4.tar.gz]
+[2024-05-30 09:52:03] INFO root fetch - main [MainThread]: End processing [airflow-hop-plugin]: success
+[2024-05-30 09:52:03] INFO root fetch - processPackages [monday-code]: Remove: archive file [/home/abi/fetcher/tmp/monday_code-0.0.5.tar.gz]
+[2024-05-30 09:52:03] INFO root fetch - processPackages [monday-code]: Remove: archive file [/home/abi/fetcher/tmp/monday_code-0.0.6.tar.gz]
+[2024-05-30 09:52:03] INFO root fetch - main [MainThread]: End processing [monday-code]: success
+[2024-05-30 09:52:03] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_schedulerx220190430-1.1.8.tar.gz]
+[2024-05-30 09:52:03] INFO root fetch - processPackages [alibabacloud-schedulerx220190430]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_schedulerx220190430-1.1.9.tar.gz]
+[2024-05-30 09:52:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-schedulerx220190430]: success
+[2024-05-30 09:52:04] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-30 09:52:04] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-30 09:52:04] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-30 09:52:04] INFO root fetch - main [MainThread]: Store serial: [23444437]
