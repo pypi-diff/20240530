@@ -9657,3 +9657,24 @@ EOFError: EOF read where object expected
 [2024-05-30 05:18:31] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-05-30 05:18:31] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-05-30 05:18:31] INFO root fetch - main [MainThread]: Store serial: [23441642]
+[2024-05-30 05:20:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441642]
+[2024-05-30 05:20:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 05:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphemy
+[2024-05-30 05:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: molecular-interaction-rules
+[2024-05-30 05:20:40] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.3] Old Version: [0.2]
+[2024-05-30 05:20:40] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/41/31/7f749754cd4d8a6a9ef76765d4f4fd79175699ef1bea48bdea351387eff6/molecular_interaction_rules-0.2.tar.gz
+[2024-05-30 05:20:40] INFO root fetch - processPackages [graphemy]: New version: [1.0.1] Old Version: [1.0.0rc7]
+[2024-05-30 05:20:40] INFO root fetch - processPackages [graphemy]: Downloading https://files.pythonhosted.org/packages/e8/48/2d88c6ad07e7a042f41c6f75a078148771732e582d7a3aedc76dadba6788/graphemy-1.0.0rc7.tar.gz
+[2024-05-30 05:20:40] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/0d/bd/a9ef28b02c207b10848eb4e91d1f8a1388c74ed3c052156b56b93ef41477/molecular_interaction_rules-0.3.tar.gz
+[2024-05-30 05:20:40] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 05:20:40] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.2.tar.gz tmp/molecular_interaction_rules-0.3.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.2-0.3/README.md --exclude *.pyd
+[2024-05-30 05:20:40] INFO root fetch - processPackages [graphemy]: Downloading https://files.pythonhosted.org/packages/1c/9f/5f880a6da8d35265b6b03facfda16b94aa945a3adf5192b79c4bbc94c75f/graphemy-1.0.1.tar.gz
+[2024-05-30 05:20:40] INFO root fetch - processPackages [graphemy]: executing diffoscope
+[2024-05-30 05:20:40] INFO root fetch - processPackages [graphemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphemy-1.0.0rc7.tar.gz tmp/graphemy-1.0.1.tar.gz --markdown 20240530/g/graphemy/1.0.0rc7-1.0.1/README.md --exclude *.pyd
+[2024-05-30 05:20:41] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.2.tar.gz]
+[2024-05-30 05:20:41] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.3.tar.gz]
+[2024-05-30 05:20:41] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 05:20:41] INFO root fetch - processPackages [graphemy]: Remove: archive file [/home/abi/fetcher/tmp/graphemy-1.0.0rc7.tar.gz]
+[2024-05-30 05:20:41] INFO root fetch - processPackages [graphemy]: Remove: archive file [/home/abi/fetcher/tmp/graphemy-1.0.1.tar.gz]
+[2024-05-30 05:20:41] INFO root fetch - main [MainThread]: End processing [graphemy]: success
+[2024-05-30 05:20:41] INFO root fetch - main [MainThread]: Store serial: [23441647]
