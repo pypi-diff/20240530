@@ -22974,3 +22974,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 12:26:51] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.9.tar.gz]
 [2024-05-30 12:26:51] INFO root fetch - main [MainThread]: End processing [PyE2]: success
 [2024-05-30 12:26:51] INFO root fetch - main [MainThread]: Store serial: [23447028]
+[2024-05-30 12:28:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23447028]
+[2024-05-30 12:28:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 12:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asakes
+[2024-05-30 12:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genomehubs
+[2024-05-30 12:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: juliang
+[2024-05-30 12:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: YWP
+[2024-05-30 12:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ctrip-helper
+[2024-05-30 12:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BarteSDK
+[2024-05-30 12:28:59] INFO root fetch - processPackages [genomehubs]: New version: [2.8.9] Old Version: [2.8.8]
+[2024-05-30 12:28:59] INFO root fetch - processPackages [ctrip-helper]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 12:28:59] INFO root fetch - processPackages [BarteSDK]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-30 12:28:59] WARNING root fetch - processPackages [asakes]: Skipping, unable to determine old version
+[2024-05-30 12:28:59] INFO root fetch - main [MainThread]: End processing [asakes] error
+[2024-05-30 12:29:00] INFO root fetch - processPackages [juliang]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-30 12:29:00] INFO root fetch - processPackages [genomehubs]: Downloading https://files.pythonhosted.org/packages/9c/4c/608f36cc05d99a88aecbc115585b3036e5f3fd827984673d4952589b0d54/genomehubs-2.8.8.tar.gz
+[2024-05-30 12:29:00] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/a1/c6/3b21bce505a29a3f6a5688fd27f1c5ebd29058d52a2f89a626e08d4e592f/ctrip-helper-0.1.8.tar.gz
+[2024-05-30 12:29:00] INFO root fetch - processPackages [YWP]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-30 12:29:00] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/dc/f5/2f62d77008f8a3a1697a3c430a163d4691179fca09744220041952be0bb0/BarteSDK-1.0.1.tar.gz
+[2024-05-30 12:29:00] INFO root fetch - processPackages [juliang]: Downloading https://files.pythonhosted.org/packages/79/d2/59cca9b542a0d4fd9111c2d2af68a7e6bea00c4345444041565d79257140/juliang-1.0.1.tar.gz
+[2024-05-30 12:29:00] INFO root fetch - processPackages [YWP]: Downloading https://files.pythonhosted.org/packages/7b/3f/952a37d2c61e45e94b06f30395b69e6969a7e49c742da7eb29352f3bb4ce/ywp-0.7.0.tar.gz
+[2024-05-30 12:29:00] INFO root fetch - processPackages [genomehubs]: Downloading https://files.pythonhosted.org/packages/9b/1c/5edbddec749d7db76dc18c7261b63960fe42a1071d339f713cd5eeb898df/genomehubs-2.8.9.tar.gz
+[2024-05-30 12:29:00] WARNING root fetch - processPackages [YWP]: Skipping package: exceeds size limit 15362727>=10485760
+[2024-05-30 12:29:00] INFO root fetch - main [MainThread]: End processing [YWP] error
+[2024-05-30 12:29:00] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/b1/c1/54cdc5f1ac55ff438c09b560ccdd590a31ef72150dbc0946e9b647c4cc2e/BarteSDK-1.0.2.tar.gz
+[2024-05-30 12:29:00] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/88/ad/922e7dc2f9fdf9aeeb8f7e007f250a1bf090cebf098b9e5177f578fe514e/ctrip-helper-0.1.9.tar.gz
+[2024-05-30 12:29:00] INFO root fetch - processPackages [genomehubs]: executing diffoscope
+[2024-05-30 12:29:00] INFO root fetch - processPackages [genomehubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomehubs-2.8.8.tar.gz tmp/genomehubs-2.8.9.tar.gz --markdown 20240530/g/genomehubs/2.8.8-2.8.9/README.md --exclude *.pyd
+[2024-05-30 12:29:00] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-30 12:29:00] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BarteSDK-1.0.1.tar.gz tmp/BarteSDK-1.0.2.tar.gz --markdown 20240530/B/BarteSDK/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-30 12:29:00] INFO root fetch - processPackages [juliang]: Downloading https://files.pythonhosted.org/packages/9d/37/5cfcd89157981bf00a5bdd4518f91d3621898ad7daba373604f78b91e6d2/juliang-1.1.0.tar.gz
+[2024-05-30 12:29:00] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-30 12:29:00] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.1.8.tar.gz tmp/ctrip-helper-0.1.9.tar.gz --markdown 20240530/c/ctrip-helper/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 12:29:00] INFO root fetch - processPackages [juliang]: executing diffoscope
+[2024-05-30 12:29:00] INFO root fetch - processPackages [juliang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juliang-1.0.1.tar.gz tmp/juliang-1.1.0.tar.gz --markdown 20240530/j/juliang/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-30 12:29:01] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/BarteSDK-1.0.1.tar.gz]
+[2024-05-30 12:29:01] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/BarteSDK-1.0.2.tar.gz]
+[2024-05-30 12:29:01] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-30 12:29:01] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.1.8.tar.gz]
+[2024-05-30 12:29:01] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.1.9.tar.gz]
+[2024-05-30 12:29:01] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-30 12:29:01] INFO root fetch - processPackages [juliang]: Remove: archive file [/home/abi/fetcher/tmp/juliang-1.0.1.tar.gz]
+[2024-05-30 12:29:01] INFO root fetch - processPackages [juliang]: Remove: archive file [/home/abi/fetcher/tmp/juliang-1.1.0.tar.gz]
+[2024-05-30 12:29:01] INFO root fetch - main [MainThread]: End processing [juliang]: success
+[2024-05-30 12:29:01] INFO root fetch - processPackages [genomehubs]: Remove: archive file [/home/abi/fetcher/tmp/genomehubs-2.8.8.tar.gz]
+[2024-05-30 12:29:01] INFO root fetch - processPackages [genomehubs]: Remove: archive file [/home/abi/fetcher/tmp/genomehubs-2.8.9.tar.gz]
+[2024-05-30 12:29:01] INFO root fetch - main [MainThread]: End processing [genomehubs]: success
+[2024-05-30 12:29:01] INFO root fetch - main [MainThread]: Store serial: [23447047]
