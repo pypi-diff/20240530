@@ -12500,3 +12500,60 @@ EOFError: EOF read where object expected
 [2024-05-30 07:23:55] INFO root fetch - processPackages [vbench]: Remove: archive file [/home/abi/fetcher/tmp/vbench-0.1.2.tar.gz]
 [2024-05-30 07:23:55] INFO root fetch - main [MainThread]: End processing [vbench]: success
 [2024-05-30 07:23:55] INFO root fetch - main [MainThread]: Store serial: [23442657]
+[2024-05-30 07:26:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442657]
+[2024-05-30 07:26:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 07:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-purchase-triple-discount
+[2024-05-30 07:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RapidanAPI
+[2024-05-30 07:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numberhenkou13517
+[2024-05-30 07:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: date-difference
+[2024-05-30 07:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strictdoc
+[2024-05-30 07:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nadl
+[2024-05-30 07:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: auto-coder
+[2024-05-30 07:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: salve-ipc
+[2024-05-30 07:26:05] INFO root fetch - processPackages [nadl]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-05-30 07:26:05] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2024-05-30 07:26:05] INFO root fetch - processPackages [RapidanAPI]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-30 07:26:05] WARNING root fetch - processPackages [salve-ipc]: Skipping, unable to determine old version
+[2024-05-30 07:26:05] INFO root fetch - main [MainThread]: End processing [salve-ipc] error
+[2024-05-30 07:26:06] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 07:26:06] WARNING root fetch - processPackages [numberhenkou13517]: Skipping, unable to determine old version
+[2024-05-30 07:26:06] INFO root fetch - main [MainThread]: End processing [numberhenkou13517] error
+[2024-05-30 07:26:06] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/d1/ac/f09e5a2d9068dcc6eea25ccbb15d65c1ad673279768d305084e192d3537e/nadl-1.5.3.tar.gz
+[2024-05-30 07:26:06] WARNING root fetch - processPackages [date-difference]: Skipping, unable to determine old version
+[2024-05-30 07:26:06] INFO root fetch - main [MainThread]: End processing [date-difference] error
+[2024-05-30 07:26:06] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/93/42/530b45ac027c5f91b5711e3d6014a2adcc6906c1e7ccff21129896dc6634/RapidanAPI-1.0.8.tar.gz
+[2024-05-30 07:26:06] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-05-30 07:26:06] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 07:26:06] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: Downloading https://files.pythonhosted.org/packages/61/0b/e2e17499dd5ae29e82783855d990167c48d6631cb7092a1b546e2d21fa21/odoo_addon_purchase_triple_discount-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-30 07:26:06] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/0e/0c/3782c5673a36cda9e2189ef1e7d9661ba2f1e5c9822b736cf2ce0d2545a7/strictdoc-0.0.8.tar.gz
+[2024-05-30 07:26:06] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/12/fc/9a6cc2d05c47996e22f3b623bac3d3ce1627cc066955d8aa06751112d121/RapidanAPI-1.0.9.tar.gz
+[2024-05-30 07:26:06] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-05-30 07:26:06] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/6a/d2/b88f2582db5058d880d7f6b23cd55763596f65555154579f18d45eb7ca32/nadl-1.5.4.tar.gz
+[2024-05-30 07:26:06] INFO root fetch - processPackages [RapidanAPI]: executing diffoscope
+[2024-05-30 07:26:06] INFO root fetch - processPackages [RapidanAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidanAPI-1.0.8.tar.gz tmp/RapidanAPI-1.0.9.tar.gz --markdown 20240530/R/RapidanAPI/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-30 07:26:06] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-05-30 07:26:06] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240530/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 07:26:06] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: Downloading https://files.pythonhosted.org/packages/ca/7a/b78261a75a0026a05850d83b50e52dc014d8e905711f4569df85b64a0f60/odoo_addon_purchase_triple_discount-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-30 07:26:06] INFO root fetch - processPackages [nadl]: executing diffoscope
+[2024-05-30 07:26:06] INFO root fetch - processPackages [nadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nadl-1.5.3.tar.gz tmp/nadl-1.5.4.tar.gz --markdown 20240530/n/nadl/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-05-30 07:26:06] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: executing diffoscope
+[2024-05-30 07:26:06] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_triple_discount-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_purchase_triple_discount-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-purchase-triple-discount/16.0.1.0.0.6-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-30 07:26:06] INFO root fetch - processPackages [strictdoc]: Downloading https://files.pythonhosted.org/packages/b6/06/2219b569301c00406d344dca69ac5e31a169bb9529b66ec957609495d940/strictdoc-0.0.9.tar.gz
+[2024-05-30 07:26:07] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2024-05-30 07:26:07] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20240530/s/strictdoc/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 07:26:07] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.8.tar.gz]
+[2024-05-30 07:26:07] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.9.tar.gz]
+[2024-05-30 07:26:07] INFO root fetch - main [MainThread]: End processing [RapidanAPI]: success
+[2024-05-30 07:26:07] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-05-30 07:26:07] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-05-30 07:26:07] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-05-30 07:26:07] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.5.3.tar.gz]
+[2024-05-30 07:26:07] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.5.4.tar.gz]
+[2024-05-30 07:26:07] INFO root fetch - main [MainThread]: End processing [nadl]: success
+[2024-05-30 07:26:07] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_triple_discount-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-30 07:26:07] INFO root fetch - processPackages [odoo-addon-purchase-triple-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_triple_discount-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-30 07:26:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-triple-discount]: success
+[2024-05-30 07:26:07] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.8.tar.gz]
+[2024-05-30 07:26:07] INFO root fetch - processPackages [strictdoc]: Remove: archive file [/home/abi/fetcher/tmp/strictdoc-0.0.9.tar.gz]
+[2024-05-30 07:26:07] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2024-05-30 07:26:07] INFO root fetch - main [MainThread]: Store serial: [23442681]
