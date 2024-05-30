@@ -11391,3 +11391,11 @@ EOFError: EOF read where object expected
 [2024-05-30 06:23:54] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.8.8.tar.gz]
 [2024-05-30 06:23:54] INFO root fetch - main [MainThread]: End processing [iac-init]: success
 [2024-05-30 06:23:54] INFO root fetch - main [MainThread]: Store serial: [23442222]
+[2024-05-30 06:26:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442222]
+[2024-05-30 06:26:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 06:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpu4pyscf-cuda12x
+[2024-05-30 06:26:06] INFO root fetch - processPackages [gpu4pyscf-cuda12x]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-05-30 06:26:06] INFO root fetch - processPackages [gpu4pyscf-cuda12x]: Downloading https://files.pythonhosted.org/packages/e1/63/cb63f394b269dd6865146fa4ab768e2ad3ee4378dc4d3e6791cfe5133373/gpu4pyscf_cuda12x-0.7.7-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 06:26:06] WARNING root fetch - processPackages [gpu4pyscf-cuda12x]: Skipping package: exceeds size limit 135631599>=10485760
+[2024-05-30 06:26:06] INFO root fetch - main [MainThread]: End processing [gpu4pyscf-cuda12x] error
+[2024-05-30 06:26:06] INFO root fetch - main [MainThread]: Store serial: [23442224]
