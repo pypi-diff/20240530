@@ -2824,3 +2824,15 @@ EOFError: EOF read where object expected
 [2024-05-30 02:46:00] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405291539.tar.gz]
 [2024-05-30 02:46:00] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-30 02:46:00] INFO root fetch - main [MainThread]: Store serial: [23439051]
+[2024-05-30 02:48:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439051]
+[2024-05-30 02:48:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 02:48:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awsPrint
+[2024-05-30 02:48:09] INFO root fetch - processPackages [awsPrint]: New version: [1.3] Old Version: [1.2]
+[2024-05-30 02:48:09] INFO root fetch - processPackages [awsPrint]: Downloading https://files.pythonhosted.org/packages/07/02/92dabc9637b3d43df904ae13c574d19e87ba9d0504be663ae02f95b06cb6/awsPrint-1.2.tar.gz
+[2024-05-30 02:48:10] INFO root fetch - processPackages [awsPrint]: Downloading https://files.pythonhosted.org/packages/d0/c9/05dda9722dda5d28d40d0ff78507844292dd2854d08604838a221c98ca1b/awsPrint-1.3.tar.gz
+[2024-05-30 02:48:10] INFO root fetch - processPackages [awsPrint]: executing diffoscope
+[2024-05-30 02:48:10] INFO root fetch - processPackages [awsPrint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsPrint-1.2.tar.gz tmp/awsPrint-1.3.tar.gz --markdown 20240530/a/awsPrint/1.2-1.3/README.md --exclude *.pyd
+[2024-05-30 02:48:11] INFO root fetch - processPackages [awsPrint]: Remove: archive file [/home/abi/fetcher/tmp/awsPrint-1.2.tar.gz]
+[2024-05-30 02:48:11] INFO root fetch - processPackages [awsPrint]: Remove: archive file [/home/abi/fetcher/tmp/awsPrint-1.3.tar.gz]
+[2024-05-30 02:48:11] INFO root fetch - main [MainThread]: End processing [awsPrint]: success
+[2024-05-30 02:48:11] INFO root fetch - main [MainThread]: Store serial: [23439053]
