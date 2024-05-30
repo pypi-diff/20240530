@@ -10512,3 +10512,54 @@ EOFError: EOF read where object expected
 [2024-05-30 05:57:49] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_hide_price-17.0.1.0.0.5-py3-none-any.whl.zip]
 [2024-05-30 05:57:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-hide-price]: success
 [2024-05-30 05:57:49] INFO root fetch - main [MainThread]: Store serial: [23441917]
+[2024-05-30 05:59:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441917]
+[2024-05-30 05:59:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 05:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-flux
+[2024-05-30 05:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imy
+[2024-05-30 05:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: music-tool-kit
+[2024-05-30 05:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tuyul-sdk
+[2024-05-30 05:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: recoverable-async-task
+[2024-05-30 05:59:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: watermarkdt2
+[2024-05-30 05:59:57] INFO root fetch - processPackages [tuyul-sdk]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2024-05-30 05:59:57] INFO root fetch - processPackages [music-tool-kit]: New version: [1.3.9] Old Version: [1.3.7]
+[2024-05-30 05:59:57] INFO root fetch - processPackages [python-flux]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-30 05:59:57] WARNING root fetch - processPackages [watermarkdt2]: Skipping, unable to determine old version
+[2024-05-30 05:59:57] INFO root fetch - main [MainThread]: End processing [watermarkdt2] error
+[2024-05-30 05:59:57] INFO root fetch - processPackages [recoverable-async-task]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-30 05:59:57] INFO root fetch - processPackages [imy]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-30 05:59:57] INFO root fetch - processPackages [music-tool-kit]: Downloading https://files.pythonhosted.org/packages/fa/07/e97e49b2076389ac9389a5e0536ee113a6b979da08156c5fc1ba903842c2/music-tool-kit-1.3.7.tar.gz
+[2024-05-30 05:59:58] INFO root fetch - processPackages [tuyul-sdk]: Downloading https://files.pythonhosted.org/packages/71/b5/0faac89afcaa054c421a63bd972b971f1dbaf52febf38ff72d0b17cac9f4/tuyul_sdk-0.0.1rc1.tar.gz
+[2024-05-30 05:59:58] INFO root fetch - processPackages [music-tool-kit]: Downloading https://files.pythonhosted.org/packages/61/46/9dea7689535604f310b9ef6eb925e2991a1484513db2ec6ba68994663584/music-tool-kit-1.3.9.tar.gz
+[2024-05-30 05:59:58] INFO root fetch - processPackages [python-flux]: Downloading https://files.pythonhosted.org/packages/82/94/f3e1fda65c9b4023d3d8a489dd902f9763e1f4892623def4ec03f8e6cae1/python_flux-1.4.0.tar.gz
+[2024-05-30 05:59:58] INFO root fetch - processPackages [imy]: Downloading https://files.pythonhosted.org/packages/3a/6c/5f6f80024a031b157ccf9d393394b780afba7791a3f0ac4ac5a887c1693d/imy-0.3.5.tar.gz
+[2024-05-30 05:59:58] INFO root fetch - processPackages [recoverable-async-task]: Downloading https://files.pythonhosted.org/packages/c1/13/f0048d8b9190d05f357d85f6008b434b372858119658077942d3533b2620/recoverable_async_task-0.1.7.tar.gz
+[2024-05-30 05:59:58] INFO root fetch - processPackages [music-tool-kit]: executing diffoscope
+[2024-05-30 05:59:58] INFO root fetch - processPackages [music-tool-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-tool-kit-1.3.7.tar.gz tmp/music-tool-kit-1.3.9.tar.gz --markdown 20240530/m/music-tool-kit/1.3.7-1.3.9/README.md --exclude *.pyd
+[2024-05-30 05:59:58] INFO root fetch - processPackages [tuyul-sdk]: Downloading https://files.pythonhosted.org/packages/a2/92/db61d1f698c8ff161bdf162ce37d71ae6355f8c3af7c8b44606fca7fc23c/tuyul_sdk-0.0.1rc2.tar.gz
+[2024-05-30 05:59:58] INFO root fetch - processPackages [python-flux]: Downloading https://files.pythonhosted.org/packages/bb/eb/f76c6a188bea7428bc6212ae61ecdd2a99dbfa10032ea0c98752cb73a886/python_flux-1.5.0.tar.gz
+[2024-05-30 05:59:58] INFO root fetch - processPackages [imy]: Downloading https://files.pythonhosted.org/packages/9d/dc/e3660155208259e2019112008b94c4198983bd2d79fb036716e2a23310b1/imy-0.3.6.tar.gz
+[2024-05-30 05:59:58] INFO root fetch - processPackages [recoverable-async-task]: Downloading https://files.pythonhosted.org/packages/e5/5e/e39216ca8d6715d527b6e017223484556481f572a989bae2e15f67671d00/recoverable_async_task-0.1.8.tar.gz
+[2024-05-30 05:59:58] INFO root fetch - processPackages [tuyul-sdk]: executing diffoscope
+[2024-05-30 05:59:58] INFO root fetch - processPackages [tuyul-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuyul_sdk-0.0.1rc1.tar.gz tmp/tuyul_sdk-0.0.1rc2.tar.gz --markdown 20240530/t/tuyul-sdk/0.0.1rc1-0.0.1rc2/README.md --exclude *.pyd
+[2024-05-30 05:59:58] INFO root fetch - processPackages [python-flux]: executing diffoscope
+[2024-05-30 05:59:58] INFO root fetch - processPackages [python-flux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_flux-1.4.0.tar.gz tmp/python_flux-1.5.0.tar.gz --markdown 20240530/p/python-flux/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-30 05:59:58] INFO root fetch - processPackages [recoverable-async-task]: executing diffoscope
+[2024-05-30 05:59:58] INFO root fetch - processPackages [recoverable-async-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recoverable_async_task-0.1.7.tar.gz tmp/recoverable_async_task-0.1.8.tar.gz --markdown 20240530/r/recoverable-async-task/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-30 05:59:58] INFO root fetch - processPackages [imy]: executing diffoscope
+[2024-05-30 05:59:58] INFO root fetch - processPackages [imy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imy-0.3.5.tar.gz tmp/imy-0.3.6.tar.gz --markdown 20240530/i/imy/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-30 05:59:58] INFO root fetch - processPackages [music-tool-kit]: Remove: archive file [/home/abi/fetcher/tmp/music-tool-kit-1.3.7.tar.gz]
+[2024-05-30 05:59:58] INFO root fetch - processPackages [music-tool-kit]: Remove: archive file [/home/abi/fetcher/tmp/music-tool-kit-1.3.9.tar.gz]
+[2024-05-30 05:59:58] INFO root fetch - main [MainThread]: End processing [music-tool-kit]: success
+[2024-05-30 05:59:59] INFO root fetch - processPackages [tuyul-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tuyul_sdk-0.0.1rc1.tar.gz]
+[2024-05-30 05:59:59] INFO root fetch - processPackages [tuyul-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tuyul_sdk-0.0.1rc2.tar.gz]
+[2024-05-30 05:59:59] INFO root fetch - main [MainThread]: End processing [tuyul-sdk]: success
+[2024-05-30 05:59:59] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python_flux-1.4.0.tar.gz]
+[2024-05-30 05:59:59] INFO root fetch - processPackages [python-flux]: Remove: archive file [/home/abi/fetcher/tmp/python_flux-1.5.0.tar.gz]
+[2024-05-30 05:59:59] INFO root fetch - main [MainThread]: End processing [python-flux]: success
+[2024-05-30 05:59:59] INFO root fetch - processPackages [imy]: Remove: archive file [/home/abi/fetcher/tmp/imy-0.3.5.tar.gz]
+[2024-05-30 05:59:59] INFO root fetch - processPackages [imy]: Remove: archive file [/home/abi/fetcher/tmp/imy-0.3.6.tar.gz]
+[2024-05-30 05:59:59] INFO root fetch - main [MainThread]: End processing [imy]: success
+[2024-05-30 05:59:59] INFO root fetch - processPackages [recoverable-async-task]: Remove: archive file [/home/abi/fetcher/tmp/recoverable_async_task-0.1.7.tar.gz]
+[2024-05-30 05:59:59] INFO root fetch - processPackages [recoverable-async-task]: Remove: archive file [/home/abi/fetcher/tmp/recoverable_async_task-0.1.8.tar.gz]
+[2024-05-30 05:59:59] INFO root fetch - main [MainThread]: End processing [recoverable-async-task]: success
+[2024-05-30 05:59:59] INFO root fetch - main [MainThread]: Store serial: [23441938]
