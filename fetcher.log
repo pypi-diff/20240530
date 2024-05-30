@@ -13741,3 +13741,81 @@ EOFError: EOF read where object expected
 [2024-05-30 08:18:38] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240530.tar.gz]
 [2024-05-30 08:18:38] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-05-30 08:18:38] INFO root fetch - main [MainThread]: Store serial: [23443229]
+[2024-05-30 08:20:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443229]
+[2024-05-30 08:20:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-30 08:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phonexia-grpc
+[2024-05-30 08:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module-latest
+[2024-05-30 08:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linien-common
+[2024-05-30 08:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linien-server
+[2024-05-30 08:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fake-bpy-module
+[2024-05-30 08:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linien-client
+[2024-05-30 08:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linien-gui
+[2024-05-30 08:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chars
+[2024-05-30 08:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RADL
+[2024-05-30 08:20:47] WARNING root fetch - processPackages [chars]: Skipping, unable to determine old version
+[2024-05-30 08:20:47] INFO root fetch - main [MainThread]: End processing [chars] error
+[2024-05-30 08:20:47] INFO root fetch - processPackages [linien-common]: New version: [2.0.4rc1] Old Version: [2.0.3rc1]
+[2024-05-30 08:20:47] INFO root fetch - processPackages [phonexia-grpc]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-30 08:20:47] INFO root fetch - processPackages [linien-client]: New version: [2.0.4rc1] Old Version: [2.0.3rc1]
+[2024-05-30 08:20:47] INFO root fetch - processPackages [linien-gui]: New version: [2.0.4rc1] Old Version: [2.0.3rc1]
+[2024-05-30 08:20:47] INFO root fetch - processPackages [linien-server]: New version: [2.0.4rc1] Old Version: [2.0.3rc1]
+[2024-05-30 08:20:47] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240529] Old Version: [20240528]
+[2024-05-30 08:20:47] INFO root fetch - processPackages [RADL]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-30 08:20:47] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240530] Old Version: [20240529]
+[2024-05-30 08:20:47] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/9c/57/b23bb614c3478748fd840f81985c3f5b9ce0d7dd0de955e19416924ae3c6/linien_common-2.0.3rc1.tar.gz
+[2024-05-30 08:20:47] INFO root fetch - processPackages [phonexia-grpc]: Downloading https://files.pythonhosted.org/packages/2b/05/f9077efee5837dffd4692dd5c96f126cd385ed6bdd778a3ad1a7a0233537/phonexia_grpc-2.0.0.tar.gz
+[2024-05-30 08:20:47] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/76/31/c402018718d3fa15d94e894762f3b09db9d01bc733b9216771505f353e1e/linien_client-2.0.3rc1.tar.gz
+[2024-05-30 08:20:47] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/a9/12/7a345903fd853dc96408822a4014a6d60ffbdbb8cb3ffa8e7d30db034904/linien_gui-2.0.3rc1.tar.gz
+[2024-05-30 08:20:47] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/2a/af/457d294dd4b6268e6a009a536cca22b63c85cce738418422012dd10e67f7/linien_server-2.0.3rc1.tar.gz
+[2024-05-30 08:20:47] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/ef/7c/145fcec2a10c723872d2304430d91d1258b68c05affdc4dfacdcaa5af656/fake_bpy_module-20240528.tar.gz
+[2024-05-30 08:20:47] INFO root fetch - processPackages [RADL]: Downloading https://files.pythonhosted.org/packages/87/84/f2f1aa7a4027a9bcfd7dffeb17de2032744c04b9eb6cec2028c4589b73b1/RADL-1.3.2.tar.gz
+[2024-05-30 08:20:47] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/4b/b1/9c7a12113a1ad810d37c0f45867972ab79313ac2e2c52ae133e26337f005/fake_bpy_module_latest-20240529.tar.gz
+[2024-05-30 08:20:47] INFO root fetch - processPackages [phonexia-grpc]: Downloading https://files.pythonhosted.org/packages/22/11/de48749577cdf863ae187e050ca835353feb282169e6d445db03f5e5c88c/phonexia_grpc-2.1.0.tar.gz
+[2024-05-30 08:20:47] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/6c/7b/d86dde15cd340b6196e23ad609b06f302cba3ed60e6954b6b933a583ff05/linien_common-2.0.4rc1.tar.gz
+[2024-05-30 08:20:47] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/d0/2a/3edcd5115540f9eaac4a8945e27afa916e3cde63382318d14272ceddc790/linien_client-2.0.4rc1.tar.gz
+[2024-05-30 08:20:47] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/f7/0e/2d501c35b97b521615c9de79eb688273f646ea0c927160b8efe643bab738/linien_gui-2.0.4rc1.tar.gz
+[2024-05-30 08:20:47] INFO root fetch - processPackages [phonexia-grpc]: executing diffoscope
+[2024-05-30 08:20:47] INFO root fetch - processPackages [phonexia-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonexia_grpc-2.0.0.tar.gz tmp/phonexia_grpc-2.1.0.tar.gz --markdown 20240530/p/phonexia-grpc/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-30 08:20:47] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/66/28/29fd19b76b69ce07f244c6046ba8371f9c15804db72ba194bca04295495a/linien_server-2.0.4rc1.tar.gz
+[2024-05-30 08:20:48] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2024-05-30 08:20:48] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_common-2.0.3rc1.tar.gz tmp/linien_common-2.0.4rc1.tar.gz --markdown 20240530/l/linien-common/2.0.3rc1-2.0.4rc1/README.md --exclude *.pyd
+[2024-05-30 08:20:48] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/9c/4d/95eaa5a2f6bf4bcd26b1d18729519c0428b922990cfcd4b697caafd86e43/fake_bpy_module-20240529.tar.gz
+[2024-05-30 08:20:48] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2024-05-30 08:20:48] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_client-2.0.3rc1.tar.gz tmp/linien_client-2.0.4rc1.tar.gz --markdown 20240530/l/linien-client/2.0.3rc1-2.0.4rc1/README.md --exclude *.pyd
+[2024-05-30 08:20:48] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2024-05-30 08:20:48] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_gui-2.0.3rc1.tar.gz tmp/linien_gui-2.0.4rc1.tar.gz --markdown 20240530/l/linien-gui/2.0.3rc1-2.0.4rc1/README.md --exclude *.pyd
+[2024-05-30 08:20:48] INFO root fetch - processPackages [RADL]: Downloading https://files.pythonhosted.org/packages/1a/ea/842e7eb8c0141c3ec3f77d1e374e4fdd45137057b7fbf5695135331fc361/RADL-1.3.3.tar.gz
+[2024-05-30 08:20:48] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2024-05-30 08:20:48] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_server-2.0.3rc1.tar.gz tmp/linien_server-2.0.4rc1.tar.gz --markdown 20240530/l/linien-server/2.0.3rc1-2.0.4rc1/README.md --exclude *.pyd
+[2024-05-30 08:20:48] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/5a/b1/7e79fa2679b7a2582be230fdb242129b5c2b4cd0aaa6682eada6a524e53b/fake_bpy_module_latest-20240530.tar.gz
+[2024-05-30 08:20:48] INFO root fetch - processPackages [RADL]: executing diffoscope
+[2024-05-30 08:20:48] INFO root fetch - processPackages [RADL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RADL-1.3.2.tar.gz tmp/RADL-1.3.3.tar.gz --markdown 20240530/R/RADL/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-30 08:20:48] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-05-30 08:20:48] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240528.tar.gz tmp/fake_bpy_module-20240529.tar.gz --markdown 20240530/f/fake-bpy-module/20240528-20240529/README.md --exclude *.pyd
+[2024-05-30 08:20:48] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-30 08:20:48] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240529.tar.gz tmp/fake_bpy_module_latest-20240530.tar.gz --markdown 20240530/f/fake-bpy-module-latest/20240529-20240530/README.md --exclude *.pyd
+[2024-05-30 08:20:48] INFO root fetch - processPackages [phonexia-grpc]: Remove: archive file [/home/abi/fetcher/tmp/phonexia_grpc-2.0.0.tar.gz]
+[2024-05-30 08:20:48] INFO root fetch - processPackages [phonexia-grpc]: Remove: archive file [/home/abi/fetcher/tmp/phonexia_grpc-2.1.0.tar.gz]
+[2024-05-30 08:20:48] INFO root fetch - main [MainThread]: End processing [phonexia-grpc]: success
+[2024-05-30 08:20:48] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien_client-2.0.3rc1.tar.gz]
+[2024-05-30 08:20:48] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien_client-2.0.4rc1.tar.gz]
+[2024-05-30 08:20:48] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2024-05-30 08:20:48] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien_common-2.0.3rc1.tar.gz]
+[2024-05-30 08:20:48] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien_common-2.0.4rc1.tar.gz]
+[2024-05-30 08:20:48] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2024-05-30 08:20:49] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien_gui-2.0.3rc1.tar.gz]
+[2024-05-30 08:20:49] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien_gui-2.0.4rc1.tar.gz]
+[2024-05-30 08:20:49] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2024-05-30 08:20:49] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien_server-2.0.3rc1.tar.gz]
+[2024-05-30 08:20:49] INFO root fetch - processPackages [RADL]: Remove: archive file [/home/abi/fetcher/tmp/RADL-1.3.2.tar.gz]
+[2024-05-30 08:20:49] INFO root fetch - processPackages [RADL]: Remove: archive file [/home/abi/fetcher/tmp/RADL-1.3.3.tar.gz]
+[2024-05-30 08:20:49] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien_server-2.0.4rc1.tar.gz]
+[2024-05-30 08:20:49] INFO root fetch - main [MainThread]: End processing [RADL]: success
+[2024-05-30 08:20:49] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2024-05-30 08:20:51] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240529.tar.gz]
+[2024-05-30 08:20:51] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240530.tar.gz]
+[2024-05-30 08:20:51] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-30 08:20:59] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240528.tar.gz]
+[2024-05-30 08:20:59] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240529.tar.gz]
+[2024-05-30 08:20:59] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-05-30 08:20:59] INFO root fetch - main [MainThread]: Store serial: [23443255]
