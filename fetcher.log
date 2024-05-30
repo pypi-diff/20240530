@@ -21422,3 +21422,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:40:48] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.9.tar.gz]
 [2024-05-30 11:40:48] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2024-05-30 11:40:48] INFO root fetch - main [MainThread]: Store serial: [23446342]
+[2024-05-30 11:42:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446342]
+[2024-05-30 11:43:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ex-fuzzy
+[2024-05-30 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: package-tut
+[2024-05-30 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mystbin-py
+[2024-05-30 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ds20kdb-avt
+[2024-05-30 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alita-tools
+[2024-05-30 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vortexasdk
+[2024-05-30 11:43:00] INFO root fetch - processPackages [ex-fuzzy]: New version: [1.2.0] Old Version: [1.1.6]
+[2024-05-30 11:43:00] INFO root fetch - processPackages [vortexasdk]: New version: [1.0.0a1] Old Version: [0.9.2]
+[2024-05-30 11:43:00] INFO root fetch - processPackages [ex-fuzzy]: Downloading https://files.pythonhosted.org/packages/a1/91/b4499bdec5d86a73aa32c37be0242786d9a7cb1e98393c9fac4141a09677/ex_fuzzy-1.1.6.tar.gz
+[2024-05-30 11:43:00] INFO root fetch - processPackages [mystbin-py]: New version: [7.0.1] Old Version: [7.0.0]
+[2024-05-30 11:43:00] WARNING root fetch - processPackages [package-tut]: Skipping, unable to determine old version
+[2024-05-30 11:43:00] INFO root fetch - main [MainThread]: End processing [package-tut] error
+[2024-05-30 11:43:00] INFO root fetch - processPackages [vortexasdk]: Downloading https://files.pythonhosted.org/packages/9a/31/e1cc1cd981ce5e6d81530725d9809ba21ee5447abe7cd2a52f8c0d15989f/vortexasdk-0.9.2.tar.gz
+[2024-05-30 11:43:00] INFO root fetch - processPackages [alita-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 11:43:00] INFO root fetch - processPackages [ds20kdb-avt]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-30 11:43:00] INFO root fetch - processPackages [mystbin-py]: Downloading https://files.pythonhosted.org/packages/e2/89/6566c9c26e1f67dabb3bbee965b2d1f80bc705f2c4e9f3333b9de31546de/mystbin_py-7.0.0.tar.gz
+[2024-05-30 11:43:00] INFO root fetch - processPackages [vortexasdk]: Downloading https://files.pythonhosted.org/packages/af/2a/11904c6109566b6d424a71185d8580936d1ce39c562b91e9d63df71141cd/vortexasdk-1.0.0a1.tar.gz
+[2024-05-30 11:43:00] INFO root fetch - processPackages [ex-fuzzy]: Downloading https://files.pythonhosted.org/packages/43/dc/61dcebb2a94b45014afe2bf575fb4376a6eafe0ef355195f925311a13bac/ex_fuzzy-1.2.0.tar.gz
+[2024-05-30 11:43:00] INFO root fetch - processPackages [ds20kdb-avt]: Downloading https://files.pythonhosted.org/packages/54/fc/d6eb13c3159fe18627b8d7e0c76dfc177e657a384ee411738c5950b0ff8f/ds20kdb_avt-1.0.8.tar.gz
+[2024-05-30 11:43:00] INFO root fetch - processPackages [alita-tools]: Downloading https://files.pythonhosted.org/packages/11/7e/f89b7d2fb29b664d4a1b772c0a8757857534dc4981d9d9547b1410352f8b/alita_tools-0.0.8.tar.gz
+[2024-05-30 11:43:00] INFO root fetch - processPackages [ex-fuzzy]: executing diffoscope
+[2024-05-30 11:43:00] INFO root fetch - processPackages [ex-fuzzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex_fuzzy-1.1.6.tar.gz tmp/ex_fuzzy-1.2.0.tar.gz --markdown 20240530/e/ex-fuzzy/1.1.6-1.2.0/README.md --exclude *.pyd
+[2024-05-30 11:43:00] INFO root fetch - processPackages [vortexasdk]: executing diffoscope
+[2024-05-30 11:43:00] INFO root fetch - processPackages [vortexasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vortexasdk-0.9.2.tar.gz tmp/vortexasdk-1.0.0a1.tar.gz --markdown 20240530/v/vortexasdk/0.9.2-1.0.0a1/README.md --exclude *.pyd
+[2024-05-30 11:43:01] INFO root fetch - processPackages [mystbin-py]: Downloading https://files.pythonhosted.org/packages/08/a9/d408e8222c861ebaf2ccee41d198250530a347a5c43a81b4905713b0c9b6/mystbin_py-7.0.1.tar.gz
+[2024-05-30 11:43:01] INFO root fetch - processPackages [alita-tools]: Downloading https://files.pythonhosted.org/packages/b2/e0/efa7908f0bf622856778acf50ffea9fd834a7e4b47167ee967dc96ba217d/alita_tools-0.0.9.tar.gz
+[2024-05-30 11:43:01] INFO root fetch - processPackages [mystbin-py]: executing diffoscope
+[2024-05-30 11:43:01] INFO root fetch - processPackages [mystbin-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystbin_py-7.0.0.tar.gz tmp/mystbin_py-7.0.1.tar.gz --markdown 20240530/m/mystbin-py/7.0.0-7.0.1/README.md --exclude *.pyd
+[2024-05-30 11:43:01] INFO root fetch - processPackages [alita-tools]: executing diffoscope
+[2024-05-30 11:43:01] INFO root fetch - processPackages [alita-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_tools-0.0.8.tar.gz tmp/alita_tools-0.0.9.tar.gz --markdown 20240530/a/alita-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 11:43:01] INFO root fetch - processPackages [ds20kdb-avt]: Downloading https://files.pythonhosted.org/packages/83/28/16e823ee489c38fd36674be8fd026fb3db3cfcad54433558f118ad2bfbdc/ds20kdb_avt-1.0.9.tar.gz
+[2024-05-30 11:43:01] INFO root fetch - processPackages [ds20kdb-avt]: executing diffoscope
+[2024-05-30 11:43:01] INFO root fetch - processPackages [ds20kdb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds20kdb_avt-1.0.8.tar.gz tmp/ds20kdb_avt-1.0.9.tar.gz --markdown 20240530/d/ds20kdb-avt/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-30 11:43:01] INFO root fetch - processPackages [ex-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ex_fuzzy-1.1.6.tar.gz]
+[2024-05-30 11:43:01] INFO root fetch - processPackages [ex-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ex_fuzzy-1.2.0.tar.gz]
+[2024-05-30 11:43:01] INFO root fetch - main [MainThread]: End processing [ex-fuzzy]: success
+[2024-05-30 11:43:01] INFO root fetch - processPackages [vortexasdk]: Remove: archive file [/home/abi/fetcher/tmp/vortexasdk-0.9.2.tar.gz]
+[2024-05-30 11:43:01] INFO root fetch - processPackages [vortexasdk]: Remove: archive file [/home/abi/fetcher/tmp/vortexasdk-1.0.0a1.tar.gz]
+[2024-05-30 11:43:01] INFO root fetch - main [MainThread]: End processing [vortexasdk]: success
+[2024-05-30 11:43:01] INFO root fetch - processPackages [mystbin-py]: Remove: archive file [/home/abi/fetcher/tmp/mystbin_py-7.0.0.tar.gz]
+[2024-05-30 11:43:01] INFO root fetch - processPackages [mystbin-py]: Remove: archive file [/home/abi/fetcher/tmp/mystbin_py-7.0.1.tar.gz]
+[2024-05-30 11:43:01] INFO root fetch - main [MainThread]: End processing [mystbin-py]: success
+[2024-05-30 11:43:01] INFO root fetch - processPackages [alita-tools]: Remove: archive file [/home/abi/fetcher/tmp/alita_tools-0.0.8.tar.gz]
+[2024-05-30 11:43:01] INFO root fetch - processPackages [alita-tools]: Remove: archive file [/home/abi/fetcher/tmp/alita_tools-0.0.9.tar.gz]
+[2024-05-30 11:43:01] INFO root fetch - main [MainThread]: End processing [alita-tools]: success
+[2024-05-30 11:43:02] INFO root fetch - processPackages [ds20kdb-avt]: Remove: archive file [/home/abi/fetcher/tmp/ds20kdb_avt-1.0.8.tar.gz]
+[2024-05-30 11:43:02] INFO root fetch - processPackages [ds20kdb-avt]: Remove: archive file [/home/abi/fetcher/tmp/ds20kdb_avt-1.0.9.tar.gz]
+[2024-05-30 11:43:02] INFO root fetch - main [MainThread]: End processing [ds20kdb-avt]: success
+[2024-05-30 11:43:02] INFO root fetch - main [MainThread]: Store serial: [23446370]
