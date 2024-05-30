@@ -17908,3 +17908,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:32:54] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.99.tar.gz]
 [2024-05-30 10:32:54] INFO root fetch - main [MainThread]: End processing [bluepyemodel]: success
 [2024-05-30 10:32:54] INFO root fetch - main [MainThread]: Store serial: [23445079]
+[2024-05-30 10:34:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23445079]
+[2024-05-30 10:35:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unittestreport-yami
+[2024-05-30 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xnat4tests
+[2024-05-30 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfilecache
+[2024-05-30 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gwml
+[2024-05-30 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: baml-py
+[2024-05-30 10:35:05] INFO root fetch - processPackages [unittestreport-yami]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-30 10:35:05] INFO root fetch - processPackages [gwml]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 10:35:05] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/d8/07/b1e85ae67ce135b27c6d2039c6091b77818dcdb2602dd50410d4ac0251c9/unittestreport_yami-0.1.7.tar.gz
+[2024-05-30 10:35:05] INFO root fetch - processPackages [baml-py]: New version: [0.30.0] Old Version: [0.1.9]
+[2024-05-30 10:35:05] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/74/b1/dd13d7aa61b546849dd957ac4f69f05dab5c14922cc210df942bd30f51ce/gwml-0.1.8-py3-none-any.whl
+[2024-05-30 10:35:05] INFO root fetch - processPackages [pyfilecache]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 10:35:05] INFO root fetch - processPackages [xnat4tests]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-30 10:35:05] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/3e/87/fcf0a5417f646d138f5db6819b2d7110f5c8440298d8d7b11ecaf5711660/baml_py-0.1.9-cp38-abi3-win_amd64.whl
+[2024-05-30 10:35:05] INFO root fetch - processPackages [xnat4tests]: Downloading https://files.pythonhosted.org/packages/95/4e/6519c67c82e0069805127061dadeb9f075743cfa92e13d496bda0d742f2e/xnat4tests-0.3.8-py3-none-any.whl
+[2024-05-30 10:35:05] INFO root fetch - processPackages [pyfilecache]: Downloading https://files.pythonhosted.org/packages/b9/d1/9a3a580a3929623fbf838fa9d0cc2e3c49855539906b79c3c35a9ce89c0c/pyfilecache-0.1.0.tar.gz
+[2024-05-30 10:35:05] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/3a/0c/f8a96cba8e57cb826eafe85a9f3900402548c20e650346b5215cc9001e54/gwml-0.1.9-py3-none-any.whl
+[2024-05-30 10:35:05] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/03/05/d50f9f53e67d589ebd88b7f888d55f92d94e461244648bd9e86de22e45d0/unittestreport_yami-0.1.8.tar.gz
+[2024-05-30 10:35:05] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-30 10:35:05] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.1.8-py3-none-any.whl.zip tmp/gwml-0.1.9-py3-none-any.whl.zip --markdown 20240530/g/gwml/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 10:35:05] INFO root fetch - processPackages [unittestreport-yami]: executing diffoscope
+[2024-05-30 10:35:05] INFO root fetch - processPackages [unittestreport-yami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unittestreport_yami-0.1.7.tar.gz tmp/unittestreport_yami-0.1.8.tar.gz --markdown 20240530/u/unittestreport-yami/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-30 10:35:05] INFO root fetch - processPackages [xnat4tests]: Downloading https://files.pythonhosted.org/packages/fa/53/ba6a54abaa6d2f9ed665c39b0391a1d4e0083b088234fb5c0e8fcce65581/xnat4tests-0.3.9-py3-none-any.whl
+[2024-05-30 10:35:05] INFO root fetch - processPackages [pyfilecache]: Downloading https://files.pythonhosted.org/packages/8e/9a/425c1e97c3444412d98c12394c1a8491d3c399809d80fe89e0736af7a4d1/pyfilecache-0.1.1.tar.gz
+[2024-05-30 10:35:05] INFO root fetch - processPackages [xnat4tests]: executing diffoscope
+[2024-05-30 10:35:05] INFO root fetch - processPackages [xnat4tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnat4tests-0.3.8-py3-none-any.whl.zip tmp/xnat4tests-0.3.9-py3-none-any.whl.zip --markdown 20240530/x/xnat4tests/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-30 10:35:05] INFO root fetch - processPackages [pyfilecache]: executing diffoscope
+[2024-05-30 10:35:05] INFO root fetch - processPackages [pyfilecache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfilecache-0.1.0.tar.gz tmp/pyfilecache-0.1.1.tar.gz --markdown 20240530/p/pyfilecache/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 10:35:05] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/16/5f/351524679905752b89a08f91bd642e861d4d09b8dd0e2ee67ee28d758936/baml_py-0.30.0-cp38-abi3-win_amd64.whl
+[2024-05-30 10:35:06] INFO root fetch - processPackages [baml-py]: executing diffoscope
+[2024-05-30 10:35:06] INFO root fetch - processPackages [baml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baml_py-0.1.9-cp38-abi3-win_amd64.whl.zip tmp/baml_py-0.30.0-cp38-abi3-win_amd64.whl.zip --markdown 20240530/b/baml-py/0.1.9-0.30.0/README.md --exclude *.pyd
+[2024-05-30 10:35:06] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.7.tar.gz]
+[2024-05-30 10:35:06] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.8.tar.gz]
+[2024-05-30 10:35:06] INFO root fetch - main [MainThread]: End processing [unittestreport-yami]: success
+[2024-05-30 10:35:06] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.8-py3-none-any.whl.zip]
+[2024-05-30 10:35:06] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.9-py3-none-any.whl.zip]
+[2024-05-30 10:35:06] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-30 10:35:06] INFO root fetch - processPackages [pyfilecache]: Remove: archive file [/home/abi/fetcher/tmp/pyfilecache-0.1.0.tar.gz]
+[2024-05-30 10:35:06] INFO root fetch - processPackages [pyfilecache]: Remove: archive file [/home/abi/fetcher/tmp/pyfilecache-0.1.1.tar.gz]
+[2024-05-30 10:35:06] INFO root fetch - main [MainThread]: End processing [pyfilecache]: success
+[2024-05-30 10:35:06] INFO root fetch - processPackages [xnat4tests]: Remove: archive file [/home/abi/fetcher/tmp/xnat4tests-0.3.8-py3-none-any.whl.zip]
+[2024-05-30 10:35:06] INFO root fetch - processPackages [xnat4tests]: Remove: archive file [/home/abi/fetcher/tmp/xnat4tests-0.3.9-py3-none-any.whl.zip]
+[2024-05-30 10:35:06] INFO root fetch - main [MainThread]: End processing [xnat4tests]: success
+[2024-05-30 10:35:06] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.1.9-cp38-abi3-win_amd64.whl.zip]
+[2024-05-30 10:35:06] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.30.0-cp38-abi3-win_amd64.whl.zip]
+[2024-05-30 10:35:06] INFO root fetch - main [MainThread]: End processing [baml-py]: success
+[2024-05-30 10:35:06] INFO root fetch - main [MainThread]: Store serial: [23445101]
