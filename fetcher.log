@@ -1927,3 +1927,44 @@ EOFError: EOF read where object expected
 [2024-05-30 02:00:56] INFO root fetch - processPackages [layrz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/layrz_sdk-3.0.3.tar.gz]
 [2024-05-30 02:00:56] INFO root fetch - main [MainThread]: End processing [layrz-sdk]: success
 [2024-05-30 02:00:56] INFO root fetch - main [MainThread]: Store serial: [23438635]
+[2024-05-30 02:03:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438635]
+[2024-05-30 02:03:05] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-30 02:05:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438638]
+[2024-05-30 02:05:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dante-corpora
+[2024-05-30 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: giotto-ph
+[2024-05-30 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2024-05-30 02:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxkern-nightly
+[2024-05-30 02:05:12] INFO root fetch - processPackages [dante-corpora]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-30 02:05:12] INFO root fetch - processPackages [dante-corpora]: Downloading https://files.pythonhosted.org/packages/04/1e/fa714584e3d63e74ba4cf045e38238581529f7c76aca07d1c8bc1d29176a/dante_corpora-1.0.4.tar.gz
+[2024-05-30 02:05:12] INFO root fetch - processPackages [giotto-ph]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-30 02:05:12] INFO root fetch - processPackages [mct-nightly]: New version: [2.1.0.20240530.440] Old Version: [2.1.0.20240529.431]
+[2024-05-30 02:05:12] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-05-30 02:05:12] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-05-30 02:05:12] INFO root fetch - processPackages [giotto-ph]: Downloading https://files.pythonhosted.org/packages/5f/06/e2ca1531d40c4c2027657cacc6a6744baaa7eb1e2d0cfe39f82b62357a2f/giotto_ph-0.2.2-cp39-cp39-win_amd64.whl
+[2024-05-30 02:05:12] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/bb/e5/be21de5aa3945d427fdec06db8f76da9a4e1f891ae57b2478b63e73632cc/mct-nightly-2.1.0.20240529.431.tar.gz
+[2024-05-30 02:05:12] INFO root fetch - processPackages [dante-corpora]: Downloading https://files.pythonhosted.org/packages/e0/b7/131b6af9b1f76d0eccfdc1c0d2f25d1992b03009f968e64bb360d17df1cb/dante_corpora-1.0.5.tar.gz
+[2024-05-30 02:05:12] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-05-30 02:05:12] INFO root fetch - processPackages [giotto-ph]: Downloading https://files.pythonhosted.org/packages/12/ab/9280082a4b658727f13ff60defc02af37910e95f80b5310b5c53f34c6639/giotto_ph-0.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 02:05:12] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-05-30 02:05:12] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240530/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-05-30 02:05:12] INFO root fetch - processPackages [dante-corpora]: executing diffoscope
+[2024-05-30 02:05:12] INFO root fetch - processPackages [dante-corpora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dante_corpora-1.0.4.tar.gz tmp/dante_corpora-1.0.5.tar.gz --markdown 20240530/d/dante-corpora/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-30 02:05:12] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/3f/21/6b09a6c546f962e63ad25b410c642926f049ee9671f61644144a3df1fad6/mct-nightly-2.1.0.20240530.440.tar.gz
+[2024-05-30 02:05:13] INFO root fetch - processPackages [giotto-ph]: executing diffoscope
+[2024-05-30 02:05:13] INFO root fetch - processPackages [giotto-ph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giotto_ph-0.2.2-cp39-cp39-win_amd64.whl.zip tmp/giotto_ph-0.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240530/g/giotto-ph/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-30 02:05:13] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-30 02:05:13] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.1.0.20240529.431.tar.gz tmp/mct-nightly-2.1.0.20240530.440.tar.gz --markdown 20240530/m/mct-nightly/2.1.0.20240529.431-2.1.0.20240530.440/README.md --exclude *.pyd
+[2024-05-30 02:05:13] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-05-30 02:05:13] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-05-30 02:05:13] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-05-30 02:05:13] INFO root fetch - processPackages [dante-corpora]: Remove: archive file [/home/abi/fetcher/tmp/dante_corpora-1.0.4.tar.gz]
+[2024-05-30 02:05:13] INFO root fetch - processPackages [dante-corpora]: Remove: archive file [/home/abi/fetcher/tmp/dante_corpora-1.0.5.tar.gz]
+[2024-05-30 02:05:13] INFO root fetch - main [MainThread]: End processing [dante-corpora]: success
+[2024-05-30 02:05:13] INFO root fetch - processPackages [giotto-ph]: Remove: archive file [/home/abi/fetcher/tmp/giotto_ph-0.2.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 02:05:13] INFO root fetch - processPackages [giotto-ph]: Remove: archive file [/home/abi/fetcher/tmp/giotto_ph-0.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-30 02:05:13] INFO root fetch - main [MainThread]: End processing [giotto-ph]: success
+[2024-05-30 02:05:15] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.1.0.20240529.431.tar.gz]
+[2024-05-30 02:05:15] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.1.0.20240530.440.tar.gz]
+[2024-05-30 02:05:15] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-30 02:05:15] INFO root fetch - main [MainThread]: Store serial: [23438651]
