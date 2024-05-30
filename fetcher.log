@@ -8448,3 +8448,33 @@ EOFError: EOF read where object expected
 [2024-05-30 04:07:13] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.9.tar.gz]
 [2024-05-30 04:07:13] INFO root fetch - main [MainThread]: End processing [palimpzest]: success
 [2024-05-30 04:07:13] INFO root fetch - main [MainThread]: Store serial: [23441143]
+[2024-05-30 04:09:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441143]
+[2024-05-30 04:09:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 04:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyerualjetwork
+[2024-05-30 04:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: btrview
+[2024-05-30 04:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maskalib
+[2024-05-30 04:09:22] INFO root fetch - processPackages [btrview]: New version: [0.8.0] Old Version: [0.7.2]
+[2024-05-30 04:09:22] INFO root fetch - processPackages [maskalib]: New version: [0.6] Old Version: [0.5]
+[2024-05-30 04:09:22] INFO root fetch - processPackages [pyerualjetwork]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-05-30 04:09:22] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/61/7b/871d2d078f9f4389e9b50111b675c99fd9c25035944b463f266749794515/pyerualjetwork-1.3.3.tar.gz
+[2024-05-30 04:09:22] INFO root fetch - processPackages [maskalib]: Downloading https://files.pythonhosted.org/packages/6f/66/422546f232353c4ee5cd9c68f6857daf019a121e50a1d1920bf26f34a89c/maskalib-0.5.tar.gz
+[2024-05-30 04:09:22] INFO root fetch - processPackages [btrview]: Downloading https://files.pythonhosted.org/packages/f1/e7/9465180d798414412c003d09eaa54a32706c10d3bc46091f65c844d34066/btrview-0.7.2.tar.gz
+[2024-05-30 04:09:22] INFO root fetch - processPackages [btrview]: Downloading https://files.pythonhosted.org/packages/f7/75/8817d3fba01f5a5ea36d37925a158eb14e489ae92887f0a75741f510604a/btrview-0.8.0.tar.gz
+[2024-05-30 04:09:22] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/1b/d0/6ad2cc2ff7de0bc39dec55cf50f16412b5afdbec3e970912afbdb76e6afb/pyerualjetwork-1.3.4.tar.gz
+[2024-05-30 04:09:22] INFO root fetch - processPackages [btrview]: executing diffoscope
+[2024-05-30 04:09:22] INFO root fetch - processPackages [btrview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrview-0.7.2.tar.gz tmp/btrview-0.8.0.tar.gz --markdown 20240530/b/btrview/0.7.2-0.8.0/README.md --exclude *.pyd
+[2024-05-30 04:09:22] INFO root fetch - processPackages [maskalib]: Downloading https://files.pythonhosted.org/packages/65/fe/a46257758d7978a2c6fd7818cb07b423be5ecbc29cf63ee6ec3e8b19d644/maskalib-0.6.tar.gz
+[2024-05-30 04:09:22] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-05-30 04:09:22] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-1.3.3.tar.gz tmp/pyerualjetwork-1.3.4.tar.gz --markdown 20240530/p/pyerualjetwork/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-05-30 04:09:22] INFO root fetch - processPackages [maskalib]: executing diffoscope
+[2024-05-30 04:09:22] INFO root fetch - processPackages [maskalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maskalib-0.5.tar.gz tmp/maskalib-0.6.tar.gz --markdown 20240530/m/maskalib/0.5-0.6/README.md --exclude *.pyd
+[2024-05-30 04:09:23] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.7.2.tar.gz]
+[2024-05-30 04:09:23] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.8.0.tar.gz]
+[2024-05-30 04:09:23] INFO root fetch - main [MainThread]: End processing [btrview]: success
+[2024-05-30 04:09:23] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.3.3.tar.gz]
+[2024-05-30 04:09:23] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.3.4.tar.gz]
+[2024-05-30 04:09:23] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-05-30 04:09:23] INFO root fetch - processPackages [maskalib]: Remove: archive file [/home/abi/fetcher/tmp/maskalib-0.5.tar.gz]
+[2024-05-30 04:09:23] INFO root fetch - processPackages [maskalib]: Remove: archive file [/home/abi/fetcher/tmp/maskalib-0.6.tar.gz]
+[2024-05-30 04:09:23] INFO root fetch - main [MainThread]: End processing [maskalib]: success
+[2024-05-30 04:09:23] INFO root fetch - main [MainThread]: Store serial: [23441156]
