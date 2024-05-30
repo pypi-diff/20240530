@@ -9504,3 +9504,42 @@ EOFError: EOF read where object expected
 [2024-05-30 05:11:56] INFO root fetch - processPackages [fileformats-medimage-mrtrix3]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_mrtrix3-3.0.4a5.tar.gz]
 [2024-05-30 05:11:56] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-mrtrix3]: success
 [2024-05-30 05:11:56] INFO root fetch - main [MainThread]: Store serial: [23441599]
+[2024-05-30 05:14:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441599]
+[2024-05-30 05:14:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 05:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mtllm
+[2024-05-30 05:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fileformats-medimage-mrtrix3-extras
+[2024-05-30 05:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aqtp
+[2024-05-30 05:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rattail
+[2024-05-30 05:14:05] INFO root fetch - processPackages [mtllm]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 05:14:05] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-30 05:14:05] INFO root fetch - processPackages [fileformats-medimage-mrtrix3-extras]: New version: [3.0.4a5] Old Version: [0.1]
+[2024-05-30 05:14:05] INFO root fetch - processPackages [aqtp]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-30 05:14:05] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/8a/ab/1d0b66effa702be7aef6de038a0b9a0727d9d4053df5c56aa1ee5b1d9b45/rattail-0.9.98.tar.gz
+[2024-05-30 05:14:05] INFO root fetch - processPackages [mtllm]: Downloading https://files.pythonhosted.org/packages/0e/ed/35376685645fbfa7c66dfc9b749e2825ccb2936c5c90bfac63f40369e7bc/mtllm-0.1.0.tar.gz
+[2024-05-30 05:14:05] INFO root fetch - processPackages [fileformats-medimage-mrtrix3-extras]: Downloading https://files.pythonhosted.org/packages/f4/ae/b962b446ec4215db70c304fd09871331341995565e797b00e26068250608/fileformats_medimage_mrtrix3_extras-0.1.tar.gz
+[2024-05-30 05:14:05] INFO root fetch - processPackages [aqtp]: Downloading https://files.pythonhosted.org/packages/60/e7/a24cb052a4eae7d2c822688f01358293d5147f74a5b9aa95f4cf68d2305c/aqtp-0.7.3.tar.gz
+[2024-05-30 05:14:05] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/1e/c3/79e6d80f4a830a425f80fae7cf7f242293341bfd63e5d6f25421dfd44465/rattail-0.9.99.tar.gz
+[2024-05-30 05:14:05] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2024-05-30 05:14:05] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20240530/r/rattail/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-30 05:14:05] INFO root fetch - processPackages [mtllm]: Downloading https://files.pythonhosted.org/packages/ff/49/be5af2e11814bf5b832ddf2d4446f71b7eef2fc1994728a920adc9738d3f/mtllm-0.1.1.tar.gz
+[2024-05-30 05:14:05] INFO root fetch - processPackages [fileformats-medimage-mrtrix3-extras]: Downloading https://files.pythonhosted.org/packages/d4/3a/492988052304225718c2eecf7cc50b39f15845178f5d1a04c4e1ae520a1c/fileformats_medimage_mrtrix3_extras-3.0.4a5.tar.gz
+[2024-05-30 05:14:05] INFO root fetch - processPackages [mtllm]: executing diffoscope
+[2024-05-30 05:14:05] INFO root fetch - processPackages [mtllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtllm-0.1.0.tar.gz tmp/mtllm-0.1.1.tar.gz --markdown 20240530/m/mtllm/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 05:14:05] INFO root fetch - processPackages [aqtp]: Downloading https://files.pythonhosted.org/packages/9d/9d/09ec775ccdb3360f7d9c920de4735d2816c89afa2e46eaabe2d18a129c82/aqtp-0.7.4.tar.gz
+[2024-05-30 05:14:05] INFO root fetch - processPackages [fileformats-medimage-mrtrix3-extras]: executing diffoscope
+[2024-05-30 05:14:05] INFO root fetch - processPackages [fileformats-medimage-mrtrix3-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage_mrtrix3_extras-0.1.tar.gz tmp/fileformats_medimage_mrtrix3_extras-3.0.4a5.tar.gz --markdown 20240530/f/fileformats-medimage-mrtrix3-extras/0.1-3.0.4a5/README.md --exclude *.pyd
+[2024-05-30 05:14:06] INFO root fetch - processPackages [aqtp]: executing diffoscope
+[2024-05-30 05:14:06] INFO root fetch - processPackages [aqtp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqtp-0.7.3.tar.gz tmp/aqtp-0.7.4.tar.gz --markdown 20240530/a/aqtp/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-30 05:14:06] INFO root fetch - processPackages [mtllm]: Remove: archive file [/home/abi/fetcher/tmp/mtllm-0.1.0.tar.gz]
+[2024-05-30 05:14:06] INFO root fetch - processPackages [mtllm]: Remove: archive file [/home/abi/fetcher/tmp/mtllm-0.1.1.tar.gz]
+[2024-05-30 05:14:06] INFO root fetch - main [MainThread]: End processing [mtllm]: success
+[2024-05-30 05:14:06] INFO root fetch - processPackages [fileformats-medimage-mrtrix3-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_mrtrix3_extras-0.1.tar.gz]
+[2024-05-30 05:14:06] INFO root fetch - processPackages [fileformats-medimage-mrtrix3-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_mrtrix3_extras-3.0.4a5.tar.gz]
+[2024-05-30 05:14:06] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-mrtrix3-extras]: success
+[2024-05-30 05:14:07] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.98.tar.gz]
+[2024-05-30 05:14:07] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.99.tar.gz]
+[2024-05-30 05:14:07] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2024-05-30 05:14:07] INFO root fetch - processPackages [aqtp]: Remove: archive file [/home/abi/fetcher/tmp/aqtp-0.7.3.tar.gz]
+[2024-05-30 05:14:07] INFO root fetch - processPackages [aqtp]: Remove: archive file [/home/abi/fetcher/tmp/aqtp-0.7.4.tar.gz]
+[2024-05-30 05:14:07] INFO root fetch - main [MainThread]: End processing [aqtp]: success
+[2024-05-30 05:14:07] INFO root fetch - main [MainThread]: Store serial: [23441608]
