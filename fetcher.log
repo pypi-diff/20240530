@@ -15540,3 +15540,76 @@ EOFError: EOF read where object expected
 [2024-05-30 09:05:27] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.7.tar.gz]
 [2024-05-30 09:05:27] INFO root fetch - main [MainThread]: End processing [groqon]: success
 [2024-05-30 09:05:27] INFO root fetch - main [MainThread]: Store serial: [23443867]
+[2024-05-30 09:07:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443867]
+[2024-05-30 09:07:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 09:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: injector-collections
+[2024-05-30 09:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: echoss-query
+[2024-05-30 09:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-company-dependent-flag
+[2024-05-30 09:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tuyul-sdk
+[2024-05-30 09:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: labda
+[2024-05-30 09:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-hub-nightly
+[2024-05-30 09:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tuyul-sdk
+[2024-05-30 09:07:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nagatoai_core
+[2024-05-30 09:07:36] INFO root fetch - processPackages [odoo14-addon-company-dependent-flag]: New version: [14.0.1.0.1.dev3] Old Version: [14.0.1.0.1.dev2]
+[2024-05-30 09:07:36] INFO root fetch - processPackages [tuyul-sdk]: New version: [0.0.1rc3] Old Version: [0.0.1rc2]
+[2024-05-30 09:07:36] INFO root fetch - processPackages [injector-collections]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 09:07:36] INFO root fetch - processPackages [tuyul-sdk]: New version: [0.0.1rc3] Old Version: [0.0.1rc2]
+[2024-05-30 09:07:36] INFO root fetch - processPackages [labda]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 09:07:36] INFO root fetch - processPackages [echoss-query]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-30 09:07:36] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-30 09:07:36] INFO root fetch - processPackages [tuyul-sdk]: Downloading https://files.pythonhosted.org/packages/a2/92/db61d1f698c8ff161bdf162ce37d71ae6355f8c3af7c8b44606fca7fc23c/tuyul_sdk-0.0.1rc2.tar.gz
+[2024-05-30 09:07:36] INFO root fetch - processPackages [nagatoai_core]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-30 09:07:36] INFO root fetch - processPackages [echoss-query]: Downloading https://files.pythonhosted.org/packages/18/8b/4e25a6b9a6c1e7799bd0a3f6ca4c03b4e2b1340e119ab825cf3046782a2b/echoss_query-0.1.1.tar.gz
+[2024-05-30 09:07:36] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/ad/7c/b29e15bfd7e43c2c147c7a9c69d222f6a873c3604453608dcd107523c5d8/injector_collections-0.0.8.tar.gz
+[2024-05-30 09:07:36] INFO root fetch - processPackages [tuyul-sdk]: Downloading https://files.pythonhosted.org/packages/a2/92/db61d1f698c8ff161bdf162ce37d71ae6355f8c3af7c8b44606fca7fc23c/tuyul_sdk-0.0.1rc2.tar.gz
+[2024-05-30 09:07:36] INFO root fetch - processPackages [labda]: Downloading https://files.pythonhosted.org/packages/a7/30/621da87c43bac0e7b340d84f29626a5a83d3dc7efcd16662f611276a48dc/labda-0.0.8.tar.gz
+[2024-05-30 09:07:36] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-30 09:07:36] INFO root fetch - processPackages [odoo14-addon-company-dependent-flag]: Downloading https://files.pythonhosted.org/packages/8f/0b/27ecadf715591b8c1d0b6027ee0146c8346f09502e3e079c99b0c92d62bb/odoo14_addon_company_dependent_flag-14.0.1.0.1.dev2-py3-none-any.whl
+[2024-05-30 09:07:36] INFO root fetch - processPackages [nagatoai_core]: Downloading https://files.pythonhosted.org/packages/64/f2/eca6ce9dfcf2846072e1dd078d3f779979be11631f9fbfed4a8de904ec68/nagatoai_core-0.8.0.tar.gz
+[2024-05-30 09:07:36] INFO root fetch - processPackages [echoss-query]: Downloading https://files.pythonhosted.org/packages/7c/37/aae97e348d364815a1c1c405f2a2f4a8e4f2993cb82b8440f5d8ed538120/echoss_query-0.1.2.tar.gz
+[2024-05-30 09:07:36] INFO root fetch - processPackages [labda]: Downloading https://files.pythonhosted.org/packages/7c/f3/9e314c96bb164b24e6a34dd6f0d5493acc2ee8c44bfaef6170d516a8657c/labda-0.0.9.tar.gz
+[2024-05-30 09:07:36] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-30 09:07:37] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/1e/fb/9164c6324cc31bc47dff9f9f7d19bdbb6fa2ada63e8442d3bd3364a24bf2/injector_collections-0.0.9.tar.gz
+[2024-05-30 09:07:37] INFO root fetch - processPackages [echoss-query]: executing diffoscope
+[2024-05-30 09:07:37] INFO root fetch - processPackages [echoss-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echoss_query-0.1.1.tar.gz tmp/echoss_query-0.1.2.tar.gz --markdown 20240530/e/echoss-query/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-30 09:07:37] INFO root fetch - processPackages [tuyul-sdk]: Downloading https://files.pythonhosted.org/packages/8c/b4/28980091d4d0a4d1ddb676a2d69f933a9049987978f96afe55f8a18b853f/tuyul_sdk-0.0.1rc3.tar.gz
+[2024-05-30 09:07:37] INFO root fetch - processPackages [tuyul-sdk]: Downloading https://files.pythonhosted.org/packages/8c/b4/28980091d4d0a4d1ddb676a2d69f933a9049987978f96afe55f8a18b853f/tuyul_sdk-0.0.1rc3.tar.gz
+[2024-05-30 09:07:37] INFO root fetch - processPackages [labda]: executing diffoscope
+[2024-05-30 09:07:37] INFO root fetch - processPackages [labda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labda-0.0.8.tar.gz tmp/labda-0.0.9.tar.gz --markdown 20240530/l/labda/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 09:07:37] INFO root fetch - processPackages [odoo14-addon-company-dependent-flag]: Downloading https://files.pythonhosted.org/packages/b2/a0/0cc9e8ccedf0dcdffe28ca8631781b2785846417c5009fd590a0e1e5ac71/odoo14_addon_company_dependent_flag-14.0.1.0.1.dev3-py3-none-any.whl
+[2024-05-30 09:07:37] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-30 09:07:37] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240530/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-30 09:07:37] INFO root fetch - processPackages [injector-collections]: executing diffoscope
+[2024-05-30 09:07:37] INFO root fetch - processPackages [injector-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injector_collections-0.0.8.tar.gz tmp/injector_collections-0.0.9.tar.gz --markdown 20240530/i/injector-collections/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 09:07:37] INFO root fetch - processPackages [tuyul-sdk]: executing diffoscope
+[2024-05-30 09:07:37] INFO root fetch - processPackages [tuyul-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuyul_sdk-0.0.1rc2.tar.gz tmp/tuyul_sdk-0.0.1rc3.tar.gz --markdown 20240530/t/tuyul-sdk/0.0.1rc2-0.0.1rc3/README.md --exclude *.pyd
+[2024-05-30 09:07:37] INFO root fetch - processPackages [tuyul-sdk]: executing diffoscope
+[2024-05-30 09:07:37] INFO root fetch - processPackages [tuyul-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuyul_sdk-0.0.1rc2.tar.gz tmp/tuyul_sdk-0.0.1rc3.tar.gz --markdown 20240530/t/tuyul-sdk/0.0.1rc2-0.0.1rc3/README.md --exclude *.pyd
+[2024-05-30 09:07:37] INFO root fetch - processPackages [odoo14-addon-company-dependent-flag]: executing diffoscope
+[2024-05-30 09:07:37] INFO root fetch - processPackages [odoo14-addon-company-dependent-flag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_company_dependent_flag-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_company_dependent_flag-14.0.1.0.1.dev3-py3-none-any.whl.zip --markdown 20240530/o/odoo14-addon-company-dependent-flag/14.0.1.0.1.dev2-14.0.1.0.1.dev3/README.md --exclude *.pyd
+[2024-05-30 09:07:37] INFO root fetch - processPackages [nagatoai_core]: Downloading https://files.pythonhosted.org/packages/79/56/eaaca906dc31aa5afee4de05ed86891e107f7ff92fa83a812b3eb3ae4c5f/nagatoai_core-0.9.0.tar.gz
+[2024-05-30 09:07:37] INFO root fetch - processPackages [nagatoai_core]: executing diffoscope
+[2024-05-30 09:07:37] INFO root fetch - processPackages [nagatoai_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nagatoai_core-0.8.0.tar.gz tmp/nagatoai_core-0.9.0.tar.gz --markdown 20240530/n/nagatoai_core/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-30 09:07:37] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.8.tar.gz]
+[2024-05-30 09:07:37] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.9.tar.gz]
+[2024-05-30 09:07:37] INFO root fetch - main [MainThread]: End processing [injector-collections]: success
+[2024-05-30 09:07:38] INFO root fetch - processPackages [echoss-query]: Remove: archive file [/home/abi/fetcher/tmp/echoss_query-0.1.1.tar.gz]
+[2024-05-30 09:07:38] INFO root fetch - processPackages [echoss-query]: Remove: archive file [/home/abi/fetcher/tmp/echoss_query-0.1.2.tar.gz]
+[2024-05-30 09:07:38] INFO root fetch - main [MainThread]: End processing [echoss-query]: success
+[2024-05-30 09:07:38] INFO root fetch - processPackages [labda]: Remove: archive file [/home/abi/fetcher/tmp/labda-0.0.8.tar.gz]
+[2024-05-30 09:07:38] INFO root fetch - processPackages [labda]: Remove: archive file [/home/abi/fetcher/tmp/labda-0.0.9.tar.gz]
+[2024-05-30 09:07:38] INFO root fetch - main [MainThread]: End processing [labda]: success
+[2024-05-30 09:07:38] INFO root fetch - processPackages [odoo14-addon-company-dependent-flag]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_company_dependent_flag-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2024-05-30 09:07:38] INFO root fetch - processPackages [odoo14-addon-company-dependent-flag]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_company_dependent_flag-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2024-05-30 09:07:38] INFO root fetch - main [MainThread]: End processing [odoo14-addon-company-dependent-flag]: success
+[2024-05-30 09:07:38] INFO root fetch - processPackages [tuyul-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tuyul_sdk-0.0.1rc2.tar.gz]
+[2024-05-30 09:07:38] INFO root fetch - processPackages [tuyul-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tuyul_sdk-0.0.1rc3.tar.gz]
+[2024-05-30 09:07:38] INFO root fetch - main [MainThread]: End processing [tuyul-sdk]: success
+[2024-05-30 09:07:38] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-30 09:07:38] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-30 09:07:38] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-30 09:07:38] INFO root fetch - main [MainThread]: End processing [tuyul-sdk]: success
+[2024-05-30 09:07:38] INFO root fetch - processPackages [nagatoai_core]: Remove: archive file [/home/abi/fetcher/tmp/nagatoai_core-0.8.0.tar.gz]
+[2024-05-30 09:07:38] INFO root fetch - processPackages [nagatoai_core]: Remove: archive file [/home/abi/fetcher/tmp/nagatoai_core-0.9.0.tar.gz]
+[2024-05-30 09:07:38] INFO root fetch - main [MainThread]: End processing [nagatoai_core]: success
+[2024-05-30 09:07:38] INFO root fetch - main [MainThread]: Store serial: [23443890]
