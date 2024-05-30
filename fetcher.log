@@ -17440,3 +17440,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:14:29] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.9.tar.gz]
 [2024-05-30 10:14:29] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
 [2024-05-30 10:14:29] INFO root fetch - main [MainThread]: Store serial: [23444771]
+[2024-05-30 10:16:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444771]
+[2024-05-30 10:16:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 10:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zaku
+[2024-05-30 10:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nostr-dvm
+[2024-05-30 10:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reywechat
+[2024-05-30 10:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scAtlasVAE
+[2024-05-30 10:16:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pg-bulk-ingest
+[2024-05-30 10:16:39] INFO root fetch - processPackages [reywechat]: New version: [0.99] Old Version: [0.98]
+[2024-05-30 10:16:39] INFO root fetch - processPackages [zaku]: New version: [0.0.9] Old Version: [0.0.8rc1]
+[2024-05-30 10:16:39] INFO root fetch - processPackages [reywechat]: Downloading https://files.pythonhosted.org/packages/ff/2e/b9a5994a24193c61496f355cbbb5c1bb44f429935c006ce1efd4911a0a6f/reywechat-0.98-py3-none-any.whl
+[2024-05-30 10:16:39] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/36/63/843de81065e8c450c9dd14f7dd36425a40393dc131450c91bebeb4c5dd43/zaku-0.0.8rc1-py3-none-any.whl
+[2024-05-30 10:16:39] INFO root fetch - processPackages [scAtlasVAE]: New version: [1.0.3a6] Old Version: [1.0.3a5]
+[2024-05-30 10:16:39] INFO root fetch - processPackages [nostr-dvm]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-30 10:16:39] INFO root fetch - processPackages [pg-bulk-ingest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 10:16:39] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/8e/79/aa990beddce7b4123d11012eeabd73a7d90c4b400d8f7720f068b9a70bd5/nostr_dvm-0.4.8.tar.gz
+[2024-05-30 10:16:39] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/e7/4c/79370bd20a6c816fde6c364043a829acf317c47786fa13893e26ccd005f6/pg_bulk_ingest-0.0.8.tar.gz
+[2024-05-30 10:16:39] INFO root fetch - processPackages [scAtlasVAE]: Downloading https://files.pythonhosted.org/packages/07/22/dabe8198ccdf7dd445c7cc033b1dc53c8eab854a0727d441a8a7cdb80357/scAtlasVAE-1.0.3a5-py3-none-any.whl
+[2024-05-30 10:16:39] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/cf/0e/96a80c4cc62c4a2fa75fb4a3fbfabb21a029116202d8e513617930bcdd4a/zaku-0.0.9-py3-none-any.whl
+[2024-05-30 10:16:39] INFO root fetch - processPackages [reywechat]: Downloading https://files.pythonhosted.org/packages/89/a9/4e20bd7b05b936fabff8d9ba6f694c9652145c4dec3c161120ce57a6494b/reywechat-0.99-py3-none-any.whl
+[2024-05-30 10:16:39] INFO root fetch - processPackages [zaku]: executing diffoscope
+[2024-05-30 10:16:39] INFO root fetch - processPackages [zaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaku-0.0.8rc1-py3-none-any.whl.zip tmp/zaku-0.0.9-py3-none-any.whl.zip --markdown 20240530/z/zaku/0.0.8rc1-0.0.9/README.md --exclude *.pyd
+[2024-05-30 10:16:39] INFO root fetch - processPackages [reywechat]: executing diffoscope
+[2024-05-30 10:16:39] INFO root fetch - processPackages [reywechat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reywechat-0.98-py3-none-any.whl.zip tmp/reywechat-0.99-py3-none-any.whl.zip --markdown 20240530/r/reywechat/0.98-0.99/README.md --exclude *.pyd
+[2024-05-30 10:16:39] INFO root fetch - processPackages [scAtlasVAE]: Downloading https://files.pythonhosted.org/packages/7c/22/220fe0680b84c2846766329188b29954fb12cc8ae9df0a1c00c3b0b2dddf/scAtlasVAE-1.0.3a6-py3-none-any.whl
+[2024-05-30 10:16:40] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/f7/6d/2351bc8b3be34e3f55c0e34cf2c0b4c807fc997204c58dfd0f31da3da460/nostr_dvm-0.4.9.tar.gz
+[2024-05-30 10:16:40] INFO root fetch - processPackages [scAtlasVAE]: executing diffoscope
+[2024-05-30 10:16:40] INFO root fetch - processPackages [scAtlasVAE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scAtlasVAE-1.0.3a5-py3-none-any.whl.zip tmp/scAtlasVAE-1.0.3a6-py3-none-any.whl.zip --markdown 20240530/s/scAtlasVAE/1.0.3a5-1.0.3a6/README.md --exclude *.pyd
+[2024-05-30 10:16:40] INFO root fetch - processPackages [nostr-dvm]: executing diffoscope
+[2024-05-30 10:16:40] INFO root fetch - processPackages [nostr-dvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr_dvm-0.4.8.tar.gz tmp/nostr_dvm-0.4.9.tar.gz --markdown 20240530/n/nostr-dvm/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-30 10:16:40] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.8rc1-py3-none-any.whl.zip]
+[2024-05-30 10:16:40] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.9-py3-none-any.whl.zip]
+[2024-05-30 10:16:40] INFO root fetch - main [MainThread]: End processing [zaku]: success
+[2024-05-30 10:16:40] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/db/bb/df7525f74975aacf76789085425bed157db43bb21c9d69e39c9e4bedd944/pg_bulk_ingest-0.0.9.tar.gz
+[2024-05-30 10:16:40] INFO root fetch - processPackages [reywechat]: Remove: archive file [/home/abi/fetcher/tmp/reywechat-0.98-py3-none-any.whl.zip]
+[2024-05-30 10:16:40] INFO root fetch - processPackages [reywechat]: Remove: archive file [/home/abi/fetcher/tmp/reywechat-0.99-py3-none-any.whl.zip]
+[2024-05-30 10:16:40] INFO root fetch - main [MainThread]: End processing [reywechat]: success
+[2024-05-30 10:16:40] INFO root fetch - processPackages [scAtlasVAE]: Remove: archive file [/home/abi/fetcher/tmp/scAtlasVAE-1.0.3a5-py3-none-any.whl.zip]
+[2024-05-30 10:16:40] INFO root fetch - processPackages [scAtlasVAE]: Remove: archive file [/home/abi/fetcher/tmp/scAtlasVAE-1.0.3a6-py3-none-any.whl.zip]
+[2024-05-30 10:16:40] INFO root fetch - main [MainThread]: End processing [scAtlasVAE]: success
+[2024-05-30 10:16:41] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.4.8.tar.gz]
+[2024-05-30 10:16:41] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.4.9.tar.gz]
+[2024-05-30 10:16:41] INFO root fetch - main [MainThread]: End processing [nostr-dvm]: success
+[2024-05-30 10:16:41] INFO root fetch - processPackages [pg-bulk-ingest]: executing diffoscope
+[2024-05-30 10:16:41] INFO root fetch - processPackages [pg-bulk-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_bulk_ingest-0.0.8.tar.gz tmp/pg_bulk_ingest-0.0.9.tar.gz --markdown 20240530/p/pg-bulk-ingest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 10:16:41] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.8.tar.gz]
+[2024-05-30 10:16:41] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.9.tar.gz]
+[2024-05-30 10:16:41] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
+[2024-05-30 10:16:41] INFO root fetch - main [MainThread]: Store serial: [23444803]
