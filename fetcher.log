@@ -17293,3 +17293,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:09:44] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240529.tar.gz]
 [2024-05-30 10:09:44] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2024-05-30 10:09:44] INFO root fetch - main [MainThread]: Store serial: [23444699]
+[2024-05-30 10:11:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444699]
+[2024-05-30 10:11:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 10:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asp-selftest
+[2024-05-30 10:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hestia-earth-validation
+[2024-05-30 10:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sq-sqllib
+[2024-05-30 10:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqcrypt
+[2024-05-30 10:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cash-training-wheels-core
+[2024-05-30 10:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqbricks
+[2024-05-30 10:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqprefect-tasks-conductor
+[2024-05-30 10:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqprefect-contrib-dip
+[2024-05-30 10:11:53] INFO root fetch - processPackages [asp-selftest]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-30 10:11:53] INFO root fetch - processPackages [hestia-earth-validation]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-30 10:11:53] ERROR root fetch - processPackages [sqbricks]: Unable to get metadata: No such project 'sqbricks'
+[2024-05-30 10:11:53] INFO root fetch - main [MainThread]: End processing [sqbricks] error
+[2024-05-30 10:11:53] ERROR root fetch - processPackages [sqprefect-tasks-conductor]: Unable to get metadata: No such project 'sqprefect-tasks-conductor'
+[2024-05-30 10:11:53] INFO root fetch - main [MainThread]: End processing [sqprefect-tasks-conductor] error
+[2024-05-30 10:11:53] ERROR root fetch - processPackages [cash-training-wheels-core]: Unable to get metadata: No such project 'cash-training-wheels-core'
+[2024-05-30 10:11:53] INFO root fetch - main [MainThread]: End processing [cash-training-wheels-core] error
+[2024-05-30 10:11:53] ERROR root fetch - processPackages [sqprefect-contrib-dip]: Unable to get metadata: No such project 'sqprefect-contrib-dip'
+[2024-05-30 10:11:53] INFO root fetch - main [MainThread]: End processing [sqprefect-contrib-dip] error
+[2024-05-30 10:11:53] ERROR root fetch - processPackages [sq-sqllib]: Unable to get metadata: No such project 'sq-sqllib'
+[2024-05-30 10:11:53] INFO root fetch - main [MainThread]: End processing [sq-sqllib] error
+[2024-05-30 10:11:53] ERROR root fetch - processPackages [sqcrypt]: Unable to get metadata: No such project 'sqcrypt'
+[2024-05-30 10:11:53] INFO root fetch - main [MainThread]: End processing [sqcrypt] error
+[2024-05-30 10:11:53] INFO root fetch - processPackages [asp-selftest]: Downloading https://files.pythonhosted.org/packages/67/66/5ecf2b4724256e46a987f5ec2757bb056607970c66b2bd411d2c9048d155/asp_selftest-0.0.7.tar.gz
+[2024-05-30 10:11:53] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/33/b1/1105a4e61f23c309958db8eb0a5c59b945e3291d912a253970b1cdb90f73/hestia-earth-validation-0.9.2.tar.gz
+[2024-05-30 10:11:54] INFO root fetch - processPackages [asp-selftest]: Downloading https://files.pythonhosted.org/packages/c5/f5/80cce325e0535b7f2530326bda1d6b96c0bd2bf2a39c9dd9c943d40a526a/asp_selftest-0.0.8.tar.gz
+[2024-05-30 10:11:54] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/b0/45/d5ba27a9ee459bf387b017277d998197192c37d8374146ae34a294f8a0af/hestia-earth-validation-0.9.3.tar.gz
+[2024-05-30 10:11:54] INFO root fetch - processPackages [asp-selftest]: executing diffoscope
+[2024-05-30 10:11:54] INFO root fetch - processPackages [asp-selftest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asp_selftest-0.0.7.tar.gz tmp/asp_selftest-0.0.8.tar.gz --markdown 20240530/a/asp-selftest/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-30 10:11:54] INFO root fetch - processPackages [hestia-earth-validation]: executing diffoscope
+[2024-05-30 10:11:54] INFO root fetch - processPackages [hestia-earth-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-validation-0.9.2.tar.gz tmp/hestia-earth-validation-0.9.3.tar.gz --markdown 20240530/h/hestia-earth-validation/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-30 10:11:54] INFO root fetch - processPackages [asp-selftest]: Remove: archive file [/home/abi/fetcher/tmp/asp_selftest-0.0.7.tar.gz]
+[2024-05-30 10:11:54] INFO root fetch - processPackages [asp-selftest]: Remove: archive file [/home/abi/fetcher/tmp/asp_selftest-0.0.8.tar.gz]
+[2024-05-30 10:11:54] INFO root fetch - main [MainThread]: End processing [asp-selftest]: success
+[2024-05-30 10:11:54] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.2.tar.gz]
+[2024-05-30 10:11:54] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.3.tar.gz]
+[2024-05-30 10:11:54] INFO root fetch - main [MainThread]: End processing [hestia-earth-validation]: success
+[2024-05-30 10:11:54] INFO root fetch - main [MainThread]: Store serial: [23444718]
