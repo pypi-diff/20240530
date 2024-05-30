@@ -21033,3 +21033,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:24:15] INFO root fetch - processPackages [spm1d]: Remove: archive file [/home/abi/fetcher/tmp/spm1d-0.4.30.tar.gz]
 [2024-05-30 11:24:15] INFO root fetch - main [MainThread]: End processing [spm1d]: success
 [2024-05-30 11:24:15] INFO root fetch - main [MainThread]: Store serial: [23446165]
+[2024-05-30 11:26:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446165]
+[2024-05-30 11:26:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-30 11:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-horizon-sdk
+[2024-05-30 11:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dingosdk
+[2024-05-30 11:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezFlashCLI
+[2024-05-30 11:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akeneo-connector
+[2024-05-30 11:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: akshare
+[2024-05-30 11:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aa-market-manager
+[2024-05-30 11:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grdwindinversion
+[2024-05-30 11:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: node
+[2024-05-30 11:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbt-databend-cloud
+[2024-05-30 11:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vizro
+[2024-05-30 11:26:25] INFO root fetch - processPackages [akeneo-connector]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 11:26:25] INFO root fetch - processPackages [ezFlashCLI]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-30 11:26:25] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc9] Old Version: [0.1rc8.post1]
+[2024-05-30 11:26:25] INFO root fetch - processPackages [aa-market-manager]: New version: [0.9.3a0] Old Version: [0.9.2a0]
+[2024-05-30 11:26:25] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-30 11:26:25] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-30 11:26:25] INFO root fetch - processPackages [node]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-30 11:26:25] INFO root fetch - processPackages [dbt-databend-cloud]: New version: [1.8.1] Old Version: [1.4.2]
+[2024-05-30 11:26:25] INFO root fetch - processPackages [grdwindinversion]: New version: [0.2.3.post8] Old Version: [0.2.3.post7]
+[2024-05-30 11:26:25] INFO root fetch - processPackages [akeneo-connector]: Downloading https://files.pythonhosted.org/packages/36/c2/1825481624ae549f0562d89ff4b2a0d8ce122c193d65c30eb7da4adbb8c6/akeneo_connector-0.1.8.tar.gz
+[2024-05-30 11:26:25] INFO root fetch - processPackages [vizro]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 11:26:25] INFO root fetch - processPackages [aa-market-manager]: Downloading https://files.pythonhosted.org/packages/4a/d9/0be205bc36f933d7f34987e6e238e05bf5f1c569bee0ca1554eff8141749/aa-market-manager-0.9.2a0.tar.gz
+[2024-05-30 11:26:25] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/67/4d/e1a8441c0793c287231aa24b799798d11cf616a132506eff04205a00f779/finbourne_horizon_sdk-2.1.8.tar.gz
+[2024-05-30 11:26:25] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/7b/10/2c6bb88645e870b167392150b76711fb4823aa921ee4bc314ba468f0d5dd/dingosdk-0.1rc8.post1.tar.gz
+[2024-05-30 11:26:25] INFO root fetch - processPackages [ezFlashCLI]: Downloading https://files.pythonhosted.org/packages/99/f1/917015c9151672a17d835b7260d27aa1de9de2f03c3dfbb7fbea2d664b15/ezFlashCLI-1.0.8.tar.gz
+[2024-05-30 11:26:25] WARNING root fetch - processPackages [ezFlashCLI]: Skipping package: exceeds size limit 71430443>=10485760
+[2024-05-30 11:26:25] INFO root fetch - main [MainThread]: End processing [ezFlashCLI] error
+[2024-05-30 11:26:25] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 63305453>=10485760
+[2024-05-30 11:26:25] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-30 11:26:25] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-30 11:26:25] INFO root fetch - processPackages [grdwindinversion]: Downloading https://files.pythonhosted.org/packages/b0/94/6b5480b0ce35cdda2fa0d27426783e54b735a9bbcb22732ffdf53072da45/grdwindinversion-0.2.3.post7.tar.gz
+[2024-05-30 11:26:25] INFO root fetch - processPackages [dbt-databend-cloud]: Downloading https://files.pythonhosted.org/packages/9f/9e/e72b3e9411ffd8408391d40a8ecbd143f11d1b0086e45e0e4b5627e7cb98/dbt_databend_cloud-1.4.2-py3-none-any.whl
+[2024-05-30 11:26:25] INFO root fetch - processPackages [akeneo-connector]: Downloading https://files.pythonhosted.org/packages/4b/be/0077d39900ac1e0e4aab7a864b6330902ac27a622a13144ca8cbf6382509/akeneo_connector-0.1.9.tar.gz
+[2024-05-30 11:26:25] INFO root fetch - processPackages [node]: Downloading https://files.pythonhosted.org/packages/eb/63/d2c9820b2dbf098c9d410162aa99347f6e06ad7813ded994f18993f67def/node-1.2.1.tar.gz
+[2024-05-30 11:26:25] INFO root fetch - processPackages [vizro]: Downloading https://files.pythonhosted.org/packages/40/1f/e243a91804fc5cbe48dd431daf8b1aed45aecc6fbe999b8ce1589a58c7c4/vizro-0.1.8.tar.gz
+[2024-05-30 11:26:25] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/df/fa/2361b9179baf6e0ef8aa5667c5bf5ef7c28a98660f52bb7a7c8671f43c8e/finbourne_horizon_sdk-2.1.9.tar.gz
+[2024-05-30 11:26:25] INFO root fetch - processPackages [aa-market-manager]: Downloading https://files.pythonhosted.org/packages/72/82/f316a12737c17f20f2a8b414cbf387ccf3b4d1c251a2054f348a14a3484f/aa-market-manager-0.9.3a0.tar.gz
+[2024-05-30 11:26:25] INFO root fetch - processPackages [akeneo-connector]: executing diffoscope
+[2024-05-30 11:26:25] INFO root fetch - processPackages [akeneo-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akeneo_connector-0.1.8.tar.gz tmp/akeneo_connector-0.1.9.tar.gz --markdown 20240530/a/akeneo-connector/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 11:26:25] INFO root fetch - processPackages [aa-market-manager]: executing diffoscope
+[2024-05-30 11:26:25] INFO root fetch - processPackages [aa-market-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-market-manager-0.9.2a0.tar.gz tmp/aa-market-manager-0.9.3a0.tar.gz --markdown 20240530/a/aa-market-manager/0.9.2a0-0.9.3a0/README.md --exclude *.pyd
+[2024-05-30 11:26:25] INFO root fetch - processPackages [dbt-databend-cloud]: Downloading https://files.pythonhosted.org/packages/63/68/73c722ea1595a4052e5768137d162307466c2c67b33c89c9e50bd36a41a1/dbt_databend_cloud-1.8.1-py3-none-any.whl
+[2024-05-30 11:26:25] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-05-30 11:26:25] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.8.tar.gz tmp/finbourne_horizon_sdk-2.1.9.tar.gz --markdown 20240530/f/finbourne-horizon-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-30 11:26:25] INFO root fetch - processPackages [grdwindinversion]: Downloading https://files.pythonhosted.org/packages/50/7f/a20b2f6bc517ffd9e0070618b7be23e4e882b9c9486e933a980e9d29a59b/grdwindinversion-0.2.3.post8.tar.gz
+[2024-05-30 11:26:25] INFO root fetch - processPackages [node]: Downloading https://files.pythonhosted.org/packages/8c/93/2236fa76a8361d88ce2d0fd2a87961613898aded8b7bd214c19038a7aabe/node-1.2.2.tar.gz
+[2024-05-30 11:26:25] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-30 11:26:25] INFO root fetch - processPackages [dbt-databend-cloud]: executing diffoscope
+[2024-05-30 11:26:25] INFO root fetch - processPackages [dbt-databend-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_databend_cloud-1.4.2-py3-none-any.whl.zip tmp/dbt_databend_cloud-1.8.1-py3-none-any.whl.zip --markdown 20240530/d/dbt-databend-cloud/1.4.2-1.8.1/README.md --exclude *.pyd
+[2024-05-30 11:26:25] WARNING root fetch - processPackages [vizro]: Skipping package: exceeds size limit 15712337>=10485760
+[2024-05-30 11:26:25] INFO root fetch - main [MainThread]: End processing [vizro] error
+[2024-05-30 11:26:25] INFO root fetch - processPackages [grdwindinversion]: executing diffoscope
+[2024-05-30 11:26:25] INFO root fetch - processPackages [grdwindinversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grdwindinversion-0.2.3.post7.tar.gz tmp/grdwindinversion-0.2.3.post8.tar.gz --markdown 20240530/g/grdwindinversion/0.2.3.post7-0.2.3.post8/README.md --exclude *.pyd
+[2024-05-30 11:26:26] INFO root fetch - processPackages [node]: executing diffoscope
+[2024-05-30 11:26:26] INFO root fetch - processPackages [node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/node-1.2.1.tar.gz tmp/node-1.2.2.tar.gz --markdown 20240530/n/node/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-30 11:26:26] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-30 11:26:26] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240530/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-30 11:26:26] INFO root fetch - processPackages [akeneo-connector]: Remove: archive file [/home/abi/fetcher/tmp/akeneo_connector-0.1.8.tar.gz]
+[2024-05-30 11:26:26] INFO root fetch - processPackages [akeneo-connector]: Remove: archive file [/home/abi/fetcher/tmp/akeneo_connector-0.1.9.tar.gz]
+[2024-05-30 11:26:26] INFO root fetch - main [MainThread]: End processing [akeneo-connector]: success
+[2024-05-30 11:26:26] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.8.tar.gz]
+[2024-05-30 11:26:26] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.9.tar.gz]
+[2024-05-30 11:26:26] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-05-30 11:26:26] INFO root fetch - processPackages [dbt-databend-cloud]: Remove: archive file [/home/abi/fetcher/tmp/dbt_databend_cloud-1.4.2-py3-none-any.whl.zip]
+[2024-05-30 11:26:26] INFO root fetch - processPackages [dbt-databend-cloud]: Remove: archive file [/home/abi/fetcher/tmp/dbt_databend_cloud-1.8.1-py3-none-any.whl.zip]
+[2024-05-30 11:26:26] INFO root fetch - main [MainThread]: End processing [dbt-databend-cloud]: success
+[2024-05-30 11:26:26] INFO root fetch - processPackages [grdwindinversion]: Remove: archive file [/home/abi/fetcher/tmp/grdwindinversion-0.2.3.post7.tar.gz]
+[2024-05-30 11:26:26] INFO root fetch - processPackages [grdwindinversion]: Remove: archive file [/home/abi/fetcher/tmp/grdwindinversion-0.2.3.post8.tar.gz]
+[2024-05-30 11:26:26] INFO root fetch - main [MainThread]: End processing [grdwindinversion]: success
+[2024-05-30 11:26:26] INFO root fetch - processPackages [aa-market-manager]: Remove: archive file [/home/abi/fetcher/tmp/aa-market-manager-0.9.2a0.tar.gz]
+[2024-05-30 11:26:26] INFO root fetch - processPackages [aa-market-manager]: Remove: archive file [/home/abi/fetcher/tmp/aa-market-manager-0.9.3a0.tar.gz]
+[2024-05-30 11:26:26] INFO root fetch - main [MainThread]: End processing [aa-market-manager]: success
+[2024-05-30 11:26:27] INFO root fetch - processPackages [node]: Remove: archive file [/home/abi/fetcher/tmp/node-1.2.1.tar.gz]
+[2024-05-30 11:26:27] INFO root fetch - processPackages [node]: Remove: archive file [/home/abi/fetcher/tmp/node-1.2.2.tar.gz]
+[2024-05-30 11:26:27] INFO root fetch - main [MainThread]: End processing [node]: success
+[2024-05-30 11:26:28] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-30 11:26:28] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-30 11:26:28] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-30 11:26:28] INFO root fetch - main [MainThread]: Store serial: [23446191]
