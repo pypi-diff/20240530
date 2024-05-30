@@ -15613,3 +15613,54 @@ EOFError: EOF read where object expected
 [2024-05-30 09:07:38] INFO root fetch - processPackages [nagatoai_core]: Remove: archive file [/home/abi/fetcher/tmp/nagatoai_core-0.9.0.tar.gz]
 [2024-05-30 09:07:38] INFO root fetch - main [MainThread]: End processing [nagatoai_core]: success
 [2024-05-30 09:07:38] INFO root fetch - main [MainThread]: Store serial: [23443890]
+[2024-05-30 09:09:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443890]
+[2024-05-30 09:09:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: knatch
+[2024-05-30 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aura-tools
+[2024-05-30 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybersailor
+[2024-05-30 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentiment-analysis-model
+[2024-05-30 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vipas
+[2024-05-30 09:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autopipeline
+[2024-05-30 09:09:47] INFO root fetch - processPackages [aura-tools]: New version: [0.9] Old Version: [0.8]
+[2024-05-30 09:09:47] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/d4/72/6c7a79c3af98ebba5bdd7d90f4b9fb469fc0c16c433173845e4f880f8ad2/aura_tools-0.8.tar.gz
+[2024-05-30 09:09:47] WARNING root fetch - processPackages [sentiment-analysis-model]: Skipping, unable to determine old version
+[2024-05-30 09:09:47] INFO root fetch - processPackages [cybersailor]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-30 09:09:47] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-model] error
+[2024-05-30 09:09:47] INFO root fetch - processPackages [knatch]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-30 09:09:47] INFO root fetch - processPackages [vipas]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-30 09:09:47] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-30 09:09:47] INFO root fetch - processPackages [cybersailor]: Downloading https://files.pythonhosted.org/packages/99/08/e2e01284cd9550ac7305a59c1fb1ae1f5c42233081365df10de42c81e53d/cybersailor-0.1.3.tar.gz
+[2024-05-30 09:09:47] INFO root fetch - processPackages [knatch]: Downloading https://files.pythonhosted.org/packages/ac/7b/a0cfbb601080df426d25b47ea12ebac304f6cde4d51ecd4457c883b10b42/knatch-1.0.3.tar.gz
+[2024-05-30 09:09:47] INFO root fetch - processPackages [aura-tools]: Downloading https://files.pythonhosted.org/packages/a0/15/d7daa2719a2c18009c7b9485f0999fe399991ef00c9dbdb1f86a2beaba9b/aura_tools-0.9.tar.gz
+[2024-05-30 09:09:47] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-30 09:09:47] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/99/4c/efd2540132ce0d318d92e3c1bfe54fa9d25f2e554d2986af0c31f3bf7f6f/vipas-0.1.6.tar.gz
+[2024-05-30 09:09:47] INFO root fetch - processPackages [aura-tools]: executing diffoscope
+[2024-05-30 09:09:47] INFO root fetch - processPackages [aura-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aura_tools-0.8.tar.gz tmp/aura_tools-0.9.tar.gz --markdown 20240530/a/aura-tools/0.8-0.9/README.md --exclude *.pyd
+[2024-05-30 09:09:47] INFO root fetch - processPackages [cybersailor]: Downloading https://files.pythonhosted.org/packages/25/fd/fd4f3831734585f621d9d34fec1e4a194399febc8e60f61ac2ae7b8653f9/cybersailor-0.1.4.tar.gz
+[2024-05-30 09:09:47] INFO root fetch - processPackages [knatch]: Downloading https://files.pythonhosted.org/packages/38/65/aa5f4e31c76372b5e35a02116b029f11ac85c42d5871e99cf1f1189891a0/knatch-1.0.4.tar.gz
+[2024-05-30 09:09:47] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/cf/d4/cb891923142e88ea494b8f98aba86474266d8a6a1eed2172a5087201435c/vipas-0.1.7.tar.gz
+[2024-05-30 09:09:47] INFO root fetch - processPackages [cybersailor]: executing diffoscope
+[2024-05-30 09:09:47] INFO root fetch - processPackages [cybersailor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybersailor-0.1.3.tar.gz tmp/cybersailor-0.1.4.tar.gz --markdown 20240530/c/cybersailor/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-30 09:09:47] INFO root fetch - processPackages [knatch]: executing diffoscope
+[2024-05-30 09:09:47] INFO root fetch - processPackages [knatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knatch-1.0.3.tar.gz tmp/knatch-1.0.4.tar.gz --markdown 20240530/k/knatch/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-30 09:09:48] INFO root fetch - processPackages [vipas]: executing diffoscope
+[2024-05-30 09:09:48] INFO root fetch - processPackages [vipas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vipas-0.1.6.tar.gz tmp/vipas-0.1.7.tar.gz --markdown 20240530/v/vipas/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-30 09:09:48] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-30 09:09:48] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.8.tar.gz]
+[2024-05-30 09:09:48] INFO root fetch - processPackages [aura-tools]: Remove: archive file [/home/abi/fetcher/tmp/aura_tools-0.9.tar.gz]
+[2024-05-30 09:09:48] INFO root fetch - main [MainThread]: End processing [aura-tools]: success
+[2024-05-30 09:09:48] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-30 09:09:48] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240530/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-30 09:09:48] INFO root fetch - processPackages [knatch]: Remove: archive file [/home/abi/fetcher/tmp/knatch-1.0.3.tar.gz]
+[2024-05-30 09:09:48] INFO root fetch - processPackages [knatch]: Remove: archive file [/home/abi/fetcher/tmp/knatch-1.0.4.tar.gz]
+[2024-05-30 09:09:48] INFO root fetch - main [MainThread]: End processing [knatch]: success
+[2024-05-30 09:09:48] INFO root fetch - processPackages [cybersailor]: Remove: archive file [/home/abi/fetcher/tmp/cybersailor-0.1.3.tar.gz]
+[2024-05-30 09:09:48] INFO root fetch - processPackages [cybersailor]: Remove: archive file [/home/abi/fetcher/tmp/cybersailor-0.1.4.tar.gz]
+[2024-05-30 09:09:48] INFO root fetch - main [MainThread]: End processing [cybersailor]: success
+[2024-05-30 09:09:48] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.1.6.tar.gz]
+[2024-05-30 09:09:48] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.1.7.tar.gz]
+[2024-05-30 09:09:48] INFO root fetch - main [MainThread]: End processing [vipas]: success
+[2024-05-30 09:09:48] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-30 09:09:48] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-30 09:09:48] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-30 09:09:48] INFO root fetch - main [MainThread]: Store serial: [23443909]
