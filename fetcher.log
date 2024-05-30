@@ -2683,3 +2683,42 @@ EOFError: EOF read where object expected
 [2024-05-30 02:32:51] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
 [2024-05-30 02:32:51] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
 [2024-05-30 02:32:51] INFO root fetch - main [MainThread]: Store serial: [23438991]
+[2024-05-30 02:34:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438991]
+[2024-05-30 02:35:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 02:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: new-natnet-client
+[2024-05-30 02:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strideutils
+[2024-05-30 02:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heare-histograms
+[2024-05-30 02:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkgconf
+[2024-05-30 02:35:01] INFO root fetch - processPackages [strideutils]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-30 02:35:01] INFO root fetch - processPackages [new-natnet-client]: New version: [4.3.6] Old Version: [4.3.5]
+[2024-05-30 02:35:02] INFO root fetch - processPackages [strideutils]: Downloading https://files.pythonhosted.org/packages/e1/9b/56aec2f6b0d3c1e259f903acc0ff580043e88223ec37558b2e4a2ee21b6e/strideutils-0.3.8.tar.gz
+[2024-05-30 02:35:02] INFO root fetch - processPackages [new-natnet-client]: Downloading https://files.pythonhosted.org/packages/5e/f4/c0be814466aed10fff08d877fa66593cb7af19e3e41d1e8e5bfd3763958d/new_natnet_client-4.3.5.tar.gz
+[2024-05-30 02:35:02] INFO root fetch - processPackages [heare-histograms]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-30 02:35:02] INFO root fetch - processPackages [pkgconf]: New version: [2.1.1.post5] Old Version: [2.1.1.post1]
+[2024-05-30 02:35:02] INFO root fetch - processPackages [strideutils]: Downloading https://files.pythonhosted.org/packages/37/92/d67613eba81b67a968cad26eb4681b8c30b3f9f90ee0d106177b8bc07a2c/strideutils-0.3.9.tar.gz
+[2024-05-30 02:35:02] INFO root fetch - processPackages [heare-histograms]: Downloading https://files.pythonhosted.org/packages/3f/60/1ec64e9b80ef5ae3a56a9d5d42b7be64124e5f7a12b0222082978a340eac/heare_histograms-0.1.2.tar.gz
+[2024-05-30 02:35:02] INFO root fetch - processPackages [pkgconf]: Downloading https://files.pythonhosted.org/packages/65/2d/1265a76d6878e7b2446b806d7fe64c39befc74269969c36486f1435707c8/pkgconf-2.1.1.post1.tar.gz
+[2024-05-30 02:35:02] INFO root fetch - processPackages [new-natnet-client]: Downloading https://files.pythonhosted.org/packages/4a/bb/092b3e5b4771dedd5e899def1234f216fa0c57b54fce1dbe86dc95152ee1/new_natnet_client-4.3.6.tar.gz
+[2024-05-30 02:35:02] INFO root fetch - processPackages [strideutils]: executing diffoscope
+[2024-05-30 02:35:02] INFO root fetch - processPackages [strideutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strideutils-0.3.8.tar.gz tmp/strideutils-0.3.9.tar.gz --markdown 20240530/s/strideutils/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-30 02:35:02] INFO root fetch - processPackages [new-natnet-client]: executing diffoscope
+[2024-05-30 02:35:02] INFO root fetch - processPackages [new-natnet-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/new_natnet_client-4.3.5.tar.gz tmp/new_natnet_client-4.3.6.tar.gz --markdown 20240530/n/new-natnet-client/4.3.5-4.3.6/README.md --exclude *.pyd
+[2024-05-30 02:35:02] INFO root fetch - processPackages [pkgconf]: Downloading https://files.pythonhosted.org/packages/9f/ae/00bae4a560f0bd9667a1a518d54737e03b53da1ef069c179590559ac9776/pkgconf-2.1.1.post5.tar.gz
+[2024-05-30 02:35:02] INFO root fetch - processPackages [heare-histograms]: Downloading https://files.pythonhosted.org/packages/5e/fd/b4c48a70dcb6ece91e6e32aaa4649fb6385134a2c35624ab82636b3a6f2e/heare_histograms-0.1.3.tar.gz
+[2024-05-30 02:35:02] INFO root fetch - processPackages [heare-histograms]: executing diffoscope
+[2024-05-30 02:35:02] INFO root fetch - processPackages [heare-histograms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heare_histograms-0.1.2.tar.gz tmp/heare_histograms-0.1.3.tar.gz --markdown 20240530/h/heare-histograms/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-30 02:35:02] INFO root fetch - processPackages [pkgconf]: executing diffoscope
+[2024-05-30 02:35:02] INFO root fetch - processPackages [pkgconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgconf-2.1.1.post1.tar.gz tmp/pkgconf-2.1.1.post5.tar.gz --markdown 20240530/p/pkgconf/2.1.1.post1-2.1.1.post5/README.md --exclude *.pyd
+[2024-05-30 02:35:02] INFO root fetch - processPackages [strideutils]: Remove: archive file [/home/abi/fetcher/tmp/strideutils-0.3.8.tar.gz]
+[2024-05-30 02:35:02] INFO root fetch - processPackages [strideutils]: Remove: archive file [/home/abi/fetcher/tmp/strideutils-0.3.9.tar.gz]
+[2024-05-30 02:35:02] INFO root fetch - main [MainThread]: End processing [strideutils]: success
+[2024-05-30 02:35:03] INFO root fetch - processPackages [new-natnet-client]: Remove: archive file [/home/abi/fetcher/tmp/new_natnet_client-4.3.5.tar.gz]
+[2024-05-30 02:35:03] INFO root fetch - processPackages [new-natnet-client]: Remove: archive file [/home/abi/fetcher/tmp/new_natnet_client-4.3.6.tar.gz]
+[2024-05-30 02:35:03] INFO root fetch - main [MainThread]: End processing [new-natnet-client]: success
+[2024-05-30 02:35:03] INFO root fetch - processPackages [heare-histograms]: Remove: archive file [/home/abi/fetcher/tmp/heare_histograms-0.1.2.tar.gz]
+[2024-05-30 02:35:03] INFO root fetch - processPackages [heare-histograms]: Remove: archive file [/home/abi/fetcher/tmp/heare_histograms-0.1.3.tar.gz]
+[2024-05-30 02:35:03] INFO root fetch - main [MainThread]: End processing [heare-histograms]: success
+[2024-05-30 02:35:03] INFO root fetch - processPackages [pkgconf]: Remove: archive file [/home/abi/fetcher/tmp/pkgconf-2.1.1.post1.tar.gz]
+[2024-05-30 02:35:03] INFO root fetch - processPackages [pkgconf]: Remove: archive file [/home/abi/fetcher/tmp/pkgconf-2.1.1.post5.tar.gz]
+[2024-05-30 02:35:03] INFO root fetch - main [MainThread]: End processing [pkgconf]: success
+[2024-05-30 02:35:03] INFO root fetch - main [MainThread]: Store serial: [23439002]
