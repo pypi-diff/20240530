@@ -13203,3 +13203,81 @@ EOFError: EOF read where object expected
 [2024-05-30 07:56:48] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.7.1.tar.gz]
 [2024-05-30 07:56:48] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
 [2024-05-30 07:56:48] INFO root fetch - main [MainThread]: Store serial: [23443045]
+[2024-05-30 07:58:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443045]
+[2024-05-30 07:58:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-30 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: b2sim
+[2024-05-30 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libbs
+[2024-05-30 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linien-common
+[2024-05-30 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linien-server
+[2024-05-30 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polars-order-book
+[2024-05-30 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linien-client
+[2024-05-30 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linien-gui
+[2024-05-30 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bees-challenge
+[2024-05-30 07:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anemone-daisy-maker
+[2024-05-30 07:58:57] INFO root fetch - processPackages [libbs]: New version: [1.6.0] Old Version: [1.5.2]
+[2024-05-30 07:58:57] INFO root fetch - processPackages [bees-challenge]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-30 07:58:57] INFO root fetch - processPackages [b2sim]: New version: [2.2.1] Old Version: [2.1.5]
+[2024-05-30 07:58:57] INFO root fetch - processPackages [linien-common]: New version: [2.0.3rc1] Old Version: [2.0.3]
+[2024-05-30 07:58:57] INFO root fetch - processPackages [linien-server]: New version: [2.0.3rc1] Old Version: [2.0.3]
+[2024-05-30 07:58:57] INFO root fetch - processPackages [linien-gui]: New version: [2.0.3rc1] Old Version: [2.0.3]
+[2024-05-30 07:58:57] INFO root fetch - processPackages [linien-client]: New version: [2.0.3rc1] Old Version: [2.0.3]
+[2024-05-30 07:58:57] INFO root fetch - processPackages [anemone-daisy-maker]: New version: [1.60] Old Version: [1.59]
+[2024-05-30 07:58:57] WARNING root fetch - processPackages [polars-order-book]: Skipping, unable to determine old version
+[2024-05-30 07:58:57] INFO root fetch - main [MainThread]: End processing [polars-order-book] error
+[2024-05-30 07:58:57] INFO root fetch - processPackages [libbs]: Downloading https://files.pythonhosted.org/packages/ca/6b/e4c4deaa6a7d6a3bf14c82e3b7ed21b83f0fa0eb4781743061b3e685906e/libbs-1.5.2.tar.gz
+[2024-05-30 07:58:57] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/9b/52/398614c2b8dacc8a7872ea2709d335c07a6383fd8b2741db142035848412/bees-challenge-0.3.0.tar.gz
+[2024-05-30 07:58:57] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/6b/ec/975f1698912c15c1103688d13039cea5b4666672562984876a1537836e06/linien_server-2.0.3.tar.gz
+[2024-05-30 07:58:57] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/3b/45/56db31fb841467813fb3a2b040e7c16129ca73302ebb6e75ae439d0551ad/linien_common-2.0.3.tar.gz
+[2024-05-30 07:58:57] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/d8/26/57134b9848e4b38680ace6c886bcc035c63028e1e1835499d2b08dd20be6/b2sim-2.1.5.tar.gz
+[2024-05-30 07:58:57] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/54/d5/0c18f65eabc74b5e62e3f1b718c31c243ca73c8ae8d41a6dc31b29eafb92/linien_gui-2.0.3.tar.gz
+[2024-05-30 07:58:57] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/c1/65/19cb3bb07e747be595f28ab3fdbc24538377605057c8abd449dfaa0c4db7/linien_client-2.0.3.tar.gz
+[2024-05-30 07:58:57] INFO root fetch - processPackages [anemone-daisy-maker]: Downloading https://files.pythonhosted.org/packages/7d/ab/445a92abeb2e6c2e41c5df6688d3746db0ca7da9f9ee84bae2116a9b3381/anemone_daisy_maker-1.59.tar.gz
+[2024-05-30 07:58:57] INFO root fetch - processPackages [libbs]: Downloading https://files.pythonhosted.org/packages/f6/c8/8e9dd09d4be773617d4011756167e0f1eb51298ab0774d471cf7a8046157/libbs-1.6.0.tar.gz
+[2024-05-30 07:58:57] INFO root fetch - processPackages [linien-common]: Downloading https://files.pythonhosted.org/packages/9c/57/b23bb614c3478748fd840f81985c3f5b9ce0d7dd0de955e19416924ae3c6/linien_common-2.0.3rc1.tar.gz
+[2024-05-30 07:58:58] INFO root fetch - processPackages [linien-server]: Downloading https://files.pythonhosted.org/packages/2a/af/457d294dd4b6268e6a009a536cca22b63c85cce738418422012dd10e67f7/linien_server-2.0.3rc1.tar.gz
+[2024-05-30 07:58:58] INFO root fetch - processPackages [b2sim]: Downloading https://files.pythonhosted.org/packages/4c/90/849c474c61036e16bc2d58d8e2bf903540b3d27fb42395960cfc264dd299/b2sim-2.2.1.tar.gz
+[2024-05-30 07:58:58] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/a9/12/7a345903fd853dc96408822a4014a6d60ffbdbb8cb3ffa8e7d30db034904/linien_gui-2.0.3rc1.tar.gz
+[2024-05-30 07:58:58] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/12/03/60ec5831a8b79f96574298442e4d745732cb29cffe5a16696b849d9c300a/bees-challenge-0.4.0.tar.gz
+[2024-05-30 07:58:58] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/76/31/c402018718d3fa15d94e894762f3b09db9d01bc733b9216771505f353e1e/linien_client-2.0.3rc1.tar.gz
+[2024-05-30 07:58:58] INFO root fetch - processPackages [libbs]: executing diffoscope
+[2024-05-30 07:58:58] INFO root fetch - processPackages [libbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libbs-1.5.2.tar.gz tmp/libbs-1.6.0.tar.gz --markdown 20240530/l/libbs/1.5.2-1.6.0/README.md --exclude *.pyd
+[2024-05-30 07:58:58] INFO root fetch - processPackages [linien-common]: executing diffoscope
+[2024-05-30 07:58:58] INFO root fetch - processPackages [linien-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_common-2.0.3.tar.gz tmp/linien_common-2.0.3rc1.tar.gz --markdown 20240530/l/linien-common/2.0.3-2.0.3rc1/README.md --exclude *.pyd
+[2024-05-30 07:58:58] INFO root fetch - processPackages [bees-challenge]: executing diffoscope
+[2024-05-30 07:58:58] INFO root fetch - processPackages [bees-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bees-challenge-0.3.0.tar.gz tmp/bees-challenge-0.4.0.tar.gz --markdown 20240530/b/bees-challenge/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-30 07:58:58] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2024-05-30 07:58:58] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_gui-2.0.3.tar.gz tmp/linien_gui-2.0.3rc1.tar.gz --markdown 20240530/l/linien-gui/2.0.3-2.0.3rc1/README.md --exclude *.pyd
+[2024-05-30 07:58:58] INFO root fetch - processPackages [b2sim]: executing diffoscope
+[2024-05-30 07:58:58] INFO root fetch - processPackages [b2sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sim-2.1.5.tar.gz tmp/b2sim-2.2.1.tar.gz --markdown 20240530/b/b2sim/2.1.5-2.2.1/README.md --exclude *.pyd
+[2024-05-30 07:58:58] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2024-05-30 07:58:58] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_client-2.0.3.tar.gz tmp/linien_client-2.0.3rc1.tar.gz --markdown 20240530/l/linien-client/2.0.3-2.0.3rc1/README.md --exclude *.pyd
+[2024-05-30 07:58:58] INFO root fetch - processPackages [anemone-daisy-maker]: Downloading https://files.pythonhosted.org/packages/e3/83/0d72522841d35d0c55482b78ff9747cf2d26bcad3b8411a587b5f22212a5/anemone_daisy_maker-1.60.tar.gz
+[2024-05-30 07:58:58] INFO root fetch - processPackages [linien-server]: executing diffoscope
+[2024-05-30 07:58:58] INFO root fetch - processPackages [linien-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_server-2.0.3.tar.gz tmp/linien_server-2.0.3rc1.tar.gz --markdown 20240530/l/linien-server/2.0.3-2.0.3rc1/README.md --exclude *.pyd
+[2024-05-30 07:58:58] INFO root fetch - processPackages [anemone-daisy-maker]: executing diffoscope
+[2024-05-30 07:58:58] INFO root fetch - processPackages [anemone-daisy-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemone_daisy_maker-1.59.tar.gz tmp/anemone_daisy_maker-1.60.tar.gz --markdown 20240530/a/anemone-daisy-maker/1.59-1.60/README.md --exclude *.pyd
+[2024-05-30 07:58:59] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien_client-2.0.3.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien_client-2.0.3rc1.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.3.0.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.4.0.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2024-05-30 07:58:59] INFO root fetch - main [MainThread]: End processing [bees-challenge]: success
+[2024-05-30 07:58:59] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.5.2.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.6.0.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - main [MainThread]: End processing [libbs]: success
+[2024-05-30 07:58:59] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien_common-2.0.3.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - processPackages [linien-common]: Remove: archive file [/home/abi/fetcher/tmp/linien_common-2.0.3rc1.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - main [MainThread]: End processing [linien-common]: success
+[2024-05-30 07:58:59] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien_server-2.0.3.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - processPackages [linien-server]: Remove: archive file [/home/abi/fetcher/tmp/linien_server-2.0.3rc1.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - main [MainThread]: End processing [linien-server]: success
+[2024-05-30 07:58:59] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien_gui-2.0.3.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien_gui-2.0.3rc1.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2024-05-30 07:58:59] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-2.1.5.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - processPackages [b2sim]: Remove: archive file [/home/abi/fetcher/tmp/b2sim-2.2.1.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - main [MainThread]: End processing [b2sim]: success
+[2024-05-30 07:58:59] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.59.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.60.tar.gz]
+[2024-05-30 07:58:59] INFO root fetch - main [MainThread]: End processing [anemone-daisy-maker]: success
+[2024-05-30 07:58:59] INFO root fetch - main [MainThread]: Store serial: [23443077]
