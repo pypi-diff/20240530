@@ -17640,3 +17640,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:23:15] INFO root fetch - processPackages [lakefs-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-sdk-1.9.1.tar.gz]
 [2024-05-30 10:23:15] INFO root fetch - main [MainThread]: End processing [lakefs-sdk]: success
 [2024-05-30 10:23:15] INFO root fetch - main [MainThread]: Store serial: [23444926]
+[2024-05-30 10:25:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444926]
+[2024-05-30 10:25:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 10:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edgeimpulse-api
+[2024-05-30 10:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CI-CloudConnector
+[2024-05-30 10:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gov-uk-dashboards
+[2024-05-30 10:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ert
+[2024-05-30 10:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moira-python-client
+[2024-05-30 10:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ct-tcpchat
+[2024-05-30 10:25:25] INFO root fetch - processPackages [ct-tcpchat]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-30 10:25:25] INFO root fetch - processPackages [CI-CloudConnector]: New version: [1.6] Old Version: [1.5]
+[2024-05-30 10:25:25] INFO root fetch - processPackages [ert]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-30 10:25:25] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.50.6] Old Version: [1.50.13]
+[2024-05-30 10:25:25] INFO root fetch - processPackages [moira-python-client]: New version: [4.2.1] Old Version: [4.2.0]
+[2024-05-30 10:25:25] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/4e/16/3a24fe9008e4af1f112ef03f71a7177da7a96b1015ba1f9337b91a6341bb/ci_cloudconnector-1.5.tar.gz
+[2024-05-30 10:25:25] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-05-30 10:25:25] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/d3/ed/1b32adc2b0f34e25ca508b858069a0b7e840006670aad8f9c91899cfb57e/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 10:25:25] INFO root fetch - processPackages [ct-tcpchat]: Downloading https://files.pythonhosted.org/packages/66/00/f1563254971848531ea2700f029a2784ee565356d74814c01ee087df10f2/ct_tcpchat-0.0.1.tar.gz
+[2024-05-30 10:25:25] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/a9/94/7e777b7847f8dfe83e44bea1b8e5a87eb928e0eb0ef0600c27d65045c8cf/edgeimpulse_api-1.50.13.tar.gz
+[2024-05-30 10:25:25] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2024-05-30 10:25:25] INFO root fetch - processPackages [moira-python-client]: Downloading https://files.pythonhosted.org/packages/06/17/ddd4c983701bab47b8e96be29840ba7cfd92c2c629e8dc902c06628e8580/moira-python-client-4.2.0.tar.gz
+[2024-05-30 10:25:25] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8d/4f/a098d5c93dec8fbf941d7d4f60fb3b86707ea5c9f599479549a3d84e246b/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 10:25:26] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/f6/93/3a6438d1aed9b0db7ca5257798a416cecfd411feaef7d3b34dd4d0ccd712/ci_cloudconnector-1.6.tar.gz
+[2024-05-30 10:25:26] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-30 10:25:26] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-1.5.tar.gz tmp/ci_cloudconnector-1.6.tar.gz --markdown 20240530/C/CI-CloudConnector/1.5-1.6/README.md --exclude *.pyd
+[2024-05-30 10:25:26] INFO root fetch - processPackages [ct-tcpchat]: Downloading https://files.pythonhosted.org/packages/c5/eb/f7f47cc3ac27aa281a4e5bc26226d18c41341b616ff0bffdd731c3aedac8/ct_tcpchat-0.1.0.tar.gz
+[2024-05-30 10:25:26] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-05-30 10:25:26] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240530/e/ert/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-30 10:25:26] INFO root fetch - processPackages [moira-python-client]: Downloading https://files.pythonhosted.org/packages/2d/5c/625348fce40accd3eff9c1ed9e6d888fbe043ee122e7821b291771637b0f/moira_python_client-4.2.1.tar.gz
+[2024-05-30 10:25:26] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/d6/03/805dd746d4d0dfaa7c2a0d6b7dc7c06416eafd5216a1060423b01ce5f097/edgeimpulse_api-1.50.6.tar.gz
+[2024-05-30 10:25:26] INFO root fetch - processPackages [ct-tcpchat]: executing diffoscope
+[2024-05-30 10:25:26] INFO root fetch - processPackages [ct-tcpchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ct_tcpchat-0.0.1.tar.gz tmp/ct_tcpchat-0.1.0.tar.gz --markdown 20240530/c/ct-tcpchat/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-30 10:25:26] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2024-05-30 10:25:26] INFO root fetch - processPackages [moira-python-client]: executing diffoscope
+[2024-05-30 10:25:26] INFO root fetch - processPackages [moira-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moira-python-client-4.2.0.tar.gz tmp/moira_python_client-4.2.1.tar.gz --markdown 20240530/m/moira-python-client/4.2.0-4.2.1/README.md --exclude *.pyd
+[2024-05-30 10:25:26] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2024-05-30 10:25:26] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.50.13.tar.gz tmp/edgeimpulse_api-1.50.6.tar.gz --markdown 20240530/e/edgeimpulse-api/1.50.13-1.50.6/README.md --exclude *.pyd
+[2024-05-30 10:25:26] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.5.tar.gz]
+[2024-05-30 10:25:26] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.6.tar.gz]
+[2024-05-30 10:25:26] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-30 10:25:26] INFO root fetch - processPackages [ct-tcpchat]: Remove: archive file [/home/abi/fetcher/tmp/ct_tcpchat-0.0.1.tar.gz]
+[2024-05-30 10:25:26] INFO root fetch - processPackages [ct-tcpchat]: Remove: archive file [/home/abi/fetcher/tmp/ct_tcpchat-0.1.0.tar.gz]
+[2024-05-30 10:25:26] INFO root fetch - main [MainThread]: End processing [ct-tcpchat]: success
+[2024-05-30 10:25:26] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2024-05-30 10:25:26] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20240530/g/gov-uk-dashboards/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-05-30 10:25:27] INFO root fetch - processPackages [moira-python-client]: Remove: archive file [/home/abi/fetcher/tmp/moira-python-client-4.2.0.tar.gz]
+[2024-05-30 10:25:27] INFO root fetch - processPackages [moira-python-client]: Remove: archive file [/home/abi/fetcher/tmp/moira_python_client-4.2.1.tar.gz]
+[2024-05-30 10:25:27] INFO root fetch - main [MainThread]: End processing [moira-python-client]: success
+[2024-05-30 10:25:27] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2024-05-30 10:25:27] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2024-05-30 10:25:27] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2024-05-30 10:25:30] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.50.13.tar.gz]
+[2024-05-30 10:25:30] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.50.6.tar.gz]
+[2024-05-30 10:25:30] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2024-05-30 10:25:31] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-30 10:25:31] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-30 10:25:31] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-05-30 10:25:31] INFO root fetch - main [MainThread]: Store serial: [23444947]
