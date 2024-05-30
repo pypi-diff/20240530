@@ -13819,3 +13819,33 @@ EOFError: EOF read where object expected
 [2024-05-30 08:20:59] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240529.tar.gz]
 [2024-05-30 08:20:59] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
 [2024-05-30 08:20:59] INFO root fetch - main [MainThread]: Store serial: [23443255]
+[2024-05-30 08:23:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443255]
+[2024-05-30 08:23:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 08:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dwave-sona-core
+[2024-05-30 08:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bees-challenge
+[2024-05-30 08:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gwml
+[2024-05-30 08:23:14] INFO root fetch - processPackages [gwml]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 08:23:14] INFO root fetch - processPackages [bees-challenge]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-30 08:23:14] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/1e/7a/f66b611a9b0f4a5aed4ed6d401d7f8f6955fcd8702b80f19ac894de477dc/bees-challenge-0.7.0.tar.gz
+[2024-05-30 08:23:14] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/74/b1/dd13d7aa61b546849dd957ac4f69f05dab5c14922cc210df942bd30f51ce/gwml-0.1.8-py3-none-any.whl
+[2024-05-30 08:23:14] INFO root fetch - processPackages [dwave-sona-core]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-30 08:23:14] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/89/db/c7db2b7d1ab6e69ec43ffa23aa4a62ae0e01b87d0c08ad572e9b78eae264/dwave_sona_core-1.3.1.tar.gz
+[2024-05-30 08:23:14] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/3a/0c/f8a96cba8e57cb826eafe85a9f3900402548c20e650346b5215cc9001e54/gwml-0.1.9-py3-none-any.whl
+[2024-05-30 08:23:14] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/92/c9/eb04840a84191b4bb14a9aa79041b78ebc7207c9114d44295909ce6c2dc3/bees-challenge-0.8.0.tar.gz
+[2024-05-30 08:23:14] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-30 08:23:14] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.1.8-py3-none-any.whl.zip tmp/gwml-0.1.9-py3-none-any.whl.zip --markdown 20240530/g/gwml/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 08:23:14] INFO root fetch - processPackages [bees-challenge]: executing diffoscope
+[2024-05-30 08:23:14] INFO root fetch - processPackages [bees-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bees-challenge-0.7.0.tar.gz tmp/bees-challenge-0.8.0.tar.gz --markdown 20240530/b/bees-challenge/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-30 08:23:14] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/63/19/d4a4a9737a0d59cf3b19d0250bc8585a3057c3223f00214e48487ae9a033/dwave_sona_core-1.3.2.tar.gz
+[2024-05-30 08:23:15] INFO root fetch - processPackages [dwave-sona-core]: executing diffoscope
+[2024-05-30 08:23:15] INFO root fetch - processPackages [dwave-sona-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave_sona_core-1.3.1.tar.gz tmp/dwave_sona_core-1.3.2.tar.gz --markdown 20240530/d/dwave-sona-core/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-30 08:23:15] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.7.0.tar.gz]
+[2024-05-30 08:23:15] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.8.0.tar.gz]
+[2024-05-30 08:23:15] INFO root fetch - main [MainThread]: End processing [bees-challenge]: success
+[2024-05-30 08:23:15] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.8-py3-none-any.whl.zip]
+[2024-05-30 08:23:15] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.9-py3-none-any.whl.zip]
+[2024-05-30 08:23:15] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-30 08:23:15] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.3.1.tar.gz]
+[2024-05-30 08:23:15] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.3.2.tar.gz]
+[2024-05-30 08:23:15] INFO root fetch - main [MainThread]: End processing [dwave-sona-core]: success
+[2024-05-30 08:23:15] INFO root fetch - main [MainThread]: Store serial: [23443263]
