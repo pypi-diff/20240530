@@ -14973,3 +14973,51 @@ EOFError: EOF read where object expected
 [2024-05-30 08:39:03] INFO root fetch - processPackages [vessel-manoeuvring-models]: Remove: archive file [/home/abi/fetcher/tmp/vessel_manoeuvring_models-0.0.7.tar.gz]
 [2024-05-30 08:39:03] INFO root fetch - main [MainThread]: End processing [vessel-manoeuvring-models]: success
 [2024-05-30 08:39:03] INFO root fetch - main [MainThread]: Store serial: [23443645]
+[2024-05-30 08:41:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443645]
+[2024-05-30 08:41:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 08:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finalcif
+[2024-05-30 08:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zaku
+[2024-05-30 08:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apimatic-core
+[2024-05-30 08:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dtfilterthumbor
+[2024-05-30 08:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-components
+[2024-05-30 08:41:12] INFO root fetch - processPackages [dtfilterthumbor]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-30 08:41:12] INFO root fetch - processPackages [dtfilterthumbor]: Downloading https://files.pythonhosted.org/packages/33/c9/20cfb17db3c31938218dd3597c4625d07cfc0aca826272e64c659b826fa5/dtfilterthumbor-1.0.4.tar.gz
+[2024-05-30 08:41:12] INFO root fetch - processPackages [zaku]: New version: [0.0.9] Old Version: [0.0.8rc1]
+[2024-05-30 08:41:12] INFO root fetch - processPackages [finalcif]: New version: [138] Old Version: [137]
+[2024-05-30 08:41:12] INFO root fetch - processPackages [apimatic-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-30 08:41:12] INFO root fetch - processPackages [django-components]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-30 08:41:12] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/36/63/843de81065e8c450c9dd14f7dd36425a40393dc131450c91bebeb4c5dd43/zaku-0.0.8rc1-py3-none-any.whl
+[2024-05-30 08:41:12] INFO root fetch - processPackages [finalcif]: Downloading https://files.pythonhosted.org/packages/eb/e2/6feb5a1eac88c0ed54c1e41faa99b162f116a456b0bc8541a8b7f12e514f/finalcif-137.tar.gz
+[2024-05-30 08:41:12] INFO root fetch - processPackages [apimatic-core]: Downloading https://files.pythonhosted.org/packages/cb/14/64f1f595d53ef8e97a752ee8f59e9612c14e9f1f233c2cfd416c0544303b/apimatic-core-0.2.8.tar.gz
+[2024-05-30 08:41:12] INFO root fetch - processPackages [django-components]: Downloading https://files.pythonhosted.org/packages/d9/a9/0e17dfb6bc2c9ffafac974b36a0078d0df2730d82373e45392b15ca26fe1/django_components-0.9.1.tar.gz
+[2024-05-30 08:41:12] INFO root fetch - processPackages [dtfilterthumbor]: Downloading https://files.pythonhosted.org/packages/2d/b9/b1491c4ea7f7a9bf0f613037bdf31cc58a41a5167c9f4a9282d022218f39/dtfilterthumbor-1.0.5.tar.gz
+[2024-05-30 08:41:12] INFO root fetch - processPackages [dtfilterthumbor]: executing diffoscope
+[2024-05-30 08:41:12] INFO root fetch - processPackages [dtfilterthumbor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfilterthumbor-1.0.4.tar.gz tmp/dtfilterthumbor-1.0.5.tar.gz --markdown 20240530/d/dtfilterthumbor/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-30 08:41:12] INFO root fetch - processPackages [apimatic-core]: Downloading https://files.pythonhosted.org/packages/24/59/4bb2384453b58dc5870601c747280e8e61abb667e44b97d9abcf78f1b38e/apimatic_core-0.2.9.tar.gz
+[2024-05-30 08:41:13] INFO root fetch - processPackages [django-components]: Downloading https://files.pythonhosted.org/packages/01/b6/7465ad9480fe781bc5c56d355a7b96cc21758c50d747830e87dcac29a4db/django_components-0.9.2.tar.gz
+[2024-05-30 08:41:13] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/cf/0e/96a80c4cc62c4a2fa75fb4a3fbfabb21a029116202d8e513617930bcdd4a/zaku-0.0.9-py3-none-any.whl
+[2024-05-30 08:41:13] INFO root fetch - processPackages [apimatic-core]: executing diffoscope
+[2024-05-30 08:41:13] INFO root fetch - processPackages [apimatic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apimatic-core-0.2.8.tar.gz tmp/apimatic_core-0.2.9.tar.gz --markdown 20240530/a/apimatic-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-30 08:41:13] INFO root fetch - processPackages [django-components]: executing diffoscope
+[2024-05-30 08:41:13] INFO root fetch - processPackages [django-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_components-0.9.1.tar.gz tmp/django_components-0.9.2.tar.gz --markdown 20240530/d/django-components/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-30 08:41:13] INFO root fetch - processPackages [zaku]: executing diffoscope
+[2024-05-30 08:41:13] INFO root fetch - processPackages [zaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaku-0.0.8rc1-py3-none-any.whl.zip tmp/zaku-0.0.9-py3-none-any.whl.zip --markdown 20240530/z/zaku/0.0.8rc1-0.0.9/README.md --exclude *.pyd
+[2024-05-30 08:41:13] INFO root fetch - processPackages [dtfilterthumbor]: Remove: archive file [/home/abi/fetcher/tmp/dtfilterthumbor-1.0.4.tar.gz]
+[2024-05-30 08:41:13] INFO root fetch - processPackages [dtfilterthumbor]: Remove: archive file [/home/abi/fetcher/tmp/dtfilterthumbor-1.0.5.tar.gz]
+[2024-05-30 08:41:13] INFO root fetch - main [MainThread]: End processing [dtfilterthumbor]: success
+[2024-05-30 08:41:13] INFO root fetch - processPackages [finalcif]: Downloading https://files.pythonhosted.org/packages/6d/3e/ceaea9cadfdbb592080f7e57b3b86db9f9ef5aa63637b2b34b4bbd616cd1/finalcif-138.tar.gz
+[2024-05-30 08:41:13] INFO root fetch - processPackages [django-components]: Remove: archive file [/home/abi/fetcher/tmp/django_components-0.9.1.tar.gz]
+[2024-05-30 08:41:13] INFO root fetch - processPackages [django-components]: Remove: archive file [/home/abi/fetcher/tmp/django_components-0.9.2.tar.gz]
+[2024-05-30 08:41:13] INFO root fetch - main [MainThread]: End processing [django-components]: success
+[2024-05-30 08:41:13] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.8rc1-py3-none-any.whl.zip]
+[2024-05-30 08:41:13] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.9-py3-none-any.whl.zip]
+[2024-05-30 08:41:13] INFO root fetch - main [MainThread]: End processing [zaku]: success
+[2024-05-30 08:41:13] INFO root fetch - processPackages [finalcif]: executing diffoscope
+[2024-05-30 08:41:13] INFO root fetch - processPackages [finalcif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalcif-137.tar.gz tmp/finalcif-138.tar.gz --markdown 20240530/f/finalcif/137-138/README.md --exclude *.pyd
+[2024-05-30 08:41:13] INFO root fetch - processPackages [apimatic-core]: Remove: archive file [/home/abi/fetcher/tmp/apimatic-core-0.2.8.tar.gz]
+[2024-05-30 08:41:13] INFO root fetch - processPackages [apimatic-core]: Remove: archive file [/home/abi/fetcher/tmp/apimatic_core-0.2.9.tar.gz]
+[2024-05-30 08:41:13] INFO root fetch - main [MainThread]: End processing [apimatic-core]: success
+[2024-05-30 08:41:16] INFO root fetch - processPackages [finalcif]: Remove: archive file [/home/abi/fetcher/tmp/finalcif-137.tar.gz]
+[2024-05-30 08:41:16] INFO root fetch - processPackages [finalcif]: Remove: archive file [/home/abi/fetcher/tmp/finalcif-138.tar.gz]
+[2024-05-30 08:41:16] INFO root fetch - main [MainThread]: End processing [finalcif]: success
+[2024-05-30 08:41:16] INFO root fetch - main [MainThread]: Store serial: [23443659]
