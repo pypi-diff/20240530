@@ -1,0 +1,169 @@
+# Comparing `tmp/bees-challenge-0.2.0.tar.gz` & `tmp/bees-challenge-0.3.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "bees-challenge-0.2.0.tar", last modified: Thu May 30 05:21:33 2024, max compression
++gzip compressed data, was "bees-challenge-0.3.0.tar", last modified: Thu May 30 05:38:12 2024, max compression
+```
+
+## Comparing `bees-challenge-0.2.0.tar` & `bees-challenge-0.3.0.tar`
+
+### file list
+
+```diff
+@@ -1,33 +1,33 @@
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-30 05:21:33.113764 bees-challenge-0.2.0/
+--rw-r--r--   0 runner    (1001) docker     (127)     4428 2024-05-30 05:21:33.109764 bees-challenge-0.2.0/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (127)     4127 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/README.md
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-30 05:21:33.105764 bees-challenge-0.2.0/bees_challenge.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (127)     4428 2024-05-30 05:21:33.000000 bees-challenge-0.2.0/bees_challenge.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (127)      778 2024-05-30 05:21:33.000000 bees-challenge-0.2.0/bees_challenge.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (127)        1 2024-05-30 05:21:33.000000 bees-challenge-0.2.0/bees_challenge.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (127)       21 2024-05-30 05:21:33.000000 bees-challenge-0.2.0/bees_challenge.egg-info/top_level.txt
+--rw-r--r--   0 runner    (1001) docker     (127)        1 2024-05-30 05:21:33.000000 bees-challenge-0.2.0/bees_challenge.egg-info/zip-safe
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-30 05:21:33.105764 bees-challenge-0.2.0/fuel_efficency/
+--rw-r--r--   0 runner    (1001) docker     (127)       20 2024-05-30 05:21:32.000000 bees-challenge-0.2.0/fuel_efficency/__init__.py
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-30 05:21:33.109764 bees-challenge-0.2.0/fuel_efficency/algorithms/
+--rw-r--r--   0 runner    (1001) docker     (127)        0 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/fuel_efficency/algorithms/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (127)      358 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/fuel_efficency/algorithms/a_star.py
+--rw-r--r--   0 runner    (1001) docker     (127)     1849 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/fuel_efficency/algorithms/context.py
+--rw-r--r--   0 runner    (1001) docker     (127)      430 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/fuel_efficency/algorithms/dijkstra.py
+--rw-r--r--   0 runner    (1001) docker     (127)      497 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/fuel_efficency/algorithms/path_finding.py
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-30 05:21:33.109764 bees-challenge-0.2.0/fuel_efficency/entities/
+--rw-r--r--   0 runner    (1001) docker     (127)        0 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/fuel_efficency/entities/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (127)      245 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/fuel_efficency/entities/down_hill.py
+--rw-r--r--   0 runner    (1001) docker     (127)      220 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/fuel_efficency/entities/node.py
+--rw-r--r--   0 runner    (1001) docker     (127)      242 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/fuel_efficency/entities/plateau.py
+--rw-r--r--   0 runner    (1001) docker     (127)      802 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/fuel_efficency/entities/position.py
+--rw-r--r--   0 runner    (1001) docker     (127)      241 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/fuel_efficency/entities/up_hill.py
+--rw-r--r--   0 runner    (1001) docker     (127)      239 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/fuel_efficency/entities/valley.py
+--rw-r--r--   0 runner    (1001) docker     (127)       38 2024-05-30 05:21:33.113764 bees-challenge-0.2.0/setup.cfg
+--rw-r--r--   0 runner    (1001) docker     (127)      593 2024-05-30 05:21:32.000000 bees-challenge-0.2.0/setup.py
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-30 05:21:33.109764 bees-challenge-0.2.0/tests/
+--rw-r--r--   0 runner    (1001) docker     (127)        0 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/tests/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (127)     7587 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/tests/test_algorithms.py
+--rw-r--r--   0 runner    (1001) docker     (127)       33 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/tests/test_ci.py
+--rw-r--r--   0 runner    (1001) docker     (127)     6421 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/tests/test_entities.py
+--rw-r--r--   0 runner    (1001) docker     (127)      861 2024-05-30 05:21:11.000000 bees-challenge-0.2.0/tests/test_entities_raise.py
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-30 05:38:12.760430 bees-challenge-0.3.0/
++-rw-r--r--   0 runner    (1001) docker     (127)     4428 2024-05-30 05:38:12.756430 bees-challenge-0.3.0/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (127)     4127 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/README.md
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-30 05:38:12.756430 bees-challenge-0.3.0/bees_challenge.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (127)     4428 2024-05-30 05:38:12.000000 bees-challenge-0.3.0/bees_challenge.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (127)      778 2024-05-30 05:38:12.000000 bees-challenge-0.3.0/bees_challenge.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (127)        1 2024-05-30 05:38:12.000000 bees-challenge-0.3.0/bees_challenge.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (127)       21 2024-05-30 05:38:12.000000 bees-challenge-0.3.0/bees_challenge.egg-info/top_level.txt
++-rw-r--r--   0 runner    (1001) docker     (127)        1 2024-05-30 05:38:12.000000 bees-challenge-0.3.0/bees_challenge.egg-info/zip-safe
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-30 05:38:12.756430 bees-challenge-0.3.0/fuel_efficency/
++-rw-r--r--   0 runner    (1001) docker     (127)       20 2024-05-30 05:38:12.000000 bees-challenge-0.3.0/fuel_efficency/__init__.py
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-30 05:38:12.756430 bees-challenge-0.3.0/fuel_efficency/algorithms/
++-rw-r--r--   0 runner    (1001) docker     (127)        0 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/fuel_efficency/algorithms/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (127)      358 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/fuel_efficency/algorithms/a_star.py
++-rw-r--r--   0 runner    (1001) docker     (127)     1849 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/fuel_efficency/algorithms/context.py
++-rw-r--r--   0 runner    (1001) docker     (127)      430 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/fuel_efficency/algorithms/dijkstra.py
++-rw-r--r--   0 runner    (1001) docker     (127)      497 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/fuel_efficency/algorithms/path_finding.py
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-30 05:38:12.756430 bees-challenge-0.3.0/fuel_efficency/entities/
++-rw-r--r--   0 runner    (1001) docker     (127)        0 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/fuel_efficency/entities/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (127)      245 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/fuel_efficency/entities/down_hill.py
++-rw-r--r--   0 runner    (1001) docker     (127)      220 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/fuel_efficency/entities/node.py
++-rw-r--r--   0 runner    (1001) docker     (127)      242 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/fuel_efficency/entities/plateau.py
++-rw-r--r--   0 runner    (1001) docker     (127)      802 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/fuel_efficency/entities/position.py
++-rw-r--r--   0 runner    (1001) docker     (127)      241 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/fuel_efficency/entities/up_hill.py
++-rw-r--r--   0 runner    (1001) docker     (127)      239 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/fuel_efficency/entities/valley.py
++-rw-r--r--   0 runner    (1001) docker     (127)       38 2024-05-30 05:38:12.760430 bees-challenge-0.3.0/setup.cfg
++-rw-r--r--   0 runner    (1001) docker     (127)      593 2024-05-30 05:38:12.000000 bees-challenge-0.3.0/setup.py
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-30 05:38:12.756430 bees-challenge-0.3.0/tests/
++-rw-r--r--   0 runner    (1001) docker     (127)        0 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/tests/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (127)     7587 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/tests/test_algorithms.py
++-rw-r--r--   0 runner    (1001) docker     (127)       33 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/tests/test_ci.py
++-rw-r--r--   0 runner    (1001) docker     (127)     6421 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/tests/test_entities.py
++-rw-r--r--   0 runner    (1001) docker     (127)      861 2024-05-30 05:37:51.000000 bees-challenge-0.3.0/tests/test_entities_raise.py
+```
+
+### Comparing `bees-challenge-0.2.0/PKG-INFO` & `bees-challenge-0.3.0/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: bees-challenge
+-Version: 0.2.0
++Version: 0.3.0
+ Summary: challenge submission for the bees ml path challenge
+ Home-page: https://github.com/yuiti-ara/yuiti-bees-ml-path-challenge
+ Author: yuiti
+ Author-email: yuiti.usp@gmail.com
+ Requires-Python: >=3.10
+ Description-Content-Type: text/markdown
+```
+
+### Comparing `bees-challenge-0.2.0/README.md` & `bees-challenge-0.3.0/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `bees-challenge-0.2.0/bees_challenge.egg-info/PKG-INFO` & `bees-challenge-0.3.0/bees_challenge.egg-info/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: bees-challenge
+-Version: 0.2.0
++Version: 0.3.0
+ Summary: challenge submission for the bees ml path challenge
+ Home-page: https://github.com/yuiti-ara/yuiti-bees-ml-path-challenge
+ Author: yuiti
+ Author-email: yuiti.usp@gmail.com
+ Requires-Python: >=3.10
+ Description-Content-Type: text/markdown
+```
+
+### Comparing `bees-challenge-0.2.0/bees_challenge.egg-info/SOURCES.txt` & `bees-challenge-0.3.0/bees_challenge.egg-info/SOURCES.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `bees-challenge-0.2.0/fuel_efficency/algorithms/context.py` & `bees-challenge-0.3.0/fuel_efficency/algorithms/context.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bees-challenge-0.2.0/fuel_efficency/entities/position.py` & `bees-challenge-0.3.0/fuel_efficency/entities/position.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bees-challenge-0.2.0/setup.py` & `bees-challenge-0.3.0/setup.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,12 +1,12 @@
+ from setuptools import setup, find_packages
+ 
+ setup(
+     name='bees-challenge',
+-    version='0.2.0',
++    version='0.3.0',
+     author='yuiti',
+     author_email='yuiti.usp@gmail.com',
+     description='challenge submission for the bees ml path challenge',
+     long_description=open('README.md').read(),
+     long_description_content_type='text/markdown',
+     url='https://github.com/yuiti-ara/yuiti-bees-ml-path-challenge',
+     packages=find_packages(),
+```
+
+### Comparing `bees-challenge-0.2.0/tests/test_algorithms.py` & `bees-challenge-0.3.0/tests/test_algorithms.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bees-challenge-0.2.0/tests/test_entities.py` & `bees-challenge-0.3.0/tests/test_entities.py`
+
+ * *Files identical despite different names*
+
+### Comparing `bees-challenge-0.2.0/tests/test_entities_raise.py` & `bees-challenge-0.3.0/tests/test_entities_raise.py`
+
+ * *Files identical despite different names*
+
