@@ -16035,3 +16035,18 @@ EOFError: EOF read where object expected
 [2024-05-30 09:23:14] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.81.tar.gz]
 [2024-05-30 09:23:14] INFO root fetch - main [MainThread]: End processing [groqon]: success
 [2024-05-30 09:23:14] INFO root fetch - main [MainThread]: Store serial: [23444056]
+[2024-05-30 09:25:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444056]
+[2024-05-30 09:25:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 09:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: harlequin-databend
+[2024-05-30 09:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiortc
+[2024-05-30 09:25:24] INFO root fetch - processPackages [aiortc]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-05-30 09:25:24] WARNING root fetch - processPackages [harlequin-databend]: Skipping, unable to determine old version
+[2024-05-30 09:25:24] INFO root fetch - main [MainThread]: End processing [harlequin-databend] error
+[2024-05-30 09:25:24] INFO root fetch - processPackages [aiortc]: Downloading https://files.pythonhosted.org/packages/35/85/6716217e91790f08d382fcf48eea83ace2874732ab5872a649623ebcfd93/aiortc-1.7.0.tar.gz
+[2024-05-30 09:25:24] INFO root fetch - processPackages [aiortc]: Downloading https://files.pythonhosted.org/packages/e9/d4/172ba4ecdc18a5d4c6017dc779f8fe34c478764b54b90d58403d0128cd81/aiortc-1.8.0.tar.gz
+[2024-05-30 09:25:24] INFO root fetch - processPackages [aiortc]: executing diffoscope
+[2024-05-30 09:25:24] INFO root fetch - processPackages [aiortc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiortc-1.7.0.tar.gz tmp/aiortc-1.8.0.tar.gz --markdown 20240530/a/aiortc/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-05-30 09:25:25] INFO root fetch - processPackages [aiortc]: Remove: archive file [/home/abi/fetcher/tmp/aiortc-1.7.0.tar.gz]
+[2024-05-30 09:25:25] INFO root fetch - processPackages [aiortc]: Remove: archive file [/home/abi/fetcher/tmp/aiortc-1.8.0.tar.gz]
+[2024-05-30 09:25:25] INFO root fetch - main [MainThread]: End processing [aiortc]: success
+[2024-05-30 09:25:25] INFO root fetch - main [MainThread]: Store serial: [23444082]
