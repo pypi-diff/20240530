@@ -8904,3 +8904,63 @@ EOFError: EOF read where object expected
 [2024-05-30 04:37:51] INFO root fetch - processPackages [nglui]: Remove: archive file [/home/abi/fetcher/tmp/nglui-3.0.3.tar.gz]
 [2024-05-30 04:37:51] INFO root fetch - main [MainThread]: End processing [nglui]: success
 [2024-05-30 04:37:51] INFO root fetch - main [MainThread]: Store serial: [23441342]
+[2024-05-30 04:39:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441342]
+[2024-05-30 04:40:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 04:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-dbchat
+[2024-05-30 04:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NEMO-user-details
+[2024-05-30 04:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyemaps
+[2024-05-30 04:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: khoj-assistant
+[2024-05-30 04:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-tplcentral
+[2024-05-30 04:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rococo-prod
+[2024-05-30 04:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypomes-scheduling
+[2024-05-30 04:40:00] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-05-30 04:40:00] WARNING root fetch - processPackages [rococo-prod]: Skipping, unable to determine old version
+[2024-05-30 04:40:00] INFO root fetch - main [MainThread]: End processing [rococo-prod] error
+[2024-05-30 04:40:00] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-30 04:40:00] INFO root fetch - processPackages [NEMO-user-details]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-30 04:40:00] INFO root fetch - processPackages [airbyte-source-tplcentral]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-30 04:40:00] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/f6/18/1775d2217b34cf20972da457954b07826f8eee83addaf30cb9f9e56acda7/py_dbchat-0.0.2rc98.post1.tar.gz
+[2024-05-30 04:40:00] INFO root fetch - processPackages [pypomes-scheduling]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-30 04:40:00] INFO root fetch - processPackages [pyemaps]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-30 04:40:00] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-30 04:40:00] INFO root fetch - processPackages [airbyte-source-tplcentral]: Downloading https://files.pythonhosted.org/packages/70/fd/705953efa26c7dfc65711e4db3fbe0a5b2945dbecea820cfeb1fd6d9a044/airbyte-source-tplcentral-0.1.1.tar.gz
+[2024-05-30 04:40:00] INFO root fetch - processPackages [NEMO-user-details]: Downloading https://files.pythonhosted.org/packages/92/e0/979f71789b7c91ebe0605d90c6e36bf69714420700520032c5d6d3c01e99/NEMO_user_details-1.8.1-py3-none-any.whl
+[2024-05-30 04:40:00] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/73/d9/44b1e50b7a7349a8172af36226caa9ddf526c5c91c863ce32643ae416507/py_dbchat-0.0.2rc99.post1.tar.gz
+[2024-05-30 04:40:00] INFO root fetch - processPackages [pypomes-scheduling]: Downloading https://files.pythonhosted.org/packages/12/ee/356e1ed9cdaddd092e34e4184e33a2f4ef1f3e0084361acf93f8ce77a3bf/pypomes_scheduling-0.3.5.tar.gz
+[2024-05-30 04:40:00] INFO root fetch - processPackages [pyemaps]: Downloading https://files.pythonhosted.org/packages/9c/dc/f512982e0536f727452263e05b117f67098b12eb619881bbe6fbb89d57dc/pyemaps-1.0.8.tar.gz
+[2024-05-30 04:40:01] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-30 04:40:01] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-05-30 04:40:01] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc98.post1.tar.gz tmp/py_dbchat-0.0.2rc99.post1.tar.gz --markdown 20240530/p/py-dbchat/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-05-30 04:40:01] INFO root fetch - processPackages [airbyte-source-tplcentral]: Downloading https://files.pythonhosted.org/packages/e9/7c/cd324cefb5f8e8bdff52088135729de70f9d91749c1bd6a6a1d95aaab086/airbyte_source_tplcentral-0.1.2.tar.gz
+[2024-05-30 04:40:01] INFO root fetch - processPackages [NEMO-user-details]: Downloading https://files.pythonhosted.org/packages/8d/cb/969bc92d952bb5c2a1e87dd58d13e3999361676f6504d01263b7e9996697/NEMO_user_details-1.9.0-py3-none-any.whl
+[2024-05-30 04:40:01] INFO root fetch - processPackages [pypomes-scheduling]: Downloading https://files.pythonhosted.org/packages/c4/c4/2a46f31d219a292e3a98b37984bc9a7b2a792e92da3440808beb91f39886/pypomes_scheduling-0.3.6.tar.gz
+[2024-05-30 04:40:01] INFO root fetch - processPackages [pyemaps]: Downloading https://files.pythonhosted.org/packages/06/9a/69723484eec700de36ebde99fff6ecb16e07bbb87fc0c9ee6f20dbb34b44/pyemaps-1.0.9.tar.gz
+[2024-05-30 04:40:01] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-30 04:40:01] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240530/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-30 04:40:01] INFO root fetch - processPackages [airbyte-source-tplcentral]: executing diffoscope
+[2024-05-30 04:40:01] INFO root fetch - processPackages [airbyte-source-tplcentral]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-tplcentral-0.1.1.tar.gz tmp/airbyte_source_tplcentral-0.1.2.tar.gz --markdown 20240530/a/airbyte-source-tplcentral/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-30 04:40:01] INFO root fetch - processPackages [NEMO-user-details]: executing diffoscope
+[2024-05-30 04:40:01] INFO root fetch - processPackages [NEMO-user-details]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_user_details-1.8.1-py3-none-any.whl.zip tmp/NEMO_user_details-1.9.0-py3-none-any.whl.zip --markdown 20240530/N/NEMO-user-details/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-30 04:40:01] INFO root fetch - processPackages [pyemaps]: executing diffoscope
+[2024-05-30 04:40:01] INFO root fetch - processPackages [pyemaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyemaps-1.0.8.tar.gz tmp/pyemaps-1.0.9.tar.gz --markdown 20240530/p/pyemaps/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-30 04:40:01] INFO root fetch - processPackages [pypomes-scheduling]: executing diffoscope
+[2024-05-30 04:40:01] INFO root fetch - processPackages [pypomes-scheduling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_scheduling-0.3.5.tar.gz tmp/pypomes_scheduling-0.3.6.tar.gz --markdown 20240530/p/pypomes-scheduling/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-30 04:40:02] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc98.post1.tar.gz]
+[2024-05-30 04:40:02] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
+[2024-05-30 04:40:02] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-05-30 04:40:02] INFO root fetch - processPackages [airbyte-source-tplcentral]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-tplcentral-0.1.1.tar.gz]
+[2024-05-30 04:40:02] INFO root fetch - processPackages [airbyte-source-tplcentral]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_tplcentral-0.1.2.tar.gz]
+[2024-05-30 04:40:02] INFO root fetch - main [MainThread]: End processing [airbyte-source-tplcentral]: success
+[2024-05-30 04:40:02] INFO root fetch - processPackages [NEMO-user-details]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_user_details-1.8.1-py3-none-any.whl.zip]
+[2024-05-30 04:40:02] INFO root fetch - processPackages [NEMO-user-details]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_user_details-1.9.0-py3-none-any.whl.zip]
+[2024-05-30 04:40:02] INFO root fetch - main [MainThread]: End processing [NEMO-user-details]: success
+[2024-05-30 04:40:02] INFO root fetch - processPackages [pypomes-scheduling]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_scheduling-0.3.5.tar.gz]
+[2024-05-30 04:40:02] INFO root fetch - processPackages [pypomes-scheduling]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_scheduling-0.3.6.tar.gz]
+[2024-05-30 04:40:02] INFO root fetch - main [MainThread]: End processing [pypomes-scheduling]: success
+[2024-05-30 04:40:02] INFO root fetch - processPackages [pyemaps]: Remove: archive file [/home/abi/fetcher/tmp/pyemaps-1.0.8.tar.gz]
+[2024-05-30 04:40:02] INFO root fetch - processPackages [pyemaps]: Remove: archive file [/home/abi/fetcher/tmp/pyemaps-1.0.9.tar.gz]
+[2024-05-30 04:40:02] INFO root fetch - main [MainThread]: End processing [pyemaps]: success
+[2024-05-30 04:40:02] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-30 04:40:02] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-30 04:40:02] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-30 04:40:02] INFO root fetch - main [MainThread]: Store serial: [23441369]
