@@ -10336,3 +10336,56 @@ EOFError: EOF read where object expected
 [2024-05-30 05:51:17] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_auto_refresh-16.0.1.0.1.1-py3-none-any.whl.zip]
 [2024-05-30 05:51:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-auto-refresh]: success
 [2024-05-30 05:51:17] INFO root fetch - main [MainThread]: Store serial: [23441868]
+[2024-05-30 05:53:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441868]
+[2024-05-30 05:53:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 05:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gusense
+[2024-05-30 05:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composio-autogen
+[2024-05-30 05:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-dms-storage
+[2024-05-30 05:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-dms
+[2024-05-30 05:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-claude
+[2024-05-30 05:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-crewai
+[2024-05-30 05:53:26] INFO root fetch - processPackages [gusense]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-30 05:53:26] INFO root fetch - processPackages [odoo-addon-dms-storage]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-30 05:53:26] INFO root fetch - processPackages [composio-autogen]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-30 05:53:26] INFO root fetch - processPackages [odoo-addon-dms]: New version: [16.0.1.7.0.9] Old Version: [16.0.1.7.0.8]
+[2024-05-30 05:53:26] INFO root fetch - processPackages [composio-claude]: New version: [0.3.0] Old Version: [0.2.64]
+[2024-05-30 05:53:26] INFO root fetch - processPackages [composio-crewai]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-30 05:53:26] INFO root fetch - processPackages [gusense]: Downloading https://files.pythonhosted.org/packages/c0/e7/ead9db92b6392f970fac63acdedec85052d868ed25ab26d4023d499c0238/gusense-1.1.0.tar.gz
+[2024-05-30 05:53:26] INFO root fetch - processPackages [odoo-addon-dms-storage]: Downloading https://files.pythonhosted.org/packages/d3/93/381c8697c4ea489f4227bc2dfd54deb2f9a48e44bacdfa916c6447400859/odoo_addon_dms_storage-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-30 05:53:27] INFO root fetch - processPackages [odoo-addon-dms]: Downloading https://files.pythonhosted.org/packages/0a/93/11076202082d352dfbadc2048f154bba24ade07ae59ac4db7085d023b66a/odoo_addon_dms-16.0.1.7.0.8-py3-none-any.whl
+[2024-05-30 05:53:27] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/71/74/d7402536936291e2f253c7f49b408e9b11360801f9d6fb0c2e7a212152af/composio_claude-0.2.64.tar.gz
+[2024-05-30 05:53:27] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-05-30 05:53:27] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-05-30 05:53:27] WARNING root fetch - processPackages [odoo-addon-dms]: Skipping package: exceeds size limit 15665063>=10485760
+[2024-05-30 05:53:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms] error
+[2024-05-30 05:53:27] INFO root fetch - processPackages [gusense]: Downloading https://files.pythonhosted.org/packages/0a/13/b081372588cc95f37903fa4415b987998912461cc01f654d5dccf3276341/gusense-1.1.1.tar.gz
+[2024-05-30 05:53:27] INFO root fetch - processPackages [odoo-addon-dms-storage]: Downloading https://files.pythonhosted.org/packages/c8/a8/0c44428ed148683ae328e0a377d8ffc51419304a747a958543589af32a6b/odoo_addon_dms_storage-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-30 05:53:27] INFO root fetch - processPackages [gusense]: executing diffoscope
+[2024-05-30 05:53:27] INFO root fetch - processPackages [gusense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gusense-1.1.0.tar.gz tmp/gusense-1.1.1.tar.gz --markdown 20240530/g/gusense/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-30 05:53:27] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/65/ad/ed4185baafe951630656b93b2d7a090a55b425629eff41205d633e2bbff2/composio_claude-0.3.0.tar.gz
+[2024-05-30 05:53:27] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/f9/14/89daf6a7d2afe7a1dffffe55a3c4d58754eab469eb9bf539d941ab3fb18b/composio_autogen-0.3.0.tar.gz
+[2024-05-30 05:53:27] INFO root fetch - processPackages [odoo-addon-dms-storage]: executing diffoscope
+[2024-05-30 05:53:27] INFO root fetch - processPackages [odoo-addon-dms-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_storage-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_dms_storage-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-dms-storage/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-30 05:53:27] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/36/a0/c6e6e70eb380faf4a66cae65393660bd726c5cd6f1d2512376f880730ae5/composio_crewai-0.3.0.tar.gz
+[2024-05-30 05:53:27] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-05-30 05:53:27] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.9.tar.gz tmp/composio_autogen-0.3.0.tar.gz --markdown 20240530/c/composio-autogen/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-30 05:53:27] INFO root fetch - processPackages [composio-claude]: executing diffoscope
+[2024-05-30 05:53:27] INFO root fetch - processPackages [composio-claude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_claude-0.2.64.tar.gz tmp/composio_claude-0.3.0.tar.gz --markdown 20240530/c/composio-claude/0.2.64-0.3.0/README.md --exclude *.pyd
+[2024-05-30 05:53:27] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-05-30 05:53:27] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.9.tar.gz tmp/composio_crewai-0.3.0.tar.gz --markdown 20240530/c/composio-crewai/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-30 05:53:27] INFO root fetch - processPackages [gusense]: Remove: archive file [/home/abi/fetcher/tmp/gusense-1.1.0.tar.gz]
+[2024-05-30 05:53:27] INFO root fetch - processPackages [gusense]: Remove: archive file [/home/abi/fetcher/tmp/gusense-1.1.1.tar.gz]
+[2024-05-30 05:53:27] INFO root fetch - main [MainThread]: End processing [gusense]: success
+[2024-05-30 05:53:28] INFO root fetch - processPackages [odoo-addon-dms-storage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_storage-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-30 05:53:28] INFO root fetch - processPackages [odoo-addon-dms-storage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_storage-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-30 05:53:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-storage]: success
+[2024-05-30 05:53:28] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-05-30 05:53:28] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.3.0.tar.gz]
+[2024-05-30 05:53:28] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-05-30 05:53:28] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.2.64.tar.gz]
+[2024-05-30 05:53:28] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.3.0.tar.gz]
+[2024-05-30 05:53:28] INFO root fetch - main [MainThread]: End processing [composio-claude]: success
+[2024-05-30 05:53:28] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-05-30 05:53:28] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.3.0.tar.gz]
+[2024-05-30 05:53:28] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-05-30 05:53:28] INFO root fetch - main [MainThread]: Store serial: [23441884]
