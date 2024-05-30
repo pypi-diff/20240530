@@ -3380,3 +3380,65 @@ EOFError: EOF read where object expected
 [2024-05-30 03:12:33] INFO root fetch - processPackages [r2r]: Remove: archive file [/home/abi/fetcher/tmp/r2r-0.2.2.tar.gz]
 [2024-05-30 03:12:33] INFO root fetch - main [MainThread]: End processing [r2r]: success
 [2024-05-30 03:12:33] INFO root fetch - main [MainThread]: Store serial: [23439340]
+[2024-05-30 03:14:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439340]
+[2024-05-30 03:14:42] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-30 03:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-curl
+[2024-05-30 03:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myfunctions-farrukh90
+[2024-05-30 03:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myfunctions-viksan17
+[2024-05-30 03:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myfunctions-andreibelous16
+[2024-05-30 03:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myfunctions-Andre-Pank
+[2024-05-30 03:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbdemos
+[2024-05-30 03:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: myfunctions-thejondaw
+[2024-05-30 03:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pr-pilot
+[2024-05-30 03:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: myfunctions-zulyakeldibaeva
+[2024-05-30 03:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: myfunctions-aizhan010
+[2024-05-30 03:14:42] WARNING root fetch - processPackages [myfunctions-zulyakeldibaeva]: Skipping, unable to determine old version
+[2024-05-30 03:14:42] INFO root fetch - processPackages [myfunctions-zulyakeldibaeva]: Start processing: myfunctions-SashaKrav
+[2024-05-30 03:14:42] INFO root fetch - main [MainThread]: End processing [myfunctions-zulyakeldibaeva] error
+[2024-05-30 03:14:42] WARNING root fetch - processPackages [myfunctions-andreibelous16]: Skipping, unable to determine old version
+[2024-05-30 03:14:42] INFO root fetch - processPackages [myfunctions-andreibelous16]: Start processing: myfunctions-nadiaconeaev89
+[2024-05-30 03:14:42] INFO root fetch - main [MainThread]: End processing [myfunctions-andreibelous16] error
+[2024-05-30 03:14:42] WARNING root fetch - processPackages [myfunctions-Andre-Pank]: Skipping, unable to determine old version
+[2024-05-30 03:14:42] INFO root fetch - processPackages [myfunctions-Andre-Pank]: Start processing: myfunctions-danpuz7
+[2024-05-30 03:14:42] INFO root fetch - main [MainThread]: End processing [myfunctions-Andre-Pank] error
+[2024-05-30 03:14:42] WARNING root fetch - processPackages [myfunctions-aizhan010]: Skipping, unable to determine old version
+[2024-05-30 03:14:42] INFO root fetch - processPackages [myfunctions-aizhan010]: Start processing: myfunctions-aziz200115
+[2024-05-30 03:14:42] INFO root fetch - main [MainThread]: End processing [myfunctions-aizhan010] error
+[2024-05-30 03:14:42] WARNING root fetch - processPackages [myfunctions-viksan17]: Skipping, unable to determine old version
+[2024-05-30 03:14:42] INFO root fetch - processPackages [myfunctions-viksan17]: Start processing: myfunction-ViktoriyaXIII
+[2024-05-30 03:14:42] INFO root fetch - main [MainThread]: End processing [myfunctions-viksan17] error
+[2024-05-30 03:14:42] WARNING root fetch - processPackages [myfunctions-thejondaw]: Skipping, unable to determine old version
+[2024-05-30 03:14:42] WARNING root fetch - processPackages [myfunctions-farrukh90]: Skipping, unable to determine old version
+[2024-05-30 03:14:42] INFO root fetch - main [MainThread]: End processing [myfunctions-thejondaw] error
+[2024-05-30 03:14:42] INFO root fetch - main [MainThread]: End processing [myfunctions-farrukh90] error
+[2024-05-30 03:14:42] WARNING root fetch - processPackages [myfunctions-SashaKrav]: Skipping, unable to determine old version
+[2024-05-30 03:14:42] INFO root fetch - main [MainThread]: End processing [myfunctions-SashaKrav] error
+[2024-05-30 03:14:42] WARNING root fetch - processPackages [myfunctions-nadiaconeaev89]: Skipping, unable to determine old version
+[2024-05-30 03:14:42] INFO root fetch - main [MainThread]: End processing [myfunctions-nadiaconeaev89] error
+[2024-05-30 03:14:42] WARNING root fetch - processPackages [myfunctions-danpuz7]: Skipping, unable to determine old version
+[2024-05-30 03:14:42] INFO root fetch - main [MainThread]: End processing [myfunctions-danpuz7] error
+[2024-05-30 03:14:42] WARNING root fetch - processPackages [myfunctions-aziz200115]: Skipping, unable to determine old version
+[2024-05-30 03:14:42] INFO root fetch - main [MainThread]: End processing [myfunctions-aziz200115] error
+[2024-05-30 03:14:42] WARNING root fetch - processPackages [myfunction-ViktoriyaXIII]: Skipping, unable to determine old version
+[2024-05-30 03:14:42] INFO root fetch - main [MainThread]: End processing [myfunction-ViktoriyaXIII] error
+[2024-05-30 03:14:42] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-30 03:14:42] INFO root fetch - processPackages [dbdemos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-30 03:14:42] INFO root fetch - processPackages [pr-pilot]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-30 03:14:42] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-30 03:14:42] INFO root fetch - processPackages [dbdemos]: Downloading https://files.pythonhosted.org/packages/6c/c5/9454bae82e5fb5c1b0134e7c26d6cc743c4c92ae262fcd50a4f297cc5054/dbdemos-0.3.8-py3-none-any.whl
+[2024-05-30 03:14:42] INFO root fetch - processPackages [pr-pilot]: Downloading https://files.pythonhosted.org/packages/f0/86/5a1b8b068037041be875e79c21f23164e5598a19f0a89664f1c58fb82405/pr_pilot-1.4.0.tar.gz
+[2024-05-30 03:14:42] WARNING root fetch - processPackages [dbdemos]: Skipping package: exceeds size limit 29692537>=10485760
+[2024-05-30 03:14:42] INFO root fetch - main [MainThread]: End processing [dbdemos] error
+[2024-05-30 03:14:42] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-30 03:14:43] INFO root fetch - processPackages [pr-pilot]: Downloading https://files.pythonhosted.org/packages/d4/38/2e577a00eef9be2d5cab2cc0f46d4bac932af1bb66f04175b897a13edb87/pr_pilot-1.4.1.tar.gz
+[2024-05-30 03:14:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-30 03:14:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240530/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-30 03:14:43] INFO root fetch - processPackages [pr-pilot]: executing diffoscope
+[2024-05-30 03:14:43] INFO root fetch - processPackages [pr-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_pilot-1.4.0.tar.gz tmp/pr_pilot-1.4.1.tar.gz --markdown 20240530/p/pr-pilot/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-30 03:14:43] INFO root fetch - processPackages [pr-pilot]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot-1.4.0.tar.gz]
+[2024-05-30 03:14:43] INFO root fetch - processPackages [pr-pilot]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot-1.4.1.tar.gz]
+[2024-05-30 03:14:43] INFO root fetch - main [MainThread]: End processing [pr-pilot]: success
+[2024-05-30 03:14:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-30 03:14:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-30 03:14:44] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-30 03:14:44] INFO root fetch - main [MainThread]: Store serial: [23439387]
