@@ -11705,3 +11705,69 @@ EOFError: EOF read where object expected
 [2024-05-30 06:43:35] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.97.tar.gz]
 [2024-05-30 06:43:35] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
 [2024-05-30 06:43:35] INFO root fetch - main [MainThread]: Store serial: [23442303]
+[2024-05-30 06:45:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442303]
+[2024-05-30 06:45:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 06:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mutt-html-reply
+[2024-05-30 06:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rockai-cli-app
+[2024-05-30 06:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-product-account-multicompany-default
+[2024-05-30 06:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: laktory
+[2024-05-30 06:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-product-multi-company
+[2024-05-30 06:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-product-tax-multicompany-default
+[2024-05-30 06:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: molecular-interaction-rules
+[2024-05-30 06:45:44] INFO root fetch - processPackages [odoo-addon-product-account-multicompany-default]: New version: [16.0.0.1.0.7] Old Version: [16.0.0.1.0.3]
+[2024-05-30 06:45:44] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.6] Old Version: [0.5.97]
+[2024-05-30 06:45:45] INFO root fetch - processPackages [mutt-html-reply]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-30 06:45:45] INFO root fetch - processPackages [odoo-addon-product-multi-company]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.5]
+[2024-05-30 06:45:45] INFO root fetch - processPackages [odoo-addon-product-tax-multicompany-default]: New version: [16.0.1.0.2.3] Old Version: [16.0.1.0.2.2]
+[2024-05-30 06:45:45] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-30 06:45:45] INFO root fetch - processPackages [laktory]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-30 06:45:45] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/2f/0a/011930cb0fc311a9b5e0e77a693ab250362ea2be1ba0652585af167f3a1d/molecular_interaction_rules-0.5.97.tar.gz
+[2024-05-30 06:45:45] INFO root fetch - processPackages [odoo-addon-product-multi-company]: Downloading https://files.pythonhosted.org/packages/be/01/9ab31aa6c7eb86480e06e5cf98830425a7fe323d78d7c9e08d6793dad022/odoo_addon_product_multi_company-15.0.1.0.0.5-py3-none-any.whl
+[2024-05-30 06:45:45] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/5a/3e/9d54574e68b34c402973941001159779d96dcf0fdba3e56990a140e210c3/rockai_cli_app-0.2.2.tar.gz
+[2024-05-30 06:45:45] INFO root fetch - processPackages [mutt-html-reply]: Downloading https://files.pythonhosted.org/packages/3a/f1/dfb5b1dcddac457c122567f48025c7bb3b0ced93597fe00422fadb23dcbc/mutt_html_reply-0.3.0.tar.gz
+[2024-05-30 06:45:45] INFO root fetch - processPackages [odoo-addon-product-tax-multicompany-default]: Downloading https://files.pythonhosted.org/packages/64/9f/d84c85487cc08bcc277412ed557eac95440dbc65a64a22f9b18214830644/odoo_addon_product_tax_multicompany_default-16.0.1.0.2.2-py3-none-any.whl
+[2024-05-30 06:45:45] INFO root fetch - processPackages [laktory]: Downloading https://files.pythonhosted.org/packages/11/a8/fc98214b72db1b23b4317dc161eda458d4c99b67c83ff9bcb119b8d3c437/laktory-0.3.2.tar.gz
+[2024-05-30 06:45:45] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/ae/7b/ac6b2ad77811b76d2ca7d2c877a138c20950cfef6cd82e605a9e098e55f5/rockai_cli_app-0.2.3.tar.gz
+[2024-05-30 06:45:45] INFO root fetch - processPackages [odoo-addon-product-multi-company]: Downloading https://files.pythonhosted.org/packages/f2/36/95044e2a6b80594721e2d3d3fba18c538b79c505d0f87e702fde199543cc/odoo_addon_product_multi_company-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-30 06:45:45] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-30 06:45:45] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.2.tar.gz tmp/rockai_cli_app-0.2.3.tar.gz --markdown 20240530/r/rockai-cli-app/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-30 06:45:45] INFO root fetch - processPackages [odoo-addon-product-account-multicompany-default]: Downloading https://files.pythonhosted.org/packages/65/ed/ff0ff32e9b73963704af63d0a9bb8906de12456f8fefa13b33e843cf48cd/odoo_addon_product_account_multicompany_default-16.0.0.1.0.3-py3-none-any.whl
+[2024-05-30 06:45:45] INFO root fetch - processPackages [odoo-addon-product-multi-company]: executing diffoscope
+[2024-05-30 06:45:45] INFO root fetch - processPackages [odoo-addon-product-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_multi_company-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_product_multi_company-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-product-multi-company/15.0.1.0.0.5-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-30 06:45:45] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/d0/90/bd648077b34a89c6d23238a8ba161e87fcb26db17c8727a765c3433e2fb0/molecular_interaction_rules-0.6.tar.gz
+[2024-05-30 06:45:45] INFO root fetch - processPackages [mutt-html-reply]: Downloading https://files.pythonhosted.org/packages/d9/93/f07dfaa7527dcc63503091ce6bc7cc01c62791d2d167346bd1a87fb29d01/mutt_html_reply-0.3.1.tar.gz
+[2024-05-30 06:45:45] INFO root fetch - processPackages [odoo-addon-product-tax-multicompany-default]: Downloading https://files.pythonhosted.org/packages/f7/b2/a8c0d8c12f7f7d9c3c59dba80490fb852c1c5ae69033bfe8436534ffaabc/odoo_addon_product_tax_multicompany_default-16.0.1.0.2.3-py3-none-any.whl
+[2024-05-30 06:45:45] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 06:45:45] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.97.tar.gz tmp/molecular_interaction_rules-0.6.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5.97-0.6/README.md --exclude *.pyd
+[2024-05-30 06:45:45] INFO root fetch - processPackages [mutt-html-reply]: executing diffoscope
+[2024-05-30 06:45:45] INFO root fetch - processPackages [mutt-html-reply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutt_html_reply-0.3.0.tar.gz tmp/mutt_html_reply-0.3.1.tar.gz --markdown 20240530/m/mutt-html-reply/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-30 06:45:45] INFO root fetch - processPackages [odoo-addon-product-tax-multicompany-default]: executing diffoscope
+[2024-05-30 06:45:45] INFO root fetch - processPackages [odoo-addon-product-tax-multicompany-default]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_tax_multicompany_default-16.0.1.0.2.2-py3-none-any.whl.zip tmp/odoo_addon_product_tax_multicompany_default-16.0.1.0.2.3-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-product-tax-multicompany-default/16.0.1.0.2.2-16.0.1.0.2.3/README.md --exclude *.pyd
+[2024-05-30 06:45:45] INFO root fetch - processPackages [laktory]: Downloading https://files.pythonhosted.org/packages/73/e1/bd0614ebdd32dc8ae00a5b84d61ec864bc96a628f54e95cbf875b03ed206/laktory-0.3.3.tar.gz
+[2024-05-30 06:45:45] INFO root fetch - processPackages [odoo-addon-product-account-multicompany-default]: Downloading https://files.pythonhosted.org/packages/fb/1a/ef57c98f9ed2cd37e42c7ae31160c6ee8aa67f832a952650ecec7025956e/odoo_addon_product_account_multicompany_default-16.0.0.1.0.7-py3-none-any.whl
+[2024-05-30 06:45:46] INFO root fetch - processPackages [odoo-addon-product-account-multicompany-default]: executing diffoscope
+[2024-05-30 06:45:46] INFO root fetch - processPackages [odoo-addon-product-account-multicompany-default]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_account_multicompany_default-16.0.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_account_multicompany_default-16.0.0.1.0.7-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-product-account-multicompany-default/16.0.0.1.0.3-16.0.0.1.0.7/README.md --exclude *.pyd
+[2024-05-30 06:45:46] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.2.tar.gz]
+[2024-05-30 06:45:46] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.3.tar.gz]
+[2024-05-30 06:45:46] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-30 06:45:46] INFO root fetch - processPackages [odoo-addon-product-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_multi_company-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-30 06:45:46] INFO root fetch - processPackages [odoo-addon-product-multi-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_multi_company-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-30 06:45:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-multi-company]: success
+[2024-05-30 06:45:46] INFO root fetch - processPackages [mutt-html-reply]: Remove: archive file [/home/abi/fetcher/tmp/mutt_html_reply-0.3.0.tar.gz]
+[2024-05-30 06:45:46] INFO root fetch - processPackages [mutt-html-reply]: Remove: archive file [/home/abi/fetcher/tmp/mutt_html_reply-0.3.1.tar.gz]
+[2024-05-30 06:45:46] INFO root fetch - main [MainThread]: End processing [mutt-html-reply]: success
+[2024-05-30 06:45:46] INFO root fetch - processPackages [odoo-addon-product-tax-multicompany-default]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_tax_multicompany_default-16.0.1.0.2.2-py3-none-any.whl.zip]
+[2024-05-30 06:45:46] INFO root fetch - processPackages [odoo-addon-product-tax-multicompany-default]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_tax_multicompany_default-16.0.1.0.2.3-py3-none-any.whl.zip]
+[2024-05-30 06:45:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-tax-multicompany-default]: success
+[2024-05-30 06:45:46] INFO root fetch - processPackages [laktory]: executing diffoscope
+[2024-05-30 06:45:46] INFO root fetch - processPackages [laktory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laktory-0.3.2.tar.gz tmp/laktory-0.3.3.tar.gz --markdown 20240530/l/laktory/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-30 06:45:46] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.97.tar.gz]
+[2024-05-30 06:45:46] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.6.tar.gz]
+[2024-05-30 06:45:46] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 06:45:46] INFO root fetch - processPackages [odoo-addon-product-account-multicompany-default]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_account_multicompany_default-16.0.0.1.0.3-py3-none-any.whl.zip]
+[2024-05-30 06:45:46] INFO root fetch - processPackages [odoo-addon-product-account-multicompany-default]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_account_multicompany_default-16.0.0.1.0.7-py3-none-any.whl.zip]
+[2024-05-30 06:45:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-account-multicompany-default]: success
+[2024-05-30 06:45:48] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.3.2.tar.gz]
+[2024-05-30 06:45:48] INFO root fetch - processPackages [laktory]: Remove: archive file [/home/abi/fetcher/tmp/laktory-0.3.3.tar.gz]
+[2024-05-30 06:45:48] INFO root fetch - main [MainThread]: End processing [laktory]: success
+[2024-05-30 06:45:48] INFO root fetch - main [MainThread]: Store serial: [23442320]
