@@ -18251,3 +18251,79 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:44:09] INFO root fetch - processPackages [apify]: Remove: archive file [/home/abi/fetcher/tmp/apify-1.7.2b2.tar.gz]
 [2024-05-30 10:44:09] INFO root fetch - main [MainThread]: End processing [apify]: success
 [2024-05-30 10:44:09] INFO root fetch - main [MainThread]: Store serial: [23445264]
+[2024-05-30 10:46:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23445264]
+[2024-05-30 10:46:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-30 10:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apify
+[2024-05-30 10:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-mixpanel
+[2024-05-30 10:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funbgcex
+[2024-05-30 10:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Hybrid
+[2024-05-30 10:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chess-transformer
+[2024-05-30 10:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cmdbapi
+[2024-05-30 10:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sentiment-analysis-model
+[2024-05-30 10:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly-cpu
+[2024-05-30 10:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-osubot
+[2024-05-30 10:46:19] INFO root fetch - processPackages [cmdbapi]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-30 10:46:19] INFO root fetch - processPackages [sentiment-analysis-model]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-30 10:46:19] INFO root fetch - processPackages [chess-transformer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 10:46:19] INFO root fetch - processPackages [apify]: New version: [1.7.2b2] Old Version: [1.7.2b1]
+[2024-05-30 10:46:19] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.4.2] Old Version: [6.4.1]
+[2024-05-30 10:46:19] INFO root fetch - processPackages [cmdbapi]: Downloading https://files.pythonhosted.org/packages/ad/b4/c4e44ed15b8547f47528dc9fac19f42378a91d1a792534ace9b97d12c368/cmdbapi-1.0.1.tar.gz
+[2024-05-30 10:46:19] INFO root fetch - processPackages [airbyte-source-mixpanel]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-30 10:46:19] INFO root fetch - processPackages [funbgcex]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 10:46:19] INFO root fetch - processPackages [Geode-Hybrid]: New version: [2.4.4rc1] Old Version: [2.4.3rc1]
+[2024-05-30 10:46:19] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/17/9a/4eaffd0a6a3b549dde852c3725d047241701c2bfbd76111bc2bccccb0658/chess_transformer-0.1.8.tar.gz
+[2024-05-30 10:46:19] INFO root fetch - processPackages [sentiment-analysis-model]: Downloading https://files.pythonhosted.org/packages/c7/ce/064a124371d6cf25f5e73933dc86961550a07fc32c9677853b91de226a12/sentiment_analysis_model-0.0.2.tar.gz
+[2024-05-30 10:46:19] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/c8/97/db327b9d628701fd0828fd6e68e5ec739770ffc44ae14767f1f801bd3d6a/apify-1.7.2b1.tar.gz
+[2024-05-30 10:46:19] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240530] Old Version: [2.17.0.dev20240529]
+[2024-05-30 10:46:19] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/5e/1a/edb83c5dc5f4ae639b1989c461919b789f0ca0db93584b9210b7bf6f7689/nonebot-plugin-osubot-6.4.1.tar.gz
+[2024-05-30 10:46:19] INFO root fetch - processPackages [airbyte-source-mixpanel]: Downloading https://files.pythonhosted.org/packages/f7/6e/3f924218329fa888a1a729a9bd4bf9741cb1ce57e4860bc9d3b82536574e/airbyte_source_mixpanel-3.0.0.tar.gz
+[2024-05-30 10:46:19] INFO root fetch - processPackages [funbgcex]: Downloading https://files.pythonhosted.org/packages/81/c2/94836aeb1bd4eb18600164a9c867bc090b7079446bd8decbb293e637f44d/funbgcex-0.0.1.tar.gz
+[2024-05-30 10:46:19] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29721505>=10485760
+[2024-05-30 10:46:19] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-30 10:46:19] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/03/73/debe3caa553e0d272c4dacbd496e12948c8d074baec699bbfb094c6ed8ca/Geode_Hybrid-2.4.3rc1-cp39-cp39-win_amd64.whl
+[2024-05-30 10:46:19] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ce/13/026d09345e4ad0cb48a6eae32f67e04f11bce634ef00cad927bb5508d204/tf_nightly_cpu-2.17.0.dev20240529-cp39-cp39-win_amd64.whl
+[2024-05-30 10:46:19] WARNING root fetch - processPackages [funbgcex]: Skipping package: exceeds size limit 62160488>=10485760
+[2024-05-30 10:46:19] INFO root fetch - main [MainThread]: End processing [funbgcex] error
+[2024-05-30 10:46:19] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/ee/65/ac93cfdac6866e37c13a65533e65710bf7f19f73880bfb7a9eaeb907f8e0/chess_transformer-0.1.9.tar.gz
+[2024-05-30 10:46:19] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/d8/15/a0b771bdc0ba6236df9e50074eaea604d7b4e60b49ccb60739d11183487c/apify-1.7.2b2.tar.gz
+[2024-05-30 10:46:19] INFO root fetch - processPackages [cmdbapi]: Downloading https://files.pythonhosted.org/packages/cc/3a/3acc8541e39366e12b5807dc02cd5e798de49bfc4839357e55970ce117ba/cmdbapi-1.0.2.tar.gz
+[2024-05-30 10:46:20] INFO root fetch - processPackages [sentiment-analysis-model]: Downloading https://files.pythonhosted.org/packages/d2/0a/6895db905656aa9c50e61d0b5a90072c2798a12527d33a8434a2f77ede18/sentiment_analysis_model-0.0.3.tar.gz
+[2024-05-30 10:46:20] INFO root fetch - processPackages [chess-transformer]: executing diffoscope
+[2024-05-30 10:46:20] INFO root fetch - processPackages [chess-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_transformer-0.1.8.tar.gz tmp/chess_transformer-0.1.9.tar.gz --markdown 20240530/c/chess-transformer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 10:46:20] INFO root fetch - processPackages [cmdbapi]: executing diffoscope
+[2024-05-30 10:46:20] INFO root fetch - processPackages [cmdbapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdbapi-1.0.1.tar.gz tmp/cmdbapi-1.0.2.tar.gz --markdown 20240530/c/cmdbapi/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-30 10:46:20] INFO root fetch - processPackages [apify]: executing diffoscope
+[2024-05-30 10:46:20] INFO root fetch - processPackages [apify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify-1.7.2b1.tar.gz tmp/apify-1.7.2b2.tar.gz --markdown 20240530/a/apify/1.7.2b1-1.7.2b2/README.md --exclude *.pyd
+[2024-05-30 10:46:20] INFO root fetch - processPackages [sentiment-analysis-model]: executing diffoscope
+[2024-05-30 10:46:20] INFO root fetch - processPackages [sentiment-analysis-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analysis_model-0.0.2.tar.gz tmp/sentiment_analysis_model-0.0.3.tar.gz --markdown 20240530/s/sentiment-analysis-model/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-30 10:46:20] INFO root fetch - processPackages [airbyte-source-mixpanel]: Downloading https://files.pythonhosted.org/packages/6b/bf/54b1acbf082caa750a1eb9e534e1eb185ab7782f6f8c1c9382a131f003b5/airbyte_source_mixpanel-3.1.0.tar.gz
+[2024-05-30 10:46:20] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/85/17/0102a5e9be6bc040582a666cabe5aec499890f750bf3b15db6dc1843eced/tf_nightly_cpu-2.17.0.dev20240530-cp39-cp39-win_amd64.whl
+[2024-05-30 10:46:20] INFO root fetch - processPackages [airbyte-source-mixpanel]: executing diffoscope
+[2024-05-30 10:46:20] INFO root fetch - processPackages [airbyte-source-mixpanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_mixpanel-3.0.0.tar.gz tmp/airbyte_source_mixpanel-3.1.0.tar.gz --markdown 20240530/a/airbyte-source-mixpanel/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-30 10:46:20] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-30 10:46:20] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240529-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240530-cp39-cp39-win_amd64.whl.zip --markdown 20240530/t/tf-nightly-cpu/2.17.0.dev20240529-2.17.0.dev20240530/README.md --exclude *.pyd
+[2024-05-30 10:46:20] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.8.tar.gz]
+[2024-05-30 10:46:20] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.9.tar.gz]
+[2024-05-30 10:46:20] INFO root fetch - main [MainThread]: End processing [chess-transformer]: success
+[2024-05-30 10:46:20] INFO root fetch - processPackages [sentiment-analysis-model]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_model-0.0.2.tar.gz]
+[2024-05-30 10:46:20] INFO root fetch - processPackages [sentiment-analysis-model]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_model-0.0.3.tar.gz]
+[2024-05-30 10:46:20] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-model]: success
+[2024-05-30 10:46:20] INFO root fetch - processPackages [cmdbapi]: Remove: archive file [/home/abi/fetcher/tmp/cmdbapi-1.0.1.tar.gz]
+[2024-05-30 10:46:20] INFO root fetch - processPackages [cmdbapi]: Remove: archive file [/home/abi/fetcher/tmp/cmdbapi-1.0.2.tar.gz]
+[2024-05-30 10:46:20] INFO root fetch - main [MainThread]: End processing [cmdbapi]: success
+[2024-05-30 10:46:20] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/b3/df/c3ccdda209f34ce5d4757815889272f537664294de9101d1806d58f5114b/Geode_Hybrid-2.4.4rc1-cp39-cp39-win_amd64.whl
+[2024-05-30 10:46:20] INFO root fetch - processPackages [apify]: Remove: archive file [/home/abi/fetcher/tmp/apify-1.7.2b1.tar.gz]
+[2024-05-30 10:46:20] INFO root fetch - processPackages [apify]: Remove: archive file [/home/abi/fetcher/tmp/apify-1.7.2b2.tar.gz]
+[2024-05-30 10:46:20] INFO root fetch - main [MainThread]: End processing [apify]: success
+[2024-05-30 10:46:21] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240529-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 10:46:21] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240530-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 10:46:21] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-30 10:46:21] INFO root fetch - processPackages [airbyte-source-mixpanel]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_mixpanel-3.0.0.tar.gz]
+[2024-05-30 10:46:21] INFO root fetch - processPackages [airbyte-source-mixpanel]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_mixpanel-3.1.0.tar.gz]
+[2024-05-30 10:46:21] INFO root fetch - main [MainThread]: End processing [airbyte-source-mixpanel]: success
+[2024-05-30 10:46:21] INFO root fetch - processPackages [Geode-Hybrid]: executing diffoscope
+[2024-05-30 10:46:21] INFO root fetch - processPackages [Geode-Hybrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Hybrid-2.4.3rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Hybrid-2.4.4rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240530/G/Geode-Hybrid/2.4.3rc1-2.4.4rc1/README.md --exclude *.pyd
+[2024-05-30 10:46:33] INFO root fetch - processPackages [Geode-Hybrid]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Hybrid-2.4.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 10:46:33] INFO root fetch - processPackages [Geode-Hybrid]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Hybrid-2.4.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 10:46:33] INFO root fetch - main [MainThread]: End processing [Geode-Hybrid]: success
+[2024-05-30 10:46:33] INFO root fetch - main [MainThread]: Store serial: [23445299]
