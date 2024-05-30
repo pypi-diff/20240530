@@ -9805,3 +9805,83 @@ EOFError: EOF read where object expected
 [2024-05-30 05:29:26] INFO root fetch - processPackages [baidu-serp-api]: Remove: archive file [/home/abi/fetcher/tmp/baidu_serp_api-0.2.tar.gz]
 [2024-05-30 05:29:26] INFO root fetch - main [MainThread]: End processing [baidu-serp-api]: success
 [2024-05-30 05:29:26] INFO root fetch - main [MainThread]: Store serial: [23441685]
+[2024-05-30 05:31:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441685]
+[2024-05-30 05:31:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-30 05:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: criteria-local
+[2024-05-30 05:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: konfuzio-sdk
+[2024-05-30 05:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molecular-interaction-rules
+[2024-05-30 05:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nsanic
+[2024-05-30 05:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MeUtils
+[2024-05-30 05:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-asterisk-click2dial
+[2024-05-30 05:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MeUtils
+[2024-05-30 05:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prjit
+[2024-05-30 05:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MeUtils
+[2024-05-30 05:31:35] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.5.1] Old Version: [0.5]
+[2024-05-30 05:31:35] INFO root fetch - processPackages [prjit]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-30 05:31:35] INFO root fetch - processPackages [odoo-addon-asterisk-click2dial]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-05-30 05:31:35] INFO root fetch - processPackages [criteria-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-30 05:31:35] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.3.7.dev20240528095544] Old Version: [0.3.7.dev20240524130943]
+[2024-05-30 05:31:35] INFO root fetch - processPackages [nsanic]: New version: [2024.5.30] Old Version: [2024.5.27]
+[2024-05-30 05:31:35] INFO root fetch - processPackages [prjit]: Downloading https://files.pythonhosted.org/packages/65/fe/142af3863ac4ae7c5d95e8098e95477c4c376df40364fc7a1ec07a327d74/prjit-0.0.4.tar.gz
+[2024-05-30 05:31:35] INFO root fetch - processPackages [criteria-local]: Downloading https://files.pythonhosted.org/packages/6a/64/3cfdc8c1fab42a46a86e91f09bc94dac7098131bf28a574989d677a5c176/criteria-local-0.0.7.tar.gz
+[2024-05-30 05:31:35] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/48/4f/41e472dd9a725895358af2ed1a536228d6534df7ad40501e9e7918ba28de/konfuzio_sdk-0.3.7.dev20240524130943.tar.gz
+[2024-05-30 05:31:35] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/b5/ba/5430419b34d898d53be9169040d965c8c9b4b87c8ec57c402007b4b3ae72/molecular_interaction_rules-0.5.tar.gz
+[2024-05-30 05:31:35] INFO root fetch - processPackages [odoo-addon-asterisk-click2dial]: Downloading https://files.pythonhosted.org/packages/bb/d7/16f06b3f4235ba634d2462dfdd28cff1ee8e1a41592004174cb30c311ae8/odoo_addon_asterisk_click2dial-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-30 05:31:35] INFO root fetch - processPackages [MeUtils]: New version: [2024.5.6.10.44.50] Old Version: [2024.5.6.10.44.5]
+[2024-05-30 05:31:35] INFO root fetch - processPackages [MeUtils]: New version: [2024.5.6.10.44.50] Old Version: [2024.5.6.10.44.5]
+[2024-05-30 05:31:35] INFO root fetch - processPackages [MeUtils]: New version: [2024.5.6.10.44.50] Old Version: [2024.5.6.10.44.5]
+[2024-05-30 05:31:35] INFO root fetch - processPackages [nsanic]: Downloading https://files.pythonhosted.org/packages/de/78/64ee1d3abd2c84fdabd7caa6ab64f06fc3445d8e5598a595f378c4469f74/nsanic-2024.5.27-py3-none-any.whl
+[2024-05-30 05:31:35] INFO root fetch - processPackages [criteria-local]: Downloading https://files.pythonhosted.org/packages/64/00/8a1d3648f3a7e5706ec3bdd7415e0f7db56b10dc9df9b5fb8ade8dfdeda6/criteria-local-0.0.8.tar.gz
+[2024-05-30 05:31:35] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/3f/d8/480d63ae2e6b2ff55091a22b337e618856e3946089dfb57d03915f8c86b3/konfuzio_sdk-0.3.7.dev20240528095544.tar.gz
+[2024-05-30 05:31:35] INFO root fetch - processPackages [prjit]: Downloading https://files.pythonhosted.org/packages/bb/b3/b020483c028d7633385978c24992a8b441140b7bbec171b382b0e5a5a725/prjit-0.0.5.tar.gz
+[2024-05-30 05:31:35] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/78/33/70eacdfe9bf2fe22dc8f2f41b47fb05e33601609969898927a2e56009f4e/MeUtils-2024.5.6.10.44.5.tar.gz
+[2024-05-30 05:31:35] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/78/33/70eacdfe9bf2fe22dc8f2f41b47fb05e33601609969898927a2e56009f4e/MeUtils-2024.5.6.10.44.5.tar.gz
+[2024-05-30 05:31:35] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/78/33/70eacdfe9bf2fe22dc8f2f41b47fb05e33601609969898927a2e56009f4e/MeUtils-2024.5.6.10.44.5.tar.gz
+[2024-05-30 05:31:35] INFO root fetch - processPackages [criteria-local]: executing diffoscope
+[2024-05-30 05:31:35] INFO root fetch - processPackages [criteria-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criteria-local-0.0.7.tar.gz tmp/criteria-local-0.0.8.tar.gz --markdown 20240530/c/criteria-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-30 05:31:35] INFO root fetch - processPackages [prjit]: executing diffoscope
+[2024-05-30 05:31:35] INFO root fetch - processPackages [prjit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prjit-0.0.4.tar.gz tmp/prjit-0.0.5.tar.gz --markdown 20240530/p/prjit/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-30 05:31:35] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2024-05-30 05:31:35] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.3.7.dev20240524130943.tar.gz tmp/konfuzio_sdk-0.3.7.dev20240528095544.tar.gz --markdown 20240530/k/konfuzio-sdk/0.3.7.dev20240524130943-0.3.7.dev20240528095544/README.md --exclude *.pyd
+[2024-05-30 05:31:35] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/0a/7b/60dc12bd76b0bac8413d161fb9dccd687e7e7472cefe5468241a3698df7b/molecular_interaction_rules-0.5.1.tar.gz
+[2024-05-30 05:31:36] INFO root fetch - processPackages [odoo-addon-asterisk-click2dial]: Downloading https://files.pythonhosted.org/packages/48/c3/ecc68aab59a768f54e880df672e88522f30d71a75657d426b73eafe96e96/odoo_addon_asterisk_click2dial-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-30 05:31:36] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 05:31:36] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.tar.gz tmp/molecular_interaction_rules-0.5.1.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5-0.5.1/README.md --exclude *.pyd
+[2024-05-30 05:31:36] INFO root fetch - processPackages [nsanic]: Downloading https://files.pythonhosted.org/packages/da/88/d66ba40e2cc176ed2ddbcdd64dbd19a3b5d9fb7a6e4c2de9ae6c27ee23d3/nsanic-2024.5.30-py3-none-any.whl
+[2024-05-30 05:31:36] INFO root fetch - processPackages [odoo-addon-asterisk-click2dial]: executing diffoscope
+[2024-05-30 05:31:36] INFO root fetch - processPackages [odoo-addon-asterisk-click2dial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_asterisk_click2dial-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_asterisk_click2dial-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-asterisk-click2dial/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-30 05:31:36] INFO root fetch - processPackages [nsanic]: executing diffoscope
+[2024-05-30 05:31:36] INFO root fetch - processPackages [nsanic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsanic-2024.5.27-py3-none-any.whl.zip tmp/nsanic-2024.5.30-py3-none-any.whl.zip --markdown 20240530/n/nsanic/2024.5.27-2024.5.30/README.md --exclude *.pyd
+[2024-05-30 05:31:36] INFO root fetch - processPackages [criteria-local]: Remove: archive file [/home/abi/fetcher/tmp/criteria-local-0.0.7.tar.gz]
+[2024-05-30 05:31:36] INFO root fetch - processPackages [criteria-local]: Remove: archive file [/home/abi/fetcher/tmp/criteria-local-0.0.8.tar.gz]
+[2024-05-30 05:31:36] INFO root fetch - main [MainThread]: End processing [criteria-local]: success
+[2024-05-30 05:31:36] INFO root fetch - processPackages [prjit]: Remove: archive file [/home/abi/fetcher/tmp/prjit-0.0.4.tar.gz]
+[2024-05-30 05:31:36] INFO root fetch - processPackages [prjit]: Remove: archive file [/home/abi/fetcher/tmp/prjit-0.0.5.tar.gz]
+[2024-05-30 05:31:36] INFO root fetch - main [MainThread]: End processing [prjit]: success
+[2024-05-30 05:31:36] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.tar.gz]
+[2024-05-30 05:31:36] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.1.tar.gz]
+[2024-05-30 05:31:36] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 05:31:36] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.7.dev20240524130943.tar.gz]
+[2024-05-30 05:31:36] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.7.dev20240528095544.tar.gz]
+[2024-05-30 05:31:36] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2024-05-30 05:31:36] INFO root fetch - processPackages [odoo-addon-asterisk-click2dial]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_asterisk_click2dial-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-30 05:31:36] INFO root fetch - processPackages [odoo-addon-asterisk-click2dial]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_asterisk_click2dial-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-30 05:31:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-asterisk-click2dial]: success
+[2024-05-30 05:31:37] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/02/6d/292bdb40daea1066c52f8a1ec784e268ee7fdec3261940c8419a654a25c2/MeUtils-2024.5.6.10.44.50.tar.gz
+[2024-05-30 05:31:37] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/02/6d/292bdb40daea1066c52f8a1ec784e268ee7fdec3261940c8419a654a25c2/MeUtils-2024.5.6.10.44.50.tar.gz
+[2024-05-30 05:31:37] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/02/6d/292bdb40daea1066c52f8a1ec784e268ee7fdec3261940c8419a654a25c2/MeUtils-2024.5.6.10.44.50.tar.gz
+[2024-05-30 05:31:37] INFO root fetch - processPackages [nsanic]: Remove: archive file [/home/abi/fetcher/tmp/nsanic-2024.5.27-py3-none-any.whl.zip]
+[2024-05-30 05:31:37] INFO root fetch - processPackages [nsanic]: Remove: archive file [/home/abi/fetcher/tmp/nsanic-2024.5.30-py3-none-any.whl.zip]
+[2024-05-30 05:31:37] INFO root fetch - main [MainThread]: End processing [nsanic]: success
+[2024-05-30 05:31:37] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-05-30 05:31:37] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.5.6.10.44.5.tar.gz tmp/MeUtils-2024.5.6.10.44.50.tar.gz --markdown 20240530/M/MeUtils/2024.5.6.10.44.5-2024.5.6.10.44.50/README.md --exclude *.pyd
+[2024-05-30 05:31:37] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-05-30 05:31:37] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.5.6.10.44.5.tar.gz tmp/MeUtils-2024.5.6.10.44.50.tar.gz --markdown 20240530/M/MeUtils/2024.5.6.10.44.5-2024.5.6.10.44.50/README.md --exclude *.pyd
+[2024-05-30 05:31:37] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-05-30 05:31:37] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.5.6.10.44.5.tar.gz tmp/MeUtils-2024.5.6.10.44.50.tar.gz --markdown 20240530/M/MeUtils/2024.5.6.10.44.5-2024.5.6.10.44.50/README.md --exclude *.pyd
+[2024-05-30 05:31:39] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.5.6.10.44.5.tar.gz]
+[2024-05-30 05:31:39] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.5.6.10.44.50.tar.gz]
+[2024-05-30 05:31:39] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-05-30 05:31:39] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-05-30 05:31:39] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-05-30 05:31:39] INFO root fetch - main [MainThread]: Store serial: [23441708]
