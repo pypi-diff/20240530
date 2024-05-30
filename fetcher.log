@@ -13281,3 +13281,54 @@ EOFError: EOF read where object expected
 [2024-05-30 07:58:59] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.60.tar.gz]
 [2024-05-30 07:58:59] INFO root fetch - main [MainThread]: End processing [anemone-daisy-maker]: success
 [2024-05-30 07:58:59] INFO root fetch - main [MainThread]: Store serial: [23443077]
+[2024-05-30 08:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443077]
+[2024-05-30 08:01:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cuda-mock
+[2024-05-30 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doptools
+[2024-05-30 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CI-CloudConnector
+[2024-05-30 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aps-toolkit
+[2024-05-30 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrestcountries
+[2024-05-30 08:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-115
+[2024-05-30 08:01:09] WARNING root fetch - processPackages [doptools]: Skipping, unable to determine old version
+[2024-05-30 08:01:09] INFO root fetch - main [MainThread]: End processing [doptools] error
+[2024-05-30 08:01:09] INFO root fetch - processPackages [pyrestcountries]: New version: [2024.5.30] Old Version: [2024.5.3]
+[2024-05-30 08:01:09] INFO root fetch - processPackages [CI-CloudConnector]: New version: [0.98] Old Version: [0.97]
+[2024-05-30 08:01:09] INFO root fetch - processPackages [aps-toolkit]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-05-30 08:01:09] INFO root fetch - processPackages [cuda-mock]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 08:01:09] INFO root fetch - processPackages [python-115]: New version: [0.0.8.7] Old Version: [0.0.8.6.1]
+[2024-05-30 08:01:09] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/d5/5a/754653474fccc8c51c28d09dac7e2e36e33e479eb27a663cb186d4e8db78/ci_cloudconnector-0.97.tar.gz
+[2024-05-30 08:01:09] INFO root fetch - processPackages [pyrestcountries]: Downloading https://files.pythonhosted.org/packages/49/62/f2d135e2dc641003899b3c0a13f75f8b493332ac31e2804f0d854ea21a8e/pyrestcountries-2024.5.3.tar.gz
+[2024-05-30 08:01:09] INFO root fetch - processPackages [cuda-mock]: Downloading https://files.pythonhosted.org/packages/e5/22/af7de8063a248b5cdf4575a0636e7656020f2184b93fb1d763e6e3d0f9fb/cuda-mock-0.1.8.tar.gz
+[2024-05-30 08:01:09] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/2b/5a/c953c5c32f72d31933e63bad33717c02f769e93436f5200c42c8abdf03f9/aps-toolkit-0.6.7.tar.gz
+[2024-05-30 08:01:09] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/66/64/075c91a3093d7fca88b24003e60f14721bc45528abb3b1b45ca91899de25/python_115-0.0.8.6.1.tar.gz
+[2024-05-30 08:01:09] INFO root fetch - processPackages [pyrestcountries]: Downloading https://files.pythonhosted.org/packages/82/61/41fb13018af799f17072155152c4b531e44371d2fb32e1e8176750821426/pyrestcountries-2024.5.30.tar.gz
+[2024-05-30 08:01:09] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/ea/23/32f56648d1107f4b06d0d28bf3f7accc875b4f94779c8319c6efb94928c4/ci_cloudconnector-0.98.tar.gz
+[2024-05-30 08:01:09] INFO root fetch - processPackages [pyrestcountries]: executing diffoscope
+[2024-05-30 08:01:09] INFO root fetch - processPackages [pyrestcountries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestcountries-2024.5.3.tar.gz tmp/pyrestcountries-2024.5.30.tar.gz --markdown 20240530/p/pyrestcountries/2024.5.3-2024.5.30/README.md --exclude *.pyd
+[2024-05-30 08:01:09] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-30 08:01:09] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-0.97.tar.gz tmp/ci_cloudconnector-0.98.tar.gz --markdown 20240530/C/CI-CloudConnector/0.97-0.98/README.md --exclude *.pyd
+[2024-05-30 08:01:10] INFO root fetch - processPackages [cuda-mock]: Downloading https://files.pythonhosted.org/packages/1c/55/09dd1d4c5aa837106dc5e67b09a610bde5beb25fd82119e54486edb4bb87/cuda-mock-0.1.9.tar.gz
+[2024-05-30 08:01:10] INFO root fetch - processPackages [aps-toolkit]: Downloading https://files.pythonhosted.org/packages/a1/95/898df0e6d8f912f743b9cfb3c1fce46c2cb0ab31fdf8ed7a338f55acfda7/aps-toolkit-0.6.8.tar.gz
+[2024-05-30 08:01:10] INFO root fetch - processPackages [cuda-mock]: executing diffoscope
+[2024-05-30 08:01:10] INFO root fetch - processPackages [cuda-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuda-mock-0.1.8.tar.gz tmp/cuda-mock-0.1.9.tar.gz --markdown 20240530/c/cuda-mock/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 08:01:10] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/41/8b/f43861a32606774ba66444f6a628508737b3f885437255fa39dbdf9bec97/python_115-0.0.8.7.tar.gz
+[2024-05-30 08:01:10] INFO root fetch - processPackages [aps-toolkit]: executing diffoscope
+[2024-05-30 08:01:10] INFO root fetch - processPackages [aps-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aps-toolkit-0.6.7.tar.gz tmp/aps-toolkit-0.6.8.tar.gz --markdown 20240530/a/aps-toolkit/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-05-30 08:01:10] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-05-30 08:01:10] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.8.6.1.tar.gz tmp/python_115-0.0.8.7.tar.gz --markdown 20240530/p/python-115/0.0.8.6.1-0.0.8.7/README.md --exclude *.pyd
+[2024-05-30 08:01:10] INFO root fetch - processPackages [pyrestcountries]: Remove: archive file [/home/abi/fetcher/tmp/pyrestcountries-2024.5.3.tar.gz]
+[2024-05-30 08:01:10] INFO root fetch - processPackages [pyrestcountries]: Remove: archive file [/home/abi/fetcher/tmp/pyrestcountries-2024.5.30.tar.gz]
+[2024-05-30 08:01:10] INFO root fetch - main [MainThread]: End processing [pyrestcountries]: success
+[2024-05-30 08:01:10] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.97.tar.gz]
+[2024-05-30 08:01:10] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.98.tar.gz]
+[2024-05-30 08:01:10] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-30 08:01:10] INFO root fetch - processPackages [cuda-mock]: Remove: archive file [/home/abi/fetcher/tmp/cuda-mock-0.1.8.tar.gz]
+[2024-05-30 08:01:10] INFO root fetch - processPackages [cuda-mock]: Remove: archive file [/home/abi/fetcher/tmp/cuda-mock-0.1.9.tar.gz]
+[2024-05-30 08:01:10] INFO root fetch - main [MainThread]: End processing [cuda-mock]: success
+[2024-05-30 08:01:11] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.6.7.tar.gz]
+[2024-05-30 08:01:11] INFO root fetch - processPackages [aps-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/aps-toolkit-0.6.8.tar.gz]
+[2024-05-30 08:01:11] INFO root fetch - main [MainThread]: End processing [aps-toolkit]: success
+[2024-05-30 08:01:11] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.6.1.tar.gz]
+[2024-05-30 08:01:11] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.7.tar.gz]
+[2024-05-30 08:01:11] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-05-30 08:01:11] INFO root fetch - main [MainThread]: Store serial: [23443110]
