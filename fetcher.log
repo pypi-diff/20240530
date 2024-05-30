@@ -18035,3 +18035,120 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:37:18] INFO root fetch - processPackages [agilerl]: Remove: archive file [/home/abi/fetcher/tmp/agilerl-0.1.9.tar.gz]
 [2024-05-30 10:37:18] INFO root fetch - main [MainThread]: End processing [agilerl]: success
 [2024-05-30 10:37:18] INFO root fetch - main [MainThread]: Store serial: [23445133]
+[2024-05-30 10:39:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23445133]
+[2024-05-30 10:39:28] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-30 10:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sweego
+[2024-05-30 10:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adapta
+[2024-05-30 10:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygdatax
+[2024-05-30 10:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Explicit
+[2024-05-30 10:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai-helpers-jax-utils
+[2024-05-30 10:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CI-CloudConnector
+[2024-05-30 10:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorflow-datasets
+[2024-05-30 10:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Geode-Simplex
+[2024-05-30 10:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: casq
+[2024-05-30 10:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kuzu
+[2024-05-30 10:39:29] INFO root fetch - processPackages [adapta]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-30 10:39:29] WARNING root fetch - processPackages [sweego]: Skipping, unable to determine old version
+[2024-05-30 10:39:29] INFO root fetch - processPackages [sweego]: Start processing: apify-client
+[2024-05-30 10:39:29] INFO root fetch - main [MainThread]: End processing [sweego] error
+[2024-05-30 10:39:29] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/33/1302d42b2f30e2a721e649391c266b8d25fef79e334f145fe1f59175016a/adapta-2.9.1.tar.gz
+[2024-05-30 10:39:29] INFO root fetch - processPackages [pygdatax]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-30 10:39:29] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.8.3rc1] Old Version: [4.8.2rc1]
+[2024-05-30 10:39:29] WARNING root fetch - processPackages [ai-helpers-jax-utils]: Skipping, unable to determine old version
+[2024-05-30 10:39:29] INFO root fetch - processPackages [ai-helpers-jax-utils]: Start processing: sentiment-analysis-model
+[2024-05-30 10:39:29] INFO root fetch - main [MainThread]: End processing [ai-helpers-jax-utils] error
+[2024-05-30 10:39:29] INFO root fetch - processPackages [casq]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-30 10:39:29] INFO root fetch - processPackages [tensorflow-datasets]: New version: [4.9.5] Old Version: [4.9.4]
+[2024-05-30 10:39:29] INFO root fetch - processPackages [CI-CloudConnector]: New version: [1.8] Old Version: [1.7]
+[2024-05-30 10:39:29] INFO root fetch - processPackages [sentiment-analysis-model]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 10:39:29] INFO root fetch - processPackages [apify-client]: New version: [1.7.1b5] Old Version: [1.7.1b4]
+[2024-05-30 10:39:29] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.8.2rc1] Old Version: [6.8.1rc1]
+[2024-05-30 10:39:29] INFO root fetch - processPackages [tensorflow-datasets]: Downloading https://files.pythonhosted.org/packages/64/db/931069d910795bd4011359ccbe19faf6fd58298a9a81195a1c19070c3bab/tensorflow-datasets-4.9.4.tar.gz
+[2024-05-30 10:39:29] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/a2/6c/f7b357087f9c716f7225a21e2d1790100ba9e96853fed52f981fef1b5625/apify_client-1.7.1b4.tar.gz
+[2024-05-30 10:39:29] INFO root fetch - processPackages [pygdatax]: Downloading https://files.pythonhosted.org/packages/ec/ff/46f648aa11839971238ad1dd110a1dac8cf281f8bce06b78b3b714df963e/pygdatax-0.2.8-py3-none-any.whl
+[2024-05-30 10:39:29] INFO root fetch - processPackages [kuzu]: New version: [0.4.3.dev9] Old Version: [0.4.3.dev8]
+[2024-05-30 10:39:29] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/03/35/0ccb37d9c5d9cbd0e9a933e5d0c53f08cc620d2aa482563113da2ea701fa/ci_cloudconnector-1.7.tar.gz
+[2024-05-30 10:39:29] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/c5/83/ae2ec154346e0b45b610fcf05151c1973fa55d625004fa5223b3979052df/Geode_Simplex-6.8.1rc1-cp39-cp39-win_amd64.whl
+[2024-05-30 10:39:29] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/09/ab/3ac6acece87f22f51973178a58c3adc4b2eef1456d65660ff3974d8c1e46/Geode_Explicit-4.8.2rc1-cp39-cp39-win_amd64.whl
+[2024-05-30 10:39:29] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/38/7b/c2e190b90d739aea14559d55ef402f1648abe251bc5e5eb13948fba8b345/adapta-2.9.2.tar.gz
+[2024-05-30 10:39:29] INFO root fetch - processPackages [sentiment-analysis-model]: Downloading https://files.pythonhosted.org/packages/c1/d1/181cb7730ecaf51b72c6d2e9e156cb12b4b260e22db5581cdc659ddbd7a8/sentiment_analysis_model-0.0.1.tar.gz
+[2024-05-30 10:39:29] INFO root fetch - processPackages [casq]: Downloading https://files.pythonhosted.org/packages/5e/11/488a1dbdd46626e22296358608e4cf96b65e3817eb0ed0b4b8b0cc474d93/casq-1.3.2-py3-none-any.whl
+[2024-05-30 10:39:29] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/8c/65/7162eaa21f2086d35586ac13298c2ee7127cec11827c394a1c4a3a08801e/kuzu-0.4.3.dev8.tar.gz
+[2024-05-30 10:39:29] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/3e/3f/984976dec9a99f477667d5d52ebff97915b2295b0ce504ab42e2ae6182a6/apify_client-1.7.1b5.tar.gz
+[2024-05-30 10:39:29] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2024-05-30 10:39:29] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.9.1.tar.gz tmp/adapta-2.9.2.tar.gz --markdown 20240530/a/adapta/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-30 10:39:29] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2024-05-30 10:39:29] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.7.1b4.tar.gz tmp/apify_client-1.7.1b5.tar.gz --markdown 20240530/a/apify-client/1.7.1b4-1.7.1b5/README.md --exclude *.pyd
+[2024-05-30 10:39:29] INFO root fetch - processPackages [pygdatax]: Downloading https://files.pythonhosted.org/packages/66/d6/47f494d3d87be682bbc77487078d0eca1018085291f62a08c8be80b76918/pygdatax-0.2.9-py3-none-any.whl
+[2024-05-30 10:39:29] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/4d/a9/95a04b5f34889a3bc817a1e7727cc93f8d37034cc06b9e76540e1ea0200a/ci_cloudconnector-1.8.tar.gz
+[2024-05-30 10:39:30] INFO root fetch - processPackages [casq]: Downloading https://files.pythonhosted.org/packages/0b/64/919b847e9e11f03d1eff736dd8d2e5271a0fd4a3c2460febc89a85593aff/casq-1.3.3.tar.gz
+[2024-05-30 10:39:30] INFO root fetch - processPackages [sentiment-analysis-model]: Downloading https://files.pythonhosted.org/packages/c7/ce/064a124371d6cf25f5e73933dc86961550a07fc32c9677853b91de226a12/sentiment_analysis_model-0.0.2.tar.gz
+[2024-05-30 10:39:30] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-30 10:39:30] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-1.7.tar.gz tmp/ci_cloudconnector-1.8.tar.gz --markdown 20240530/C/CI-CloudConnector/1.7-1.8/README.md --exclude *.pyd
+[2024-05-30 10:39:30] INFO root fetch - processPackages [pygdatax]: executing diffoscope
+[2024-05-30 10:39:30] INFO root fetch - processPackages [pygdatax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygdatax-0.2.8-py3-none-any.whl.zip tmp/pygdatax-0.2.9-py3-none-any.whl.zip --markdown 20240530/p/pygdatax/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-30 10:39:30] INFO root fetch - processPackages [tensorflow-datasets]: Downloading https://files.pythonhosted.org/packages/35/d6/f44c1bd77d7af827a1c53aba3daf286fb412c561f983067bcadbc3f904f8/tensorflow_datasets-4.9.5.tar.gz
+[2024-05-30 10:39:30] INFO root fetch - processPackages [sentiment-analysis-model]: executing diffoscope
+[2024-05-30 10:39:30] INFO root fetch - processPackages [sentiment-analysis-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analysis_model-0.0.1.tar.gz tmp/sentiment_analysis_model-0.0.2.tar.gz --markdown 20240530/s/sentiment-analysis-model/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 10:39:30] INFO root fetch - processPackages [casq]: executing diffoscope
+[2024-05-30 10:39:30] INFO root fetch - processPackages [casq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casq-1.3.2-py3-none-any.whl.zip tmp/casq-1.3.3.tar.gz --markdown 20240530/c/casq/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-30 10:39:30] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/df/58/55a184ddd23fb47a5a837c33035095e3fcffa62119ae3557cf8e8b4f7f0c/kuzu-0.4.3.dev9.tar.gz
+[2024-05-30 10:39:30] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/6a/82/470677aaf25c0fcad269aeac4b5403b408271e4e71e35cab7ee5edef4fac/Geode_Explicit-4.8.3rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-30 10:39:30] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/6f/af/be45ef9b69fede2928e5caaee2a9eb78ab092ff6baa81890104a42b4cec3/Geode_Simplex-6.8.2rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-30 10:39:30] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2024-05-30 10:39:30] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.8.2rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.8.3rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240530/G/Geode-Explicit/4.8.2rc1-4.8.3rc1/README.md --exclude *.pyd
+[2024-05-30 10:39:30] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-30 10:39:30] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.3.dev8.tar.gz tmp/kuzu-0.4.3.dev9.tar.gz --markdown 20240530/k/kuzu/0.4.3.dev8-0.4.3.dev9/README.md --exclude *.pyd
+[2024-05-30 10:39:30] INFO root fetch - processPackages [tensorflow-datasets]: executing diffoscope
+[2024-05-30 10:39:30] INFO root fetch - processPackages [tensorflow-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow-datasets-4.9.4.tar.gz tmp/tensorflow_datasets-4.9.5.tar.gz --markdown 20240530/t/tensorflow-datasets/4.9.4-4.9.5/README.md --exclude *.pyd
+[2024-05-30 10:39:30] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.7.tar.gz]
+[2024-05-30 10:39:30] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.8.tar.gz]
+[2024-05-30 10:39:30] INFO root fetch - processPackages [CI-CloudConnector]: Start processing: nuclia
+[2024-05-30 10:39:30] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-30 10:39:30] INFO root fetch - processPackages [nuclia]: New version: [2.1.0] Old Version: [2.0.9]
+[2024-05-30 10:39:30] INFO root fetch - processPackages [sentiment-analysis-model]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_model-0.0.1.tar.gz]
+[2024-05-30 10:39:30] INFO root fetch - processPackages [sentiment-analysis-model]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_model-0.0.2.tar.gz]
+[2024-05-30 10:39:30] INFO root fetch - processPackages [sentiment-analysis-model]: Start processing: rockai-cli-app
+[2024-05-30 10:39:30] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-model]: success
+[2024-05-30 10:39:30] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.1.tar.gz]
+[2024-05-30 10:39:30] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.2.tar.gz]
+[2024-05-30 10:39:30] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2024-05-30 10:39:30] INFO root fetch - processPackages [apify-client]: Remove: archive file [/home/abi/fetcher/tmp/apify_client-1.7.1b4.tar.gz]
+[2024-05-30 10:39:30] INFO root fetch - processPackages [apify-client]: Remove: archive file [/home/abi/fetcher/tmp/apify_client-1.7.1b5.tar.gz]
+[2024-05-30 10:39:31] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2024-05-30 10:39:31] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.6] Old Version: [0.2.4]
+[2024-05-30 10:39:31] INFO root fetch - processPackages [casq]: Remove: archive file [/home/abi/fetcher/tmp/casq-1.3.2-py3-none-any.whl.zip]
+[2024-05-30 10:39:31] INFO root fetch - processPackages [casq]: Remove: archive file [/home/abi/fetcher/tmp/casq-1.3.3.tar.gz]
+[2024-05-30 10:39:31] INFO root fetch - main [MainThread]: End processing [casq]: success
+[2024-05-30 10:39:31] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2024-05-30 10:39:31] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.8.1rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.8.2rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240530/G/Geode-Simplex/6.8.1rc1-6.8.2rc1/README.md --exclude *.pyd
+[2024-05-30 10:39:31] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/32/19/20d53d074ed347de4ba5e90737bef3336c55a3d495dd35a6c9d70e9bec31/rockai_cli_app-0.2.4.tar.gz
+[2024-05-30 10:39:31] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/78/f2/63b702f5412142ac1d7eebe86ca1852440a8d920473171ec10d9528e4b1b/nuclia-2.0.9.tar.gz
+[2024-05-30 10:39:31] INFO root fetch - processPackages [pygdatax]: Remove: archive file [/home/abi/fetcher/tmp/pygdatax-0.2.8-py3-none-any.whl.zip]
+[2024-05-30 10:39:31] INFO root fetch - processPackages [pygdatax]: Remove: archive file [/home/abi/fetcher/tmp/pygdatax-0.2.9-py3-none-any.whl.zip]
+[2024-05-30 10:39:31] INFO root fetch - main [MainThread]: End processing [pygdatax]: success
+[2024-05-30 10:39:31] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.8.2rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 10:39:31] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.8.3rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-30 10:39:31] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2024-05-30 10:39:31] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/71/00/9513944e006dcdd807adcf7d8be8357541b4c18e2a6d57175792fbc40ce7/rockai_cli_app-0.2.6.tar.gz
+[2024-05-30 10:39:31] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/0f/58/c070716d4c273e6a7bf00412553a0fc3a283bcb3f4f6ffc5d4448f3e07ba/nuclia-2.1.0.tar.gz
+[2024-05-30 10:39:31] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-30 10:39:31] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.4.tar.gz tmp/rockai_cli_app-0.2.6.tar.gz --markdown 20240530/r/rockai-cli-app/0.2.4-0.2.6/README.md --exclude *.pyd
+[2024-05-30 10:39:31] INFO root fetch - processPackages [nuclia]: executing diffoscope
+[2024-05-30 10:39:31] INFO root fetch - processPackages [nuclia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclia-2.0.9.tar.gz tmp/nuclia-2.1.0.tar.gz --markdown 20240530/n/nuclia/2.0.9-2.1.0/README.md --exclude *.pyd
+[2024-05-30 10:39:32] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.4.tar.gz]
+[2024-05-30 10:39:32] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.6.tar.gz]
+[2024-05-30 10:39:32] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-30 10:39:32] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.8.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 10:39:32] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.8.2rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-30 10:39:32] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2024-05-30 10:39:32] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-2.0.9.tar.gz]
+[2024-05-30 10:39:32] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-2.1.0.tar.gz]
+[2024-05-30 10:39:32] INFO root fetch - main [MainThread]: End processing [nuclia]: success
+[2024-05-30 10:39:37] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev8.tar.gz]
+[2024-05-30 10:39:37] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev9.tar.gz]
+[2024-05-30 10:39:37] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-30 10:39:46] INFO root fetch - processPackages [tensorflow-datasets]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-datasets-4.9.4.tar.gz]
+[2024-05-30 10:39:46] INFO root fetch - processPackages [tensorflow-datasets]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_datasets-4.9.5.tar.gz]
+[2024-05-30 10:39:46] INFO root fetch - main [MainThread]: End processing [tensorflow-datasets]: success
+[2024-05-30 10:39:46] INFO root fetch - main [MainThread]: Store serial: [23445212]
