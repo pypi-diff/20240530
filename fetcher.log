@@ -7701,3 +7701,204 @@ EOFError: EOF read where object expected
 [2024-05-30 03:36:06] INFO root fetch - processPackages [just-bin]: Remove: archive file [/home/abi/fetcher/tmp/just_bin-1.26.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.musllinux_1_1_aarch64.whl.zip]
 [2024-05-30 03:36:06] INFO root fetch - main [MainThread]: End processing [just-bin]: success
 [2024-05-30 03:36:06] INFO root fetch - main [MainThread]: Store serial: [23440445]
+[2024-05-30 03:38:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23440445]
+[2024-05-30 03:38:21] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2024-05-30 03:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore-a-la-carte-neptunedata
+[2024-05-30 03:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botocore-a-la-carte-codestar-connections
+[2024-05-30 03:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-energy
+[2024-05-30 03:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botocore-a-la-carte-ds
+[2024-05-30 03:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-microsoft-dataverse
+[2024-05-30 03:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myfunctions-farrukh90
+[2024-05-30 03:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botocore-a-la-carte-lexv2-runtime
+[2024-05-30 03:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: patcherex2
+[2024-05-30 03:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: acryl-datahub-airflow-plugin
+[2024-05-30 03:38:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: myfunctions-SashaKrav
+[2024-05-30 03:38:22] INFO root fetch - processPackages [myfunctions-farrukh90]: New version: [0.0.9] Old Version: [0.0.14]
+[2024-05-30 03:38:22] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-30 03:38:22] INFO root fetch - processPackages [myfunctions-SashaKrav]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-05-30 03:38:22] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2024-05-30 03:38:22] INFO root fetch - processPackages [myfunctions-farrukh90]: Downloading https://files.pythonhosted.org/packages/ea/0c/19e47217d3a5a2f7939260d44a7bbd9f5f0c8f0efc8ecd4b10bb686ef227/myfunctions_farrukh90-0.0.14.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: Downloading https://files.pythonhosted.org/packages/30/bf/49c2c8d161867562642b8d95cf4f242d367cbc21ceaddea593ca27e4d5b7/botocore-a-la-carte-neptunedata-1.34.98.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [airbyte-source-microsoft-dataverse]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-30 03:38:22] INFO root fetch - processPackages [patcherex2]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-30 03:38:22] INFO root fetch - processPackages [myfunctions-SashaKrav]: Downloading https://files.pythonhosted.org/packages/d8/bb/168a7347daaccaf6028e49401305728f460d9bdf4f73ee4561a269200d56/myfunctions_SashaKrav-0.0.12.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [botocore-a-la-carte-codestar-connections]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-30 03:38:22] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-30 03:38:22] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-runtime]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-30 03:38:22] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [botocore-a-la-carte-ds]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-30 03:38:22] INFO root fetch - processPackages [patcherex2]: Downloading https://files.pythonhosted.org/packages/22/70/329be7e8427d0e0e7a2021e92ccd4a97950f6d7a45f0d80c7a6bb4ed900b/patcherex2-0.1.9.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [airbyte-source-microsoft-dataverse]: Downloading https://files.pythonhosted.org/packages/ba/09/96b2d0b5a874dc7d609846bdbb8876fd2cf56038c4c14baacae63d979533/airbyte-source-microsoft-dataverse-0.1.2.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [myfunctions-farrukh90]: Downloading https://files.pythonhosted.org/packages/47/3e/aaa23d7c3167c19d154f516c8a45b6700a090b1b99e5c86105e0e5077033/myfunctions_farrukh90-0.0.9.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: Downloading https://files.pythonhosted.org/packages/d2/69/822392b66392169476beeb9bcf1fb10c0faba875f27d34f7838887f4b72c/botocore-a-la-carte-neptunedata-1.34.99.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [botocore-a-la-carte-codestar-connections]: Downloading https://files.pythonhosted.org/packages/9d/5b/af9c02f0f977469295e2ce09a6ef6f619994eca946e2223a7778a0fde63f/botocore-a-la-carte-codestar-connections-1.34.98.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-runtime]: Downloading https://files.pythonhosted.org/packages/57/41/79948c1ec705d4f12a0faecfb7c9bb348236f63050cd36f8273ce4390daa/botocore-a-la-carte-lexv2-runtime-1.34.98.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [botocore-a-la-carte-ds]: Downloading https://files.pythonhosted.org/packages/2e/b8/04f7708b732e2b569d774058d0c8bd88845e93f3e4cff532dc7f89f83d4b/botocore-a-la-carte-ds-1.34.98.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [myfunctions-SashaKrav]: Downloading https://files.pythonhosted.org/packages/50/1e/088717d342db032e7a7191bcc9c59d0569d08ebe5697336a3f3a1178544b/myfunctions_SashaKrav-0.0.13.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [myfunctions-farrukh90]: executing diffoscope
+[2024-05-30 03:38:22] INFO root fetch - processPackages [myfunctions-farrukh90]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_farrukh90-0.0.14.tar.gz tmp/myfunctions_farrukh90-0.0.9.tar.gz --markdown 20240530/m/myfunctions-farrukh90/0.0.14-0.0.9/README.md --exclude *.pyd
+[2024-05-30 03:38:22] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: executing diffoscope
+[2024-05-30 03:38:22] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-neptunedata-1.34.98.tar.gz tmp/botocore-a-la-carte-neptunedata-1.34.99.tar.gz --markdown 20240530/b/botocore-a-la-carte-neptunedata/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-30 03:38:22] INFO root fetch - processPackages [myfunctions-SashaKrav]: executing diffoscope
+[2024-05-30 03:38:22] INFO root fetch - processPackages [myfunctions-SashaKrav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_SashaKrav-0.0.12.tar.gz tmp/myfunctions_SashaKrav-0.0.13.tar.gz --markdown 20240530/m/myfunctions-SashaKrav/0.0.12-0.0.13/README.md --exclude *.pyd
+[2024-05-30 03:38:22] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2024-05-30 03:38:22] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20240530/h/honeybee-energy/1.99.8-1.99.9/README.md --exclude *.pyd
+[2024-05-30 03:38:22] INFO root fetch - processPackages [airbyte-source-microsoft-dataverse]: Downloading https://files.pythonhosted.org/packages/dd/0b/4bb452b96147c302369ae4bc5bdb1989119b42bd61a04df307e52407b17e/airbyte_source_microsoft_dataverse-0.1.3.tar.gz
+[2024-05-30 03:38:22] INFO root fetch - processPackages [patcherex2]: Downloading https://files.pythonhosted.org/packages/3d/73/0d5ceaf43e424cb13df4bf94aeaba1775d5c2cd3703f57b0481e1d95cc09/patcherex2-0.2.0.tar.gz
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-codestar-connections]: Downloading https://files.pythonhosted.org/packages/da/79/30924b83945a58e6e15958a2ae99f16b612609ad6a348865ce022d369e69/botocore-a-la-carte-codestar-connections-1.34.99.tar.gz
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-runtime]: Downloading https://files.pythonhosted.org/packages/03/93/19e6783dca4d9377d4e3e10228c2ee6e50a3a3151aeb4cd7006f2e394f5c/botocore-a-la-carte-lexv2-runtime-1.34.99.tar.gz
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-ds]: Downloading https://files.pythonhosted.org/packages/40/88/923d5d44c292972db1f12542d014faf598e6ed19fc3a7d2810fd03d6c76b/botocore-a-la-carte-ds-1.34.99.tar.gz
+[2024-05-30 03:38:23] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-05-30 03:38:23] INFO root fetch - processPackages [patcherex2]: executing diffoscope
+[2024-05-30 03:38:23] INFO root fetch - processPackages [patcherex2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patcherex2-0.1.9.tar.gz tmp/patcherex2-0.2.0.tar.gz --markdown 20240530/p/patcherex2/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-codestar-connections]: executing diffoscope
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-codestar-connections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-codestar-connections-1.34.98.tar.gz tmp/botocore-a-la-carte-codestar-connections-1.34.99.tar.gz --markdown 20240530/b/botocore-a-la-carte-codestar-connections/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-runtime]: executing diffoscope
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-lexv2-runtime-1.34.98.tar.gz tmp/botocore-a-la-carte-lexv2-runtime-1.34.99.tar.gz --markdown 20240530/b/botocore-a-la-carte-lexv2-runtime/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-30 03:38:23] INFO root fetch - processPackages [airbyte-source-microsoft-dataverse]: executing diffoscope
+[2024-05-30 03:38:23] INFO root fetch - processPackages [airbyte-source-microsoft-dataverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-microsoft-dataverse-0.1.2.tar.gz tmp/airbyte_source_microsoft_dataverse-0.1.3.tar.gz --markdown 20240530/a/airbyte-source-microsoft-dataverse/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-ds]: executing diffoscope
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-ds-1.34.98.tar.gz tmp/botocore-a-la-carte-ds-1.34.99.tar.gz --markdown 20240530/b/botocore-a-la-carte-ds/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-30 03:38:23] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-05-30 03:38:23] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240530/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-neptunedata-1.34.98.tar.gz]
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-neptunedata-1.34.99.tar.gz]
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-neptunedata]: Start processing: myfunctions-viksan17
+[2024-05-30 03:38:23] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-neptunedata]: success
+[2024-05-30 03:38:23] INFO root fetch - processPackages [myfunctions-farrukh90]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_farrukh90-0.0.14.tar.gz]
+[2024-05-30 03:38:23] INFO root fetch - processPackages [myfunctions-farrukh90]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_farrukh90-0.0.9.tar.gz]
+[2024-05-30 03:38:23] INFO root fetch - processPackages [myfunctions-farrukh90]: Start processing: myfunctions-aizhan010
+[2024-05-30 03:38:23] INFO root fetch - main [MainThread]: End processing [myfunctions-farrukh90]: success
+[2024-05-30 03:38:23] INFO root fetch - processPackages [myfunctions-viksan17]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-30 03:38:23] INFO root fetch - processPackages [myfunctions-SashaKrav]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_SashaKrav-0.0.12.tar.gz]
+[2024-05-30 03:38:23] INFO root fetch - processPackages [myfunctions-SashaKrav]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_SashaKrav-0.0.13.tar.gz]
+[2024-05-30 03:38:23] INFO root fetch - processPackages [myfunctions-SashaKrav]: Start processing: myfunctions-aziz200115
+[2024-05-30 03:38:23] INFO root fetch - main [MainThread]: End processing [myfunctions-SashaKrav]: success
+[2024-05-30 03:38:23] INFO root fetch - processPackages [myfunctions-aziz200115]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-30 03:38:23] INFO root fetch - processPackages [myfunctions-aizhan010]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-30 03:38:23] INFO root fetch - processPackages [myfunctions-viksan17]: Downloading https://files.pythonhosted.org/packages/aa/3a/652ae21783c4c875e86ad44cbb9d8146f127d4678bd71c580e792ba30af9/myfunctions_viksan17-0.0.5.tar.gz
+[2024-05-30 03:38:23] INFO root fetch - processPackages [myfunctions-aziz200115]: Downloading https://files.pythonhosted.org/packages/4e/f7/49ebb65c04841771f95953458de1d12918d33791d002c6e6d8f6ff4ff2f1/myfunctions_aziz200115-0.0.4.tar.gz
+[2024-05-30 03:38:23] INFO root fetch - processPackages [myfunctions-aizhan010]: Downloading https://files.pythonhosted.org/packages/63/bd/ff79523112eb6f0d4b268e21ead4bc89b5f00d4260398698c0b760c84b06/myfunctions_aizhan010-0.0.6.tar.gz
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-lexv2-runtime-1.34.98.tar.gz]
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-lexv2-runtime-1.34.99.tar.gz]
+[2024-05-30 03:38:23] INFO root fetch - processPackages [botocore-a-la-carte-lexv2-runtime]: Start processing: acryl-datahub
+[2024-05-30 03:38:24] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-lexv2-runtime]: success
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-aziz200115]: Downloading https://files.pythonhosted.org/packages/b1/50/47c76172770ac41f7ed7dd1b1f8e5a13fa012f3a7b83000aad5c76efa163/myfunctions_aziz200115-0.0.5.tar.gz
+[2024-05-30 03:38:24] INFO root fetch - processPackages [botocore-a-la-carte-ds]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-ds-1.34.98.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [botocore-a-la-carte-ds]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-ds-1.34.99.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [botocore-a-la-carte-ds]: Start processing: myfunctions-nadiaconeaev89
+[2024-05-30 03:38:24] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-ds]: success
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-viksan17]: Downloading https://files.pythonhosted.org/packages/50/40/17cf6fa1e065792802539fcf129b6ee884fb090a4f8f2b0988e05993a36f/myfunctions_viksan17-0.0.6.tar.gz
+[2024-05-30 03:38:24] INFO root fetch - processPackages [airbyte-source-microsoft-dataverse]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-microsoft-dataverse-0.1.2.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [airbyte-source-microsoft-dataverse]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_microsoft_dataverse-0.1.3.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [airbyte-source-microsoft-dataverse]: Start processing: fileformats
+[2024-05-30 03:38:24] INFO root fetch - main [MainThread]: End processing [airbyte-source-microsoft-dataverse]: success
+[2024-05-30 03:38:24] INFO root fetch - processPackages [botocore-a-la-carte-codestar-connections]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-codestar-connections-1.34.98.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [botocore-a-la-carte-codestar-connections]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-codestar-connections-1.34.99.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [botocore-a-la-carte-codestar-connections]: Start processing: myfunctions-EMIL8708
+[2024-05-30 03:38:24] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-codestar-connections]: success
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-aziz200115]: executing diffoscope
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-aziz200115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_aziz200115-0.0.4.tar.gz tmp/myfunctions_aziz200115-0.0.5.tar.gz --markdown 20240530/m/myfunctions-aziz200115/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-nadiaconeaev89]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-EMIL8708]: New version: [0.0.11] Old Version: [0.0.10]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-viksan17]: executing diffoscope
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-viksan17]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_viksan17-0.0.5.tar.gz tmp/myfunctions_viksan17-0.0.6.tar.gz --markdown 20240530/m/myfunctions-viksan17/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-aizhan010]: Downloading https://files.pythonhosted.org/packages/37/56/177a1599b585d6b59c7c5bc9e389bfefcebdbacd6e0fc6397d0f39d70649/myfunctions_aizhan010-0.0.7.tar.gz
+[2024-05-30 03:38:24] INFO root fetch - processPackages [fileformats]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-nadiaconeaev89]: Downloading https://files.pythonhosted.org/packages/25/c3/0aff2cfbbdc38e1bc12fa90eb0791d88e28aadbcb4df82681e6eefcda575/myfunctions_nadiaconeaev89-0.0.5.tar.gz
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-EMIL8708]: Downloading https://files.pythonhosted.org/packages/72/f9/f8faf4fa6c1eb38db49bf1aaa5407ccc1dbbbb3f001366dc5b2363555625/myfunctions_EMIL8708-0.0.10.tar.gz
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-aizhan010]: executing diffoscope
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-aizhan010]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_aizhan010-0.0.6.tar.gz tmp/myfunctions_aizhan010-0.0.7.tar.gz --markdown 20240530/m/myfunctions-aizhan010/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-30 03:38:24] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-nadiaconeaev89]: Downloading https://files.pythonhosted.org/packages/67/e2/2b62e13075602f0d1f34ddaae74c11a548f491bfb029695088c570f31bdc/myfunctions_nadiaconeaev89-0.0.6.tar.gz
+[2024-05-30 03:38:24] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [honeybee-energy]: Start processing: myfunctions-zulyakeldibaeva
+[2024-05-30 03:38:24] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2024-05-30 03:38:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Start processing: fileformats-extras
+[2024-05-30 03:38:24] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-05-30 03:38:24] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/1e/91/da64a4e2718841add2b1e050d7fcd8cc5aa3157865cc7e5450cb02533928/fileformats-0.9.4.tar.gz
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-zulyakeldibaeva]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [patcherex2]: Remove: archive file [/home/abi/fetcher/tmp/patcherex2-0.1.9.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [patcherex2]: Remove: archive file [/home/abi/fetcher/tmp/patcherex2-0.2.0.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [patcherex2]: Start processing: pyAgrum-nightly
+[2024-05-30 03:38:24] INFO root fetch - main [MainThread]: End processing [patcherex2]: success
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-nadiaconeaev89]: executing diffoscope
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-nadiaconeaev89]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_nadiaconeaev89-0.0.5.tar.gz tmp/myfunctions_nadiaconeaev89-0.0.6.tar.gz --markdown 20240530/m/myfunctions-nadiaconeaev89/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-zulyakeldibaeva]: Downloading https://files.pythonhosted.org/packages/20/9f/6072d0bbd8c5d86615af26b2008386aee1e870d57a291d4703ae9d46dc41/myfunctions_zulyakeldibaeva-0.0.3.tar.gz
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-EMIL8708]: Downloading https://files.pythonhosted.org/packages/07/67/2473eb0daf1764f56b77d5a410457a51183f1302ace62ec903fc6453d41b/myfunctions_EMIL8708-0.0.11.tar.gz
+[2024-05-30 03:38:24] INFO root fetch - processPackages [fileformats-extras]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-viksan17]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_viksan17-0.0.5.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-viksan17]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_viksan17-0.0.6.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-viksan17]: Start processing: cgai-io
+[2024-05-30 03:38:24] INFO root fetch - main [MainThread]: End processing [myfunctions-viksan17]: success
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-EMIL8708]: executing diffoscope
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-EMIL8708]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_EMIL8708-0.0.10.tar.gz tmp/myfunctions_EMIL8708-0.0.11.tar.gz --markdown 20240530/m/myfunctions-EMIL8708/0.0.10-0.0.11/README.md --exclude *.pyd
+[2024-05-30 03:38:24] INFO root fetch - processPackages [fileformats-extras]: Downloading https://files.pythonhosted.org/packages/a4/61/34cb334d24672a380a5a458d9ed5a22356c56f20a5a5d291cb21956f39d4/fileformats_extras-0.2.2.tar.gz
+[2024-05-30 03:38:24] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/9f/7c/2c272d3e4261be79744584640a7d371b26db444b9a4b297e4b388e5c33bf/fileformats-0.9.5.tar.gz
+[2024-05-30 03:38:24] INFO root fetch - processPackages [cgai-io]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-zulyakeldibaeva]: Downloading https://files.pythonhosted.org/packages/c7/71/d699acf871430eb464a355ccf738145234252f8085ca26894a1ec52eda99/myfunctions_zulyakeldibaeva-0.0.4.tar.gz
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-aziz200115]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_aziz200115-0.0.4.tar.gz]
+[2024-05-30 03:38:24] INFO root fetch - processPackages [myfunctions-aziz200115]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_aziz200115-0.0.5.tar.gz]
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-aziz200115]: Start processing: myfunctions-echervenko
+[2024-05-30 03:38:25] INFO root fetch - main [MainThread]: End processing [myfunctions-aziz200115]: success
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-echervenko]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-30 03:38:25] INFO root fetch - processPackages [fileformats]: executing diffoscope
+[2024-05-30 03:38:25] INFO root fetch - processPackages [fileformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats-0.9.4.tar.gz tmp/fileformats-0.9.5.tar.gz --markdown 20240530/f/fileformats/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-aizhan010]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_aizhan010-0.0.6.tar.gz]
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-aizhan010]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_aizhan010-0.0.7.tar.gz]
+[2024-05-30 03:38:25] INFO root fetch - main [MainThread]: End processing [myfunctions-aizhan010]: success
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-zulyakeldibaeva]: executing diffoscope
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-zulyakeldibaeva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_zulyakeldibaeva-0.0.3.tar.gz tmp/myfunctions_zulyakeldibaeva-0.0.4.tar.gz --markdown 20240530/m/myfunctions-zulyakeldibaeva/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-echervenko]: Downloading https://files.pythonhosted.org/packages/87/8d/0bc6be88f3775e985e46c55f4e4f7827deb5586d5f1780e0c5ecb68cddee/myfunctions_echervenko-0.0.4.tar.gz
+[2024-05-30 03:38:25] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-05-30 03:38:25] INFO root fetch - processPackages [cgai-io]: Downloading https://files.pythonhosted.org/packages/ed/2b/6cfe82c007b2872f6cbef2ada60b05e7114f65a9ea9ddcb9ef1d024029a2/cgai_io-1.1.8.tar.gz
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-nadiaconeaev89]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_nadiaconeaev89-0.0.5.tar.gz]
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-nadiaconeaev89]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_nadiaconeaev89-0.0.6.tar.gz]
+[2024-05-30 03:38:25] INFO root fetch - main [MainThread]: End processing [myfunctions-nadiaconeaev89]: success
+[2024-05-30 03:38:25] INFO root fetch - processPackages [fileformats-extras]: Downloading https://files.pythonhosted.org/packages/70/6c/a75aa2133ba4bfc8e037f8c45b0eacc379c93faefa7b9d1ece01800426fc/fileformats_extras-0.2.3.tar.gz
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-EMIL8708]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_EMIL8708-0.0.10.tar.gz]
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-EMIL8708]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_EMIL8708-0.0.11.tar.gz]
+[2024-05-30 03:38:25] INFO root fetch - main [MainThread]: End processing [myfunctions-EMIL8708]: success
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-echervenko]: Downloading https://files.pythonhosted.org/packages/03/33/62429672e4d3a6835d42f0407946149212b05e49ad6f2609d7a5418b77ac/myfunctions_echervenko-0.0.5.tar.gz
+[2024-05-30 03:38:25] INFO root fetch - processPackages [cgai-io]: Downloading https://files.pythonhosted.org/packages/51/35/4547d5b0277c28965f3bf01c160dd4d37e6ef05e4a5955ff2534a25831c4/cgai_io-1.1.9.tar.gz
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-echervenko]: executing diffoscope
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-echervenko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_echervenko-0.0.4.tar.gz tmp/myfunctions_echervenko-0.0.5.tar.gz --markdown 20240530/m/myfunctions-echervenko/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-30 03:38:25] INFO root fetch - processPackages [cgai-io]: executing diffoscope
+[2024-05-30 03:38:25] INFO root fetch - processPackages [cgai-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgai_io-1.1.8.tar.gz tmp/cgai_io-1.1.9.tar.gz --markdown 20240530/c/cgai-io/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-30 03:38:25] INFO root fetch - processPackages [fileformats-extras]: executing diffoscope
+[2024-05-30 03:38:25] INFO root fetch - processPackages [fileformats-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_extras-0.2.2.tar.gz tmp/fileformats_extras-0.2.3.tar.gz --markdown 20240530/f/fileformats-extras/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-zulyakeldibaeva]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_zulyakeldibaeva-0.0.3.tar.gz]
+[2024-05-30 03:38:25] INFO root fetch - processPackages [myfunctions-zulyakeldibaeva]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_zulyakeldibaeva-0.0.4.tar.gz]
+[2024-05-30 03:38:25] INFO root fetch - main [MainThread]: End processing [myfunctions-zulyakeldibaeva]: success
+[2024-05-30 03:38:25] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.9.4.tar.gz]
+[2024-05-30 03:38:25] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.9.5.tar.gz]
+[2024-05-30 03:38:25] INFO root fetch - main [MainThread]: End processing [fileformats]: success
+[2024-05-30 03:38:25] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-05-30 03:38:26] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-05-30 03:38:26] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240530/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-30 03:38:26] INFO root fetch - processPackages [myfunctions-echervenko]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_echervenko-0.0.4.tar.gz]
+[2024-05-30 03:38:26] INFO root fetch - processPackages [myfunctions-echervenko]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_echervenko-0.0.5.tar.gz]
+[2024-05-30 03:38:26] INFO root fetch - main [MainThread]: End processing [myfunctions-echervenko]: success
+[2024-05-30 03:38:26] INFO root fetch - processPackages [cgai-io]: Remove: archive file [/home/abi/fetcher/tmp/cgai_io-1.1.8.tar.gz]
+[2024-05-30 03:38:26] INFO root fetch - processPackages [cgai-io]: Remove: archive file [/home/abi/fetcher/tmp/cgai_io-1.1.9.tar.gz]
+[2024-05-30 03:38:26] INFO root fetch - main [MainThread]: End processing [cgai-io]: success
+[2024-05-30 03:38:26] INFO root fetch - processPackages [fileformats-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_extras-0.2.2.tar.gz]
+[2024-05-30 03:38:26] INFO root fetch - processPackages [fileformats-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_extras-0.2.3.tar.gz]
+[2024-05-30 03:38:26] INFO root fetch - main [MainThread]: End processing [fileformats-extras]: success
+[2024-05-30 03:38:26] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-30 03:38:27] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-30 03:38:27] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-30 03:38:27] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-30 03:38:27] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240530/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-30 03:38:28] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-05-30 03:38:28] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-05-30 03:38:28] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-05-30 03:38:28] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 03:38:28] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 03:38:28] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-30 03:38:28] INFO root fetch - main [MainThread]: Store serial: [23440583]
