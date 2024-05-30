@@ -16708,3 +16708,66 @@ EOFError: EOF read where object expected
 [2024-05-30 09:54:16] INFO root fetch - processPackages [gurux-dlms]: Remove: archive file [/home/abi/fetcher/tmp/gurux_dlms-1.0.99.tar.gz]
 [2024-05-30 09:54:16] INFO root fetch - main [MainThread]: End processing [gurux-dlms]: success
 [2024-05-30 09:54:16] INFO root fetch - main [MainThread]: Store serial: [23444480]
+[2024-05-30 09:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444480]
+[2024-05-30 09:56:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 09:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bimdata-api-client
+[2024-05-30 09:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anitya
+[2024-05-30 09:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmdbapi
+[2024-05-30 09:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autopipeline
+[2024-05-30 09:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sunholo
+[2024-05-30 09:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycaption
+[2024-05-30 09:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: injector-collections
+[2024-05-30 09:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: suiutils-plus-py
+[2024-05-30 09:56:25] WARNING root fetch - processPackages [cmdbapi]: Skipping, unable to determine old version
+[2024-05-30 09:56:25] INFO root fetch - main [MainThread]: End processing [cmdbapi] error
+[2024-05-30 09:56:25] INFO root fetch - processPackages [injector-collections]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 09:56:25] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-30 09:56:25] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/ad/7c/b29e15bfd7e43c2c147c7a9c69d222f6a873c3604453608dcd107523c5d8/injector_collections-0.0.8.tar.gz
+[2024-05-30 09:56:25] WARNING root fetch - processPackages [suiutils-plus-py]: Skipping, unable to determine old version
+[2024-05-30 09:56:25] INFO root fetch - main [MainThread]: End processing [suiutils-plus-py] error
+[2024-05-30 09:56:25] INFO root fetch - processPackages [anitya]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-30 09:56:25] INFO root fetch - processPackages [pycaption]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-30 09:56:25] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-30 09:56:25] INFO root fetch - processPackages [bimdata-api-client]: New version: [9.9.0] Old Version: [9.8.1]
+[2024-05-30 09:56:25] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-30 09:56:25] INFO root fetch - processPackages [anitya]: Downloading https://files.pythonhosted.org/packages/a8/7a/b7a58d9be0ccd355fc66544f35aefa0aad9472fda6f58267cfb69fc48059/anitya-1.8.1.tar.gz
+[2024-05-30 09:56:25] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/1e/fb/9164c6324cc31bc47dff9f9f7d19bdbb6fa2ada63e8442d3bd3364a24bf2/injector_collections-0.0.9.tar.gz
+[2024-05-30 09:56:25] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/2f/7a/025bd38858b44925fac4abf2105445c93da1a5221e526c5a3f6388951530/bimdata-api-client-9.8.1.tar.gz
+[2024-05-30 09:56:25] INFO root fetch - processPackages [pycaption]: Downloading https://files.pythonhosted.org/packages/c2/df/d8f74b7054e8c92981e7e6a4d3fb8dbac3019167122c8119bf9ee58b1d22/pycaption-2.2.8.tar.gz
+[2024-05-30 09:56:25] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-30 09:56:25] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-30 09:56:25] INFO root fetch - processPackages [injector-collections]: executing diffoscope
+[2024-05-30 09:56:25] INFO root fetch - processPackages [injector-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injector_collections-0.0.8.tar.gz tmp/injector_collections-0.0.9.tar.gz --markdown 20240530/i/injector-collections/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 09:56:25] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-30 09:56:25] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240530/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-30 09:56:25] INFO root fetch - processPackages [pycaption]: Downloading https://files.pythonhosted.org/packages/37/4f/ff126d3dac7277c83ccd127a3608fa651641ee2289ebb84f0625d5c4497d/pycaption-2.2.9.tar.gz
+[2024-05-30 09:56:25] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/04/d6/f16eeffb47cb62e83c3459330ab4b2f40e6502e16df942ccd8185cf05998/bimdata-api-client-9.9.0.tar.gz
+[2024-05-30 09:56:25] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-30 09:56:26] INFO root fetch - processPackages [pycaption]: executing diffoscope
+[2024-05-30 09:56:26] INFO root fetch - processPackages [pycaption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycaption-2.2.8.tar.gz tmp/pycaption-2.2.9.tar.gz --markdown 20240530/p/pycaption/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-30 09:56:26] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-30 09:56:26] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240530/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-30 09:56:26] INFO root fetch - processPackages [bimdata-api-client]: executing diffoscope
+[2024-05-30 09:56:26] INFO root fetch - processPackages [bimdata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimdata-api-client-9.8.1.tar.gz tmp/bimdata-api-client-9.9.0.tar.gz --markdown 20240530/b/bimdata-api-client/9.8.1-9.9.0/README.md --exclude *.pyd
+[2024-05-30 09:56:26] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.8.tar.gz]
+[2024-05-30 09:56:26] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.9.tar.gz]
+[2024-05-30 09:56:26] INFO root fetch - main [MainThread]: End processing [injector-collections]: success
+[2024-05-30 09:56:26] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-30 09:56:26] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-30 09:56:26] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-30 09:56:26] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-30 09:56:26] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-30 09:56:26] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-30 09:56:26] INFO root fetch - processPackages [pycaption]: Remove: archive file [/home/abi/fetcher/tmp/pycaption-2.2.8.tar.gz]
+[2024-05-30 09:56:26] INFO root fetch - processPackages [pycaption]: Remove: archive file [/home/abi/fetcher/tmp/pycaption-2.2.9.tar.gz]
+[2024-05-30 09:56:26] INFO root fetch - main [MainThread]: End processing [pycaption]: success
+[2024-05-30 09:56:28] INFO root fetch - processPackages [bimdata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bimdata-api-client-9.8.1.tar.gz]
+[2024-05-30 09:56:28] INFO root fetch - processPackages [bimdata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bimdata-api-client-9.9.0.tar.gz]
+[2024-05-30 09:56:28] INFO root fetch - main [MainThread]: End processing [bimdata-api-client]: success
+[2024-05-30 09:56:29] INFO root fetch - processPackages [anitya]: Downloading https://files.pythonhosted.org/packages/65/07/83744d535a4a480327e304dbd6433caf9f8144dfa30d7943a4259e038848/anitya-1.9.0.tar.gz
+[2024-05-30 09:56:29] INFO root fetch - processPackages [anitya]: executing diffoscope
+[2024-05-30 09:56:29] INFO root fetch - processPackages [anitya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anitya-1.8.1.tar.gz tmp/anitya-1.9.0.tar.gz --markdown 20240530/a/anitya/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-30 09:56:32] INFO root fetch - processPackages [anitya]: Remove: archive file [/home/abi/fetcher/tmp/anitya-1.8.1.tar.gz]
+[2024-05-30 09:56:32] INFO root fetch - processPackages [anitya]: Remove: archive file [/home/abi/fetcher/tmp/anitya-1.9.0.tar.gz]
+[2024-05-30 09:56:32] INFO root fetch - main [MainThread]: End processing [anitya]: success
+[2024-05-30 09:56:32] INFO root fetch - main [MainThread]: Store serial: [23444505]
