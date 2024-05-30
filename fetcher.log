@@ -9726,3 +9726,15 @@ EOFError: EOF read where object expected
 [2024-05-30 05:22:52] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
 [2024-05-30 05:22:52] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-05-30 05:22:52] INFO root fetch - main [MainThread]: Store serial: [23441660]
+[2024-05-30 05:24:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441660]
+[2024-05-30 05:25:03] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 05:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mutt-html-reply
+[2024-05-30 05:25:03] INFO root fetch - processPackages [mutt-html-reply]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-30 05:25:03] INFO root fetch - processPackages [mutt-html-reply]: Downloading https://files.pythonhosted.org/packages/56/98/261c8499dd37662e782e5cfb373e8803f4721ddd44fcf5ea4abc4ee7b233/mutt_html_reply-0.2.0.tar.gz
+[2024-05-30 05:25:04] INFO root fetch - processPackages [mutt-html-reply]: Downloading https://files.pythonhosted.org/packages/3a/f1/dfb5b1dcddac457c122567f48025c7bb3b0ced93597fe00422fadb23dcbc/mutt_html_reply-0.3.0.tar.gz
+[2024-05-30 05:25:04] INFO root fetch - processPackages [mutt-html-reply]: executing diffoscope
+[2024-05-30 05:25:04] INFO root fetch - processPackages [mutt-html-reply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutt_html_reply-0.2.0.tar.gz tmp/mutt_html_reply-0.3.0.tar.gz --markdown 20240530/m/mutt-html-reply/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-30 05:25:04] INFO root fetch - processPackages [mutt-html-reply]: Remove: archive file [/home/abi/fetcher/tmp/mutt_html_reply-0.2.0.tar.gz]
+[2024-05-30 05:25:04] INFO root fetch - processPackages [mutt-html-reply]: Remove: archive file [/home/abi/fetcher/tmp/mutt_html_reply-0.3.0.tar.gz]
+[2024-05-30 05:25:04] INFO root fetch - main [MainThread]: End processing [mutt-html-reply]: success
+[2024-05-30 05:25:04] INFO root fetch - main [MainThread]: Store serial: [23441664]
