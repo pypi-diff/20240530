@@ -10756,3 +10756,60 @@ EOFError: EOF read where object expected
 [2024-05-30 06:08:54] INFO root fetch - processPackages [beets]: Remove: archive file [/home/abi/fetcher/tmp/beets-1.6.1.tar.gz]
 [2024-05-30 06:08:54] INFO root fetch - main [MainThread]: End processing [beets]: success
 [2024-05-30 06:08:54] INFO root fetch - main [MainThread]: Store serial: [23441989]
+[2024-05-30 06:10:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441989]
+[2024-05-30 06:11:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 06:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqlogic
+[2024-05-30 06:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastcore
+[2024-05-30 06:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molecular-interaction-rules
+[2024-05-30 06:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openwebmath-text-extract
+[2024-05-30 06:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-moreshell
+[2024-05-30 06:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyQuantKit
+[2024-05-30 06:11:04] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.5.91] Old Version: [0.5.9]
+[2024-05-30 06:11:04] INFO root fetch - processPackages [openwebmath-text-extract]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 06:11:04] INFO root fetch - processPackages [seqlogic]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-30 06:11:04] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/5e/0f/d1e091da1fceb9c8dcf7423f4bc4c99e8757179d63a1c10cdbd3ffede176/molecular_interaction_rules-0.5.9.tar.gz
+[2024-05-30 06:11:04] INFO root fetch - processPackages [seqlogic]: Downloading https://files.pythonhosted.org/packages/91/97/76864f61162900c31b5832186c5c8771ea9821433bc824e0f0c0f7363bb7/seqlogic-0.3.0.tar.gz
+[2024-05-30 06:11:04] INFO root fetch - processPackages [flask-moreshell]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-30 06:11:04] INFO root fetch - processPackages [fastcore]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-30 06:11:04] INFO root fetch - processPackages [PyQuantKit]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-30 06:11:04] INFO root fetch - processPackages [openwebmath-text-extract]: Downloading https://files.pythonhosted.org/packages/52/73/f0cd4100e14a6c7650419067ed9416ff5f670f3fded4526a35f638356411/openwebmath_text_extract-0.1.0.tar.gz
+[2024-05-30 06:11:04] INFO root fetch - processPackages [seqlogic]: Downloading https://files.pythonhosted.org/packages/4e/7d/9e085909b6c19066dfa4109241f55790510fb9e34381033704741bf40312/seqlogic-0.4.0.tar.gz
+[2024-05-30 06:11:04] INFO root fetch - processPackages [flask-moreshell]: Downloading https://files.pythonhosted.org/packages/7f/bc/17297f6e97377119d66c3fdf736d9d99d6a3d013b7f98b9f467346446ee1/flask_moreshell-0.1.4.tar.gz
+[2024-05-30 06:11:05] INFO root fetch - processPackages [fastcore]: Downloading https://files.pythonhosted.org/packages/bd/a7/11687db0e0993cf3f28cbe4f087decfde90959b1ede6fa37acbf83c875d8/fastcore-1.5.8.tar.gz
+[2024-05-30 06:11:05] INFO root fetch - processPackages [PyQuantKit]: Downloading https://files.pythonhosted.org/packages/99/3a/b20252c475627fc96cd8af7c6444e959a7899e81bb3ff1be3db52976ac2e/pyquantkit-0.3.0.tar.gz
+[2024-05-30 06:11:05] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/a7/33/8edc7cdb3f88cb3d2a812a6e8f359b0da472bec134d2f6d2dd1fa2ff0d39/molecular_interaction_rules-0.5.91.tar.gz
+[2024-05-30 06:11:05] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 06:11:05] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.9.tar.gz tmp/molecular_interaction_rules-0.5.91.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5.9-0.5.91/README.md --exclude *.pyd
+[2024-05-30 06:11:05] INFO root fetch - processPackages [seqlogic]: executing diffoscope
+[2024-05-30 06:11:05] INFO root fetch - processPackages [seqlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqlogic-0.3.0.tar.gz tmp/seqlogic-0.4.0.tar.gz --markdown 20240530/s/seqlogic/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-30 06:11:05] INFO root fetch - processPackages [openwebmath-text-extract]: Downloading https://files.pythonhosted.org/packages/0d/29/d724ec6b483808df8d162a3f44ca2a00545f20d26baf9a6ef29acbb94449/openwebmath_text_extract-0.1.1.tar.gz
+[2024-05-30 06:11:05] INFO root fetch - processPackages [openwebmath-text-extract]: executing diffoscope
+[2024-05-30 06:11:05] INFO root fetch - processPackages [openwebmath-text-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openwebmath_text_extract-0.1.0.tar.gz tmp/openwebmath_text_extract-0.1.1.tar.gz --markdown 20240530/o/openwebmath-text-extract/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 06:11:05] INFO root fetch - processPackages [flask-moreshell]: Downloading https://files.pythonhosted.org/packages/64/a8/90ee7e1549af7b5cda04648b9fc2eed71317403efe233fbdb0a7b1672eff/flask_moreshell-0.1.5.tar.gz
+[2024-05-30 06:11:05] INFO root fetch - processPackages [fastcore]: Downloading https://files.pythonhosted.org/packages/e7/ca/756f70aa0a53475a198acbda3b9edb61b363c4b51ece542b7a7e3d890bcd/fastcore-1.5.9.tar.gz
+[2024-05-30 06:11:05] INFO root fetch - processPackages [PyQuantKit]: Downloading https://files.pythonhosted.org/packages/8c/8f/318230b2eaa5bd8808c2e5a822b7a9748a6ad180c39dbd721130b089983d/pyquantkit-0.3.1.tar.gz
+[2024-05-30 06:11:05] INFO root fetch - processPackages [fastcore]: executing diffoscope
+[2024-05-30 06:11:05] INFO root fetch - processPackages [fastcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcore-1.5.8.tar.gz tmp/fastcore-1.5.9.tar.gz --markdown 20240530/f/fastcore/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-30 06:11:05] INFO root fetch - processPackages [flask-moreshell]: executing diffoscope
+[2024-05-30 06:11:05] INFO root fetch - processPackages [flask-moreshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_moreshell-0.1.4.tar.gz tmp/flask_moreshell-0.1.5.tar.gz --markdown 20240530/f/flask-moreshell/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-30 06:11:05] INFO root fetch - processPackages [PyQuantKit]: executing diffoscope
+[2024-05-30 06:11:05] INFO root fetch - processPackages [PyQuantKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquantkit-0.3.0.tar.gz tmp/pyquantkit-0.3.1.tar.gz --markdown 20240530/P/PyQuantKit/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-30 06:11:05] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.9.tar.gz]
+[2024-05-30 06:11:05] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.91.tar.gz]
+[2024-05-30 06:11:05] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 06:11:05] INFO root fetch - processPackages [seqlogic]: Remove: archive file [/home/abi/fetcher/tmp/seqlogic-0.3.0.tar.gz]
+[2024-05-30 06:11:05] INFO root fetch - processPackages [seqlogic]: Remove: archive file [/home/abi/fetcher/tmp/seqlogic-0.4.0.tar.gz]
+[2024-05-30 06:11:05] INFO root fetch - main [MainThread]: End processing [seqlogic]: success
+[2024-05-30 06:11:06] INFO root fetch - processPackages [openwebmath-text-extract]: Remove: archive file [/home/abi/fetcher/tmp/openwebmath_text_extract-0.1.0.tar.gz]
+[2024-05-30 06:11:06] INFO root fetch - processPackages [openwebmath-text-extract]: Remove: archive file [/home/abi/fetcher/tmp/openwebmath_text_extract-0.1.1.tar.gz]
+[2024-05-30 06:11:06] INFO root fetch - main [MainThread]: End processing [openwebmath-text-extract]: success
+[2024-05-30 06:11:06] INFO root fetch - processPackages [fastcore]: Remove: archive file [/home/abi/fetcher/tmp/fastcore-1.5.8.tar.gz]
+[2024-05-30 06:11:06] INFO root fetch - processPackages [fastcore]: Remove: archive file [/home/abi/fetcher/tmp/fastcore-1.5.9.tar.gz]
+[2024-05-30 06:11:06] INFO root fetch - main [MainThread]: End processing [fastcore]: success
+[2024-05-30 06:11:06] INFO root fetch - processPackages [flask-moreshell]: Remove: archive file [/home/abi/fetcher/tmp/flask_moreshell-0.1.4.tar.gz]
+[2024-05-30 06:11:06] INFO root fetch - processPackages [flask-moreshell]: Remove: archive file [/home/abi/fetcher/tmp/flask_moreshell-0.1.5.tar.gz]
+[2024-05-30 06:11:06] INFO root fetch - main [MainThread]: End processing [flask-moreshell]: success
+[2024-05-30 06:11:06] INFO root fetch - processPackages [PyQuantKit]: Remove: archive file [/home/abi/fetcher/tmp/pyquantkit-0.3.0.tar.gz]
+[2024-05-30 06:11:06] INFO root fetch - processPackages [PyQuantKit]: Remove: archive file [/home/abi/fetcher/tmp/pyquantkit-0.3.1.tar.gz]
+[2024-05-30 06:11:06] INFO root fetch - main [MainThread]: End processing [PyQuantKit]: success
+[2024-05-30 06:11:06] INFO root fetch - main [MainThread]: Store serial: [23442005]
