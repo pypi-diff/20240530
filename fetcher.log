@@ -2896,3 +2896,59 @@ EOFError: EOF read where object expected
 [2024-05-30 02:52:49] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-30 02:52:49] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-30 02:52:49] INFO root fetch - main [MainThread]: Store serial: [23439079]
+[2024-05-30 02:54:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439079]
+[2024-05-30 02:54:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 02:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mailbit
+[2024-05-30 02:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mnfinder
+[2024-05-30 02:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-mailerlite
+[2024-05-30 02:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-emrserverless-with-delta-lake
+[2024-05-30 02:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gget
+[2024-05-30 02:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-custom-outputs
+[2024-05-30 02:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: maestro-compose
+[2024-05-30 02:54:58] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-30 02:54:58] WARNING root fetch - processPackages [mailbit]: Skipping, unable to determine old version
+[2024-05-30 02:54:58] INFO root fetch - main [MainThread]: End processing [mailbit] error
+[2024-05-30 02:54:58] INFO root fetch - processPackages [airbyte-source-mailerlite]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-30 02:54:58] INFO root fetch - processPackages [pytest-custom-outputs]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 02:54:58] INFO root fetch - processPackages [mnfinder]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-30 02:54:58] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2024-05-30 02:54:58] INFO root fetch - processPackages [maestro-compose]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 02:54:58] INFO root fetch - processPackages [gget]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-30 02:54:58] INFO root fetch - processPackages [pytest-custom-outputs]: Downloading https://files.pythonhosted.org/packages/43/a5/e679c9889c2e90e81971cbddc5f4fbbab472a08a52a1bfdf1640a134d1bc/pytest_custom_outputs-0.1.0.tar.gz
+[2024-05-30 02:54:58] INFO root fetch - processPackages [airbyte-source-mailerlite]: Downloading https://files.pythonhosted.org/packages/73/95/fa51035a32ca0de95f171917ebbb3f509dfe8eaf9aa5023950f33a64b96b/airbyte_source_mailerlite-1.0.0.tar.gz
+[2024-05-30 02:54:58] INFO root fetch - processPackages [mnfinder]: Downloading https://files.pythonhosted.org/packages/0b/5a/e46feef4f381064326cbde562a7442adaa9eb9d7a4fff2c223ec6bc0239d/mnfinder-1.2.0.tar.gz
+[2024-05-30 02:54:58] INFO root fetch - processPackages [maestro-compose]: Downloading https://files.pythonhosted.org/packages/ff/82/9c2d2868fdf7cac9871fe5f958c18f09261a8989f6a2d70d386e317d8010/maestro_compose-0.1.8.tar.gz
+[2024-05-30 02:54:58] INFO root fetch - processPackages [gget]: Downloading https://files.pythonhosted.org/packages/bf/1f/5ecf11ee514682f8a29fc1d67c8e16dc252eec18d4b39fc24d337ed7afb9/gget-0.3.8.tar.gz
+[2024-05-30 02:54:58] WARNING root fetch - processPackages [mnfinder]: Skipping package: exceeds size limit 69598828>=10485760
+[2024-05-30 02:54:58] INFO root fetch - main [MainThread]: End processing [mnfinder] error
+[2024-05-30 02:54:59] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2024-05-30 02:54:59] INFO root fetch - processPackages [pytest-custom-outputs]: Downloading https://files.pythonhosted.org/packages/e1/a6/c53cad4fd8ffed0b10e8e5d5d6ba43e71b5ea131a867ba81492b7360cfe4/pytest_custom_outputs-0.1.1.tar.gz
+[2024-05-30 02:54:59] INFO root fetch - processPackages [airbyte-source-mailerlite]: Downloading https://files.pythonhosted.org/packages/e8/b6/1e427f2d0cf6198800d4d52d1a28be80c99defd6358fc09f88710d2e235f/airbyte_source_mailerlite-1.0.1.tar.gz
+[2024-05-30 02:54:59] INFO root fetch - processPackages [pytest-custom-outputs]: executing diffoscope
+[2024-05-30 02:54:59] INFO root fetch - processPackages [pytest-custom-outputs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_custom_outputs-0.1.0.tar.gz tmp/pytest_custom_outputs-0.1.1.tar.gz --markdown 20240530/p/pytest-custom-outputs/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 02:54:59] INFO root fetch - processPackages [maestro-compose]: Downloading https://files.pythonhosted.org/packages/bd/07/4c9771472363808886d8ed353209df09d1e70e1e71484f308bf4fa225c88/maestro_compose-0.1.9.tar.gz
+[2024-05-30 02:54:59] INFO root fetch - processPackages [airbyte-source-mailerlite]: executing diffoscope
+[2024-05-30 02:54:59] INFO root fetch - processPackages [airbyte-source-mailerlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_mailerlite-1.0.0.tar.gz tmp/airbyte_source_mailerlite-1.0.1.tar.gz --markdown 20240530/a/airbyte-source-mailerlite/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-30 02:54:59] INFO root fetch - processPackages [maestro-compose]: executing diffoscope
+[2024-05-30 02:54:59] INFO root fetch - processPackages [maestro-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestro_compose-0.1.8.tar.gz tmp/maestro_compose-0.1.9.tar.gz --markdown 20240530/m/maestro-compose/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 02:54:59] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2024-05-30 02:54:59] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20240530/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-30 02:54:59] INFO root fetch - processPackages [pytest-custom-outputs]: Remove: archive file [/home/abi/fetcher/tmp/pytest_custom_outputs-0.1.0.tar.gz]
+[2024-05-30 02:54:59] INFO root fetch - processPackages [pytest-custom-outputs]: Remove: archive file [/home/abi/fetcher/tmp/pytest_custom_outputs-0.1.1.tar.gz]
+[2024-05-30 02:54:59] INFO root fetch - main [MainThread]: End processing [pytest-custom-outputs]: success
+[2024-05-30 02:54:59] INFO root fetch - processPackages [gget]: Downloading https://files.pythonhosted.org/packages/bc/19/c1489bd049c675da348baf65968bb650a58d9b87fc801f551080e9da4038/gget-0.3.9.tar.gz
+[2024-05-30 02:54:59] INFO root fetch - processPackages [airbyte-source-mailerlite]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_mailerlite-1.0.0.tar.gz]
+[2024-05-30 02:54:59] INFO root fetch - processPackages [airbyte-source-mailerlite]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_mailerlite-1.0.1.tar.gz]
+[2024-05-30 02:54:59] INFO root fetch - main [MainThread]: End processing [airbyte-source-mailerlite]: success
+[2024-05-30 02:54:59] INFO root fetch - processPackages [maestro-compose]: Remove: archive file [/home/abi/fetcher/tmp/maestro_compose-0.1.8.tar.gz]
+[2024-05-30 02:54:59] INFO root fetch - processPackages [maestro-compose]: Remove: archive file [/home/abi/fetcher/tmp/maestro_compose-0.1.9.tar.gz]
+[2024-05-30 02:54:59] INFO root fetch - main [MainThread]: End processing [maestro-compose]: success
+[2024-05-30 02:55:00] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2024-05-30 02:55:00] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2024-05-30 02:55:00] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2024-05-30 02:55:00] INFO root fetch - processPackages [gget]: executing diffoscope
+[2024-05-30 02:55:00] INFO root fetch - processPackages [gget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gget-0.3.8.tar.gz tmp/gget-0.3.9.tar.gz --markdown 20240530/g/gget/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-30 02:55:01] INFO root fetch - processPackages [gget]: Remove: archive file [/home/abi/fetcher/tmp/gget-0.3.8.tar.gz]
+[2024-05-30 02:55:01] INFO root fetch - processPackages [gget]: Remove: archive file [/home/abi/fetcher/tmp/gget-0.3.9.tar.gz]
+[2024-05-30 02:55:01] INFO root fetch - main [MainThread]: End processing [gget]: success
+[2024-05-30 02:55:01] INFO root fetch - main [MainThread]: Store serial: [23439102]
