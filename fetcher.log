@@ -17527,3 +17527,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:18:53] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.75.tar.gz]
 [2024-05-30 10:18:53] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
 [2024-05-30 10:18:53] INFO root fetch - main [MainThread]: Store serial: [23444826]
+[2024-05-30 10:20:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444826]
+[2024-05-30 10:21:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 10:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycrdt
+[2024-05-30 10:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywechat391019
+[2024-05-30 10:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: space-ska
+[2024-05-30 10:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client
+[2024-05-30 10:21:02] INFO root fetch - processPackages [pywechat391019]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-30 10:21:02] INFO root fetch - processPackages [space-ska]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-30 10:21:02] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-30 10:21:02] INFO root fetch - processPackages [pycrdt]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-30 10:21:02] INFO root fetch - processPackages [space-ska]: Downloading https://files.pythonhosted.org/packages/58/49/f95130bb5e7d40e9a75db7cea676bf66e118428222915c4d30fb3208bb58/space_ska-1.1.1.tar.gz
+[2024-05-30 10:21:02] INFO root fetch - processPackages [pywechat391019]: Downloading https://files.pythonhosted.org/packages/e8/b2/cff0ac13d850ffbe8f74a93730ac46f2273764e9ed21d83f28b67638d730/pywechat391019-0.0.5.tar.gz
+[2024-05-30 10:21:02] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-05-30 10:21:02] INFO root fetch - processPackages [pycrdt]: Downloading https://files.pythonhosted.org/packages/93/23/0799d6c98c5ba4abf174c18a0b275626e439d9c9583ce663a124bf4d53e3/pycrdt-0.8.8.tar.gz
+[2024-05-30 10:21:02] WARNING root fetch - processPackages [pywechat391019]: Skipping package: exceeds size limit 17661298>=10485760
+[2024-05-30 10:21:02] INFO root fetch - main [MainThread]: End processing [pywechat391019] error
+[2024-05-30 10:21:02] INFO root fetch - processPackages [space-ska]: Downloading https://files.pythonhosted.org/packages/46/d6/dfe83c12c0da13c42321e84d4ccf42def9fda7eb94e1b381d53b960b0576/space_ska-1.1.2.tar.gz
+[2024-05-30 10:21:02] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-05-30 10:21:03] INFO root fetch - processPackages [space-ska]: executing diffoscope
+[2024-05-30 10:21:03] INFO root fetch - processPackages [space-ska]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_ska-1.1.1.tar.gz tmp/space_ska-1.1.2.tar.gz --markdown 20240530/s/space-ska/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-30 10:21:03] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-05-30 10:21:03] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240530/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-30 10:21:03] INFO root fetch - processPackages [pycrdt]: Downloading https://files.pythonhosted.org/packages/e1/8d/1a192121bb657c5e119f3f4d64361b806fcb9423021725407252a919e987/pycrdt-0.8.9.tar.gz
+[2024-05-30 10:21:03] INFO root fetch - processPackages [pycrdt]: executing diffoscope
+[2024-05-30 10:21:03] INFO root fetch - processPackages [pycrdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrdt-0.8.8.tar.gz tmp/pycrdt-0.8.9.tar.gz --markdown 20240530/p/pycrdt/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-30 10:21:03] INFO root fetch - processPackages [space-ska]: Remove: archive file [/home/abi/fetcher/tmp/space_ska-1.1.1.tar.gz]
+[2024-05-30 10:21:03] INFO root fetch - processPackages [space-ska]: Remove: archive file [/home/abi/fetcher/tmp/space_ska-1.1.2.tar.gz]
+[2024-05-30 10:21:03] INFO root fetch - main [MainThread]: End processing [space-ska]: success
+[2024-05-30 10:21:03] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-05-30 10:21:03] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-05-30 10:21:03] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-05-30 10:21:04] INFO root fetch - processPackages [pycrdt]: Remove: archive file [/home/abi/fetcher/tmp/pycrdt-0.8.8.tar.gz]
+[2024-05-30 10:21:04] INFO root fetch - processPackages [pycrdt]: Remove: archive file [/home/abi/fetcher/tmp/pycrdt-0.8.9.tar.gz]
+[2024-05-30 10:21:04] INFO root fetch - main [MainThread]: End processing [pycrdt]: success
+[2024-05-30 10:21:04] INFO root fetch - main [MainThread]: Store serial: [23444898]
