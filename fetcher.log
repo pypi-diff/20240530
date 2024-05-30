@@ -22625,3 +22625,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 12:15:52] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
 [2024-05-30 12:15:52] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-30 12:15:52] INFO root fetch - main [MainThread]: Store serial: [23446888]
+[2024-05-30 12:17:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446888]
+[2024-05-30 12:18:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 12:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-videoenhan20200320
+[2024-05-30 12:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deeplcmd
+[2024-05-30 12:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: serverless-builder
+[2024-05-30 12:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tqbus-sdk
+[2024-05-30 12:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: consmodel
+[2024-05-30 12:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agenta
+[2024-05-30 12:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ru-text-cleaner
+[2024-05-30 12:18:01] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-30 12:18:01] INFO root fetch - processPackages [consmodel]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-30 12:18:01] WARNING root fetch - processPackages [deeplcmd]: Skipping, unable to determine old version
+[2024-05-30 12:18:01] INFO root fetch - main [MainThread]: End processing [deeplcmd] error
+[2024-05-30 12:18:01] INFO root fetch - processPackages [alibabacloud-videoenhan20200320]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-30 12:18:01] INFO root fetch - processPackages [tqbus-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-30 12:18:01] INFO root fetch - processPackages [ru-text-cleaner]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-30 12:18:01] INFO root fetch - processPackages [serverless-builder]: New version: [2.9.5] Old Version: [2.9.4]
+[2024-05-30 12:18:01] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-05-30 12:18:02] INFO root fetch - processPackages [consmodel]: Downloading https://files.pythonhosted.org/packages/05/20/85cbe880f4b2ad69d4396bb2cd7a025ade7eb27713119ab2d49e9c76c1bc/consmodel-0.1.6.tar.gz
+[2024-05-30 12:18:02] INFO root fetch - processPackages [ru-text-cleaner]: Downloading https://files.pythonhosted.org/packages/25/e8/85a438c3258713afa569e6dda4e7618ce1ad2c4f07fbf51fd8879a6ba8ec/ru_text_cleaner-2.0.2.tar.gz
+[2024-05-30 12:18:02] INFO root fetch - processPackages [alibabacloud-videoenhan20200320]: Downloading https://files.pythonhosted.org/packages/f2/bc/426b702be01caeb72474c386a0582da6f1d67fa949704840ed0e0ae73ca9/alibabacloud_videoenhan20200320-3.0.8.tar.gz
+[2024-05-30 12:18:02] INFO root fetch - processPackages [tqbus-sdk]: Downloading https://files.pythonhosted.org/packages/d2/ef/864201cbe84b3ba068bd075af3bc8bfa8c0bbc95cd1c08b4260de084095d/tqbus_sdk-0.1.4.tar.gz
+[2024-05-30 12:18:02] INFO root fetch - processPackages [serverless-builder]: Downloading https://files.pythonhosted.org/packages/ad/95/8e975af4549fef7b41fa7bd39c55c2f6cc6319b0990406f0a3350eae1202/serverless-builder-2.9.4.tar.gz
+[2024-05-30 12:18:02] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-05-30 12:18:02] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-05-30 12:18:02] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240530/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-30 12:18:02] INFO root fetch - processPackages [consmodel]: Downloading https://files.pythonhosted.org/packages/26/98/78929ea19b00dfee52ac1b57f7a28c76a229b815028e78d81d94eca94e67/consmodel-0.1.7.tar.gz
+[2024-05-30 12:18:02] INFO root fetch - processPackages [ru-text-cleaner]: Downloading https://files.pythonhosted.org/packages/bd/b5/20060148b3153c64aa4bb9a0593bfffb36e0af4ac45485f6f50f9d6063ed/ru_text_cleaner-2.0.3.tar.gz
+[2024-05-30 12:18:02] INFO root fetch - processPackages [alibabacloud-videoenhan20200320]: Downloading https://files.pythonhosted.org/packages/75/b6/4af2e20f0c61be7e2aa2ddd8dd5dc8cc29a6f4a36ee4eeccbf8d2488da3c/alibabacloud_videoenhan20200320-3.0.9.tar.gz
+[2024-05-30 12:18:02] INFO root fetch - processPackages [tqbus-sdk]: Downloading https://files.pythonhosted.org/packages/d0/bb/858c00bf607d5c9bb66a8d45cba594cb7f9ddd846957a4d98dde7e6f21ed/tqbus_sdk-0.1.5.tar.gz
+[2024-05-30 12:18:02] INFO root fetch - processPackages [consmodel]: executing diffoscope
+[2024-05-30 12:18:02] INFO root fetch - processPackages [consmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consmodel-0.1.6.tar.gz tmp/consmodel-0.1.7.tar.gz --markdown 20240530/c/consmodel/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-30 12:18:02] INFO root fetch - processPackages [alibabacloud-videoenhan20200320]: executing diffoscope
+[2024-05-30 12:18:02] INFO root fetch - processPackages [alibabacloud-videoenhan20200320]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_videoenhan20200320-3.0.8.tar.gz tmp/alibabacloud_videoenhan20200320-3.0.9.tar.gz --markdown 20240530/a/alibabacloud-videoenhan20200320/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-30 12:18:02] INFO root fetch - processPackages [tqbus-sdk]: executing diffoscope
+[2024-05-30 12:18:02] INFO root fetch - processPackages [tqbus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tqbus_sdk-0.1.4.tar.gz tmp/tqbus_sdk-0.1.5.tar.gz --markdown 20240530/t/tqbus-sdk/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-30 12:18:02] INFO root fetch - processPackages [ru-text-cleaner]: executing diffoscope
+[2024-05-30 12:18:02] INFO root fetch - processPackages [ru-text-cleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ru_text_cleaner-2.0.2.tar.gz tmp/ru_text_cleaner-2.0.3.tar.gz --markdown 20240530/r/ru-text-cleaner/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-30 12:18:02] INFO root fetch - processPackages [serverless-builder]: Downloading https://files.pythonhosted.org/packages/80/e1/4304996d18ef92922b6f7094c94e11d95eca60a5e0ccdf7fd61fb2944ca3/serverless-builder-2.9.5.tar.gz
+[2024-05-30 12:18:03] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-05-30 12:18:03] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-05-30 12:18:03] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-05-30 12:18:03] INFO root fetch - processPackages [ru-text-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/ru_text_cleaner-2.0.2.tar.gz]
+[2024-05-30 12:18:03] INFO root fetch - processPackages [ru-text-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/ru_text_cleaner-2.0.3.tar.gz]
+[2024-05-30 12:18:03] INFO root fetch - main [MainThread]: End processing [ru-text-cleaner]: success
+[2024-05-30 12:18:03] INFO root fetch - processPackages [consmodel]: Remove: archive file [/home/abi/fetcher/tmp/consmodel-0.1.6.tar.gz]
+[2024-05-30 12:18:03] INFO root fetch - processPackages [consmodel]: Remove: archive file [/home/abi/fetcher/tmp/consmodel-0.1.7.tar.gz]
+[2024-05-30 12:18:03] INFO root fetch - main [MainThread]: End processing [consmodel]: success
+[2024-05-30 12:18:03] INFO root fetch - processPackages [alibabacloud-videoenhan20200320]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_videoenhan20200320-3.0.8.tar.gz]
+[2024-05-30 12:18:03] INFO root fetch - processPackages [alibabacloud-videoenhan20200320]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_videoenhan20200320-3.0.9.tar.gz]
+[2024-05-30 12:18:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-videoenhan20200320]: success
+[2024-05-30 12:18:03] INFO root fetch - processPackages [tqbus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tqbus_sdk-0.1.4.tar.gz]
+[2024-05-30 12:18:03] INFO root fetch - processPackages [tqbus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tqbus_sdk-0.1.5.tar.gz]
+[2024-05-30 12:18:03] INFO root fetch - main [MainThread]: End processing [tqbus-sdk]: success
+[2024-05-30 12:18:04] INFO root fetch - processPackages [serverless-builder]: executing diffoscope
+[2024-05-30 12:18:04] INFO root fetch - processPackages [serverless-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverless-builder-2.9.4.tar.gz tmp/serverless-builder-2.9.5.tar.gz --markdown 20240530/s/serverless-builder/2.9.4-2.9.5/README.md --exclude *.pyd
+[2024-05-30 12:18:05] INFO root fetch - processPackages [serverless-builder]: Remove: archive file [/home/abi/fetcher/tmp/serverless-builder-2.9.4.tar.gz]
+[2024-05-30 12:18:05] INFO root fetch - processPackages [serverless-builder]: Remove: archive file [/home/abi/fetcher/tmp/serverless-builder-2.9.5.tar.gz]
+[2024-05-30 12:18:05] INFO root fetch - main [MainThread]: End processing [serverless-builder]: success
+[2024-05-30 12:18:05] INFO root fetch - main [MainThread]: Store serial: [23446912]
