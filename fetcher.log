@@ -8064,3 +8064,111 @@ EOFError: EOF read where object expected
 [2024-05-30 03:45:16] INFO root fetch - processPackages [qenerate-custom]: Remove: archive file [/home/abi/fetcher/tmp/qenerate_custom-0.6.4.tar.gz]
 [2024-05-30 03:45:16] INFO root fetch - main [MainThread]: End processing [qenerate-custom]: success
 [2024-05-30 03:45:16] INFO root fetch - main [MainThread]: Store serial: [23440823]
+[2024-05-30 03:47:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23440823]
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2024-05-30 03:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: block-container-image-builder
+[2024-05-30 03:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cash-health-acml-scams
+[2024-05-30 03:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sq-py-sample-size
+[2024-05-30 03:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqpicard
+[2024-05-30 03:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sq-config
+[2024-05-30 03:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: square-cmake
+[2024-05-30 03:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sq-shoot
+[2024-05-30 03:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: square-analytics
+[2024-05-30 03:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: airbyte-source-workramp
+[2024-05-30 03:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cash-identity-ml
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [block-container-image-builder]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] INFO root fetch - processPackages [block-container-image-builder]: Start processing: sqdataflow
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [block-container-image-builder] error
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [sq-shoot]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] INFO root fetch - processPackages [sq-shoot]: Start processing: sq-metrics
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [sq-shoot] error
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [sq-config]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] INFO root fetch - processPackages [sq-config]: Start processing: sq-conductor
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [sq-config] error
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [cash-health-acml-scams]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] INFO root fetch - processPackages [cash-health-acml-scams]: Start processing: sqkarl
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [cash-health-acml-scams] error
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [square-analytics]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] INFO root fetch - processPackages [square-analytics]: Start processing: airbyte-source-tyntec-sms
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [square-analytics] error
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [sqpicard]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] INFO root fetch - processPackages [sqpicard]: Start processing: sqlive-cli
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [sqpicard] error
+[2024-05-30 03:47:25] INFO root fetch - processPackages [airbyte-source-workramp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [square-cmake]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [cash-identity-ml]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] INFO root fetch - processPackages [square-cmake]: Start processing: cash-risk-ml
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [sq-py-sample-size]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] INFO root fetch - processPackages [cash-identity-ml]: Start processing: sqkarl-launcher
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [square-cmake] error
+[2024-05-30 03:47:25] INFO root fetch - processPackages [sq-py-sample-size]: Start processing: sq-ipython-poetry-magics
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [cash-identity-ml] error
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [sq-py-sample-size] error
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [sq-metrics]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] INFO root fetch - processPackages [sq-metrics]: Start processing: sq-autolabel
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [sq-metrics] error
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [sqdataflow]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] INFO root fetch - processPackages [sqdataflow]: Start processing: sqprefect
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [sqdataflow] error
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [cash-risk-ml]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] INFO root fetch - processPackages [cash-risk-ml]: Start processing: kano-cv
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [cash-risk-ml] error
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [sqlive-cli]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] INFO root fetch - processPackages [sqlive-cli]: Start processing: airbyte-source-partnerstack
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [sqlive-cli] error
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [sq-conductor]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] INFO root fetch - processPackages [sq-conductor]: Start processing: pi-poet
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [sq-conductor] error
+[2024-05-30 03:47:25] WARNING root fetch - processPackages [sqkarl]: Skipping, unable to determine old version
+[2024-05-30 03:47:25] INFO root fetch - processPackages [sqkarl]: Start processing: py4web
+[2024-05-30 03:47:25] INFO root fetch - main [MainThread]: End processing [sqkarl] error
+[2024-05-30 03:47:25] INFO root fetch - processPackages [airbyte-source-tyntec-sms]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 03:47:26] WARNING root fetch - processPackages [sq-ipython-poetry-magics]: Skipping, unable to determine old version
+[2024-05-30 03:47:26] INFO root fetch - main [MainThread]: End processing [sq-ipython-poetry-magics] error
+[2024-05-30 03:47:26] WARNING root fetch - processPackages [sqkarl-launcher]: Skipping, unable to determine old version
+[2024-05-30 03:47:26] INFO root fetch - main [MainThread]: End processing [sqkarl-launcher] error
+[2024-05-30 03:47:26] INFO root fetch - processPackages [py4web]: New version: [1.20240528.2] Old Version: [1.20240528.1]
+[2024-05-30 03:47:26] INFO root fetch - processPackages [airbyte-source-workramp]: Downloading https://files.pythonhosted.org/packages/b5/44/27bb47618b2012619ba09562e8b5c1b2c4be9b2e41aa7d25efd467d8454d/airbyte-source-workramp-0.1.0.tar.gz
+[2024-05-30 03:47:26] WARNING root fetch - processPackages [sqprefect]: Skipping, unable to determine old version
+[2024-05-30 03:47:26] INFO root fetch - main [MainThread]: End processing [sqprefect] error
+[2024-05-30 03:47:26] WARNING root fetch - processPackages [sq-autolabel]: Skipping, unable to determine old version
+[2024-05-30 03:47:26] INFO root fetch - main [MainThread]: End processing [sq-autolabel] error
+[2024-05-30 03:47:26] INFO root fetch - processPackages [kano-cv]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-30 03:47:26] INFO root fetch - processPackages [airbyte-source-partnerstack]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 03:47:26] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/9f/aa/3eed1c44e609b104bb5d2f24ba296a368f1555249ac01b912fe1b71caed3/py4web-1.20240528.1.tar.gz
+[2024-05-30 03:47:26] WARNING root fetch - processPackages [pi-poet]: Skipping, unable to determine old version
+[2024-05-30 03:47:26] INFO root fetch - main [MainThread]: End processing [pi-poet] error
+[2024-05-30 03:47:26] INFO root fetch - processPackages [airbyte-source-tyntec-sms]: Downloading https://files.pythonhosted.org/packages/ac/4a/e498567386e3d28465abb2a82ea3b919f6664b4c1bcbe53bcd7ccdb4172f/airbyte-source-tyntec-sms-0.1.0.tar.gz
+[2024-05-30 03:47:26] INFO root fetch - processPackages [kano-cv]: Downloading https://files.pythonhosted.org/packages/c4/46/707ab3d3ba1ce1939fd3400dd0badddd48c2610b528a505fef2b2cf735b5/kano_cv-2.0.0.tar.gz
+[2024-05-30 03:47:26] INFO root fetch - processPackages [airbyte-source-partnerstack]: Downloading https://files.pythonhosted.org/packages/a8/bb/e8c7a1e55de9580e338d503734c1f8414f4e91208f0fe73efd6245d5e13f/airbyte-source-partnerstack-0.1.0.tar.gz
+[2024-05-30 03:47:26] INFO root fetch - processPackages [airbyte-source-workramp]: Downloading https://files.pythonhosted.org/packages/96/1a/fb7109499658b7edf5f4516b5751ec2ab36af2c4d31fb2e21b9b72d24c8b/airbyte_source_workramp-0.1.1.tar.gz
+[2024-05-30 03:47:26] INFO root fetch - processPackages [airbyte-source-workramp]: executing diffoscope
+[2024-05-30 03:47:26] INFO root fetch - processPackages [airbyte-source-workramp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-workramp-0.1.0.tar.gz tmp/airbyte_source_workramp-0.1.1.tar.gz --markdown 20240530/a/airbyte-source-workramp/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 03:47:26] INFO root fetch - processPackages [airbyte-source-tyntec-sms]: Downloading https://files.pythonhosted.org/packages/75/0d/d015b52740c16c329f338cb8fb5ad3dc0f28815d2b23e0d7fbebfe9be26a/airbyte_source_tyntec_sms-0.1.1.tar.gz
+[2024-05-30 03:47:26] INFO root fetch - processPackages [kano-cv]: Downloading https://files.pythonhosted.org/packages/33/81/4ae525275b75451f1f238bf7d350bca5d9b824a0af387f6814e2b21a9078/kano_cv-3.0.0.tar.gz
+[2024-05-30 03:47:26] INFO root fetch - processPackages [airbyte-source-tyntec-sms]: executing diffoscope
+[2024-05-30 03:47:26] INFO root fetch - processPackages [airbyte-source-tyntec-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-tyntec-sms-0.1.0.tar.gz tmp/airbyte_source_tyntec_sms-0.1.1.tar.gz --markdown 20240530/a/airbyte-source-tyntec-sms/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 03:47:26] INFO root fetch - processPackages [kano-cv]: executing diffoscope
+[2024-05-30 03:47:26] INFO root fetch - processPackages [kano-cv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kano_cv-2.0.0.tar.gz tmp/kano_cv-3.0.0.tar.gz --markdown 20240530/k/kano-cv/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-30 03:47:26] INFO root fetch - processPackages [airbyte-source-partnerstack]: Downloading https://files.pythonhosted.org/packages/b4/3a/da31cec0f3226c54e76e5f50f793d3ee5936246c55f5f49bd84ed83f9560/airbyte_source_partnerstack-0.1.1.tar.gz
+[2024-05-30 03:47:26] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/8c/e3/ba3ca08c6d61c87b8c1921c7551cdd17bec401dcb26cbd089dacc647812d/py4web-1.20240528.2.tar.gz
+[2024-05-30 03:47:26] INFO root fetch - processPackages [airbyte-source-partnerstack]: executing diffoscope
+[2024-05-30 03:47:26] INFO root fetch - processPackages [airbyte-source-partnerstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-partnerstack-0.1.0.tar.gz tmp/airbyte_source_partnerstack-0.1.1.tar.gz --markdown 20240530/a/airbyte-source-partnerstack/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 03:47:27] INFO root fetch - processPackages [airbyte-source-workramp]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-workramp-0.1.0.tar.gz]
+[2024-05-30 03:47:27] INFO root fetch - processPackages [airbyte-source-workramp]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_workramp-0.1.1.tar.gz]
+[2024-05-30 03:47:27] INFO root fetch - main [MainThread]: End processing [airbyte-source-workramp]: success
+[2024-05-30 03:47:27] INFO root fetch - processPackages [kano-cv]: Remove: archive file [/home/abi/fetcher/tmp/kano_cv-2.0.0.tar.gz]
+[2024-05-30 03:47:27] INFO root fetch - processPackages [kano-cv]: Remove: archive file [/home/abi/fetcher/tmp/kano_cv-3.0.0.tar.gz]
+[2024-05-30 03:47:27] INFO root fetch - main [MainThread]: End processing [kano-cv]: success
+[2024-05-30 03:47:27] INFO root fetch - processPackages [airbyte-source-tyntec-sms]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-tyntec-sms-0.1.0.tar.gz]
+[2024-05-30 03:47:27] INFO root fetch - processPackages [airbyte-source-tyntec-sms]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_tyntec_sms-0.1.1.tar.gz]
+[2024-05-30 03:47:27] INFO root fetch - main [MainThread]: End processing [airbyte-source-tyntec-sms]: success
+[2024-05-30 03:47:27] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2024-05-30 03:47:27] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20240528.1.tar.gz tmp/py4web-1.20240528.2.tar.gz --markdown 20240530/p/py4web/1.20240528.1-1.20240528.2/README.md --exclude *.pyd
+[2024-05-30 03:47:27] INFO root fetch - processPackages [airbyte-source-partnerstack]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-partnerstack-0.1.0.tar.gz]
+[2024-05-30 03:47:27] INFO root fetch - processPackages [airbyte-source-partnerstack]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_partnerstack-0.1.1.tar.gz]
+[2024-05-30 03:47:27] INFO root fetch - main [MainThread]: End processing [airbyte-source-partnerstack]: success
+[2024-05-30 03:47:28] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240528.1.tar.gz]
+[2024-05-30 03:47:28] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240528.2.tar.gz]
+[2024-05-30 03:47:28] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2024-05-30 03:47:28] INFO root fetch - main [MainThread]: Store serial: [23440941]
