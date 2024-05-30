@@ -13465,3 +13465,42 @@ EOFError: EOF read where object expected
 [2024-05-30 08:07:42] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-05-30 08:07:42] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-05-30 08:07:42] INFO root fetch - main [MainThread]: Store serial: [23443144]
+[2024-05-30 08:09:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443144]
+[2024-05-30 08:09:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pozalabs-compose
+[2024-05-30 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sakura-fm
+[2024-05-30 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-05-30 08:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyds-cli
+[2024-05-30 08:09:51] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-30 08:09:51] INFO root fetch - processPackages [sakura-fm]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-30 08:09:51] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-30 08:09:51] INFO root fetch - processPackages [pozalabs-compose]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-30 08:09:51] INFO root fetch - processPackages [pyds-cli]: New version: [0.5.0] Old Version: [0.4.4]
+[2024-05-30 08:09:51] INFO root fetch - processPackages [sakura-fm]: Downloading https://files.pythonhosted.org/packages/af/30/e23f217a34ee1d4ca52dcb580eac0b2c29964174f76c7903d7c1f9dc993e/sakura_fm-0.0.6.tar.gz
+[2024-05-30 08:09:51] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/06/b4/e38f9c7412983e6cae601fa8a4496d9dd3c15fe0e6bb19019457de2bf908/pozalabs-compose-0.9.0.tar.gz
+[2024-05-30 08:09:51] INFO root fetch - processPackages [pyds-cli]: Downloading https://files.pythonhosted.org/packages/37/40/92d13d06c04cf6747dfca784438112f4a5aabded61c596268870f29083d1/pyds-cli-0.4.4.tar.gz
+[2024-05-30 08:09:51] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-30 08:09:51] INFO root fetch - processPackages [sakura-fm]: Downloading https://files.pythonhosted.org/packages/b2/83/bb0d28773fc792b8dfac5cb447f77670b301175c8ab82371e438aa201b98/sakura_fm-0.0.7.tar.gz
+[2024-05-30 08:09:51] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-30 08:09:51] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240530/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-30 08:09:51] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/c4/33/dc52b783559ddc423af41ab2502f9d7749e2c4231db5f0f022fea65653c7/pozalabs-compose-0.9.1.tar.gz
+[2024-05-30 08:09:51] INFO root fetch - processPackages [sakura-fm]: executing diffoscope
+[2024-05-30 08:09:51] INFO root fetch - processPackages [sakura-fm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sakura_fm-0.0.6.tar.gz tmp/sakura_fm-0.0.7.tar.gz --markdown 20240530/s/sakura-fm/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-30 08:09:51] INFO root fetch - processPackages [pozalabs-compose]: executing diffoscope
+[2024-05-30 08:09:51] INFO root fetch - processPackages [pozalabs-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-compose-0.9.0.tar.gz tmp/pozalabs-compose-0.9.1.tar.gz --markdown 20240530/p/pozalabs-compose/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-30 08:09:51] INFO root fetch - processPackages [pyds-cli]: Downloading https://files.pythonhosted.org/packages/85/cd/1c110608142118a016c6992de0d6b5f15df305d77992e892b4b80ce3e18c/pyds_cli-0.5.0.tar.gz
+[2024-05-30 08:09:52] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.0.tar.gz]
+[2024-05-30 08:09:52] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.1.tar.gz]
+[2024-05-30 08:09:52] INFO root fetch - main [MainThread]: End processing [pozalabs-compose]: success
+[2024-05-30 08:09:52] INFO root fetch - processPackages [sakura-fm]: Remove: archive file [/home/abi/fetcher/tmp/sakura_fm-0.0.6.tar.gz]
+[2024-05-30 08:09:52] INFO root fetch - processPackages [sakura-fm]: Remove: archive file [/home/abi/fetcher/tmp/sakura_fm-0.0.7.tar.gz]
+[2024-05-30 08:09:52] INFO root fetch - main [MainThread]: End processing [sakura-fm]: success
+[2024-05-30 08:09:52] INFO root fetch - processPackages [pyds-cli]: executing diffoscope
+[2024-05-30 08:09:52] INFO root fetch - processPackages [pyds-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyds-cli-0.4.4.tar.gz tmp/pyds_cli-0.5.0.tar.gz --markdown 20240530/p/pyds-cli/0.4.4-0.5.0/README.md --exclude *.pyd
+[2024-05-30 08:09:53] INFO root fetch - processPackages [pyds-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyds-cli-0.4.4.tar.gz]
+[2024-05-30 08:09:53] INFO root fetch - processPackages [pyds-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyds_cli-0.5.0.tar.gz]
+[2024-05-30 08:09:53] INFO root fetch - main [MainThread]: End processing [pyds-cli]: success
+[2024-05-30 08:09:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-30 08:09:53] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-30 08:09:53] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-30 08:09:53] INFO root fetch - main [MainThread]: Store serial: [23443152]
