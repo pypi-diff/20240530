@@ -2477,3 +2477,65 @@ EOFError: EOF read where object expected
 [2024-05-30 02:26:16] INFO root fetch - processPackages [transformer-lens]: Remove: archive file [/home/abi/fetcher/tmp/transformer_lens-1.9.1.tar.gz]
 [2024-05-30 02:26:16] INFO root fetch - main [MainThread]: End processing [transformer-lens]: success
 [2024-05-30 02:26:16] INFO root fetch - main [MainThread]: Store serial: [23438893]
+[2024-05-30 02:28:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438893]
+[2024-05-30 02:28:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 02:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NMODL-nightly
+[2024-05-30 02:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenGeode-core
+[2024-05-30 02:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yoto-api
+[2024-05-30 02:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-30 02:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-ecs-service-extensions
+[2024-05-30 02:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdss-kaiju
+[2024-05-30 02:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Unified-python-sdk
+[2024-05-30 02:28:24] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-30 02:28:24] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-30 02:28:24] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-05-30 02:28:24] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-30 02:28:24] INFO root fetch - processPackages [sdss-kaiju]: New version: [1.4.0b5] Old Version: [1.4.0b4]
+[2024-05-30 02:28:24] INFO root fetch - processPackages [NMODL-nightly]: New version: [0.6.174] Old Version: [0.6.172]
+[2024-05-30 02:28:24] INFO root fetch - processPackages [Unified-python-sdk]: New version: [0.22.9] Old Version: [0.22.8]
+[2024-05-30 02:28:24] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-30 02:28:24] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-05-30 02:28:24] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.21.1rc2]
+[2024-05-30 02:28:24] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-30 02:28:24] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/5d/6b/c6a8a0e0f72c80d0cee13235a6a5cc9bf30ce32f221c1786b372e7bcb808/nmodl_nightly-0.6.172-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 02:28:24] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-30 02:28:24] INFO root fetch - processPackages [sdss-kaiju]: Downloading https://files.pythonhosted.org/packages/2a/83/695e20e97e0f9680214e4d79afdf881e0f80215ef51440d6b7c6c4bf4dbf/sdss_kaiju-1.4.0b4.tar.gz
+[2024-05-30 02:28:24] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/bf/3e/f81b8ce92761ffd2e1479ee0b317068fa44e81849d7eda623342fd4c3fbd/OpenGeode_core-14.21.1rc2-cp39-cp39-win_amd64.whl
+[2024-05-30 02:28:24] INFO root fetch - processPackages [Unified-python-sdk]: Downloading https://files.pythonhosted.org/packages/32/a6/f72a437f394e4be7013e909d461fac60a361f3138d10f790ffc410ed32a8/Unified-python-sdk-0.22.8.tar.gz
+[2024-05-30 02:28:24] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 11772426>=10485760
+[2024-05-30 02:28:24] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-05-30 02:28:24] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-30 02:28:24] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240530/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-30 02:28:24] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-30 02:28:24] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240530/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-30 02:28:24] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-05-30 02:28:25] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-05-30 02:28:25] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240530/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-05-30 02:28:25] INFO root fetch - processPackages [sdss-kaiju]: Downloading https://files.pythonhosted.org/packages/90/a3/2822ba7e8eb402b0fad4ffb53851d5f17519e120a193bb08b50f223cdae6/sdss_kaiju-1.4.0b5.tar.gz
+[2024-05-30 02:28:25] INFO root fetch - processPackages [Unified-python-sdk]: Downloading https://files.pythonhosted.org/packages/14/2d/284ba949d743c7643a8c6a5e23c978bb1508713992a2933c67c0e85a55ab/Unified-python-sdk-0.22.9.tar.gz
+[2024-05-30 02:28:25] INFO root fetch - processPackages [sdss-kaiju]: executing diffoscope
+[2024-05-30 02:28:25] INFO root fetch - processPackages [sdss-kaiju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_kaiju-1.4.0b4.tar.gz tmp/sdss_kaiju-1.4.0b5.tar.gz --markdown 20240530/s/sdss-kaiju/1.4.0b4-1.4.0b5/README.md --exclude *.pyd
+[2024-05-30 02:28:25] INFO root fetch - processPackages [Unified-python-sdk]: executing diffoscope
+[2024-05-30 02:28:25] INFO root fetch - processPackages [Unified-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Unified-python-sdk-0.22.8.tar.gz tmp/Unified-python-sdk-0.22.9.tar.gz --markdown 20240530/U/Unified-python-sdk/0.22.8-0.22.9/README.md --exclude *.pyd
+[2024-05-30 02:28:25] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/45/49/5d3457aa690af761b4b61d310a340e05c3d8f27a1b083a6373a23207cc72/nmodl_nightly-0.6.174-cp39-cp39-macosx_10_15_x86_64.whl
+[2024-05-30 02:28:25] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-30 02:28:25] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-30 02:28:25] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-30 02:28:25] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-30 02:28:25] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-30 02:28:25] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-30 02:28:25] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-05-30 02:28:25] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-05-30 02:28:25] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-05-30 02:28:25] INFO root fetch - processPackages [sdss-kaiju]: Remove: archive file [/home/abi/fetcher/tmp/sdss_kaiju-1.4.0b4.tar.gz]
+[2024-05-30 02:28:25] INFO root fetch - processPackages [sdss-kaiju]: Remove: archive file [/home/abi/fetcher/tmp/sdss_kaiju-1.4.0b5.tar.gz]
+[2024-05-30 02:28:25] INFO root fetch - main [MainThread]: End processing [sdss-kaiju]: success
+[2024-05-30 02:28:26] INFO root fetch - processPackages [NMODL-nightly]: executing diffoscope
+[2024-05-30 02:28:26] INFO root fetch - processPackages [NMODL-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmodl_nightly-0.6.172-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nmodl_nightly-0.6.174-cp39-cp39-macosx_10_15_x86_64.whl.zip --markdown 20240530/N/NMODL-nightly/0.6.172-0.6.174/README.md --exclude *.pyd
+[2024-05-30 02:28:27] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.22.8.tar.gz]
+[2024-05-30 02:28:27] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.22.9.tar.gz]
+[2024-05-30 02:28:27] INFO root fetch - main [MainThread]: End processing [Unified-python-sdk]: success
+[2024-05-30 02:28:29] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.172-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-30 02:28:29] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.174-cp39-cp39-macosx_10_15_x86_64.whl.zip]
+[2024-05-30 02:28:29] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
+[2024-05-30 02:28:29] INFO root fetch - main [MainThread]: Store serial: [23438920]
