@@ -16867,3 +16867,69 @@ EOFError: EOF read where object expected
 [2024-05-30 09:58:44] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.1.post557-py3-none-any.whl.zip]
 [2024-05-30 09:58:44] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-05-30 09:58:44] INFO root fetch - main [MainThread]: Store serial: [23444534]
+[2024-05-30 10:00:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444534]
+[2024-05-30 10:00:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragtime
+[2024-05-30 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CI-CloudConnector
+[2024-05-30 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SMASunnyIsland
+[2024-05-30 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brapi-proxy
+[2024-05-30 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2024-05-30 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zaku
+[2024-05-30 10:00:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloud-governance
+[2024-05-30 10:00:53] INFO root fetch - processPackages [zaku]: New version: [0.0.9] Old Version: [0.0.8rc1]
+[2024-05-30 10:00:53] INFO root fetch - processPackages [brapi-proxy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 10:00:53] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-30 10:00:53] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-30 10:00:53] INFO root fetch - processPackages [CI-CloudConnector]: New version: [1.4] Old Version: [1.3]
+[2024-05-30 10:00:53] INFO root fetch - processPackages [ragtime]: New version: [0.0.39] Old Version: [0.0.37]
+[2024-05-30 10:00:53] INFO root fetch - processPackages [SMASunnyIsland]: New version: [0.43] Old Version: [0.42]
+[2024-05-30 10:00:53] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/36/63/843de81065e8c450c9dd14f7dd36425a40393dc131450c91bebeb4c5dd43/zaku-0.0.8rc1-py3-none-any.whl
+[2024-05-30 10:00:53] INFO root fetch - processPackages [brapi-proxy]: Downloading https://files.pythonhosted.org/packages/e5/04/830128de8bf638591f399b4facbc6e91ee1c7e68369ef7c50878eda347f7/brapi_proxy-0.0.8.tar.gz
+[2024-05-30 10:00:53] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-30 10:00:53] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-05-30 10:00:53] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/1e/d6/76a6d20f714fb3da200656c6b84a781302be43ed425c87781ce4e41fa451/ci_cloudconnector-1.3.tar.gz
+[2024-05-30 10:00:53] INFO root fetch - processPackages [ragtime]: Downloading https://files.pythonhosted.org/packages/9b/5a/5ef5f40a1f41e90ea3d8f6384558f72455ee53a91bf4c378ee3ef4affde9/ragtime-0.0.37.tar.gz
+[2024-05-30 10:00:53] INFO root fetch - processPackages [SMASunnyIsland]: Downloading https://files.pythonhosted.org/packages/a6/d7/0f2a84e0ea75b740d1bff25f0526a028c29077d5ee3144dd4ac07ce2fb8e/smasunnyisland-0.42.tar.gz
+[2024-05-30 10:00:53] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/cf/0e/96a80c4cc62c4a2fa75fb4a3fbfabb21a029116202d8e513617930bcdd4a/zaku-0.0.9-py3-none-any.whl
+[2024-05-30 10:00:53] INFO root fetch - processPackages [brapi-proxy]: Downloading https://files.pythonhosted.org/packages/78/53/a3c28b1776c1c428be285c108ffcfeeb2f2e3a97bac6d6d3d2e84fecfb2b/brapi_proxy-0.0.9.tar.gz
+[2024-05-30 10:00:53] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-30 10:00:53] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-05-30 10:00:53] INFO root fetch - processPackages [zaku]: executing diffoscope
+[2024-05-30 10:00:53] INFO root fetch - processPackages [zaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaku-0.0.8rc1-py3-none-any.whl.zip tmp/zaku-0.0.9-py3-none-any.whl.zip --markdown 20240530/z/zaku/0.0.8rc1-0.0.9/README.md --exclude *.pyd
+[2024-05-30 10:00:53] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/03/26/267a6ec410f3c3bf30de7e367f67e22ecabfd343cd06de3b309e7cdd309b/ci_cloudconnector-1.4.tar.gz
+[2024-05-30 10:00:53] INFO root fetch - processPackages [brapi-proxy]: executing diffoscope
+[2024-05-30 10:00:53] INFO root fetch - processPackages [brapi-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brapi_proxy-0.0.8.tar.gz tmp/brapi_proxy-0.0.9.tar.gz --markdown 20240530/b/brapi-proxy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 10:00:53] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-05-30 10:00:53] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240530/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-30 10:00:53] INFO root fetch - processPackages [SMASunnyIsland]: Downloading https://files.pythonhosted.org/packages/c9/20/8ce1770ede128caf8f06b54d2ab08baeeac6987229585334c20bf42f4b72/smasunnyisland-0.43.tar.gz
+[2024-05-30 10:00:53] INFO root fetch - processPackages [ragtime]: Downloading https://files.pythonhosted.org/packages/73/3a/9d687186d04ff1e4e21a483f4054c606a1783e68b37620f16f1e2827fbb5/ragtime-0.0.39.tar.gz
+[2024-05-30 10:00:53] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-30 10:00:53] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240530/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-30 10:00:53] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-30 10:00:53] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-1.3.tar.gz tmp/ci_cloudconnector-1.4.tar.gz --markdown 20240530/C/CI-CloudConnector/1.3-1.4/README.md --exclude *.pyd
+[2024-05-30 10:00:53] INFO root fetch - processPackages [SMASunnyIsland]: executing diffoscope
+[2024-05-30 10:00:53] INFO root fetch - processPackages [SMASunnyIsland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smasunnyisland-0.42.tar.gz tmp/smasunnyisland-0.43.tar.gz --markdown 20240530/S/SMASunnyIsland/0.42-0.43/README.md --exclude *.pyd
+[2024-05-30 10:00:54] INFO root fetch - processPackages [ragtime]: executing diffoscope
+[2024-05-30 10:00:54] INFO root fetch - processPackages [ragtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragtime-0.0.37.tar.gz tmp/ragtime-0.0.39.tar.gz --markdown 20240530/r/ragtime/0.0.37-0.0.39/README.md --exclude *.pyd
+[2024-05-30 10:00:54] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.8rc1-py3-none-any.whl.zip]
+[2024-05-30 10:00:54] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.9-py3-none-any.whl.zip]
+[2024-05-30 10:00:54] INFO root fetch - main [MainThread]: End processing [zaku]: success
+[2024-05-30 10:00:54] INFO root fetch - processPackages [brapi-proxy]: Remove: archive file [/home/abi/fetcher/tmp/brapi_proxy-0.0.8.tar.gz]
+[2024-05-30 10:00:54] INFO root fetch - processPackages [brapi-proxy]: Remove: archive file [/home/abi/fetcher/tmp/brapi_proxy-0.0.9.tar.gz]
+[2024-05-30 10:00:54] INFO root fetch - main [MainThread]: End processing [brapi-proxy]: success
+[2024-05-30 10:00:54] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.3.tar.gz]
+[2024-05-30 10:00:54] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.4.tar.gz]
+[2024-05-30 10:00:54] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-30 10:00:54] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-05-30 10:00:54] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-05-30 10:00:54] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-05-30 10:00:54] INFO root fetch - processPackages [ragtime]: Remove: archive file [/home/abi/fetcher/tmp/ragtime-0.0.37.tar.gz]
+[2024-05-30 10:00:54] INFO root fetch - processPackages [ragtime]: Remove: archive file [/home/abi/fetcher/tmp/ragtime-0.0.39.tar.gz]
+[2024-05-30 10:00:54] INFO root fetch - main [MainThread]: End processing [ragtime]: success
+[2024-05-30 10:00:55] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-30 10:00:55] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-30 10:00:55] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-30 10:00:56] INFO root fetch - processPackages [SMASunnyIsland]: Remove: archive file [/home/abi/fetcher/tmp/smasunnyisland-0.42.tar.gz]
+[2024-05-30 10:00:56] INFO root fetch - processPackages [SMASunnyIsland]: Remove: archive file [/home/abi/fetcher/tmp/smasunnyisland-0.43.tar.gz]
+[2024-05-30 10:00:56] INFO root fetch - main [MainThread]: End processing [SMASunnyIsland]: success
+[2024-05-30 10:00:56] INFO root fetch - main [MainThread]: Store serial: [23444556]
