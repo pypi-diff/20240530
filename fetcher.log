@@ -15664,3 +15664,36 @@ EOFError: EOF read where object expected
 [2024-05-30 09:09:48] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
 [2024-05-30 09:09:48] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
 [2024-05-30 09:09:48] INFO root fetch - main [MainThread]: Store serial: [23443909]
+[2024-05-30 09:11:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443909]
+[2024-05-30 09:11:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 09:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uiautodev
+[2024-05-30 09:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msg91-one-api
+[2024-05-30 09:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctrip-helper
+[2024-05-30 09:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-location-nuts
+[2024-05-30 09:11:57] INFO root fetch - processPackages [odoo-addon-base-location-nuts]: New version: [15.0.1.0.1.5] Old Version: [15.0.1.0.1.4]
+[2024-05-30 09:11:57] INFO root fetch - processPackages [ctrip-helper]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-30 09:11:57] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/fb/19/d534315240ded54ca39044c7cb7b2f180e4bb816f8beb9336da597dfbf74/ctrip-helper-0.1.5.tar.gz
+[2024-05-30 09:11:57] WARNING root fetch - processPackages [msg91-one-api]: Skipping, unable to determine old version
+[2024-05-30 09:11:57] INFO root fetch - processPackages [uiautodev]: New version: [0.4.0] Old Version: [0.3.7]
+[2024-05-30 09:11:57] INFO root fetch - main [MainThread]: End processing [msg91-one-api] error
+[2024-05-30 09:11:57] INFO root fetch - processPackages [odoo-addon-base-location-nuts]: Downloading https://files.pythonhosted.org/packages/f3/b8/7a59b7d5df44c4acd4100c146b68b12e4def9ec69471a4e6b576c18d6a57/odoo_addon_base_location_nuts-15.0.1.0.1.4-py3-none-any.whl
+[2024-05-30 09:11:57] INFO root fetch - processPackages [uiautodev]: Downloading https://files.pythonhosted.org/packages/e8/1a/2f100df80e30f47a7f8f38dfdea6f0fbb186f4806faab81eaddd8872b72c/uiautodev-0.3.7.tar.gz
+[2024-05-30 09:11:57] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/81/9e/f05fb1064b5ca4dff3ea3abcb5d68e040e66c3a2b9da0e88e0d120e91611/ctrip-helper-0.1.6.tar.gz
+[2024-05-30 09:11:57] INFO root fetch - processPackages [odoo-addon-base-location-nuts]: Downloading https://files.pythonhosted.org/packages/2f/3f/07b58a0bb02dfedca0aa4efdacf9dc5e245e155a5f3d15d99982c50de235/odoo_addon_base_location_nuts-15.0.1.0.1.5-py3-none-any.whl
+[2024-05-30 09:11:57] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-30 09:11:57] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.1.5.tar.gz tmp/ctrip-helper-0.1.6.tar.gz --markdown 20240530/c/ctrip-helper/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-30 09:11:57] INFO root fetch - processPackages [odoo-addon-base-location-nuts]: executing diffoscope
+[2024-05-30 09:11:57] INFO root fetch - processPackages [odoo-addon-base-location-nuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_location_nuts-15.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_base_location_nuts-15.0.1.0.1.5-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-base-location-nuts/15.0.1.0.1.4-15.0.1.0.1.5/README.md --exclude *.pyd
+[2024-05-30 09:11:58] INFO root fetch - processPackages [uiautodev]: Downloading https://files.pythonhosted.org/packages/d0/bf/b064c8ccdd7a68e77739a02f4bf0e79254b0df2167368a9993c91832dc51/uiautodev-0.4.0.tar.gz
+[2024-05-30 09:11:58] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.1.5.tar.gz]
+[2024-05-30 09:11:58] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.1.6.tar.gz]
+[2024-05-30 09:11:58] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-30 09:11:58] INFO root fetch - processPackages [odoo-addon-base-location-nuts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_location_nuts-15.0.1.0.1.4-py3-none-any.whl.zip]
+[2024-05-30 09:11:58] INFO root fetch - processPackages [odoo-addon-base-location-nuts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_location_nuts-15.0.1.0.1.5-py3-none-any.whl.zip]
+[2024-05-30 09:11:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-location-nuts]: success
+[2024-05-30 09:11:58] INFO root fetch - processPackages [uiautodev]: executing diffoscope
+[2024-05-30 09:11:58] INFO root fetch - processPackages [uiautodev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uiautodev-0.3.7.tar.gz tmp/uiautodev-0.4.0.tar.gz --markdown 20240530/u/uiautodev/0.3.7-0.4.0/README.md --exclude *.pyd
+[2024-05-30 09:11:59] INFO root fetch - processPackages [uiautodev]: Remove: archive file [/home/abi/fetcher/tmp/uiautodev-0.3.7.tar.gz]
+[2024-05-30 09:11:59] INFO root fetch - processPackages [uiautodev]: Remove: archive file [/home/abi/fetcher/tmp/uiautodev-0.4.0.tar.gz]
+[2024-05-30 09:11:59] INFO root fetch - main [MainThread]: End processing [uiautodev]: success
+[2024-05-30 09:11:59] INFO root fetch - main [MainThread]: Store serial: [23443922]
