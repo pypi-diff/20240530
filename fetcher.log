@@ -2438,3 +2438,42 @@ EOFError: EOF read where object expected
 [2024-05-30 02:24:05] INFO root fetch - processPackages [natcap.invest]: Remove: archive file [/home/abi/fetcher/tmp/natcap.invest-3.9.2.tar.gz]
 [2024-05-30 02:24:05] INFO root fetch - main [MainThread]: End processing [natcap.invest]: success
 [2024-05-30 02:24:05] INFO root fetch - main [MainThread]: Store serial: [23438880]
+[2024-05-30 02:26:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438880]
+[2024-05-30 02:26:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 02:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: palimpzest
+[2024-05-30 02:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transformer-lens
+[2024-05-30 02:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-certbot-dns-route53
+[2024-05-30 02:26:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-serverless-clamscan
+[2024-05-30 02:26:14] INFO root fetch - processPackages [palimpzest]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-30 02:26:14] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-05-30 02:26:14] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-30 02:26:14] INFO root fetch - processPackages [transformer-lens]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-30 02:26:14] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-05-30 02:26:14] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/0b/53/7bf70ced1eeba9a8f873fcb0fd07c1fa6c99a924227f167bf341ca4d287a/palimpzest-0.1.5.tar.gz
+[2024-05-30 02:26:14] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-30 02:26:14] INFO root fetch - processPackages [transformer-lens]: Downloading https://files.pythonhosted.org/packages/ee/98/34a95a3d709102fbda95729813af98a34c1d5b24d1814d3fb0c005dff8a8/transformer_lens-1.9.0.tar.gz
+[2024-05-30 02:26:14] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-05-30 02:26:14] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-30 02:26:14] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/c1/3c/dd8cd7e105a6ecbcfd96d03638c98ee62342b04f48047269d170e5d16c3d/palimpzest-0.1.6.tar.gz
+[2024-05-30 02:26:14] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-05-30 02:26:14] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240530/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-05-30 02:26:14] INFO root fetch - processPackages [palimpzest]: executing diffoscope
+[2024-05-30 02:26:14] INFO root fetch - processPackages [palimpzest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palimpzest-0.1.5.tar.gz tmp/palimpzest-0.1.6.tar.gz --markdown 20240530/p/palimpzest/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-30 02:26:14] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-30 02:26:14] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240530/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-30 02:26:15] INFO root fetch - processPackages [transformer-lens]: Downloading https://files.pythonhosted.org/packages/27/61/104cad9713b2865aedacc4171be2e94e7c1401485e3874ea135094d6916d/transformer_lens-1.9.1.tar.gz
+[2024-05-30 02:26:15] INFO root fetch - processPackages [transformer-lens]: executing diffoscope
+[2024-05-30 02:26:15] INFO root fetch - processPackages [transformer-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformer_lens-1.9.0.tar.gz tmp/transformer_lens-1.9.1.tar.gz --markdown 20240530/t/transformer-lens/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-30 02:26:15] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-05-30 02:26:15] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-05-30 02:26:15] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-05-30 02:26:15] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-30 02:26:15] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-30 02:26:15] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-30 02:26:15] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.5.tar.gz]
+[2024-05-30 02:26:15] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.6.tar.gz]
+[2024-05-30 02:26:15] INFO root fetch - main [MainThread]: End processing [palimpzest]: success
+[2024-05-30 02:26:16] INFO root fetch - processPackages [transformer-lens]: Remove: archive file [/home/abi/fetcher/tmp/transformer_lens-1.9.0.tar.gz]
+[2024-05-30 02:26:16] INFO root fetch - processPackages [transformer-lens]: Remove: archive file [/home/abi/fetcher/tmp/transformer_lens-1.9.1.tar.gz]
+[2024-05-30 02:26:16] INFO root fetch - main [MainThread]: End processing [transformer-lens]: success
+[2024-05-30 02:26:16] INFO root fetch - main [MainThread]: Store serial: [23438893]
