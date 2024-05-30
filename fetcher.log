@@ -16496,3 +16496,45 @@ EOFError: EOF read where object expected
 [2024-05-30 09:45:29] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.9.tar.gz]
 [2024-05-30 09:45:29] INFO root fetch - main [MainThread]: End processing [groqon]: success
 [2024-05-30 09:45:29] INFO root fetch - main [MainThread]: Store serial: [23444386]
+[2024-05-30 09:47:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444386]
+[2024-05-30 09:47:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 09:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: janim
+[2024-05-30 09:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redbacktechpy
+[2024-05-30 09:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyxllib
+[2024-05-30 09:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: message-local
+[2024-05-30 09:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: librus-apix
+[2024-05-30 09:47:38] WARNING root fetch - processPackages [redbacktechpy]: Skipping, unable to determine old version
+[2024-05-30 09:47:38] INFO root fetch - main [MainThread]: End processing [redbacktechpy] error
+[2024-05-30 09:47:38] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-30 09:47:38] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-05-30 09:47:38] INFO root fetch - processPackages [librus-apix]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-30 09:47:38] INFO root fetch - processPackages [pyxllib]: New version: [0.3.96] Old Version: [0.3.95]
+[2024-05-30 09:47:38] INFO root fetch - processPackages [janim]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-30 09:47:38] INFO root fetch - processPackages [janim]: Downloading https://files.pythonhosted.org/packages/52/54/06770bc9949b0b9f66bba9f40ecbe812dcbf066f7cddc00a177ad151c2fb/janim-1.1.0.tar.gz
+[2024-05-30 09:47:38] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-05-30 09:47:38] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/4a/3f/f94c4da3c27ad8658cefaab50ec1bdf4a60a3909d07f45b8ddc7347cbaa0/librus_apix-1.0.4.tar.gz
+[2024-05-30 09:47:38] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/e7/3c/17e7db64b3f76320bbf38868555e1b764c703a512c991724477530a4d563/pyxllib-0.3.95.tar.gz
+[2024-05-30 09:47:38] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-05-30 09:47:38] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240530/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-30 09:47:39] INFO root fetch - processPackages [janim]: Downloading https://files.pythonhosted.org/packages/5e/59/be3942bb51397e831c1a7e553620bcd31ef458a1e6dfd2140cf273f63d14/janim-1.2.0.tar.gz
+[2024-05-30 09:47:39] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/2d/b0/3e40d4878401bf252f4b2c6d18e205aee7fb739035b965c11941a85fcac7/librus_apix-1.0.5.tar.gz
+[2024-05-30 09:47:39] INFO root fetch - processPackages [janim]: executing diffoscope
+[2024-05-30 09:47:39] INFO root fetch - processPackages [janim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janim-1.1.0.tar.gz tmp/janim-1.2.0.tar.gz --markdown 20240530/j/janim/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-30 09:47:39] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/28/6c/845f9d401f8fc52b82d4e4d79b9fc6d67497c441d4a1b3ac886e243aea4e/pyxllib-0.3.96.tar.gz
+[2024-05-30 09:47:39] INFO root fetch - processPackages [librus-apix]: executing diffoscope
+[2024-05-30 09:47:39] INFO root fetch - processPackages [librus-apix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librus_apix-1.0.4.tar.gz tmp/librus_apix-1.0.5.tar.gz --markdown 20240530/l/librus-apix/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-30 09:47:39] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-05-30 09:47:39] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-05-30 09:47:39] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-05-30 09:47:39] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2024-05-30 09:47:39] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.95.tar.gz tmp/pyxllib-0.3.96.tar.gz --markdown 20240530/p/pyxllib/0.3.95-0.3.96/README.md --exclude *.pyd
+[2024-05-30 09:47:40] INFO root fetch - processPackages [janim]: Remove: archive file [/home/abi/fetcher/tmp/janim-1.1.0.tar.gz]
+[2024-05-30 09:47:40] INFO root fetch - processPackages [janim]: Remove: archive file [/home/abi/fetcher/tmp/janim-1.2.0.tar.gz]
+[2024-05-30 09:47:40] INFO root fetch - main [MainThread]: End processing [janim]: success
+[2024-05-30 09:47:40] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-1.0.4.tar.gz]
+[2024-05-30 09:47:40] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-1.0.5.tar.gz]
+[2024-05-30 09:47:40] INFO root fetch - main [MainThread]: End processing [librus-apix]: success
+[2024-05-30 09:47:41] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.95.tar.gz]
+[2024-05-30 09:47:41] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.96.tar.gz]
+[2024-05-30 09:47:41] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2024-05-30 09:47:41] INFO root fetch - main [MainThread]: Store serial: [23444401]
