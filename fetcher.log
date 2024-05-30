@@ -2743,3 +2743,24 @@ EOFError: EOF read where object expected
 [2024-05-30 02:37:13] INFO root fetch - processPackages [dt-extensions-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_sdk-1.1.9.tar.gz]
 [2024-05-30 02:37:13] INFO root fetch - main [MainThread]: End processing [dt-extensions-sdk]: success
 [2024-05-30 02:37:13] INFO root fetch - main [MainThread]: Store serial: [23439010]
+[2024-05-30 02:39:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439010]
+[2024-05-30 02:39:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 02:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkgconf
+[2024-05-30 02:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xconf
+[2024-05-30 02:39:21] INFO root fetch - processPackages [pkgconf]: New version: [2.1.1.post5] Old Version: [2.1.1.post1]
+[2024-05-30 02:39:21] INFO root fetch - processPackages [pkgconf]: Downloading https://files.pythonhosted.org/packages/65/2d/1265a76d6878e7b2446b806d7fe64c39befc74269969c36486f1435707c8/pkgconf-2.1.1.post1.tar.gz
+[2024-05-30 02:39:21] INFO root fetch - processPackages [xconf]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 02:39:22] INFO root fetch - processPackages [pkgconf]: Downloading https://files.pythonhosted.org/packages/9f/ae/00bae4a560f0bd9667a1a518d54737e03b53da1ef069c179590559ac9776/pkgconf-2.1.1.post5.tar.gz
+[2024-05-30 02:39:22] INFO root fetch - processPackages [xconf]: Downloading https://files.pythonhosted.org/packages/3a/ac/5b0307f2d34f28ed1d8452f77bb412f2724f2f899fb37ab700e579094142/xconf-0.0.1.tar.gz
+[2024-05-30 02:39:22] INFO root fetch - processPackages [pkgconf]: executing diffoscope
+[2024-05-30 02:39:22] INFO root fetch - processPackages [pkgconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgconf-2.1.1.post1.tar.gz tmp/pkgconf-2.1.1.post5.tar.gz --markdown 20240530/p/pkgconf/2.1.1.post1-2.1.1.post5/README.md --exclude *.pyd
+[2024-05-30 02:39:22] INFO root fetch - processPackages [xconf]: Downloading https://files.pythonhosted.org/packages/6d/67/0aa8ba63bbf7016187b9793c505286ca082bfc95dd63fd9d14c0c57beb2f/xconf-0.0.2.tar.gz
+[2024-05-30 02:39:22] INFO root fetch - processPackages [xconf]: executing diffoscope
+[2024-05-30 02:39:22] INFO root fetch - processPackages [xconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xconf-0.0.1.tar.gz tmp/xconf-0.0.2.tar.gz --markdown 20240530/x/xconf/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 02:39:23] INFO root fetch - processPackages [pkgconf]: Remove: archive file [/home/abi/fetcher/tmp/pkgconf-2.1.1.post1.tar.gz]
+[2024-05-30 02:39:23] INFO root fetch - processPackages [pkgconf]: Remove: archive file [/home/abi/fetcher/tmp/pkgconf-2.1.1.post5.tar.gz]
+[2024-05-30 02:39:23] INFO root fetch - main [MainThread]: End processing [pkgconf]: success
+[2024-05-30 02:39:23] INFO root fetch - processPackages [xconf]: Remove: archive file [/home/abi/fetcher/tmp/xconf-0.0.1.tar.gz]
+[2024-05-30 02:39:23] INFO root fetch - processPackages [xconf]: Remove: archive file [/home/abi/fetcher/tmp/xconf-0.0.2.tar.gz]
+[2024-05-30 02:39:23] INFO root fetch - main [MainThread]: End processing [xconf]: success
+[2024-05-30 02:39:23] INFO root fetch - main [MainThread]: Store serial: [23439031]
