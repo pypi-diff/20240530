@@ -21248,3 +21248,110 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:35:15] INFO root fetch - processPackages [kclvm]: Remove: archive file [/home/abi/fetcher/tmp/kclvm-0.9.0b1.tar.gz]
 [2024-05-30 11:35:15] INFO root fetch - main [MainThread]: End processing [kclvm]: success
 [2024-05-30 11:35:15] INFO root fetch - main [MainThread]: Store serial: [23446254]
+[2024-05-30 11:37:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446254]
+[2024-05-30 11:37:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-30 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micromechanics-indentationGUI
+[2024-05-30 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask_cognito_lib
+[2024-05-30 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transstellar
+[2024-05-30 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opentnsim
+[2024-05-30 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bintang
+[2024-05-30 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parse-it
+[2024-05-30 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lwk
+[2024-05-30 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fnschool
+[2024-05-30 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bquest
+[2024-05-30 11:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-azure
+[2024-05-30 11:37:24] INFO root fetch - processPackages [micromechanics-indentationGUI]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 11:37:24] INFO root fetch - processPackages [transstellar]: New version: [2.5.0] Old Version: [2.4.3]
+[2024-05-30 11:37:24] INFO root fetch - processPackages [bintang]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 11:37:24] INFO root fetch - processPackages [opentnsim]: New version: [1.3.6] Old Version: [1.3.4]
+[2024-05-30 11:37:24] INFO root fetch - processPackages [fnschool]: New version: [20240530.81715.818] Old Version: [20240530.81353.829]
+[2024-05-30 11:37:24] INFO root fetch - processPackages [flask_cognito_lib]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-05-30 11:37:24] INFO root fetch - processPackages [bquest]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-30 11:37:24] INFO root fetch - processPackages [lwk]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-30 11:37:24] INFO root fetch - processPackages [micromechanics-indentationGUI]: Downloading https://files.pythonhosted.org/packages/7f/67/cb0e9d6615cc6b38cc7d601ec8556643fcbadac37ba872d5620b902d14a8/micromechanics_indentationGUI-0.1.8-py3-none-any.whl
+[2024-05-30 11:37:24] INFO root fetch - processPackages [parse-it]: New version: [3.8.0] Old Version: [3.7.0]
+[2024-05-30 11:37:24] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/a3/7d/7d78c847f19c750800fa1ca03fb1bf72072914a3706dfe43f7bfa7e58cf9/transstellar-2.4.3.tar.gz
+[2024-05-30 11:37:24] INFO root fetch - processPackages [bintang]: Downloading https://files.pythonhosted.org/packages/0c/12/02f1deed00fdb23f2756001580ecc7bb0663bc250a53848ffe2f09d1b9aa/bintang-0.1.8-py3-none-any.whl
+[2024-05-30 11:37:24] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-05-30 11:37:24] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/65/1f/8206b6204a0311619c0a007a7ea399e5c349f29eef5aaa6f397851cb36ee/fnschool-20240530.81353.829.tar.gz
+[2024-05-30 11:37:24] WARNING root fetch - processPackages [micromechanics-indentationGUI]: Skipping package: exceeds size limit 26728255>=10485760
+[2024-05-30 11:37:24] INFO root fetch - processPackages [micromechanics-indentationGUI]: Start processing: alpaca-py
+[2024-05-30 11:37:24] INFO root fetch - main [MainThread]: End processing [micromechanics-indentationGUI] error
+[2024-05-30 11:37:24] INFO root fetch - processPackages [bquest]: Downloading https://files.pythonhosted.org/packages/10/cf/d99b345e5be77801981457c6bb50179f087e93e89c42ddb2e7575152e607/bquest-0.5.0.tar.gz
+[2024-05-30 11:37:24] INFO root fetch - processPackages [opentnsim]: Downloading https://files.pythonhosted.org/packages/65/a2/b0731e91171001462620ab9494e2ed26a75ed12ebbfb957a67837579ba13/opentnsim-1.3.4.tar.gz
+[2024-05-30 11:37:24] INFO root fetch - processPackages [flask_cognito_lib]: Downloading https://files.pythonhosted.org/packages/1e/e2/c730bbadb321062ffa59635a91d3ac41c45684bd7deb670a9487bab668be/flask_cognito_lib-1.7.0.tar.gz
+[2024-05-30 11:37:25] INFO root fetch - processPackages [lwk]: Downloading https://files.pythonhosted.org/packages/19/1d/78adb89841e56115b08bb0b5e001d2b70c4da436cdff1beca2c275f9c9c7/lwk-0.4.0-py3-none-win_amd64.whl
+[2024-05-30 11:37:25] INFO root fetch - processPackages [alpaca-py]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-30 11:37:25] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/cd/52/dbb13663fccbffb09d020cc56e8a7a1b551efa4c47759a518f758bba3f02/parse_it-3.7.0.tar.gz
+[2024-05-30 11:37:25] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-05-30 11:37:25] INFO root fetch - processPackages [bintang]: Downloading https://files.pythonhosted.org/packages/d0/cc/72e661a38c9e931da8c1bbd590d364c8660716097a0b0643b9afaa7dbc03/bintang-0.1.9-py3-none-any.whl
+[2024-05-30 11:37:25] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/7c/ef/11c124d8825f85731257f950940b364d85e645d3a97a37a5d2a3d556b9aa/transstellar-2.5.0.tar.gz
+[2024-05-30 11:37:25] INFO root fetch - processPackages [bintang]: executing diffoscope
+[2024-05-30 11:37:25] INFO root fetch - processPackages [bintang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bintang-0.1.8-py3-none-any.whl.zip tmp/bintang-0.1.9-py3-none-any.whl.zip --markdown 20240530/b/bintang/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 11:37:25] INFO root fetch - processPackages [bquest]: Downloading https://files.pythonhosted.org/packages/13/c7/6bcf30bb34f2eb2e0712f16ce17f47f3d825ec68ca5f257dfa2f753c6e78/bquest-0.5.1.tar.gz
+[2024-05-30 11:37:25] INFO root fetch - processPackages [transstellar]: executing diffoscope
+[2024-05-30 11:37:25] INFO root fetch - processPackages [transstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar-2.4.3.tar.gz tmp/transstellar-2.5.0.tar.gz --markdown 20240530/t/transstellar/2.4.3-2.5.0/README.md --exclude *.pyd
+[2024-05-30 11:37:25] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/c9/f0/4ae0b68f48db0ac3425072432efbeb9fb777bdf46510734ed6ab14deb57f/fnschool-20240530.81715.818.tar.gz
+[2024-05-30 11:37:25] INFO root fetch - processPackages [alpaca-py]: Downloading https://files.pythonhosted.org/packages/95/9a/c866d3091981080489f14171b69712fa22c65dcb09c2888eca936fa89cd8/alpaca_py-0.8.2.tar.gz
+[2024-05-30 11:37:25] INFO root fetch - processPackages [flask_cognito_lib]: Downloading https://files.pythonhosted.org/packages/a1/99/33916da6ba9af9c2c269bd7eefd7fdf5f47dd75f039d5815e51f0ce271ba/flask_cognito_lib-1.8.0.tar.gz
+[2024-05-30 11:37:25] INFO root fetch - processPackages [bquest]: executing diffoscope
+[2024-05-30 11:37:25] INFO root fetch - processPackages [bquest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bquest-0.5.0.tar.gz tmp/bquest-0.5.1.tar.gz --markdown 20240530/b/bquest/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-30 11:37:25] INFO root fetch - processPackages [flask_cognito_lib]: executing diffoscope
+[2024-05-30 11:37:25] INFO root fetch - processPackages [flask_cognito_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_cognito_lib-1.7.0.tar.gz tmp/flask_cognito_lib-1.8.0.tar.gz --markdown 20240530/f/flask_cognito_lib/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-05-30 11:37:25] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-05-30 11:37:25] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240530.81353.829.tar.gz tmp/fnschool-20240530.81715.818.tar.gz --markdown 20240530/f/fnschool/20240530.81353.829-20240530.81715.818/README.md --exclude *.pyd
+[2024-05-30 11:37:25] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/3b/d8/0a3f4a732fa677a35dbea4e9c72741f55e44859dc1c79bf5edfce61d95f0/parse_it-3.8.0.tar.gz
+[2024-05-30 11:37:25] INFO root fetch - processPackages [opentnsim]: Downloading https://files.pythonhosted.org/packages/cb/2e/34ce9683922b1982c65e315efcfa9d0792832086da649bec4441b0435f04/opentnsim-1.3.6.tar.gz
+[2024-05-30 11:37:25] INFO root fetch - processPackages [parse-it]: executing diffoscope
+[2024-05-30 11:37:25] INFO root fetch - processPackages [parse-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_it-3.7.0.tar.gz tmp/parse_it-3.8.0.tar.gz --markdown 20240530/p/parse-it/3.7.0-3.8.0/README.md --exclude *.pyd
+[2024-05-30 11:37:25] INFO root fetch - processPackages [alpaca-py]: Downloading https://files.pythonhosted.org/packages/f0/0d/64596c95696d0c4774ba900e386ec14586cf4f85b8e395258caa1bb90e61/alpaca_py-0.9.0.tar.gz
+[2024-05-30 11:37:25] INFO root fetch - processPackages [lwk]: Downloading https://files.pythonhosted.org/packages/24/db/30e92edbe678fd3fc2f567635346ea8410665c08bf2a020e78631930c39e/lwk-0.4.1-py3-none-win_amd64.whl
+[2024-05-30 11:37:25] INFO root fetch - processPackages [opentnsim]: executing diffoscope
+[2024-05-30 11:37:25] INFO root fetch - processPackages [opentnsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentnsim-1.3.4.tar.gz tmp/opentnsim-1.3.6.tar.gz --markdown 20240530/o/opentnsim/1.3.4-1.3.6/README.md --exclude *.pyd
+[2024-05-30 11:37:25] INFO root fetch - processPackages [alpaca-py]: executing diffoscope
+[2024-05-30 11:37:25] INFO root fetch - processPackages [alpaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_py-0.8.2.tar.gz tmp/alpaca_py-0.9.0.tar.gz --markdown 20240530/a/alpaca-py/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-30 11:37:26] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.4.3.tar.gz]
+[2024-05-30 11:37:26] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.5.0.tar.gz]
+[2024-05-30 11:37:26] INFO root fetch - processPackages [transstellar]: Start processing: pkrcomponents
+[2024-05-30 11:37:26] INFO root fetch - main [MainThread]: End processing [transstellar]: success
+[2024-05-30 11:37:26] INFO root fetch - processPackages [bquest]: Remove: archive file [/home/abi/fetcher/tmp/bquest-0.5.0.tar.gz]
+[2024-05-30 11:37:26] INFO root fetch - processPackages [bquest]: Remove: archive file [/home/abi/fetcher/tmp/bquest-0.5.1.tar.gz]
+[2024-05-30 11:37:26] INFO root fetch - main [MainThread]: End processing [bquest]: success
+[2024-05-30 11:37:26] INFO root fetch - processPackages [pkrcomponents]: New version: [1.8.0] Old Version: [1.7.4]
+[2024-05-30 11:37:26] INFO root fetch - processPackages [flask_cognito_lib]: Remove: archive file [/home/abi/fetcher/tmp/flask_cognito_lib-1.7.0.tar.gz]
+[2024-05-30 11:37:26] INFO root fetch - processPackages [flask_cognito_lib]: Remove: archive file [/home/abi/fetcher/tmp/flask_cognito_lib-1.8.0.tar.gz]
+[2024-05-30 11:37:26] INFO root fetch - main [MainThread]: End processing [flask_cognito_lib]: success
+[2024-05-30 11:37:26] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/67/01/0db31c3bf35e15ef7a8c8f782ed8b474298280ffe3ce947052bc29b8db18/pkrcomponents-1.7.4.tar.gz
+[2024-05-30 11:37:26] INFO root fetch - processPackages [parse-it]: Remove: archive file [/home/abi/fetcher/tmp/parse_it-3.7.0.tar.gz]
+[2024-05-30 11:37:26] INFO root fetch - processPackages [parse-it]: Remove: archive file [/home/abi/fetcher/tmp/parse_it-3.8.0.tar.gz]
+[2024-05-30 11:37:26] INFO root fetch - main [MainThread]: End processing [parse-it]: success
+[2024-05-30 11:37:26] INFO root fetch - processPackages [bintang]: Remove: archive file [/home/abi/fetcher/tmp/bintang-0.1.8-py3-none-any.whl.zip]
+[2024-05-30 11:37:26] INFO root fetch - processPackages [bintang]: Remove: archive file [/home/abi/fetcher/tmp/bintang-0.1.9-py3-none-any.whl.zip]
+[2024-05-30 11:37:26] INFO root fetch - main [MainThread]: End processing [bintang]: success
+[2024-05-30 11:37:26] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240530.81353.829.tar.gz]
+[2024-05-30 11:37:26] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240530.81715.818.tar.gz]
+[2024-05-30 11:37:26] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-05-30 11:37:26] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/e1/cd/7a1674f13c708af3b36a671d138517e708a1c8785ac5df94eec68f8f2f56/pkrcomponents-1.8.0.tar.gz
+[2024-05-30 11:37:26] INFO root fetch - processPackages [pkrcomponents]: executing diffoscope
+[2024-05-30 11:37:26] INFO root fetch - processPackages [pkrcomponents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkrcomponents-1.7.4.tar.gz tmp/pkrcomponents-1.8.0.tar.gz --markdown 20240530/p/pkrcomponents/1.7.4-1.8.0/README.md --exclude *.pyd
+[2024-05-30 11:37:26] INFO root fetch - processPackages [alpaca-py]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_py-0.8.2.tar.gz]
+[2024-05-30 11:37:26] INFO root fetch - processPackages [alpaca-py]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_py-0.9.0.tar.gz]
+[2024-05-30 11:37:26] INFO root fetch - main [MainThread]: End processing [alpaca-py]: success
+[2024-05-30 11:37:26] INFO root fetch - processPackages [lwk]: executing diffoscope
+[2024-05-30 11:37:26] INFO root fetch - processPackages [lwk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lwk-0.4.0-py3-none-win_amd64.whl.zip tmp/lwk-0.4.1-py3-none-win_amd64.whl.zip --markdown 20240530/l/lwk/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-30 11:37:27] INFO root fetch - processPackages [opentnsim]: Remove: archive file [/home/abi/fetcher/tmp/opentnsim-1.3.4.tar.gz]
+[2024-05-30 11:37:27] INFO root fetch - processPackages [opentnsim]: Remove: archive file [/home/abi/fetcher/tmp/opentnsim-1.3.6.tar.gz]
+[2024-05-30 11:37:27] INFO root fetch - main [MainThread]: End processing [opentnsim]: success
+[2024-05-30 11:37:27] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-05-30 11:37:27] INFO root fetch - processPackages [pkrcomponents]: Remove: archive file [/home/abi/fetcher/tmp/pkrcomponents-1.7.4.tar.gz]
+[2024-05-30 11:37:27] INFO root fetch - processPackages [pkrcomponents]: Remove: archive file [/home/abi/fetcher/tmp/pkrcomponents-1.8.0.tar.gz]
+[2024-05-30 11:37:27] INFO root fetch - main [MainThread]: End processing [pkrcomponents]: success
+[2024-05-30 11:37:27] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-05-30 11:37:27] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240530/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-05-30 11:37:37] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-05-30 11:37:37] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-05-30 11:37:37] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-05-30 11:38:18] INFO root fetch - processPackages [lwk]: Remove: archive file [/home/abi/fetcher/tmp/lwk-0.4.0-py3-none-win_amd64.whl.zip]
+[2024-05-30 11:38:18] INFO root fetch - processPackages [lwk]: Remove: archive file [/home/abi/fetcher/tmp/lwk-0.4.1-py3-none-win_amd64.whl.zip]
+[2024-05-30 11:38:18] INFO root fetch - main [MainThread]: End processing [lwk]: success
+[2024-05-30 11:38:18] INFO root fetch - main [MainThread]: Store serial: [23446299]
