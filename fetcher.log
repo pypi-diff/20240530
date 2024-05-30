@@ -8567,3 +8567,29 @@ EOFError: EOF read where object expected
 [2024-05-30 04:20:12] INFO root fetch - processPackages [ezkl]: Remove: archive file [/home/abi/fetcher/tmp/ezkl-9.5.0-cp37-abi3-win_amd64.whl.zip]
 [2024-05-30 04:20:12] INFO root fetch - main [MainThread]: End processing [ezkl]: success
 [2024-05-30 04:20:12] INFO root fetch - main [MainThread]: Store serial: [23441191]
+[2024-05-30 04:22:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441191]
+[2024-05-30 04:22:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 04:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-dbchat
+[2024-05-30 04:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-todoist
+[2024-05-30 04:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multi-med-image-ml
+[2024-05-30 04:22:21] INFO root fetch - processPackages [multi-med-image-ml]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-30 04:22:21] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-05-30 04:22:21] INFO root fetch - processPackages [airbyte-source-todoist]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-30 04:22:21] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/f6/18/1775d2217b34cf20972da457954b07826f8eee83addaf30cb9f9e56acda7/py_dbchat-0.0.2rc98.post1.tar.gz
+[2024-05-30 04:22:21] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/fa/b1/1c8acc0e016436884d2566c1cbdd10878da74f84e6222d470954c382528d/multi_med_image_ml-0.0.5.tar.gz
+[2024-05-30 04:22:21] INFO root fetch - processPackages [airbyte-source-todoist]: Downloading https://files.pythonhosted.org/packages/99/3e/2049b7e9bb5d0579b438136d358f8c4fbd6715730c04f285815364c030d8/airbyte_source_todoist-0.2.2.tar.gz
+[2024-05-30 04:22:21] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/73/d9/44b1e50b7a7349a8172af36226caa9ddf526c5c91c863ce32643ae416507/py_dbchat-0.0.2rc99.post1.tar.gz
+[2024-05-30 04:22:21] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-05-30 04:22:21] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc98.post1.tar.gz tmp/py_dbchat-0.0.2rc99.post1.tar.gz --markdown 20240530/p/py-dbchat/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-05-30 04:22:21] ERROR root fetch - processPackages [airbyte-source-todoist]: Unable to fetch info: No such project/version 'airbyte-source-todoist' 0.2.3
+[2024-05-30 04:22:21] INFO root fetch - main [MainThread]: End processing [airbyte-source-todoist] error
+[2024-05-30 04:22:21] INFO root fetch - processPackages [multi-med-image-ml]: Downloading https://files.pythonhosted.org/packages/16/bc/4474f74f86b74a4a32229067e5acaa12e13ee6ad6d1c8e4a6a1f7d96f1e4/multi_med_image_ml-0.0.6.tar.gz
+[2024-05-30 04:22:21] INFO root fetch - processPackages [multi-med-image-ml]: executing diffoscope
+[2024-05-30 04:22:21] INFO root fetch - processPackages [multi-med-image-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_med_image_ml-0.0.5.tar.gz tmp/multi_med_image_ml-0.0.6.tar.gz --markdown 20240530/m/multi-med-image-ml/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-30 04:22:22] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc98.post1.tar.gz]
+[2024-05-30 04:22:22] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
+[2024-05-30 04:22:22] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-05-30 04:22:22] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.5.tar.gz]
+[2024-05-30 04:22:22] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.6.tar.gz]
+[2024-05-30 04:22:22] INFO root fetch - main [MainThread]: End processing [multi-med-image-ml]: success
+[2024-05-30 04:22:22] INFO root fetch - main [MainThread]: Store serial: [23441201]
