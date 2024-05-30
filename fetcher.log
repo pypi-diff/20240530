@@ -9070,3 +9070,41 @@ EOFError: EOF read where object expected
 [2024-05-30 04:46:34] INFO root fetch - processPackages [llm-research]: Remove: archive file [/home/abi/fetcher/tmp/llm_research-0.2.0.tar.gz]
 [2024-05-30 04:46:34] INFO root fetch - main [MainThread]: End processing [llm-research]: success
 [2024-05-30 04:46:34] INFO root fetch - main [MainThread]: Store serial: [23441433]
+[2024-05-30 04:48:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441433]
+[2024-05-30 04:48:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 04:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medjc09-hub-python
+[2024-05-30 04:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-journal-lock-date
+[2024-05-30 04:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-netting
+[2024-05-30 04:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tuyul-sdk
+[2024-05-30 04:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sourcery-nightly
+[2024-05-30 04:48:44] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: New version: [17.0.1.0.0.6] Old Version: [17.0.1.0.0.4]
+[2024-05-30 04:48:44] INFO root fetch - processPackages [odoo-addon-account-netting]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-30 04:48:44] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Downloading https://files.pythonhosted.org/packages/3b/1c/cdeb3daf9d32026701e98ea373157b6599b10360de97057d952470302032/odoo_addon_account_journal_lock_date-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-30 04:48:44] INFO root fetch - processPackages [medjc09-hub-python]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-30 04:48:44] WARNING root fetch - processPackages [tuyul-sdk]: Skipping, unable to determine old version
+[2024-05-30 04:48:44] INFO root fetch - main [MainThread]: End processing [tuyul-sdk] error
+[2024-05-30 04:48:44] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-30 04:48:44] INFO root fetch - processPackages [odoo-addon-account-netting]: Downloading https://files.pythonhosted.org/packages/83/2b/1c4542ddc73b99cbedd63bd570b242732211dd3d571f263cf44162888114/odoo_addon_account_netting-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-30 04:48:44] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Downloading https://files.pythonhosted.org/packages/be/90/32244199fb9fc351f0c9c616c9f6947815030478a54d097228bfc8c27691/odoo_addon_account_journal_lock_date-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-30 04:48:44] INFO root fetch - processPackages [medjc09-hub-python]: Downloading https://files.pythonhosted.org/packages/ea/17/796fce7b1b26f6ca8a74725a116242007ca6af3f1f8b0a5ee9479433e12e/medjc09_hub_python-0.2.0.tar.gz
+[2024-05-30 04:48:44] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-30 04:48:44] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: executing diffoscope
+[2024-05-30 04:48:44] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_journal_lock_date-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_journal_lock_date-17.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-account-journal-lock-date/17.0.1.0.0.4-17.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-30 04:48:44] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-30 04:48:44] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-30 04:48:44] INFO root fetch - processPackages [medjc09-hub-python]: Downloading https://files.pythonhosted.org/packages/5c/f4/fa336e6da30dc78d1d4cddb19a7633d12207dd5c6dd73f87ebab9a801839/medjc09_hub_python-0.3.0.tar.gz
+[2024-05-30 04:48:44] INFO root fetch - processPackages [odoo-addon-account-netting]: Downloading https://files.pythonhosted.org/packages/95/0c/9b3af7c4d8a72c146d2d7b72d833d64c76c9a86f5eb987cfd6d789f0d88d/odoo_addon_account_netting-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-30 04:48:44] INFO root fetch - processPackages [medjc09-hub-python]: executing diffoscope
+[2024-05-30 04:48:44] INFO root fetch - processPackages [medjc09-hub-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medjc09_hub_python-0.2.0.tar.gz tmp/medjc09_hub_python-0.3.0.tar.gz --markdown 20240530/m/medjc09-hub-python/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-30 04:48:44] INFO root fetch - processPackages [odoo-addon-account-netting]: executing diffoscope
+[2024-05-30 04:48:44] INFO root fetch - processPackages [odoo-addon-account-netting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_netting-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_netting-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-account-netting/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-30 04:48:45] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_lock_date-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-30 04:48:45] INFO root fetch - processPackages [odoo-addon-account-journal-lock-date]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_journal_lock_date-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-30 04:48:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-journal-lock-date]: success
+[2024-05-30 04:48:45] INFO root fetch - processPackages [medjc09-hub-python]: Remove: archive file [/home/abi/fetcher/tmp/medjc09_hub_python-0.2.0.tar.gz]
+[2024-05-30 04:48:45] INFO root fetch - processPackages [medjc09-hub-python]: Remove: archive file [/home/abi/fetcher/tmp/medjc09_hub_python-0.3.0.tar.gz]
+[2024-05-30 04:48:45] INFO root fetch - main [MainThread]: End processing [medjc09-hub-python]: success
+[2024-05-30 04:48:45] INFO root fetch - processPackages [odoo-addon-account-netting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_netting-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-30 04:48:45] INFO root fetch - processPackages [odoo-addon-account-netting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_netting-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-30 04:48:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-netting]: success
+[2024-05-30 04:48:45] INFO root fetch - main [MainThread]: Store serial: [23441447]
