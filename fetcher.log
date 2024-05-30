@@ -16358,3 +16358,42 @@ EOFError: EOF read where object expected
 [2024-05-30 09:38:42] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.5.0.tar.gz]
 [2024-05-30 09:38:42] INFO root fetch - main [MainThread]: End processing [transstellar]: success
 [2024-05-30 09:38:42] INFO root fetch - main [MainThread]: Store serial: [23444268]
+[2024-05-30 09:40:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444268]
+[2024-05-30 09:40:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 09:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hostsd
+[2024-05-30 09:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zaku
+[2024-05-30 09:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SoL
+[2024-05-30 09:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zope.security
+[2024-05-30 09:40:51] INFO root fetch - processPackages [zaku]: New version: [0.0.9] Old Version: [0.0.8rc1]
+[2024-05-30 09:40:51] INFO root fetch - processPackages [SoL]: New version: [5.0.dev4] Old Version: [5.0.dev3]
+[2024-05-30 09:40:51] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/36/63/843de81065e8c450c9dd14f7dd36425a40393dc131450c91bebeb4c5dd43/zaku-0.0.8rc1-py3-none-any.whl
+[2024-05-30 09:40:51] INFO root fetch - processPackages [hostsd]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 09:40:51] INFO root fetch - processPackages [zope.security]: New version: [7.0] Old Version: [6.2a1.dev0]
+[2024-05-30 09:40:52] INFO root fetch - processPackages [SoL]: Downloading https://files.pythonhosted.org/packages/0b/92/a71f0712df689067fc7fe2942cb502b82bf895d0cc81fa81d3cc4cc82c4f/sol-5.0.dev3.tar.gz
+[2024-05-30 09:40:52] INFO root fetch - processPackages [hostsd]: Downloading https://files.pythonhosted.org/packages/2f/8a/c0fda7d0b2cd289a0d14e761dae08e36d43d09a79c9a7a70de049a2fcc7c/hostsd-0.1.0.tar.gz
+[2024-05-30 09:40:52] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/cf/0e/96a80c4cc62c4a2fa75fb4a3fbfabb21a029116202d8e513617930bcdd4a/zaku-0.0.9-py3-none-any.whl
+[2024-05-30 09:40:52] INFO root fetch - processPackages [zaku]: executing diffoscope
+[2024-05-30 09:40:52] INFO root fetch - processPackages [zaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaku-0.0.8rc1-py3-none-any.whl.zip tmp/zaku-0.0.9-py3-none-any.whl.zip --markdown 20240530/z/zaku/0.0.8rc1-0.0.9/README.md --exclude *.pyd
+[2024-05-30 09:40:52] INFO root fetch - processPackages [zope.security]: Downloading https://files.pythonhosted.org/packages/af/8a/de398c12d7e0301c02695990f12ca9bd72e85f88b063bfd7a36dca6addb8/zope.security-6.2a1.dev0.tar.gz
+[2024-05-30 09:40:52] INFO root fetch - processPackages [hostsd]: Downloading https://files.pythonhosted.org/packages/dd/f9/0936f89558706d2801dd13faad700e32ad94d1d6742b0da0f6b35fb1d4a8/hostsd-0.1.1.tar.gz
+[2024-05-30 09:40:52] INFO root fetch - processPackages [hostsd]: executing diffoscope
+[2024-05-30 09:40:52] INFO root fetch - processPackages [hostsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hostsd-0.1.0.tar.gz tmp/hostsd-0.1.1.tar.gz --markdown 20240530/h/hostsd/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 09:40:52] INFO root fetch - processPackages [SoL]: Downloading https://files.pythonhosted.org/packages/bb/e7/d94c0214cfbf426762f4162064d0187afab90bc0799caad0da5729760741/sol-5.0.dev4.tar.gz
+[2024-05-30 09:40:52] INFO root fetch - processPackages [zope.security]: Downloading https://files.pythonhosted.org/packages/07/97/bd27aa741870aeb60c6ff5ba5d6b08a5e6a1c3a48074c19ed51588568d33/zope.security-7.0.tar.gz
+[2024-05-30 09:40:52] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.8rc1-py3-none-any.whl.zip]
+[2024-05-30 09:40:52] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.9-py3-none-any.whl.zip]
+[2024-05-30 09:40:52] INFO root fetch - main [MainThread]: End processing [zaku]: success
+[2024-05-30 09:40:52] INFO root fetch - processPackages [SoL]: executing diffoscope
+[2024-05-30 09:40:52] INFO root fetch - processPackages [SoL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sol-5.0.dev3.tar.gz tmp/sol-5.0.dev4.tar.gz --markdown 20240530/S/SoL/5.0.dev3-5.0.dev4/README.md --exclude *.pyd
+[2024-05-30 09:40:52] INFO root fetch - processPackages [zope.security]: executing diffoscope
+[2024-05-30 09:40:52] INFO root fetch - processPackages [zope.security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.security-6.2a1.dev0.tar.gz tmp/zope.security-7.0.tar.gz --markdown 20240530/z/zope.security/6.2a1.dev0-7.0/README.md --exclude *.pyd
+[2024-05-30 09:40:53] INFO root fetch - processPackages [hostsd]: Remove: archive file [/home/abi/fetcher/tmp/hostsd-0.1.0.tar.gz]
+[2024-05-30 09:40:53] INFO root fetch - processPackages [hostsd]: Remove: archive file [/home/abi/fetcher/tmp/hostsd-0.1.1.tar.gz]
+[2024-05-30 09:40:53] INFO root fetch - main [MainThread]: End processing [hostsd]: success
+[2024-05-30 09:40:53] INFO root fetch - processPackages [zope.security]: Remove: archive file [/home/abi/fetcher/tmp/zope.security-6.2a1.dev0.tar.gz]
+[2024-05-30 09:40:53] INFO root fetch - processPackages [zope.security]: Remove: archive file [/home/abi/fetcher/tmp/zope.security-7.0.tar.gz]
+[2024-05-30 09:40:53] INFO root fetch - main [MainThread]: End processing [zope.security]: success
+[2024-05-30 09:41:08] INFO root fetch - processPackages [SoL]: Remove: archive file [/home/abi/fetcher/tmp/sol-5.0.dev3.tar.gz]
+[2024-05-30 09:41:08] INFO root fetch - processPackages [SoL]: Remove: archive file [/home/abi/fetcher/tmp/sol-5.0.dev4.tar.gz]
+[2024-05-30 09:41:08] INFO root fetch - main [MainThread]: End processing [SoL]: success
+[2024-05-30 09:41:08] INFO root fetch - main [MainThread]: Store serial: [23444310]
