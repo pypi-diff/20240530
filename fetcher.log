@@ -13437,3 +13437,31 @@ EOFError: EOF read where object expected
 [2024-05-30 08:05:32] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
 [2024-05-30 08:05:32] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-05-30 08:05:32] INFO root fetch - main [MainThread]: Store serial: [23443135]
+[2024-05-30 08:07:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443135]
+[2024-05-30 08:07:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2024-05-30 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: injector-collections
+[2024-05-30 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2024-05-30 08:07:40] INFO root fetch - processPackages [injector-collections]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-30 08:07:40] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-30 08:07:40] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-30 08:07:40] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/0f/45/bff98c9f26229aee8a1ee89692aa9746c4c162006eb63d0f9554c1352882/injector_collections-0.0.7.tar.gz
+[2024-05-30 08:07:40] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-30 08:07:40] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-30 08:07:41] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-30 08:07:41] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-30 08:07:41] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/ad/7c/b29e15bfd7e43c2c147c7a9c69d222f6a873c3604453608dcd107523c5d8/injector_collections-0.0.8.tar.gz
+[2024-05-30 08:07:41] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-30 08:07:41] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240530/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-30 08:07:41] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-30 08:07:41] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240530/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-30 08:07:41] INFO root fetch - processPackages [injector-collections]: executing diffoscope
+[2024-05-30 08:07:41] INFO root fetch - processPackages [injector-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injector_collections-0.0.7.tar.gz tmp/injector_collections-0.0.8.tar.gz --markdown 20240530/i/injector-collections/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-30 08:07:41] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.7.tar.gz]
+[2024-05-30 08:07:41] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.8.tar.gz]
+[2024-05-30 08:07:41] INFO root fetch - main [MainThread]: End processing [injector-collections]: success
+[2024-05-30 08:07:42] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-30 08:07:42] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-30 08:07:42] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-30 08:07:42] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-30 08:07:42] INFO root fetch - main [MainThread]: Store serial: [23443144]
