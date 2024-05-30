@@ -8513,3 +8513,24 @@ EOFError: EOF read where object expected
 [2024-05-30 04:15:48] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.5.tar.gz]
 [2024-05-30 04:15:48] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
 [2024-05-30 04:15:48] INFO root fetch - main [MainThread]: Store serial: [23441165]
+[2024-05-30 04:17:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441165]
+[2024-05-30 04:17:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 04:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-llms-vertex
+[2024-05-30 04:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hermes-cai
+[2024-05-30 04:17:56] INFO root fetch - processPackages [hermes-cai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 04:17:56] INFO root fetch - processPackages [hermes-cai]: Downloading https://files.pythonhosted.org/packages/c9/49/97474e8e674b4a25212e52f4667f6ed8090477ad6f09cc4879d99ad76b98/hermes_cai-0.0.8.tar.gz
+[2024-05-30 04:17:56] INFO root fetch - processPackages [llama-index-llms-vertex]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-30 04:17:57] INFO root fetch - processPackages [hermes-cai]: Downloading https://files.pythonhosted.org/packages/c7/2e/0f088ef52872faa4a462253525bc0bf9426cf9d1003e4f90cbfa2ab55af8/hermes_cai-0.0.9.tar.gz
+[2024-05-30 04:17:57] INFO root fetch - processPackages [llama-index-llms-vertex]: Downloading https://files.pythonhosted.org/packages/39/f3/e581bf68c633a9730dea816c79d6ba5a8e9c89dbb5642614e0e6b5f28d74/llama_index_llms_vertex-0.1.7.tar.gz
+[2024-05-30 04:17:57] INFO root fetch - processPackages [hermes-cai]: executing diffoscope
+[2024-05-30 04:17:57] INFO root fetch - processPackages [hermes-cai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermes_cai-0.0.8.tar.gz tmp/hermes_cai-0.0.9.tar.gz --markdown 20240530/h/hermes-cai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 04:17:57] INFO root fetch - processPackages [llama-index-llms-vertex]: Downloading https://files.pythonhosted.org/packages/5f/d6/6ea1854aa8bf3fa3e126f49b5a85e46c7ee90e181ef1fb73978db8fb02bc/llama_index_llms_vertex-0.1.8.tar.gz
+[2024-05-30 04:17:57] INFO root fetch - processPackages [llama-index-llms-vertex]: executing diffoscope
+[2024-05-30 04:17:57] INFO root fetch - processPackages [llama-index-llms-vertex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_llms_vertex-0.1.7.tar.gz tmp/llama_index_llms_vertex-0.1.8.tar.gz --markdown 20240530/l/llama-index-llms-vertex/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-30 04:17:57] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.8.tar.gz]
+[2024-05-30 04:17:57] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.9.tar.gz]
+[2024-05-30 04:17:57] INFO root fetch - main [MainThread]: End processing [hermes-cai]: success
+[2024-05-30 04:17:58] INFO root fetch - processPackages [llama-index-llms-vertex]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_vertex-0.1.7.tar.gz]
+[2024-05-30 04:17:58] INFO root fetch - processPackages [llama-index-llms-vertex]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_vertex-0.1.8.tar.gz]
+[2024-05-30 04:17:58] INFO root fetch - main [MainThread]: End processing [llama-index-llms-vertex]: success
+[2024-05-30 04:17:58] INFO root fetch - main [MainThread]: Store serial: [23441171]
