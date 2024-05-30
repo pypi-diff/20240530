@@ -8593,3 +8593,87 @@ EOFError: EOF read where object expected
 [2024-05-30 04:22:22] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.6.tar.gz]
 [2024-05-30 04:22:22] INFO root fetch - main [MainThread]: End processing [multi-med-image-ml]: success
 [2024-05-30 04:22:22] INFO root fetch - main [MainThread]: Store serial: [23441201]
+[2024-05-30 04:24:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441201]
+[2024-05-30 04:24:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-30 04:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyluba
+[2024-05-30 04:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fileformats-medimage
+[2024-05-30 04:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mybox
+[2024-05-30 04:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dnspod-domain-log
+[2024-05-30 04:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fileformats-medimage-extras
+[2024-05-30 04:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fluctuate
+[2024-05-30 04:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: baostockhelloworld
+[2024-05-30 04:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-netaddr
+[2024-05-30 04:24:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-reportlab
+[2024-05-30 04:24:32] INFO root fetch - processPackages [pyluba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 04:24:32] INFO root fetch - processPackages [types-netaddr]: New version: [1.2.0.20240331] Old Version: [1.2.0.20240311]
+[2024-05-30 04:24:32] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/52/99/e29e1d5ada99bf72806e253adb260c8ac9718c47fdfc9c9a26d99fcc0d52/pyluba-0.0.8.tar.gz
+[2024-05-30 04:24:32] INFO root fetch - processPackages [fileformats-medimage]: New version: [0.8.1] Old Version: [0.7.1]
+[2024-05-30 04:24:32] INFO root fetch - processPackages [fileformats-medimage-extras]: New version: [0.8.1] Old Version: [0.7.1]
+[2024-05-30 04:24:32] INFO root fetch - processPackages [fluctuate]: New version: [3.0.0] Old Version: [2.0.0b3]
+[2024-05-30 04:24:32] INFO root fetch - processPackages [baostockhelloworld]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-30 04:24:32] INFO root fetch - processPackages [dnspod-domain-log]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-30 04:24:32] INFO root fetch - processPackages [mybox]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-30 04:24:32] INFO root fetch - processPackages [types-reportlab]: New version: [4.2.0.20240530] Old Version: [4.2.0.20240525]
+[2024-05-30 04:24:32] INFO root fetch - processPackages [types-netaddr]: Downloading https://files.pythonhosted.org/packages/00/d0/8ead32411ac5d6882f27e77fe5e5595bc50efa2eff0bc374b2af50df1e10/types-netaddr-1.2.0.20240311.tar.gz
+[2024-05-30 04:24:32] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/84/ab/a79a516adda0073565ebbe893c1269969eb2e11db4ea3957e1d76e1ebf9e/pyluba-0.0.9.tar.gz
+[2024-05-30 04:24:32] INFO root fetch - processPackages [fileformats-medimage-extras]: Downloading https://files.pythonhosted.org/packages/d1/34/25f8926f4a677f6c619215fd9b2e6bb1931bc5c190229c0877cf647d3aa7/fileformats_medimage_extras-0.7.1.tar.gz
+[2024-05-30 04:24:32] INFO root fetch - processPackages [baostockhelloworld]: Downloading https://files.pythonhosted.org/packages/db/96/f3ce0d081b2d0e569d8477ae39cb22483a8cc61228a016d24fe494c8bdef/baostockhelloworld-0.0.2.tar.gz
+[2024-05-30 04:24:32] INFO root fetch - processPackages [fluctuate]: Downloading https://files.pythonhosted.org/packages/e9/b6/31a5101662516987299a348fdfea079f96c5a53c1f5b0e8f31d129958c51/fluctuate-2.0.0b3.tar.gz
+[2024-05-30 04:24:32] INFO root fetch - processPackages [dnspod-domain-log]: Downloading https://files.pythonhosted.org/packages/32/03/6e06f7ab1f7636e5fde3bd9c6511cd39caa754347f03891f34dc8d337928/dnspod_domain_log-1.0.4.tar.gz
+[2024-05-30 04:24:32] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/13/f6/202f25da3129171e5c2cc6ccf7e2437ee5d65fafeeb9af158596ac60f7a8/mybox-2.0.8.tar.gz
+[2024-05-30 04:24:32] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/98/af/4fb053dd6d1aa0d70f61a59001b19aca23442a77d566afd391d5032c479b/fileformats_medimage-0.7.1.tar.gz
+[2024-05-30 04:24:32] INFO root fetch - processPackages [types-reportlab]: Downloading https://files.pythonhosted.org/packages/69/68/e4231cf024fe61804b7194fbcff3cd5b91afd3e7dea125312c26a470acb0/types-reportlab-4.2.0.20240525.tar.gz
+[2024-05-30 04:24:33] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-05-30 04:24:33] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.8.tar.gz tmp/pyluba-0.0.9.tar.gz --markdown 20240530/p/pyluba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 04:24:33] INFO root fetch - processPackages [types-netaddr]: Downloading https://files.pythonhosted.org/packages/3b/f9/e0599734c902e3f94ae36b88ef55845a9a40d03ad1babda60dd7464cf35c/types-netaddr-1.2.0.20240331.tar.gz
+[2024-05-30 04:24:33] INFO root fetch - processPackages [fileformats-medimage-extras]: Downloading https://files.pythonhosted.org/packages/b3/d2/8becf386b80890afb40bccddfa99692b71d6f501851c212d581fcf97a7aa/fileformats_medimage_extras-0.8.1.tar.gz
+[2024-05-30 04:24:33] INFO root fetch - processPackages [baostockhelloworld]: Downloading https://files.pythonhosted.org/packages/a8/54/495f565c94cf272fd43ff42055fcc67bf9181cee61de2893d0aa8f8ee46a/baostockhelloworld-0.0.4.tar.gz
+[2024-05-30 04:24:33] INFO root fetch - processPackages [dnspod-domain-log]: Downloading https://files.pythonhosted.org/packages/dd/96/681b31c651c6db19ee1f000cc18fc05b3468101586882b1af9ae2a92c253/dnspod_domain_log-1.0.5.tar.gz
+[2024-05-30 04:24:33] INFO root fetch - processPackages [fluctuate]: Downloading https://files.pythonhosted.org/packages/56/51/c4c3ffb9c2ce20fcea416d7c48a2936c6610d37ae9e859074eb190e99a09/fluctuate-3.0.0.tar.gz
+[2024-05-30 04:24:33] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/4c/10/1fe8bbeacc9f9274a012cce5d666ffe0bbeb9f5cc53bb763b7e7166068bf/fileformats_medimage-0.8.1.tar.gz
+[2024-05-30 04:24:33] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/e7/74/17fd92b174ff8b20616c55e75350c20cfbb4a1b6a048c7c9f4abe75698ae/mybox-2.0.9.tar.gz
+[2024-05-30 04:24:33] INFO root fetch - processPackages [types-reportlab]: Downloading https://files.pythonhosted.org/packages/d2/ab/39abc1476ffa78d69c09ec0182b33413a9a7f50ac40b2065ea04eb9de1eb/types-reportlab-4.2.0.20240530.tar.gz
+[2024-05-30 04:24:33] INFO root fetch - processPackages [fileformats-medimage-extras]: executing diffoscope
+[2024-05-30 04:24:33] INFO root fetch - processPackages [fileformats-medimage-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage_extras-0.7.1.tar.gz tmp/fileformats_medimage_extras-0.8.1.tar.gz --markdown 20240530/f/fileformats-medimage-extras/0.7.1-0.8.1/README.md --exclude *.pyd
+[2024-05-30 04:24:33] INFO root fetch - processPackages [fluctuate]: executing diffoscope
+[2024-05-30 04:24:33] INFO root fetch - processPackages [fluctuate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluctuate-2.0.0b3.tar.gz tmp/fluctuate-3.0.0.tar.gz --markdown 20240530/f/fluctuate/2.0.0b3-3.0.0/README.md --exclude *.pyd
+[2024-05-30 04:24:33] INFO root fetch - processPackages [dnspod-domain-log]: executing diffoscope
+[2024-05-30 04:24:33] INFO root fetch - processPackages [dnspod-domain-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnspod_domain_log-1.0.4.tar.gz tmp/dnspod_domain_log-1.0.5.tar.gz --markdown 20240530/d/dnspod-domain-log/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-30 04:24:33] INFO root fetch - processPackages [types-netaddr]: executing diffoscope
+[2024-05-30 04:24:33] INFO root fetch - processPackages [types-netaddr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-netaddr-1.2.0.20240311.tar.gz tmp/types-netaddr-1.2.0.20240331.tar.gz --markdown 20240530/t/types-netaddr/1.2.0.20240311-1.2.0.20240331/README.md --exclude *.pyd
+[2024-05-30 04:24:33] INFO root fetch - processPackages [fileformats-medimage]: executing diffoscope
+[2024-05-30 04:24:33] INFO root fetch - processPackages [fileformats-medimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage-0.7.1.tar.gz tmp/fileformats_medimage-0.8.1.tar.gz --markdown 20240530/f/fileformats-medimage/0.7.1-0.8.1/README.md --exclude *.pyd
+[2024-05-30 04:24:33] INFO root fetch - processPackages [mybox]: executing diffoscope
+[2024-05-30 04:24:33] INFO root fetch - processPackages [mybox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybox-2.0.8.tar.gz tmp/mybox-2.0.9.tar.gz --markdown 20240530/m/mybox/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-30 04:24:33] INFO root fetch - processPackages [baostockhelloworld]: executing diffoscope
+[2024-05-30 04:24:33] INFO root fetch - processPackages [baostockhelloworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baostockhelloworld-0.0.2.tar.gz tmp/baostockhelloworld-0.0.4.tar.gz --markdown 20240530/b/baostockhelloworld/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-30 04:24:33] INFO root fetch - processPackages [types-reportlab]: executing diffoscope
+[2024-05-30 04:24:33] INFO root fetch - processPackages [types-reportlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-reportlab-4.2.0.20240525.tar.gz tmp/types-reportlab-4.2.0.20240530.tar.gz --markdown 20240530/t/types-reportlab/4.2.0.20240525-4.2.0.20240530/README.md --exclude *.pyd
+[2024-05-30 04:24:33] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.8.tar.gz]
+[2024-05-30 04:24:33] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.9.tar.gz]
+[2024-05-30 04:24:33] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-05-30 04:24:34] INFO root fetch - processPackages [fileformats-medimage-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_extras-0.7.1.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - processPackages [fileformats-medimage-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_extras-0.8.1.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-extras]: success
+[2024-05-30 04:24:34] INFO root fetch - processPackages [fluctuate]: Remove: archive file [/home/abi/fetcher/tmp/fluctuate-2.0.0b3.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - processPackages [fluctuate]: Remove: archive file [/home/abi/fetcher/tmp/fluctuate-3.0.0.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - main [MainThread]: End processing [fluctuate]: success
+[2024-05-30 04:24:34] INFO root fetch - processPackages [types-netaddr]: Remove: archive file [/home/abi/fetcher/tmp/types-netaddr-1.2.0.20240311.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - processPackages [types-netaddr]: Remove: archive file [/home/abi/fetcher/tmp/types-netaddr-1.2.0.20240331.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - main [MainThread]: End processing [types-netaddr]: success
+[2024-05-30 04:24:34] INFO root fetch - processPackages [baostockhelloworld]: Remove: archive file [/home/abi/fetcher/tmp/baostockhelloworld-0.0.2.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - processPackages [baostockhelloworld]: Remove: archive file [/home/abi/fetcher/tmp/baostockhelloworld-0.0.4.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - main [MainThread]: End processing [baostockhelloworld]: success
+[2024-05-30 04:24:34] INFO root fetch - processPackages [dnspod-domain-log]: Remove: archive file [/home/abi/fetcher/tmp/dnspod_domain_log-1.0.4.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - processPackages [dnspod-domain-log]: Remove: archive file [/home/abi/fetcher/tmp/dnspod_domain_log-1.0.5.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - main [MainThread]: End processing [dnspod-domain-log]: success
+[2024-05-30 04:24:34] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.8.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.9.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - main [MainThread]: End processing [mybox]: success
+[2024-05-30 04:24:34] INFO root fetch - processPackages [types-reportlab]: Remove: archive file [/home/abi/fetcher/tmp/types-reportlab-4.2.0.20240525.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - processPackages [types-reportlab]: Remove: archive file [/home/abi/fetcher/tmp/types-reportlab-4.2.0.20240530.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - main [MainThread]: End processing [types-reportlab]: success
+[2024-05-30 04:24:34] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.7.1.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.8.1.tar.gz]
+[2024-05-30 04:24:34] INFO root fetch - main [MainThread]: End processing [fileformats-medimage]: success
+[2024-05-30 04:24:34] INFO root fetch - main [MainThread]: Store serial: [23441227]
