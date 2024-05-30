@@ -12604,3 +12604,49 @@ EOFError: EOF read where object expected
 [2024-05-30 07:28:18] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.2.4.tar.gz]
 [2024-05-30 07:28:18] INFO root fetch - main [MainThread]: End processing [tablemaster]: success
 [2024-05-30 07:28:18] INFO root fetch - main [MainThread]: Store serial: [23442697]
+[2024-05-30 07:30:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442697]
+[2024-05-30 07:30:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 07:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salve-ipc
+[2024-05-30 07:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Conversion
+[2024-05-30 07:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dash-spread-grid
+[2024-05-30 07:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctrip-helper
+[2024-05-30 07:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dash-spread-grid
+[2024-05-30 07:30:27] INFO root fetch - processPackages [salve-ipc]: New version: [0.2.1] Old Version: [0.1.0]
+[2024-05-30 07:30:27] INFO root fetch - processPackages [dash-spread-grid]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-30 07:30:27] INFO root fetch - processPackages [ctrip-helper]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-30 07:30:27] INFO root fetch - processPackages [dash-spread-grid]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-30 07:30:27] INFO root fetch - processPackages [salve-ipc]: Downloading https://files.pythonhosted.org/packages/b2/a7/488f6913b48632f787d9ae1493267f37ff31451d0ec383b2fe315c6e35af/salve_ipc-0.1.0.tar.gz
+[2024-05-30 07:30:27] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/34/73/ddd5d08d2dc970f7299d922a46021847ec8c245e719d7ce2d922ac5841e5/dash_spread_grid-0.1.3.tar.gz
+[2024-05-30 07:30:27] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/51/aa/8407108fcd9a8d44ee998a8e48e1e78e9a01d671d31525ad87e6f2f74f2f/ctrip-helper-0.1.4.tar.gz
+[2024-05-30 07:30:27] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/34/73/ddd5d08d2dc970f7299d922a46021847ec8c245e719d7ce2d922ac5841e5/dash_spread_grid-0.1.3.tar.gz
+[2024-05-30 07:30:27] INFO root fetch - processPackages [salve-ipc]: Downloading https://files.pythonhosted.org/packages/3f/31/7b2179b726d70e98c2b759d2181894b537f4458819cc073861be472f6260/salve_ipc-0.2.1.tar.gz
+[2024-05-30 07:30:27] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/11/87/ef055e5996ecdc8f9e51bee0e7e0c06fc3aeccdfd33a1207c56cd8ab957b/dash_spread_grid-0.1.4.tar.gz
+[2024-05-30 07:30:27] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/11/87/ef055e5996ecdc8f9e51bee0e7e0c06fc3aeccdfd33a1207c56cd8ab957b/dash_spread_grid-0.1.4.tar.gz
+[2024-05-30 07:30:27] INFO root fetch - processPackages [salve-ipc]: executing diffoscope
+[2024-05-30 07:30:27] INFO root fetch - processPackages [salve-ipc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salve_ipc-0.1.0.tar.gz tmp/salve_ipc-0.2.1.tar.gz --markdown 20240530/s/salve-ipc/0.1.0-0.2.1/README.md --exclude *.pyd
+[2024-05-30 07:30:27] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/fb/19/d534315240ded54ca39044c7cb7b2f180e4bb816f8beb9336da597dfbf74/ctrip-helper-0.1.5.tar.gz
+[2024-05-30 07:30:28] INFO root fetch - processPackages [dash-spread-grid]: executing diffoscope
+[2024-05-30 07:30:28] INFO root fetch - processPackages [dash-spread-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_spread_grid-0.1.3.tar.gz tmp/dash_spread_grid-0.1.4.tar.gz --markdown 20240530/d/dash-spread-grid/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-30 07:30:28] INFO root fetch - processPackages [dash-spread-grid]: executing diffoscope
+[2024-05-30 07:30:28] INFO root fetch - processPackages [dash-spread-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_spread_grid-0.1.3.tar.gz tmp/dash_spread_grid-0.1.4.tar.gz --markdown 20240530/d/dash-spread-grid/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-30 07:30:28] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-30 07:30:28] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.1.4.tar.gz tmp/ctrip-helper-0.1.5.tar.gz --markdown 20240530/c/ctrip-helper/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-30 07:30:28] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.4.0rc1] Old Version: [5.4.0]
+[2024-05-30 07:30:28] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/47/16/3490d2c5abc2cd413984c0664301bafe1ccde0e398ae2033413511cd89bf/Geode_Conversion-5.4.0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-30 07:30:28] INFO root fetch - processPackages [salve-ipc]: Remove: archive file [/home/abi/fetcher/tmp/salve_ipc-0.1.0.tar.gz]
+[2024-05-30 07:30:28] INFO root fetch - processPackages [salve-ipc]: Remove: archive file [/home/abi/fetcher/tmp/salve_ipc-0.2.1.tar.gz]
+[2024-05-30 07:30:28] INFO root fetch - main [MainThread]: End processing [salve-ipc]: success
+[2024-05-30 07:30:28] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.1.4.tar.gz]
+[2024-05-30 07:30:28] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.1.5.tar.gz]
+[2024-05-30 07:30:28] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-30 07:30:29] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/aa/67/a8e26e197780284119c4efc7b1e221d571ebe4d77a10704231a8b62a2ba0/Geode_Conversion-5.4.0rc1-cp39-cp39-win_amd64.whl
+[2024-05-30 07:30:29] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2024-05-30 07:30:29] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.4.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Conversion-5.4.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240530/G/Geode-Conversion/5.4.0-5.4.0rc1/README.md --exclude *.pyd
+[2024-05-30 07:30:29] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.1.3.tar.gz]
+[2024-05-30 07:30:29] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.1.4.tar.gz]
+[2024-05-30 07:30:29] INFO root fetch - main [MainThread]: End processing [dash-spread-grid]: success
+[2024-05-30 07:30:29] INFO root fetch - main [MainThread]: End processing [dash-spread-grid]: success
+[2024-05-30 07:30:30] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.4.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-30 07:30:30] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.4.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 07:30:30] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2024-05-30 07:30:30] INFO root fetch - main [MainThread]: Store serial: [23442714]
