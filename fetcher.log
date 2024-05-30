@@ -16125,3 +16125,18 @@ EOFError: EOF read where object expected
 [2024-05-30 09:27:36] INFO root fetch - processPackages [upcloud-api]: Remove: archive file [/home/abi/fetcher/tmp/upcloud_api-2.6.0.tar.gz]
 [2024-05-30 09:27:36] INFO root fetch - main [MainThread]: End processing [upcloud-api]: success
 [2024-05-30 09:27:36] INFO root fetch - main [MainThread]: Store serial: [23444124]
+[2024-05-30 09:29:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444124]
+[2024-05-30 09:29:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 09:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-audit-events
+[2024-05-30 09:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bronkhorstControlbm31
+[2024-05-30 09:29:45] WARNING root fetch - processPackages [bronkhorstControlbm31]: Skipping, unable to determine old version
+[2024-05-30 09:29:45] INFO root fetch - main [MainThread]: End processing [bronkhorstControlbm31] error
+[2024-05-30 09:29:45] INFO root fetch - processPackages [django-audit-events]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-30 09:29:45] INFO root fetch - processPackages [django-audit-events]: Downloading https://files.pythonhosted.org/packages/0f/9a/82ba82d502e833d388b842f6118ada5d4daee18afddc906c44e759774277/django-audit-events-0.3.3.tar.gz
+[2024-05-30 09:29:46] INFO root fetch - processPackages [django-audit-events]: Downloading https://files.pythonhosted.org/packages/23/47/433b7ef5a59b14eb64cbb39097d6da488d82181158dde730c87955d76766/django-audit-events-0.3.4.tar.gz
+[2024-05-30 09:29:46] INFO root fetch - processPackages [django-audit-events]: executing diffoscope
+[2024-05-30 09:29:46] INFO root fetch - processPackages [django-audit-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-audit-events-0.3.3.tar.gz tmp/django-audit-events-0.3.4.tar.gz --markdown 20240530/d/django-audit-events/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-30 09:29:46] INFO root fetch - processPackages [django-audit-events]: Remove: archive file [/home/abi/fetcher/tmp/django-audit-events-0.3.3.tar.gz]
+[2024-05-30 09:29:46] INFO root fetch - processPackages [django-audit-events]: Remove: archive file [/home/abi/fetcher/tmp/django-audit-events-0.3.4.tar.gz]
+[2024-05-30 09:29:46] INFO root fetch - main [MainThread]: End processing [django-audit-events]: success
+[2024-05-30 09:29:46] INFO root fetch - main [MainThread]: Store serial: [23444142]
