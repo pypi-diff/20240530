@@ -13125,3 +13125,60 @@ EOFError: EOF read where object expected
 [2024-05-30 07:52:26] INFO root fetch - processPackages [av]: Remove: archive file [/home/abi/fetcher/tmp/av-9.2.0.tar.gz]
 [2024-05-30 07:52:26] INFO root fetch - main [MainThread]: End processing [av]: success
 [2024-05-30 07:52:26] INFO root fetch - main [MainThread]: Store serial: [23443000]
+[2024-05-30 07:54:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443000]
+[2024-05-30 07:54:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 07:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molecular-interaction-rules
+[2024-05-30 07:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: injector-collections
+[2024-05-30 07:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-users-ldap-populate
+[2024-05-30 07:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gwml
+[2024-05-30 07:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fnschool
+[2024-05-30 07:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-base-external-dbsource
+[2024-05-30 07:54:36] INFO root fetch - processPackages [odoo-addon-users-ldap-populate]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-30 07:54:36] INFO root fetch - processPackages [fnschool]: New version: [20240530.80314.824] Old Version: [20240530.80256.815]
+[2024-05-30 07:54:36] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.7]
+[2024-05-30 07:54:36] INFO root fetch - processPackages [gwml]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 07:54:36] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.7] Old Version: [0.6.6]
+[2024-05-30 07:54:36] INFO root fetch - processPackages [injector-collections]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-30 07:54:36] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/01/b1/2b7da179313f6c8ac98da2a0ba9b2bad67062b97f6e41cd260a20889ebc3/molecular_interaction_rules-0.6.6.tar.gz
+[2024-05-30 07:54:36] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/12/4d/70526fa0d0489acf763d3fbe5861e908fea818ff724863418f003abcb21e/fnschool-20240530.80256.815.tar.gz
+[2024-05-30 07:54:36] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/74/b1/dd13d7aa61b546849dd957ac4f69f05dab5c14922cc210df942bd30f51ce/gwml-0.1.8-py3-none-any.whl
+[2024-05-30 07:54:36] INFO root fetch - processPackages [odoo-addon-users-ldap-populate]: Downloading https://files.pythonhosted.org/packages/57/95/9d063861424ad209a74156cedb0e7624736f7cfc86cb71c3da81ce451243/odoo_addon_users_ldap_populate-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-30 07:54:36] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/b7/10/0012a46c8052819232c7ece189e7c866aa4aaa80825f36d7131f85078959/injector_collections-0.0.6.tar.gz
+[2024-05-30 07:54:36] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: Downloading https://files.pythonhosted.org/packages/5f/22/2787afffd2b050c381636e3671de642ff0be5ff4084f284669c6e59039cb/odoo_addon_base_external_dbsource-16.0.1.0.1.7-py3-none-any.whl
+[2024-05-30 07:54:36] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/3a/0c/f8a96cba8e57cb826eafe85a9f3900402548c20e650346b5215cc9001e54/gwml-0.1.9-py3-none-any.whl
+[2024-05-30 07:54:36] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/0f/45/bff98c9f26229aee8a1ee89692aa9746c4c162006eb63d0f9554c1352882/injector_collections-0.0.7.tar.gz
+[2024-05-30 07:54:36] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/94/90/d35ea783e16e5004de261ac8b02f0e29935477352c3d53a5bd641545eb01/molecular_interaction_rules-0.7.tar.gz
+[2024-05-30 07:54:36] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/3a/92/9c3833d5a336b3e82319fbcbd77e36118e6c088704f9da5daaddb31c1ea7/fnschool-20240530.80314.824.tar.gz
+[2024-05-30 07:54:36] INFO root fetch - processPackages [odoo-addon-users-ldap-populate]: Downloading https://files.pythonhosted.org/packages/d5/3f/5aface6d85748936a95ef493d09831de56214696e768b88b5580ac5cb18e/odoo_addon_users_ldap_populate-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-30 07:54:36] INFO root fetch - processPackages [injector-collections]: executing diffoscope
+[2024-05-30 07:54:36] INFO root fetch - processPackages [injector-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injector_collections-0.0.6.tar.gz tmp/injector_collections-0.0.7.tar.gz --markdown 20240530/i/injector-collections/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-30 07:54:36] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-30 07:54:36] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.1.8-py3-none-any.whl.zip tmp/gwml-0.1.9-py3-none-any.whl.zip --markdown 20240530/g/gwml/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 07:54:36] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 07:54:36] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.6.6.tar.gz tmp/molecular_interaction_rules-0.7.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.6.6-0.7/README.md --exclude *.pyd
+[2024-05-30 07:54:36] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: Downloading https://files.pythonhosted.org/packages/b5/fc/136059379badc7c1717fce9aa8e6c73b5668d2f2f97b66a84056b15c927c/odoo_addon_base_external_dbsource-16.0.1.0.1.9-py3-none-any.whl
+[2024-05-30 07:54:36] INFO root fetch - processPackages [odoo-addon-users-ldap-populate]: executing diffoscope
+[2024-05-30 07:54:36] INFO root fetch - processPackages [odoo-addon-users-ldap-populate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_users_ldap_populate-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_users_ldap_populate-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-users-ldap-populate/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-30 07:54:36] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-05-30 07:54:36] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240530.80256.815.tar.gz tmp/fnschool-20240530.80314.824.tar.gz --markdown 20240530/f/fnschool/20240530.80256.815-20240530.80314.824/README.md --exclude *.pyd
+[2024-05-30 07:54:37] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: executing diffoscope
+[2024-05-30 07:54:37] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_external_dbsource-16.0.1.0.1.7-py3-none-any.whl.zip tmp/odoo_addon_base_external_dbsource-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-base-external-dbsource/16.0.1.0.1.7-16.0.1.0.1.9/README.md --exclude *.pyd
+[2024-05-30 07:54:37] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.6.tar.gz]
+[2024-05-30 07:54:37] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.7.tar.gz]
+[2024-05-30 07:54:37] INFO root fetch - main [MainThread]: End processing [injector-collections]: success
+[2024-05-30 07:54:37] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.8-py3-none-any.whl.zip]
+[2024-05-30 07:54:37] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.9-py3-none-any.whl.zip]
+[2024-05-30 07:54:37] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-30 07:54:37] INFO root fetch - processPackages [odoo-addon-users-ldap-populate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_users_ldap_populate-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-30 07:54:37] INFO root fetch - processPackages [odoo-addon-users-ldap-populate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_users_ldap_populate-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-30 07:54:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-users-ldap-populate]: success
+[2024-05-30 07:54:37] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.6.6.tar.gz]
+[2024-05-30 07:54:37] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.7.tar.gz]
+[2024-05-30 07:54:37] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 07:54:37] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_external_dbsource-16.0.1.0.1.7-py3-none-any.whl.zip]
+[2024-05-30 07:54:37] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_external_dbsource-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2024-05-30 07:54:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-external-dbsource]: success
+[2024-05-30 07:54:38] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240530.80256.815.tar.gz]
+[2024-05-30 07:54:38] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240530.80314.824.tar.gz]
+[2024-05-30 07:54:38] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-05-30 07:54:38] INFO root fetch - main [MainThread]: Store serial: [23443040]
