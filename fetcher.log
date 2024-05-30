@@ -20468,3 +20468,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:09:28] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-30 11:09:28] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-30 11:09:28] INFO root fetch - main [MainThread]: Store serial: [23445926]
+[2024-05-30 11:11:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23445926]
+[2024-05-30 11:11:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-30 11:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyE2
+[2024-05-30 11:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyclpu
+[2024-05-30 11:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: romms-glaficplots
+[2024-05-30 11:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rad4sea
+[2024-05-30 11:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: better-web3
+[2024-05-30 11:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovsdbapp
+[2024-05-30 11:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: turboflow
+[2024-05-30 11:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BTrees
+[2024-05-30 11:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xrdPlanner
+[2024-05-30 11:11:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neetils
+[2024-05-30 11:11:36] WARNING root fetch - processPackages [neetils]: Skipping, unable to determine old version
+[2024-05-30 11:11:36] INFO root fetch - main [MainThread]: End processing [neetils] error
+[2024-05-30 11:11:37] INFO root fetch - processPackages [rad4sea]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 11:11:37] INFO root fetch - processPackages [xrdPlanner]: New version: [2023.6.21] Old Version: [1.8.0]
+[2024-05-30 11:11:37] INFO root fetch - processPackages [ovsdbapp]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-05-30 11:11:37] INFO root fetch - processPackages [PyE2]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-30 11:11:37] INFO root fetch - processPackages [rad4sea]: Downloading https://files.pythonhosted.org/packages/60/39/0036eb0020b2ea3203dbe6b9efeb9f24546b79cf07332b8cfda3a4e66677/rad4sea-0.0.1.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [pyclpu]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-05-30 11:11:37] INFO root fetch - processPackages [romms-glaficplots]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 11:11:37] WARNING root fetch - processPackages [turboflow]: Skipping, unable to determine old version
+[2024-05-30 11:11:37] INFO root fetch - main [MainThread]: End processing [turboflow] error
+[2024-05-30 11:11:37] INFO root fetch - processPackages [better-web3]: New version: [4.0.0b9] Old Version: [4.0.0b8]
+[2024-05-30 11:11:37] INFO root fetch - processPackages [xrdPlanner]: Downloading https://files.pythonhosted.org/packages/6e/34/788803b1052ddab1b7727387b4e8802c944260ab7784d67578cb87d6940d/xrdplanner-1.8.0.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [BTrees]: New version: [6.0] Old Version: [5.2]
+[2024-05-30 11:11:37] INFO root fetch - processPackages [ovsdbapp]: Downloading https://files.pythonhosted.org/packages/40/9a/99f38577935a209c975c02dec266738c943377367c95c7ea4a0df4a093eb/ovsdbapp-2.7.0.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [rad4sea]: Downloading https://files.pythonhosted.org/packages/c9/95/ba3f93de00464bb970a241dde1d149057955cd5de7d3a328f7a8add0edce/rad4sea-0.0.2.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [pyclpu]: Downloading https://files.pythonhosted.org/packages/c1/43/b78134282909da0c42649fe003c6a84c0be7efcfd348a66fba7143285503/pyclpu-1.1.9.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/fb/7b/20cd37a1968b75085222bf1e0afcc30ac5ec1dea21aeef3826a1ed718e28/pye2-0.8.8.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [romms-glaficplots]: Downloading https://files.pythonhosted.org/packages/38/4e/571af2e2fd0229bc978af83fd27331e105ea2fc535287b7a23309f68056c/romms_glaficplots-0.0.8.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [better-web3]: Downloading https://files.pythonhosted.org/packages/3b/2a/ee1954845518e5af352311a3d33ec3dc359dafb48cc00dda9c24a5ce9712/better_web3-4.0.0b8.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [BTrees]: Downloading https://files.pythonhosted.org/packages/6d/87/871c26921330c94e3b989ec6fce5391a4d7f30d6b4e0c96a720de643adf9/BTrees-5.2.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [ovsdbapp]: Downloading https://files.pythonhosted.org/packages/7c/82/c0b18766e1ebee0d899f8aeb6e9e45189aad472f25618688e06304e24448/ovsdbapp-2.7.1.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [rad4sea]: executing diffoscope
+[2024-05-30 11:11:37] INFO root fetch - processPackages [rad4sea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rad4sea-0.0.1.tar.gz tmp/rad4sea-0.0.2.tar.gz --markdown 20240530/r/rad4sea/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 11:11:37] INFO root fetch - processPackages [xrdPlanner]: Downloading https://files.pythonhosted.org/packages/41/64/d98917c04771e9b308e8286daa8af34ba7bcfc8c9e3dd0f5b3690fcabb4c/xrdPlanner-2023.6.21.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [ovsdbapp]: executing diffoscope
+[2024-05-30 11:11:37] INFO root fetch - processPackages [ovsdbapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovsdbapp-2.7.0.tar.gz tmp/ovsdbapp-2.7.1.tar.gz --markdown 20240530/o/ovsdbapp/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-05-30 11:11:37] INFO root fetch - processPackages [xrdPlanner]: executing diffoscope
+[2024-05-30 11:11:37] INFO root fetch - processPackages [xrdPlanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrdplanner-1.8.0.tar.gz tmp/xrdPlanner-2023.6.21.tar.gz --markdown 20240530/x/xrdPlanner/1.8.0-2023.6.21/README.md --exclude *.pyd
+[2024-05-30 11:11:37] INFO root fetch - processPackages [pyclpu]: Downloading https://files.pythonhosted.org/packages/fe/83/6dd3a6a22540e83e748a3d2db004c8adeed3159b4bd58d075d2dbf12ccc5/pyclpu-1.2.0.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [BTrees]: Downloading https://files.pythonhosted.org/packages/45/4e/b0b8b0113835347d7a83647df90acbf11d7be0027844651cf369abcbb15c/BTrees-6.0.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [better-web3]: Downloading https://files.pythonhosted.org/packages/00/d4/efe2790383b9b61118ce343db8a10ff03d4547cab2335586af1623d627de/better_web3-4.0.0b9.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/b3/6c/4f3af23f2ebf4a0dacc1b75aeba89f39f85550df77e7a29c57b5ab5f1824/pye2-0.8.9.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [romms-glaficplots]: Downloading https://files.pythonhosted.org/packages/be/5f/ec560e93e981ecb2c7e391063bbd16c36e6b90b5273f41bbb9d7daf4eee0/romms_glaficplots-0.0.9.tar.gz
+[2024-05-30 11:11:37] INFO root fetch - processPackages [better-web3]: executing diffoscope
+[2024-05-30 11:11:37] INFO root fetch - processPackages [better-web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better_web3-4.0.0b8.tar.gz tmp/better_web3-4.0.0b9.tar.gz --markdown 20240530/b/better-web3/4.0.0b8-4.0.0b9/README.md --exclude *.pyd
+[2024-05-30 11:11:38] INFO root fetch - processPackages [pyclpu]: executing diffoscope
+[2024-05-30 11:11:38] INFO root fetch - processPackages [pyclpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclpu-1.1.9.tar.gz tmp/pyclpu-1.2.0.tar.gz --markdown 20240530/p/pyclpu/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-05-30 11:11:38] INFO root fetch - processPackages [BTrees]: executing diffoscope
+[2024-05-30 11:11:38] INFO root fetch - processPackages [BTrees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BTrees-5.2.tar.gz tmp/BTrees-6.0.tar.gz --markdown 20240530/B/BTrees/5.2-6.0/README.md --exclude *.pyd
+[2024-05-30 11:11:38] INFO root fetch - processPackages [romms-glaficplots]: executing diffoscope
+[2024-05-30 11:11:38] INFO root fetch - processPackages [romms-glaficplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/romms_glaficplots-0.0.8.tar.gz tmp/romms_glaficplots-0.0.9.tar.gz --markdown 20240530/r/romms-glaficplots/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 11:11:38] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-30 11:11:38] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.8.8.tar.gz tmp/pye2-0.8.9.tar.gz --markdown 20240530/P/PyE2/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-30 11:11:38] INFO root fetch - processPackages [xrdPlanner]: Remove: archive file [/home/abi/fetcher/tmp/xrdplanner-1.8.0.tar.gz]
+[2024-05-30 11:11:38] INFO root fetch - processPackages [xrdPlanner]: Remove: archive file [/home/abi/fetcher/tmp/xrdPlanner-2023.6.21.tar.gz]
+[2024-05-30 11:11:38] INFO root fetch - main [MainThread]: End processing [xrdPlanner]: success
+[2024-05-30 11:11:38] INFO root fetch - processPackages [rad4sea]: Remove: archive file [/home/abi/fetcher/tmp/rad4sea-0.0.1.tar.gz]
+[2024-05-30 11:11:38] INFO root fetch - processPackages [rad4sea]: Remove: archive file [/home/abi/fetcher/tmp/rad4sea-0.0.2.tar.gz]
+[2024-05-30 11:11:38] INFO root fetch - main [MainThread]: End processing [rad4sea]: success
+[2024-05-30 11:11:38] INFO root fetch - processPackages [ovsdbapp]: Remove: archive file [/home/abi/fetcher/tmp/ovsdbapp-2.7.0.tar.gz]
+[2024-05-30 11:11:38] INFO root fetch - processPackages [ovsdbapp]: Remove: archive file [/home/abi/fetcher/tmp/ovsdbapp-2.7.1.tar.gz]
+[2024-05-30 11:11:38] INFO root fetch - main [MainThread]: End processing [ovsdbapp]: success
+[2024-05-30 11:11:38] INFO root fetch - processPackages [romms-glaficplots]: Remove: archive file [/home/abi/fetcher/tmp/romms_glaficplots-0.0.8.tar.gz]
+[2024-05-30 11:11:38] INFO root fetch - processPackages [romms-glaficplots]: Remove: archive file [/home/abi/fetcher/tmp/romms_glaficplots-0.0.9.tar.gz]
+[2024-05-30 11:11:38] INFO root fetch - main [MainThread]: End processing [romms-glaficplots]: success
+[2024-05-30 11:11:38] INFO root fetch - processPackages [pyclpu]: Remove: archive file [/home/abi/fetcher/tmp/pyclpu-1.1.9.tar.gz]
+[2024-05-30 11:11:38] INFO root fetch - processPackages [pyclpu]: Remove: archive file [/home/abi/fetcher/tmp/pyclpu-1.2.0.tar.gz]
+[2024-05-30 11:11:38] INFO root fetch - main [MainThread]: End processing [pyclpu]: success
+[2024-05-30 11:11:38] INFO root fetch - processPackages [better-web3]: Remove: archive file [/home/abi/fetcher/tmp/better_web3-4.0.0b8.tar.gz]
+[2024-05-30 11:11:38] INFO root fetch - processPackages [better-web3]: Remove: archive file [/home/abi/fetcher/tmp/better_web3-4.0.0b9.tar.gz]
+[2024-05-30 11:11:38] INFO root fetch - main [MainThread]: End processing [better-web3]: success
+[2024-05-30 11:11:39] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.8.tar.gz]
+[2024-05-30 11:11:39] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.9.tar.gz]
+[2024-05-30 11:11:39] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-30 11:11:39] INFO root fetch - processPackages [BTrees]: Remove: archive file [/home/abi/fetcher/tmp/BTrees-5.2.tar.gz]
+[2024-05-30 11:11:39] INFO root fetch - processPackages [BTrees]: Remove: archive file [/home/abi/fetcher/tmp/BTrees-6.0.tar.gz]
+[2024-05-30 11:11:39] INFO root fetch - main [MainThread]: End processing [BTrees]: success
+[2024-05-30 11:11:39] INFO root fetch - main [MainThread]: Store serial: [23445956]
