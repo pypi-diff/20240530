@@ -18327,3 +18327,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:46:33] INFO root fetch - processPackages [Geode-Hybrid]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Hybrid-2.4.4rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-30 10:46:33] INFO root fetch - main [MainThread]: End processing [Geode-Hybrid]: success
 [2024-05-30 10:46:33] INFO root fetch - main [MainThread]: Store serial: [23445299]
+[2024-05-30 10:48:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23445299]
+[2024-05-30 10:48:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-30 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: didtool
+[2024-05-30 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2024-05-30 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygcap
+[2024-05-30 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polarify
+[2024-05-30 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ms-teams-notify
+[2024-05-30 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CI-CloudConnector
+[2024-05-30 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-move-post-date-user
+[2024-05-30 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pynumint
+[2024-05-30 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-lineup
+[2024-05-30 10:48:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assisted-service-client
+[2024-05-30 10:48:48] INFO root fetch - processPackages [pygcap]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 10:48:48] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-05-30 10:48:48] WARNING root fetch - processPackages [ms-teams-notify]: Skipping, unable to determine old version
+[2024-05-30 10:48:48] INFO root fetch - processPackages [ms-teams-notify]: Start processing: palje
+[2024-05-30 10:48:48] INFO root fetch - main [MainThread]: End processing [ms-teams-notify] error
+[2024-05-30 10:48:48] INFO root fetch - processPackages [CI-CloudConnector]: New version: [1.9] Old Version: [1.8]
+[2024-05-30 10:48:48] INFO root fetch - processPackages [pynumint]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-30 10:48:48] INFO root fetch - processPackages [odoo-addon-account-move-post-date-user]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-30 10:48:48] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-30 10:48:48] INFO root fetch - processPackages [polarify]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-30 10:48:48] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/4d/a9/95a04b5f34889a3bc817a1e7727cc93f8d37034cc06b9e76540e1ea0200a/ci_cloudconnector-1.8.tar.gz
+[2024-05-30 10:48:48] INFO root fetch - processPackages [didtool]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-30 10:48:48] INFO root fetch - processPackages [django-lineup]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-30 10:48:48] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-05-30 10:48:48] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-30 10:48:48] INFO root fetch - processPackages [pygcap]: Downloading https://files.pythonhosted.org/packages/16/2c/92ada5dd11ce82b6090457800bb1697c2ddc1b1b3006d446c8b11ad00090/pygcap-0.0.1.tar.gz
+[2024-05-30 10:48:48] INFO root fetch - processPackages [pynumint]: Downloading https://files.pythonhosted.org/packages/16/df/00f083bb993dd4b8ed7a564a59dc7e1ea2f696bc4ef4e9ab990c2b70a4d3/pynumint-0.0.4.tar.gz
+[2024-05-30 10:48:48] INFO root fetch - processPackages [palje]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-30 10:48:48] INFO root fetch - processPackages [odoo-addon-account-move-post-date-user]: Downloading https://files.pythonhosted.org/packages/22/eb/6d39c49938d92e033eddf560c105d82cfbb9a4e26de0637da638c19851ac/odoo_addon_account_move_post_date_user-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-30 10:48:48] INFO root fetch - processPackages [didtool]: Downloading https://files.pythonhosted.org/packages/ea/b9/239f8e012b1673a04bb02f98f89077175ff6c8b98eb78759c8db77eaf6e7/didtool-0.1.2-py3-none-any.whl
+[2024-05-30 10:48:48] INFO root fetch - processPackages [polarify]: Downloading https://files.pythonhosted.org/packages/46/5e/5b46584ae68ac52f7254dd13a5e63051caf9ae86908284ed0ca189424631/polarify-0.1.5.tar.gz
+[2024-05-30 10:48:48] INFO root fetch - processPackages [django-lineup]: Downloading https://files.pythonhosted.org/packages/7b/d9/688fdb4bd135014f1a46054dd142db1c5144a8fe72a23b0e6ba171ccd63e/django-lineup-0.3.1.tar.gz
+[2024-05-30 10:48:48] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/c2/5b/eb330460cb6ae9b4ad7c16906bd9c9f520603d193b4c0c7d760d7dee8ad4/ci_cloudconnector-1.9.tar.gz
+[2024-05-30 10:48:48] INFO root fetch - processPackages [palje]: Downloading https://files.pythonhosted.org/packages/1c/c9/4b3bf42df455a6a03c12f197929577072cd0fe7882467bfea9e7e311da19/palje-2.1.0-py3-none-any.whl
+[2024-05-30 10:48:48] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-30 10:48:48] INFO root fetch - processPackages [pynumint]: Downloading https://files.pythonhosted.org/packages/35/2e/b850e8fcb2e975ff41b5f8fc5b7fe604b63213629d34c9cd21321acfbf62/pynumint-0.0.5.tar.gz
+[2024-05-30 10:48:48] INFO root fetch - processPackages [pygcap]: Downloading https://files.pythonhosted.org/packages/b2/38/bc732a0a819431254df376ef557712d2d8a8e3c883d8628ca219af2c2ccf/pygcap-0.0.2.tar.gz
+[2024-05-30 10:48:48] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-30 10:48:48] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-1.8.tar.gz tmp/ci_cloudconnector-1.9.tar.gz --markdown 20240530/C/CI-CloudConnector/1.8-1.9/README.md --exclude *.pyd
+[2024-05-30 10:48:48] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-05-30 10:48:48] INFO root fetch - processPackages [odoo-addon-account-move-post-date-user]: Downloading https://files.pythonhosted.org/packages/19/db/4ea501568868e7ed7d2a640e09751d1d1341ff2e2becbcedde1f636e0364/odoo_addon_account_move_post_date_user-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-30 10:48:48] INFO root fetch - processPackages [didtool]: Downloading https://files.pythonhosted.org/packages/49/04/9805f9521bf1d8b9b6adec7f9e3a460c90c1d293211df0359e97b6eaf6c4/didtool-0.1.3-py3-none-any.whl
+[2024-05-30 10:48:49] INFO root fetch - processPackages [pynumint]: executing diffoscope
+[2024-05-30 10:48:49] INFO root fetch - processPackages [pynumint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynumint-0.0.4.tar.gz tmp/pynumint-0.0.5.tar.gz --markdown 20240530/p/pynumint/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-30 10:48:49] INFO root fetch - processPackages [polarify]: Downloading https://files.pythonhosted.org/packages/89/5c/86adcecb9701497933cf9892b2ebe95559d6497994d6731b30330bd9db2d/polarify-0.2.0.tar.gz
+[2024-05-30 10:48:49] INFO root fetch - processPackages [django-lineup]: Downloading https://files.pythonhosted.org/packages/97/88/7f9ff6c3081cd9912e1839d2321ae6ec6f0f98986563a65257f8c427f431/django-lineup-0.3.2.tar.gz
+[2024-05-30 10:48:49] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-30 10:48:49] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240530/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-30 10:48:49] INFO root fetch - processPackages [pygcap]: executing diffoscope
+[2024-05-30 10:48:49] INFO root fetch - processPackages [pygcap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygcap-0.0.1.tar.gz tmp/pygcap-0.0.2.tar.gz --markdown 20240530/p/pygcap/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 10:48:49] INFO root fetch - processPackages [odoo-addon-account-move-post-date-user]: executing diffoscope
+[2024-05-30 10:48:49] INFO root fetch - processPackages [odoo-addon-account-move-post-date-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_post_date_user-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_move_post_date_user-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-account-move-post-date-user/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-30 10:48:49] INFO root fetch - processPackages [palje]: Downloading https://files.pythonhosted.org/packages/18/92/52a0a9461ec468e408c36a6ac365de2d311587cb9cb7928e223eb2c6c03d/palje-2.2.0-py3-none-any.whl
+[2024-05-30 10:48:49] INFO root fetch - processPackages [didtool]: executing diffoscope
+[2024-05-30 10:48:49] INFO root fetch - processPackages [didtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/didtool-0.1.2-py3-none-any.whl.zip tmp/didtool-0.1.3-py3-none-any.whl.zip --markdown 20240530/d/didtool/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-30 10:48:49] INFO root fetch - processPackages [polarify]: executing diffoscope
+[2024-05-30 10:48:49] INFO root fetch - processPackages [polarify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polarify-0.1.5.tar.gz tmp/polarify-0.2.0.tar.gz --markdown 20240530/p/polarify/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-30 10:48:49] INFO root fetch - processPackages [django-lineup]: executing diffoscope
+[2024-05-30 10:48:49] INFO root fetch - processPackages [django-lineup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-lineup-0.3.1.tar.gz tmp/django-lineup-0.3.2.tar.gz --markdown 20240530/d/django-lineup/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-30 10:48:49] INFO root fetch - processPackages [palje]: executing diffoscope
+[2024-05-30 10:48:49] INFO root fetch - processPackages [palje]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palje-2.1.0-py3-none-any.whl.zip tmp/palje-2.2.0-py3-none-any.whl.zip --markdown 20240530/p/palje/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-30 10:48:49] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-05-30 10:48:49] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240530/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-05-30 10:48:49] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.8.tar.gz]
+[2024-05-30 10:48:49] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.9.tar.gz]
+[2024-05-30 10:48:49] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-30 10:48:50] INFO root fetch - processPackages [pynumint]: Remove: archive file [/home/abi/fetcher/tmp/pynumint-0.0.4.tar.gz]
+[2024-05-30 10:48:50] INFO root fetch - processPackages [pynumint]: Remove: archive file [/home/abi/fetcher/tmp/pynumint-0.0.5.tar.gz]
+[2024-05-30 10:48:50] INFO root fetch - main [MainThread]: End processing [pynumint]: success
+[2024-05-30 10:48:50] INFO root fetch - processPackages [pygcap]: Remove: archive file [/home/abi/fetcher/tmp/pygcap-0.0.1.tar.gz]
+[2024-05-30 10:48:50] INFO root fetch - processPackages [pygcap]: Remove: archive file [/home/abi/fetcher/tmp/pygcap-0.0.2.tar.gz]
+[2024-05-30 10:48:50] INFO root fetch - main [MainThread]: End processing [pygcap]: success
+[2024-05-30 10:48:50] INFO root fetch - processPackages [odoo-addon-account-move-post-date-user]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_post_date_user-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-30 10:48:50] INFO root fetch - processPackages [odoo-addon-account-move-post-date-user]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_post_date_user-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-30 10:48:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-post-date-user]: success
+[2024-05-30 10:48:50] INFO root fetch - processPackages [polarify]: Remove: archive file [/home/abi/fetcher/tmp/polarify-0.1.5.tar.gz]
+[2024-05-30 10:48:50] INFO root fetch - processPackages [polarify]: Remove: archive file [/home/abi/fetcher/tmp/polarify-0.2.0.tar.gz]
+[2024-05-30 10:48:50] INFO root fetch - main [MainThread]: End processing [polarify]: success
+[2024-05-30 10:48:50] INFO root fetch - processPackages [django-lineup]: Remove: archive file [/home/abi/fetcher/tmp/django-lineup-0.3.1.tar.gz]
+[2024-05-30 10:48:50] INFO root fetch - processPackages [django-lineup]: Remove: archive file [/home/abi/fetcher/tmp/django-lineup-0.3.2.tar.gz]
+[2024-05-30 10:48:50] INFO root fetch - main [MainThread]: End processing [django-lineup]: success
+[2024-05-30 10:48:50] INFO root fetch - processPackages [didtool]: Remove: archive file [/home/abi/fetcher/tmp/didtool-0.1.2-py3-none-any.whl.zip]
+[2024-05-30 10:48:50] INFO root fetch - processPackages [didtool]: Remove: archive file [/home/abi/fetcher/tmp/didtool-0.1.3-py3-none-any.whl.zip]
+[2024-05-30 10:48:50] INFO root fetch - processPackages [palje]: Remove: archive file [/home/abi/fetcher/tmp/palje-2.1.0-py3-none-any.whl.zip]
+[2024-05-30 10:48:50] INFO root fetch - processPackages [palje]: Remove: archive file [/home/abi/fetcher/tmp/palje-2.2.0-py3-none-any.whl.zip]
+[2024-05-30 10:48:50] INFO root fetch - main [MainThread]: End processing [didtool]: success
+[2024-05-30 10:48:50] INFO root fetch - main [MainThread]: End processing [palje]: success
+[2024-05-30 10:48:50] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-30 10:48:50] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-30 10:48:50] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-30 10:48:52] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-05-30 10:48:52] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-05-30 10:48:52] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-05-30 10:48:52] INFO root fetch - main [MainThread]: Store serial: [23445327]
