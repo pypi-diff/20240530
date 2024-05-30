@@ -9609,3 +9609,51 @@ EOFError: EOF read where object expected
 [2024-05-30 05:16:20] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-0.9.96.tar.gz]
 [2024-05-30 05:16:20] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
 [2024-05-30 05:16:20] INFO root fetch - main [MainThread]: Store serial: [23441627]
+[2024-05-30 05:18:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441627]
+[2024-05-30 05:18:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 05:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rockai-cli-app
+[2024-05-30 05:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyluba
+[2024-05-30 05:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazy-mongo-log
+[2024-05-30 05:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: civitdl
+[2024-05-30 05:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: khoj-assistant
+[2024-05-30 05:18:29] INFO root fetch - processPackages [pyluba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 05:18:29] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-30 05:18:29] INFO root fetch - processPackages [lazy-mongo-log]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-30 05:18:29] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-30 05:18:29] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/52/99/e29e1d5ada99bf72806e253adb260c8ac9718c47fdfc9c9a26d99fcc0d52/pyluba-0.0.8.tar.gz
+[2024-05-30 05:18:29] INFO root fetch - processPackages [civitdl]: New version: [2.1.0.dev2] Old Version: [2.1.0.dev1]
+[2024-05-30 05:18:29] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-30 05:18:29] INFO root fetch - processPackages [lazy-mongo-log]: Downloading https://files.pythonhosted.org/packages/2a/f5/65fd87f29734de8d352246613a46c35951bc3821eb39de74345cf2efac73/lazy_mongo_log-0.1.5.tar.gz
+[2024-05-30 05:18:29] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/84/ab/a79a516adda0073565ebbe893c1269969eb2e11db4ea3957e1d76e1ebf9e/pyluba-0.0.9.tar.gz
+[2024-05-30 05:18:29] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/5a/3e/9d54574e68b34c402973941001159779d96dcf0fdba3e56990a140e210c3/rockai_cli_app-0.2.2.tar.gz
+[2024-05-30 05:18:29] INFO root fetch - processPackages [civitdl]: Downloading https://files.pythonhosted.org/packages/7a/3a/a26601e0c05fe3a6764d336469e889fd1b00a9249f56525bae1fd70d91d6/civitdl-2.1.0.dev1.tar.gz
+[2024-05-30 05:18:29] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-05-30 05:18:29] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.8.tar.gz tmp/pyluba-0.0.9.tar.gz --markdown 20240530/p/pyluba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 05:18:29] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-30 05:18:29] INFO root fetch - processPackages [lazy-mongo-log]: Downloading https://files.pythonhosted.org/packages/59/0d/f8b15dc5358d43b7d9454348055c39f05d14d2c6f37784330a18fcc087bc/lazy_mongo_log-0.1.6.tar.gz
+[2024-05-30 05:18:29] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/ae/7b/ac6b2ad77811b76d2ca7d2c877a138c20950cfef6cd82e605a9e098e55f5/rockai_cli_app-0.2.3.tar.gz
+[2024-05-30 05:18:29] INFO root fetch - processPackages [lazy-mongo-log]: executing diffoscope
+[2024-05-30 05:18:29] INFO root fetch - processPackages [lazy-mongo-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_mongo_log-0.1.5.tar.gz tmp/lazy_mongo_log-0.1.6.tar.gz --markdown 20240530/l/lazy-mongo-log/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-30 05:18:29] INFO root fetch - processPackages [civitdl]: Downloading https://files.pythonhosted.org/packages/4f/dc/9b2615763346a0b6a85c13f805d7bc79a50c5d439e3ca621dbd71e303f3f/civitdl-2.1.0.dev2.tar.gz
+[2024-05-30 05:18:29] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-30 05:18:29] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.2.tar.gz tmp/rockai_cli_app-0.2.3.tar.gz --markdown 20240530/r/rockai-cli-app/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-30 05:18:30] INFO root fetch - processPackages [civitdl]: executing diffoscope
+[2024-05-30 05:18:30] INFO root fetch - processPackages [civitdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civitdl-2.1.0.dev1.tar.gz tmp/civitdl-2.1.0.dev2.tar.gz --markdown 20240530/c/civitdl/2.1.0.dev1-2.1.0.dev2/README.md --exclude *.pyd
+[2024-05-30 05:18:30] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-30 05:18:30] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240530/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-30 05:18:30] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.8.tar.gz]
+[2024-05-30 05:18:30] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.9.tar.gz]
+[2024-05-30 05:18:30] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-05-30 05:18:30] INFO root fetch - processPackages [lazy-mongo-log]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo_log-0.1.5.tar.gz]
+[2024-05-30 05:18:30] INFO root fetch - processPackages [lazy-mongo-log]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo_log-0.1.6.tar.gz]
+[2024-05-30 05:18:30] INFO root fetch - main [MainThread]: End processing [lazy-mongo-log]: success
+[2024-05-30 05:18:30] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.2.tar.gz]
+[2024-05-30 05:18:30] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.3.tar.gz]
+[2024-05-30 05:18:30] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-30 05:18:30] INFO root fetch - processPackages [civitdl]: Remove: archive file [/home/abi/fetcher/tmp/civitdl-2.1.0.dev1.tar.gz]
+[2024-05-30 05:18:30] INFO root fetch - processPackages [civitdl]: Remove: archive file [/home/abi/fetcher/tmp/civitdl-2.1.0.dev2.tar.gz]
+[2024-05-30 05:18:30] INFO root fetch - main [MainThread]: End processing [civitdl]: success
+[2024-05-30 05:18:31] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-30 05:18:31] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-30 05:18:31] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-30 05:18:31] INFO root fetch - main [MainThread]: Store serial: [23441642]
