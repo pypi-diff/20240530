@@ -9738,3 +9738,49 @@ EOFError: EOF read where object expected
 [2024-05-30 05:25:04] INFO root fetch - processPackages [mutt-html-reply]: Remove: archive file [/home/abi/fetcher/tmp/mutt_html_reply-0.3.0.tar.gz]
 [2024-05-30 05:25:04] INFO root fetch - main [MainThread]: End processing [mutt-html-reply]: success
 [2024-05-30 05:25:04] INFO root fetch - main [MainThread]: Store serial: [23441664]
+[2024-05-30 05:27:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441664]
+[2024-05-30 05:27:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specklia
+[2024-05-30 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: molecular-interaction-rules
+[2024-05-30 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BioSAK
+[2024-05-30 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: molecular-interaction-rules
+[2024-05-30 05:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-acme
+[2024-05-30 05:27:14] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.4] Old Version: [0.3]
+[2024-05-30 05:27:14] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.4] Old Version: [0.3]
+[2024-05-30 05:27:14] INFO root fetch - processPackages [BioSAK]: New version: [1.89.0] Old Version: [1.88.9]
+[2024-05-30 05:27:14] INFO root fetch - processPackages [specklia]: New version: [1.8.91] Old Version: [1.8.90]
+[2024-05-30 05:27:14] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/0d/bd/a9ef28b02c207b10848eb4e91d1f8a1388c74ed3c052156b56b93ef41477/molecular_interaction_rules-0.3.tar.gz
+[2024-05-30 05:27:14] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/62/97/bf719db985f3e78168efac2d24682565516b6a12a3997626926808793ccb/BioSAK-1.88.9.tar.gz
+[2024-05-30 05:27:14] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2e/48/84d12e79f1de46b20cbf111cecb4355753d24287c31dd0c3ef759ce9dbb8/specklia-1.8.90.tar.gz
+[2024-05-30 05:27:14] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/0d/bd/a9ef28b02c207b10848eb4e91d1f8a1388c74ed3c052156b56b93ef41477/molecular_interaction_rules-0.3.tar.gz
+[2024-05-30 05:27:14] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/fa/b1/9c33ad33c2014fa85c3f15f3991e12a256d01e486a607b2276120bb43245/specklia-1.8.91.tar.gz
+[2024-05-30 05:27:14] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-30 05:27:15] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/d5/88/aabe1ba79020b3aa7af2e3d8c7a94e0da87fbfb68a6a9311ecf33625804d/molecular_interaction_rules-0.4.tar.gz
+[2024-05-30 05:27:15] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/4d/d4/b89562e72bd7a42de4b88108e81279b88e81cce94e9d21ef415f1f4f9fac/BioSAK-1.89.0.tar.gz
+[2024-05-30 05:27:15] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/d5/88/aabe1ba79020b3aa7af2e3d8c7a94e0da87fbfb68a6a9311ecf33625804d/molecular_interaction_rules-0.4.tar.gz
+[2024-05-30 05:27:15] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-05-30 05:27:15] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.90.tar.gz tmp/specklia-1.8.91.tar.gz --markdown 20240530/s/specklia/1.8.90-1.8.91/README.md --exclude *.pyd
+[2024-05-30 05:27:15] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 05:27:15] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.3.tar.gz tmp/molecular_interaction_rules-0.4.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.3-0.4/README.md --exclude *.pyd
+[2024-05-30 05:27:15] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 05:27:15] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.3.tar.gz tmp/molecular_interaction_rules-0.4.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.3-0.4/README.md --exclude *.pyd
+[2024-05-30 05:27:15] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: Downloading https://files.pythonhosted.org/packages/ae/99/bb03b3ad283ca307ee1c73e9a7620534f1c835737069ab3db1f116add435/cdktf-cdktf-provider-acme-9.0.2.tar.gz
+[2024-05-30 05:27:15] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-05-30 05:27:15] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.88.9.tar.gz tmp/BioSAK-1.89.0.tar.gz --markdown 20240530/B/BioSAK/1.88.9-1.89.0/README.md --exclude *.pyd
+[2024-05-30 05:27:15] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: Downloading https://files.pythonhosted.org/packages/e9/5a/c82d25261bf9fced84540ca885d58a1cdcd9b5c95dddc4c728dca7b07327/cdktf-cdktf-provider-acme-9.0.3.tar.gz
+[2024-05-30 05:27:15] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.3.tar.gz]
+[2024-05-30 05:27:15] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.4.tar.gz]
+[2024-05-30 05:27:15] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 05:27:15] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 05:27:15] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.90.tar.gz]
+[2024-05-30 05:27:15] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.91.tar.gz]
+[2024-05-30 05:27:15] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-05-30 05:27:15] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: executing diffoscope
+[2024-05-30 05:27:15] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-acme-9.0.2.tar.gz tmp/cdktf-cdktf-provider-acme-9.0.3.tar.gz --markdown 20240530/c/cdktf-cdktf-provider-acme/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-30 05:27:16] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-acme-9.0.2.tar.gz]
+[2024-05-30 05:27:16] INFO root fetch - processPackages [cdktf-cdktf-provider-acme]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-acme-9.0.3.tar.gz]
+[2024-05-30 05:27:16] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-acme]: success
+[2024-05-30 05:27:16] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.9.tar.gz]
+[2024-05-30 05:27:16] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.89.0.tar.gz]
+[2024-05-30 05:27:16] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-05-30 05:27:16] INFO root fetch - main [MainThread]: Store serial: [23441677]
