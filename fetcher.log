@@ -2117,3 +2117,72 @@ EOFError: EOF read where object expected
 [2024-05-30 02:10:11] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.7.0-py3-none-any.whl.zip]
 [2024-05-30 02:10:11] INFO root fetch - main [MainThread]: End processing [mesop]: success
 [2024-05-30 02:10:11] INFO root fetch - main [MainThread]: Store serial: [23438716]
+[2024-05-30 02:12:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438716]
+[2024-05-30 02:12:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 02:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coderedcms
+[2024-05-30 02:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-common
+[2024-05-30 02:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arccanet
+[2024-05-30 02:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py2hackCraft2
+[2024-05-30 02:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mct-quantizers-nightly
+[2024-05-30 02:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: palimpzest
+[2024-05-30 02:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: verbose-terminal
+[2024-05-30 02:12:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipex-llm
+[2024-05-30 02:12:28] WARNING root fetch - processPackages [verbose-terminal]: Skipping, unable to determine old version
+[2024-05-30 02:12:28] INFO root fetch - main [MainThread]: End processing [verbose-terminal] error
+[2024-05-30 02:12:28] INFO root fetch - processPackages [palimpzest]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-30 02:12:28] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240529.post1145] Old Version: [1.5.0.20240528.post1119]
+[2024-05-30 02:12:28] INFO root fetch - processPackages [py2hackCraft2]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-30 02:12:28] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/4d/d6/f5127d5ca338a1ece5412b13edb45cfa6fa78bc8f43e066880ca3b02cb75/palimpzest-0.1.4.tar.gz
+[2024-05-30 02:12:28] INFO root fetch - processPackages [arccanet]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-30 02:12:28] INFO root fetch - processPackages [coderedcms]: New version: [4.0.0] Old Version: [3.0.4]
+[2024-05-30 02:12:28] INFO root fetch - processPackages [ipex-llm]: New version: [2.1.0b20240529] Old Version: [2.1.0b20240528]
+[2024-05-30 02:12:28] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/e0/bd/095be984656122adc3e9276a0101c32a55d311d7fa4e9dc7fd7e2bc4bf06/mct-quantizers-nightly-1.5.0.20240528.post1119.tar.gz
+[2024-05-30 02:12:28] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-30 02:12:28] INFO root fetch - processPackages [coderedcms]: Downloading https://files.pythonhosted.org/packages/e9/61/6f0a00d768b6190369629343a56cf2c423f6211d94348dd2faf7dc6b6c06/coderedcms-3.0.4.tar.gz
+[2024-05-30 02:12:28] INFO root fetch - processPackages [arccanet]: Downloading https://files.pythonhosted.org/packages/5f/7d/d3792cbf56ded647bd0fef71032664bc98cb0ca2a13d624943bf76f01070/arccanet-0.0.6.tar.gz
+[2024-05-30 02:12:28] INFO root fetch - processPackages [py2hackCraft2]: Downloading https://files.pythonhosted.org/packages/1b/b6/f8a9d2dfebdb5c20df2274657811798030b95f492903b3479c1e6f7fcb19/py2hackCraft2-1.0.8.tar.gz
+[2024-05-30 02:12:28] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/b9/23/09de12a7b5df0a94e18956dbaf80c9f42bbbe248bdeb49084f9f4b96fd80/ipex_llm-2.1.0b20240528-py3-none-win_amd64.whl
+[2024-05-30 02:12:28] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/0b/53/7bf70ced1eeba9a8f873fcb0fd07c1fa6c99a924227f167bf341ca4d287a/palimpzest-0.1.5.tar.gz
+[2024-05-30 02:12:28] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/86/a4/2ed4ddfedcc5d3ae62078583f30072db704e2bb718abcc8535391d3c5b37/mct-quantizers-nightly-1.5.0.20240529.post1145.tar.gz
+[2024-05-30 02:12:29] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-30 02:12:29] INFO root fetch - processPackages [palimpzest]: executing diffoscope
+[2024-05-30 02:12:29] INFO root fetch - processPackages [palimpzest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palimpzest-0.1.4.tar.gz tmp/palimpzest-0.1.5.tar.gz --markdown 20240530/p/palimpzest/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-30 02:12:29] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-30 02:12:29] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240528.post1119.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240529.post1145.tar.gz --markdown 20240530/m/mct-quantizers-nightly/1.5.0.20240528.post1119-1.5.0.20240529.post1145/README.md --exclude *.pyd
+[2024-05-30 02:12:29] INFO root fetch - processPackages [arccanet]: Downloading https://files.pythonhosted.org/packages/73/d9/5528db170ccaedc72c1f4750ba2742788eea113ac344026d478e6c44103e/arccanet-0.0.7.tar.gz
+[2024-05-30 02:12:29] INFO root fetch - processPackages [arccanet]: executing diffoscope
+[2024-05-30 02:12:29] INFO root fetch - processPackages [arccanet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arccanet-0.0.6.tar.gz tmp/arccanet-0.0.7.tar.gz --markdown 20240530/a/arccanet/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-30 02:12:29] INFO root fetch - processPackages [coderedcms]: Downloading https://files.pythonhosted.org/packages/4b/c2/75151eaa0523beb19906d9c51074907fb3ecbc531d8568e04746651fccfb/coderedcms-4.0.0.tar.gz
+[2024-05-30 02:12:29] INFO root fetch - processPackages [py2hackCraft2]: Downloading https://files.pythonhosted.org/packages/0c/9a/3fc7ad403438f0cfe78d3303cbcbc7cb7e17918eeab9442678823e924d25/py2hackCraft2-1.0.9.tar.gz
+[2024-05-30 02:12:29] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/97/4b/ab91e1b39ae2e5efc457b5691556b673ad6745f27ce601b8bb765b6538b0/ipex_llm-2.1.0b20240529-py3-none-win_amd64.whl
+[2024-05-30 02:12:29] INFO root fetch - processPackages [coderedcms]: executing diffoscope
+[2024-05-30 02:12:29] INFO root fetch - processPackages [coderedcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coderedcms-3.0.4.tar.gz tmp/coderedcms-4.0.0.tar.gz --markdown 20240530/c/coderedcms/3.0.4-4.0.0/README.md --exclude *.pyd
+[2024-05-30 02:12:29] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-30 02:12:29] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240528.post1119.tar.gz]
+[2024-05-30 02:12:29] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240529.post1145.tar.gz]
+[2024-05-30 02:12:29] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-30 02:12:29] INFO root fetch - processPackages [ipex-llm]: executing diffoscope
+[2024-05-30 02:12:29] INFO root fetch - processPackages [ipex-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipex_llm-2.1.0b20240528-py3-none-win_amd64.whl.zip tmp/ipex_llm-2.1.0b20240529-py3-none-win_amd64.whl.zip --markdown 20240530/i/ipex-llm/2.1.0b20240528-2.1.0b20240529/README.md --exclude *.pyd
+[2024-05-30 02:12:29] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.4.tar.gz]
+[2024-05-30 02:12:29] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.5.tar.gz]
+[2024-05-30 02:12:29] INFO root fetch - main [MainThread]: End processing [palimpzest]: success
+[2024-05-30 02:12:29] INFO root fetch - processPackages [arccanet]: Remove: archive file [/home/abi/fetcher/tmp/arccanet-0.0.6.tar.gz]
+[2024-05-30 02:12:29] INFO root fetch - processPackages [arccanet]: Remove: archive file [/home/abi/fetcher/tmp/arccanet-0.0.7.tar.gz]
+[2024-05-30 02:12:29] INFO root fetch - main [MainThread]: End processing [arccanet]: success
+[2024-05-30 02:12:29] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-30 02:12:29] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240530/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-30 02:12:30] INFO root fetch - processPackages [py2hackCraft2]: executing diffoscope
+[2024-05-30 02:12:30] INFO root fetch - processPackages [py2hackCraft2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2hackCraft2-1.0.8.tar.gz tmp/py2hackCraft2-1.0.9.tar.gz --markdown 20240530/p/py2hackCraft2/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-30 02:12:30] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-30 02:12:30] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-30 02:12:30] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-30 02:12:31] INFO root fetch - processPackages [py2hackCraft2]: Remove: archive file [/home/abi/fetcher/tmp/py2hackCraft2-1.0.8.tar.gz]
+[2024-05-30 02:12:31] INFO root fetch - processPackages [py2hackCraft2]: Remove: archive file [/home/abi/fetcher/tmp/py2hackCraft2-1.0.9.tar.gz]
+[2024-05-30 02:12:31] INFO root fetch - main [MainThread]: End processing [py2hackCraft2]: success
+[2024-05-30 02:12:42] INFO root fetch - processPackages [coderedcms]: Remove: archive file [/home/abi/fetcher/tmp/coderedcms-3.0.4.tar.gz]
+[2024-05-30 02:12:42] INFO root fetch - processPackages [coderedcms]: Remove: archive file [/home/abi/fetcher/tmp/coderedcms-4.0.0.tar.gz]
+[2024-05-30 02:12:42] INFO root fetch - main [MainThread]: End processing [coderedcms]: success
+[2024-05-30 02:12:59] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240528-py3-none-win_amd64.whl.zip]
+[2024-05-30 02:12:59] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240529-py3-none-win_amd64.whl.zip]
+[2024-05-30 02:12:59] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
+[2024-05-30 02:12:59] INFO root fetch - main [MainThread]: Store serial: [23438740]
