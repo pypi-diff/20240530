@@ -13660,3 +13660,84 @@ EOFError: EOF read where object expected
 [2024-05-30 08:16:26] INFO root fetch - processPackages [sonusai]: Remove: archive file [/home/abi/fetcher/tmp/sonusai-0.9.1.tar.gz]
 [2024-05-30 08:16:26] INFO root fetch - main [MainThread]: End processing [sonusai]: success
 [2024-05-30 08:16:26] INFO root fetch - main [MainThread]: Store serial: [23443199]
+[2024-05-30 08:18:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443199]
+[2024-05-30 08:18:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-30 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2024-05-30 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vns-explorer
+[2024-05-30 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweego-api
+[2024-05-30 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tesla-fleet-api
+[2024-05-30 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatllm
+[2024-05-30 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot_plugin_chat_with_cohere
+[2024-05-30 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easypedidoapi
+[2024-05-30 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gdaicommons
+[2024-05-30 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bees-challenge
+[2024-05-30 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: phonexia-grpc
+[2024-05-30 08:18:35] INFO root fetch - processPackages [vns-explorer]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-30 08:18:35] INFO root fetch - processPackages [bees-challenge]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-30 08:18:35] INFO root fetch - processPackages [tesla-fleet-api]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-30 08:18:35] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-30 08:18:35] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240530] Old Version: [2.6.0.dev20240529]
+[2024-05-30 08:18:35] WARNING root fetch - processPackages [sweego-api]: Skipping, unable to determine old version
+[2024-05-30 08:18:35] INFO root fetch - main [MainThread]: End processing [sweego-api] error
+[2024-05-30 08:18:35] INFO root fetch - processPackages [vns-explorer]: Downloading https://files.pythonhosted.org/packages/2c/f9/2c70697219f35a6334fa3878a8cf84960c90b51432acca9f20edf845edcf/vns_explorer-1.0.4.tar.gz
+[2024-05-30 08:18:35] INFO root fetch - processPackages [easypedidoapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 08:18:35] INFO root fetch - processPackages [phonexia-grpc]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-30 08:18:35] WARNING root fetch - processPackages [nonebot_plugin_chat_with_cohere]: Skipping, unable to determine old version
+[2024-05-30 08:18:35] INFO root fetch - main [MainThread]: End processing [nonebot_plugin_chat_with_cohere] error
+[2024-05-30 08:18:35] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/1a/e1/82b9832ae3d442b7846426a4d4fe0a476e4a333937a88edebcde63a705ab/bees-challenge-0.6.0.tar.gz
+[2024-05-30 08:18:35] INFO root fetch - processPackages [gdaicommons]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-30 08:18:35] INFO root fetch - processPackages [tesla-fleet-api]: Downloading https://files.pythonhosted.org/packages/a8/43/22557f5eee1dcbb990fc879c88f0eabf17ee6ceed249b0680f354698798e/tesla_fleet_api-0.5.8.tar.gz
+[2024-05-30 08:18:35] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-30 08:18:35] INFO root fetch - processPackages [phonexia-grpc]: Downloading https://files.pythonhosted.org/packages/2b/05/f9077efee5837dffd4692dd5c96f126cd385ed6bdd778a3ad1a7a0233537/phonexia_grpc-2.0.0.tar.gz
+[2024-05-30 08:18:35] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/18/06/ca121b6f3212022ebd7cc8f48ee020bdaa8668ecd0f9ba4c4c903024adde/pyg_nightly-2.6.0.dev20240529.tar.gz
+[2024-05-30 08:18:35] INFO root fetch - processPackages [easypedidoapi]: Downloading https://files.pythonhosted.org/packages/81/32/fd91120a606ae717eaa41a615454d8e48831ac811fc8a361c7eb0583804e/easypedidoapi-0.0.8.tar.gz
+[2024-05-30 08:18:35] INFO root fetch - processPackages [gdaicommons]: Downloading https://files.pythonhosted.org/packages/f2/1e/ccaadd070d72a0eb640726a0acfc2c31516b91817ae52a157fb283c95d5f/gdaicommons-0.0.3.tar.gz
+[2024-05-30 08:18:35] INFO root fetch - processPackages [tesla-fleet-api]: Downloading https://files.pythonhosted.org/packages/05/b5/2095dab08ad055d1a9d7d6fb069e7e1febca6ec8343a72456b3ff6cce41e/tesla_fleet_api-0.5.9.tar.gz
+[2024-05-30 08:18:35] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-30 08:18:35] INFO root fetch - processPackages [vns-explorer]: Downloading https://files.pythonhosted.org/packages/8f/aa/906fbedb604380573531e5eed0be3f06f929c8864092af571139ceeb14bf/vns_explorer-1.0.5.tar.gz
+[2024-05-30 08:18:35] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/1e/7a/f66b611a9b0f4a5aed4ed6d401d7f8f6955fcd8702b80f19ac894de477dc/bees-challenge-0.7.0.tar.gz
+[2024-05-30 08:18:35] INFO root fetch - processPackages [tesla-fleet-api]: executing diffoscope
+[2024-05-30 08:18:35] INFO root fetch - processPackages [tesla-fleet-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tesla_fleet_api-0.5.8.tar.gz tmp/tesla_fleet_api-0.5.9.tar.gz --markdown 20240530/t/tesla-fleet-api/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-30 08:18:35] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-30 08:18:35] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240530/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-30 08:18:35] INFO root fetch - processPackages [vns-explorer]: executing diffoscope
+[2024-05-30 08:18:35] INFO root fetch - processPackages [vns-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vns_explorer-1.0.4.tar.gz tmp/vns_explorer-1.0.5.tar.gz --markdown 20240530/v/vns-explorer/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-30 08:18:35] INFO root fetch - processPackages [bees-challenge]: executing diffoscope
+[2024-05-30 08:18:35] INFO root fetch - processPackages [bees-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bees-challenge-0.6.0.tar.gz tmp/bees-challenge-0.7.0.tar.gz --markdown 20240530/b/bees-challenge/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-30 08:18:36] INFO root fetch - processPackages [easypedidoapi]: Downloading https://files.pythonhosted.org/packages/5c/cc/7abdd37fe3bd898863af214d55878cef16e3295a4d46459961eb88e5f60c/easypedidoapi-0.0.9.tar.gz
+[2024-05-30 08:18:36] INFO root fetch - processPackages [phonexia-grpc]: Downloading https://files.pythonhosted.org/packages/22/11/de48749577cdf863ae187e050ca835353feb282169e6d445db03f5e5c88c/phonexia_grpc-2.1.0.tar.gz
+[2024-05-30 08:18:36] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e9/f7/895ecf14984a184486f39a3b5c4b78c3e5477a7157d526701134ddbcc472/pyg_nightly-2.6.0.dev20240530.tar.gz
+[2024-05-30 08:18:36] INFO root fetch - processPackages [gdaicommons]: Downloading https://files.pythonhosted.org/packages/21/00/2181b1c2a87f946b73422fc4686ec97c1aa6176679a1abefcbc4ea961b3e/gdaicommons-0.0.4.tar.gz
+[2024-05-30 08:18:36] INFO root fetch - processPackages [easypedidoapi]: executing diffoscope
+[2024-05-30 08:18:36] INFO root fetch - processPackages [easypedidoapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypedidoapi-0.0.8.tar.gz tmp/easypedidoapi-0.0.9.tar.gz --markdown 20240530/e/easypedidoapi/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 08:18:36] INFO root fetch - processPackages [gdaicommons]: executing diffoscope
+[2024-05-30 08:18:36] INFO root fetch - processPackages [gdaicommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdaicommons-0.0.3.tar.gz tmp/gdaicommons-0.0.4.tar.gz --markdown 20240530/g/gdaicommons/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-30 08:18:36] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-30 08:18:36] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240529.tar.gz tmp/pyg_nightly-2.6.0.dev20240530.tar.gz --markdown 20240530/p/pyg-nightly/2.6.0.dev20240529-2.6.0.dev20240530/README.md --exclude *.pyd
+[2024-05-30 08:18:36] INFO root fetch - processPackages [vns-explorer]: Remove: archive file [/home/abi/fetcher/tmp/vns_explorer-1.0.4.tar.gz]
+[2024-05-30 08:18:36] INFO root fetch - processPackages [vns-explorer]: Remove: archive file [/home/abi/fetcher/tmp/vns_explorer-1.0.5.tar.gz]
+[2024-05-30 08:18:36] INFO root fetch - main [MainThread]: End processing [vns-explorer]: success
+[2024-05-30 08:18:36] INFO root fetch - processPackages [phonexia-grpc]: executing diffoscope
+[2024-05-30 08:18:36] INFO root fetch - processPackages [phonexia-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonexia_grpc-2.0.0.tar.gz tmp/phonexia_grpc-2.1.0.tar.gz --markdown 20240530/p/phonexia-grpc/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-30 08:18:36] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.6.0.tar.gz]
+[2024-05-30 08:18:36] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.7.0.tar.gz]
+[2024-05-30 08:18:36] INFO root fetch - main [MainThread]: End processing [bees-challenge]: success
+[2024-05-30 08:18:36] INFO root fetch - processPackages [easypedidoapi]: Remove: archive file [/home/abi/fetcher/tmp/easypedidoapi-0.0.8.tar.gz]
+[2024-05-30 08:18:36] INFO root fetch - processPackages [easypedidoapi]: Remove: archive file [/home/abi/fetcher/tmp/easypedidoapi-0.0.9.tar.gz]
+[2024-05-30 08:18:36] INFO root fetch - main [MainThread]: End processing [easypedidoapi]: success
+[2024-05-30 08:18:36] INFO root fetch - processPackages [tesla-fleet-api]: Remove: archive file [/home/abi/fetcher/tmp/tesla_fleet_api-0.5.8.tar.gz]
+[2024-05-30 08:18:36] INFO root fetch - processPackages [tesla-fleet-api]: Remove: archive file [/home/abi/fetcher/tmp/tesla_fleet_api-0.5.9.tar.gz]
+[2024-05-30 08:18:36] INFO root fetch - main [MainThread]: End processing [tesla-fleet-api]: success
+[2024-05-30 08:18:36] INFO root fetch - processPackages [gdaicommons]: Remove: archive file [/home/abi/fetcher/tmp/gdaicommons-0.0.3.tar.gz]
+[2024-05-30 08:18:36] INFO root fetch - processPackages [gdaicommons]: Remove: archive file [/home/abi/fetcher/tmp/gdaicommons-0.0.4.tar.gz]
+[2024-05-30 08:18:36] INFO root fetch - main [MainThread]: End processing [gdaicommons]: success
+[2024-05-30 08:18:37] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-30 08:18:37] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-30 08:18:37] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-30 08:18:37] INFO root fetch - processPackages [phonexia-grpc]: Remove: archive file [/home/abi/fetcher/tmp/phonexia_grpc-2.0.0.tar.gz]
+[2024-05-30 08:18:37] INFO root fetch - processPackages [phonexia-grpc]: Remove: archive file [/home/abi/fetcher/tmp/phonexia_grpc-2.1.0.tar.gz]
+[2024-05-30 08:18:37] INFO root fetch - main [MainThread]: End processing [phonexia-grpc]: success
+[2024-05-30 08:18:38] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240529.tar.gz]
+[2024-05-30 08:18:38] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240530.tar.gz]
+[2024-05-30 08:18:38] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-30 08:18:38] INFO root fetch - main [MainThread]: Store serial: [23443229]
