@@ -10563,3 +10563,24 @@ EOFError: EOF read where object expected
 [2024-05-30 05:59:59] INFO root fetch - processPackages [recoverable-async-task]: Remove: archive file [/home/abi/fetcher/tmp/recoverable_async_task-0.1.8.tar.gz]
 [2024-05-30 05:59:59] INFO root fetch - main [MainThread]: End processing [recoverable-async-task]: success
 [2024-05-30 05:59:59] INFO root fetch - main [MainThread]: Store serial: [23441938]
+[2024-05-30 06:02:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441938]
+[2024-05-30 06:02:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 06:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molecular-interaction-rules
+[2024-05-30 06:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hermes-cai
+[2024-05-30 06:02:07] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-30 06:02:07] INFO root fetch - processPackages [hermes-cai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 06:02:07] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/c6/97/679b8fdfe3109bd49dc2b4412723b6607a4601b34afa112a05d1b57319ae/molecular_interaction_rules-0.5.7.tar.gz
+[2024-05-30 06:02:08] INFO root fetch - processPackages [hermes-cai]: Downloading https://files.pythonhosted.org/packages/c9/49/97474e8e674b4a25212e52f4667f6ed8090477ad6f09cc4879d99ad76b98/hermes_cai-0.0.8.tar.gz
+[2024-05-30 06:02:08] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/56/9f/b914befce2cf7faff9e58ebbe7df232adac29692c71bad5b0ce0245591e8/molecular_interaction_rules-0.5.8.tar.gz
+[2024-05-30 06:02:08] INFO root fetch - processPackages [hermes-cai]: Downloading https://files.pythonhosted.org/packages/c7/2e/0f088ef52872faa4a462253525bc0bf9426cf9d1003e4f90cbfa2ab55af8/hermes_cai-0.0.9.tar.gz
+[2024-05-30 06:02:08] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 06:02:08] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.7.tar.gz tmp/molecular_interaction_rules-0.5.8.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-30 06:02:08] INFO root fetch - processPackages [hermes-cai]: executing diffoscope
+[2024-05-30 06:02:08] INFO root fetch - processPackages [hermes-cai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermes_cai-0.0.8.tar.gz tmp/hermes_cai-0.0.9.tar.gz --markdown 20240530/h/hermes-cai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 06:02:08] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.7.tar.gz]
+[2024-05-30 06:02:08] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.8.tar.gz]
+[2024-05-30 06:02:08] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 06:02:08] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.8.tar.gz]
+[2024-05-30 06:02:08] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.9.tar.gz]
+[2024-05-30 06:02:08] INFO root fetch - main [MainThread]: End processing [hermes-cai]: success
+[2024-05-30 06:02:08] INFO root fetch - main [MainThread]: Store serial: [23441943]
