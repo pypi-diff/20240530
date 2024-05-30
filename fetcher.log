@@ -15697,3 +15697,50 @@ EOFError: EOF read where object expected
 [2024-05-30 09:11:59] INFO root fetch - processPackages [uiautodev]: Remove: archive file [/home/abi/fetcher/tmp/uiautodev-0.4.0.tar.gz]
 [2024-05-30 09:11:59] INFO root fetch - main [MainThread]: End processing [uiautodev]: success
 [2024-05-30 09:11:59] INFO root fetch - main [MainThread]: Store serial: [23443922]
+[2024-05-30 09:14:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443922]
+[2024-05-30 09:14:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 09:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-proxmoxve
+[2024-05-30 09:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynumint
+[2024-05-30 09:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydal
+[2024-05-30 09:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bwu
+[2024-05-30 09:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: petsc
+[2024-05-30 09:14:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: petsc4py
+[2024-05-30 09:14:08] INFO root fetch - processPackages [pynumint]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-30 09:14:08] INFO root fetch - processPackages [pulumi-proxmoxve]: New version: [6.8.1] Old Version: [6.8.0]
+[2024-05-30 09:14:08] INFO root fetch - processPackages [petsc]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-30 09:14:08] INFO root fetch - processPackages [pynumint]: Downloading https://files.pythonhosted.org/packages/57/45/056e34a56921bc134efbae89a01621a7aad54fcbcec4f110363eaa7417d5/pynumint-0.0.2.tar.gz
+[2024-05-30 09:14:08] WARNING root fetch - processPackages [bwu]: Skipping, unable to determine old version
+[2024-05-30 09:14:08] INFO root fetch - main [MainThread]: End processing [bwu] error
+[2024-05-30 09:14:08] INFO root fetch - processPackages [petsc4py]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-30 09:14:08] INFO root fetch - processPackages [pydal]: New version: [20240529.1] Old Version: [20240428.2]
+[2024-05-30 09:14:08] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/ab/c4/b9a5c3a9333d711198ca0198301042cce013b8793014ca6f22e1c23b688c/pulumi_proxmoxve-6.8.0.tar.gz
+[2024-05-30 09:14:08] INFO root fetch - processPackages [petsc]: Downloading https://files.pythonhosted.org/packages/e6/6c/555ad15fd1f9f2d8a044577c2df9fe855a7cd0f47d2716ebf478a2ca0a37/petsc-3.9.1.tar.gz
+[2024-05-30 09:14:08] INFO root fetch - processPackages [pydal]: Downloading https://files.pythonhosted.org/packages/fe/93/2d7c5cca5994a46a73fc69440ff35dd99b5d31fd6208f718acda80cdea66/pydal-20240428.2.tar.gz
+[2024-05-30 09:14:08] INFO root fetch - processPackages [petsc4py]: Downloading https://files.pythonhosted.org/packages/ab/7e/4a73e2c00a9853d12d5092329c2c66be43cb73595303447841abf9fba2b0/petsc4py-3.9.0.tar.gz
+[2024-05-30 09:14:08] INFO root fetch - processPackages [pynumint]: Downloading https://files.pythonhosted.org/packages/75/49/a9f0db63bda0d7705974e57e4f721ce7223ae84e48fb6e055ba42d465220/pynumint-0.0.3.tar.gz
+[2024-05-30 09:14:08] INFO root fetch - processPackages [pynumint]: executing diffoscope
+[2024-05-30 09:14:08] INFO root fetch - processPackages [pynumint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynumint-0.0.2.tar.gz tmp/pynumint-0.0.3.tar.gz --markdown 20240530/p/pynumint/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-30 09:14:09] INFO root fetch - processPackages [pulumi-proxmoxve]: Downloading https://files.pythonhosted.org/packages/2b/ec/73f7fc1d443c6d36163fa6001dae52ffbe2cd127762a8d5a061786ae01c1/pulumi_proxmoxve-6.8.1.tar.gz
+[2024-05-30 09:14:09] WARNING root fetch - processPackages [petsc]: Skipping package: exceeds size limit 11609124>=10485760
+[2024-05-30 09:14:09] INFO root fetch - main [MainThread]: End processing [petsc] error
+[2024-05-30 09:14:09] INFO root fetch - processPackages [pulumi-proxmoxve]: executing diffoscope
+[2024-05-30 09:14:09] INFO root fetch - processPackages [pulumi-proxmoxve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_proxmoxve-6.8.0.tar.gz tmp/pulumi_proxmoxve-6.8.1.tar.gz --markdown 20240530/p/pulumi-proxmoxve/6.8.0-6.8.1/README.md --exclude *.pyd
+[2024-05-30 09:14:09] INFO root fetch - processPackages [pydal]: Downloading https://files.pythonhosted.org/packages/76/1f/0979fd968881ba348db3b4d2b159300fdd7893dbcd51315e7a66e79da24f/pydal-20240529.1.tar.gz
+[2024-05-30 09:14:09] INFO root fetch - processPackages [pydal]: executing diffoscope
+[2024-05-30 09:14:09] INFO root fetch - processPackages [pydal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydal-20240428.2.tar.gz tmp/pydal-20240529.1.tar.gz --markdown 20240530/p/pydal/20240428.2-20240529.1/README.md --exclude *.pyd
+[2024-05-30 09:14:09] INFO root fetch - processPackages [pynumint]: Remove: archive file [/home/abi/fetcher/tmp/pynumint-0.0.2.tar.gz]
+[2024-05-30 09:14:09] INFO root fetch - processPackages [pynumint]: Remove: archive file [/home/abi/fetcher/tmp/pynumint-0.0.3.tar.gz]
+[2024-05-30 09:14:09] INFO root fetch - main [MainThread]: End processing [pynumint]: success
+[2024-05-30 09:14:10] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-6.8.0.tar.gz]
+[2024-05-30 09:14:10] INFO root fetch - processPackages [pulumi-proxmoxve]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_proxmoxve-6.8.1.tar.gz]
+[2024-05-30 09:14:10] INFO root fetch - main [MainThread]: End processing [pulumi-proxmoxve]: success
+[2024-05-30 09:14:11] INFO root fetch - processPackages [pydal]: Remove: archive file [/home/abi/fetcher/tmp/pydal-20240428.2.tar.gz]
+[2024-05-30 09:14:11] INFO root fetch - processPackages [pydal]: Remove: archive file [/home/abi/fetcher/tmp/pydal-20240529.1.tar.gz]
+[2024-05-30 09:14:11] INFO root fetch - main [MainThread]: End processing [pydal]: success
+[2024-05-30 09:14:11] INFO root fetch - processPackages [petsc4py]: Downloading https://files.pythonhosted.org/packages/91/8c/2c5d593b5dc7aff46bd56b7c71fc5550bd342c8295440eb8c9cb255f2e71/petsc4py-3.9.1.tar.gz
+[2024-05-30 09:14:11] INFO root fetch - processPackages [petsc4py]: executing diffoscope
+[2024-05-30 09:14:11] INFO root fetch - processPackages [petsc4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petsc4py-3.9.0.tar.gz tmp/petsc4py-3.9.1.tar.gz --markdown 20240530/p/petsc4py/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-30 09:14:18] INFO root fetch - processPackages [petsc4py]: Remove: archive file [/home/abi/fetcher/tmp/petsc4py-3.9.0.tar.gz]
+[2024-05-30 09:14:18] INFO root fetch - processPackages [petsc4py]: Remove: archive file [/home/abi/fetcher/tmp/petsc4py-3.9.1.tar.gz]
+[2024-05-30 09:14:18] INFO root fetch - main [MainThread]: End processing [petsc4py]: success
+[2024-05-30 09:14:18] INFO root fetch - main [MainThread]: Store serial: [23443939]
