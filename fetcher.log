@@ -12431,3 +12431,72 @@ EOFError: EOF read where object expected
 [2024-05-30 07:21:44] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-05-30 07:21:44] INFO root fetch - main [MainThread]: End processing [chatllm]: success
 [2024-05-30 07:21:44] INFO root fetch - main [MainThread]: Store serial: [23442635]
+[2024-05-30 07:23:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442635]
+[2024-05-30 07:23:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 07:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbench
+[2024-05-30 07:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-procurement-purchase-no-grouping
+[2024-05-30 07:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: entityextractionpack
+[2024-05-30 07:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-purchase-fop-shipping
+[2024-05-30 07:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-purchase-request
+[2024-05-30 07:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: boldigger2
+[2024-05-30 07:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-purchase-discount
+[2024-05-30 07:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lense
+[2024-05-30 07:23:53] INFO root fetch - processPackages [odoo-addon-purchase-fop-shipping]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.5]
+[2024-05-30 07:23:53] INFO root fetch - processPackages [boldigger2]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-30 07:23:53] INFO root fetch - processPackages [odoo-addon-purchase-discount]: New version: [16.0.1.2.1] Old Version: [16.0.1.2.0.1]
+[2024-05-30 07:23:53] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-30 07:23:53] INFO root fetch - processPackages [vbench]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-30 07:23:53] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [17.0.1.2.0] Old Version: [17.0.1.1.2]
+[2024-05-30 07:23:53] INFO root fetch - processPackages [lense]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 07:23:53] WARNING root fetch - processPackages [entityextractionpack]: Skipping, unable to determine old version
+[2024-05-30 07:23:53] INFO root fetch - main [MainThread]: End processing [entityextractionpack] error
+[2024-05-30 07:23:53] INFO root fetch - processPackages [odoo-addon-purchase-fop-shipping]: Downloading https://files.pythonhosted.org/packages/d4/35/303146f75faa88fef292af396f1b0ea9b19a408ad5def03db6444327c58a/odoo_addon_purchase_fop_shipping-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-30 07:23:53] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: Downloading https://files.pythonhosted.org/packages/92/a6/936c0449e61003601eec8efee374ff11927d34a6e90e09325414c074a2c4/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-30 07:23:53] INFO root fetch - processPackages [boldigger2]: Downloading https://files.pythonhosted.org/packages/b5/cb/9d12f1e356ad113fd2a4de457e2cff71de01db5a2c009572a177ff36ac20/boldigger2-1.0.0.tar.gz
+[2024-05-30 07:23:53] INFO root fetch - processPackages [odoo-addon-purchase-discount]: Downloading https://files.pythonhosted.org/packages/eb/9c/b7c6b07c70705559613ee53a00871b80dd419b5b4cc8582c4d7cdfa9018b/odoo_addon_purchase_discount-16.0.1.2.0.1-py3-none-any.whl
+[2024-05-30 07:23:53] INFO root fetch - processPackages [vbench]: Downloading https://files.pythonhosted.org/packages/bf/16/753b897dc519e79b258a20a846137c06e08a017d3bf64adbc58ceae4a51b/vbench-0.1.1.tar.gz
+[2024-05-30 07:23:53] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/e9/5d/606a827f29e8f001587ba58255a6606f793c6f3f897a0d8c996ddd1d62d1/odoo_addon_purchase_request-17.0.1.1.2-py3-none-any.whl
+[2024-05-30 07:23:53] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/1f/b1/9ae75052fff999c74cd3a7c52f13211a501f5f3477a99e27882970a8bdb5/lense-0.0.8-py3-none-any.whl
+[2024-05-30 07:23:54] INFO root fetch - processPackages [odoo-addon-purchase-fop-shipping]: Downloading https://files.pythonhosted.org/packages/40/a8/b32ddc6d7be4a390935e0de954809b493466a16ae40c0e25e0280166af04/odoo_addon_purchase_fop_shipping-16.0.1.0.1-py3-none-any.whl
+[2024-05-30 07:23:54] INFO root fetch - processPackages [boldigger2]: Downloading https://files.pythonhosted.org/packages/90/94/d00bb3081045cde33ffe898a4ca0e0d9c3764a6174b88e773edd85585d0b/boldigger2-1.0.1.tar.gz
+[2024-05-30 07:23:54] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: Downloading https://files.pythonhosted.org/packages/70/57/3bc22667cf34278ff02d4048d170a474c5a8809db56a78e9adf8b52f9638/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-30 07:23:54] INFO root fetch - processPackages [odoo-addon-purchase-discount]: Downloading https://files.pythonhosted.org/packages/c1/0f/0285f21f41b00f84fed4e634214e93ab1b53a6de425aa8af20f2a218dbb8/odoo_addon_purchase_discount-16.0.1.2.1-py3-none-any.whl
+[2024-05-30 07:23:54] INFO root fetch - processPackages [odoo-addon-purchase-fop-shipping]: executing diffoscope
+[2024-05-30 07:23:54] INFO root fetch - processPackages [odoo-addon-purchase-fop-shipping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_fop_shipping-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_purchase_fop_shipping-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-purchase-fop-shipping/16.0.1.0.0.5-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-30 07:23:54] INFO root fetch - processPackages [vbench]: Downloading https://files.pythonhosted.org/packages/92/fd/f690d1a23e1e385170f53f5c77e96f6bda2fead4a871270fa8718ddd2a0c/vbench-0.1.2.tar.gz
+[2024-05-30 07:23:54] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: executing diffoscope
+[2024-05-30 07:23:54] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-procurement-purchase-no-grouping/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-30 07:23:54] INFO root fetch - processPackages [boldigger2]: executing diffoscope
+[2024-05-30 07:23:54] INFO root fetch - processPackages [boldigger2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boldigger2-1.0.0.tar.gz tmp/boldigger2-1.0.1.tar.gz --markdown 20240530/b/boldigger2/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-30 07:23:54] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/5f/2b1607d0b8d05f98ecce0d5b0d143653f1c2da72029a54e6d5f01f768843/lense-0.0.9-py3-none-any.whl
+[2024-05-30 07:23:54] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/73/fe/fb07258e7d76eac8af47ee1f4afd900f5afe9d0e852d23ddb4506821dae3/odoo_addon_purchase_request-17.0.1.2.0-py3-none-any.whl
+[2024-05-30 07:23:54] INFO root fetch - processPackages [odoo-addon-purchase-discount]: executing diffoscope
+[2024-05-30 07:23:54] INFO root fetch - processPackages [odoo-addon-purchase-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_discount-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_purchase_discount-16.0.1.2.1-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-purchase-discount/16.0.1.2.0.1-16.0.1.2.1/README.md --exclude *.pyd
+[2024-05-30 07:23:54] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-05-30 07:23:54] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.8-py3-none-any.whl.zip tmp/lense-0.0.9-py3-none-any.whl.zip --markdown 20240530/l/lense/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 07:23:54] INFO root fetch - processPackages [vbench]: executing diffoscope
+[2024-05-30 07:23:54] INFO root fetch - processPackages [vbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbench-0.1.1.tar.gz tmp/vbench-0.1.2.tar.gz --markdown 20240530/v/vbench/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-30 07:23:54] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2024-05-30 07:23:54] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-17.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-17.0.1.2.0-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-purchase-request/17.0.1.1.2-17.0.1.2.0/README.md --exclude *.pyd
+[2024-05-30 07:23:55] INFO root fetch - processPackages [odoo-addon-purchase-fop-shipping]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_fop_shipping-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-30 07:23:55] INFO root fetch - processPackages [odoo-addon-purchase-fop-shipping]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_fop_shipping-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-30 07:23:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-fop-shipping]: success
+[2024-05-30 07:23:55] INFO root fetch - processPackages [odoo-addon-purchase-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_discount-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-05-30 07:23:55] INFO root fetch - processPackages [odoo-addon-purchase-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_discount-16.0.1.2.1-py3-none-any.whl.zip]
+[2024-05-30 07:23:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-discount]: success
+[2024-05-30 07:23:55] INFO root fetch - processPackages [boldigger2]: Remove: archive file [/home/abi/fetcher/tmp/boldigger2-1.0.0.tar.gz]
+[2024-05-30 07:23:55] INFO root fetch - processPackages [boldigger2]: Remove: archive file [/home/abi/fetcher/tmp/boldigger2-1.0.1.tar.gz]
+[2024-05-30 07:23:55] INFO root fetch - main [MainThread]: End processing [boldigger2]: success
+[2024-05-30 07:23:55] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-30 07:23:55] INFO root fetch - processPackages [odoo-addon-procurement-purchase-no-grouping]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_procurement_purchase_no_grouping-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-30 07:23:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-procurement-purchase-no-grouping]: success
+[2024-05-30 07:23:55] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.8-py3-none-any.whl.zip]
+[2024-05-30 07:23:55] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.9-py3-none-any.whl.zip]
+[2024-05-30 07:23:55] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-05-30 07:23:55] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-17.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-30 07:23:55] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-17.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-30 07:23:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2024-05-30 07:23:55] INFO root fetch - processPackages [vbench]: Remove: archive file [/home/abi/fetcher/tmp/vbench-0.1.1.tar.gz]
+[2024-05-30 07:23:55] INFO root fetch - processPackages [vbench]: Remove: archive file [/home/abi/fetcher/tmp/vbench-0.1.2.tar.gz]
+[2024-05-30 07:23:55] INFO root fetch - main [MainThread]: End processing [vbench]: success
+[2024-05-30 07:23:55] INFO root fetch - main [MainThread]: Store serial: [23442657]
