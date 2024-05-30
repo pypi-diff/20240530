@@ -23117,3 +23117,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 12:33:26] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
 [2024-05-30 12:33:26] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-05-30 12:33:26] INFO root fetch - main [MainThread]: Store serial: [23447117]
+[2024-05-30 12:35:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23447117]
+[2024-05-30 12:35:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keyring-proxy
+[2024-05-30 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uugai-python-dynamic-queue
+[2024-05-30 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxslim
+[2024-05-30 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keyring-proxy-socket
+[2024-05-30 12:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-cams
+[2024-05-30 12:35:35] INFO root fetch - processPackages [keyring-proxy]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-30 12:35:35] INFO root fetch - processPackages [onnxslim]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2024-05-30 12:35:35] INFO root fetch - processPackages [keyring-proxy]: Downloading https://files.pythonhosted.org/packages/59/e5/5b90b2a18fc142028bfb61117ef218ef46a110a1ea8afe316aa1c29b5192/keyring_proxy-0.1.4.tar.gz
+[2024-05-30 12:35:35] WARNING root fetch - processPackages [keyring-proxy-socket]: Skipping, unable to determine old version
+[2024-05-30 12:35:35] INFO root fetch - main [MainThread]: End processing [keyring-proxy-socket] error
+[2024-05-30 12:35:35] INFO root fetch - processPackages [aliyun-python-sdk-cams]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-30 12:35:35] WARNING root fetch - processPackages [uugai-python-dynamic-queue]: Skipping, unable to determine old version
+[2024-05-30 12:35:35] INFO root fetch - main [MainThread]: End processing [uugai-python-dynamic-queue] error
+[2024-05-30 12:35:35] INFO root fetch - processPackages [onnxslim]: Downloading https://files.pythonhosted.org/packages/93/d1/3dcbf04b6a0333842d61262e77f177a6300427bbc036d138d908e9640148/onnxslim-0.1.9.tar.gz
+[2024-05-30 12:35:35] INFO root fetch - processPackages [aliyun-python-sdk-cams]: Downloading https://files.pythonhosted.org/packages/50/e4/5088e6473f6131bac69c1d81d352e7a92001b4e8b87e46796911a57b4fbe/aliyun-python-sdk-cams-1.0.8.tar.gz
+[2024-05-30 12:35:36] INFO root fetch - processPackages [keyring-proxy]: Downloading https://files.pythonhosted.org/packages/6e/c2/d4e904ec2d3a86206f44020541fcd9311f28579c7b57ec46d4bd004688b6/keyring_proxy-0.1.5.tar.gz
+[2024-05-30 12:35:36] INFO root fetch - processPackages [keyring-proxy]: executing diffoscope
+[2024-05-30 12:35:36] INFO root fetch - processPackages [keyring-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyring_proxy-0.1.4.tar.gz tmp/keyring_proxy-0.1.5.tar.gz --markdown 20240530/k/keyring-proxy/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-30 12:35:36] INFO root fetch - processPackages [onnxslim]: Downloading https://files.pythonhosted.org/packages/73/0d/b646c4f2c67d560f67ae268b672173ef7de6d1e39d4abc10f533775add1c/onnxslim-0.1.9.1.tar.gz
+[2024-05-30 12:35:36] INFO root fetch - processPackages [onnxslim]: executing diffoscope
+[2024-05-30 12:35:36] INFO root fetch - processPackages [onnxslim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxslim-0.1.9.tar.gz tmp/onnxslim-0.1.9.1.tar.gz --markdown 20240530/o/onnxslim/0.1.9-0.1.9.1/README.md --exclude *.pyd
+[2024-05-30 12:35:36] INFO root fetch - processPackages [aliyun-python-sdk-cams]: Downloading https://files.pythonhosted.org/packages/6c/ae/dcd5e69bd786a77e2d14276d4b1b64f2a4c0f0d75cabc5a6ccdc1ecf0b3e/aliyun-python-sdk-cams-1.0.9.tar.gz
+[2024-05-30 12:35:36] INFO root fetch - processPackages [aliyun-python-sdk-cams]: executing diffoscope
+[2024-05-30 12:35:36] INFO root fetch - processPackages [aliyun-python-sdk-cams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-cams-1.0.8.tar.gz tmp/aliyun-python-sdk-cams-1.0.9.tar.gz --markdown 20240530/a/aliyun-python-sdk-cams/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-30 12:35:36] INFO root fetch - processPackages [keyring-proxy]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy-0.1.4.tar.gz]
+[2024-05-30 12:35:36] INFO root fetch - processPackages [keyring-proxy]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy-0.1.5.tar.gz]
+[2024-05-30 12:35:36] INFO root fetch - main [MainThread]: End processing [keyring-proxy]: success
+[2024-05-30 12:35:36] INFO root fetch - processPackages [onnxslim]: Remove: archive file [/home/abi/fetcher/tmp/onnxslim-0.1.9.tar.gz]
+[2024-05-30 12:35:36] INFO root fetch - processPackages [onnxslim]: Remove: archive file [/home/abi/fetcher/tmp/onnxslim-0.1.9.1.tar.gz]
+[2024-05-30 12:35:36] INFO root fetch - main [MainThread]: End processing [onnxslim]: success
+[2024-05-30 12:35:37] INFO root fetch - processPackages [aliyun-python-sdk-cams]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-cams-1.0.8.tar.gz]
+[2024-05-30 12:35:37] INFO root fetch - processPackages [aliyun-python-sdk-cams]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-cams-1.0.9.tar.gz]
+[2024-05-30 12:35:37] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-cams]: success
+[2024-05-30 12:35:37] INFO root fetch - main [MainThread]: Store serial: [23447142]
