@@ -22685,3 +22685,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 12:18:05] INFO root fetch - processPackages [serverless-builder]: Remove: archive file [/home/abi/fetcher/tmp/serverless-builder-2.9.5.tar.gz]
 [2024-05-30 12:18:05] INFO root fetch - main [MainThread]: End processing [serverless-builder]: success
 [2024-05-30 12:18:05] INFO root fetch - main [MainThread]: Store serial: [23446912]
+[2024-05-30 12:20:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446912]
+[2024-05-30 12:20:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-30 12:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-05-30 12:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-helper
+[2024-05-30 12:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataset-convert-toolkit
+[2024-05-30 12:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ziginstall
+[2024-05-30 12:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BarteSDK
+[2024-05-30 12:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: genomehubs
+[2024-05-30 12:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apiAmoCRM
+[2024-05-30 12:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inka2
+[2024-05-30 12:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: secretaries
+[2024-05-30 12:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: corebridge
+[2024-05-30 12:20:14] WARNING root fetch - processPackages [dataset-convert-toolkit]: Skipping, unable to determine old version
+[2024-05-30 12:20:14] INFO root fetch - main [MainThread]: End processing [dataset-convert-toolkit] error
+[2024-05-30 12:20:14] INFO root fetch - processPackages [BarteSDK]: New version: [1.0] Old Version: [0.1.9]
+[2024-05-30 12:20:14] INFO root fetch - processPackages [corebridge]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-30 12:20:14] INFO root fetch - processPackages [ctrip-helper]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-30 12:20:14] WARNING root fetch - processPackages [ziginstall]: Skipping, unable to determine old version
+[2024-05-30 12:20:14] INFO root fetch - main [MainThread]: End processing [ziginstall] error
+[2024-05-30 12:20:14] INFO root fetch - processPackages [apiAmoCRM]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 12:20:14] INFO root fetch - processPackages [genomehubs]: New version: [2.8.9] Old Version: [2.8.8]
+[2024-05-30 12:20:14] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-30 12:20:14] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-30 12:20:14] INFO root fetch - processPackages [secretaries]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2024-05-30 12:20:14] INFO root fetch - processPackages [inka2]: New version: [2.4.5] Old Version: [2.4.4]
+[2024-05-30 12:20:14] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/ac/71/a5b0a1cf7fb079646104bb81c5e0da828629a15982445c86337becfb5bc9/ctrip-helper-0.1.7.tar.gz
+[2024-05-30 12:20:14] INFO root fetch - processPackages [genomehubs]: Downloading https://files.pythonhosted.org/packages/9c/4c/608f36cc05d99a88aecbc115585b3036e5f3fd827984673d4952589b0d54/genomehubs-2.8.8.tar.gz
+[2024-05-30 12:20:14] INFO root fetch - processPackages [corebridge]: Downloading https://files.pythonhosted.org/packages/c9/11/52f7b387de01e12fb67f4c40b538f2e69e970017214b128a5ea7188beaad/corebridge-0.2.6.tar.gz
+[2024-05-30 12:20:14] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-30 12:20:14] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/56/00/61ebb531ec16559e10784c91ac21606a436c613f6daaed955c5dab10696c/apiamocrm-0.1.0.tar.gz
+[2024-05-30 12:20:14] INFO root fetch - processPackages [secretaries]: Downloading https://files.pythonhosted.org/packages/bb/46/d7537c9227c6de3e7f6dcd09cc66d6335604b59f41307fc5a29ca11bfe3a/secretaries-0.0.1.8.tar.gz
+[2024-05-30 12:20:14] INFO root fetch - processPackages [inka2]: Downloading https://files.pythonhosted.org/packages/d5/7d/801cd530bb0322d4aa389a8a2df22f5c90019667ad1a8556dd3d0f67bd7a/inka2-2.4.4.tar.gz
+[2024-05-30 12:20:14] INFO root fetch - processPackages [corebridge]: Downloading https://files.pythonhosted.org/packages/84/7d/946c1c80e270b29917446b1332617efd1e501580b9e5fa840cd03da7b976/corebridge-0.2.7.tar.gz
+[2024-05-30 12:20:14] INFO root fetch - processPackages [genomehubs]: Downloading https://files.pythonhosted.org/packages/9b/1c/5edbddec749d7db76dc18c7261b63960fe42a1071d339f713cd5eeb898df/genomehubs-2.8.9.tar.gz
+[2024-05-30 12:20:14] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1f/7e/74c6a1bf7e717836e2fef201c9dd28f0daef3b06bcae17af2359497c069e/BarteSDK-1.0.tar.gz
+[2024-05-30 12:20:14] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/6d/5a/d5336512863ba9d6d2c21dd14bc5ebd92313604f57d2ea6d4c8e50c573ad/apiamocrm-0.1.1.tar.gz
+[2024-05-30 12:20:14] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-30 12:20:14] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/a1/c6/3b21bce505a29a3f6a5688fd27f1c5ebd29058d52a2f89a626e08d4e592f/ctrip-helper-0.1.8.tar.gz
+[2024-05-30 12:20:14] INFO root fetch - processPackages [corebridge]: executing diffoscope
+[2024-05-30 12:20:14] INFO root fetch - processPackages [corebridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corebridge-0.2.6.tar.gz tmp/corebridge-0.2.7.tar.gz --markdown 20240530/c/corebridge/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-30 12:20:14] INFO root fetch - processPackages [genomehubs]: executing diffoscope
+[2024-05-30 12:20:14] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-30 12:20:14] INFO root fetch - processPackages [genomehubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomehubs-2.8.8.tar.gz tmp/genomehubs-2.8.9.tar.gz --markdown 20240530/g/genomehubs/2.8.8-2.8.9/README.md --exclude *.pyd
+[2024-05-30 12:20:14] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.9.tar.gz tmp/BarteSDK-1.0.tar.gz --markdown 20240530/B/BarteSDK/0.1.9-1.0/README.md --exclude *.pyd
+[2024-05-30 12:20:14] INFO root fetch - processPackages [apiAmoCRM]: executing diffoscope
+[2024-05-30 12:20:14] INFO root fetch - processPackages [apiAmoCRM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiamocrm-0.1.0.tar.gz tmp/apiamocrm-0.1.1.tar.gz --markdown 20240530/a/apiAmoCRM/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 12:20:15] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-30 12:20:15] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240530/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-30 12:20:15] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-30 12:20:15] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.1.7.tar.gz tmp/ctrip-helper-0.1.8.tar.gz --markdown 20240530/c/ctrip-helper/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-30 12:20:15] INFO root fetch - processPackages [inka2]: Downloading https://files.pythonhosted.org/packages/8e/7a/18da97951b37519a4d5b5f985bc2a8e082484882b821ae9a34f4038b448b/inka2-2.4.5.tar.gz
+[2024-05-30 12:20:15] INFO root fetch - processPackages [secretaries]: Downloading https://files.pythonhosted.org/packages/c6/59/ae6e7eff255cf7585890e4d43041382cd7a810333b4010bf97b9723f773a/secretaries-0.0.1.9.tar.gz
+[2024-05-30 12:20:15] INFO root fetch - processPackages [secretaries]: executing diffoscope
+[2024-05-30 12:20:15] INFO root fetch - processPackages [secretaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretaries-0.0.1.8.tar.gz tmp/secretaries-0.0.1.9.tar.gz --markdown 20240530/s/secretaries/0.0.1.8-0.0.1.9/README.md --exclude *.pyd
+[2024-05-30 12:20:15] INFO root fetch - processPackages [inka2]: executing diffoscope
+[2024-05-30 12:20:15] INFO root fetch - processPackages [inka2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inka2-2.4.4.tar.gz tmp/inka2-2.4.5.tar.gz --markdown 20240530/i/inka2/2.4.4-2.4.5/README.md --exclude *.pyd
+[2024-05-30 12:20:15] INFO root fetch - processPackages [corebridge]: Remove: archive file [/home/abi/fetcher/tmp/corebridge-0.2.6.tar.gz]
+[2024-05-30 12:20:15] INFO root fetch - processPackages [corebridge]: Remove: archive file [/home/abi/fetcher/tmp/corebridge-0.2.7.tar.gz]
+[2024-05-30 12:20:15] INFO root fetch - main [MainThread]: End processing [corebridge]: success
+[2024-05-30 12:20:15] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-30 12:20:15] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/BarteSDK-1.0.tar.gz]
+[2024-05-30 12:20:15] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-30 12:20:15] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.0.tar.gz]
+[2024-05-30 12:20:15] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.1.tar.gz]
+[2024-05-30 12:20:15] INFO root fetch - main [MainThread]: End processing [apiAmoCRM]: success
+[2024-05-30 12:20:15] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.1.7.tar.gz]
+[2024-05-30 12:20:15] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.1.8.tar.gz]
+[2024-05-30 12:20:15] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-30 12:20:15] INFO root fetch - processPackages [genomehubs]: Remove: archive file [/home/abi/fetcher/tmp/genomehubs-2.8.8.tar.gz]
+[2024-05-30 12:20:15] INFO root fetch - processPackages [genomehubs]: Remove: archive file [/home/abi/fetcher/tmp/genomehubs-2.8.9.tar.gz]
+[2024-05-30 12:20:15] INFO root fetch - main [MainThread]: End processing [genomehubs]: success
+[2024-05-30 12:20:16] INFO root fetch - processPackages [secretaries]: Remove: archive file [/home/abi/fetcher/tmp/secretaries-0.0.1.8.tar.gz]
+[2024-05-30 12:20:16] INFO root fetch - processPackages [secretaries]: Remove: archive file [/home/abi/fetcher/tmp/secretaries-0.0.1.9.tar.gz]
+[2024-05-30 12:20:16] INFO root fetch - main [MainThread]: End processing [secretaries]: success
+[2024-05-30 12:20:16] INFO root fetch - processPackages [inka2]: Remove: archive file [/home/abi/fetcher/tmp/inka2-2.4.4.tar.gz]
+[2024-05-30 12:20:16] INFO root fetch - processPackages [inka2]: Remove: archive file [/home/abi/fetcher/tmp/inka2-2.4.5.tar.gz]
+[2024-05-30 12:20:16] INFO root fetch - main [MainThread]: End processing [inka2]: success
+[2024-05-30 12:20:17] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-30 12:20:17] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-30 12:20:17] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-30 12:20:17] INFO root fetch - main [MainThread]: Store serial: [23446945]
