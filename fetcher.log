@@ -8214,3 +8214,33 @@ EOFError: EOF read where object expected
 [2024-05-30 03:51:55] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-65.0.4.tar.gz]
 [2024-05-30 03:51:55] INFO root fetch - main [MainThread]: End processing [seeq]: success
 [2024-05-30 03:51:55] INFO root fetch - main [MainThread]: Store serial: [23441054]
+[2024-05-30 03:53:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441054]
+[2024-05-30 03:54:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 03:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myfunctions-Andre-Pank
+[2024-05-30 03:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kano-cv
+[2024-05-30 03:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: giotto-tda
+[2024-05-30 03:54:03] INFO root fetch - processPackages [myfunctions-Andre-Pank]: New version: [0.0.9] Old Version: [0.0.14]
+[2024-05-30 03:54:03] INFO root fetch - processPackages [kano-cv]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-30 03:54:03] INFO root fetch - processPackages [kano-cv]: Downloading https://files.pythonhosted.org/packages/c4/46/707ab3d3ba1ce1939fd3400dd0badddd48c2610b528a505fef2b2cf735b5/kano_cv-2.0.0.tar.gz
+[2024-05-30 03:54:03] INFO root fetch - processPackages [giotto-tda]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-30 03:54:04] INFO root fetch - processPackages [myfunctions-Andre-Pank]: Downloading https://files.pythonhosted.org/packages/8f/61/927c63ba59daf8a5610e79160d8bef1d5de0b10d4f840f82b35f2c6bc2aa/myfunctions_Andre-Pank-0.0.14.tar.gz
+[2024-05-30 03:54:04] INFO root fetch - processPackages [kano-cv]: Downloading https://files.pythonhosted.org/packages/33/81/4ae525275b75451f1f238bf7d350bca5d9b824a0af387f6814e2b21a9078/kano_cv-3.0.0.tar.gz
+[2024-05-30 03:54:04] INFO root fetch - processPackages [giotto-tda]: Downloading https://files.pythonhosted.org/packages/e2/b1/04f6ff3fe7fe63991055d64a239841ed674ba71749d081d62d641d0405fd/giotto_tda-0.6.0-cp39-cp39-win_amd64.whl
+[2024-05-30 03:54:04] INFO root fetch - processPackages [kano-cv]: executing diffoscope
+[2024-05-30 03:54:04] INFO root fetch - processPackages [kano-cv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kano_cv-2.0.0.tar.gz tmp/kano_cv-3.0.0.tar.gz --markdown 20240530/k/kano-cv/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-30 03:54:04] INFO root fetch - processPackages [myfunctions-Andre-Pank]: Downloading https://files.pythonhosted.org/packages/19/b1/ff206c33049d64638f9c2f570afd445104caabf818697428f3d785b1ffec/myfunctions_Andre-Pank-0.0.9.tar.gz
+[2024-05-30 03:54:04] INFO root fetch - processPackages [myfunctions-Andre-Pank]: executing diffoscope
+[2024-05-30 03:54:04] INFO root fetch - processPackages [myfunctions-Andre-Pank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_Andre-Pank-0.0.14.tar.gz tmp/myfunctions_Andre-Pank-0.0.9.tar.gz --markdown 20240530/m/myfunctions-Andre-Pank/0.0.14-0.0.9/README.md --exclude *.pyd
+[2024-05-30 03:54:04] INFO root fetch - processPackages [giotto-tda]: Downloading https://files.pythonhosted.org/packages/21/5c/b5a4e6fef546bb24085d3ddc7521a4b0c7596df906fb2b66648d70997ae6/giotto_tda-0.6.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 03:54:04] INFO root fetch - processPackages [kano-cv]: Remove: archive file [/home/abi/fetcher/tmp/kano_cv-2.0.0.tar.gz]
+[2024-05-30 03:54:04] INFO root fetch - processPackages [kano-cv]: Remove: archive file [/home/abi/fetcher/tmp/kano_cv-3.0.0.tar.gz]
+[2024-05-30 03:54:04] INFO root fetch - main [MainThread]: End processing [kano-cv]: success
+[2024-05-30 03:54:04] INFO root fetch - processPackages [myfunctions-Andre-Pank]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_Andre-Pank-0.0.14.tar.gz]
+[2024-05-30 03:54:04] INFO root fetch - processPackages [myfunctions-Andre-Pank]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_Andre-Pank-0.0.9.tar.gz]
+[2024-05-30 03:54:04] INFO root fetch - main [MainThread]: End processing [myfunctions-Andre-Pank]: success
+[2024-05-30 03:54:05] INFO root fetch - processPackages [giotto-tda]: executing diffoscope
+[2024-05-30 03:54:05] INFO root fetch - processPackages [giotto-tda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giotto_tda-0.6.0-cp39-cp39-win_amd64.whl.zip tmp/giotto_tda-0.6.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240530/g/giotto-tda/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-30 03:54:06] INFO root fetch - processPackages [giotto-tda]: Remove: archive file [/home/abi/fetcher/tmp/giotto_tda-0.6.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 03:54:06] INFO root fetch - processPackages [giotto-tda]: Remove: archive file [/home/abi/fetcher/tmp/giotto_tda-0.6.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-30 03:54:06] INFO root fetch - main [MainThread]: End processing [giotto-tda]: success
+[2024-05-30 03:54:06] INFO root fetch - main [MainThread]: Store serial: [23441068]
