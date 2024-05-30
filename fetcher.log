@@ -8994,3 +8994,49 @@ EOFError: EOF read where object expected
 [2024-05-30 04:42:13] INFO root fetch - processPackages [bk-resource]: Remove: archive file [/home/abi/fetcher/tmp/bk_resource-0.4.8.tar.gz]
 [2024-05-30 04:42:13] INFO root fetch - main [MainThread]: End processing [bk-resource]: success
 [2024-05-30 04:42:13] INFO root fetch - main [MainThread]: Store serial: [23441377]
+[2024-05-30 04:44:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441377]
+[2024-05-30 04:44:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rococo-prodd
+[2024-05-30 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scipy
+[2024-05-30 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radqy
+[2024-05-30 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dtfilterthumbor
+[2024-05-30 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentdesk
+[2024-05-30 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ezkl-gpu
+[2024-05-30 04:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easyoanda
+[2024-05-30 04:44:22] INFO root fetch - processPackages [agentdesk]: New version: [0.2.9] Old Version: [0.2.82]
+[2024-05-30 04:44:22] INFO root fetch - processPackages [dtfilterthumbor]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-30 04:44:22] INFO root fetch - processPackages [scipy]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-30 04:44:22] WARNING root fetch - processPackages [radqy]: Skipping, unable to determine old version
+[2024-05-30 04:44:22] INFO root fetch - main [MainThread]: End processing [radqy] error
+[2024-05-30 04:44:22] INFO root fetch - processPackages [ezkl-gpu]: New version: [9.5.0] Old Version: [9.4.4]
+[2024-05-30 04:44:22] INFO root fetch - processPackages [dtfilterthumbor]: Downloading https://files.pythonhosted.org/packages/50/ef/ab97c40116b18544764aa60c82bbb11766439b2852ede8969ffbecb63024/dtfilterthumbor-1.0.3.tar.gz
+[2024-05-30 04:44:22] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/0d/ca/58e1e70afeeaa04d9b4642ab25d57b6163c3a6262e0e5e514909c2c5679b/agentdesk-0.2.82.tar.gz
+[2024-05-30 04:44:22] WARNING root fetch - processPackages [rococo-prodd]: Skipping, unable to determine old version
+[2024-05-30 04:44:22] INFO root fetch - main [MainThread]: End processing [rococo-prodd] error
+[2024-05-30 04:44:22] INFO root fetch - processPackages [easyoanda]: New version: [1.0.19] Old Version: [1.0.18]
+[2024-05-30 04:44:22] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/24/26/ad035fd9f7aedb4d5a78e0198ca36d0599d9ed6d9f5cfeeb84e922907596/agentdesk-0.2.9.tar.gz
+[2024-05-30 04:44:22] INFO root fetch - processPackages [scipy]: Downloading https://files.pythonhosted.org/packages/17/07/68df07679ec4a4a24bff00147a14908aa73e9e8912d142886e8d0e1e3d64/scipy-1.9.2.tar.gz
+[2024-05-30 04:44:22] INFO root fetch - processPackages [ezkl-gpu]: Downloading https://files.pythonhosted.org/packages/0a/7a/6ba1898c5763102473f591d6c6deb50cc26c158d75e30ca3759eca1e6b05/ezkl_gpu-9.4.4-cp37-abi3-manylinux_2_35_x86_64.whl
+[2024-05-30 04:44:22] INFO root fetch - processPackages [easyoanda]: Downloading https://files.pythonhosted.org/packages/71/7b/cc5806eea7b0b7fab7cd3c56ad643509c7ba76391eab9cf2a8aa9347e648/easyoanda-1.0.18.tar.gz
+[2024-05-30 04:44:22] WARNING root fetch - processPackages [scipy]: Skipping package: exceeds size limit 42068300>=10485760
+[2024-05-30 04:44:22] INFO root fetch - main [MainThread]: End processing [scipy] error
+[2024-05-30 04:44:22] INFO root fetch - processPackages [dtfilterthumbor]: Downloading https://files.pythonhosted.org/packages/33/c9/20cfb17db3c31938218dd3597c4625d07cfc0aca826272e64c659b826fa5/dtfilterthumbor-1.0.4.tar.gz
+[2024-05-30 04:44:22] INFO root fetch - processPackages [agentdesk]: executing diffoscope
+[2024-05-30 04:44:22] INFO root fetch - processPackages [agentdesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentdesk-0.2.82.tar.gz tmp/agentdesk-0.2.9.tar.gz --markdown 20240530/a/agentdesk/0.2.82-0.2.9/README.md --exclude *.pyd
+[2024-05-30 04:44:22] INFO root fetch - processPackages [dtfilterthumbor]: executing diffoscope
+[2024-05-30 04:44:22] INFO root fetch - processPackages [dtfilterthumbor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfilterthumbor-1.0.3.tar.gz tmp/dtfilterthumbor-1.0.4.tar.gz --markdown 20240530/d/dtfilterthumbor/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-30 04:44:22] INFO root fetch - processPackages [easyoanda]: Downloading https://files.pythonhosted.org/packages/48/85/8aedf2695bef835c304a871922f3febec003c45ab36b57bb12d2dbddadba/easyoanda-1.0.19.tar.gz
+[2024-05-30 04:44:23] INFO root fetch - processPackages [easyoanda]: executing diffoscope
+[2024-05-30 04:44:23] INFO root fetch - processPackages [easyoanda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyoanda-1.0.18.tar.gz tmp/easyoanda-1.0.19.tar.gz --markdown 20240530/e/easyoanda/1.0.18-1.0.19/README.md --exclude *.pyd
+[2024-05-30 04:44:23] INFO root fetch - processPackages [dtfilterthumbor]: Remove: archive file [/home/abi/fetcher/tmp/dtfilterthumbor-1.0.3.tar.gz]
+[2024-05-30 04:44:23] INFO root fetch - processPackages [dtfilterthumbor]: Remove: archive file [/home/abi/fetcher/tmp/dtfilterthumbor-1.0.4.tar.gz]
+[2024-05-30 04:44:23] INFO root fetch - main [MainThread]: End processing [dtfilterthumbor]: success
+[2024-05-30 04:44:23] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.82.tar.gz]
+[2024-05-30 04:44:23] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.9.tar.gz]
+[2024-05-30 04:44:23] INFO root fetch - main [MainThread]: End processing [agentdesk]: success
+[2024-05-30 04:44:23] WARNING root fetch - processPackages [ezkl-gpu]: Skipping package: exceeds size limit 60535856>=10485760
+[2024-05-30 04:44:23] INFO root fetch - main [MainThread]: End processing [ezkl-gpu] error
+[2024-05-30 04:44:23] INFO root fetch - processPackages [easyoanda]: Remove: archive file [/home/abi/fetcher/tmp/easyoanda-1.0.18.tar.gz]
+[2024-05-30 04:44:23] INFO root fetch - processPackages [easyoanda]: Remove: archive file [/home/abi/fetcher/tmp/easyoanda-1.0.19.tar.gz]
+[2024-05-30 04:44:23] INFO root fetch - main [MainThread]: End processing [easyoanda]: success
+[2024-05-30 04:44:23] INFO root fetch - main [MainThread]: Store serial: [23441412]
