@@ -13002,3 +13002,78 @@ EOFError: EOF read where object expected
 [2024-05-30 07:47:55] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.8.0rc1-cp39-none-win_amd64.whl.zip]
 [2024-05-30 07:47:55] INFO root fetch - main [MainThread]: End processing [decentriq-dcr-compiler]: success
 [2024-05-30 07:47:55] INFO root fetch - main [MainThread]: Store serial: [23442946]
+[2024-05-30 07:50:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442946]
+[2024-05-30 07:50:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 07:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-timeseries
+[2024-05-30 07:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libbs
+[2024-05-30 07:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waivek
+[2024-05-30 07:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iac-init
+[2024-05-30 07:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: molecular-interaction-rules
+[2024-05-30 07:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-start-end-dates
+[2024-05-30 07:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-sale-order-product-recommendation
+[2024-05-30 07:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-datadog
+[2024-05-30 07:50:05] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-05-30 07:50:05] INFO root fetch - processPackages [torch-timeseries]: New version: [0.0.3b1] Old Version: [0.0.3a3]
+[2024-05-30 07:50:05] INFO root fetch - processPackages [odoo-addon-sale-start-end-dates]: New version: [17.0.1.0.0.3] Old Version: [16.0.1.0.1.9]
+[2024-05-30 07:50:05] INFO root fetch - processPackages [waivek]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 07:50:05] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: New version: [16.0.3.0.0.1] Old Version: [16.0.3.0.0]
+[2024-05-30 07:50:05] INFO root fetch - processPackages [iac-init]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-30 07:50:05] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/8c/d1/949e523dd2d5b53ef756c740c7633425f3adeb94ad2c376cf81a62587e2e/waivek-0.1.8.tar.gz
+[2024-05-30 07:50:05] INFO root fetch - processPackages [torch-timeseries]: Downloading https://files.pythonhosted.org/packages/34/33/3e06148cd99e50fd316221b28b75f8db9808ec64073a36766fca0e616878/torch_timeseries-0.0.3a3.tar.gz
+[2024-05-30 07:50:05] INFO root fetch - processPackages [libbs]: New version: [1.6.0] Old Version: [1.5.2]
+[2024-05-30 07:50:05] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/ec/94/ee43ad5ded58e916ba7eb8eb8166851f9906e1a080b8ceaf68c7534425f2/iac_init-0.8.8.tar.gz
+[2024-05-30 07:50:05] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2024-05-30 07:50:05] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/ce/4c/342fb1a077a1b445959e5558d62e4e0e94cbdc7c0324359deaebd04d1337/molecular_interaction_rules-0.6.5.tar.gz
+[2024-05-30 07:50:05] INFO root fetch - processPackages [libbs]: Downloading https://files.pythonhosted.org/packages/ca/6b/e4c4deaa6a7d6a3bf14c82e3b7ed21b83f0fa0eb4781743061b3e685906e/libbs-1.5.2.tar.gz
+[2024-05-30 07:50:05] INFO root fetch - processPackages [odoo-addon-sale-start-end-dates]: Downloading https://files.pythonhosted.org/packages/b0/90/f3503be74b9938e395aaabd768ddd97b7ca6a91e15d7dc078623d0052378/odoo_addon_sale_start_end_dates-16.0.1.0.1.9-py3-none-any.whl
+[2024-05-30 07:50:05] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: Downloading https://files.pythonhosted.org/packages/58/a8/6b3583e2cffd496c992e008fc439bb710a0a0be495aece0a65cb1e9d5bee/odoo_addon_sale_order_product_recommendation-16.0.3.0.0-py3-none-any.whl
+[2024-05-30 07:50:05] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2024-05-30 07:50:05] INFO root fetch - processPackages [torch-timeseries]: Downloading https://files.pythonhosted.org/packages/8a/a7/ee1ee657955609bd1416839970a9de472636ec4947bddf7f15acd9d8fac2/torch_timeseries-0.0.3b1.tar.gz
+[2024-05-30 07:50:05] INFO root fetch - processPackages [waivek]: Downloading https://files.pythonhosted.org/packages/a4/ea/4c15b5c565a13175de2213d36052b88233e76e92301d40a51c483f4f346c/waivek-0.1.9.tar.gz
+[2024-05-30 07:50:05] INFO root fetch - processPackages [torch-timeseries]: executing diffoscope
+[2024-05-30 07:50:05] INFO root fetch - processPackages [torch-timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_timeseries-0.0.3a3.tar.gz tmp/torch_timeseries-0.0.3b1.tar.gz --markdown 20240530/t/torch-timeseries/0.0.3a3-0.0.3b1/README.md --exclude *.pyd
+[2024-05-30 07:50:05] INFO root fetch - processPackages [waivek]: executing diffoscope
+[2024-05-30 07:50:05] INFO root fetch - processPackages [waivek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waivek-0.1.8.tar.gz tmp/waivek-0.1.9.tar.gz --markdown 20240530/w/waivek/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 07:50:05] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/01/b1/2b7da179313f6c8ac98da2a0ba9b2bad67062b97f6e41cd260a20889ebc3/molecular_interaction_rules-0.6.6.tar.gz
+[2024-05-30 07:50:05] INFO root fetch - processPackages [odoo-addon-sale-start-end-dates]: Downloading https://files.pythonhosted.org/packages/41/37/834b9d838a2329cc444f2d846b34a21ee4cbf88736fac0595ccad85effdf/odoo_addon_sale_start_end_dates-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-30 07:50:05] INFO root fetch - processPackages [libbs]: Downloading https://files.pythonhosted.org/packages/f6/c8/8e9dd09d4be773617d4011756167e0f1eb51298ab0774d471cf7a8046157/libbs-1.6.0.tar.gz
+[2024-05-30 07:50:05] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: Downloading https://files.pythonhosted.org/packages/a5/7c/bf92593a411141a4aee4e6c24edf59f139072913c7563c04e8bf633ce17b/odoo_addon_sale_order_product_recommendation-16.0.3.0.0.1-py3-none-any.whl
+[2024-05-30 07:50:05] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/e6/dc/992aae6c1753805731a62086cb1f130c652df8dbd8a6e7fa5f1db578a950/iac_init-0.8.9.tar.gz
+[2024-05-30 07:50:05] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 07:50:05] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.6.5.tar.gz tmp/molecular_interaction_rules-0.6.6.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-05-30 07:50:05] INFO root fetch - processPackages [odoo-addon-sale-start-end-dates]: executing diffoscope
+[2024-05-30 07:50:05] INFO root fetch - processPackages [odoo-addon-sale-start-end-dates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_start_end_dates-16.0.1.0.1.9-py3-none-any.whl.zip tmp/odoo_addon_sale_start_end_dates-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-sale-start-end-dates/16.0.1.0.1.9-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-30 07:50:05] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: executing diffoscope
+[2024-05-30 07:50:05] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_product_recommendation-16.0.3.0.0-py3-none-any.whl.zip tmp/odoo_addon_sale_order_product_recommendation-16.0.3.0.0.1-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-sale-order-product-recommendation/16.0.3.0.0-16.0.3.0.0.1/README.md --exclude *.pyd
+[2024-05-30 07:50:05] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-30 07:50:05] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.8.8.tar.gz tmp/iac_init-0.8.9.tar.gz --markdown 20240530/i/iac-init/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-30 07:50:05] INFO root fetch - processPackages [libbs]: executing diffoscope
+[2024-05-30 07:50:05] INFO root fetch - processPackages [libbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libbs-1.5.2.tar.gz tmp/libbs-1.6.0.tar.gz --markdown 20240530/l/libbs/1.5.2-1.6.0/README.md --exclude *.pyd
+[2024-05-30 07:50:06] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2024-05-30 07:50:06] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2024-05-30 07:50:06] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20240530/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/README.md --exclude *.pyd
+[2024-05-30 07:50:06] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.8.tar.gz]
+[2024-05-30 07:50:06] INFO root fetch - processPackages [waivek]: Remove: archive file [/home/abi/fetcher/tmp/waivek-0.1.9.tar.gz]
+[2024-05-30 07:50:06] INFO root fetch - main [MainThread]: End processing [waivek]: success
+[2024-05-30 07:50:06] INFO root fetch - processPackages [torch-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/torch_timeseries-0.0.3a3.tar.gz]
+[2024-05-30 07:50:06] INFO root fetch - processPackages [torch-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/torch_timeseries-0.0.3b1.tar.gz]
+[2024-05-30 07:50:06] INFO root fetch - main [MainThread]: End processing [torch-timeseries]: success
+[2024-05-30 07:50:06] INFO root fetch - processPackages [odoo-addon-sale-start-end-dates]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_start_end_dates-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2024-05-30 07:50:06] INFO root fetch - processPackages [odoo-addon-sale-start-end-dates]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_start_end_dates-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-30 07:50:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-start-end-dates]: success
+[2024-05-30 07:50:06] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_recommendation-16.0.3.0.0-py3-none-any.whl.zip]
+[2024-05-30 07:50:06] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_recommendation-16.0.3.0.0.1-py3-none-any.whl.zip]
+[2024-05-30 07:50:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-product-recommendation]: success
+[2024-05-30 07:50:06] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.6.5.tar.gz]
+[2024-05-30 07:50:06] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.6.6.tar.gz]
+[2024-05-30 07:50:06] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 07:50:06] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.5.2.tar.gz]
+[2024-05-30 07:50:06] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.6.0.tar.gz]
+[2024-05-30 07:50:06] INFO root fetch - main [MainThread]: End processing [libbs]: success
+[2024-05-30 07:50:08] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2024-05-30 07:50:08] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2024-05-30 07:50:08] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2024-05-30 07:50:09] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.8.8.tar.gz]
+[2024-05-30 07:50:09] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.8.9.tar.gz]
+[2024-05-30 07:50:09] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-30 07:50:09] INFO root fetch - main [MainThread]: Store serial: [23442967]
