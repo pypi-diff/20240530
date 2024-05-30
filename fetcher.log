@@ -12774,3 +12774,45 @@ EOFError: EOF read where object expected
 [2024-05-30 07:37:01] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
 [2024-05-30 07:37:01] INFO root fetch - main [MainThread]: End processing [duckdb] error
 [2024-05-30 07:37:01] INFO root fetch - main [MainThread]: Store serial: [23442831]
+[2024-05-30 07:39:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442831]
+[2024-05-30 07:39:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 07:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eirStru
+[2024-05-30 07:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: binsync
+[2024-05-30 07:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: k8ctl
+[2024-05-30 07:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bees-challenge
+[2024-05-30 07:39:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xmov-subtitle
+[2024-05-30 07:39:11] INFO root fetch - processPackages [binsync]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-05-30 07:39:11] INFO root fetch - processPackages [bees-challenge]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-30 07:39:11] INFO root fetch - processPackages [k8ctl]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-30 07:39:11] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/b9/3d/6bf3f12bc0935065d807b8a1c42972074fa613fb8582b54df1f3159fc849/binsync-4.1.8.tar.gz
+[2024-05-30 07:39:11] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-30 07:39:11] WARNING root fetch - processPackages [xmov-subtitle]: Skipping, unable to determine old version
+[2024-05-30 07:39:11] INFO root fetch - main [MainThread]: End processing [xmov-subtitle] error
+[2024-05-30 07:39:11] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/1e/09/6a963ac7f055c310d2d204c02361ee0dc56b2172d37bf33d29fb911416d8/bees-challenge-0.1.0.tar.gz
+[2024-05-30 07:39:11] INFO root fetch - processPackages [k8ctl]: Downloading https://files.pythonhosted.org/packages/eb/1d/95ddc138e2fc05138b99d6a960a23f387b1cc7e1ec11040676edb9f75f29/k8ctl-0.0.1-py3-none-any.whl
+[2024-05-30 07:39:11] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-05-30 07:39:11] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/f1/b8/4e65a473170f8f00a472db6610a4206ecdcfd2cbc2b15efdf1942fdf314a/binsync-4.1.9.tar.gz
+[2024-05-30 07:39:11] INFO root fetch - processPackages [binsync]: executing diffoscope
+[2024-05-30 07:39:11] INFO root fetch - processPackages [binsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binsync-4.1.8.tar.gz tmp/binsync-4.1.9.tar.gz --markdown 20240530/b/binsync/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-05-30 07:39:11] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/83/11/7af0b71ee6c14f4862ba70d500ebe439050945e91c7bb7e463409a108c81/bees-challenge-0.2.0.tar.gz
+[2024-05-30 07:39:11] INFO root fetch - processPackages [k8ctl]: Downloading https://files.pythonhosted.org/packages/5b/ee/f4dd477544e05b14a2981687d31dbafff1a303c6f1e9fa6c6278f151a4ca/k8ctl-0.0.3-py3-none-any.whl
+[2024-05-30 07:39:12] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-05-30 07:39:12] INFO root fetch - processPackages [bees-challenge]: executing diffoscope
+[2024-05-30 07:39:12] INFO root fetch - processPackages [bees-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bees-challenge-0.1.0.tar.gz tmp/bees-challenge-0.2.0.tar.gz --markdown 20240530/b/bees-challenge/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-30 07:39:12] INFO root fetch - processPackages [k8ctl]: executing diffoscope
+[2024-05-30 07:39:12] INFO root fetch - processPackages [k8ctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8ctl-0.0.1-py3-none-any.whl.zip tmp/k8ctl-0.0.3-py3-none-any.whl.zip --markdown 20240530/k/k8ctl/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-30 07:39:12] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-05-30 07:39:12] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240530/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-30 07:39:12] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.1.0.tar.gz]
+[2024-05-30 07:39:12] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.2.0.tar.gz]
+[2024-05-30 07:39:12] INFO root fetch - main [MainThread]: End processing [bees-challenge]: success
+[2024-05-30 07:39:12] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-4.1.8.tar.gz]
+[2024-05-30 07:39:12] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-4.1.9.tar.gz]
+[2024-05-30 07:39:12] INFO root fetch - main [MainThread]: End processing [binsync]: success
+[2024-05-30 07:39:12] INFO root fetch - processPackages [k8ctl]: Remove: archive file [/home/abi/fetcher/tmp/k8ctl-0.0.1-py3-none-any.whl.zip]
+[2024-05-30 07:39:12] INFO root fetch - processPackages [k8ctl]: Remove: archive file [/home/abi/fetcher/tmp/k8ctl-0.0.3-py3-none-any.whl.zip]
+[2024-05-30 07:39:12] INFO root fetch - main [MainThread]: End processing [k8ctl]: success
+[2024-05-30 07:39:12] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-05-30 07:39:12] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-05-30 07:39:12] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-05-30 07:39:12] INFO root fetch - main [MainThread]: Store serial: [23442853]
