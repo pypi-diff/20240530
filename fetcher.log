@@ -15164,3 +15164,81 @@ EOFError: EOF read where object expected
 [2024-05-30 08:47:51] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
 [2024-05-30 08:47:51] INFO root fetch - main [MainThread]: End processing [sunholo]: success
 [2024-05-30 08:47:51] INFO root fetch - main [MainThread]: Store serial: [23443713]
+[2024-05-30 08:49:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443713]
+[2024-05-30 08:50:00] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2024-05-30 08:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sq-scoop
+[2024-05-30 08:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqprefect-tasks-kplib
+[2024-05-30 08:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sq-auth
+[2024-05-30 08:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: squid-tool
+[2024-05-30 08:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sq-batch-prediction
+[2024-05-30 08:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yappgen
+[2024-05-30 08:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sq-cascade
+[2024-05-30 08:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqprefect-contrib-cash-identity-ml
+[2024-05-30 08:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cash-contacts-alias-utils
+[2024-05-30 08:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sq-mlflow
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [sq-scoop]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - processPackages [sq-scoop]: Start processing: cash-identity-offline-graph-ml
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [sq-scoop] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [sq-auth]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - processPackages [sq-auth]: Start processing: sqprefect-contrib-cash-riml
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [sq-auth] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [sqprefect-contrib-cash-identity-ml]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - processPackages [sqprefect-contrib-cash-identity-ml]: Start processing: cash-experiments
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [sqprefect-contrib-cash-identity-ml] error
+[2024-05-30 08:50:01] INFO root fetch - processPackages [yappgen]: New version: [0.4.dev1] Old Version: [0.4.dev0]
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [squid-tool]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - processPackages [squid-tool]: Start processing: sq-cooper
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [squid-tool] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [sqprefect-tasks-kplib]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - processPackages [sqprefect-tasks-kplib]: Start processing: sq-signal-impact
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [sqprefect-tasks-kplib] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [sq-mlflow]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - processPackages [sq-mlflow]: Start processing: sq-aws
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [sq-mlflow] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [sq-batch-prediction]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [sq-cascade]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - processPackages [sq-batch-prediction]: Start processing: sq-seller-360
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [sq-batch-prediction] error
+[2024-05-30 08:50:01] INFO root fetch - processPackages [sq-cascade]: Start processing: squid-rest-api-mocks
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [sq-cascade] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [cash-contacts-alias-utils]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - processPackages [cash-contacts-alias-utils]: Start processing: sq-setuptools
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [cash-contacts-alias-utils] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [cash-identity-offline-graph-ml]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - processPackages [cash-identity-offline-graph-ml]: Start processing: xiaobu
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [cash-identity-offline-graph-ml] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [sqprefect-contrib-cash-riml]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - processPackages [sqprefect-contrib-cash-riml]: Start processing: aiosql
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [sqprefect-contrib-cash-riml] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [squid-rest-api-mocks]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [squid-rest-api-mocks] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [cash-experiments]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [cash-experiments] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [sq-cooper]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [sq-cooper] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [sq-signal-impact]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [sq-signal-impact] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [sq-seller-360]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [sq-seller-360] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [sq-aws]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [sq-aws] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [sq-setuptools]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [sq-setuptools] error
+[2024-05-30 08:50:01] WARNING root fetch - processPackages [xiaobu]: Skipping, unable to determine old version
+[2024-05-30 08:50:01] INFO root fetch - main [MainThread]: End processing [xiaobu] error
+[2024-05-30 08:50:01] INFO root fetch - processPackages [aiosql]: New version: [9.5] Old Version: [9.4]
+[2024-05-30 08:50:01] INFO root fetch - processPackages [yappgen]: Downloading https://files.pythonhosted.org/packages/b3/d0/954ae19b583bac8de93c201906e11f1a7552464bcb3eae0128f3bc125c82/yappgen-0.4.dev0.tar.gz
+[2024-05-30 08:50:01] INFO root fetch - processPackages [aiosql]: Downloading https://files.pythonhosted.org/packages/4d/97/c64113329d6fce5bfda9a7092bda921b213936714d1eeb7d5c81a76ab208/aiosql-9.4.tar.gz
+[2024-05-30 08:50:01] INFO root fetch - processPackages [yappgen]: Downloading https://files.pythonhosted.org/packages/13/a6/45998aaf63aab9da7dbb87d8b9f69b6302acaa65640e0e600458731276d1/yappgen-0.4.dev1.tar.gz
+[2024-05-30 08:50:02] INFO root fetch - processPackages [yappgen]: executing diffoscope
+[2024-05-30 08:50:02] INFO root fetch - processPackages [yappgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yappgen-0.4.dev0.tar.gz tmp/yappgen-0.4.dev1.tar.gz --markdown 20240530/y/yappgen/0.4.dev0-0.4.dev1/README.md --exclude *.pyd
+[2024-05-30 08:50:02] INFO root fetch - processPackages [aiosql]: Downloading https://files.pythonhosted.org/packages/a2/50/e12614b6f085b1560bd17e71658fa91d2a95c653fb2e0eb2457f41dfbeb4/aiosql-9.5.tar.gz
+[2024-05-30 08:50:02] INFO root fetch - processPackages [aiosql]: executing diffoscope
+[2024-05-30 08:50:02] INFO root fetch - processPackages [aiosql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosql-9.4.tar.gz tmp/aiosql-9.5.tar.gz --markdown 20240530/a/aiosql/9.4-9.5/README.md --exclude *.pyd
+[2024-05-30 08:50:02] INFO root fetch - processPackages [yappgen]: Remove: archive file [/home/abi/fetcher/tmp/yappgen-0.4.dev0.tar.gz]
+[2024-05-30 08:50:02] INFO root fetch - processPackages [yappgen]: Remove: archive file [/home/abi/fetcher/tmp/yappgen-0.4.dev1.tar.gz]
+[2024-05-30 08:50:02] INFO root fetch - main [MainThread]: End processing [yappgen]: success
+[2024-05-30 08:50:03] INFO root fetch - processPackages [aiosql]: Remove: archive file [/home/abi/fetcher/tmp/aiosql-9.4.tar.gz]
+[2024-05-30 08:50:03] INFO root fetch - processPackages [aiosql]: Remove: archive file [/home/abi/fetcher/tmp/aiosql-9.5.tar.gz]
+[2024-05-30 08:50:03] INFO root fetch - main [MainThread]: End processing [aiosql]: success
+[2024-05-30 08:50:03] INFO root fetch - main [MainThread]: Store serial: [23443759]
