@@ -9323,3 +9323,43 @@ EOFError: EOF read where object expected
 [2024-05-30 05:03:10] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/autorag-0.2.2.tar.gz]
 [2024-05-30 05:03:10] INFO root fetch - main [MainThread]: End processing [AutoRAG]: success
 [2024-05-30 05:03:10] INFO root fetch - main [MainThread]: Store serial: [23441549]
+[2024-05-30 05:05:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441549]
+[2024-05-30 05:05:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 05:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AutoRAG
+[2024-05-30 05:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: palimpzest
+[2024-05-30 05:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-reconcile-oca
+[2024-05-30 05:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-reconcile-oca
+[2024-05-30 05:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: molecular-interaction-rules
+[2024-05-30 05:05:18] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: New version: [17.0.1.2.0] Old Version: [17.0.1.1.0]
+[2024-05-30 05:05:18] WARNING root fetch - processPackages [molecular-interaction-rules]: Skipping, unable to determine old version
+[2024-05-30 05:05:18] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules] error
+[2024-05-30 05:05:18] INFO root fetch - processPackages [AutoRAG]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-30 05:05:18] INFO root fetch - processPackages [palimpzest]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 05:05:18] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: New version: [17.0.1.2.0] Old Version: [17.0.1.1.0]
+[2024-05-30 05:05:18] INFO root fetch - processPackages [AutoRAG]: Downloading https://files.pythonhosted.org/packages/35/83/8df157c955120121d09da84bab72c04c77bd278ee6586d29f3a4b1103f9a/autorag-0.2.1.tar.gz
+[2024-05-30 05:05:18] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/4f/6a/2373a1d9284af8fbd1d9e599fd052a5a8824a28746e225f00d26dd59a76a/palimpzest-0.1.8.tar.gz
+[2024-05-30 05:05:18] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/21/17/7b10fed1ec3fa160be226b55f93ff9b8a6e7cabeab5f91cb582fbf1886ad/odoo_addon_account_reconcile_oca-17.0.1.1.0-py3-none-any.whl
+[2024-05-30 05:05:18] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/21/17/7b10fed1ec3fa160be226b55f93ff9b8a6e7cabeab5f91cb582fbf1886ad/odoo_addon_account_reconcile_oca-17.0.1.1.0-py3-none-any.whl
+[2024-05-30 05:05:19] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/a7/2f/4c5d4dc8fc0b28cfc59adc448f482eb20b789f2fc4d6ad4f25d08d42541b/palimpzest-0.1.9.tar.gz
+[2024-05-30 05:05:19] INFO root fetch - processPackages [palimpzest]: executing diffoscope
+[2024-05-30 05:05:19] INFO root fetch - processPackages [palimpzest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palimpzest-0.1.8.tar.gz tmp/palimpzest-0.1.9.tar.gz --markdown 20240530/p/palimpzest/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 05:05:19] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/48/fc/a75e87079cb362b32b06bfedf54d475fd5b2ed669915c04f062e0d3bd780/odoo_addon_account_reconcile_oca-17.0.1.2.0-py3-none-any.whl
+[2024-05-30 05:05:19] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/48/fc/a75e87079cb362b32b06bfedf54d475fd5b2ed669915c04f062e0d3bd780/odoo_addon_account_reconcile_oca-17.0.1.2.0-py3-none-any.whl
+[2024-05-30 05:05:19] INFO root fetch - processPackages [AutoRAG]: Downloading https://files.pythonhosted.org/packages/1c/12/eef20209f6d9f9b94a62f489d52aae3994dd910fa0a8e3992a53619b2c08/autorag-0.2.2.tar.gz
+[2024-05-30 05:05:19] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: executing diffoscope
+[2024-05-30 05:05:19] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_oca-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_oca-17.0.1.2.0-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-account-reconcile-oca/17.0.1.1.0-17.0.1.2.0/README.md --exclude *.pyd
+[2024-05-30 05:05:19] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: executing diffoscope
+[2024-05-30 05:05:19] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_oca-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_oca-17.0.1.2.0-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-account-reconcile-oca/17.0.1.1.0-17.0.1.2.0/README.md --exclude *.pyd
+[2024-05-30 05:05:19] INFO root fetch - processPackages [AutoRAG]: executing diffoscope
+[2024-05-30 05:05:19] INFO root fetch - processPackages [AutoRAG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autorag-0.2.1.tar.gz tmp/autorag-0.2.2.tar.gz --markdown 20240530/A/AutoRAG/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-30 05:05:20] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.8.tar.gz]
+[2024-05-30 05:05:20] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.9.tar.gz]
+[2024-05-30 05:05:20] INFO root fetch - main [MainThread]: End processing [palimpzest]: success
+[2024-05-30 05:05:20] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-30 05:05:20] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-30 05:05:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
+[2024-05-30 05:05:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
+[2024-05-30 05:05:22] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/autorag-0.2.1.tar.gz]
+[2024-05-30 05:05:22] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/autorag-0.2.2.tar.gz]
+[2024-05-30 05:05:22] INFO root fetch - main [MainThread]: End processing [AutoRAG]: success
+[2024-05-30 05:05:22] INFO root fetch - main [MainThread]: Store serial: [23441561]
