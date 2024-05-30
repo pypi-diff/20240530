@@ -11399,3 +11399,15 @@ EOFError: EOF read where object expected
 [2024-05-30 06:26:06] WARNING root fetch - processPackages [gpu4pyscf-cuda12x]: Skipping package: exceeds size limit 135631599>=10485760
 [2024-05-30 06:26:06] INFO root fetch - main [MainThread]: End processing [gpu4pyscf-cuda12x] error
 [2024-05-30 06:26:06] INFO root fetch - main [MainThread]: Store serial: [23442224]
+[2024-05-30 06:28:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442224]
+[2024-05-30 06:28:14] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 06:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py4web
+[2024-05-30 06:28:15] INFO root fetch - processPackages [py4web]: New version: [1.20240529.1] Old Version: [1.20240528.2]
+[2024-05-30 06:28:15] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/8c/e3/ba3ca08c6d61c87b8c1921c7551cdd17bec401dcb26cbd089dacc647812d/py4web-1.20240528.2.tar.gz
+[2024-05-30 06:28:15] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/27/32/d177294d4fec940bd27e468674e34aef23866bb9ca8e0601d4085ff59dbe/py4web-1.20240529.1.tar.gz
+[2024-05-30 06:28:16] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2024-05-30 06:28:16] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20240528.2.tar.gz tmp/py4web-1.20240529.1.tar.gz --markdown 20240530/p/py4web/1.20240528.2-1.20240529.1/README.md --exclude *.pyd
+[2024-05-30 06:28:18] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240528.2.tar.gz]
+[2024-05-30 06:28:18] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240529.1.tar.gz]
+[2024-05-30 06:28:18] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2024-05-30 06:28:18] INFO root fetch - main [MainThread]: Store serial: [23442228]
