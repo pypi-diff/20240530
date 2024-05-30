@@ -2976,3 +2976,63 @@ EOFError: EOF read where object expected
 [2024-05-30 02:57:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-05-30 02:57:11] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-05-30 02:57:11] INFO root fetch - main [MainThread]: Store serial: [23439112]
+[2024-05-30 02:59:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439112]
+[2024-05-30 02:59:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-30 02:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-custom-outputs
+[2024-05-30 02:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: palimpzest
+[2024-05-30 02:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myfunctions-diana11d
+[2024-05-30 02:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myfunctions-nadiaconeaev89
+[2024-05-30 02:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: influxio
+[2024-05-30 02:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myfunctions-danpuz7
+[2024-05-30 02:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: myfunctions-andreibelous16
+[2024-05-30 02:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: myfunctions-viksan17
+[2024-05-30 02:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: donware
+[2024-05-30 02:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: myfunctions-thejondaw
+[2024-05-30 02:59:20] INFO root fetch - processPackages [palimpzest]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 02:59:20] INFO root fetch - processPackages [pytest-custom-outputs]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 02:59:20] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/4f/6a/2373a1d9284af8fbd1d9e599fd052a5a8824a28746e225f00d26dd59a76a/palimpzest-0.1.8.tar.gz
+[2024-05-30 02:59:20] WARNING root fetch - processPackages [myfunctions-viksan17]: Skipping, unable to determine old version
+[2024-05-30 02:59:20] INFO root fetch - processPackages [myfunctions-viksan17]: Start processing: myfunctions-echervenko
+[2024-05-30 02:59:20] INFO root fetch - main [MainThread]: End processing [myfunctions-viksan17] error
+[2024-05-30 02:59:20] WARNING root fetch - processPackages [myfunctions-nadiaconeaev89]: Skipping, unable to determine old version
+[2024-05-30 02:59:20] INFO root fetch - main [MainThread]: End processing [myfunctions-nadiaconeaev89] error
+[2024-05-30 02:59:20] WARNING root fetch - processPackages [myfunctions-diana11d]: Skipping, unable to determine old version
+[2024-05-30 02:59:20] INFO root fetch - main [MainThread]: End processing [myfunctions-diana11d] error
+[2024-05-30 02:59:20] WARNING root fetch - processPackages [myfunctions-andreibelous16]: Skipping, unable to determine old version
+[2024-05-30 02:59:20] INFO root fetch - main [MainThread]: End processing [myfunctions-andreibelous16] error
+[2024-05-30 02:59:20] WARNING root fetch - processPackages [myfunctions-danpuz7]: Skipping, unable to determine old version
+[2024-05-30 02:59:20] INFO root fetch - main [MainThread]: End processing [myfunctions-danpuz7] error
+[2024-05-30 02:59:20] INFO root fetch - processPackages [influxio]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-30 02:59:20] INFO root fetch - processPackages [pytest-custom-outputs]: Downloading https://files.pythonhosted.org/packages/43/a5/e679c9889c2e90e81971cbddc5f4fbbab472a08a52a1bfdf1640a134d1bc/pytest_custom_outputs-0.1.0.tar.gz
+[2024-05-30 02:59:20] WARNING root fetch - processPackages [myfunctions-thejondaw]: Skipping, unable to determine old version
+[2024-05-30 02:59:20] INFO root fetch - main [MainThread]: End processing [myfunctions-thejondaw] error
+[2024-05-30 02:59:20] INFO root fetch - processPackages [donware]: New version: [0.1.15] Old Version: [0.1.14]
+[2024-05-30 02:59:20] WARNING root fetch - processPackages [myfunctions-echervenko]: Skipping, unable to determine old version
+[2024-05-30 02:59:20] INFO root fetch - main [MainThread]: End processing [myfunctions-echervenko] error
+[2024-05-30 02:59:20] INFO root fetch - processPackages [pytest-custom-outputs]: Downloading https://files.pythonhosted.org/packages/e1/a6/c53cad4fd8ffed0b10e8e5d5d6ba43e71b5ea131a867ba81492b7360cfe4/pytest_custom_outputs-0.1.1.tar.gz
+[2024-05-30 02:59:20] INFO root fetch - processPackages [influxio]: Downloading https://files.pythonhosted.org/packages/92/1e/b68aab39a96409a3df10e104519d251efd02cee90ac39329bd1ab76645e9/influxio-0.2.0.tar.gz
+[2024-05-30 02:59:20] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/a7/2f/4c5d4dc8fc0b28cfc59adc448f482eb20b789f2fc4d6ad4f25d08d42541b/palimpzest-0.1.9.tar.gz
+[2024-05-30 02:59:20] INFO root fetch - processPackages [donware]: Downloading https://files.pythonhosted.org/packages/26/ba/f919b002c081eb205e677d742cbfecbf9171598e2be2051e509de5968934/donware-0.1.14.tar.gz
+[2024-05-30 02:59:20] INFO root fetch - processPackages [pytest-custom-outputs]: executing diffoscope
+[2024-05-30 02:59:20] INFO root fetch - processPackages [pytest-custom-outputs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_custom_outputs-0.1.0.tar.gz tmp/pytest_custom_outputs-0.1.1.tar.gz --markdown 20240530/p/pytest-custom-outputs/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 02:59:20] INFO root fetch - processPackages [palimpzest]: executing diffoscope
+[2024-05-30 02:59:20] INFO root fetch - processPackages [palimpzest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palimpzest-0.1.8.tar.gz tmp/palimpzest-0.1.9.tar.gz --markdown 20240530/p/palimpzest/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 02:59:20] INFO root fetch - processPackages [influxio]: Downloading https://files.pythonhosted.org/packages/6f/6e/44a688ef601db0e1ea79387eeb78e00f5208ef4e0178e0a5e64d428f59d6/influxio-0.2.1.tar.gz
+[2024-05-30 02:59:20] INFO root fetch - processPackages [donware]: Downloading https://files.pythonhosted.org/packages/63/45/13f3cd7322d4fc033f902f1a9cf7a92fcca3b729e6d789ff83557cb85421/donware-0.1.15.tar.gz
+[2024-05-30 02:59:20] INFO root fetch - processPackages [influxio]: executing diffoscope
+[2024-05-30 02:59:20] INFO root fetch - processPackages [influxio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/influxio-0.2.0.tar.gz tmp/influxio-0.2.1.tar.gz --markdown 20240530/i/influxio/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-30 02:59:20] INFO root fetch - processPackages [donware]: executing diffoscope
+[2024-05-30 02:59:20] INFO root fetch - processPackages [donware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donware-0.1.14.tar.gz tmp/donware-0.1.15.tar.gz --markdown 20240530/d/donware/0.1.14-0.1.15/README.md --exclude *.pyd
+[2024-05-30 02:59:21] INFO root fetch - processPackages [pytest-custom-outputs]: Remove: archive file [/home/abi/fetcher/tmp/pytest_custom_outputs-0.1.0.tar.gz]
+[2024-05-30 02:59:21] INFO root fetch - processPackages [pytest-custom-outputs]: Remove: archive file [/home/abi/fetcher/tmp/pytest_custom_outputs-0.1.1.tar.gz]
+[2024-05-30 02:59:21] INFO root fetch - main [MainThread]: End processing [pytest-custom-outputs]: success
+[2024-05-30 02:59:21] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.8.tar.gz]
+[2024-05-30 02:59:21] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.9.tar.gz]
+[2024-05-30 02:59:21] INFO root fetch - main [MainThread]: End processing [palimpzest]: success
+[2024-05-30 02:59:21] INFO root fetch - processPackages [donware]: Remove: archive file [/home/abi/fetcher/tmp/donware-0.1.14.tar.gz]
+[2024-05-30 02:59:21] INFO root fetch - processPackages [donware]: Remove: archive file [/home/abi/fetcher/tmp/donware-0.1.15.tar.gz]
+[2024-05-30 02:59:21] INFO root fetch - main [MainThread]: End processing [donware]: success
+[2024-05-30 02:59:21] INFO root fetch - processPackages [influxio]: Remove: archive file [/home/abi/fetcher/tmp/influxio-0.2.0.tar.gz]
+[2024-05-30 02:59:21] INFO root fetch - processPackages [influxio]: Remove: archive file [/home/abi/fetcher/tmp/influxio-0.2.1.tar.gz]
+[2024-05-30 02:59:21] INFO root fetch - main [MainThread]: End processing [influxio]: success
+[2024-05-30 02:59:21] INFO root fetch - main [MainThread]: Store serial: [23439166]
