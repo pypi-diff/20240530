@@ -2722,3 +2722,24 @@ EOFError: EOF read where object expected
 [2024-05-30 02:35:03] INFO root fetch - processPackages [pkgconf]: Remove: archive file [/home/abi/fetcher/tmp/pkgconf-2.1.1.post5.tar.gz]
 [2024-05-30 02:35:03] INFO root fetch - main [MainThread]: End processing [pkgconf]: success
 [2024-05-30 02:35:03] INFO root fetch - main [MainThread]: Store serial: [23439002]
+[2024-05-30 02:37:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439002]
+[2024-05-30 02:37:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 02:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: palimpzest
+[2024-05-30 02:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dt-extensions-sdk
+[2024-05-30 02:37:12] INFO root fetch - processPackages [palimpzest]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-30 02:37:12] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/c1/3c/dd8cd7e105a6ecbcfd96d03638c98ee62342b04f48047269d170e5d16c3d/palimpzest-0.1.6.tar.gz
+[2024-05-30 02:37:12] INFO root fetch - processPackages [dt-extensions-sdk]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-30 02:37:12] INFO root fetch - processPackages [dt-extensions-sdk]: Downloading https://files.pythonhosted.org/packages/0e/10/88f712fb8d939e102905206d922adc64d215445dc102c3d5d30f1193f00f/dt_extensions_sdk-1.1.8.tar.gz
+[2024-05-30 02:37:12] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/db/be/9eb263595a60502fccb72adf615a24e7845f9abb22be10dce2f7723985a0/palimpzest-0.1.7.tar.gz
+[2024-05-30 02:37:12] INFO root fetch - processPackages [palimpzest]: executing diffoscope
+[2024-05-30 02:37:12] INFO root fetch - processPackages [palimpzest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palimpzest-0.1.6.tar.gz tmp/palimpzest-0.1.7.tar.gz --markdown 20240530/p/palimpzest/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-30 02:37:12] INFO root fetch - processPackages [dt-extensions-sdk]: Downloading https://files.pythonhosted.org/packages/07/5f/1daa7695f0fbf0df9cd8703b66137d3cab861632d5449627125f40296700/dt_extensions_sdk-1.1.9.tar.gz
+[2024-05-30 02:37:12] INFO root fetch - processPackages [dt-extensions-sdk]: executing diffoscope
+[2024-05-30 02:37:12] INFO root fetch - processPackages [dt-extensions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dt_extensions_sdk-1.1.8.tar.gz tmp/dt_extensions_sdk-1.1.9.tar.gz --markdown 20240530/d/dt-extensions-sdk/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-30 02:37:13] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.6.tar.gz]
+[2024-05-30 02:37:13] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.7.tar.gz]
+[2024-05-30 02:37:13] INFO root fetch - main [MainThread]: End processing [palimpzest]: success
+[2024-05-30 02:37:13] INFO root fetch - processPackages [dt-extensions-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_sdk-1.1.8.tar.gz]
+[2024-05-30 02:37:13] INFO root fetch - processPackages [dt-extensions-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_sdk-1.1.9.tar.gz]
+[2024-05-30 02:37:13] INFO root fetch - main [MainThread]: End processing [dt-extensions-sdk]: success
+[2024-05-30 02:37:13] INFO root fetch - main [MainThread]: Store serial: [23439010]
