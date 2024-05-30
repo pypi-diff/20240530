@@ -15382,3 +15382,18 @@ EOFError: EOF read where object expected
 [2024-05-30 08:56:40] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.35.1.dev20240529.tar.gz]
 [2024-05-30 08:56:40] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-05-30 08:56:40] INFO root fetch - main [MainThread]: Store serial: [23443812]
+[2024-05-30 08:58:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443812]
+[2024-05-30 08:58:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 08:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xlfly
+[2024-05-30 08:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-computenestsupplier
+[2024-05-30 08:58:49] WARNING root fetch - processPackages [xlfly]: Skipping, unable to determine old version
+[2024-05-30 08:58:49] INFO root fetch - main [MainThread]: End processing [xlfly] error
+[2024-05-30 08:58:49] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-30 08:58:49] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: Downloading https://files.pythonhosted.org/packages/fc/a6/f83b989ede710eb718bade6e2da9dc2206ed59bb372563b12e416861c1df/aliyun-python-sdk-computenestsupplier-1.0.5.tar.gz
+[2024-05-30 08:58:49] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: Downloading https://files.pythonhosted.org/packages/c6/7a/5daa5662e7e6192030083388d8c0fdcfbfa38d06761cdeaea31f9046c347/aliyun-python-sdk-computenestsupplier-1.0.6.tar.gz
+[2024-05-30 08:58:50] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: executing diffoscope
+[2024-05-30 08:58:50] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-computenestsupplier-1.0.5.tar.gz tmp/aliyun-python-sdk-computenestsupplier-1.0.6.tar.gz --markdown 20240530/a/aliyun-python-sdk-computenestsupplier/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-30 08:58:51] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-computenestsupplier-1.0.5.tar.gz]
+[2024-05-30 08:58:51] INFO root fetch - processPackages [aliyun-python-sdk-computenestsupplier]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-computenestsupplier-1.0.6.tar.gz]
+[2024-05-30 08:58:51] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-computenestsupplier]: success
+[2024-05-30 08:58:51] INFO root fetch - main [MainThread]: Store serial: [23443817]
