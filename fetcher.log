@@ -13921,3 +13921,68 @@ EOFError: EOF read where object expected
 [2024-05-30 08:27:36] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-1.0.0.tar.gz]
 [2024-05-30 08:27:36] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
 [2024-05-30 08:27:36] INFO root fetch - main [MainThread]: Store serial: [23443293]
+[2024-05-30 08:29:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443293]
+[2024-05-30 08:29:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transstellar-antd
+[2024-05-30 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweego-api
+[2024-05-30 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2024-05-30 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bees-challenge
+[2024-05-30 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kinqimen
+[2024-05-30 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anaplan-sdk
+[2024-05-30 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cognite-sdk
+[2024-05-30 08:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyDicomGrouping
+[2024-05-30 08:29:45] INFO root fetch - processPackages [anaplan-sdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-30 08:29:45] INFO root fetch - processPackages [bees-challenge]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-30 08:29:45] INFO root fetch - processPackages [transstellar-antd]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-30 08:29:45] WARNING root fetch - processPackages [sweego-api]: Skipping, unable to determine old version
+[2024-05-30 08:29:45] INFO root fetch - main [MainThread]: End processing [sweego-api] error
+[2024-05-30 08:29:45] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-30 08:29:45] INFO root fetch - processPackages [anaplan-sdk]: Downloading https://files.pythonhosted.org/packages/13/6d/fcce24444966b6d5677bc6c7a3d06502f81760531874cec5aa5ca673428e/anaplan_sdk-0.0.4.tar.gz
+[2024-05-30 08:29:45] INFO root fetch - processPackages [kinqimen]: New version: [0.0.6.6] Old Version: [0.0.6.5]
+[2024-05-30 08:29:45] INFO root fetch - processPackages [PyDicomGrouping]: New version: [0.1.5] Old Version: [0.1.1]
+[2024-05-30 08:29:45] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-05-30 08:29:45] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/92/c9/eb04840a84191b4bb14a9aa79041b78ebc7207c9114d44295909ce6c2dc3/bees-challenge-0.8.0.tar.gz
+[2024-05-30 08:29:45] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/8f/a6/d619f3451d6a76e12fef710752e73b34964d894a417d58432367108c9910/transstellar_antd-0.8.1.tar.gz
+[2024-05-30 08:29:45] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-30 08:29:45] INFO root fetch - processPackages [anaplan-sdk]: Downloading https://files.pythonhosted.org/packages/47/89/fdd4729019eb625518fe74135abf5eba261029cf900bad1c50dc76b74813/anaplan_sdk-0.0.5.tar.gz
+[2024-05-30 08:29:45] INFO root fetch - processPackages [PyDicomGrouping]: Downloading https://files.pythonhosted.org/packages/78/32/1efbdd453cf0710cda8fce7a21200f07bd1dbba58200010811cfc7b4c938/PyDicomGrouping-0.1.1.tar.gz
+[2024-05-30 08:29:45] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/07/b0/8273979b766f0002142714ccac087661ca119069cca66ab3540321ebc94e/bees-challenge-0.9.0.tar.gz
+[2024-05-30 08:29:45] INFO root fetch - processPackages [kinqimen]: Downloading https://files.pythonhosted.org/packages/12/f9/972712860ef4c451b5272b2c0d68b8f90d125fa2d8d2143b90d09bf4f854/kinqimen-0.0.6.5.tar.gz
+[2024-05-30 08:29:45] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-05-30 08:29:45] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/71/89/6a56e920e316df0da9580cc9789cd02c1fe6b93a5d4fd10dc20c13fd9f5f/transstellar_antd-0.9.0.tar.gz
+[2024-05-30 08:29:45] WARNING root fetch - processPackages [PyDicomGrouping]: Skipping package: exceeds size limit 37171069>=10485760
+[2024-05-30 08:29:45] INFO root fetch - main [MainThread]: End processing [PyDicomGrouping] error
+[2024-05-30 08:29:45] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-30 08:29:45] INFO root fetch - processPackages [anaplan-sdk]: executing diffoscope
+[2024-05-30 08:29:45] INFO root fetch - processPackages [anaplan-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaplan_sdk-0.0.4.tar.gz tmp/anaplan_sdk-0.0.5.tar.gz --markdown 20240530/a/anaplan-sdk/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-30 08:29:45] INFO root fetch - processPackages [bees-challenge]: executing diffoscope
+[2024-05-30 08:29:45] INFO root fetch - processPackages [bees-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bees-challenge-0.8.0.tar.gz tmp/bees-challenge-0.9.0.tar.gz --markdown 20240530/b/bees-challenge/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-30 08:29:45] INFO root fetch - processPackages [transstellar-antd]: executing diffoscope
+[2024-05-30 08:29:45] INFO root fetch - processPackages [transstellar-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar_antd-0.8.1.tar.gz tmp/transstellar_antd-0.9.0.tar.gz --markdown 20240530/t/transstellar-antd/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-30 08:29:46] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-30 08:29:46] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240530/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-30 08:29:46] INFO root fetch - processPackages [kinqimen]: Downloading https://files.pythonhosted.org/packages/54/75/051966a7db3fc1d68bffe038687113d1a90e9b18550419cd5b9e22aff70d/kinqimen-0.0.6.6.tar.gz
+[2024-05-30 08:29:46] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-05-30 08:29:46] INFO root fetch - processPackages [kinqimen]: executing diffoscope
+[2024-05-30 08:29:46] INFO root fetch - processPackages [kinqimen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kinqimen-0.0.6.5.tar.gz tmp/kinqimen-0.0.6.6.tar.gz --markdown 20240530/k/kinqimen/0.0.6.5-0.0.6.6/README.md --exclude *.pyd
+[2024-05-30 08:29:46] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-05-30 08:29:46] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240530/c/cognite-sdk/7.8.9-7.9.0/README.md --exclude *.pyd
+[2024-05-30 08:29:46] INFO root fetch - processPackages [anaplan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/anaplan_sdk-0.0.4.tar.gz]
+[2024-05-30 08:29:46] INFO root fetch - processPackages [anaplan-sdk]: Remove: archive file [/home/abi/fetcher/tmp/anaplan_sdk-0.0.5.tar.gz]
+[2024-05-30 08:29:46] INFO root fetch - main [MainThread]: End processing [anaplan-sdk]: success
+[2024-05-30 08:29:46] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.8.0.tar.gz]
+[2024-05-30 08:29:46] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.9.0.tar.gz]
+[2024-05-30 08:29:46] INFO root fetch - main [MainThread]: End processing [bees-challenge]: success
+[2024-05-30 08:29:46] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.8.1.tar.gz]
+[2024-05-30 08:29:46] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.9.0.tar.gz]
+[2024-05-30 08:29:46] INFO root fetch - main [MainThread]: End processing [transstellar-antd]: success
+[2024-05-30 08:29:47] INFO root fetch - processPackages [kinqimen]: Remove: archive file [/home/abi/fetcher/tmp/kinqimen-0.0.6.5.tar.gz]
+[2024-05-30 08:29:47] INFO root fetch - processPackages [kinqimen]: Remove: archive file [/home/abi/fetcher/tmp/kinqimen-0.0.6.6.tar.gz]
+[2024-05-30 08:29:47] INFO root fetch - main [MainThread]: End processing [kinqimen]: success
+[2024-05-30 08:29:47] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-30 08:29:47] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-30 08:29:47] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-30 08:29:47] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-05-30 08:29:47] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-05-30 08:29:47] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-05-30 08:29:47] INFO root fetch - main [MainThread]: Store serial: [23443317]
