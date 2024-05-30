@@ -22505,3 +22505,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 12:11:28] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
 [2024-05-30 12:11:28] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-30 12:11:28] INFO root fetch - main [MainThread]: Store serial: [23446831]
+[2024-05-30 12:13:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446831]
+[2024-05-30 12:13:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysquril
+[2024-05-30 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-daf-butler
+[2024-05-30 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vdk-trino
+[2024-05-30 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: luminesce-sdk
+[2024-05-30 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: primap2
+[2024-05-30 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apiAmoCRM
+[2024-05-30 12:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sentry-stack-dingding
+[2024-05-30 12:13:37] INFO root fetch - processPackages [sentry-stack-dingding]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-30 12:13:37] WARNING root fetch - processPackages [apiAmoCRM]: Skipping, unable to determine old version
+[2024-05-30 12:13:37] INFO root fetch - main [MainThread]: End processing [apiAmoCRM] error
+[2024-05-30 12:13:38] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/08/f4/efe4a553e289342e7f16ab6afe3d87c7c5fc61f7ff9703a45873ece8103a/sentry-stack-dingding-1.0.8.tar.gz
+[2024-05-30 12:13:38] INFO root fetch - processPackages [primap2]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-30 12:13:38] INFO root fetch - processPackages [vdk-trino]: New version: [0.4.948436673] Old Version: [0.4.944393829]
+[2024-05-30 12:13:38] INFO root fetch - processPackages [pysquril]: New version: [1.0.0] Old Version: [0.7.0]
+[2024-05-30 12:13:38] INFO root fetch - processPackages [lsst-daf-butler]: New version: [27.2024.2200] Old Version: [27.2024.2100]
+[2024-05-30 12:13:38] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-30 12:13:38] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/b6/d7/f8ee3de9d36e27746e446086077f59149fe522febdc65a2e825271c70ba8/sentry-stack-dingding-1.0.9.tar.gz
+[2024-05-30 12:13:38] INFO root fetch - processPackages [primap2]: Downloading https://files.pythonhosted.org/packages/b2/d9/968f0c80f354dcdd986361622a67ed457477468ce7bb2ce83ee5ab93d80d/primap2-0.9.7.tar.gz
+[2024-05-30 12:13:38] INFO root fetch - processPackages [vdk-trino]: Downloading https://files.pythonhosted.org/packages/c1/e2/8f118d923a35360ea129ef943675e16a4c90f5b3693b85b589572e4b33ec/vdk-trino-0.4.944393829.tar.gz
+[2024-05-30 12:13:38] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/cf/ec/586642e3fd3da783919d148dd3f087ee9ddcbd8cb54324cd738d4c2bbac8/pysquril-0.7.0.tar.gz
+[2024-05-30 12:13:38] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/80/cb/d435cbb45c063b3abe3eb11a09eacda9fc6e1da1df3b5dfde7d4fb1c8198/lsst_daf_butler-27.2024.2100.tar.gz
+[2024-05-30 12:13:38] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/e3/65/3696ddb18aebc5d84165e3aad87e9f8ef387ad4f28960b5404833fc6eef5/luminesce_sdk-2.1.8.tar.gz
+[2024-05-30 12:13:38] INFO root fetch - processPackages [sentry-stack-dingding]: executing diffoscope
+[2024-05-30 12:13:38] INFO root fetch - processPackages [sentry-stack-dingding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-stack-dingding-1.0.8.tar.gz tmp/sentry-stack-dingding-1.0.9.tar.gz --markdown 20240530/s/sentry-stack-dingding/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-30 12:13:38] INFO root fetch - processPackages [vdk-trino]: Downloading https://files.pythonhosted.org/packages/ea/7e/14f7593a87f15edb1f40491364c0653db0d59207e2be1a435c88ed1df071/vdk-trino-0.4.948436673.tar.gz
+[2024-05-30 12:13:38] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/a2/f8/60fd93602c8a8ca95dc7c40c70e8cd0227fcbe0dbb602c1f1f2c4d761b20/luminesce_sdk-2.1.9.tar.gz
+[2024-05-30 12:13:38] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/44/dd/9ebb26099caf9209b07f54e327a1701ccd3d206f40484f4b85ee6057fb4a/pysquril-1.0.0.tar.gz
+[2024-05-30 12:13:38] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/c8/b1/28d067b2f57cf9a638fb69e8c388564ce315eb06db8adfa6972250050b7b/lsst_daf_butler-27.2024.2200.tar.gz
+[2024-05-30 12:13:38] INFO root fetch - processPackages [vdk-trino]: executing diffoscope
+[2024-05-30 12:13:38] INFO root fetch - processPackages [vdk-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-trino-0.4.944393829.tar.gz tmp/vdk-trino-0.4.948436673.tar.gz --markdown 20240530/v/vdk-trino/0.4.944393829-0.4.948436673/README.md --exclude *.pyd
+[2024-05-30 12:13:38] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-05-30 12:13:38] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.1.8.tar.gz tmp/luminesce_sdk-2.1.9.tar.gz --markdown 20240530/l/luminesce-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-30 12:13:38] INFO root fetch - processPackages [pysquril]: executing diffoscope
+[2024-05-30 12:13:38] INFO root fetch - processPackages [pysquril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysquril-0.7.0.tar.gz tmp/pysquril-1.0.0.tar.gz --markdown 20240530/p/pysquril/0.7.0-1.0.0/README.md --exclude *.pyd
+[2024-05-30 12:13:38] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.8.tar.gz]
+[2024-05-30 12:13:38] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.9.tar.gz]
+[2024-05-30 12:13:38] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding]: success
+[2024-05-30 12:13:38] INFO root fetch - processPackages [primap2]: Downloading https://files.pythonhosted.org/packages/93/0a/9aeada71099109ae81df0799cf6d044929938bc2f197b5f1d8f75f5b5e88/primap2-0.9.8.tar.gz
+[2024-05-30 12:13:39] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2024-05-30 12:13:39] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_daf_butler-27.2024.2100.tar.gz tmp/lsst_daf_butler-27.2024.2200.tar.gz --markdown 20240530/l/lsst-daf-butler/27.2024.2100-27.2024.2200/README.md --exclude *.pyd
+[2024-05-30 12:13:39] INFO root fetch - processPackages [primap2]: executing diffoscope
+[2024-05-30 12:13:39] INFO root fetch - processPackages [primap2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primap2-0.9.7.tar.gz tmp/primap2-0.9.8.tar.gz --markdown 20240530/p/primap2/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-30 12:13:39] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.944393829.tar.gz]
+[2024-05-30 12:13:39] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.948436673.tar.gz]
+[2024-05-30 12:13:39] INFO root fetch - main [MainThread]: End processing [vdk-trino]: success
+[2024-05-30 12:13:39] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.7.0.tar.gz]
+[2024-05-30 12:13:39] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-1.0.0.tar.gz]
+[2024-05-30 12:13:39] INFO root fetch - main [MainThread]: End processing [pysquril]: success
+[2024-05-30 12:13:39] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.8.tar.gz]
+[2024-05-30 12:13:39] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.9.tar.gz]
+[2024-05-30 12:13:39] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-05-30 12:13:40] INFO root fetch - processPackages [primap2]: Remove: archive file [/home/abi/fetcher/tmp/primap2-0.9.7.tar.gz]
+[2024-05-30 12:13:40] INFO root fetch - processPackages [primap2]: Remove: archive file [/home/abi/fetcher/tmp/primap2-0.9.8.tar.gz]
+[2024-05-30 12:13:40] INFO root fetch - main [MainThread]: End processing [primap2]: success
+[2024-05-30 12:13:41] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.2024.2100.tar.gz]
+[2024-05-30 12:13:41] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.2024.2200.tar.gz]
+[2024-05-30 12:13:41] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2024-05-30 12:13:41] INFO root fetch - main [MainThread]: Store serial: [23446860]
