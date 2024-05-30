@@ -22177,3 +22177,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 12:01:44] INFO root fetch - processPackages [harp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/harp_proxy-0.5.0b6.tar.gz]
 [2024-05-30 12:01:44] INFO root fetch - main [MainThread]: End processing [harp-proxy]: success
 [2024-05-30 12:01:44] INFO root fetch - main [MainThread]: Store serial: [23446688]
+[2024-05-30 12:03:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446688]
+[2024-05-30 12:03:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 12:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: corebridge
+[2024-05-30 12:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-keras-nightly
+[2024-05-30 12:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygerber
+[2024-05-30 12:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-dc09-spt
+[2024-05-30 12:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dav-tools
+[2024-05-30 12:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MilPython
+[2024-05-30 12:03:53] INFO root fetch - processPackages [dav-tools]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-30 12:03:53] INFO root fetch - processPackages [MilPython]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-30 12:03:53] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024052909] Old Version: [2.17.0.dev2024052809]
+[2024-05-30 12:03:53] INFO root fetch - processPackages [my-dc09-spt]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-30 12:03:53] INFO root fetch - processPackages [dav-tools]: Downloading https://files.pythonhosted.org/packages/95/40/e485fc60806bc66b4030425e6ac1c017bd6965eb8645daf2638ea3d8dfb1/dav_tools-0.1.4.tar.gz
+[2024-05-30 12:03:53] INFO root fetch - processPackages [corebridge]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-30 12:03:53] INFO root fetch - processPackages [pygerber]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-05-30 12:03:53] INFO root fetch - processPackages [MilPython]: Downloading https://files.pythonhosted.org/packages/ab/b2/8bb7c657996ede63b4657c4965bd730724df2058d015f713f2d269afe475/MilPython-0.2.0.tar.gz
+[2024-05-30 12:03:53] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/93/95/d6cb26f71d37908b36ac3bd12c952f6efe25c51e6a14b86189902b44d02d/tf_keras_nightly-2.17.0.dev2024052809.tar.gz
+[2024-05-30 12:03:53] INFO root fetch - processPackages [my-dc09-spt]: Downloading https://files.pythonhosted.org/packages/16/6a/bae727b2b2275a9aa93270fd0b9ff527739da2139d1163caff5a0fa47787/my_dc09_spt-0.1.1.tar.gz
+[2024-05-30 12:03:53] INFO root fetch - processPackages [corebridge]: Downloading https://files.pythonhosted.org/packages/c9/11/52f7b387de01e12fb67f4c40b538f2e69e970017214b128a5ea7188beaad/corebridge-0.2.6.tar.gz
+[2024-05-30 12:03:53] INFO root fetch - processPackages [dav-tools]: Downloading https://files.pythonhosted.org/packages/ce/e2/801df895d4c05c4de64ff913770ff8db378f6733ec7aca7168975a0400a8/dav_tools-0.2.0.tar.gz
+[2024-05-30 12:03:53] INFO root fetch - processPackages [pygerber]: Downloading https://files.pythonhosted.org/packages/6a/3e/d99c78577e2c965a6f30ba2e0e27ce3b7294f328e0cbecd293b4616a8cbe/pygerber-2.3.1.tar.gz
+[2024-05-30 12:03:53] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/81/68/36e74e269316ff203f937c0b3c3251e2020cc3c76e655448158eea33123b/tf_keras_nightly-2.17.0.dev2024052909.tar.gz
+[2024-05-30 12:03:53] INFO root fetch - processPackages [dav-tools]: executing diffoscope
+[2024-05-30 12:03:53] INFO root fetch - processPackages [dav-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dav_tools-0.1.4.tar.gz tmp/dav_tools-0.2.0.tar.gz --markdown 20240530/d/dav-tools/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-30 12:03:53] INFO root fetch - processPackages [MilPython]: Downloading https://files.pythonhosted.org/packages/ef/68/2e988eff34a804e9788423b516adfaa2a7e94ce153fe43b0818466747a8b/MilPython-0.2.1.tar.gz
+[2024-05-30 12:03:53] INFO root fetch - processPackages [my-dc09-spt]: Downloading https://files.pythonhosted.org/packages/2a/a5/d1e58dff5378aae1f633311018e530ed9bd5c664f40a908ea4c76ae601d9/my_dc09_spt-0.1.2.tar.gz
+[2024-05-30 12:03:53] INFO root fetch - processPackages [corebridge]: Downloading https://files.pythonhosted.org/packages/84/7d/946c1c80e270b29917446b1332617efd1e501580b9e5fa840cd03da7b976/corebridge-0.2.7.tar.gz
+[2024-05-30 12:03:54] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-30 12:03:54] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024052809.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024052909.tar.gz --markdown 20240530/t/tf-keras-nightly/2.17.0.dev2024052809-2.17.0.dev2024052909/README.md --exclude *.pyd
+[2024-05-30 12:03:54] INFO root fetch - processPackages [my-dc09-spt]: executing diffoscope
+[2024-05-30 12:03:54] INFO root fetch - processPackages [my-dc09-spt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_dc09_spt-0.1.1.tar.gz tmp/my_dc09_spt-0.1.2.tar.gz --markdown 20240530/m/my-dc09-spt/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-30 12:03:54] INFO root fetch - processPackages [pygerber]: Downloading https://files.pythonhosted.org/packages/e5/69/18453b23a21e5f5f05a33899ce9b397da38d59624a91b152fac05bf7f0cb/pygerber-2.3.2.tar.gz
+[2024-05-30 12:03:54] INFO root fetch - processPackages [MilPython]: executing diffoscope
+[2024-05-30 12:03:54] INFO root fetch - processPackages [MilPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MilPython-0.2.0.tar.gz tmp/MilPython-0.2.1.tar.gz --markdown 20240530/M/MilPython/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-30 12:03:54] INFO root fetch - processPackages [corebridge]: executing diffoscope
+[2024-05-30 12:03:54] INFO root fetch - processPackages [corebridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corebridge-0.2.6.tar.gz tmp/corebridge-0.2.7.tar.gz --markdown 20240530/c/corebridge/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-30 12:03:54] INFO root fetch - processPackages [pygerber]: executing diffoscope
+[2024-05-30 12:03:54] INFO root fetch - processPackages [pygerber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygerber-2.3.1.tar.gz tmp/pygerber-2.3.2.tar.gz --markdown 20240530/p/pygerber/2.3.1-2.3.2/README.md --exclude *.pyd
+[2024-05-30 12:03:54] INFO root fetch - processPackages [dav-tools]: Remove: archive file [/home/abi/fetcher/tmp/dav_tools-0.1.4.tar.gz]
+[2024-05-30 12:03:54] INFO root fetch - processPackages [dav-tools]: Remove: archive file [/home/abi/fetcher/tmp/dav_tools-0.2.0.tar.gz]
+[2024-05-30 12:03:54] INFO root fetch - main [MainThread]: End processing [dav-tools]: success
+[2024-05-30 12:03:54] INFO root fetch - processPackages [my-dc09-spt]: Remove: archive file [/home/abi/fetcher/tmp/my_dc09_spt-0.1.1.tar.gz]
+[2024-05-30 12:03:54] INFO root fetch - processPackages [my-dc09-spt]: Remove: archive file [/home/abi/fetcher/tmp/my_dc09_spt-0.1.2.tar.gz]
+[2024-05-30 12:03:54] INFO root fetch - main [MainThread]: End processing [my-dc09-spt]: success
+[2024-05-30 12:03:54] INFO root fetch - processPackages [corebridge]: Remove: archive file [/home/abi/fetcher/tmp/corebridge-0.2.6.tar.gz]
+[2024-05-30 12:03:54] INFO root fetch - processPackages [corebridge]: Remove: archive file [/home/abi/fetcher/tmp/corebridge-0.2.7.tar.gz]
+[2024-05-30 12:03:54] INFO root fetch - main [MainThread]: End processing [corebridge]: success
+[2024-05-30 12:03:54] INFO root fetch - processPackages [MilPython]: Remove: archive file [/home/abi/fetcher/tmp/MilPython-0.2.0.tar.gz]
+[2024-05-30 12:03:54] INFO root fetch - processPackages [MilPython]: Remove: archive file [/home/abi/fetcher/tmp/MilPython-0.2.1.tar.gz]
+[2024-05-30 12:03:54] INFO root fetch - main [MainThread]: End processing [MilPython]: success
+[2024-05-30 12:03:55] INFO root fetch - processPackages [pygerber]: Remove: archive file [/home/abi/fetcher/tmp/pygerber-2.3.1.tar.gz]
+[2024-05-30 12:03:55] INFO root fetch - processPackages [pygerber]: Remove: archive file [/home/abi/fetcher/tmp/pygerber-2.3.2.tar.gz]
+[2024-05-30 12:03:55] INFO root fetch - main [MainThread]: End processing [pygerber]: success
+[2024-05-30 12:03:56] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024052809.tar.gz]
+[2024-05-30 12:03:56] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024052909.tar.gz]
+[2024-05-30 12:03:56] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-30 12:03:56] INFO root fetch - main [MainThread]: Store serial: [23446713]
