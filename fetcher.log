@@ -7969,3 +7969,45 @@ EOFError: EOF read where object expected
 [2024-05-30 03:40:52] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-05-30 03:40:52] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-05-30 03:40:52] INFO root fetch - main [MainThread]: Store serial: [23440671]
+[2024-05-30 03:42:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23440671]
+[2024-05-30 03:43:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 03:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seven-cloudapp-frame
+[2024-05-30 03:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pp-weight-estimation
+[2024-05-30 03:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ct-tcpchat
+[2024-05-30 03:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyeconomics
+[2024-05-30 03:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: authentik-client
+[2024-05-30 03:43:01] INFO root fetch - processPackages [pp-weight-estimation]: New version: [1.1.26] Old Version: [1.1.14]
+[2024-05-30 03:43:01] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-30 03:43:01] INFO root fetch - processPackages [pp-weight-estimation]: Downloading https://files.pythonhosted.org/packages/ec/6b/c6c94bb612015316c88f70f9cd6e8a8e8cba48d665ffd809cc1ddd979c7e/pp_weight_estimation-1.1.14.tar.gz
+[2024-05-30 03:43:01] WARNING root fetch - processPackages [ct-tcpchat]: Skipping, unable to determine old version
+[2024-05-30 03:43:01] INFO root fetch - main [MainThread]: End processing [ct-tcpchat] error
+[2024-05-30 03:43:01] INFO root fetch - processPackages [pyeconomics]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-30 03:43:01] INFO root fetch - processPackages [authentik-client]: New version: [2024.4.2.post1717033274] Old Version: [2024.4.2.post1716550398]
+[2024-05-30 03:43:02] INFO root fetch - processPackages [pp-weight-estimation]: Downloading https://files.pythonhosted.org/packages/02/2e/61c57a8fc80f100c225bf193085c5cb081f309522f35b1d6434e2b432135/pp_weight_estimation-1.1.26.tar.gz
+[2024-05-30 03:43:02] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-05-30 03:43:02] INFO root fetch - processPackages [pyeconomics]: Downloading https://files.pythonhosted.org/packages/e2/13/39eb19991360ae81857afc7c301998e2a0dd5b04c6043075bfd2295a0772/pyeconomics-0.1.0.tar.gz
+[2024-05-30 03:43:02] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/22/c3/189f44d3576988fe7d7af9596cb9721ce9005d6c67bded475bae08f432dc/authentik_client-2024.4.2.post1716550398.tar.gz
+[2024-05-30 03:43:02] INFO root fetch - processPackages [pp-weight-estimation]: executing diffoscope
+[2024-05-30 03:43:02] INFO root fetch - processPackages [pp-weight-estimation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_weight_estimation-1.1.14.tar.gz tmp/pp_weight_estimation-1.1.26.tar.gz --markdown 20240530/p/pp-weight-estimation/1.1.14-1.1.26/README.md --exclude *.pyd
+[2024-05-30 03:43:02] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-05-30 03:43:02] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-05-30 03:43:02] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240530/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-30 03:43:02] INFO root fetch - processPackages [pyeconomics]: Downloading https://files.pythonhosted.org/packages/49/a1/db0fd3bf507fff809122dff74eef8d02b0f685671d1450dd03cc2c5e6dc6/pyeconomics-0.2.0.tar.gz
+[2024-05-30 03:43:02] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/dc/67/9b2d5ffe2e48d4c172efac5e63dde8dc336a5f7bb97db5910e9ca5e13b00/authentik_client-2024.4.2.post1717033274.tar.gz
+[2024-05-30 03:43:02] INFO root fetch - processPackages [authentik-client]: executing diffoscope
+[2024-05-30 03:43:02] INFO root fetch - processPackages [authentik-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authentik_client-2024.4.2.post1716550398.tar.gz tmp/authentik_client-2024.4.2.post1717033274.tar.gz --markdown 20240530/a/authentik-client/2024.4.2.post1716550398-2024.4.2.post1717033274/README.md --exclude *.pyd
+[2024-05-30 03:43:02] INFO root fetch - processPackages [pp-weight-estimation]: Remove: archive file [/home/abi/fetcher/tmp/pp_weight_estimation-1.1.14.tar.gz]
+[2024-05-30 03:43:02] INFO root fetch - processPackages [pp-weight-estimation]: Remove: archive file [/home/abi/fetcher/tmp/pp_weight_estimation-1.1.26.tar.gz]
+[2024-05-30 03:43:02] INFO root fetch - main [MainThread]: End processing [pp-weight-estimation]: success
+[2024-05-30 03:43:02] INFO root fetch - processPackages [pyeconomics]: executing diffoscope
+[2024-05-30 03:43:02] INFO root fetch - processPackages [pyeconomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeconomics-0.1.0.tar.gz tmp/pyeconomics-0.2.0.tar.gz --markdown 20240530/p/pyeconomics/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-30 03:43:03] INFO root fetch - processPackages [pyeconomics]: Remove: archive file [/home/abi/fetcher/tmp/pyeconomics-0.1.0.tar.gz]
+[2024-05-30 03:43:03] INFO root fetch - processPackages [pyeconomics]: Remove: archive file [/home/abi/fetcher/tmp/pyeconomics-0.2.0.tar.gz]
+[2024-05-30 03:43:03] INFO root fetch - main [MainThread]: End processing [pyeconomics]: success
+[2024-05-30 03:43:03] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-05-30 03:43:03] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-05-30 03:43:03] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-05-30 03:43:05] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.4.2.post1716550398.tar.gz]
+[2024-05-30 03:43:05] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.4.2.post1717033274.tar.gz]
+[2024-05-30 03:43:05] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
+[2024-05-30 03:43:05] INFO root fetch - main [MainThread]: Store serial: [23440747]
