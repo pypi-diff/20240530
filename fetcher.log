@@ -8172,3 +8172,33 @@ EOFError: EOF read where object expected
 [2024-05-30 03:47:28] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240528.2.tar.gz]
 [2024-05-30 03:47:28] INFO root fetch - main [MainThread]: End processing [py4web]: success
 [2024-05-30 03:47:28] INFO root fetch - main [MainThread]: Store serial: [23440941]
+[2024-05-30 03:49:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23440941]
+[2024-05-30 03:49:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 03:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py4web
+[2024-05-30 03:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myfunctions-Andre-Pank
+[2024-05-30 03:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Leonardo-Ai-SDK
+[2024-05-30 03:49:37] INFO root fetch - processPackages [myfunctions-Andre-Pank]: New version: [0.0.9] Old Version: [0.0.13]
+[2024-05-30 03:49:37] INFO root fetch - processPackages [py4web]: New version: [1.20240529.1] Old Version: [1.20240528.2]
+[2024-05-30 03:49:37] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/8c/e3/ba3ca08c6d61c87b8c1921c7551cdd17bec401dcb26cbd089dacc647812d/py4web-1.20240528.2.tar.gz
+[2024-05-30 03:49:37] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.5.0] Old Version: [5.4.4]
+[2024-05-30 03:49:37] INFO root fetch - processPackages [myfunctions-Andre-Pank]: Downloading https://files.pythonhosted.org/packages/2c/1a/c982411d9d5ce4914b135765b047fd485519ea3677b11b316743c51d15c2/myfunctions_Andre-Pank-0.0.13.tar.gz
+[2024-05-30 03:49:37] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/80/6f/9ffc58870be02b61f7c8d10933062b510558812468a578a23c0cbcda19e0/Leonardo-Ai-SDK-5.4.4.tar.gz
+[2024-05-30 03:49:37] INFO root fetch - processPackages [myfunctions-Andre-Pank]: Downloading https://files.pythonhosted.org/packages/19/b1/ff206c33049d64638f9c2f570afd445104caabf818697428f3d785b1ffec/myfunctions_Andre-Pank-0.0.9.tar.gz
+[2024-05-30 03:49:37] INFO root fetch - processPackages [myfunctions-Andre-Pank]: executing diffoscope
+[2024-05-30 03:49:37] INFO root fetch - processPackages [myfunctions-Andre-Pank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_Andre-Pank-0.0.13.tar.gz tmp/myfunctions_Andre-Pank-0.0.9.tar.gz --markdown 20240530/m/myfunctions-Andre-Pank/0.0.13-0.0.9/README.md --exclude *.pyd
+[2024-05-30 03:49:38] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/4f/4c/0a831d6eb4134a16563f21fd92798e4925f03ed53e721297d6144f0d2177/Leonardo-Ai-SDK-5.5.0.tar.gz
+[2024-05-30 03:49:38] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/27/32/d177294d4fec940bd27e468674e34aef23866bb9ca8e0601d4085ff59dbe/py4web-1.20240529.1.tar.gz
+[2024-05-30 03:49:38] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-05-30 03:49:38] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.4.4.tar.gz tmp/Leonardo-Ai-SDK-5.5.0.tar.gz --markdown 20240530/L/Leonardo-Ai-SDK/5.4.4-5.5.0/README.md --exclude *.pyd
+[2024-05-30 03:49:38] INFO root fetch - processPackages [myfunctions-Andre-Pank]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_Andre-Pank-0.0.13.tar.gz]
+[2024-05-30 03:49:38] INFO root fetch - processPackages [myfunctions-Andre-Pank]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_Andre-Pank-0.0.9.tar.gz]
+[2024-05-30 03:49:38] INFO root fetch - main [MainThread]: End processing [myfunctions-Andre-Pank]: success
+[2024-05-30 03:49:38] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2024-05-30 03:49:38] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20240528.2.tar.gz tmp/py4web-1.20240529.1.tar.gz --markdown 20240530/p/py4web/1.20240528.2-1.20240529.1/README.md --exclude *.pyd
+[2024-05-30 03:49:38] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.4.4.tar.gz]
+[2024-05-30 03:49:38] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.5.0.tar.gz]
+[2024-05-30 03:49:38] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-05-30 03:49:40] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240528.2.tar.gz]
+[2024-05-30 03:49:40] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240529.1.tar.gz]
+[2024-05-30 03:49:40] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2024-05-30 03:49:40] INFO root fetch - main [MainThread]: Store serial: [23441007]
