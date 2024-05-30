@@ -3255,3 +3255,42 @@ EOFError: EOF read where object expected
 [2024-05-30 03:05:53] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.4.tar.gz]
 [2024-05-30 03:05:53] INFO root fetch - main [MainThread]: End processing [traceloop-sdk]: success
 [2024-05-30 03:05:53] INFO root fetch - main [MainThread]: Store serial: [23439266]
+[2024-05-30 03:07:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439266]
+[2024-05-30 03:08:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 03:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myfunctions-Andre-Pank
+[2024-05-30 03:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vision-agent
+[2024-05-30 03:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myfunctions-EMIL8708
+[2024-05-30 03:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chaiverse
+[2024-05-30 03:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: generate-tools
+[2024-05-30 03:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mtllm
+[2024-05-30 03:08:01] INFO root fetch - processPackages [vision-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-30 03:08:01] INFO root fetch - processPackages [generate-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-30 03:08:01] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/0c/95/4cc93c0448acda0068720c68eff075929f25ab799564de37eef47b7b2c10/vision_agent-0.2.8.tar.gz
+[2024-05-30 03:08:01] INFO root fetch - processPackages [chaiverse]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-30 03:08:01] INFO root fetch - processPackages [generate-tools]: Downloading https://files.pythonhosted.org/packages/13/c9/a2c95c501a1084612f32eec8b3c71585e2b42e9ca2f0f78c9105be958305/generate_tools-0.1.5-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-30 03:08:01] WARNING root fetch - processPackages [myfunctions-EMIL8708]: Skipping, unable to determine old version
+[2024-05-30 03:08:01] INFO root fetch - main [MainThread]: End processing [myfunctions-EMIL8708] error
+[2024-05-30 03:08:01] WARNING root fetch - processPackages [myfunctions-Andre-Pank]: Skipping, unable to determine old version
+[2024-05-30 03:08:01] INFO root fetch - main [MainThread]: End processing [myfunctions-Andre-Pank] error
+[2024-05-30 03:08:01] WARNING root fetch - processPackages [mtllm]: Skipping, unable to determine old version
+[2024-05-30 03:08:01] INFO root fetch - main [MainThread]: End processing [mtllm] error
+[2024-05-30 03:08:02] INFO root fetch - processPackages [chaiverse]: Downloading https://files.pythonhosted.org/packages/40/8f/0c28b09c5b933f63a5e9e2b50a3e8a06a87151afc8e162b2c09deedc4bf0/chaiverse-1.9.8.tar.gz
+[2024-05-30 03:08:02] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/72/9f/90c2e26c1f92cadcd8c25d12307c9505ef1d189c73981f02b32432391cae/vision_agent-0.2.9.tar.gz
+[2024-05-30 03:08:02] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-05-30 03:08:02] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.2.8.tar.gz tmp/vision_agent-0.2.9.tar.gz --markdown 20240530/v/vision-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-30 03:08:02] INFO root fetch - processPackages [chaiverse]: Downloading https://files.pythonhosted.org/packages/4c/ed/6d3e89ab870b31d2281b7595f6030d767109316508a89f1d6178491348cd/chaiverse-1.9.9.tar.gz
+[2024-05-30 03:08:02] INFO root fetch - processPackages [generate-tools]: Downloading https://files.pythonhosted.org/packages/36/e8/378e0df0531c48135d3deec51f2c33aa0d89a256e9161bb86bfec92402c9/generate_tools-0.1.6-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-30 03:08:02] INFO root fetch - processPackages [chaiverse]: executing diffoscope
+[2024-05-30 03:08:02] INFO root fetch - processPackages [chaiverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaiverse-1.9.8.tar.gz tmp/chaiverse-1.9.9.tar.gz --markdown 20240530/c/chaiverse/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-30 03:08:02] INFO root fetch - processPackages [generate-tools]: executing diffoscope
+[2024-05-30 03:08:02] INFO root fetch - processPackages [generate-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generate_tools-0.1.5-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/generate_tools-0.1.6-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240530/g/generate-tools/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-30 03:08:03] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.8.tar.gz]
+[2024-05-30 03:08:03] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.9.tar.gz]
+[2024-05-30 03:08:03] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-05-30 03:08:03] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.8.tar.gz]
+[2024-05-30 03:08:03] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.9.tar.gz]
+[2024-05-30 03:08:03] INFO root fetch - main [MainThread]: End processing [chaiverse]: success
+[2024-05-30 03:08:11] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.5-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-30 03:08:11] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.6-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-30 03:08:11] INFO root fetch - main [MainThread]: End processing [generate-tools]: success
+[2024-05-30 03:08:11] INFO root fetch - main [MainThread]: Store serial: [23439295]
