@@ -16182,3 +16182,63 @@ EOFError: EOF read where object expected
 [2024-05-30 09:31:57] INFO root fetch - processPackages [pyannote-onnx]: Remove: archive file [/home/abi/fetcher/tmp/pyannote-onnx-0.0.8.tar.gz]
 [2024-05-30 09:31:57] INFO root fetch - main [MainThread]: End processing [pyannote-onnx]: success
 [2024-05-30 09:31:57] INFO root fetch - main [MainThread]: Store serial: [23444174]
+[2024-05-30 09:34:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444174]
+[2024-05-30 09:34:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dj-dynamic-settings
+[2024-05-30 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xingpyc
+[2024-05-30 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libreflow.extensions.anpo.export-illustrator
+[2024-05-30 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redbacktechpy
+[2024-05-30 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moapy
+[2024-05-30 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-core
+[2024-05-30 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ropt
+[2024-05-30 09:34:06] INFO root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-30 09:34:06] INFO root fetch - processPackages [xingpyc]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-30 09:34:06] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-30 09:34:06] INFO root fetch - processPackages [moapy]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-30 09:34:07] INFO root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: Downloading https://files.pythonhosted.org/packages/98/43/8e3c8de05da10b645ee0c5659ad9b590aede657853c60a5b88e8a7457b0b/libreflow_extensions_anpo_export_illustrator-1.0.3.tar.gz
+[2024-05-30 09:34:07] INFO root fetch - processPackages [ropt]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-30 09:34:07] WARNING root fetch - processPackages [redbacktechpy]: Skipping, unable to determine old version
+[2024-05-30 09:34:07] INFO root fetch - main [MainThread]: End processing [redbacktechpy] error
+[2024-05-30 09:34:07] INFO root fetch - processPackages [dj-dynamic-settings]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-30 09:34:07] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-05-30 09:34:07] INFO root fetch - processPackages [xingpyc]: Downloading https://files.pythonhosted.org/packages/56/0b/972a8585e53498d7761cd319c29c26a59c549fa7887926fa7abd1895e359/xingpyc-0.2.6.tar.gz
+[2024-05-30 09:34:07] INFO root fetch - processPackages [moapy]: Downloading https://files.pythonhosted.org/packages/74/c1/039fd5738521eb1c281572619916a9f798f48366dfb2f9056c328ba4bedd/moapy-0.2.1.tar.gz
+[2024-05-30 09:34:07] INFO root fetch - processPackages [dj-dynamic-settings]: Downloading https://files.pythonhosted.org/packages/13/b1/7c60a1d88ee2e5548fc01389ddd15302e8d9c71978638e9779057657905a/dj-dynamic-settings-0.2.8.tar.gz
+[2024-05-30 09:34:07] INFO root fetch - processPackages [ropt]: Downloading https://files.pythonhosted.org/packages/42/b5/f3ab532db1f92576574de71cfb50a71bffc452e543e3676bc7924c3535ac/ropt-0.3.0.tar.gz
+[2024-05-30 09:34:07] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-05-30 09:34:07] INFO root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: Downloading https://files.pythonhosted.org/packages/5f/a7/8961c65f996b0afd59a7087d8ce0336ba1cc919d45253c0b26414227262c/libreflow_extensions_anpo_export_illustrator-1.0.4.tar.gz
+[2024-05-30 09:34:07] INFO root fetch - processPackages [xingpyc]: Downloading https://files.pythonhosted.org/packages/94/00/dd70afd733ed22df358a53f0b2a3059c30d8cd3a317b0daedf639b7a0244/xingpyc-0.2.7.tar.gz
+[2024-05-30 09:34:07] INFO root fetch - processPackages [moapy]: Downloading https://files.pythonhosted.org/packages/2a/8f/3a335c187737d2c677f2151ec0d3ad1058449483ad4600425e6c853523be/moapy-0.2.2.tar.gz
+[2024-05-30 09:34:07] INFO root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: executing diffoscope
+[2024-05-30 09:34:07] INFO root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreflow_extensions_anpo_export_illustrator-1.0.3.tar.gz tmp/libreflow_extensions_anpo_export_illustrator-1.0.4.tar.gz --markdown 20240530/l/libreflow.extensions.anpo.export-illustrator/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-30 09:34:07] INFO root fetch - processPackages [xingpyc]: executing diffoscope
+[2024-05-30 09:34:07] INFO root fetch - processPackages [xingpyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xingpyc-0.2.6.tar.gz tmp/xingpyc-0.2.7.tar.gz --markdown 20240530/x/xingpyc/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-30 09:34:07] INFO root fetch - processPackages [moapy]: executing diffoscope
+[2024-05-30 09:34:07] INFO root fetch - processPackages [moapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moapy-0.2.1.tar.gz tmp/moapy-0.2.2.tar.gz --markdown 20240530/m/moapy/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-30 09:34:07] INFO root fetch - processPackages [dj-dynamic-settings]: Downloading https://files.pythonhosted.org/packages/19/1e/3bff050ef17bf5a43187cd16b449cbfeed093ad31985f52d076a6d6b9a09/dj-dynamic-settings-0.2.9.tar.gz
+[2024-05-30 09:34:07] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-30 09:34:07] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240530/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-30 09:34:07] INFO root fetch - processPackages [ropt]: Downloading https://files.pythonhosted.org/packages/d4/42/9ecd280bbfebf8920cbb8bfd143ec84ca7309b15731fb96198e9b3f82593/ropt-0.3.1.tar.gz
+[2024-05-30 09:34:07] INFO root fetch - processPackages [dj-dynamic-settings]: executing diffoscope
+[2024-05-30 09:34:07] INFO root fetch - processPackages [dj-dynamic-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-dynamic-settings-0.2.8.tar.gz tmp/dj-dynamic-settings-0.2.9.tar.gz --markdown 20240530/d/dj-dynamic-settings/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-30 09:34:07] INFO root fetch - processPackages [ropt]: executing diffoscope
+[2024-05-30 09:34:07] INFO root fetch - processPackages [ropt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ropt-0.3.0.tar.gz tmp/ropt-0.3.1.tar.gz --markdown 20240530/r/ropt/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-30 09:34:08] INFO root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_extensions_anpo_export_illustrator-1.0.3.tar.gz]
+[2024-05-30 09:34:08] INFO root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_extensions_anpo_export_illustrator-1.0.4.tar.gz]
+[2024-05-30 09:34:08] INFO root fetch - main [MainThread]: End processing [libreflow.extensions.anpo.export-illustrator]: success
+[2024-05-30 09:34:08] INFO root fetch - processPackages [xingpyc]: Remove: archive file [/home/abi/fetcher/tmp/xingpyc-0.2.6.tar.gz]
+[2024-05-30 09:34:08] INFO root fetch - processPackages [xingpyc]: Remove: archive file [/home/abi/fetcher/tmp/xingpyc-0.2.7.tar.gz]
+[2024-05-30 09:34:08] INFO root fetch - main [MainThread]: End processing [xingpyc]: success
+[2024-05-30 09:34:08] INFO root fetch - processPackages [dj-dynamic-settings]: Remove: archive file [/home/abi/fetcher/tmp/dj-dynamic-settings-0.2.8.tar.gz]
+[2024-05-30 09:34:08] INFO root fetch - processPackages [dj-dynamic-settings]: Remove: archive file [/home/abi/fetcher/tmp/dj-dynamic-settings-0.2.9.tar.gz]
+[2024-05-30 09:34:08] INFO root fetch - main [MainThread]: End processing [dj-dynamic-settings]: success
+[2024-05-30 09:34:08] INFO root fetch - processPackages [moapy]: Remove: archive file [/home/abi/fetcher/tmp/moapy-0.2.1.tar.gz]
+[2024-05-30 09:34:08] INFO root fetch - processPackages [moapy]: Remove: archive file [/home/abi/fetcher/tmp/moapy-0.2.2.tar.gz]
+[2024-05-30 09:34:08] INFO root fetch - main [MainThread]: End processing [moapy]: success
+[2024-05-30 09:34:08] INFO root fetch - processPackages [ropt]: Remove: archive file [/home/abi/fetcher/tmp/ropt-0.3.0.tar.gz]
+[2024-05-30 09:34:08] INFO root fetch - processPackages [ropt]: Remove: archive file [/home/abi/fetcher/tmp/ropt-0.3.1.tar.gz]
+[2024-05-30 09:34:08] INFO root fetch - main [MainThread]: End processing [ropt]: success
+[2024-05-30 09:34:10] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-05-30 09:34:10] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-05-30 09:34:10] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-30 09:34:10] INFO root fetch - main [MainThread]: Store serial: [23444204]
