@@ -13182,3 +13182,24 @@ EOFError: EOF read where object expected
 [2024-05-30 07:54:38] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240530.80314.824.tar.gz]
 [2024-05-30 07:54:38] INFO root fetch - main [MainThread]: End processing [fnschool]: success
 [2024-05-30 07:54:38] INFO root fetch - main [MainThread]: Store serial: [23443040]
+[2024-05-30 07:56:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443040]
+[2024-05-30 07:56:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 07:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molecular-interaction-rules
+[2024-05-30 07:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lapa-authentication
+[2024-05-30 07:56:47] INFO root fetch - processPackages [lapa-authentication]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 07:56:47] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.7.1] Old Version: [0.7]
+[2024-05-30 07:56:47] INFO root fetch - processPackages [lapa-authentication]: Downloading https://files.pythonhosted.org/packages/e4/81/0147afd631665625024e3fd8d46c8583702b5670db8ba001ee02e08e5bdd/lapa_authentication-0.0.8.tar.gz
+[2024-05-30 07:56:47] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/94/90/d35ea783e16e5004de261ac8b02f0e29935477352c3d53a5bd641545eb01/molecular_interaction_rules-0.7.tar.gz
+[2024-05-30 07:56:47] INFO root fetch - processPackages [lapa-authentication]: Downloading https://files.pythonhosted.org/packages/93/c0/03721c8dad872ab6d551fde61c36e0304a43fb6afe00c5037f5e7e16a865/lapa_authentication-0.0.9.tar.gz
+[2024-05-30 07:56:47] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/3b/4b/ccff475f633f53da7be741d437aea44ae92aae312bc59e9e4413ae3fc6dd/molecular_interaction_rules-0.7.1.tar.gz
+[2024-05-30 07:56:47] INFO root fetch - processPackages [lapa-authentication]: executing diffoscope
+[2024-05-30 07:56:47] INFO root fetch - processPackages [lapa-authentication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lapa_authentication-0.0.8.tar.gz tmp/lapa_authentication-0.0.9.tar.gz --markdown 20240530/l/lapa-authentication/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 07:56:47] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 07:56:47] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.7.tar.gz tmp/molecular_interaction_rules-0.7.1.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.7-0.7.1/README.md --exclude *.pyd
+[2024-05-30 07:56:48] INFO root fetch - processPackages [lapa-authentication]: Remove: archive file [/home/abi/fetcher/tmp/lapa_authentication-0.0.8.tar.gz]
+[2024-05-30 07:56:48] INFO root fetch - processPackages [lapa-authentication]: Remove: archive file [/home/abi/fetcher/tmp/lapa_authentication-0.0.9.tar.gz]
+[2024-05-30 07:56:48] INFO root fetch - main [MainThread]: End processing [lapa-authentication]: success
+[2024-05-30 07:56:48] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.7.tar.gz]
+[2024-05-30 07:56:48] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.7.1.tar.gz]
+[2024-05-30 07:56:48] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 07:56:48] INFO root fetch - main [MainThread]: Store serial: [23443045]
