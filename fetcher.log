@@ -17697,3 +17697,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:25:31] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-30 10:25:31] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-05-30 10:25:31] INFO root fetch - main [MainThread]: Store serial: [23444947]
+[2024-05-30 10:27:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444947]
+[2024-05-30 10:27:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynumint
+[2024-05-30 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmdbapi
+[2024-05-30 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dingosdk
+[2024-05-30 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crosscompute
+[2024-05-30 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: weaverbird
+[2024-05-30 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Geode-Viewables
+[2024-05-30 10:27:40] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc9] Old Version: [0.1rc8.post1]
+[2024-05-30 10:27:40] INFO root fetch - processPackages [crosscompute]: New version: [0.9.4.9] Old Version: [0.9.4.8]
+[2024-05-30 10:27:40] INFO root fetch - processPackages [cmdbapi]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-30 10:27:40] INFO root fetch - processPackages [pynumint]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-30 10:27:40] INFO root fetch - processPackages [weaverbird]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-30 10:27:40] INFO root fetch - processPackages [Geode-Viewables]: New version: [2.2.3rc1] Old Version: [2.2.2rc1]
+[2024-05-30 10:27:40] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/7b/10/2c6bb88645e870b167392150b76711fb4823aa921ee4bc314ba468f0d5dd/dingosdk-0.1rc8.post1.tar.gz
+[2024-05-30 10:27:40] INFO root fetch - processPackages [pynumint]: Downloading https://files.pythonhosted.org/packages/75/49/a9f0db63bda0d7705974e57e4f721ce7223ae84e48fb6e055ba42d465220/pynumint-0.0.3.tar.gz
+[2024-05-30 10:27:40] INFO root fetch - processPackages [crosscompute]: Downloading https://files.pythonhosted.org/packages/dc/51/6ecfb41b118c845d00d7b518bb40b9ba5e383db5ce8f3a0517190976fc94/crosscompute-0.9.4.8.tar.gz
+[2024-05-30 10:27:40] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/13/d4/a67794d24aede09e2291acd8527a2687b1bb832998e72426432346f1c29b/weaverbird-0.8.9.tar.gz
+[2024-05-30 10:27:40] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 63305453>=10485760
+[2024-05-30 10:27:40] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-30 10:27:40] INFO root fetch - processPackages [cmdbapi]: Downloading https://files.pythonhosted.org/packages/74/62/5147ecb26d0e45c3e306fda672740587966b5ef724166fdfc71923962e8f/cmdbapi-1.0.0.tar.gz
+[2024-05-30 10:27:40] INFO root fetch - processPackages [Geode-Viewables]: Downloading https://files.pythonhosted.org/packages/52/c6/ee7d41127a27973da40afecf7a1abbad07cc59dbde08dfff6642c48893ba/Geode_Viewables-2.2.2rc1-cp39-cp39-win_amd64.whl
+[2024-05-30 10:27:40] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/7d/6c/1b304fa798ee7d82dbc5bc587a90653cc03647f25d1c498a0020b52a5f78/weaverbird-0.9.0.tar.gz
+[2024-05-30 10:27:40] INFO root fetch - processPackages [crosscompute]: Downloading https://files.pythonhosted.org/packages/5e/6b/76b623828c08bad0f8b9f610453656bea206e68fa627e8a9ce08af87a7a3/crosscompute-0.9.4.9.tar.gz
+[2024-05-30 10:27:40] INFO root fetch - processPackages [pynumint]: Downloading https://files.pythonhosted.org/packages/16/df/00f083bb993dd4b8ed7a564a59dc7e1ea2f696bc4ef4e9ab990c2b70a4d3/pynumint-0.0.4.tar.gz
+[2024-05-30 10:27:41] INFO root fetch - processPackages [weaverbird]: executing diffoscope
+[2024-05-30 10:27:41] INFO root fetch - processPackages [weaverbird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaverbird-0.8.9.tar.gz tmp/weaverbird-0.9.0.tar.gz --markdown 20240530/w/weaverbird/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-30 10:27:41] INFO root fetch - processPackages [cmdbapi]: Downloading https://files.pythonhosted.org/packages/ad/b4/c4e44ed15b8547f47528dc9fac19f42378a91d1a792534ace9b97d12c368/cmdbapi-1.0.1.tar.gz
+[2024-05-30 10:27:41] INFO root fetch - processPackages [crosscompute]: executing diffoscope
+[2024-05-30 10:27:41] INFO root fetch - processPackages [crosscompute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosscompute-0.9.4.8.tar.gz tmp/crosscompute-0.9.4.9.tar.gz --markdown 20240530/c/crosscompute/0.9.4.8-0.9.4.9/README.md --exclude *.pyd
+[2024-05-30 10:27:41] INFO root fetch - processPackages [pynumint]: executing diffoscope
+[2024-05-30 10:27:41] INFO root fetch - processPackages [pynumint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynumint-0.0.3.tar.gz tmp/pynumint-0.0.4.tar.gz --markdown 20240530/p/pynumint/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-30 10:27:41] INFO root fetch - processPackages [cmdbapi]: executing diffoscope
+[2024-05-30 10:27:41] INFO root fetch - processPackages [cmdbapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdbapi-1.0.0.tar.gz tmp/cmdbapi-1.0.1.tar.gz --markdown 20240530/c/cmdbapi/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-30 10:27:41] INFO root fetch - processPackages [Geode-Viewables]: Downloading https://files.pythonhosted.org/packages/3b/b7/9db236fd133174a546cda805cfb6159cf1e89e3c200d5dfdcac50d2fb6bb/Geode_Viewables-2.2.3rc1-cp38-cp38-manylinux2014_x86_64.whl
+[2024-05-30 10:27:41] INFO root fetch - processPackages [Geode-Viewables]: executing diffoscope
+[2024-05-30 10:27:41] INFO root fetch - processPackages [Geode-Viewables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Viewables-2.2.2rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Viewables-2.2.3rc1-cp38-cp38-manylinux2014_x86_64.whl.zip --markdown 20240530/G/Geode-Viewables/2.2.2rc1-2.2.3rc1/README.md --exclude *.pyd
+[2024-05-30 10:27:41] INFO root fetch - processPackages [pynumint]: Remove: archive file [/home/abi/fetcher/tmp/pynumint-0.0.3.tar.gz]
+[2024-05-30 10:27:41] INFO root fetch - processPackages [pynumint]: Remove: archive file [/home/abi/fetcher/tmp/pynumint-0.0.4.tar.gz]
+[2024-05-30 10:27:41] INFO root fetch - main [MainThread]: End processing [pynumint]: success
+[2024-05-30 10:27:41] INFO root fetch - processPackages [cmdbapi]: Remove: archive file [/home/abi/fetcher/tmp/cmdbapi-1.0.0.tar.gz]
+[2024-05-30 10:27:41] INFO root fetch - processPackages [cmdbapi]: Remove: archive file [/home/abi/fetcher/tmp/cmdbapi-1.0.1.tar.gz]
+[2024-05-30 10:27:41] INFO root fetch - main [MainThread]: End processing [cmdbapi]: success
+[2024-05-30 10:27:41] INFO root fetch - processPackages [crosscompute]: Remove: archive file [/home/abi/fetcher/tmp/crosscompute-0.9.4.8.tar.gz]
+[2024-05-30 10:27:41] INFO root fetch - processPackages [crosscompute]: Remove: archive file [/home/abi/fetcher/tmp/crosscompute-0.9.4.9.tar.gz]
+[2024-05-30 10:27:41] INFO root fetch - main [MainThread]: End processing [crosscompute]: success
+[2024-05-30 10:27:42] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.8.9.tar.gz]
+[2024-05-30 10:27:42] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.9.0.tar.gz]
+[2024-05-30 10:27:42] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
+[2024-05-30 10:27:42] INFO root fetch - processPackages [Geode-Viewables]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Viewables-2.2.2rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 10:27:42] INFO root fetch - processPackages [Geode-Viewables]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Viewables-2.2.3rc1-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2024-05-30 10:27:42] INFO root fetch - main [MainThread]: End processing [Geode-Viewables]: success
+[2024-05-30 10:27:42] INFO root fetch - main [MainThread]: Store serial: [23444972]
