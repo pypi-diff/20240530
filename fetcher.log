@@ -8011,3 +8011,56 @@ EOFError: EOF read where object expected
 [2024-05-30 03:43:05] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.4.2.post1717033274.tar.gz]
 [2024-05-30 03:43:05] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
 [2024-05-30 03:43:05] INFO root fetch - main [MainThread]: Store serial: [23440747]
+[2024-05-30 03:45:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23440747]
+[2024-05-30 03:45:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 03:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qenerate-custom
+[2024-05-30 03:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myfunctions-EMIL8708
+[2024-05-30 03:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ct-tcpchat
+[2024-05-30 03:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-oura
+[2024-05-30 03:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-convex
+[2024-05-30 03:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: palimpzest
+[2024-05-30 03:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sq-windcatcher
+[2024-05-30 03:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: block-container-image-builder
+[2024-05-30 03:45:14] WARNING root fetch - processPackages [ct-tcpchat]: Skipping, unable to determine old version
+[2024-05-30 03:45:14] INFO root fetch - main [MainThread]: End processing [ct-tcpchat] error
+[2024-05-30 03:45:15] INFO root fetch - processPackages [myfunctions-EMIL8708]: New version: [0.0.15] Old Version: [0.0.11]
+[2024-05-30 03:45:15] INFO root fetch - processPackages [palimpzest]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 03:45:15] INFO root fetch - processPackages [airbyte-source-convex]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-30 03:45:15] ERROR root fetch - processPackages [sq-windcatcher]: Unable to get metadata: No such project 'sq-windcatcher'
+[2024-05-30 03:45:15] INFO root fetch - processPackages [qenerate-custom]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-30 03:45:15] ERROR root fetch - processPackages [block-container-image-builder]: Unable to get metadata: No such project 'block-container-image-builder'
+[2024-05-30 03:45:15] INFO root fetch - main [MainThread]: End processing [sq-windcatcher] error
+[2024-05-30 03:45:15] INFO root fetch - main [MainThread]: End processing [block-container-image-builder] error
+[2024-05-30 03:45:15] INFO root fetch - processPackages [airbyte-source-oura]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-30 03:45:15] INFO root fetch - processPackages [myfunctions-EMIL8708]: Downloading https://files.pythonhosted.org/packages/07/67/2473eb0daf1764f56b77d5a410457a51183f1302ace62ec903fc6453d41b/myfunctions_EMIL8708-0.0.11.tar.gz
+[2024-05-30 03:45:15] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/4f/6a/2373a1d9284af8fbd1d9e599fd052a5a8824a28746e225f00d26dd59a76a/palimpzest-0.1.8.tar.gz
+[2024-05-30 03:45:15] INFO root fetch - processPackages [airbyte-source-convex]: Downloading https://files.pythonhosted.org/packages/42/74/fa6e26c5405f503910ac519d8270ed4819efd2693def0d287259b9c72ba2/airbyte-source-convex-0.4.0.tar.gz
+[2024-05-30 03:45:15] INFO root fetch - processPackages [airbyte-source-oura]: Downloading https://files.pythonhosted.org/packages/10/00/3fef97973b35886522dff2943299e1f07eae2ffb6479d953fbbdcd619bc9/airbyte_source_oura-0.1.1.tar.gz
+[2024-05-30 03:45:15] INFO root fetch - processPackages [qenerate-custom]: Downloading https://files.pythonhosted.org/packages/62/26/99b3b3c15e58c34df22e6be53f4b7d17ce5d12480522f3075da84cbb30ef/qenerate_custom-0.6.3.tar.gz
+[2024-05-30 03:45:15] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/a7/2f/4c5d4dc8fc0b28cfc59adc448f482eb20b789f2fc4d6ad4f25d08d42541b/palimpzest-0.1.9.tar.gz
+[2024-05-30 03:45:15] INFO root fetch - processPackages [palimpzest]: executing diffoscope
+[2024-05-30 03:45:15] INFO root fetch - processPackages [palimpzest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palimpzest-0.1.8.tar.gz tmp/palimpzest-0.1.9.tar.gz --markdown 20240530/p/palimpzest/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 03:45:15] INFO root fetch - processPackages [airbyte-source-oura]: Downloading https://files.pythonhosted.org/packages/d9/fe/07a8bc79aea1d7c1a0f2a3566bf294734685cd8a1a9ecb974d8abe1807ed/airbyte_source_oura-0.1.2.tar.gz
+[2024-05-30 03:45:15] INFO root fetch - processPackages [myfunctions-EMIL8708]: Downloading https://files.pythonhosted.org/packages/f2/e5/6def163a333d41089b9959e1ea265e0e15d52e2110ec95387681dc8b8d93/myfunctions_EMIL8708-0.0.15.tar.gz
+[2024-05-30 03:45:15] ERROR root fetch - processPackages [airbyte-source-convex]: Unable to fetch info: No such project/version 'airbyte-source-convex' 0.4.1
+[2024-05-30 03:45:15] INFO root fetch - main [MainThread]: End processing [airbyte-source-convex] error
+[2024-05-30 03:45:15] INFO root fetch - processPackages [qenerate-custom]: Downloading https://files.pythonhosted.org/packages/61/48/05a06dc48f118313a254764fb55c52a4eaa4b85434738d6922e928b227cd/qenerate_custom-0.6.4.tar.gz
+[2024-05-30 03:45:15] INFO root fetch - processPackages [airbyte-source-oura]: executing diffoscope
+[2024-05-30 03:45:15] INFO root fetch - processPackages [airbyte-source-oura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_oura-0.1.1.tar.gz tmp/airbyte_source_oura-0.1.2.tar.gz --markdown 20240530/a/airbyte-source-oura/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-30 03:45:15] INFO root fetch - processPackages [myfunctions-EMIL8708]: executing diffoscope
+[2024-05-30 03:45:15] INFO root fetch - processPackages [myfunctions-EMIL8708]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_EMIL8708-0.0.11.tar.gz tmp/myfunctions_EMIL8708-0.0.15.tar.gz --markdown 20240530/m/myfunctions-EMIL8708/0.0.11-0.0.15/README.md --exclude *.pyd
+[2024-05-30 03:45:15] INFO root fetch - processPackages [qenerate-custom]: executing diffoscope
+[2024-05-30 03:45:15] INFO root fetch - processPackages [qenerate-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qenerate_custom-0.6.3.tar.gz tmp/qenerate_custom-0.6.4.tar.gz --markdown 20240530/q/qenerate-custom/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-30 03:45:16] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.8.tar.gz]
+[2024-05-30 03:45:16] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.9.tar.gz]
+[2024-05-30 03:45:16] INFO root fetch - main [MainThread]: End processing [palimpzest]: success
+[2024-05-30 03:45:16] INFO root fetch - processPackages [myfunctions-EMIL8708]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_EMIL8708-0.0.11.tar.gz]
+[2024-05-30 03:45:16] INFO root fetch - processPackages [myfunctions-EMIL8708]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_EMIL8708-0.0.15.tar.gz]
+[2024-05-30 03:45:16] INFO root fetch - main [MainThread]: End processing [myfunctions-EMIL8708]: success
+[2024-05-30 03:45:16] INFO root fetch - processPackages [airbyte-source-oura]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_oura-0.1.1.tar.gz]
+[2024-05-30 03:45:16] INFO root fetch - processPackages [airbyte-source-oura]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_oura-0.1.2.tar.gz]
+[2024-05-30 03:45:16] INFO root fetch - main [MainThread]: End processing [airbyte-source-oura]: success
+[2024-05-30 03:45:16] INFO root fetch - processPackages [qenerate-custom]: Remove: archive file [/home/abi/fetcher/tmp/qenerate_custom-0.6.3.tar.gz]
+[2024-05-30 03:45:16] INFO root fetch - processPackages [qenerate-custom]: Remove: archive file [/home/abi/fetcher/tmp/qenerate_custom-0.6.4.tar.gz]
+[2024-05-30 03:45:16] INFO root fetch - main [MainThread]: End processing [qenerate-custom]: success
+[2024-05-30 03:45:16] INFO root fetch - main [MainThread]: Store serial: [23440823]
