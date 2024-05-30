@@ -12650,3 +12650,57 @@ EOFError: EOF read where object expected
 [2024-05-30 07:30:30] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.4.0rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-30 07:30:30] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
 [2024-05-30 07:30:30] INFO root fetch - main [MainThread]: Store serial: [23442714]
+[2024-05-30 07:32:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442714]
+[2024-05-30 07:32:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-30 07:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2024-05-30 07:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-report-qweb-pdf-watermark
+[2024-05-30 07:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygame-animation
+[2024-05-30 07:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agentql
+[2024-05-30 07:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sq-jupyter-contents-manager
+[2024-05-30 07:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: squid-signing-tools
+[2024-05-30 07:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqprefect-contrib-cds
+[2024-05-30 07:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sq-ostiary
+[2024-05-30 07:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sq-container-image-builder
+[2024-05-30 07:32:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: block-clitools
+[2024-05-30 07:32:39] INFO root fetch - processPackages [agentql]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-30 07:32:39] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-30 07:32:39] INFO root fetch - processPackages [odoo-addon-report-qweb-pdf-watermark]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2024-05-30 07:32:39] WARNING root fetch - processPackages [pygame-animation]: Skipping, unable to determine old version
+[2024-05-30 07:32:39] INFO root fetch - processPackages [pygame-animation]: Start processing: cash-ucml-uw-models
+[2024-05-30 07:32:39] INFO root fetch - main [MainThread]: End processing [pygame-animation] error
+[2024-05-30 07:32:39] INFO root fetch - processPackages [agentql]: Downloading https://files.pythonhosted.org/packages/68/c9/fccc0b57b45ceea9f3b0422a1cc4f86ea15d195bd6adb85d03b1e847bb23/agentql-0.4.5.tar.gz
+[2024-05-30 07:32:39] ERROR root fetch - processPackages [block-clitools]: Unable to get metadata: No such project 'block-clitools'
+[2024-05-30 07:32:39] ERROR root fetch - processPackages [sq-jupyter-contents-manager]: Unable to get metadata: No such project 'sq-jupyter-contents-manager'
+[2024-05-30 07:32:39] INFO root fetch - main [MainThread]: End processing [block-clitools] error
+[2024-05-30 07:32:39] INFO root fetch - main [MainThread]: End processing [sq-jupyter-contents-manager] error
+[2024-05-30 07:32:39] ERROR root fetch - processPackages [squid-signing-tools]: Unable to get metadata: No such project 'squid-signing-tools'
+[2024-05-30 07:32:39] ERROR root fetch - processPackages [sqprefect-contrib-cds]: Unable to get metadata: No such project 'sqprefect-contrib-cds'
+[2024-05-30 07:32:39] INFO root fetch - main [MainThread]: End processing [squid-signing-tools] error
+[2024-05-30 07:32:39] INFO root fetch - main [MainThread]: End processing [sqprefect-contrib-cds] error
+[2024-05-30 07:32:39] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-30 07:32:39] ERROR root fetch - processPackages [sq-ostiary]: Unable to get metadata: No such project 'sq-ostiary'
+[2024-05-30 07:32:39] INFO root fetch - main [MainThread]: End processing [sq-ostiary] error
+[2024-05-30 07:32:39] WARNING root fetch - processPackages [sq-container-image-builder]: Skipping, unable to determine old version
+[2024-05-30 07:32:39] INFO root fetch - main [MainThread]: End processing [sq-container-image-builder] error
+[2024-05-30 07:32:39] INFO root fetch - processPackages [odoo-addon-report-qweb-pdf-watermark]: Downloading https://files.pythonhosted.org/packages/d8/01/0a35d70d4ef36ce4ed9058b7b9f3f0e3206d80893d5cf5d856a0c31d30bf/odoo_addon_report_qweb_pdf_watermark-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-30 07:32:39] ERROR root fetch - processPackages [cash-ucml-uw-models]: Unable to get metadata: No such project 'cash-ucml-uw-models'
+[2024-05-30 07:32:39] INFO root fetch - main [MainThread]: End processing [cash-ucml-uw-models] error
+[2024-05-30 07:32:39] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-30 07:32:39] INFO root fetch - processPackages [agentql]: Downloading https://files.pythonhosted.org/packages/89/18/3f9382f71e3f1559a6bd8396263af99f91acef5fc4a0ead4b7e32c82a3dd/agentql-0.4.6.tar.gz
+[2024-05-30 07:32:39] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-30 07:32:39] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240530/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-30 07:32:39] INFO root fetch - processPackages [agentql]: executing diffoscope
+[2024-05-30 07:32:39] INFO root fetch - processPackages [agentql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentql-0.4.5.tar.gz tmp/agentql-0.4.6.tar.gz --markdown 20240530/a/agentql/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-30 07:32:39] INFO root fetch - processPackages [odoo-addon-report-qweb-pdf-watermark]: Downloading https://files.pythonhosted.org/packages/61/74/e1c76f984cf39dd49be48149a1f5cee353b4800a21a8756c1c052dc73c08/odoo_addon_report_qweb_pdf_watermark-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-30 07:32:39] INFO root fetch - processPackages [odoo-addon-report-qweb-pdf-watermark]: executing diffoscope
+[2024-05-30 07:32:39] INFO root fetch - processPackages [odoo-addon-report-qweb-pdf-watermark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_qweb_pdf_watermark-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_report_qweb_pdf_watermark-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-report-qweb-pdf-watermark/16.0.1.0.0.6-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-30 07:32:40] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-30 07:32:40] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-30 07:32:40] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-30 07:32:40] INFO root fetch - processPackages [agentql]: Remove: archive file [/home/abi/fetcher/tmp/agentql-0.4.5.tar.gz]
+[2024-05-30 07:32:40] INFO root fetch - processPackages [agentql]: Remove: archive file [/home/abi/fetcher/tmp/agentql-0.4.6.tar.gz]
+[2024-05-30 07:32:40] INFO root fetch - main [MainThread]: End processing [agentql]: success
+[2024-05-30 07:32:40] INFO root fetch - processPackages [odoo-addon-report-qweb-pdf-watermark]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_qweb_pdf_watermark-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-30 07:32:40] INFO root fetch - processPackages [odoo-addon-report-qweb-pdf-watermark]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_qweb_pdf_watermark-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-30 07:32:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-qweb-pdf-watermark]: success
+[2024-05-30 07:32:40] INFO root fetch - main [MainThread]: Store serial: [23442748]
