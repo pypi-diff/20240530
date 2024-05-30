@@ -3240,3 +3240,18 @@ EOFError: EOF read where object expected
 [2024-05-30 03:03:43] WARNING root fetch - processPackages [wfstructlog]: Skipping, unable to determine old version
 [2024-05-30 03:03:43] INFO root fetch - main [MainThread]: End processing [wfstructlog] error
 [2024-05-30 03:03:43] INFO root fetch - main [MainThread]: Store serial: [23439256]
+[2024-05-30 03:05:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439256]
+[2024-05-30 03:05:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 03:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myfunctions-aziz200115
+[2024-05-30 03:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: traceloop-sdk
+[2024-05-30 03:05:52] WARNING root fetch - processPackages [myfunctions-aziz200115]: Skipping, unable to determine old version
+[2024-05-30 03:05:52] INFO root fetch - main [MainThread]: End processing [myfunctions-aziz200115] error
+[2024-05-30 03:05:52] INFO root fetch - processPackages [traceloop-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-30 03:05:52] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/71/52/a865ce901951f5201da24334b1278104b1b370b18ce9595ea9035a6c3a0e/traceloop_sdk-0.9.3.tar.gz
+[2024-05-30 03:05:52] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/ae/ca/192dff20dadbfa74c05ff4b865462f41b6cb019752812778ed2fbe2b45db/traceloop_sdk-0.9.4.tar.gz
+[2024-05-30 03:05:52] INFO root fetch - processPackages [traceloop-sdk]: executing diffoscope
+[2024-05-30 03:05:52] INFO root fetch - processPackages [traceloop-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceloop_sdk-0.9.3.tar.gz tmp/traceloop_sdk-0.9.4.tar.gz --markdown 20240530/t/traceloop-sdk/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-30 03:05:53] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.3.tar.gz]
+[2024-05-30 03:05:53] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.4.tar.gz]
+[2024-05-30 03:05:53] INFO root fetch - main [MainThread]: End processing [traceloop-sdk]: success
+[2024-05-30 03:05:53] INFO root fetch - main [MainThread]: Store serial: [23439266]
