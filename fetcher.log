@@ -20213,3 +20213,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:02:43] INFO root fetch - processPackages [limepkg-getaccept]: Remove: archive file [/home/abi/fetcher/tmp/limepkg_getaccept-1.3.8-py3-none-any.whl.zip]
 [2024-05-30 11:02:43] INFO root fetch - main [MainThread]: End processing [limepkg-getaccept]: success
 [2024-05-30 11:02:43] INFO root fetch - main [MainThread]: Store serial: [23445820]
+[2024-05-30 11:04:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23445820]
+[2024-05-30 11:04:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 11:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctrip-helper
+[2024-05-30 11:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ethos-u-vela
+[2024-05-30 11:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovsdbapp
+[2024-05-30 11:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jmock
+[2024-05-30 11:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sentiment-analysis-model
+[2024-05-30 11:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ndbioimage
+[2024-05-30 11:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sora-sdk
+[2024-05-30 11:04:53] INFO root fetch - processPackages [jmock]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 11:04:53] INFO root fetch - processPackages [sentiment-analysis-model]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-30 11:04:53] INFO root fetch - processPackages [ctrip-helper]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-30 11:04:53] INFO root fetch - processPackages [ovsdbapp]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-05-30 11:04:53] INFO root fetch - processPackages [ndbioimage]: New version: [2024.5.1] Old Version: [2024.5.0]
+[2024-05-30 11:04:53] INFO root fetch - processPackages [ethos-u-vela]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-05-30 11:04:53] INFO root fetch - processPackages [sentiment-analysis-model]: Downloading https://files.pythonhosted.org/packages/d2/0a/6895db905656aa9c50e61d0b5a90072c2798a12527d33a8434a2f77ede18/sentiment_analysis_model-0.0.3.tar.gz
+[2024-05-30 11:04:53] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/81/9e/f05fb1064b5ca4dff3ea3abcb5d68e040e66c3a2b9da0e88e0d120e91611/ctrip-helper-0.1.6.tar.gz
+[2024-05-30 11:04:53] INFO root fetch - processPackages [jmock]: Downloading https://files.pythonhosted.org/packages/1f/a0/0d6b06173f8023da80d630752a3783c0786c41a677168cdaa29c37d860d7/jmock-0.0.1.tar.gz
+[2024-05-30 11:04:53] INFO root fetch - processPackages [sora-sdk]: New version: [2024.3.0.dev4] Old Version: [2024.3.0.dev3]
+[2024-05-30 11:04:53] INFO root fetch - processPackages [ovsdbapp]: Downloading https://files.pythonhosted.org/packages/40/9a/99f38577935a209c975c02dec266738c943377367c95c7ea4a0df4a093eb/ovsdbapp-2.7.0.tar.gz
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ndbioimage]: Downloading https://files.pythonhosted.org/packages/5f/bf/990b5adc610c9ce5348607e93639712f10da10e145702596d60f37901a8a/ndbioimage-2024.5.0.tar.gz
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ethos-u-vela]: Downloading https://files.pythonhosted.org/packages/c7/31/ac016a61af7e18571624c11b172d575e00bb72c96caf8802e5ec75b1272d/ethos-u-vela-3.8.0.tar.gz
+[2024-05-30 11:04:54] INFO root fetch - processPackages [sentiment-analysis-model]: Downloading https://files.pythonhosted.org/packages/15/b0/fa30576efa67bf1a489220c6db1df5229278dc51b454dbca31c12e705c1e/sentiment_analysis_model-0.0.4.tar.gz
+[2024-05-30 11:04:54] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/66/2e/f5cf6137ccd6405fa875b135227fdacff7fbb3721abc362404f5676e836a/sora_sdk-2024.3.0.dev3.tar.gz
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/ac/71/a5b0a1cf7fb079646104bb81c5e0da828629a15982445c86337becfb5bc9/ctrip-helper-0.1.7.tar.gz
+[2024-05-30 11:04:54] INFO root fetch - processPackages [jmock]: Downloading https://files.pythonhosted.org/packages/1f/7f/65ce6582383a575be2b8b20993cce198c140634d7a6071d44439e35a7ebe/jmock-0.0.2.tar.gz
+[2024-05-30 11:04:54] INFO root fetch - processPackages [sentiment-analysis-model]: executing diffoscope
+[2024-05-30 11:04:54] INFO root fetch - processPackages [sentiment-analysis-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analysis_model-0.0.3.tar.gz tmp/sentiment_analysis_model-0.0.4.tar.gz --markdown 20240530/s/sentiment-analysis-model/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.1.6.tar.gz tmp/ctrip-helper-0.1.7.tar.gz --markdown 20240530/c/ctrip-helper/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ndbioimage]: Downloading https://files.pythonhosted.org/packages/c4/8b/dcbc8c6db6b2ffa2f0e078aa29e0fd72b93805ad6eb8d8a17843407fb088/ndbioimage-2024.5.1.tar.gz
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ovsdbapp]: Downloading https://files.pythonhosted.org/packages/7c/82/c0b18766e1ebee0d899f8aeb6e9e45189aad472f25618688e06304e24448/ovsdbapp-2.7.1.tar.gz
+[2024-05-30 11:04:54] INFO root fetch - processPackages [jmock]: executing diffoscope
+[2024-05-30 11:04:54] INFO root fetch - processPackages [jmock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmock-0.0.1.tar.gz tmp/jmock-0.0.2.tar.gz --markdown 20240530/j/jmock/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ethos-u-vela]: Downloading https://files.pythonhosted.org/packages/61/19/6ccd582e243e610bb658a4372e2c0a46a242486ad366d927fc76cee3b7f4/ethos-u-vela-3.9.0.tar.gz
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ovsdbapp]: executing diffoscope
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ovsdbapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovsdbapp-2.7.0.tar.gz tmp/ovsdbapp-2.7.1.tar.gz --markdown 20240530/o/ovsdbapp/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ndbioimage]: executing diffoscope
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ndbioimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndbioimage-2024.5.0.tar.gz tmp/ndbioimage-2024.5.1.tar.gz --markdown 20240530/n/ndbioimage/2024.5.0-2024.5.1/README.md --exclude *.pyd
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ethos-u-vela]: executing diffoscope
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ethos-u-vela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethos-u-vela-3.8.0.tar.gz tmp/ethos-u-vela-3.9.0.tar.gz --markdown 20240530/e/ethos-u-vela/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-05-30 11:04:54] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/81/01/26703347d18733542dd01a0f2f8f5aedf0d72ef0397e161fc8c42cf7ab7a/sora_sdk-2024.3.0.dev4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.1.6.tar.gz]
+[2024-05-30 11:04:54] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.1.7.tar.gz]
+[2024-05-30 11:04:54] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-30 11:04:54] INFO root fetch - processPackages [sentiment-analysis-model]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_model-0.0.3.tar.gz]
+[2024-05-30 11:04:54] INFO root fetch - processPackages [sentiment-analysis-model]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_model-0.0.4.tar.gz]
+[2024-05-30 11:04:55] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-model]: success
+[2024-05-30 11:04:55] INFO root fetch - processPackages [jmock]: Remove: archive file [/home/abi/fetcher/tmp/jmock-0.0.1.tar.gz]
+[2024-05-30 11:04:55] INFO root fetch - processPackages [jmock]: Remove: archive file [/home/abi/fetcher/tmp/jmock-0.0.2.tar.gz]
+[2024-05-30 11:04:55] INFO root fetch - main [MainThread]: End processing [jmock]: success
+[2024-05-30 11:04:55] INFO root fetch - processPackages [ndbioimage]: Remove: archive file [/home/abi/fetcher/tmp/ndbioimage-2024.5.0.tar.gz]
+[2024-05-30 11:04:55] INFO root fetch - processPackages [ndbioimage]: Remove: archive file [/home/abi/fetcher/tmp/ndbioimage-2024.5.1.tar.gz]
+[2024-05-30 11:04:55] INFO root fetch - main [MainThread]: End processing [ndbioimage]: success
+[2024-05-30 11:04:55] INFO root fetch - processPackages [ovsdbapp]: Remove: archive file [/home/abi/fetcher/tmp/ovsdbapp-2.7.0.tar.gz]
+[2024-05-30 11:04:55] INFO root fetch - processPackages [ovsdbapp]: Remove: archive file [/home/abi/fetcher/tmp/ovsdbapp-2.7.1.tar.gz]
+[2024-05-30 11:04:55] INFO root fetch - main [MainThread]: End processing [ovsdbapp]: success
+[2024-05-30 11:04:56] INFO root fetch - processPackages [ethos-u-vela]: Remove: archive file [/home/abi/fetcher/tmp/ethos-u-vela-3.8.0.tar.gz]
+[2024-05-30 11:04:56] INFO root fetch - processPackages [ethos-u-vela]: Remove: archive file [/home/abi/fetcher/tmp/ethos-u-vela-3.9.0.tar.gz]
+[2024-05-30 11:04:56] INFO root fetch - main [MainThread]: End processing [ethos-u-vela]: success
+[2024-05-30 11:05:01] INFO root fetch - processPackages [sora-sdk]: executing diffoscope
+[2024-05-30 11:05:01] INFO root fetch - processPackages [sora-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sora_sdk-2024.3.0.dev3.tar.gz tmp/sora_sdk-2024.3.0.dev4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240530/s/sora-sdk/2024.3.0.dev3-2024.3.0.dev4/README.md --exclude *.pyd
+[2024-05-30 11:05:02] INFO root fetch - processPackages [sora-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sora_sdk-2024.3.0.dev3.tar.gz]
+[2024-05-30 11:05:02] INFO root fetch - processPackages [sora-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sora_sdk-2024.3.0.dev4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-30 11:05:02] INFO root fetch - main [MainThread]: End processing [sora-sdk]: success
+[2024-05-30 11:05:02] INFO root fetch - main [MainThread]: Store serial: [23445836]
