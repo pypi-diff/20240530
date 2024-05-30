@@ -9932,3 +9932,69 @@ EOFError: EOF read where object expected
 [2024-05-30 05:36:01] INFO root fetch - processPackages [llm-zhipu]: Remove: archive file [/home/abi/fetcher/tmp/llm_zhipu-0.4.tar.gz]
 [2024-05-30 05:36:01] INFO root fetch - main [MainThread]: End processing [llm-zhipu]: success
 [2024-05-30 05:36:01] INFO root fetch - main [MainThread]: Store serial: [23441723]
+[2024-05-30 05:38:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441723]
+[2024-05-30 05:38:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 05:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: item-matching
+[2024-05-30 05:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyEventEngine
+[2024-05-30 05:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-account-financial-risk
+[2024-05-30 05:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-account-financial-risk
+[2024-05-30 05:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: molecular-interaction-rules
+[2024-05-30 05:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trackplot
+[2024-05-30 05:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moapy
+[2024-05-30 05:38:10] INFO root fetch - processPackages [odoo14-addon-account-financial-risk]: New version: [14.0.2.2.2.dev9] Old Version: [14.0.2.2.2.dev8]
+[2024-05-30 05:38:10] INFO root fetch - processPackages [odoo12-addon-account-financial-risk]: New version: [12.0.3.1.0.99.dev9] Old Version: [12.0.3.1.0.99.dev8]
+[2024-05-30 05:38:10] INFO root fetch - processPackages [PyEventEngine]: New version: [0.3.0.post3] Old Version: [0.3.0.post2]
+[2024-05-30 05:38:10] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-30 05:38:10] INFO root fetch - processPackages [moapy]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-30 05:38:10] INFO root fetch - processPackages [trackplot]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-30 05:38:10] INFO root fetch - processPackages [item-matching]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 05:38:10] INFO root fetch - processPackages [moapy]: Downloading https://files.pythonhosted.org/packages/66/d9/fbe5db7949453673ffe9d0e5c20238fa626206b140766c49d55a0ea361cb/moapy-0.2.0.tar.gz
+[2024-05-30 05:38:10] INFO root fetch - processPackages [PyEventEngine]: Downloading https://files.pythonhosted.org/packages/08/53/668da70abb633272cf84127a5cc24c86355f1d4f0503f415a1b4c445f189/pyeventengine-0.3.0.post2.tar.gz
+[2024-05-30 05:38:10] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/30/94/c5b18dacd6d2e644aa0aaaed2a3a4417d6749ac40d8ee3528166c461061e/molecular_interaction_rules-0.5.2.tar.gz
+[2024-05-30 05:38:10] INFO root fetch - processPackages [odoo14-addon-account-financial-risk]: Downloading https://files.pythonhosted.org/packages/e9/34/1b8a179405022774a09ee63c58bd616a4949aa8429b9aa47d2ceb59bff84/odoo14_addon_account_financial_risk-14.0.2.2.2.dev8-py3-none-any.whl
+[2024-05-30 05:38:10] INFO root fetch - processPackages [odoo12-addon-account-financial-risk]: Downloading https://files.pythonhosted.org/packages/bf/dd/7d9e3f282c0d21afb2e933c35dbc2ca289ba2799959c0d4448c3c9e751c1/odoo12_addon_account_financial_risk-12.0.3.1.0.99.dev8-py3-none-any.whl
+[2024-05-30 05:38:10] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/c1/eb/6af9341e91340108c6bd813fdbaf99df20b024ef720ba95fd98f5f9b1e67/item_matching-0.0.8.tar.gz
+[2024-05-30 05:38:10] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/4c/b7/d61c9268c8e4a5ca3e3c29e9d64c869f2b969cfbd347aa9a82491cc649d0/trackplot-0.3.7.tar.gz
+[2024-05-30 05:38:11] INFO root fetch - processPackages [moapy]: Downloading https://files.pythonhosted.org/packages/74/c1/039fd5738521eb1c281572619916a9f798f48366dfb2f9056c328ba4bedd/moapy-0.2.1.tar.gz
+[2024-05-30 05:38:11] INFO root fetch - processPackages [PyEventEngine]: Downloading https://files.pythonhosted.org/packages/ef/60/9596b912b51a9c5ea0e3246ab07ed6350128a2e161d7a755c5c84ad450d3/pyeventengine-0.3.0.post3.tar.gz
+[2024-05-30 05:38:11] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/e8/43/bd527b373008f6b8020e95455ab4ca3ecf75a5b23bff0f3478f3295e59c4/molecular_interaction_rules-0.5.3.tar.gz
+[2024-05-30 05:38:11] INFO root fetch - processPackages [moapy]: executing diffoscope
+[2024-05-30 05:38:11] INFO root fetch - processPackages [moapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moapy-0.2.0.tar.gz tmp/moapy-0.2.1.tar.gz --markdown 20240530/m/moapy/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-30 05:38:11] INFO root fetch - processPackages [PyEventEngine]: executing diffoscope
+[2024-05-30 05:38:11] INFO root fetch - processPackages [PyEventEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeventengine-0.3.0.post2.tar.gz tmp/pyeventengine-0.3.0.post3.tar.gz --markdown 20240530/P/PyEventEngine/0.3.0.post2-0.3.0.post3/README.md --exclude *.pyd
+[2024-05-30 05:38:11] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 05:38:11] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.2.tar.gz tmp/molecular_interaction_rules-0.5.3.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-30 05:38:11] INFO root fetch - processPackages [odoo12-addon-account-financial-risk]: Downloading https://files.pythonhosted.org/packages/c7/e2/95117104c60e9b77bc889e6243cd6af5f0ba631a6612d7592eec8a7d53ad/odoo12_addon_account_financial_risk-12.0.3.1.0.99.dev9-py3-none-any.whl
+[2024-05-30 05:38:11] INFO root fetch - processPackages [odoo14-addon-account-financial-risk]: Downloading https://files.pythonhosted.org/packages/72/e6/32732fde1e3851a4355c9a398a0987bc1b87275d427758ef643f6927223f/odoo14_addon_account_financial_risk-14.0.2.2.2.dev9-py3-none-any.whl
+[2024-05-30 05:38:11] INFO root fetch - processPackages [item-matching]: Downloading https://files.pythonhosted.org/packages/d6/27/06995957de9e3e2dc832d765e63268da03fc82c05f5e99df1fad645a8853/item_matching-0.0.9.tar.gz
+[2024-05-30 05:38:11] INFO root fetch - processPackages [odoo12-addon-account-financial-risk]: executing diffoscope
+[2024-05-30 05:38:11] INFO root fetch - processPackages [odoo12-addon-account-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_financial_risk-12.0.3.1.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_account_financial_risk-12.0.3.1.0.99.dev9-py3-none-any.whl.zip --markdown 20240530/o/odoo12-addon-account-financial-risk/12.0.3.1.0.99.dev8-12.0.3.1.0.99.dev9/README.md --exclude *.pyd
+[2024-05-30 05:38:11] INFO root fetch - processPackages [odoo14-addon-account-financial-risk]: executing diffoscope
+[2024-05-30 05:38:11] INFO root fetch - processPackages [odoo14-addon-account-financial-risk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_financial_risk-14.0.2.2.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_financial_risk-14.0.2.2.2.dev9-py3-none-any.whl.zip --markdown 20240530/o/odoo14-addon-account-financial-risk/14.0.2.2.2.dev8-14.0.2.2.2.dev9/README.md --exclude *.pyd
+[2024-05-30 05:38:11] INFO root fetch - processPackages [trackplot]: Downloading https://files.pythonhosted.org/packages/30/38/7b8a01aa62545898b74aea8818cd7745b442d2819f47e8626cf9f037251f/trackplot-0.3.8.tar.gz
+[2024-05-30 05:38:11] INFO root fetch - processPackages [item-matching]: executing diffoscope
+[2024-05-30 05:38:11] INFO root fetch - processPackages [item-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/item_matching-0.0.8.tar.gz tmp/item_matching-0.0.9.tar.gz --markdown 20240530/i/item-matching/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 05:38:11] INFO root fetch - processPackages [trackplot]: executing diffoscope
+[2024-05-30 05:38:11] INFO root fetch - processPackages [trackplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trackplot-0.3.7.tar.gz tmp/trackplot-0.3.8.tar.gz --markdown 20240530/t/trackplot/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-30 05:38:11] INFO root fetch - processPackages [moapy]: Remove: archive file [/home/abi/fetcher/tmp/moapy-0.2.0.tar.gz]
+[2024-05-30 05:38:11] INFO root fetch - processPackages [moapy]: Remove: archive file [/home/abi/fetcher/tmp/moapy-0.2.1.tar.gz]
+[2024-05-30 05:38:11] INFO root fetch - main [MainThread]: End processing [moapy]: success
+[2024-05-30 05:38:11] INFO root fetch - processPackages [PyEventEngine]: Remove: archive file [/home/abi/fetcher/tmp/pyeventengine-0.3.0.post2.tar.gz]
+[2024-05-30 05:38:11] INFO root fetch - processPackages [PyEventEngine]: Remove: archive file [/home/abi/fetcher/tmp/pyeventengine-0.3.0.post3.tar.gz]
+[2024-05-30 05:38:11] INFO root fetch - main [MainThread]: End processing [PyEventEngine]: success
+[2024-05-30 05:38:12] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.2.tar.gz]
+[2024-05-30 05:38:12] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.3.tar.gz]
+[2024-05-30 05:38:12] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 05:38:12] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.8.tar.gz]
+[2024-05-30 05:38:12] INFO root fetch - processPackages [item-matching]: Remove: archive file [/home/abi/fetcher/tmp/item_matching-0.0.9.tar.gz]
+[2024-05-30 05:38:12] INFO root fetch - main [MainThread]: End processing [item-matching]: success
+[2024-05-30 05:38:12] INFO root fetch - processPackages [odoo14-addon-account-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_financial_risk-14.0.2.2.2.dev8-py3-none-any.whl.zip]
+[2024-05-30 05:38:12] INFO root fetch - processPackages [odoo14-addon-account-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_financial_risk-14.0.2.2.2.dev9-py3-none-any.whl.zip]
+[2024-05-30 05:38:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-financial-risk]: success
+[2024-05-30 05:38:12] INFO root fetch - processPackages [trackplot]: Remove: archive file [/home/abi/fetcher/tmp/trackplot-0.3.7.tar.gz]
+[2024-05-30 05:38:12] INFO root fetch - processPackages [trackplot]: Remove: archive file [/home/abi/fetcher/tmp/trackplot-0.3.8.tar.gz]
+[2024-05-30 05:38:12] INFO root fetch - main [MainThread]: End processing [trackplot]: success
+[2024-05-30 05:38:12] INFO root fetch - processPackages [odoo12-addon-account-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_financial_risk-12.0.3.1.0.99.dev8-py3-none-any.whl.zip]
+[2024-05-30 05:38:12] INFO root fetch - processPackages [odoo12-addon-account-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_financial_risk-12.0.3.1.0.99.dev9-py3-none-any.whl.zip]
+[2024-05-30 05:38:12] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-financial-risk]: success
+[2024-05-30 05:38:12] INFO root fetch - main [MainThread]: Store serial: [23441740]
