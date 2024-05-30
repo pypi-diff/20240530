@@ -16140,3 +16140,45 @@ EOFError: EOF read where object expected
 [2024-05-30 09:29:46] INFO root fetch - processPackages [django-audit-events]: Remove: archive file [/home/abi/fetcher/tmp/django-audit-events-0.3.4.tar.gz]
 [2024-05-30 09:29:46] INFO root fetch - main [MainThread]: End processing [django-audit-events]: success
 [2024-05-30 09:29:46] INFO root fetch - main [MainThread]: Store serial: [23444142]
+[2024-05-30 09:31:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444142]
+[2024-05-30 09:31:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 09:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zodbpickle
+[2024-05-30 09:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioli-sdk
+[2024-05-30 09:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iac-init
+[2024-05-30 09:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waldur-site-agent
+[2024-05-30 09:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyannote-onnx
+[2024-05-30 09:31:55] INFO root fetch - processPackages [pyannote-onnx]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-30 09:31:55] INFO root fetch - processPackages [iac-init]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-30 09:31:55] INFO root fetch - processPackages [pyannote-onnx]: Downloading https://files.pythonhosted.org/packages/71/b9/674c8a3bf2386cd524f08fbfd0c508ef5a14043c0ad31ccd0d656eb7f2f1/pyannote-onnx-0.0.7.tar.gz
+[2024-05-30 09:31:55] WARNING root fetch - processPackages [waldur-site-agent]: Skipping, unable to determine old version
+[2024-05-30 09:31:55] INFO root fetch - main [MainThread]: End processing [waldur-site-agent] error
+[2024-05-30 09:31:55] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/e6/dc/992aae6c1753805731a62086cb1f130c652df8dbd8a6e7fa5f1db578a950/iac_init-0.8.9.tar.gz
+[2024-05-30 09:31:55] INFO root fetch - processPackages [aioli-sdk]: New version: [0.2.4.dev9] Old Version: [0.2.4.dev8]
+[2024-05-30 09:31:55] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/41/22/a68a0b8afa86af8f7495b222843e5a457fea1e1881f3bc96eed5c464e540/aioli_sdk-0.2.4.dev8.tar.gz
+[2024-05-30 09:31:55] INFO root fetch - processPackages [zodbpickle]: New version: [4.0] Old Version: [3.3]
+[2024-05-30 09:31:56] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/cd/25/d9848a3a017be39218d1ccb6f4e8007a0c7781325b6e49f176c030e37d80/aioli_sdk-0.2.4.dev9.tar.gz
+[2024-05-30 09:31:56] INFO root fetch - processPackages [zodbpickle]: Downloading https://files.pythonhosted.org/packages/bf/8c/6d12fa39f042e6076bb6d6745852f952997c40b452a35a5d4f3dd99f8966/zodbpickle-3.3.tar.gz
+[2024-05-30 09:31:56] INFO root fetch - processPackages [aioli-sdk]: executing diffoscope
+[2024-05-30 09:31:56] INFO root fetch - processPackages [aioli-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioli_sdk-0.2.4.dev8.tar.gz tmp/aioli_sdk-0.2.4.dev9.tar.gz --markdown 20240530/a/aioli-sdk/0.2.4.dev8-0.2.4.dev9/README.md --exclude *.pyd
+[2024-05-30 09:31:56] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/ed/56/78092ddba398c9d2ef783a1cfbc12c4b6d3b323cc7a1f3fe6f3abe2792f4/iac_init-0.9.0.tar.gz
+[2024-05-30 09:31:56] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-30 09:31:56] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.8.9.tar.gz tmp/iac_init-0.9.0.tar.gz --markdown 20240530/i/iac-init/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-30 09:31:56] INFO root fetch - processPackages [pyannote-onnx]: Downloading https://files.pythonhosted.org/packages/af/c5/3cb019751a56ae36e9cebcaac8d48de059953fc1ca86679d3874ee26fc3a/pyannote-onnx-0.0.8.tar.gz
+[2024-05-30 09:31:56] INFO root fetch - processPackages [zodbpickle]: Downloading https://files.pythonhosted.org/packages/b0/93/07180348935064c153c8b6d44869ce160c46a6acfcd24e257033bf6b0d4f/zodbpickle-4.0.tar.gz
+[2024-05-30 09:31:56] INFO root fetch - processPackages [zodbpickle]: executing diffoscope
+[2024-05-30 09:31:56] INFO root fetch - processPackages [zodbpickle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodbpickle-3.3.tar.gz tmp/zodbpickle-4.0.tar.gz --markdown 20240530/z/zodbpickle/3.3-4.0/README.md --exclude *.pyd
+[2024-05-30 09:31:56] INFO root fetch - processPackages [pyannote-onnx]: executing diffoscope
+[2024-05-30 09:31:56] INFO root fetch - processPackages [pyannote-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyannote-onnx-0.0.7.tar.gz tmp/pyannote-onnx-0.0.8.tar.gz --markdown 20240530/p/pyannote-onnx/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-30 09:31:57] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.8.9.tar.gz]
+[2024-05-30 09:31:57] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.0.tar.gz]
+[2024-05-30 09:31:57] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-30 09:31:57] INFO root fetch - processPackages [zodbpickle]: Remove: archive file [/home/abi/fetcher/tmp/zodbpickle-3.3.tar.gz]
+[2024-05-30 09:31:57] INFO root fetch - processPackages [zodbpickle]: Remove: archive file [/home/abi/fetcher/tmp/zodbpickle-4.0.tar.gz]
+[2024-05-30 09:31:57] INFO root fetch - main [MainThread]: End processing [zodbpickle]: success
+[2024-05-30 09:31:57] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4.dev8.tar.gz]
+[2024-05-30 09:31:57] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4.dev9.tar.gz]
+[2024-05-30 09:31:57] INFO root fetch - main [MainThread]: End processing [aioli-sdk]: success
+[2024-05-30 09:31:57] INFO root fetch - processPackages [pyannote-onnx]: Remove: archive file [/home/abi/fetcher/tmp/pyannote-onnx-0.0.7.tar.gz]
+[2024-05-30 09:31:57] INFO root fetch - processPackages [pyannote-onnx]: Remove: archive file [/home/abi/fetcher/tmp/pyannote-onnx-0.0.8.tar.gz]
+[2024-05-30 09:31:57] INFO root fetch - main [MainThread]: End processing [pyannote-onnx]: success
+[2024-05-30 09:31:57] INFO root fetch - main [MainThread]: Store serial: [23444174]
