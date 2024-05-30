@@ -16397,3 +16397,27 @@ EOFError: EOF read where object expected
 [2024-05-30 09:41:08] INFO root fetch - processPackages [SoL]: Remove: archive file [/home/abi/fetcher/tmp/sol-5.0.dev4.tar.gz]
 [2024-05-30 09:41:08] INFO root fetch - main [MainThread]: End processing [SoL]: success
 [2024-05-30 09:41:08] INFO root fetch - main [MainThread]: Store serial: [23444310]
+[2024-05-30 09:43:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444310]
+[2024-05-30 09:43:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 09:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mem-client
+[2024-05-30 09:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-ghareports
+[2024-05-30 09:43:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: knatch
+[2024-05-30 09:43:18] INFO root fetch - processPackages [knatch]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-30 09:43:18] INFO root fetch - processPackages [knatch]: Downloading https://files.pythonhosted.org/packages/ac/7b/a0cfbb601080df426d25b47ea12ebac304f6cde4d51ecd4457c883b10b42/knatch-1.0.3.tar.gz
+[2024-05-30 09:43:18] WARNING root fetch - processPackages [mem-client]: Skipping, unable to determine old version
+[2024-05-30 09:43:18] INFO root fetch - main [MainThread]: End processing [mem-client] error
+[2024-05-30 09:43:18] INFO root fetch - processPackages [robotframework-ghareports]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-30 09:43:18] INFO root fetch - processPackages [robotframework-ghareports]: Downloading https://files.pythonhosted.org/packages/ed/30/611741a871b3a1fad4dfbb08ccadd15566755f36987105ba70b159c0a7b6/robotframework_ghareports-0.1.0-py3-none-any.whl
+[2024-05-30 09:43:18] INFO root fetch - processPackages [knatch]: Downloading https://files.pythonhosted.org/packages/38/65/aa5f4e31c76372b5e35a02116b029f11ac85c42d5871e99cf1f1189891a0/knatch-1.0.4.tar.gz
+[2024-05-30 09:43:18] INFO root fetch - processPackages [knatch]: executing diffoscope
+[2024-05-30 09:43:18] INFO root fetch - processPackages [knatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knatch-1.0.3.tar.gz tmp/knatch-1.0.4.tar.gz --markdown 20240530/k/knatch/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-30 09:43:18] INFO root fetch - processPackages [robotframework-ghareports]: Downloading https://files.pythonhosted.org/packages/64/fe/2e9d4c2e4e2136be9f7e942a525629ec0a97dece1500cf504b4d8b181a3f/robotframework_ghareports-0.2.0-py3-none-any.whl
+[2024-05-30 09:43:18] INFO root fetch - processPackages [robotframework-ghareports]: executing diffoscope
+[2024-05-30 09:43:18] INFO root fetch - processPackages [robotframework-ghareports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_ghareports-0.1.0-py3-none-any.whl.zip tmp/robotframework_ghareports-0.2.0-py3-none-any.whl.zip --markdown 20240530/r/robotframework-ghareports/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-30 09:43:19] INFO root fetch - processPackages [knatch]: Remove: archive file [/home/abi/fetcher/tmp/knatch-1.0.3.tar.gz]
+[2024-05-30 09:43:19] INFO root fetch - processPackages [knatch]: Remove: archive file [/home/abi/fetcher/tmp/knatch-1.0.4.tar.gz]
+[2024-05-30 09:43:19] INFO root fetch - main [MainThread]: End processing [knatch]: success
+[2024-05-30 09:43:19] INFO root fetch - processPackages [robotframework-ghareports]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_ghareports-0.1.0-py3-none-any.whl.zip]
+[2024-05-30 09:43:19] INFO root fetch - processPackages [robotframework-ghareports]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_ghareports-0.2.0-py3-none-any.whl.zip]
+[2024-05-30 09:43:19] INFO root fetch - main [MainThread]: End processing [robotframework-ghareports]: success
+[2024-05-30 09:43:19] INFO root fetch - main [MainThread]: Store serial: [23444360]
