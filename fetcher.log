@@ -11845,3 +11845,24 @@ EOFError: EOF read where object expected
 [2024-05-30 06:50:10] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.6.1.tar.gz]
 [2024-05-30 06:50:10] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
 [2024-05-30 06:50:10] INFO root fetch - main [MainThread]: Store serial: [23442340]
+[2024-05-30 06:52:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442340]
+[2024-05-30 06:52:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 06:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitlab-api
+[2024-05-30 06:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RapidanAPI
+[2024-05-30 06:52:19] INFO root fetch - processPackages [RapidanAPI]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-30 06:52:19] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/93/42/530b45ac027c5f91b5711e3d6014a2adcc6906c1e7ccff21129896dc6634/RapidanAPI-1.0.8.tar.gz
+[2024-05-30 06:52:19] INFO root fetch - processPackages [gitlab-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-30 06:52:19] INFO root fetch - processPackages [gitlab-api]: Downloading https://files.pythonhosted.org/packages/4c/31/7f09ed7e57cfb89067df4301b4868acda650facb9216b3fec285bef932fb/gitlab_api-0.6.0-py2.py3-none-any.whl
+[2024-05-30 06:52:20] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/12/fc/9a6cc2d05c47996e22f3b623bac3d3ce1627cc066955d8aa06751112d121/RapidanAPI-1.0.9.tar.gz
+[2024-05-30 06:52:20] INFO root fetch - processPackages [RapidanAPI]: executing diffoscope
+[2024-05-30 06:52:20] INFO root fetch - processPackages [RapidanAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidanAPI-1.0.8.tar.gz tmp/RapidanAPI-1.0.9.tar.gz --markdown 20240530/R/RapidanAPI/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-30 06:52:20] INFO root fetch - processPackages [gitlab-api]: Downloading https://files.pythonhosted.org/packages/f6/a4/2802fc72596bcd0c534d36dab854af2883eccba523242378fa70fef707b8/gitlab_api-0.7.0-py2.py3-none-any.whl
+[2024-05-30 06:52:20] INFO root fetch - processPackages [gitlab-api]: executing diffoscope
+[2024-05-30 06:52:20] INFO root fetch - processPackages [gitlab-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_api-0.6.0-py2.py3-none-any.whl.zip tmp/gitlab_api-0.7.0-py2.py3-none-any.whl.zip --markdown 20240530/g/gitlab-api/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-30 06:52:20] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.8.tar.gz]
+[2024-05-30 06:52:20] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.9.tar.gz]
+[2024-05-30 06:52:20] INFO root fetch - main [MainThread]: End processing [RapidanAPI]: success
+[2024-05-30 06:52:21] INFO root fetch - processPackages [gitlab-api]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_api-0.6.0-py2.py3-none-any.whl.zip]
+[2024-05-30 06:52:21] INFO root fetch - processPackages [gitlab-api]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_api-0.7.0-py2.py3-none-any.whl.zip]
+[2024-05-30 06:52:21] INFO root fetch - main [MainThread]: End processing [gitlab-api]: success
+[2024-05-30 06:52:21] INFO root fetch - main [MainThread]: Store serial: [23442342]
