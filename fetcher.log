@@ -20727,3 +20727,182 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:17:56] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-05-30 11:17:56] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-05-30 11:17:56] INFO root fetch - main [MainThread]: Store serial: [23446052]
+[2024-05-30 11:20:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446052]
+[2024-05-30 11:20:07] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-05-30 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: richie
+[2024-05-30 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jcci
+[2024-05-30 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composio-autogen
+[2024-05-30 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inspectnn
+[2024-05-30 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gempyp
+[2024-05-30 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-claude
+[2024-05-30 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adapta
+[2024-05-30 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atla
+[2024-05-30 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: romms-glaficplots
+[2024-05-30 11:20:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ethyca-fides
+[2024-05-30 11:20:07] INFO root fetch - processPackages [romms-glaficplots]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 11:20:07] INFO root fetch - processPackages [composio-claude]: New version: [0.3.0] Old Version: [0.2.64]
+[2024-05-30 11:20:07] INFO root fetch - processPackages [atla]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2024-05-30 11:20:07] INFO root fetch - processPackages [adapta]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-30 11:20:07] INFO root fetch - processPackages [composio-autogen]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-30 11:20:07] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-30 11:20:07] INFO root fetch - processPackages [gempyp]: New version: [1.0.90b4] Old Version: [1.0.90b3]
+[2024-05-30 11:20:07] INFO root fetch - processPackages [inspectnn]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-30 11:20:07] INFO root fetch - processPackages [jcci]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-30 11:20:07] INFO root fetch - processPackages [romms-glaficplots]: Downloading https://files.pythonhosted.org/packages/38/4e/571af2e2fd0229bc978af83fd27331e105ea2fc535287b7a23309f68056c/romms_glaficplots-0.0.8.tar.gz
+[2024-05-30 11:20:07] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-30 11:20:07] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/71/74/d7402536936291e2f253c7f49b408e9b11360801f9d6fb0c2e7a212152af/composio_claude-0.2.64.tar.gz
+[2024-05-30 11:20:07] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/33/1302d42b2f30e2a721e649391c266b8d25fef79e334f145fe1f59175016a/adapta-2.9.1.tar.gz
+[2024-05-30 11:20:07] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-05-30 11:20:07] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-05-30 11:20:07] INFO root fetch - processPackages [atla]: Downloading https://files.pythonhosted.org/packages/61/d0/62c0d27a3182347efe022ebe088330c4d15f3e0961e48227d15f715fa7b4/atla-0.1.0a6.tar.gz
+[2024-05-30 11:20:07] INFO root fetch - processPackages [inspectnn]: Downloading https://files.pythonhosted.org/packages/7d/b9/8c51a12cd97fdc1cdfd7bbca610f06682800d9bc7b58f3495c815068bb00/inspectnn-0.5.2.tar.gz
+[2024-05-30 11:20:07] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/0c/8b/8e643a43f09c53faf16c978fcbb5cda8aa1481760beb4021c8d99ca62627/jcci-0.2.0.tar.gz
+[2024-05-30 11:20:07] INFO root fetch - processPackages [gempyp]: Downloading https://files.pythonhosted.org/packages/93/94/878c468d527cf8ec29d87e853ae3998120c4add97bad9c769bc9495a400f/gempyp-1.0.90b3.tar.gz
+[2024-05-30 11:20:07] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-05-30 11:20:07] INFO root fetch - processPackages [romms-glaficplots]: Downloading https://files.pythonhosted.org/packages/be/5f/ec560e93e981ecb2c7e391063bbd16c36e6b90b5273f41bbb9d7daf4eee0/romms_glaficplots-0.0.9.tar.gz
+[2024-05-30 11:20:07] WARNING root fetch - processPackages [inspectnn]: Skipping package: exceeds size limit 20018335>=10485760
+[2024-05-30 11:20:07] INFO root fetch - processPackages [inspectnn]: Start processing: yatotem2scdl
+[2024-05-30 11:20:07] INFO root fetch - main [MainThread]: End processing [inspectnn] error
+[2024-05-30 11:20:07] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/65/ad/ed4185baafe951630656b93b2d7a090a55b425629eff41205d633e2bbff2/composio_claude-0.3.0.tar.gz
+[2024-05-30 11:20:08] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/38/7b/c2e190b90d739aea14559d55ef402f1648abe251bc5e5eb13948fba8b345/adapta-2.9.2.tar.gz
+[2024-05-30 11:20:08] INFO root fetch - processPackages [atla]: Downloading https://files.pythonhosted.org/packages/70/09/55984b96ba4717d8adcc73a67bac3388a2a222d43f8bc276c3a2a90f3e62/atla-0.1.0a7.tar.gz
+[2024-05-30 11:20:08] INFO root fetch - processPackages [yatotem2scdl]: New version: [0.1.0] Old Version: [0.0.21]
+[2024-05-30 11:20:08] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/f9/14/89daf6a7d2afe7a1dffffe55a3c4d58754eab469eb9bf539d941ab3fb18b/composio_autogen-0.3.0.tar.gz
+[2024-05-30 11:20:08] INFO root fetch - processPackages [romms-glaficplots]: executing diffoscope
+[2024-05-30 11:20:08] INFO root fetch - processPackages [romms-glaficplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/romms_glaficplots-0.0.8.tar.gz tmp/romms_glaficplots-0.0.9.tar.gz --markdown 20240530/r/romms-glaficplots/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 11:20:08] INFO root fetch - processPackages [composio-claude]: executing diffoscope
+[2024-05-30 11:20:08] INFO root fetch - processPackages [composio-claude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_claude-0.2.64.tar.gz tmp/composio_claude-0.3.0.tar.gz --markdown 20240530/c/composio-claude/0.2.64-0.3.0/README.md --exclude *.pyd
+[2024-05-30 11:20:08] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-05-30 11:20:08] INFO root fetch - processPackages [yatotem2scdl]: Downloading https://files.pythonhosted.org/packages/4d/3e/be9512b9d036597cba24173e2cb6f2b25b4421221d9cfe49d4e1a4a6150e/yatotem2scdl-0.0.21.tar.gz
+[2024-05-30 11:20:08] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2024-05-30 11:20:08] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.9.1.tar.gz tmp/adapta-2.9.2.tar.gz --markdown 20240530/a/adapta/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-30 11:20:08] INFO root fetch - processPackages [atla]: executing diffoscope
+[2024-05-30 11:20:08] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-05-30 11:20:08] INFO root fetch - processPackages [atla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atla-0.1.0a6.tar.gz tmp/atla-0.1.0a7.tar.gz --markdown 20240530/a/atla/0.1.0a6-0.1.0a7/README.md --exclude *.pyd
+[2024-05-30 11:20:08] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.9.tar.gz tmp/composio_autogen-0.3.0.tar.gz --markdown 20240530/c/composio-autogen/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-30 11:20:08] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/96/69/e7edd25ec9ad14de9caf2a7459b5976548047b5c91ca3baf2a6bea15afec/jcci-0.2.1.tar.gz
+[2024-05-30 11:20:08] INFO root fetch - processPackages [gempyp]: Downloading https://files.pythonhosted.org/packages/6f/0e/0b5e4f76d10f5179ceee8df2685c65ce9663bc73a78bf34ea2b89123fdd1/gempyp-1.0.90b4.tar.gz
+[2024-05-30 11:20:08] INFO root fetch - processPackages [jcci]: executing diffoscope
+[2024-05-30 11:20:08] INFO root fetch - processPackages [jcci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcci-0.2.0.tar.gz tmp/jcci-0.2.1.tar.gz --markdown 20240530/j/jcci/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-30 11:20:08] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-05-30 11:20:08] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240530/r/richie/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-30 11:20:08] INFO root fetch - processPackages [yatotem2scdl]: Downloading https://files.pythonhosted.org/packages/74/06/2305502824e93fb7aad871dc02e302099d827b233188763a664707a63d0d/yatotem2scdl-0.1.0.tar.gz
+[2024-05-30 11:20:08] INFO root fetch - processPackages [gempyp]: executing diffoscope
+[2024-05-30 11:20:08] INFO root fetch - processPackages [gempyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gempyp-1.0.90b3.tar.gz tmp/gempyp-1.0.90b4.tar.gz --markdown 20240530/g/gempyp/1.0.90b3-1.0.90b4/README.md --exclude *.pyd
+[2024-05-30 11:20:08] INFO root fetch - processPackages [yatotem2scdl]: executing diffoscope
+[2024-05-30 11:20:08] INFO root fetch - processPackages [yatotem2scdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatotem2scdl-0.0.21.tar.gz tmp/yatotem2scdl-0.1.0.tar.gz --markdown 20240530/y/yatotem2scdl/0.0.21-0.1.0/README.md --exclude *.pyd
+[2024-05-30 11:20:08] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-05-30 11:20:09] INFO root fetch - processPackages [romms-glaficplots]: Remove: archive file [/home/abi/fetcher/tmp/romms_glaficplots-0.0.8.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [romms-glaficplots]: Remove: archive file [/home/abi/fetcher/tmp/romms_glaficplots-0.0.9.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [romms-glaficplots]: Start processing: composio-crewai
+[2024-05-30 11:20:09] INFO root fetch - main [MainThread]: End processing [romms-glaficplots]: success
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.2.64.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.3.0.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-claude]: Start processing: Acquisition
+[2024-05-30 11:20:09] INFO root fetch - main [MainThread]: End processing [composio-claude]: success
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-crewai]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [atla]: Remove: archive file [/home/abi/fetcher/tmp/atla-0.1.0a6.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.3.0.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [atla]: Remove: archive file [/home/abi/fetcher/tmp/atla-0.1.0a7.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-autogen]: Start processing: keycare
+[2024-05-30 11:20:09] INFO root fetch - processPackages [atla]: Start processing: composio-griptape
+[2024-05-30 11:20:09] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-05-30 11:20:09] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-05-30 11:20:09] INFO root fetch - main [MainThread]: End processing [atla]: success
+[2024-05-30 11:20:09] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240530/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-griptape]: New version: [0.3.0] Old Version: [0.2.64]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/36/a0/c6e6e70eb380faf4a66cae65393660bd726c5cd6f1d2512376f880730ae5/composio_crewai-0.3.0.tar.gz
+[2024-05-30 11:20:09] INFO root fetch - processPackages [Acquisition]: New version: [6.0] Old Version: [5.2]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/77/1c/72b4f5758957cfc160cc9c6774b2ae27880030008b60cf6bb367a0f8c5ce/composio_griptape-0.2.64.tar.gz
+[2024-05-30 11:20:09] INFO root fetch - processPackages [keycare]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.2.0.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.2.1.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [jcci]: Start processing: ms-teams-notify
+[2024-05-30 11:20:09] INFO root fetch - main [MainThread]: End processing [jcci]: success
+[2024-05-30 11:20:09] INFO root fetch - processPackages [ms-teams-notify]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [yatotem2scdl]: Remove: archive file [/home/abi/fetcher/tmp/yatotem2scdl-0.0.21.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [yatotem2scdl]: Remove: archive file [/home/abi/fetcher/tmp/yatotem2scdl-0.1.0.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [yatotem2scdl]: Start processing: imio.smartweb.policy
+[2024-05-30 11:20:09] INFO root fetch - main [MainThread]: End processing [yatotem2scdl]: success
+[2024-05-30 11:20:09] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.1.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.2.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [adapta]: Start processing: neetils
+[2024-05-30 11:20:09] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2024-05-30 11:20:09] INFO root fetch - processPackages [ms-teams-notify]: Downloading https://files.pythonhosted.org/packages/b4/4a/c3b627def9cca9b1fbef826986e49d8b89ab7eafaf814c8abd5c67d2a41b/ms_teams_notify-0.1.2.tar.gz
+[2024-05-30 11:20:09] INFO root fetch - processPackages [neetils]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/d4/43/976bca418c5f32b3eb7491ad28a7923c56bfb7c7db8ebace458bd47c4529/composio_crewai-0.3.1.tar.gz
+[2024-05-30 11:20:09] INFO root fetch - processPackages [keycare]: Downloading https://files.pythonhosted.org/packages/32/e6/94b41b7b806b53268425a58f4dceb6400150b2eb9252b183d7d68828dd04/keycare-0.0.8.tar.gz
+[2024-05-30 11:20:09] INFO root fetch - processPackages [imio.smartweb.policy]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [Acquisition]: Downloading https://files.pythonhosted.org/packages/72/a2/b7a46ba4de11295df3ab86bbdc81193c34d0d09601747993a541fd7995af/Acquisition-5.2.tar.gz
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/1e/19/3110672a657cc7622f6d824321928ce867582f26bdbccf1ad8e276049279/composio_griptape-0.3.0.tar.gz
+[2024-05-30 11:20:09] INFO root fetch - processPackages [gempyp]: Remove: archive file [/home/abi/fetcher/tmp/gempyp-1.0.90b3.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [gempyp]: Remove: archive file [/home/abi/fetcher/tmp/gempyp-1.0.90b4.tar.gz]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [gempyp]: Start processing: rox-septentrio
+[2024-05-30 11:20:09] INFO root fetch - main [MainThread]: End processing [gempyp]: success
+[2024-05-30 11:20:09] INFO root fetch - processPackages [neetils]: Downloading https://files.pythonhosted.org/packages/0b/3e/c450eda7fd08e874726fd778569f17c2c38c8fa80be20985f65f6eb9eb53/neetils-1.0.0.tar.gz
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.3.0.tar.gz tmp/composio_crewai-0.3.1.tar.gz --markdown 20240530/c/composio-crewai/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-30 11:20:09] INFO root fetch - processPackages [rox-septentrio]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-30 11:20:09] INFO root fetch - processPackages [imio.smartweb.policy]: Downloading https://files.pythonhosted.org/packages/02/32/a9f533b5dafdfeeac04dd3f5d6b82bcb341de27c15b0a4a258b0a44a4781/imio.smartweb.policy-1.2.4.tar.gz
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-griptape]: executing diffoscope
+[2024-05-30 11:20:09] INFO root fetch - processPackages [composio-griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_griptape-0.2.64.tar.gz tmp/composio_griptape-0.3.0.tar.gz --markdown 20240530/c/composio-griptape/0.2.64-0.3.0/README.md --exclude *.pyd
+[2024-05-30 11:20:09] INFO root fetch - processPackages [ms-teams-notify]: Downloading https://files.pythonhosted.org/packages/d6/90/8a94c3423abba37c31c0c7f7e3eb086d3ad120a4c76fca9954a5ecd8f77f/ms_teams_notify-0.1.3.tar.gz
+[2024-05-30 11:20:09] INFO root fetch - processPackages [rox-septentrio]: Downloading https://files.pythonhosted.org/packages/15/23/7fc7087fdcdd0648e5dcd591f99dac47c485273f310b0880130f6c95a181/rox_septentrio-0.3.0.tar.gz
+[2024-05-30 11:20:10] INFO root fetch - processPackages [keycare]: Downloading https://files.pythonhosted.org/packages/47/09/4841e2b6ba4ed7bde792f17ad6d218ae1e65306eb22a340cdf003a96e0b3/keycare-0.0.9.tar.gz
+[2024-05-30 11:20:10] INFO root fetch - processPackages [Acquisition]: Downloading https://files.pythonhosted.org/packages/27/0c/20537bc232ab09cd00601a6fa32848aee2c2a196b4ec825c60117fb5b0ed/Acquisition-6.0-cp311-cp311-win_amd64.whl
+[2024-05-30 11:20:10] INFO root fetch - processPackages [ms-teams-notify]: executing diffoscope
+[2024-05-30 11:20:10] INFO root fetch - processPackages [ms-teams-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_teams_notify-0.1.2.tar.gz tmp/ms_teams_notify-0.1.3.tar.gz --markdown 20240530/m/ms-teams-notify/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-30 11:20:10] INFO root fetch - processPackages [keycare]: executing diffoscope
+[2024-05-30 11:20:10] INFO root fetch - processPackages [keycare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycare-0.0.8.tar.gz tmp/keycare-0.0.9.tar.gz --markdown 20240530/k/keycare/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 11:20:10] INFO root fetch - processPackages [rox-septentrio]: Downloading https://files.pythonhosted.org/packages/fb/1b/dd983330b6fd770c02e9abc3f7ac2368edfdff4dceb8e300b99428c07a62/rox_septentrio-0.3.1.tar.gz
+[2024-05-30 11:20:10] INFO root fetch - processPackages [neetils]: Downloading https://files.pythonhosted.org/packages/cb/2f/7b50e85d2ced978fc3c0182af77f62854ea790b5d37c3dfad55ff1b24c35/neetils-1.0.1.tar.gz
+[2024-05-30 11:20:10] INFO root fetch - processPackages [imio.smartweb.policy]: Downloading https://files.pythonhosted.org/packages/20/16/f4bf9cbf3cc7ca3eb11839b2709df60416118ab694e33a609fb9a4b00876/imio_smartweb_policy-1.2.5.tar.gz
+[2024-05-30 11:20:10] INFO root fetch - processPackages [Acquisition]: executing diffoscope
+[2024-05-30 11:20:10] INFO root fetch - processPackages [Acquisition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Acquisition-5.2.tar.gz tmp/Acquisition-6.0-cp311-cp311-win_amd64.whl.zip --markdown 20240530/A/Acquisition/5.2-6.0/README.md --exclude *.pyd
+[2024-05-30 11:20:10] INFO root fetch - processPackages [neetils]: executing diffoscope
+[2024-05-30 11:20:10] INFO root fetch - processPackages [neetils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neetils-1.0.0.tar.gz tmp/neetils-1.0.1.tar.gz --markdown 20240530/n/neetils/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-30 11:20:10] INFO root fetch - processPackages [rox-septentrio]: executing diffoscope
+[2024-05-30 11:20:10] INFO root fetch - processPackages [rox-septentrio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rox_septentrio-0.3.0.tar.gz tmp/rox_septentrio-0.3.1.tar.gz --markdown 20240530/r/rox-septentrio/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-30 11:20:10] INFO root fetch - processPackages [imio.smartweb.policy]: executing diffoscope
+[2024-05-30 11:20:10] INFO root fetch - processPackages [imio.smartweb.policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.policy-1.2.4.tar.gz tmp/imio_smartweb_policy-1.2.5.tar.gz --markdown 20240530/i/imio.smartweb.policy/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-30 11:20:10] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.3.0.tar.gz]
+[2024-05-30 11:20:10] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.3.1.tar.gz]
+[2024-05-30 11:20:10] INFO root fetch - processPackages [composio-crewai]: Start processing: composio-julep
+[2024-05-30 11:20:10] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-05-30 11:20:10] INFO root fetch - processPackages [composio-julep]: New version: [0.3.0] Old Version: [0.2.64]
+[2024-05-30 11:20:10] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.2.64.tar.gz]
+[2024-05-30 11:20:10] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.3.0.tar.gz]
+[2024-05-30 11:20:10] INFO root fetch - main [MainThread]: End processing [composio-griptape]: success
+[2024-05-30 11:20:10] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/90/d6/a29ddcad9bfa68cfde1311b02122810eb83e728d3dc7c014e708e0e5ec1a/composio_julep-0.2.64.tar.gz
+[2024-05-30 11:20:10] INFO root fetch - processPackages [ms-teams-notify]: Remove: archive file [/home/abi/fetcher/tmp/ms_teams_notify-0.1.2.tar.gz]
+[2024-05-30 11:20:10] INFO root fetch - processPackages [ms-teams-notify]: Remove: archive file [/home/abi/fetcher/tmp/ms_teams_notify-0.1.3.tar.gz]
+[2024-05-30 11:20:10] INFO root fetch - main [MainThread]: End processing [ms-teams-notify]: success
+[2024-05-30 11:20:10] INFO root fetch - processPackages [keycare]: Remove: archive file [/home/abi/fetcher/tmp/keycare-0.0.8.tar.gz]
+[2024-05-30 11:20:10] INFO root fetch - processPackages [keycare]: Remove: archive file [/home/abi/fetcher/tmp/keycare-0.0.9.tar.gz]
+[2024-05-30 11:20:10] INFO root fetch - main [MainThread]: End processing [keycare]: success
+[2024-05-30 11:20:11] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/de/7a/79bbfcb9f481cf7171b6ea08e53bc15f73a3e7c576f6f716424c9be9648d/composio_julep-0.3.0.tar.gz
+[2024-05-30 11:20:11] INFO root fetch - processPackages [Acquisition]: Remove: archive file [/home/abi/fetcher/tmp/Acquisition-5.2.tar.gz]
+[2024-05-30 11:20:11] INFO root fetch - processPackages [Acquisition]: Remove: archive file [/home/abi/fetcher/tmp/Acquisition-6.0-cp311-cp311-win_amd64.whl.zip]
+[2024-05-30 11:20:11] INFO root fetch - main [MainThread]: End processing [Acquisition]: success
+[2024-05-30 11:20:11] INFO root fetch - processPackages [composio-julep]: executing diffoscope
+[2024-05-30 11:20:11] INFO root fetch - processPackages [composio-julep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_julep-0.2.64.tar.gz tmp/composio_julep-0.3.0.tar.gz --markdown 20240530/c/composio-julep/0.2.64-0.3.0/README.md --exclude *.pyd
+[2024-05-30 11:20:11] INFO root fetch - processPackages [neetils]: Remove: archive file [/home/abi/fetcher/tmp/neetils-1.0.0.tar.gz]
+[2024-05-30 11:20:11] INFO root fetch - processPackages [neetils]: Remove: archive file [/home/abi/fetcher/tmp/neetils-1.0.1.tar.gz]
+[2024-05-30 11:20:11] INFO root fetch - main [MainThread]: End processing [neetils]: success
+[2024-05-30 11:20:11] INFO root fetch - processPackages [rox-septentrio]: Remove: archive file [/home/abi/fetcher/tmp/rox_septentrio-0.3.0.tar.gz]
+[2024-05-30 11:20:11] INFO root fetch - processPackages [rox-septentrio]: Remove: archive file [/home/abi/fetcher/tmp/rox_septentrio-0.3.1.tar.gz]
+[2024-05-30 11:20:11] INFO root fetch - main [MainThread]: End processing [rox-septentrio]: success
+[2024-05-30 11:20:11] INFO root fetch - processPackages [imio.smartweb.policy]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.policy-1.2.4.tar.gz]
+[2024-05-30 11:20:11] INFO root fetch - processPackages [imio.smartweb.policy]: Remove: archive file [/home/abi/fetcher/tmp/imio_smartweb_policy-1.2.5.tar.gz]
+[2024-05-30 11:20:11] INFO root fetch - main [MainThread]: End processing [imio.smartweb.policy]: success
+[2024-05-30 11:20:11] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.64.tar.gz]
+[2024-05-30 11:20:11] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.3.0.tar.gz]
+[2024-05-30 11:20:11] INFO root fetch - main [MainThread]: End processing [composio-julep]: success
+[2024-05-30 11:20:13] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-05-30 11:20:13] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-05-30 11:20:13] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-05-30 11:22:02] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-05-30 11:22:02] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-05-30 11:22:02] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-05-30 11:22:02] INFO root fetch - main [MainThread]: Store serial: [23446119]
