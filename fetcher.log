@@ -13371,3 +13371,69 @@ EOFError: EOF read where object expected
 [2024-05-30 08:03:21] INFO root fetch - processPackages [odoo-addon-fetchmail-attach-from-folder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fetchmail_attach_from_folder-16.0.1.1.0.8-py3-none-any.whl.zip]
 [2024-05-30 08:03:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-fetchmail-attach-from-folder]: success
 [2024-05-30 08:03:21] INFO root fetch - main [MainThread]: Store serial: [23443116]
+[2024-05-30 08:05:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443116]
+[2024-05-30 08:05:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 08:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smdb-api
+[2024-05-30 08:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-sparkapi
+[2024-05-30 08:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-database-cleanup
+[2024-05-30 08:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kinliuren
+[2024-05-30 08:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synthetic-home
+[2024-05-30 08:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-scheduler-error-mailer
+[2024-05-30 08:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatllm
+[2024-05-30 08:05:30] INFO root fetch - processPackages [smdb-api]: New version: [0.9.12] Old Version: [0.9.1]
+[2024-05-30 08:05:30] INFO root fetch - processPackages [odoo-addon-database-cleanup]: New version: [17.0.1.2.0.2] Old Version: [17.0.1.2.0.1]
+[2024-05-30 08:05:30] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.3]
+[2024-05-30 08:05:30] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-30 08:05:30] INFO root fetch - processPackages [smdb-api]: Downloading https://files.pythonhosted.org/packages/8b/7c/462aee1f0b31705fd270ae4f3e269115e2d4d915b3f0af107c97f2e51531/smdb_api-0.9.1.tar.gz
+[2024-05-30 08:05:30] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-30 08:05:30] INFO root fetch - processPackages [synthetic-home]: New version: [2.6.0] Old Version: [2.5.1]
+[2024-05-30 08:05:30] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/64/04/4414e1c3ea5e222b11b1f13d449a47dc855a34d50d889e7af0fa3cb466ae/odoo_addon_database_cleanup-17.0.1.2.0.1-py3-none-any.whl
+[2024-05-30 08:05:30] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Downloading https://files.pythonhosted.org/packages/fe/20/ddfba78f332c84feeba02120f3256f37b11cfab62945675d5333ec77a1b7/odoo_addon_scheduler_error_mailer-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-30 08:05:30] INFO root fetch - processPackages [kinliuren]: New version: [0.1.2.8] Old Version: [0.1.2.6]
+[2024-05-30 08:05:30] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-30 08:05:30] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Downloading https://files.pythonhosted.org/packages/9f/ca/b8006a4de1d2602b6581b465bdbf5ca48ddbf2c67d9b3d22424302d05ae0/nonebot_plugin_sparkapi-1.4.1.tar.gz
+[2024-05-30 08:05:30] INFO root fetch - processPackages [synthetic-home]: Downloading https://files.pythonhosted.org/packages/6d/79/1fd3e5e744656ef1d46cba8b2f2a4b52d83a68ac6a8cd8f732ea45fdf77f/synthetic_home-2.5.1.tar.gz
+[2024-05-30 08:05:30] INFO root fetch - processPackages [smdb-api]: Downloading https://files.pythonhosted.org/packages/7c/40/4f246c09d870d252aea285313cdb40d34031bafd148e7448cd55500393fa/smdb_api-0.9.12.tar.gz
+[2024-05-30 08:05:30] INFO root fetch - processPackages [kinliuren]: Downloading https://files.pythonhosted.org/packages/08/b5/d2232af0f7c3552ccd49a0ed70fd823e4962e2158890601e96ee9cf29e51/kinliuren-0.1.2.6.tar.gz
+[2024-05-30 08:05:30] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/14/66/fd58f4b79565db99acd2f13a15d5fc417e8c95c2e2fc37b3a4933a61b70f/odoo_addon_database_cleanup-17.0.1.2.0.2-py3-none-any.whl
+[2024-05-30 08:05:30] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-30 08:05:30] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Downloading https://files.pythonhosted.org/packages/e2/87/c653ae6807d532ed3407c9295d6439592e233d95d4c16bad9a8e0a8287cc/odoo_addon_scheduler_error_mailer-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-30 08:05:30] INFO root fetch - processPackages [smdb-api]: executing diffoscope
+[2024-05-30 08:05:30] INFO root fetch - processPackages [smdb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smdb_api-0.9.1.tar.gz tmp/smdb_api-0.9.12.tar.gz --markdown 20240530/s/smdb-api/0.9.1-0.9.12/README.md --exclude *.pyd
+[2024-05-30 08:05:30] INFO root fetch - processPackages [odoo-addon-database-cleanup]: executing diffoscope
+[2024-05-30 08:05:30] INFO root fetch - processPackages [odoo-addon-database-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_database_cleanup-17.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_database_cleanup-17.0.1.2.0.2-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-database-cleanup/17.0.1.2.0.1-17.0.1.2.0.2/README.md --exclude *.pyd
+[2024-05-30 08:05:30] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-30 08:05:30] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240530/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-30 08:05:30] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: executing diffoscope
+[2024-05-30 08:05:30] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_scheduler_error_mailer-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_scheduler_error_mailer-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-scheduler-error-mailer/17.0.1.0.0.3-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-30 08:05:30] INFO root fetch - processPackages [synthetic-home]: Downloading https://files.pythonhosted.org/packages/57/f9/f29ee4eeda1ac19f231a1d2ef3466405d0c511824c34605aad2f3d47ed2f/synthetic_home-2.6.0.tar.gz
+[2024-05-30 08:05:30] INFO root fetch - processPackages [kinliuren]: Downloading https://files.pythonhosted.org/packages/b5/44/d53aa1a00f4341232c00e17cf688e5d58fe19fbbb6a25aa758d6165f84c3/kinliuren-0.1.2.8.tar.gz
+[2024-05-30 08:05:30] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Downloading https://files.pythonhosted.org/packages/ba/65/f46a0e1bcbdfbf300ed1ba459a4a852678a917ceaa6655a0839bb3142392/nonebot_plugin_sparkapi-1.4.2.tar.gz
+[2024-05-30 08:05:30] INFO root fetch - processPackages [synthetic-home]: executing diffoscope
+[2024-05-30 08:05:30] INFO root fetch - processPackages [synthetic-home]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthetic_home-2.5.1.tar.gz tmp/synthetic_home-2.6.0.tar.gz --markdown 20240530/s/synthetic-home/2.5.1-2.6.0/README.md --exclude *.pyd
+[2024-05-30 08:05:31] INFO root fetch - processPackages [kinliuren]: executing diffoscope
+[2024-05-30 08:05:31] INFO root fetch - processPackages [kinliuren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kinliuren-0.1.2.6.tar.gz tmp/kinliuren-0.1.2.8.tar.gz --markdown 20240530/k/kinliuren/0.1.2.6-0.1.2.8/README.md --exclude *.pyd
+[2024-05-30 08:05:31] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: executing diffoscope
+[2024-05-30 08:05:31] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sparkapi-1.4.1.tar.gz tmp/nonebot_plugin_sparkapi-1.4.2.tar.gz --markdown 20240530/n/nonebot-plugin-sparkapi/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-30 08:05:31] INFO root fetch - processPackages [smdb-api]: Remove: archive file [/home/abi/fetcher/tmp/smdb_api-0.9.1.tar.gz]
+[2024-05-30 08:05:31] INFO root fetch - processPackages [smdb-api]: Remove: archive file [/home/abi/fetcher/tmp/smdb_api-0.9.12.tar.gz]
+[2024-05-30 08:05:31] INFO root fetch - main [MainThread]: End processing [smdb-api]: success
+[2024-05-30 08:05:31] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_scheduler_error_mailer-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-30 08:05:31] INFO root fetch - processPackages [odoo-addon-scheduler-error-mailer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_scheduler_error_mailer-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-30 08:05:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-scheduler-error-mailer]: success
+[2024-05-30 08:05:31] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-05-30 08:05:31] INFO root fetch - processPackages [odoo-addon-database-cleanup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_database_cleanup-17.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-05-30 08:05:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-database-cleanup]: success
+[2024-05-30 08:05:31] INFO root fetch - processPackages [synthetic-home]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_home-2.5.1.tar.gz]
+[2024-05-30 08:05:31] INFO root fetch - processPackages [synthetic-home]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_home-2.6.0.tar.gz]
+[2024-05-30 08:05:31] INFO root fetch - main [MainThread]: End processing [synthetic-home]: success
+[2024-05-30 08:05:31] INFO root fetch - processPackages [kinliuren]: Remove: archive file [/home/abi/fetcher/tmp/kinliuren-0.1.2.6.tar.gz]
+[2024-05-30 08:05:31] INFO root fetch - processPackages [kinliuren]: Remove: archive file [/home/abi/fetcher/tmp/kinliuren-0.1.2.8.tar.gz]
+[2024-05-30 08:05:31] INFO root fetch - main [MainThread]: End processing [kinliuren]: success
+[2024-05-30 08:05:31] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sparkapi-1.4.1.tar.gz]
+[2024-05-30 08:05:31] INFO root fetch - processPackages [nonebot-plugin-sparkapi]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sparkapi-1.4.2.tar.gz]
+[2024-05-30 08:05:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sparkapi]: success
+[2024-05-30 08:05:32] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-30 08:05:32] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-30 08:05:32] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-30 08:05:32] INFO root fetch - main [MainThread]: Store serial: [23443135]
