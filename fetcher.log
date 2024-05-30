@@ -8964,3 +8964,33 @@ EOFError: EOF read where object expected
 [2024-05-30 04:40:02] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-05-30 04:40:02] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-05-30 04:40:02] INFO root fetch - main [MainThread]: Store serial: [23441369]
+[2024-05-30 04:42:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441369]
+[2024-05-30 04:42:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 04:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: girder-slicer-cli-web
+[2024-05-30 04:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oahspe
+[2024-05-30 04:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bk-resource
+[2024-05-30 04:42:11] INFO root fetch - processPackages [oahspe]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 04:42:11] INFO root fetch - processPackages [girder-slicer-cli-web]: New version: [1.5.5.dev4] Old Version: [1.5.5.dev2]
+[2024-05-30 04:42:11] INFO root fetch - processPackages [oahspe]: Downloading https://files.pythonhosted.org/packages/4b/74/d4e56352cf9c4bcbdb9def76baacfa0f8f561d2056675a7966bca54343aa/oahspe-0.0.8.tar.gz
+[2024-05-30 04:42:11] INFO root fetch - processPackages [bk-resource]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-30 04:42:11] INFO root fetch - processPackages [girder-slicer-cli-web]: Downloading https://files.pythonhosted.org/packages/d7/70/fd7fb8894010ada92b3a75e58392924f9bb16013446761ba0c726efaaa56/girder_slicer_cli_web-1.5.5.dev2.tar.gz
+[2024-05-30 04:42:12] INFO root fetch - processPackages [bk-resource]: Downloading https://files.pythonhosted.org/packages/30/04/9ea2866e4bb42f1eac8a76686fb7867519ac6d7a7d823d32cecd317616fb/bk_resource-0.4.7.tar.gz
+[2024-05-30 04:42:12] INFO root fetch - processPackages [oahspe]: Downloading https://files.pythonhosted.org/packages/de/d5/1e822b9aa967a7cbfc30d1e9b77cb573842f5536e41ade896d0df136f0ee/oahspe-0.0.9.tar.gz
+[2024-05-30 04:42:12] INFO root fetch - processPackages [girder-slicer-cli-web]: Downloading https://files.pythonhosted.org/packages/cf/41/d8fa3ceb7b3115a26dd82381a272cad1f122d909ea93fc0df8d391338f8f/girder_slicer_cli_web-1.5.5.dev4.tar.gz
+[2024-05-30 04:42:12] INFO root fetch - processPackages [oahspe]: executing diffoscope
+[2024-05-30 04:42:12] INFO root fetch - processPackages [oahspe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oahspe-0.0.8.tar.gz tmp/oahspe-0.0.9.tar.gz --markdown 20240530/o/oahspe/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 04:42:12] INFO root fetch - processPackages [girder-slicer-cli-web]: executing diffoscope
+[2024-05-30 04:42:12] INFO root fetch - processPackages [girder-slicer-cli-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder_slicer_cli_web-1.5.5.dev2.tar.gz tmp/girder_slicer_cli_web-1.5.5.dev4.tar.gz --markdown 20240530/g/girder-slicer-cli-web/1.5.5.dev2-1.5.5.dev4/README.md --exclude *.pyd
+[2024-05-30 04:42:12] INFO root fetch - processPackages [bk-resource]: Downloading https://files.pythonhosted.org/packages/11/e0/5cee354a4a759edffa00a1d3236603ecb7e0ca0579e0fd2167d5ccb709bd/bk_resource-0.4.8.tar.gz
+[2024-05-30 04:42:12] INFO root fetch - processPackages [bk-resource]: executing diffoscope
+[2024-05-30 04:42:12] INFO root fetch - processPackages [bk-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk_resource-0.4.7.tar.gz tmp/bk_resource-0.4.8.tar.gz --markdown 20240530/b/bk-resource/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-30 04:42:12] INFO root fetch - processPackages [oahspe]: Remove: archive file [/home/abi/fetcher/tmp/oahspe-0.0.8.tar.gz]
+[2024-05-30 04:42:12] INFO root fetch - processPackages [oahspe]: Remove: archive file [/home/abi/fetcher/tmp/oahspe-0.0.9.tar.gz]
+[2024-05-30 04:42:12] INFO root fetch - main [MainThread]: End processing [oahspe]: success
+[2024-05-30 04:42:13] INFO root fetch - processPackages [girder-slicer-cli-web]: Remove: archive file [/home/abi/fetcher/tmp/girder_slicer_cli_web-1.5.5.dev2.tar.gz]
+[2024-05-30 04:42:13] INFO root fetch - processPackages [girder-slicer-cli-web]: Remove: archive file [/home/abi/fetcher/tmp/girder_slicer_cli_web-1.5.5.dev4.tar.gz]
+[2024-05-30 04:42:13] INFO root fetch - main [MainThread]: End processing [girder-slicer-cli-web]: success
+[2024-05-30 04:42:13] INFO root fetch - processPackages [bk-resource]: Remove: archive file [/home/abi/fetcher/tmp/bk_resource-0.4.7.tar.gz]
+[2024-05-30 04:42:13] INFO root fetch - processPackages [bk-resource]: Remove: archive file [/home/abi/fetcher/tmp/bk_resource-0.4.8.tar.gz]
+[2024-05-30 04:42:13] INFO root fetch - main [MainThread]: End processing [bk-resource]: success
+[2024-05-30 04:42:13] INFO root fetch - main [MainThread]: Store serial: [23441377]
