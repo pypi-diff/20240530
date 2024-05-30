@@ -10389,3 +10389,51 @@ EOFError: EOF read where object expected
 [2024-05-30 05:53:28] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.3.0.tar.gz]
 [2024-05-30 05:53:28] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
 [2024-05-30 05:53:28] INFO root fetch - main [MainThread]: Store serial: [23441884]
+[2024-05-30 05:55:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441884]
+[2024-05-30 05:55:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 05:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-donation-direct-debit
+[2024-05-30 05:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composio-griptape
+[2024-05-30 05:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molecular-interaction-rules
+[2024-05-30 05:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moblin-assistant
+[2024-05-30 05:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-julep
+[2024-05-30 05:55:36] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-30 05:55:36] INFO root fetch - processPackages [composio-griptape]: New version: [0.3.0] Old Version: [0.2.64]
+[2024-05-30 05:55:36] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/cc/b6/c9459856e79b87c38ea7dc3e791ecc91afead6ec3357d54e6442d0519832/molecular_interaction_rules-0.5.6.tar.gz
+[2024-05-30 05:55:36] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: New version: [16.0.2.0.0.2] Old Version: [16.0.2.0.0.1]
+[2024-05-30 05:55:36] INFO root fetch - processPackages [moblin-assistant]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-30 05:55:36] INFO root fetch - processPackages [composio-julep]: New version: [0.3.0] Old Version: [0.2.64]
+[2024-05-30 05:55:36] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/77/1c/72b4f5758957cfc160cc9c6774b2ae27880030008b60cf6bb367a0f8c5ce/composio_griptape-0.2.64.tar.gz
+[2024-05-30 05:55:37] INFO root fetch - processPackages [moblin-assistant]: Downloading https://files.pythonhosted.org/packages/80/76/af925baf385dc331a6bde13d51aad3fe7c61f6a7345cc27c29e2be4ba797/moblin_assistant-0.3.0.tar.gz
+[2024-05-30 05:55:37] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Downloading https://files.pythonhosted.org/packages/49/f4/bdd43127a34741a31f8a6beaeb7cb02a6489e993456239b8511f600e48d1/odoo_addon_donation_direct_debit-16.0.2.0.0.1-py3-none-any.whl
+[2024-05-30 05:55:37] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/90/d6/a29ddcad9bfa68cfde1311b02122810eb83e728d3dc7c014e708e0e5ec1a/composio_julep-0.2.64.tar.gz
+[2024-05-30 05:55:37] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/c6/97/679b8fdfe3109bd49dc2b4412723b6607a4601b34afa112a05d1b57319ae/molecular_interaction_rules-0.5.7.tar.gz
+[2024-05-30 05:55:37] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 05:55:37] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.6.tar.gz tmp/molecular_interaction_rules-0.5.7.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-30 05:55:37] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/1e/19/3110672a657cc7622f6d824321928ce867582f26bdbccf1ad8e276049279/composio_griptape-0.3.0.tar.gz
+[2024-05-30 05:55:37] INFO root fetch - processPackages [moblin-assistant]: Downloading https://files.pythonhosted.org/packages/f1/1a/531ff188563dcee967b678e865e1e696695ed5c6dbe4ad8639e242eea7be/moblin_assistant-0.4.0.tar.gz
+[2024-05-30 05:55:37] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/de/7a/79bbfcb9f481cf7171b6ea08e53bc15f73a3e7c576f6f716424c9be9648d/composio_julep-0.3.0.tar.gz
+[2024-05-30 05:55:37] INFO root fetch - processPackages [composio-griptape]: executing diffoscope
+[2024-05-30 05:55:37] INFO root fetch - processPackages [composio-griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_griptape-0.2.64.tar.gz tmp/composio_griptape-0.3.0.tar.gz --markdown 20240530/c/composio-griptape/0.2.64-0.3.0/README.md --exclude *.pyd
+[2024-05-30 05:55:37] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Downloading https://files.pythonhosted.org/packages/5d/77/90a3ca2d486ed1d5d8b71c8b13ad278f0f557eb77468998e5f2a72cf4c49/odoo_addon_donation_direct_debit-16.0.2.0.0.2-py3-none-any.whl
+[2024-05-30 05:55:37] INFO root fetch - processPackages [moblin-assistant]: executing diffoscope
+[2024-05-30 05:55:37] INFO root fetch - processPackages [moblin-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moblin_assistant-0.3.0.tar.gz tmp/moblin_assistant-0.4.0.tar.gz --markdown 20240530/m/moblin-assistant/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-30 05:55:37] INFO root fetch - processPackages [composio-julep]: executing diffoscope
+[2024-05-30 05:55:37] INFO root fetch - processPackages [composio-julep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_julep-0.2.64.tar.gz tmp/composio_julep-0.3.0.tar.gz --markdown 20240530/c/composio-julep/0.2.64-0.3.0/README.md --exclude *.pyd
+[2024-05-30 05:55:37] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: executing diffoscope
+[2024-05-30 05:55:37] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_donation_direct_debit-16.0.2.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_donation_direct_debit-16.0.2.0.0.2-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-donation-direct-debit/16.0.2.0.0.1-16.0.2.0.0.2/README.md --exclude *.pyd
+[2024-05-30 05:55:37] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.6.tar.gz]
+[2024-05-30 05:55:37] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.7.tar.gz]
+[2024-05-30 05:55:37] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 05:55:37] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.2.64.tar.gz]
+[2024-05-30 05:55:37] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.3.0.tar.gz]
+[2024-05-30 05:55:37] INFO root fetch - main [MainThread]: End processing [composio-griptape]: success
+[2024-05-30 05:55:38] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.64.tar.gz]
+[2024-05-30 05:55:38] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.3.0.tar.gz]
+[2024-05-30 05:55:38] INFO root fetch - main [MainThread]: End processing [composio-julep]: success
+[2024-05-30 05:55:38] INFO root fetch - processPackages [moblin-assistant]: Remove: archive file [/home/abi/fetcher/tmp/moblin_assistant-0.3.0.tar.gz]
+[2024-05-30 05:55:38] INFO root fetch - processPackages [moblin-assistant]: Remove: archive file [/home/abi/fetcher/tmp/moblin_assistant-0.4.0.tar.gz]
+[2024-05-30 05:55:38] INFO root fetch - main [MainThread]: End processing [moblin-assistant]: success
+[2024-05-30 05:55:38] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_direct_debit-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2024-05-30 05:55:38] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_direct_debit-16.0.2.0.0.2-py3-none-any.whl.zip]
+[2024-05-30 05:55:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation-direct-debit]: success
+[2024-05-30 05:55:38] INFO root fetch - main [MainThread]: Store serial: [23441897]
