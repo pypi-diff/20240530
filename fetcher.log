@@ -10121,3 +10121,56 @@ EOFError: EOF read where object expected
 [2024-05-30 05:42:34] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.85.1.tar.gz]
 [2024-05-30 05:42:34] INFO root fetch - main [MainThread]: End processing [dvcx]: success
 [2024-05-30 05:42:34] INFO root fetch - main [MainThread]: Store serial: [23441777]
+[2024-05-30 05:44:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441777]
+[2024-05-30 05:44:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 05:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molecular-interaction-rules
+[2024-05-30 05:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syncmodels
+[2024-05-30 05:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmtube
+[2024-05-30 05:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agptools
+[2024-05-30 05:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hermes-cai
+[2024-05-30 05:44:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: solox
+[2024-05-30 05:44:42] INFO root fetch - processPackages [swarmtube]: New version: [0.1.54] Old Version: [0.1.53]
+[2024-05-30 05:44:42] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-30 05:44:43] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 05:44:43] INFO root fetch - processPackages [hermes-cai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 05:44:43] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 05:44:43] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/cc/24/71ca204d3b0fb9c11af9aff6ee4ea36bd33fc6a9a731c438252dfb832066/molecular_interaction_rules-0.5.4.tar.gz
+[2024-05-30 05:44:43] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/00/81/f868b4c69e6bdfe9885ad5ca960176bc20a9b1877dd61aceb5afc9bdee12/swarmtube-0.1.53-py2.py3-none-any.whl
+[2024-05-30 05:44:43] INFO root fetch - processPackages [hermes-cai]: Downloading https://files.pythonhosted.org/packages/c9/49/97474e8e674b4a25212e52f4667f6ed8090477ad6f09cc4879d99ad76b98/hermes_cai-0.0.8.tar.gz
+[2024-05-30 05:44:43] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-30 05:44:43] INFO root fetch - processPackages [solox]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-30 05:44:43] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-05-30 05:44:43] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-30 05:44:43] INFO root fetch - processPackages [hermes-cai]: Downloading https://files.pythonhosted.org/packages/c7/2e/0f088ef52872faa4a462253525bc0bf9426cf9d1003e4f90cbfa2ab55af8/hermes_cai-0.0.9.tar.gz
+[2024-05-30 05:44:43] INFO root fetch - processPackages [solox]: Downloading https://files.pythonhosted.org/packages/82/a1/62256360c5b2adcd863d5e2bb34fd6d76e92fe979a8e79b6315a5dd6bc37/solox-2.9.0.tar.gz
+[2024-05-30 05:44:43] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-05-30 05:44:43] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/20/26/97d274e5eebd397258e16e1b70a69a8dfb1bf50e593510258904ac991243/molecular_interaction_rules-0.5.5.tar.gz
+[2024-05-30 05:44:43] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/a4/df/9b8c39e122ca6451935f890bb7c6c549a76dd33dd9e113da9a821664fcc6/swarmtube-0.1.54-py2.py3-none-any.whl
+[2024-05-30 05:44:43] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-30 05:44:43] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240530/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 05:44:43] INFO root fetch - processPackages [hermes-cai]: executing diffoscope
+[2024-05-30 05:44:43] INFO root fetch - processPackages [hermes-cai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermes_cai-0.0.8.tar.gz tmp/hermes_cai-0.0.9.tar.gz --markdown 20240530/h/hermes-cai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 05:44:43] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-05-30 05:44:43] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240530/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 05:44:43] WARNING root fetch - processPackages [solox]: Skipping package: exceeds size limit 17411228>=10485760
+[2024-05-30 05:44:43] INFO root fetch - main [MainThread]: End processing [solox] error
+[2024-05-30 05:44:43] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 05:44:43] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.4.tar.gz tmp/molecular_interaction_rules-0.5.5.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-30 05:44:43] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-30 05:44:43] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.53-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.54-py2.py3-none-any.whl.zip --markdown 20240530/s/swarmtube/0.1.53-0.1.54/README.md --exclude *.pyd
+[2024-05-30 05:44:44] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.4.tar.gz]
+[2024-05-30 05:44:44] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.5.tar.gz]
+[2024-05-30 05:44:44] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 05:44:44] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-30 05:44:44] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-30 05:44:44] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-30 05:44:44] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.8.tar.gz]
+[2024-05-30 05:44:44] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.9.tar.gz]
+[2024-05-30 05:44:44] INFO root fetch - main [MainThread]: End processing [hermes-cai]: success
+[2024-05-30 05:44:44] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-30 05:44:44] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-30 05:44:44] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-05-30 05:44:44] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.53-py2.py3-none-any.whl.zip]
+[2024-05-30 05:44:44] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.54-py2.py3-none-any.whl.zip]
+[2024-05-30 05:44:44] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-30 05:44:44] INFO root fetch - main [MainThread]: Store serial: [23441791]
