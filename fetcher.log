@@ -8244,3 +8244,42 @@ EOFError: EOF read where object expected
 [2024-05-30 03:54:06] INFO root fetch - processPackages [giotto-tda]: Remove: archive file [/home/abi/fetcher/tmp/giotto_tda-0.6.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-30 03:54:06] INFO root fetch - main [MainThread]: End processing [giotto-tda]: success
 [2024-05-30 03:54:06] INFO root fetch - main [MainThread]: Store serial: [23441068]
+[2024-05-30 03:56:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441068]
+[2024-05-30 03:56:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 03:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myfunctions-Andre-Pank
+[2024-05-30 03:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myfunctions-andreibelous16
+[2024-05-30 03:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ok-script
+[2024-05-30 03:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edx-submissions
+[2024-05-30 03:56:15] INFO root fetch - processPackages [myfunctions-Andre-Pank]: New version: [0.0.9] Old Version: [0.0.15]
+[2024-05-30 03:56:15] INFO root fetch - processPackages [myfunctions-andreibelous16]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-30 03:56:15] INFO root fetch - processPackages [myfunctions-andreibelous16]: Downloading https://files.pythonhosted.org/packages/e9/fa/1a58d939618a16f9581604a9bd89b7b1a839103818c6a0973af3dd07aea2/myfunctions_andreibelous16-0.0.3.tar.gz
+[2024-05-30 03:56:15] INFO root fetch - processPackages [ok-script]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 03:56:15] INFO root fetch - processPackages [edx-submissions]: New version: [3.7.1] Old Version: [3.7.0]
+[2024-05-30 03:56:15] INFO root fetch - processPackages [myfunctions-Andre-Pank]: Downloading https://files.pythonhosted.org/packages/70/97/42d4352b087ca848fba2ebbe3205de441c58ed69dc9429fa18335ac53850/myfunctions_Andre-Pank-0.0.15.tar.gz
+[2024-05-30 03:56:15] INFO root fetch - processPackages [myfunctions-andreibelous16]: Downloading https://files.pythonhosted.org/packages/48/2b/9efc04e2ea0fd905f6ef87d8834412759ba36d5c4c8072344437cee600e0/myfunctions_andreibelous16-0.0.4.tar.gz
+[2024-05-30 03:56:15] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/5f/e3/968a4bfd4b0c82df5c5171f3d7d42fc8d8354283f3bae8becf975bc2cfb9/ok-script-0.0.8.tar.gz
+[2024-05-30 03:56:16] INFO root fetch - processPackages [edx-submissions]: Downloading https://files.pythonhosted.org/packages/9f/b4/03732ce0eb91040f4213ebc052b05f7c0da015f3e359a0f4dd52bfb58d08/edx-submissions-3.7.0.tar.gz
+[2024-05-30 03:56:16] INFO root fetch - processPackages [myfunctions-Andre-Pank]: Downloading https://files.pythonhosted.org/packages/19/b1/ff206c33049d64638f9c2f570afd445104caabf818697428f3d785b1ffec/myfunctions_Andre-Pank-0.0.9.tar.gz
+[2024-05-30 03:56:16] INFO root fetch - processPackages [myfunctions-andreibelous16]: executing diffoscope
+[2024-05-30 03:56:16] INFO root fetch - processPackages [myfunctions-andreibelous16]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_andreibelous16-0.0.3.tar.gz tmp/myfunctions_andreibelous16-0.0.4.tar.gz --markdown 20240530/m/myfunctions-andreibelous16/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-30 03:56:16] INFO root fetch - processPackages [myfunctions-Andre-Pank]: executing diffoscope
+[2024-05-30 03:56:16] INFO root fetch - processPackages [myfunctions-Andre-Pank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_Andre-Pank-0.0.15.tar.gz tmp/myfunctions_Andre-Pank-0.0.9.tar.gz --markdown 20240530/m/myfunctions-Andre-Pank/0.0.15-0.0.9/README.md --exclude *.pyd
+[2024-05-30 03:56:16] INFO root fetch - processPackages [edx-submissions]: Downloading https://files.pythonhosted.org/packages/76/68/e3e3aa84663c114a8548ad5a11f978ae5605c2e029e3df2ad738f941c98c/edx_submissions-3.7.1.tar.gz
+[2024-05-30 03:56:16] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/7e/57/3cb2ecf6f3abc49a58957eb87297ca0e7574e568b46c512c2a5fc710a462/ok-script-0.0.9.tar.gz
+[2024-05-30 03:56:16] INFO root fetch - processPackages [ok-script]: executing diffoscope
+[2024-05-30 03:56:16] INFO root fetch - processPackages [ok-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ok-script-0.0.8.tar.gz tmp/ok-script-0.0.9.tar.gz --markdown 20240530/o/ok-script/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 03:56:16] INFO root fetch - processPackages [edx-submissions]: executing diffoscope
+[2024-05-30 03:56:16] INFO root fetch - processPackages [edx-submissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-submissions-3.7.0.tar.gz tmp/edx_submissions-3.7.1.tar.gz --markdown 20240530/e/edx-submissions/3.7.0-3.7.1/README.md --exclude *.pyd
+[2024-05-30 03:56:16] INFO root fetch - processPackages [myfunctions-andreibelous16]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_andreibelous16-0.0.3.tar.gz]
+[2024-05-30 03:56:16] INFO root fetch - processPackages [myfunctions-andreibelous16]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_andreibelous16-0.0.4.tar.gz]
+[2024-05-30 03:56:16] INFO root fetch - main [MainThread]: End processing [myfunctions-andreibelous16]: success
+[2024-05-30 03:56:16] INFO root fetch - processPackages [myfunctions-Andre-Pank]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_Andre-Pank-0.0.15.tar.gz]
+[2024-05-30 03:56:16] INFO root fetch - processPackages [myfunctions-Andre-Pank]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_Andre-Pank-0.0.9.tar.gz]
+[2024-05-30 03:56:16] INFO root fetch - main [MainThread]: End processing [myfunctions-Andre-Pank]: success
+[2024-05-30 03:56:17] INFO root fetch - processPackages [edx-submissions]: Remove: archive file [/home/abi/fetcher/tmp/edx-submissions-3.7.0.tar.gz]
+[2024-05-30 03:56:17] INFO root fetch - processPackages [edx-submissions]: Remove: archive file [/home/abi/fetcher/tmp/edx_submissions-3.7.1.tar.gz]
+[2024-05-30 03:56:17] INFO root fetch - main [MainThread]: End processing [edx-submissions]: success
+[2024-05-30 03:56:17] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.8.tar.gz]
+[2024-05-30 03:56:17] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
+[2024-05-30 03:56:17] INFO root fetch - main [MainThread]: End processing [ok-script]: success
+[2024-05-30 03:56:17] INFO root fetch - main [MainThread]: Store serial: [23441082]
