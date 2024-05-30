@@ -2268,3 +2268,42 @@ EOFError: EOF read where object expected
 [2024-05-30 02:15:17] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240530.tar.gz]
 [2024-05-30 02:15:17] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
 [2024-05-30 02:15:17] INFO root fetch - main [MainThread]: Store serial: [23438768]
+[2024-05-30 02:17:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438768]
+[2024-05-30 02:17:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 02:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: layrz-sdk
+[2024-05-30 02:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minecraft-python
+[2024-05-30 02:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-05-30 02:17:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: piccolo
+[2024-05-30 02:17:26] INFO root fetch - processPackages [layrz-sdk]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-05-30 02:17:26] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-30 02:17:26] INFO root fetch - processPackages [layrz-sdk]: Downloading https://files.pythonhosted.org/packages/c4/7c/bf1caf28307bbb84a77bea5b780fd22900bd88ae63c5a4134e3d512c98ec/layrz_sdk-3.0.2.tar.gz
+[2024-05-30 02:17:26] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-05-30 02:17:26] INFO root fetch - processPackages [minecraft-python]: New version: [161348] Old Version: [160052.post1]
+[2024-05-30 02:17:26] INFO root fetch - processPackages [piccolo]: New version: [1.6.0] Old Version: [1.5.2]
+[2024-05-30 02:17:26] INFO root fetch - processPackages [layrz-sdk]: Downloading https://files.pythonhosted.org/packages/30/eb/f2d0a55f60fd9e2564f56a86cb1832d23a5ab7f2e19f9213547022c51f0f/layrz_sdk-3.0.3.tar.gz
+[2024-05-30 02:17:26] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-05-30 02:17:26] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/4b/31/bf570dab08d95ac9abbbab18f809884e587e2af5268a894ffbbf7d520527/minecraft-python-160052.post1.tar.gz
+[2024-05-30 02:17:26] INFO root fetch - processPackages [piccolo]: Downloading https://files.pythonhosted.org/packages/50/e5/3247bc0c67c98ab677a2279cb0061cd7cf148ef9da3d3b2538c99320d173/piccolo-1.5.2.tar.gz
+[2024-05-30 02:17:26] INFO root fetch - processPackages [layrz-sdk]: executing diffoscope
+[2024-05-30 02:17:26] INFO root fetch - processPackages [layrz-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layrz_sdk-3.0.2.tar.gz tmp/layrz_sdk-3.0.3.tar.gz --markdown 20240530/l/layrz-sdk/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-05-30 02:17:26] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-05-30 02:17:26] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240530/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-30 02:17:27] INFO root fetch - processPackages [piccolo]: Downloading https://files.pythonhosted.org/packages/19/e7/0bb7117cf0aa194585d55a93f681e14f30a3f215e4208660f4b278d17839/piccolo-1.6.0.tar.gz
+[2024-05-30 02:17:27] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/bb/96/2ce2d27777f3528c850f0870857dbb187977b7a1d0a34dcbf43075bf5e4c/minecraft-python-161348.tar.gz
+[2024-05-30 02:17:27] INFO root fetch - processPackages [minecraft-python]: executing diffoscope
+[2024-05-30 02:17:27] INFO root fetch - processPackages [minecraft-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft-python-160052.post1.tar.gz tmp/minecraft-python-161348.tar.gz --markdown 20240530/m/minecraft-python/160052.post1-161348/README.md --exclude *.pyd
+[2024-05-30 02:17:27] INFO root fetch - processPackages [piccolo]: executing diffoscope
+[2024-05-30 02:17:27] INFO root fetch - processPackages [piccolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piccolo-1.5.2.tar.gz tmp/piccolo-1.6.0.tar.gz --markdown 20240530/p/piccolo/1.5.2-1.6.0/README.md --exclude *.pyd
+[2024-05-30 02:17:27] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-05-30 02:17:27] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-05-30 02:17:27] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-05-30 02:17:27] INFO root fetch - processPackages [layrz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/layrz_sdk-3.0.2.tar.gz]
+[2024-05-30 02:17:27] INFO root fetch - processPackages [layrz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/layrz_sdk-3.0.3.tar.gz]
+[2024-05-30 02:17:27] INFO root fetch - main [MainThread]: End processing [layrz-sdk]: success
+[2024-05-30 02:17:28] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-160052.post1.tar.gz]
+[2024-05-30 02:17:28] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-161348.tar.gz]
+[2024-05-30 02:17:28] INFO root fetch - main [MainThread]: End processing [minecraft-python]: success
+[2024-05-30 02:17:28] INFO root fetch - processPackages [piccolo]: Remove: archive file [/home/abi/fetcher/tmp/piccolo-1.5.2.tar.gz]
+[2024-05-30 02:17:28] INFO root fetch - processPackages [piccolo]: Remove: archive file [/home/abi/fetcher/tmp/piccolo-1.6.0.tar.gz]
+[2024-05-30 02:17:28] INFO root fetch - main [MainThread]: End processing [piccolo]: success
+[2024-05-30 02:17:28] INFO root fetch - main [MainThread]: Store serial: [23438790]
