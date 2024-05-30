@@ -21624,3 +21624,71 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:47:27] INFO root fetch - processPackages [pybalance]: Remove: archive file [/home/abi/fetcher/tmp/pybalance-0.1.3.tar.gz]
 [2024-05-30 11:47:27] INFO root fetch - main [MainThread]: End processing [pybalance]: success
 [2024-05-30 11:47:27] INFO root fetch - main [MainThread]: Store serial: [23446454]
+[2024-05-30 11:49:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446454]
+[2024-05-30 11:49:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-30 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: network-builder
+[2024-05-30 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenGeode-core
+[2024-05-30 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HABSlib
+[2024-05-30 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vcf2seq
+[2024-05-30 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: extrautilities
+[2024-05-30 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adapta
+[2024-05-30 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vicodepy
+[2024-05-30 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: osstrack
+[2024-05-30 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alyx-connector
+[2024-05-30 11:49:36] INFO root fetch - processPackages [HABSlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 11:49:36] INFO root fetch - processPackages [network-builder]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 11:49:36] INFO root fetch - processPackages [extrautilities]: New version: [1.6] Old Version: [1.5]
+[2024-05-30 11:49:36] INFO root fetch - processPackages [adapta]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-30 11:49:36] WARNING root fetch - processPackages [vicodepy]: Skipping, unable to determine old version
+[2024-05-30 11:49:36] INFO root fetch - main [MainThread]: End processing [vicodepy] error
+[2024-05-30 11:49:36] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/92/a2/3472f44ce5fbc12a46ed53af9061d73c2ad2a08f4cfc95d85c9f0d590c52/habslib-0.1.8.tar.gz
+[2024-05-30 11:49:36] INFO root fetch - processPackages [vcf2seq]: New version: [0.7.0] Old Version: [0.6.5a0]
+[2024-05-30 11:49:36] WARNING root fetch - processPackages [osstrack]: Skipping, unable to determine old version
+[2024-05-30 11:49:36] INFO root fetch - main [MainThread]: End processing [osstrack] error
+[2024-05-30 11:49:36] INFO root fetch - processPackages [alyx-connector]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-30 11:49:36] INFO root fetch - processPackages [network-builder]: Downloading https://files.pythonhosted.org/packages/15/4c/d1a2d86bc64fc2da13e54c25e91ed9d4943d35226111e4ec1c7681cc59ad/network_builder-0.0.1.tar.gz
+[2024-05-30 11:49:36] INFO root fetch - processPackages [extrautilities]: Downloading https://files.pythonhosted.org/packages/96/bf/2140343cbf684a1f690f108f3b9d09794702a39db5d6e306cb6ecd4086c8/extrautilities-1.5.tar.gz
+[2024-05-30 11:49:36] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.21.2rc1]
+[2024-05-30 11:49:36] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/33/1302d42b2f30e2a721e649391c266b8d25fef79e334f145fe1f59175016a/adapta-2.9.1.tar.gz
+[2024-05-30 11:49:36] INFO root fetch - processPackages [HABSlib]: Downloading https://files.pythonhosted.org/packages/b2/ea/3eb2099f135cfbcea8c24a4ef575773e1c92246ed65b1611aba761b07ff2/habslib-0.1.9.tar.gz
+[2024-05-30 11:49:36] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/df/e5/a1c21df129529aae7955fe0b819d7795c55bdba283b6b40cc8e16255380d/OpenGeode_core-14.21.2rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-30 11:49:36] INFO root fetch - processPackages [vcf2seq]: Downloading https://files.pythonhosted.org/packages/b9/e9/fc9140546d24127cde47d59f5ff0279626cc1ed02d3dc3240e6577db1336/vcf2seq-0.6.5a0.tar.gz
+[2024-05-30 11:49:36] INFO root fetch - processPackages [extrautilities]: Downloading https://files.pythonhosted.org/packages/14/12/eff8414ca503c87c5e7336f536d05d7339a99b99f8681243f6d2d009776e/extrautilities-1.6.tar.gz
+[2024-05-30 11:49:36] INFO root fetch - processPackages [network-builder]: Downloading https://files.pythonhosted.org/packages/34/ff/c7476baad328c97948b86a74274fdf1af944651f4c4292de4dddf7a01fe6/network_builder-0.0.2.tar.gz
+[2024-05-30 11:49:36] INFO root fetch - processPackages [alyx-connector]: Downloading https://files.pythonhosted.org/packages/21/95/38f387764822e41cf3ffc92bfa402227e487dce1174c9331ace1f2c58db4/alyx_connector-2.1.4.tar.gz
+[2024-05-30 11:49:36] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/38/7b/c2e190b90d739aea14559d55ef402f1648abe251bc5e5eb13948fba8b345/adapta-2.9.2.tar.gz
+[2024-05-30 11:49:36] INFO root fetch - processPackages [HABSlib]: executing diffoscope
+[2024-05-30 11:49:36] INFO root fetch - processPackages [HABSlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habslib-0.1.8.tar.gz tmp/habslib-0.1.9.tar.gz --markdown 20240530/H/HABSlib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 11:49:36] INFO root fetch - processPackages [extrautilities]: executing diffoscope
+[2024-05-30 11:49:36] INFO root fetch - processPackages [extrautilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extrautilities-1.5.tar.gz tmp/extrautilities-1.6.tar.gz --markdown 20240530/e/extrautilities/1.5-1.6/README.md --exclude *.pyd
+[2024-05-30 11:49:36] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 13685605>=10485760
+[2024-05-30 11:49:36] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-05-30 11:49:36] INFO root fetch - processPackages [network-builder]: executing diffoscope
+[2024-05-30 11:49:36] INFO root fetch - processPackages [network-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_builder-0.0.1.tar.gz tmp/network_builder-0.0.2.tar.gz --markdown 20240530/n/network-builder/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 11:49:36] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2024-05-30 11:49:36] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.9.1.tar.gz tmp/adapta-2.9.2.tar.gz --markdown 20240530/a/adapta/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-30 11:49:37] INFO root fetch - processPackages [vcf2seq]: Downloading https://files.pythonhosted.org/packages/0b/88/bc0e1f116ddabd317d9da72ae4afafae2793b1d47a7e0fdc043d59535946/vcf2seq-0.7.0.tar.gz
+[2024-05-30 11:49:37] INFO root fetch - processPackages [alyx-connector]: Downloading https://files.pythonhosted.org/packages/6c/cd/2d9a3fe7bb567b306f8ce1bdea7f14647bd8aaf5824d68ffaea527bf3426/alyx_connector-2.1.5.tar.gz
+[2024-05-30 11:49:37] INFO root fetch - processPackages [alyx-connector]: executing diffoscope
+[2024-05-30 11:49:37] INFO root fetch - processPackages [alyx-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alyx_connector-2.1.4.tar.gz tmp/alyx_connector-2.1.5.tar.gz --markdown 20240530/a/alyx-connector/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-30 11:49:37] INFO root fetch - processPackages [vcf2seq]: executing diffoscope
+[2024-05-30 11:49:37] INFO root fetch - processPackages [vcf2seq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcf2seq-0.6.5a0.tar.gz tmp/vcf2seq-0.7.0.tar.gz --markdown 20240530/v/vcf2seq/0.6.5a0-0.7.0/README.md --exclude *.pyd
+[2024-05-30 11:49:37] INFO root fetch - processPackages [network-builder]: Remove: archive file [/home/abi/fetcher/tmp/network_builder-0.0.1.tar.gz]
+[2024-05-30 11:49:37] INFO root fetch - processPackages [network-builder]: Remove: archive file [/home/abi/fetcher/tmp/network_builder-0.0.2.tar.gz]
+[2024-05-30 11:49:37] INFO root fetch - main [MainThread]: End processing [network-builder]: success
+[2024-05-30 11:49:37] INFO root fetch - processPackages [extrautilities]: Remove: archive file [/home/abi/fetcher/tmp/extrautilities-1.5.tar.gz]
+[2024-05-30 11:49:37] INFO root fetch - processPackages [extrautilities]: Remove: archive file [/home/abi/fetcher/tmp/extrautilities-1.6.tar.gz]
+[2024-05-30 11:49:37] INFO root fetch - main [MainThread]: End processing [extrautilities]: success
+[2024-05-30 11:49:37] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.8.tar.gz]
+[2024-05-30 11:49:37] INFO root fetch - processPackages [HABSlib]: Remove: archive file [/home/abi/fetcher/tmp/habslib-0.1.9.tar.gz]
+[2024-05-30 11:49:37] INFO root fetch - main [MainThread]: End processing [HABSlib]: success
+[2024-05-30 11:49:37] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.1.tar.gz]
+[2024-05-30 11:49:37] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.2.tar.gz]
+[2024-05-30 11:49:37] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2024-05-30 11:49:37] INFO root fetch - processPackages [vcf2seq]: Remove: archive file [/home/abi/fetcher/tmp/vcf2seq-0.6.5a0.tar.gz]
+[2024-05-30 11:49:37] INFO root fetch - processPackages [vcf2seq]: Remove: archive file [/home/abi/fetcher/tmp/vcf2seq-0.7.0.tar.gz]
+[2024-05-30 11:49:37] INFO root fetch - main [MainThread]: End processing [vcf2seq]: success
+[2024-05-30 11:49:38] INFO root fetch - processPackages [alyx-connector]: Remove: archive file [/home/abi/fetcher/tmp/alyx_connector-2.1.4.tar.gz]
+[2024-05-30 11:49:38] INFO root fetch - processPackages [alyx-connector]: Remove: archive file [/home/abi/fetcher/tmp/alyx_connector-2.1.5.tar.gz]
+[2024-05-30 11:49:38] INFO root fetch - main [MainThread]: End processing [alyx-connector]: success
+[2024-05-30 11:49:38] INFO root fetch - main [MainThread]: Store serial: [23446489]
