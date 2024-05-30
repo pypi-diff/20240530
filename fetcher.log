@@ -22766,3 +22766,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 12:20:17] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-30 12:20:17] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-30 12:20:17] INFO root fetch - main [MainThread]: Store serial: [23446945]
+[2024-05-30 12:22:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446945]
+[2024-05-30 12:22:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-30 12:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dve-lumipy-testing
+[2024-05-30 12:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apiAmoCRM
+[2024-05-30 12:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strledger
+[2024-05-30 12:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: turboflow
+[2024-05-30 12:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: markdownfeedgenerator
+[2024-05-30 12:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mecord-cli
+[2024-05-30 12:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: safe-eth-py
+[2024-05-30 12:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: few-shot-priming
+[2024-05-30 12:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dwave-sona-core
+[2024-05-30 12:22:25] INFO root fetch - processPackages [apiAmoCRM]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-30 12:22:25] INFO root fetch - processPackages [dwave-sona-core]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-30 12:22:25] INFO root fetch - processPackages [markdownfeedgenerator]: New version: [2.6.0] Old Version: [2.5.5]
+[2024-05-30 12:22:25] INFO root fetch - processPackages [turboflow]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 12:22:25] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-30 12:22:25] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-30 12:22:25] INFO root fetch - processPackages [strledger]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-30 12:22:25] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-30 12:22:25] INFO root fetch - processPackages [safe-eth-py]: New version: [6.0.0b9] Old Version: [6.0.0b8]
+[2024-05-30 12:22:25] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/6d/5a/d5336512863ba9d6d2c21dd14bc5ebd92313604f57d2ea6d4c8e50c573ad/apiamocrm-0.1.1.tar.gz
+[2024-05-30 12:22:25] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-05-30 12:22:25] INFO root fetch - processPackages [markdownfeedgenerator]: Downloading https://files.pythonhosted.org/packages/84/56/a6b52db855d95ae20d0f133973827d09028e3563866c9bb1cd16e61f0a64/markdownfeedgenerator-2.5.5-py3-none-any.whl
+[2024-05-30 12:22:25] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/63/19/d4a4a9737a0d59cf3b19d0250bc8585a3057c3223f00214e48487ae9a033/dwave_sona_core-1.3.2.tar.gz
+[2024-05-30 12:22:25] INFO root fetch - processPackages [turboflow]: Downloading https://files.pythonhosted.org/packages/5f/c5/ea038679bc471e93ec4992a7f05de50f56cd8123bc0656fc0a225a8c9dd4/turboflow-0.1.0.tar.gz
+[2024-05-30 12:22:26] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-30 12:22:26] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-05-30 12:22:26] INFO root fetch - processPackages [strledger]: Downloading https://files.pythonhosted.org/packages/dc/ae/aeee4990a1a0bc2eb14d7af63acdfd048c7da64e92d89020ba41a31d58d9/strledger-0.7.0.tar.gz
+[2024-05-30 12:22:26] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/0c/ed/23b1f27f14c642c3ed091692af8e7c8a75ab7436c5121a270b14e89f1acf/safe-eth-py-6.0.0b8.tar.gz
+[2024-05-30 12:22:26] INFO root fetch - processPackages [markdownfeedgenerator]: Downloading https://files.pythonhosted.org/packages/93/3a/0b4aca625bbebd5ee2d22badfb1a50234c4c127dae6a8d454f292d702261/markdownfeedgenerator-2.6.0-py3-none-any.whl
+[2024-05-30 12:22:26] INFO root fetch - processPackages [turboflow]: Downloading https://files.pythonhosted.org/packages/fa/40/b3318f067c6ea8b451af9a721351b4a5f118d8535cc18d961683e7704216/turboflow-0.1.1.tar.gz
+[2024-05-30 12:22:26] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-05-30 12:22:26] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/45/a1/ab8737d5953f5b5f97d049e6af64a73754dadfac91ab27dd779cc7ecd7b9/apiamocrm-0.1.2.tar.gz
+[2024-05-30 12:22:26] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-05-30 12:22:26] INFO root fetch - processPackages [markdownfeedgenerator]: executing diffoscope
+[2024-05-30 12:22:26] INFO root fetch - processPackages [markdownfeedgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownfeedgenerator-2.5.5-py3-none-any.whl.zip tmp/markdownfeedgenerator-2.6.0-py3-none-any.whl.zip --markdown 20240530/m/markdownfeedgenerator/2.5.5-2.6.0/README.md --exclude *.pyd
+[2024-05-30 12:22:26] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/6c/a1/80b9c34e93233f74c514abc12f4de8542d42cfbaa053c24605d827364d5f/dwave_sona_core-1.3.3.tar.gz
+[2024-05-30 12:22:26] INFO root fetch - processPackages [apiAmoCRM]: executing diffoscope
+[2024-05-30 12:22:26] INFO root fetch - processPackages [apiAmoCRM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiamocrm-0.1.1.tar.gz tmp/apiamocrm-0.1.2.tar.gz --markdown 20240530/a/apiAmoCRM/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-30 12:22:26] INFO root fetch - processPackages [turboflow]: executing diffoscope
+[2024-05-30 12:22:26] INFO root fetch - processPackages [turboflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turboflow-0.1.0.tar.gz tmp/turboflow-0.1.1.tar.gz --markdown 20240530/t/turboflow/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 12:22:26] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-05-30 12:22:26] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240530/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-30 12:22:26] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-30 12:22:26] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-30 12:22:26] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240530/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-30 12:22:26] INFO root fetch - processPackages [strledger]: Downloading https://files.pythonhosted.org/packages/37/05/1601343b14f7a0b3234d7215607bcc9340d6a499dff6d7753ebc940ea70d/strledger-0.8.0.tar.gz
+[2024-05-30 12:22:26] INFO root fetch - processPackages [strledger]: executing diffoscope
+[2024-05-30 12:22:26] INFO root fetch - processPackages [strledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strledger-0.7.0.tar.gz tmp/strledger-0.8.0.tar.gz --markdown 20240530/s/strledger/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-30 12:22:26] INFO root fetch - processPackages [dwave-sona-core]: executing diffoscope
+[2024-05-30 12:22:26] INFO root fetch - processPackages [dwave-sona-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave_sona_core-1.3.2.tar.gz tmp/dwave_sona_core-1.3.3.tar.gz --markdown 20240530/d/dwave-sona-core/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-30 12:22:26] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-30 12:22:26] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240530/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-30 12:22:27] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.1.tar.gz]
+[2024-05-30 12:22:27] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.2.tar.gz]
+[2024-05-30 12:22:27] INFO root fetch - main [MainThread]: End processing [apiAmoCRM]: success
+[2024-05-30 12:22:27] INFO root fetch - processPackages [markdownfeedgenerator]: Remove: archive file [/home/abi/fetcher/tmp/markdownfeedgenerator-2.5.5-py3-none-any.whl.zip]
+[2024-05-30 12:22:27] INFO root fetch - processPackages [markdownfeedgenerator]: Remove: archive file [/home/abi/fetcher/tmp/markdownfeedgenerator-2.6.0-py3-none-any.whl.zip]
+[2024-05-30 12:22:27] INFO root fetch - main [MainThread]: End processing [markdownfeedgenerator]: success
+[2024-05-30 12:22:27] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/42/24/aefb4dee33f8794acc43acb93d196f0aa3ab97cd49040c45a40a20d1782c/safe-eth-py-6.0.0b9.tar.gz
+[2024-05-30 12:22:27] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-05-30 12:22:27] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-05-30 12:22:27] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-05-30 12:22:27] INFO root fetch - processPackages [strledger]: Remove: archive file [/home/abi/fetcher/tmp/strledger-0.7.0.tar.gz]
+[2024-05-30 12:22:27] INFO root fetch - processPackages [strledger]: Remove: archive file [/home/abi/fetcher/tmp/strledger-0.8.0.tar.gz]
+[2024-05-30 12:22:27] INFO root fetch - main [MainThread]: End processing [strledger]: success
+[2024-05-30 12:22:27] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.3.2.tar.gz]
+[2024-05-30 12:22:27] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.3.3.tar.gz]
+[2024-05-30 12:22:27] INFO root fetch - main [MainThread]: End processing [dwave-sona-core]: success
+[2024-05-30 12:22:27] INFO root fetch - processPackages [turboflow]: Remove: archive file [/home/abi/fetcher/tmp/turboflow-0.1.0.tar.gz]
+[2024-05-30 12:22:27] INFO root fetch - processPackages [turboflow]: Remove: archive file [/home/abi/fetcher/tmp/turboflow-0.1.1.tar.gz]
+[2024-05-30 12:22:27] INFO root fetch - main [MainThread]: End processing [turboflow]: success
+[2024-05-30 12:22:27] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-30 12:22:27] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-30 12:22:27] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-30 12:22:28] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-05-30 12:22:28] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-05-30 12:22:28] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-30 12:22:28] INFO root fetch - processPackages [safe-eth-py]: executing diffoscope
+[2024-05-30 12:22:28] INFO root fetch - processPackages [safe-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-eth-py-6.0.0b8.tar.gz tmp/safe-eth-py-6.0.0b9.tar.gz --markdown 20240530/s/safe-eth-py/6.0.0b8-6.0.0b9/README.md --exclude *.pyd
+[2024-05-30 12:22:29] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b8.tar.gz]
+[2024-05-30 12:22:29] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b9.tar.gz]
+[2024-05-30 12:22:29] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
+[2024-05-30 12:22:29] INFO root fetch - main [MainThread]: Store serial: [23446969]
