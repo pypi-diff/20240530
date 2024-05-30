@@ -23039,3 +23039,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 12:31:11] INFO root fetch - processPackages [connect-four-tobiasocula]: Remove: archive file [/home/abi/fetcher/tmp/connect_four_tobiasocula-1.0.1.tar.gz]
 [2024-05-30 12:31:11] INFO root fetch - main [MainThread]: End processing [connect-four-tobiasocula]: success
 [2024-05-30 12:31:11] INFO root fetch - main [MainThread]: Store serial: [23447060]
+[2024-05-30 12:33:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23447060]
+[2024-05-30 12:33:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-30 12:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkgconf
+[2024-05-30 12:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk
+[2024-05-30 12:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parse-it
+[2024-05-30 12:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codebleu
+[2024-05-30 12:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alq
+[2024-05-30 12:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: few-shot-priming
+[2024-05-30 12:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lsst-sphgeom
+[2024-05-30 12:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uugai-python-kerberos-vault
+[2024-05-30 12:33:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neurocarto
+[2024-05-30 12:33:20] INFO root fetch - processPackages [pkgconf]: New version: [2.1.1.post6] Old Version: [2.1.1.post5]
+[2024-05-30 12:33:20] INFO root fetch - processPackages [alq]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-30 12:33:20] INFO root fetch - processPackages [parse-it]: New version: [3.8.0] Old Version: [3.7.0]
+[2024-05-30 12:33:20] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-30 12:33:20] INFO root fetch - processPackages [pkgconf]: Downloading https://files.pythonhosted.org/packages/9f/ae/00bae4a560f0bd9667a1a518d54737e03b53da1ef069c179590559ac9776/pkgconf-2.1.1.post5.tar.gz
+[2024-05-30 12:33:20] INFO root fetch - processPackages [neurocarto]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 12:33:20] WARNING root fetch - processPackages [uugai-python-kerberos-vault]: Skipping, unable to determine old version
+[2024-05-30 12:33:20] INFO root fetch - main [MainThread]: End processing [uugai-python-kerberos-vault] error
+[2024-05-30 12:33:20] INFO root fetch - processPackages [alq]: Downloading https://files.pythonhosted.org/packages/19/31/c5b87f2312f0b2578c60b29d2d9a18ba912c2efa6a2b64b460b6d7f8285e/alq-0.0.3-py3-none-any.whl
+[2024-05-30 12:33:20] INFO root fetch - processPackages [codebleu]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-30 12:33:20] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/cd/52/dbb13663fccbffb09d020cc56e8a7a1b551efa4c47759a518f758bba3f02/parse_it-3.7.0.tar.gz
+[2024-05-30 12:33:20] INFO root fetch - processPackages [lsst-sphgeom]: New version: [27.2024.2200] Old Version: [27.2024.2100]
+[2024-05-30 12:33:20] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-30 12:33:20] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-30 12:33:21] INFO root fetch - processPackages [codebleu]: Downloading https://files.pythonhosted.org/packages/cc/57/0be2ce0c7512be0d816358f574d2edbcc99aa6fd832b0185842d822e01e9/codebleu-0.6.1.tar.gz
+[2024-05-30 12:33:21] INFO root fetch - processPackages [neurocarto]: Downloading https://files.pythonhosted.org/packages/70/2f/9acba80e036220be1e721665e6b582f9ba2e4411a43f12873a1c376bca85/neurocarto-0.0.1.tar.gz
+[2024-05-30 12:33:21] INFO root fetch - processPackages [lsst-sphgeom]: Downloading https://files.pythonhosted.org/packages/a6/6f/70192d4d5a155f349ed90e9c3a68ab928ad9939fd35d892737cb975c2c86/lsst_sphgeom-27.2024.2100.tar.gz
+[2024-05-30 12:33:21] INFO root fetch - processPackages [alq]: Downloading https://files.pythonhosted.org/packages/34/f4/7ec6242d92881e0c98da3d138cff413bab34afef11f78374fd09d077c64b/alq-0.0.4-py3-none-any.whl
+[2024-05-30 12:33:21] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/3b/d8/0a3f4a732fa677a35dbea4e9c72741f55e44859dc1c79bf5edfce61d95f0/parse_it-3.8.0.tar.gz
+[2024-05-30 12:33:21] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/15/56/0526e0499d9414b698f8c1260f8aac2e2a3209a0dc66949600aff2c28199/lusid_sdk-2.1.98.tar.gz
+[2024-05-30 12:33:21] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-30 12:33:21] INFO root fetch - processPackages [pkgconf]: Downloading https://files.pythonhosted.org/packages/fa/90/81159cbfa3930d5cb739436d2b6f952b5e7702ad95d23a83a5d95dcd92b7/pkgconf-2.1.1.post6.tar.gz
+[2024-05-30 12:33:21] INFO root fetch - processPackages [alq]: executing diffoscope
+[2024-05-30 12:33:21] INFO root fetch - processPackages [alq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alq-0.0.3-py3-none-any.whl.zip tmp/alq-0.0.4-py3-none-any.whl.zip --markdown 20240530/a/alq/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-30 12:33:21] INFO root fetch - processPackages [parse-it]: executing diffoscope
+[2024-05-30 12:33:21] INFO root fetch - processPackages [parse-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_it-3.7.0.tar.gz tmp/parse_it-3.8.0.tar.gz --markdown 20240530/p/parse-it/3.7.0-3.8.0/README.md --exclude *.pyd
+[2024-05-30 12:33:21] INFO root fetch - processPackages [pkgconf]: executing diffoscope
+[2024-05-30 12:33:21] INFO root fetch - processPackages [pkgconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgconf-2.1.1.post5.tar.gz tmp/pkgconf-2.1.1.post6.tar.gz --markdown 20240530/p/pkgconf/2.1.1.post5-2.1.1.post6/README.md --exclude *.pyd
+[2024-05-30 12:33:21] INFO root fetch - processPackages [neurocarto]: Downloading https://files.pythonhosted.org/packages/3d/13/69f8e77583c40b9607f171dda503a6722f41da0baafc5562d933ca2e5238/neurocarto-0.0.2.tar.gz
+[2024-05-30 12:33:21] INFO root fetch - processPackages [lsst-sphgeom]: Downloading https://files.pythonhosted.org/packages/15/21/58e9815602812a642ff63ee57b152d85509974c164097719819de884cdda/lsst_sphgeom-27.2024.2200.tar.gz
+[2024-05-30 12:33:21] INFO root fetch - processPackages [codebleu]: Downloading https://files.pythonhosted.org/packages/8f/45/87298d89e206d88ce83c5d1c36d3d5bcd4eb0fcd64cfcd36adf58b844093/codebleu-0.7.0.tar.gz
+[2024-05-30 12:33:21] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-30 12:33:21] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240530/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-30 12:33:21] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/2c/d6/b08aeae5c238a1e7a8cd3ba4a93d6c65acd45e317b927d0f06091d65479d/lusid_sdk-2.1.99.tar.gz
+[2024-05-30 12:33:21] INFO root fetch - processPackages [lsst-sphgeom]: executing diffoscope
+[2024-05-30 12:33:21] INFO root fetch - processPackages [lsst-sphgeom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_sphgeom-27.2024.2100.tar.gz tmp/lsst_sphgeom-27.2024.2200.tar.gz --markdown 20240530/l/lsst-sphgeom/27.2024.2100-27.2024.2200/README.md --exclude *.pyd
+[2024-05-30 12:33:21] INFO root fetch - processPackages [codebleu]: executing diffoscope
+[2024-05-30 12:33:21] INFO root fetch - processPackages [codebleu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codebleu-0.6.1.tar.gz tmp/codebleu-0.7.0.tar.gz --markdown 20240530/c/codebleu/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-30 12:33:21] INFO root fetch - processPackages [neurocarto]: executing diffoscope
+[2024-05-30 12:33:21] INFO root fetch - processPackages [neurocarto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurocarto-0.0.1.tar.gz tmp/neurocarto-0.0.2.tar.gz --markdown 20240530/n/neurocarto/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 12:33:21] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-30 12:33:21] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.98.tar.gz tmp/lusid_sdk-2.1.99.tar.gz --markdown 20240530/l/lusid-sdk/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-30 12:33:21] INFO root fetch - processPackages [alq]: Remove: archive file [/home/abi/fetcher/tmp/alq-0.0.3-py3-none-any.whl.zip]
+[2024-05-30 12:33:21] INFO root fetch - processPackages [alq]: Remove: archive file [/home/abi/fetcher/tmp/alq-0.0.4-py3-none-any.whl.zip]
+[2024-05-30 12:33:21] INFO root fetch - main [MainThread]: End processing [alq]: success
+[2024-05-30 12:33:22] INFO root fetch - processPackages [parse-it]: Remove: archive file [/home/abi/fetcher/tmp/parse_it-3.7.0.tar.gz]
+[2024-05-30 12:33:22] INFO root fetch - processPackages [parse-it]: Remove: archive file [/home/abi/fetcher/tmp/parse_it-3.8.0.tar.gz]
+[2024-05-30 12:33:22] INFO root fetch - main [MainThread]: End processing [parse-it]: success
+[2024-05-30 12:33:22] INFO root fetch - processPackages [pkgconf]: Remove: archive file [/home/abi/fetcher/tmp/pkgconf-2.1.1.post5.tar.gz]
+[2024-05-30 12:33:22] INFO root fetch - processPackages [pkgconf]: Remove: archive file [/home/abi/fetcher/tmp/pkgconf-2.1.1.post6.tar.gz]
+[2024-05-30 12:33:22] INFO root fetch - main [MainThread]: End processing [pkgconf]: success
+[2024-05-30 12:33:22] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-30 12:33:22] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-30 12:33:22] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-30 12:33:22] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst_sphgeom-27.2024.2100.tar.gz]
+[2024-05-30 12:33:22] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst_sphgeom-27.2024.2200.tar.gz]
+[2024-05-30 12:33:22] INFO root fetch - main [MainThread]: End processing [lsst-sphgeom]: success
+[2024-05-30 12:33:22] INFO root fetch - processPackages [codebleu]: Remove: archive file [/home/abi/fetcher/tmp/codebleu-0.6.1.tar.gz]
+[2024-05-30 12:33:22] INFO root fetch - processPackages [codebleu]: Remove: archive file [/home/abi/fetcher/tmp/codebleu-0.7.0.tar.gz]
+[2024-05-30 12:33:22] INFO root fetch - main [MainThread]: End processing [codebleu]: success
+[2024-05-30 12:33:22] INFO root fetch - processPackages [neurocarto]: Remove: archive file [/home/abi/fetcher/tmp/neurocarto-0.0.1.tar.gz]
+[2024-05-30 12:33:22] INFO root fetch - processPackages [neurocarto]: Remove: archive file [/home/abi/fetcher/tmp/neurocarto-0.0.2.tar.gz]
+[2024-05-30 12:33:22] INFO root fetch - main [MainThread]: End processing [neurocarto]: success
+[2024-05-30 12:33:26] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.98.tar.gz]
+[2024-05-30 12:33:26] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
+[2024-05-30 12:33:26] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-30 12:33:26] INFO root fetch - main [MainThread]: Store serial: [23447117]
