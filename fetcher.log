@@ -11866,3 +11866,54 @@ EOFError: EOF read where object expected
 [2024-05-30 06:52:21] INFO root fetch - processPackages [gitlab-api]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_api-0.7.0-py2.py3-none-any.whl.zip]
 [2024-05-30 06:52:21] INFO root fetch - main [MainThread]: End processing [gitlab-api]: success
 [2024-05-30 06:52:21] INFO root fetch - main [MainThread]: Store serial: [23442342]
+[2024-05-30 06:54:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442342]
+[2024-05-30 06:54:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 06:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RapidanAPI
+[2024-05-30 06:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-openupgrade-scripts
+[2024-05-30 06:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ucdp
+[2024-05-30 06:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-openupgrade-scripts
+[2024-05-30 06:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: entoli
+[2024-05-30 06:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mb-pytorch
+[2024-05-30 06:54:29] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [17.0.1.0.1.3] Old Version: [17.0.1.0.1.2]
+[2024-05-30 06:54:29] INFO root fetch - processPackages [RapidanAPI]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-30 06:54:29] WARNING root fetch - processPackages [entoli]: Skipping, unable to determine old version
+[2024-05-30 06:54:29] INFO root fetch - main [MainThread]: End processing [entoli] error
+[2024-05-30 06:54:29] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/2e/07/cd2a4ed7796c54648aaa9877e518fbf9fbf32efb82f079e0a29a9bc2c6a8/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-30 06:54:29] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/93/42/530b45ac027c5f91b5711e3d6014a2adcc6906c1e7ccff21129896dc6634/RapidanAPI-1.0.8.tar.gz
+[2024-05-30 06:54:29] INFO root fetch - processPackages [ucdp]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-30 06:54:29] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: New version: [14.0.1.0.2.dev99] Old Version: [14.0.1.0.2.dev95]
+[2024-05-30 06:54:29] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.55] Old Version: [1.0.54]
+[2024-05-30 06:54:30] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/12/fc/9a6cc2d05c47996e22f3b623bac3d3ce1627cc066955d8aa06751112d121/RapidanAPI-1.0.9.tar.gz
+[2024-05-30 06:54:30] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/f2/91/02310927fe11638961035a9674b0da49957cf5a36fe9d4f8296940bc73b9/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl
+[2024-05-30 06:54:30] INFO root fetch - processPackages [ucdp]: Downloading https://files.pythonhosted.org/packages/67/4b/3a43ab414e6f16ede70c5fda6b4696461b4968295289e15c1b75d76dc191/ucdp-0.3.0.tar.gz
+[2024-05-30 06:54:30] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/ec/50/ce82e83016d56e83f3ba41393c3470ef868ae1581c3f47640932504291c8/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl
+[2024-05-30 06:54:30] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/c9/00/43560a21dc8649fef97014f45fec5b203299ab8e59167ea679c756488334/mb_pytorch-1.0.54.tar.gz
+[2024-05-30 06:54:30] INFO root fetch - processPackages [RapidanAPI]: executing diffoscope
+[2024-05-30 06:54:30] INFO root fetch - processPackages [RapidanAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidanAPI-1.0.8.tar.gz tmp/RapidanAPI-1.0.9.tar.gz --markdown 20240530/R/RapidanAPI/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-30 06:54:30] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2024-05-30 06:54:30] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-openupgrade-scripts/17.0.1.0.1.2-17.0.1.0.1.3/README.md --exclude *.pyd
+[2024-05-30 06:54:30] INFO root fetch - processPackages [ucdp]: Downloading https://files.pythonhosted.org/packages/14/a5/f8af6e6b73d028a2889e01903e3dd88213cac1a56a367dcc91a759ffd0ed/ucdp-0.4.0.tar.gz
+[2024-05-30 06:54:30] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/69/5a/aa0fe74e3458679d7cf653809e4c13da23299f3ef9dd7a37025f34893328/mb_pytorch-1.0.55.tar.gz
+[2024-05-30 06:54:30] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d0/8c/a24d16c65bf9fe5ae4605a1657606542a2bb75c0ac9281be45aa9cb0464d/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl
+[2024-05-30 06:54:30] INFO root fetch - processPackages [ucdp]: executing diffoscope
+[2024-05-30 06:54:30] INFO root fetch - processPackages [ucdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucdp-0.3.0.tar.gz tmp/ucdp-0.4.0.tar.gz --markdown 20240530/u/ucdp/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-30 06:54:30] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: executing diffoscope
+[2024-05-30 06:54:30] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip --markdown 20240530/o/odoo14-addon-openupgrade-scripts/14.0.1.0.2.dev95-14.0.1.0.2.dev99/README.md --exclude *.pyd
+[2024-05-30 06:54:30] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-30 06:54:30] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.54.tar.gz tmp/mb_pytorch-1.0.55.tar.gz --markdown 20240530/m/mb-pytorch/1.0.54-1.0.55/README.md --exclude *.pyd
+[2024-05-30 06:54:30] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.8.tar.gz]
+[2024-05-30 06:54:30] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.9.tar.gz]
+[2024-05-30 06:54:30] INFO root fetch - main [MainThread]: End processing [RapidanAPI]: success
+[2024-05-30 06:54:31] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.54.tar.gz]
+[2024-05-30 06:54:31] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.55.tar.gz]
+[2024-05-30 06:54:31] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-30 06:54:31] INFO root fetch - processPackages [ucdp]: Remove: archive file [/home/abi/fetcher/tmp/ucdp-0.3.0.tar.gz]
+[2024-05-30 06:54:31] INFO root fetch - processPackages [ucdp]: Remove: archive file [/home/abi/fetcher/tmp/ucdp-0.4.0.tar.gz]
+[2024-05-30 06:54:31] INFO root fetch - main [MainThread]: End processing [ucdp]: success
+[2024-05-30 06:54:32] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip]
+[2024-05-30 06:54:32] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
+[2024-05-30 06:54:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
+[2024-05-30 06:54:33] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-30 06:54:33] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-30 06:54:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2024-05-30 06:54:33] INFO root fetch - main [MainThread]: Store serial: [23442358]
