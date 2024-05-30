@@ -22234,3 +22234,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 12:03:56] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024052909.tar.gz]
 [2024-05-30 12:03:56] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-05-30 12:03:56] INFO root fetch - main [MainThread]: Store serial: [23446713]
+[2024-05-30 12:06:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446713]
+[2024-05-30 12:06:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-30 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: h2lib-tests
+[2024-05-30 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h2lib
+[2024-05-30 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: athena-python-udf
+[2024-05-30 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esrally
+[2024-05-30 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apiAmoCRM
+[2024-05-30 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-mellon
+[2024-05-30 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: few-shot-priming
+[2024-05-30 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datawaza
+[2024-05-30 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: catenp
+[2024-05-30 12:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: giza-datasets
+[2024-05-30 12:06:05] INFO root fetch - processPackages [athena-python-udf]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-30 12:06:05] INFO root fetch - processPackages [h2lib-tests]: New version: [13.1.201] Old Version: [13.1.1]
+[2024-05-30 12:06:05] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-30 12:06:05] INFO root fetch - processPackages [athena-python-udf]: Downloading https://files.pythonhosted.org/packages/d8/e4/e52461adbae554e8ef3848e7fa9c2a70f538a6cff11b559ddf716b7fb1f0/athena_python_udf-0.2.0.tar.gz
+[2024-05-30 12:06:05] INFO root fetch - processPackages [esrally]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-30 12:06:05] WARNING root fetch - processPackages [apiAmoCRM]: Skipping, unable to determine old version
+[2024-05-30 12:06:05] INFO root fetch - processPackages [apiAmoCRM]: Start processing: YWP
+[2024-05-30 12:06:05] INFO root fetch - main [MainThread]: End processing [apiAmoCRM] error
+[2024-05-30 12:06:05] INFO root fetch - processPackages [catenp]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-30 12:06:05] INFO root fetch - processPackages [giza-datasets]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-30 12:06:05] INFO root fetch - processPackages [django-mellon]: New version: [1.9] Old Version: [1.8]
+[2024-05-30 12:06:05] INFO root fetch - processPackages [datawaza]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-30 12:06:05] INFO root fetch - processPackages [h2lib]: New version: [13.1.4] Old Version: [13.1.3]
+[2024-05-30 12:06:05] INFO root fetch - processPackages [YWP]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-30 12:06:05] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-30 12:06:05] INFO root fetch - processPackages [h2lib-tests]: Downloading https://files.pythonhosted.org/packages/6c/2f/c4939ff55e4a39f070b7d20cacbc2afb73319a5c846b5146b626dcd5a469/h2lib_tests-13.1.1-py3-none-any.whl
+[2024-05-30 12:06:05] INFO root fetch - processPackages [YWP]: Downloading https://files.pythonhosted.org/packages/25/1d/3fce0ae71194ba27d3cdd68fcf4e0c9ba694b7021d04896239ae8af005c7/ywp-0.5.0.tar.gz
+[2024-05-30 12:06:06] INFO root fetch - processPackages [django-mellon]: Downloading https://files.pythonhosted.org/packages/08/dd/0bf37483d4fda0d1a6549f1e237103ec006336a3aedd1d7a0e2a47bf0f44/django-mellon-1.8.tar.gz
+[2024-05-30 12:06:06] INFO root fetch - processPackages [athena-python-udf]: Downloading https://files.pythonhosted.org/packages/3a/23/db7cccdd10bfd8926f4a3c1f21407c543ce75d12d336ef5dd22cdf5979bf/athena_python_udf-0.2.1.tar.gz
+[2024-05-30 12:06:06] WARNING root fetch - processPackages [h2lib-tests]: Skipping package: exceeds size limit 10539427>=10485760
+[2024-05-30 12:06:06] INFO root fetch - main [MainThread]: End processing [h2lib-tests] error
+[2024-05-30 12:06:06] INFO root fetch - processPackages [esrally]: Downloading https://files.pythonhosted.org/packages/b8/c0/520774d4f163a3ffd67b4e0027e3db9c4ad0fb2b99e7612ee1fb8f7f8c62/esrally-2.9.0.tar.gz
+[2024-05-30 12:06:06] INFO root fetch - processPackages [giza-datasets]: Downloading https://files.pythonhosted.org/packages/2d/c7/c5ae37cf840d3f9f997ae103c213a53b12fd2803f5693cc4ce73425c7d27/giza_datasets-0.3.0.tar.gz
+[2024-05-30 12:06:06] INFO root fetch - processPackages [catenp]: Downloading https://files.pythonhosted.org/packages/e9/f3/b8e6540ed11a318ff8585e6fba3589935bc6ee58622eb8b4db7ebdf27819/catenp-0.0.7.tar.gz
+[2024-05-30 12:06:06] INFO root fetch - processPackages [datawaza]: Downloading https://files.pythonhosted.org/packages/f3/7e/84b1fd2a585b796fc56d91d6ca25b54ef58493ce9ad525cd5ae3dcfc89f2/datawaza-0.1.2.tar.gz
+[2024-05-30 12:06:06] INFO root fetch - processPackages [h2lib]: Downloading https://files.pythonhosted.org/packages/9d/86/f5184dd94abaf1d596162b29142009e74f1b708f3e9ca10f274f97a831c0/h2lib-13.1.3-cp39-cp39-win_amd64.whl
+[2024-05-30 12:06:06] INFO root fetch - processPackages [athena-python-udf]: executing diffoscope
+[2024-05-30 12:06:06] INFO root fetch - processPackages [athena-python-udf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena_python_udf-0.2.0.tar.gz tmp/athena_python_udf-0.2.1.tar.gz --markdown 20240530/a/athena-python-udf/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-30 12:06:06] INFO root fetch - processPackages [YWP]: Downloading https://files.pythonhosted.org/packages/1c/79/04e92549358e4de84680e0f87debf4fcb32b1859d0ce8b5a66dd78603b1d/ywp-0.6.0.tar.gz
+[2024-05-30 12:06:06] INFO root fetch - processPackages [YWP]: executing diffoscope
+[2024-05-30 12:06:06] INFO root fetch - processPackages [YWP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ywp-0.5.0.tar.gz tmp/ywp-0.6.0.tar.gz --markdown 20240530/Y/YWP/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-30 12:06:06] INFO root fetch - processPackages [django-mellon]: Downloading https://files.pythonhosted.org/packages/38/f5/71439550274f51fb0c2d8cbf9ba91bceec2186febab0816dc9d0390070ff/django-mellon-1.9.tar.gz
+[2024-05-30 12:06:06] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-30 12:06:06] INFO root fetch - processPackages [giza-datasets]: Downloading https://files.pythonhosted.org/packages/56/9c/1b7f30289ee578b899fae478ff03bae10b532330c89fb3c2be4e9370c6d3/giza_datasets-0.3.1.tar.gz
+[2024-05-30 12:06:06] INFO root fetch - processPackages [catenp]: Downloading https://files.pythonhosted.org/packages/ec/b5/fbf3dee0bdf2a7df4df11bf2c90a9ef1ab87822e5823143a66b058667985/catenp-0.0.9.tar.gz
+[2024-05-30 12:06:06] INFO root fetch - processPackages [esrally]: Downloading https://files.pythonhosted.org/packages/33/66/aebe823d0bbda0789601c80ebadfeedce369c5babced6d18823d6caf2571/esrally-2.9.1.tar.gz
+[2024-05-30 12:06:06] INFO root fetch - processPackages [django-mellon]: executing diffoscope
+[2024-05-30 12:06:06] INFO root fetch - processPackages [django-mellon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mellon-1.8.tar.gz tmp/django-mellon-1.9.tar.gz --markdown 20240530/d/django-mellon/1.8-1.9/README.md --exclude *.pyd
+[2024-05-30 12:06:06] INFO root fetch - processPackages [datawaza]: Downloading https://files.pythonhosted.org/packages/80/cb/40281e5e6f0d8db0dbc5421ab39bbd33e1c711e3a8cdba4ccbe86a6724cf/datawaza-0.1.3.tar.gz
+[2024-05-30 12:06:06] INFO root fetch - processPackages [giza-datasets]: executing diffoscope
+[2024-05-30 12:06:06] INFO root fetch - processPackages [giza-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giza_datasets-0.3.0.tar.gz tmp/giza_datasets-0.3.1.tar.gz --markdown 20240530/g/giza-datasets/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-30 12:06:06] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-30 12:06:06] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240530/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-30 12:06:06] INFO root fetch - processPackages [athena-python-udf]: Remove: archive file [/home/abi/fetcher/tmp/athena_python_udf-0.2.0.tar.gz]
+[2024-05-30 12:06:06] INFO root fetch - processPackages [athena-python-udf]: Remove: archive file [/home/abi/fetcher/tmp/athena_python_udf-0.2.1.tar.gz]
+[2024-05-30 12:06:06] INFO root fetch - main [MainThread]: End processing [athena-python-udf]: success
+[2024-05-30 12:06:06] INFO root fetch - processPackages [esrally]: executing diffoscope
+[2024-05-30 12:06:06] INFO root fetch - processPackages [esrally]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esrally-2.9.0.tar.gz tmp/esrally-2.9.1.tar.gz --markdown 20240530/e/esrally/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-30 12:06:07] INFO root fetch - processPackages [YWP]: Remove: archive file [/home/abi/fetcher/tmp/ywp-0.5.0.tar.gz]
+[2024-05-30 12:06:07] INFO root fetch - processPackages [YWP]: Remove: archive file [/home/abi/fetcher/tmp/ywp-0.6.0.tar.gz]
+[2024-05-30 12:06:07] INFO root fetch - main [MainThread]: End processing [YWP]: success
+[2024-05-30 12:06:07] INFO root fetch - processPackages [h2lib]: Downloading https://files.pythonhosted.org/packages/28/51/aaec84832b2b5057f7444156ac78fe2171fee24ee48db5279b6ec23a43b2/h2lib-13.1.4-cp39-cp39-win_amd64.whl
+[2024-05-30 12:06:07] INFO root fetch - processPackages [catenp]: executing diffoscope
+[2024-05-30 12:06:07] INFO root fetch - processPackages [catenp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catenp-0.0.7.tar.gz tmp/catenp-0.0.9.tar.gz --markdown 20240530/c/catenp/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-30 12:06:07] INFO root fetch - processPackages [giza-datasets]: Remove: archive file [/home/abi/fetcher/tmp/giza_datasets-0.3.0.tar.gz]
+[2024-05-30 12:06:07] INFO root fetch - processPackages [giza-datasets]: Remove: archive file [/home/abi/fetcher/tmp/giza_datasets-0.3.1.tar.gz]
+[2024-05-30 12:06:07] INFO root fetch - main [MainThread]: End processing [giza-datasets]: success
+[2024-05-30 12:06:07] INFO root fetch - processPackages [django-mellon]: Remove: archive file [/home/abi/fetcher/tmp/django-mellon-1.8.tar.gz]
+[2024-05-30 12:06:07] INFO root fetch - processPackages [django-mellon]: Remove: archive file [/home/abi/fetcher/tmp/django-mellon-1.9.tar.gz]
+[2024-05-30 12:06:07] INFO root fetch - main [MainThread]: End processing [django-mellon]: success
+[2024-05-30 12:06:07] INFO root fetch - processPackages [h2lib]: executing diffoscope
+[2024-05-30 12:06:07] INFO root fetch - processPackages [h2lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2lib-13.1.3-cp39-cp39-win_amd64.whl.zip tmp/h2lib-13.1.4-cp39-cp39-win_amd64.whl.zip --markdown 20240530/h/h2lib/13.1.3-13.1.4/README.md --exclude *.pyd
+[2024-05-30 12:06:07] INFO root fetch - processPackages [datawaza]: executing diffoscope
+[2024-05-30 12:06:07] INFO root fetch - processPackages [datawaza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawaza-0.1.2.tar.gz tmp/datawaza-0.1.3.tar.gz --markdown 20240530/d/datawaza/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-30 12:06:07] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-30 12:06:07] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-30 12:06:07] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-30 12:06:07] INFO root fetch - processPackages [catenp]: Remove: archive file [/home/abi/fetcher/tmp/catenp-0.0.7.tar.gz]
+[2024-05-30 12:06:07] INFO root fetch - processPackages [catenp]: Remove: archive file [/home/abi/fetcher/tmp/catenp-0.0.9.tar.gz]
+[2024-05-30 12:06:07] INFO root fetch - main [MainThread]: End processing [catenp]: success
+[2024-05-30 12:06:08] INFO root fetch - processPackages [datawaza]: Remove: archive file [/home/abi/fetcher/tmp/datawaza-0.1.2.tar.gz]
+[2024-05-30 12:06:08] INFO root fetch - processPackages [datawaza]: Remove: archive file [/home/abi/fetcher/tmp/datawaza-0.1.3.tar.gz]
+[2024-05-30 12:06:08] INFO root fetch - main [MainThread]: End processing [datawaza]: success
+[2024-05-30 12:06:08] INFO root fetch - processPackages [esrally]: Remove: archive file [/home/abi/fetcher/tmp/esrally-2.9.0.tar.gz]
+[2024-05-30 12:06:08] INFO root fetch - processPackages [esrally]: Remove: archive file [/home/abi/fetcher/tmp/esrally-2.9.1.tar.gz]
+[2024-05-30 12:06:08] INFO root fetch - main [MainThread]: End processing [esrally]: success
+[2024-05-30 12:07:00] INFO root fetch - processPackages [h2lib]: Remove: archive file [/home/abi/fetcher/tmp/h2lib-13.1.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 12:07:00] INFO root fetch - processPackages [h2lib]: Remove: archive file [/home/abi/fetcher/tmp/h2lib-13.1.4-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 12:07:00] INFO root fetch - main [MainThread]: End processing [h2lib]: success
+[2024-05-30 12:07:00] INFO root fetch - main [MainThread]: Store serial: [23446748]
