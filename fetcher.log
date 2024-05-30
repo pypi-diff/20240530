@@ -22565,3 +22565,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 12:13:41] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst_daf_butler-27.2024.2200.tar.gz]
 [2024-05-30 12:13:41] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
 [2024-05-30 12:13:41] INFO root fetch - main [MainThread]: Store serial: [23446860]
+[2024-05-30 12:15:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446860]
+[2024-05-30 12:15:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 12:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dav-tools
+[2024-05-30 12:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: afeng-py-tools
+[2024-05-30 12:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proximityhash
+[2024-05-30 12:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dve-lumipy-testing
+[2024-05-30 12:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MQTC
+[2024-05-30 12:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqttoolkit
+[2024-05-30 12:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hundred-x
+[2024-05-30 12:15:50] INFO root fetch - processPackages [dav-tools]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-30 12:15:50] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-30 12:15:50] INFO root fetch - processPackages [pyqttoolkit]: New version: [0.8.0.dev1] Old Version: [0.8.0.dev0]
+[2024-05-30 12:15:50] INFO root fetch - processPackages [dav-tools]: Downloading https://files.pythonhosted.org/packages/ce/e2/801df895d4c05c4de64ff913770ff8db378f6733ec7aca7168975a0400a8/dav_tools-0.2.0.tar.gz
+[2024-05-30 12:15:50] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-30 12:15:50] INFO root fetch - processPackages [proximityhash]: New version: [3.0.0] Old Version: [1.0.1]
+[2024-05-30 12:15:50] WARNING root fetch - processPackages [MQTC]: Skipping, unable to determine old version
+[2024-05-30 12:15:50] INFO root fetch - processPackages [hundred-x]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 12:15:50] INFO root fetch - main [MainThread]: End processing [MQTC] error
+[2024-05-30 12:15:50] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-30 12:15:50] INFO root fetch - processPackages [proximityhash]: Downloading https://files.pythonhosted.org/packages/59/d0/4bd78bdbf596143119b12050e9a3b6843aee3b46d7318760a711093765aa/proximityhash-1.0.1.tar.gz
+[2024-05-30 12:15:50] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-05-30 12:15:50] INFO root fetch - processPackages [pyqttoolkit]: Downloading https://files.pythonhosted.org/packages/5e/14/dc418fa190c4f5a818063053a8b4bd39d8de68fb25c2e0e5455489995d03/pyqttoolkit-0.8.0.dev0.tar.gz
+[2024-05-30 12:15:50] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-30 12:15:50] INFO root fetch - processPackages [hundred-x]: Downloading https://files.pythonhosted.org/packages/8c/e7/ee610591ff6c98f6a2075f6d733312d4d99b5b97c91cf644b053d105b851/hundred_x-0.1.8.tar.gz
+[2024-05-30 12:15:51] INFO root fetch - processPackages [dav-tools]: Downloading https://files.pythonhosted.org/packages/34/6e/4020163df1a596a64b900bd2780e7cd8a6dfc5c331965036f9c6a73d5990/dav_tools-0.2.1.tar.gz
+[2024-05-30 12:15:51] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-30 12:15:51] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240530/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-30 12:15:51] INFO root fetch - processPackages [dav-tools]: executing diffoscope
+[2024-05-30 12:15:51] INFO root fetch - processPackages [dav-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dav_tools-0.2.0.tar.gz tmp/dav_tools-0.2.1.tar.gz --markdown 20240530/d/dav-tools/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-30 12:15:51] INFO root fetch - processPackages [proximityhash]: Downloading https://files.pythonhosted.org/packages/01/11/b86abbabfc7754da4b0a727b04b5c07fdf8b75c3f1b6b5bc723c2dec2985/proximityhash-3.0.0.tar.gz
+[2024-05-30 12:15:51] INFO root fetch - processPackages [proximityhash]: executing diffoscope
+[2024-05-30 12:15:51] INFO root fetch - processPackages [proximityhash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proximityhash-1.0.1.tar.gz tmp/proximityhash-3.0.0.tar.gz --markdown 20240530/p/proximityhash/1.0.1-3.0.0/README.md --exclude *.pyd
+[2024-05-30 12:15:51] INFO root fetch - processPackages [hundred-x]: Downloading https://files.pythonhosted.org/packages/25/ac/34e103a76e4d1e6ee3cd5e035470df42a5a0d1877f43f38d4413da35691b/hundred_x-0.1.9.tar.gz
+[2024-05-30 12:15:51] INFO root fetch - processPackages [pyqttoolkit]: Downloading https://files.pythonhosted.org/packages/e7/c6/ae4cef48b723319f410b172ecb23796ca98ba146cb2d72650e3c82fea59c/pyqttoolkit-0.8.0.dev1.tar.gz
+[2024-05-30 12:15:51] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-05-30 12:15:51] INFO root fetch - processPackages [hundred-x]: executing diffoscope
+[2024-05-30 12:15:51] INFO root fetch - processPackages [hundred-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hundred_x-0.1.8.tar.gz tmp/hundred_x-0.1.9.tar.gz --markdown 20240530/h/hundred-x/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 12:15:51] INFO root fetch - processPackages [pyqttoolkit]: executing diffoscope
+[2024-05-30 12:15:51] INFO root fetch - processPackages [pyqttoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqttoolkit-0.8.0.dev0.tar.gz tmp/pyqttoolkit-0.8.0.dev1.tar.gz --markdown 20240530/p/pyqttoolkit/0.8.0.dev0-0.8.0.dev1/README.md --exclude *.pyd
+[2024-05-30 12:15:51] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-30 12:15:51] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240530/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-30 12:15:51] INFO root fetch - processPackages [dav-tools]: Remove: archive file [/home/abi/fetcher/tmp/dav_tools-0.2.0.tar.gz]
+[2024-05-30 12:15:51] INFO root fetch - processPackages [dav-tools]: Remove: archive file [/home/abi/fetcher/tmp/dav_tools-0.2.1.tar.gz]
+[2024-05-30 12:15:51] INFO root fetch - main [MainThread]: End processing [dav-tools]: success
+[2024-05-30 12:15:51] INFO root fetch - processPackages [proximityhash]: Remove: archive file [/home/abi/fetcher/tmp/proximityhash-1.0.1.tar.gz]
+[2024-05-30 12:15:51] INFO root fetch - processPackages [proximityhash]: Remove: archive file [/home/abi/fetcher/tmp/proximityhash-3.0.0.tar.gz]
+[2024-05-30 12:15:51] INFO root fetch - main [MainThread]: End processing [proximityhash]: success
+[2024-05-30 12:15:52] INFO root fetch - processPackages [hundred-x]: Remove: archive file [/home/abi/fetcher/tmp/hundred_x-0.1.8.tar.gz]
+[2024-05-30 12:15:52] INFO root fetch - processPackages [hundred-x]: Remove: archive file [/home/abi/fetcher/tmp/hundred_x-0.1.9.tar.gz]
+[2024-05-30 12:15:52] INFO root fetch - main [MainThread]: End processing [hundred-x]: success
+[2024-05-30 12:15:52] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-30 12:15:52] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-30 12:15:52] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-30 12:15:52] INFO root fetch - processPackages [pyqttoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pyqttoolkit-0.8.0.dev0.tar.gz]
+[2024-05-30 12:15:52] INFO root fetch - processPackages [pyqttoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pyqttoolkit-0.8.0.dev1.tar.gz]
+[2024-05-30 12:15:52] INFO root fetch - main [MainThread]: End processing [pyqttoolkit]: success
+[2024-05-30 12:15:52] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-05-30 12:15:52] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-05-30 12:15:52] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-30 12:15:52] INFO root fetch - main [MainThread]: Store serial: [23446888]
