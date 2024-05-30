@@ -13579,3 +13579,36 @@ EOFError: EOF read where object expected
 [2024-05-30 08:12:04] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip]
 [2024-05-30 08:12:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
 [2024-05-30 08:12:04] INFO root fetch - main [MainThread]: Store serial: [23443172]
+[2024-05-30 08:14:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443172]
+[2024-05-30 08:14:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 08:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-spreadsheet-dashboard-oca
+[2024-05-30 08:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bees-challenge
+[2024-05-30 08:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tabswitcher
+[2024-05-30 08:14:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chars
+[2024-05-30 08:14:14] INFO root fetch - processPackages [tabswitcher]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-30 08:14:14] INFO root fetch - processPackages [odoo-addon-spreadsheet-dashboard-oca]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.8]
+[2024-05-30 08:14:14] INFO root fetch - processPackages [bees-challenge]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-30 08:14:14] INFO root fetch - processPackages [tabswitcher]: Downloading https://files.pythonhosted.org/packages/6b/99/e2e9efaa56c17feec33a1ef3428372086401a01179d57f5559fb6a3a3ae9/tabswitcher-0.1.7.tar.gz
+[2024-05-30 08:14:14] WARNING root fetch - processPackages [chars]: Skipping, unable to determine old version
+[2024-05-30 08:14:14] INFO root fetch - main [MainThread]: End processing [chars] error
+[2024-05-30 08:14:14] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/89/24/4733a13f84677afdd70034693899dbd52670aa1d011f012aa99a8d4e5bb1/bees-challenge-0.5.0.tar.gz
+[2024-05-30 08:14:14] INFO root fetch - processPackages [odoo-addon-spreadsheet-dashboard-oca]: Downloading https://files.pythonhosted.org/packages/f0/9d/ead42d5e0991fa3e0f02bba5712bff456af944de2999487fda00572103ac/odoo_addon_spreadsheet_dashboard_oca-16.0.1.1.0.8-py3-none-any.whl
+[2024-05-30 08:14:14] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/1a/e1/82b9832ae3d442b7846426a4d4fe0a476e4a333937a88edebcde63a705ab/bees-challenge-0.6.0.tar.gz
+[2024-05-30 08:14:14] INFO root fetch - processPackages [odoo-addon-spreadsheet-dashboard-oca]: Downloading https://files.pythonhosted.org/packages/d0/8d/e8d98ebaed797c48555f57dd3bca34acd69af00d20ca39007113ba392e82/odoo_addon_spreadsheet_dashboard_oca-16.0.1.1.1-py3-none-any.whl
+[2024-05-30 08:14:14] INFO root fetch - processPackages [tabswitcher]: Downloading https://files.pythonhosted.org/packages/d7/7f/1d040d2526485cc338700cce1478b5fc086dd9827c3bffda6ef083c40f1f/tabswitcher-0.1.8.tar.gz
+[2024-05-30 08:14:14] INFO root fetch - processPackages [bees-challenge]: executing diffoscope
+[2024-05-30 08:14:14] INFO root fetch - processPackages [bees-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bees-challenge-0.5.0.tar.gz tmp/bees-challenge-0.6.0.tar.gz --markdown 20240530/b/bees-challenge/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-30 08:14:14] INFO root fetch - processPackages [odoo-addon-spreadsheet-dashboard-oca]: executing diffoscope
+[2024-05-30 08:14:14] INFO root fetch - processPackages [odoo-addon-spreadsheet-dashboard-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_spreadsheet_dashboard_oca-16.0.1.1.0.8-py3-none-any.whl.zip tmp/odoo_addon_spreadsheet_dashboard_oca-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-spreadsheet-dashboard-oca/16.0.1.1.0.8-16.0.1.1.1/README.md --exclude *.pyd
+[2024-05-30 08:14:14] INFO root fetch - processPackages [tabswitcher]: executing diffoscope
+[2024-05-30 08:14:14] INFO root fetch - processPackages [tabswitcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabswitcher-0.1.7.tar.gz tmp/tabswitcher-0.1.8.tar.gz --markdown 20240530/t/tabswitcher/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-30 08:14:15] INFO root fetch - processPackages [odoo-addon-spreadsheet-dashboard-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_dashboard_oca-16.0.1.1.0.8-py3-none-any.whl.zip]
+[2024-05-30 08:14:15] INFO root fetch - processPackages [odoo-addon-spreadsheet-dashboard-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_dashboard_oca-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-30 08:14:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-spreadsheet-dashboard-oca]: success
+[2024-05-30 08:14:15] INFO root fetch - processPackages [tabswitcher]: Remove: archive file [/home/abi/fetcher/tmp/tabswitcher-0.1.7.tar.gz]
+[2024-05-30 08:14:15] INFO root fetch - processPackages [tabswitcher]: Remove: archive file [/home/abi/fetcher/tmp/tabswitcher-0.1.8.tar.gz]
+[2024-05-30 08:14:15] INFO root fetch - main [MainThread]: End processing [tabswitcher]: success
+[2024-05-30 08:14:15] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.5.0.tar.gz]
+[2024-05-30 08:14:15] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.6.0.tar.gz]
+[2024-05-30 08:14:15] INFO root fetch - main [MainThread]: End processing [bees-challenge]: success
+[2024-05-30 08:14:15] INFO root fetch - main [MainThread]: Store serial: [23443185]
