@@ -12140,3 +12140,33 @@ EOFError: EOF read where object expected
 [2024-05-30 07:05:29] INFO root fetch - processPackages [pycodata]: Remove: archive file [/home/abi/fetcher/tmp/pycodata-1.1.1.tar.gz]
 [2024-05-30 07:05:29] INFO root fetch - main [MainThread]: End processing [pycodata]: success
 [2024-05-30 07:05:29] INFO root fetch - main [MainThread]: Store serial: [23442501]
+[2024-05-30 07:07:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442501]
+[2024-05-30 07:07:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 07:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-pe
+[2024-05-30 07:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-homeassistant-custom-component
+[2024-05-30 07:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Akatosh
+[2024-05-30 07:07:38] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240530] Old Version: [0.1.2.dev20240529]
+[2024-05-30 07:07:39] INFO root fetch - processPackages [Akatosh]: New version: [3.0.8] Old Version: [3.0.7]
+[2024-05-30 07:07:39] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/da/5e/75f829cf083f1a65cbf899700989304bf1c0362d26aa0132ec18e72d607f/rapid_pe-0.1.2.dev20240529.tar.gz
+[2024-05-30 07:07:39] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-30 07:07:39] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/1a/a9/f40a94480a3585fc948d8b09773622c4ddaac087e69ee17e90efb61652e5/akatosh-3.0.7.tar.gz
+[2024-05-30 07:07:39] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2024-05-30 07:07:39] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/9a/36/a334d4eaf914ee0135014031bc8cffce5a611690ced0b73489f9a5e58412/rapid_pe-0.1.2.dev20240530.tar.gz
+[2024-05-30 07:07:39] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-30 07:07:39] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240529.tar.gz tmp/rapid_pe-0.1.2.dev20240530.tar.gz --markdown 20240530/r/rapid-pe/0.1.2.dev20240529-0.1.2.dev20240530/README.md --exclude *.pyd
+[2024-05-30 07:07:39] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2024-05-30 07:07:39] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/df/5d/72698a60e097bc2112f955e58f27d369b6ed9ab7a3d212c2e6f8671dbdec/akatosh-3.0.8.tar.gz
+[2024-05-30 07:07:39] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2024-05-30 07:07:39] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akatosh-3.0.7.tar.gz tmp/akatosh-3.0.8.tar.gz --markdown 20240530/A/Akatosh/3.0.7-3.0.8/README.md --exclude *.pyd
+[2024-05-30 07:07:39] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2024-05-30 07:07:39] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20240530/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-30 07:07:40] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240529.tar.gz]
+[2024-05-30 07:07:40] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240530.tar.gz]
+[2024-05-30 07:07:40] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-30 07:07:40] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2024-05-30 07:07:40] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2024-05-30 07:07:40] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2024-05-30 07:07:40] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/akatosh-3.0.7.tar.gz]
+[2024-05-30 07:07:40] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/akatosh-3.0.8.tar.gz]
+[2024-05-30 07:07:40] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2024-05-30 07:07:40] INFO root fetch - main [MainThread]: Store serial: [23442514]
