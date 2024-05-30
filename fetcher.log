@@ -16290,3 +16290,71 @@ EOFError: EOF read where object expected
 [2024-05-30 09:36:31] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.9.0.tar.gz]
 [2024-05-30 09:36:31] INFO root fetch - main [MainThread]: End processing [recce]: success
 [2024-05-30 09:36:31] INFO root fetch - main [MainThread]: Store serial: [23444226]
+[2024-05-30 09:38:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444226]
+[2024-05-30 09:38:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-30 09:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygcap
+[2024-05-30 09:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioasterisk
+[2024-05-30 09:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dj-whisperer
+[2024-05-30 09:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-coder
+[2024-05-30 09:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-hr-expense-pay-to-vendor
+[2024-05-30 09:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: transstellar
+[2024-05-30 09:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lalsuite
+[2024-05-30 09:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CI-CloudConnector
+[2024-05-30 09:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyDolarVenezuela
+[2024-05-30 09:38:40] INFO root fetch - processPackages [CI-CloudConnector]: New version: [1.0] Old Version: [0.99]
+[2024-05-30 09:38:40] INFO root fetch - processPackages [odoo-addon-hr-expense-pay-to-vendor]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.5]
+[2024-05-30 09:38:40] INFO root fetch - processPackages [pyDolarVenezuela]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-30 09:38:40] WARNING root fetch - processPackages [aioasterisk]: Skipping, unable to determine old version
+[2024-05-30 09:38:40] INFO root fetch - main [MainThread]: End processing [aioasterisk] error
+[2024-05-30 09:38:40] INFO root fetch - processPackages [transstellar]: New version: [2.5.0] Old Version: [2.4.3]
+[2024-05-30 09:38:40] WARNING root fetch - processPackages [pygcap]: Skipping, unable to determine old version
+[2024-05-30 09:38:40] INFO root fetch - main [MainThread]: End processing [pygcap] error
+[2024-05-30 09:38:40] INFO root fetch - processPackages [dj-whisperer]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-30 09:38:40] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 09:38:40] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/d2/ac/ea9f613f9450712003a1eb4225d18c593891c8955814656d2b19f41856dc/ci_cloudconnector-0.99.tar.gz
+[2024-05-30 09:38:40] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/f0/04/d0fce85c1f612899930b42f9d3dc3007b0b40c4478ce2b3ca39f0909b868/pydolarvenezuela-1.5.8.tar.gz
+[2024-05-30 09:38:41] INFO root fetch - processPackages [odoo-addon-hr-expense-pay-to-vendor]: Downloading https://files.pythonhosted.org/packages/93/7c/91cb802248a403de07030ec287e08ea3e2a40339be1e0de7a8f3ae1c39d9/odoo_addon_hr_expense_pay_to_vendor-15.0.1.0.0.5-py3-none-any.whl
+[2024-05-30 09:38:41] INFO root fetch - processPackages [dj-whisperer]: Downloading https://files.pythonhosted.org/packages/9e/e5/5a84e2747c9f30511f39a8268e561f60c8bf6cb894264f15ff15237c7a62/dj-whisperer-0.3.3.tar.gz
+[2024-05-30 09:38:41] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/a3/7d/7d78c847f19c750800fa1ca03fb1bf72072914a3706dfe43f7bfa7e58cf9/transstellar-2.4.3.tar.gz
+[2024-05-30 09:38:41] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/fa/69/ac4cb4d649debb631d342850e0d90cf8e4b0f9f7ad5833bf422d22cdfae9/pydolarvenezuela-1.5.9.tar.gz
+[2024-05-30 09:38:41] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-05-30 09:38:41] INFO root fetch - processPackages [pyDolarVenezuela]: executing diffoscope
+[2024-05-30 09:38:41] INFO root fetch - processPackages [pyDolarVenezuela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydolarvenezuela-1.5.8.tar.gz tmp/pydolarvenezuela-1.5.9.tar.gz --markdown 20240530/p/pyDolarVenezuela/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-30 09:38:41] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/93/aa/28eabe4593c4bc4d7892c7a53a6cae7559b04364737dc2aa8cf729b700a7/ci_cloudconnector-1.0.tar.gz
+[2024-05-30 09:38:41] INFO root fetch - processPackages [odoo-addon-hr-expense-pay-to-vendor]: Downloading https://files.pythonhosted.org/packages/e5/b3/c7331fe93545b94e9c7808ec76f63cb7b40ffc8c17dc270b8fa079da1df4/odoo_addon_hr_expense_pay_to_vendor-15.0.1.0.1-py3-none-any.whl
+[2024-05-30 09:38:41] INFO root fetch - processPackages [dj-whisperer]: Downloading https://files.pythonhosted.org/packages/5e/89/48ca5632c415dc429eb4bc4a89a12aa2bcec67fbdfaac390dc2fe893f8de/dj-whisperer-0.3.4.tar.gz
+[2024-05-30 09:38:41] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-30 09:38:41] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-0.99.tar.gz tmp/ci_cloudconnector-1.0.tar.gz --markdown 20240530/C/CI-CloudConnector/0.99-1.0/README.md --exclude *.pyd
+[2024-05-30 09:38:41] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-05-30 09:38:41] INFO root fetch - processPackages [odoo-addon-hr-expense-pay-to-vendor]: executing diffoscope
+[2024-05-30 09:38:41] INFO root fetch - processPackages [odoo-addon-hr-expense-pay-to-vendor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_expense_pay_to_vendor-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_hr_expense_pay_to_vendor-15.0.1.0.1-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-hr-expense-pay-to-vendor/15.0.1.0.0.5-15.0.1.0.1/README.md --exclude *.pyd
+[2024-05-30 09:38:41] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/7c/ef/11c124d8825f85731257f950940b364d85e645d3a97a37a5d2a3d556b9aa/transstellar-2.5.0.tar.gz
+[2024-05-30 09:38:41] INFO root fetch - processPackages [dj-whisperer]: executing diffoscope
+[2024-05-30 09:38:41] INFO root fetch - processPackages [dj-whisperer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-whisperer-0.3.3.tar.gz tmp/dj-whisperer-0.3.4.tar.gz --markdown 20240530/d/dj-whisperer/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-30 09:38:41] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-05-30 09:38:41] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240530/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 09:38:41] INFO root fetch - processPackages [transstellar]: executing diffoscope
+[2024-05-30 09:38:41] INFO root fetch - processPackages [transstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar-2.4.3.tar.gz tmp/transstellar-2.5.0.tar.gz --markdown 20240530/t/transstellar/2.4.3-2.5.0/README.md --exclude *.pyd
+[2024-05-30 09:38:41] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-30 09:38:42] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 09:38:42] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-30 09:38:42] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-30 09:38:42] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.5.8.tar.gz]
+[2024-05-30 09:38:42] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.5.9.tar.gz]
+[2024-05-30 09:38:42] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
+[2024-05-30 09:38:42] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.99.tar.gz]
+[2024-05-30 09:38:42] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.0.tar.gz]
+[2024-05-30 09:38:42] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-30 09:38:42] INFO root fetch - processPackages [odoo-addon-hr-expense-pay-to-vendor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_expense_pay_to_vendor-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-30 09:38:42] INFO root fetch - processPackages [odoo-addon-hr-expense-pay-to-vendor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_expense_pay_to_vendor-15.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-30 09:38:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-expense-pay-to-vendor]: success
+[2024-05-30 09:38:42] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-05-30 09:38:42] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-05-30 09:38:42] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-05-30 09:38:42] INFO root fetch - processPackages [dj-whisperer]: Remove: archive file [/home/abi/fetcher/tmp/dj-whisperer-0.3.3.tar.gz]
+[2024-05-30 09:38:42] INFO root fetch - processPackages [dj-whisperer]: Remove: archive file [/home/abi/fetcher/tmp/dj-whisperer-0.3.4.tar.gz]
+[2024-05-30 09:38:42] INFO root fetch - main [MainThread]: End processing [dj-whisperer]: success
+[2024-05-30 09:38:42] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.4.3.tar.gz]
+[2024-05-30 09:38:42] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.5.0.tar.gz]
+[2024-05-30 09:38:42] INFO root fetch - main [MainThread]: End processing [transstellar]: success
+[2024-05-30 09:38:42] INFO root fetch - main [MainThread]: Store serial: [23444268]
