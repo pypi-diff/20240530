@@ -14958,3 +14958,18 @@ EOFError: EOF read where object expected
 [2024-05-30 08:36:49] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.99.tar.gz]
 [2024-05-30 08:36:49] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-05-30 08:36:49] INFO root fetch - main [MainThread]: Store serial: [23443626]
+[2024-05-30 08:38:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443626]
+[2024-05-30 08:38:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 08:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: expmiband2
+[2024-05-30 08:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vessel-manoeuvring-models
+[2024-05-30 08:38:59] WARNING root fetch - processPackages [expmiband2]: Skipping, unable to determine old version
+[2024-05-30 08:38:59] INFO root fetch - main [MainThread]: End processing [expmiband2] error
+[2024-05-30 08:38:59] INFO root fetch - processPackages [vessel-manoeuvring-models]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-30 08:39:00] INFO root fetch - processPackages [vessel-manoeuvring-models]: Downloading https://files.pythonhosted.org/packages/40/53/26209c613b22f898c4787bddc4e0860cb6eacd806ee56f973eea82a49592/vessel_manoeuvring_models-0.0.6.tar.gz
+[2024-05-30 08:39:01] INFO root fetch - processPackages [vessel-manoeuvring-models]: Downloading https://files.pythonhosted.org/packages/d3/46/7fe6577f05f70227a93b4f45123cc0bc2070b5710b76d06dd07a25298dcb/vessel_manoeuvring_models-0.0.7.tar.gz
+[2024-05-30 08:39:02] INFO root fetch - processPackages [vessel-manoeuvring-models]: executing diffoscope
+[2024-05-30 08:39:02] INFO root fetch - processPackages [vessel-manoeuvring-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessel_manoeuvring_models-0.0.6.tar.gz tmp/vessel_manoeuvring_models-0.0.7.tar.gz --markdown 20240530/v/vessel-manoeuvring-models/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-30 08:39:03] INFO root fetch - processPackages [vessel-manoeuvring-models]: Remove: archive file [/home/abi/fetcher/tmp/vessel_manoeuvring_models-0.0.6.tar.gz]
+[2024-05-30 08:39:03] INFO root fetch - processPackages [vessel-manoeuvring-models]: Remove: archive file [/home/abi/fetcher/tmp/vessel_manoeuvring_models-0.0.7.tar.gz]
+[2024-05-30 08:39:03] INFO root fetch - main [MainThread]: End processing [vessel-manoeuvring-models]: success
+[2024-05-30 08:39:03] INFO root fetch - main [MainThread]: Store serial: [23443645]
