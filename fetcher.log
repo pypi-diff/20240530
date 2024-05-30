@@ -11824,3 +11824,24 @@ EOFError: EOF read where object expected
 [2024-05-30 06:47:59] INFO root fetch - processPackages [indexify]: Remove: archive file [/home/abi/fetcher/tmp/indexify-0.0.9.tar.gz]
 [2024-05-30 06:47:59] INFO root fetch - main [MainThread]: End processing [indexify]: success
 [2024-05-30 06:47:59] INFO root fetch - main [MainThread]: Store serial: [23442335]
+[2024-05-30 06:50:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442335]
+[2024-05-30 06:50:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 06:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kinliuren
+[2024-05-30 06:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: molecular-interaction-rules
+[2024-05-30 06:50:09] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.6.1] Old Version: [0.6]
+[2024-05-30 06:50:09] INFO root fetch - processPackages [kinliuren]: New version: [0.1.2.7] Old Version: [0.1.2.6]
+[2024-05-30 06:50:09] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/d0/90/bd648077b34a89c6d23238a8ba161e87fcb26db17c8727a765c3433e2fb0/molecular_interaction_rules-0.6.tar.gz
+[2024-05-30 06:50:09] INFO root fetch - processPackages [kinliuren]: Downloading https://files.pythonhosted.org/packages/08/b5/d2232af0f7c3552ccd49a0ed70fd823e4962e2158890601e96ee9cf29e51/kinliuren-0.1.2.6.tar.gz
+[2024-05-30 06:50:09] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/c9/ed/13156f011d21e5e41bfdbb389669cf5f87ca7d607c1a80699340032ea03d/molecular_interaction_rules-0.6.1.tar.gz
+[2024-05-30 06:50:10] INFO root fetch - processPackages [kinliuren]: Downloading https://files.pythonhosted.org/packages/63/df/67b23acfe7f32145dca8c89f8a5685cc8ee436bafc14c04b6ee9a45be806/kinliuren-0.1.2.7.tar.gz
+[2024-05-30 06:50:10] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 06:50:10] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.6.tar.gz tmp/molecular_interaction_rules-0.6.1.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.6-0.6.1/README.md --exclude *.pyd
+[2024-05-30 06:50:10] INFO root fetch - processPackages [kinliuren]: executing diffoscope
+[2024-05-30 06:50:10] INFO root fetch - processPackages [kinliuren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kinliuren-0.1.2.6.tar.gz tmp/kinliuren-0.1.2.7.tar.gz --markdown 20240530/k/kinliuren/0.1.2.6-0.1.2.7/README.md --exclude *.pyd
+[2024-05-30 06:50:10] INFO root fetch - processPackages [kinliuren]: Remove: archive file [/home/abi/fetcher/tmp/kinliuren-0.1.2.6.tar.gz]
+[2024-05-30 06:50:10] INFO root fetch - processPackages [kinliuren]: Remove: archive file [/home/abi/fetcher/tmp/kinliuren-0.1.2.7.tar.gz]
+[2024-05-30 06:50:10] INFO root fetch - main [MainThread]: End processing [kinliuren]: success
+[2024-05-30 06:50:10] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.6.tar.gz]
+[2024-05-30 06:50:10] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.6.1.tar.gz]
+[2024-05-30 06:50:10] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 06:50:10] INFO root fetch - main [MainThread]: Store serial: [23442340]
