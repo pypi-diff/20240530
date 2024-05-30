@@ -2307,3 +2307,54 @@ EOFError: EOF read where object expected
 [2024-05-30 02:17:28] INFO root fetch - processPackages [piccolo]: Remove: archive file [/home/abi/fetcher/tmp/piccolo-1.6.0.tar.gz]
 [2024-05-30 02:17:28] INFO root fetch - main [MainThread]: End processing [piccolo]: success
 [2024-05-30 02:17:28] INFO root fetch - main [MainThread]: Store serial: [23438790]
+[2024-05-30 02:19:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438790]
+[2024-05-30 02:19:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 02:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-30 02:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-gitlab-runner
+[2024-05-30 02:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wildfire-structlog
+[2024-05-30 02:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.appsync-utils
+[2024-05-30 02:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-budibase
+[2024-05-30 02:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: athina
+[2024-05-30 02:19:38] INFO root fetch - processPackages [athina]: New version: [1.4.0] Old Version: [1.3.3]
+[2024-05-30 02:19:38] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-30 02:19:38] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-30 02:19:38] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-30 02:19:38] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-30 02:19:38] WARNING root fetch - processPackages [wildfire-structlog]: Skipping, unable to determine old version
+[2024-05-30 02:19:38] INFO root fetch - main [MainThread]: End processing [wildfire-structlog] error
+[2024-05-30 02:19:38] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/36/cf/30d6ef56d38825022225c7ae0d35d5cd046b94a2ffa282090fd8a3a86c95/athina-1.3.3.tar.gz
+[2024-05-30 02:19:38] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-05-30 02:19:38] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-30 02:19:38] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-30 02:19:39] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-05-30 02:19:39] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/f7/78/8417f1140ae564c19f67d61e13013b0006700ed39d31d8bab7a50e32c775/athina-1.4.0.tar.gz
+[2024-05-30 02:19:39] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-30 02:19:39] INFO root fetch - processPackages [athina]: executing diffoscope
+[2024-05-30 02:19:39] INFO root fetch - processPackages [athina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athina-1.3.3.tar.gz tmp/athina-1.4.0.tar.gz --markdown 20240530/a/athina/1.3.3-1.4.0/README.md --exclude *.pyd
+[2024-05-30 02:19:39] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-05-30 02:19:39] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-30 02:19:39] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240530/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-30 02:19:39] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-30 02:19:39] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-05-30 02:19:39] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-05-30 02:19:39] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240530/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-30 02:19:39] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-30 02:19:39] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240530/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-30 02:19:39] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-05-30 02:19:39] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240530/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-30 02:19:40] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-30 02:19:40] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-30 02:19:40] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-30 02:19:40] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-05-30 02:19:40] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-05-30 02:19:40] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-05-30 02:19:40] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-30 02:19:40] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-30 02:19:40] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-30 02:19:40] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.3.3.tar.gz]
+[2024-05-30 02:19:40] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.4.0.tar.gz]
+[2024-05-30 02:19:40] INFO root fetch - main [MainThread]: End processing [athina]: success
+[2024-05-30 02:19:40] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-05-30 02:19:40] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-05-30 02:19:40] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-05-30 02:19:40] INFO root fetch - main [MainThread]: Store serial: [23438834]
