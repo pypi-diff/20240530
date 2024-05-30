@@ -11358,3 +11358,36 @@ EOFError: EOF read where object expected
 [2024-05-30 06:21:34] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.cli-lib-alpha-2.99.1a0.tar.gz]
 [2024-05-30 06:21:34] INFO root fetch - main [MainThread]: End processing [aws-cdk.cli-lib-alpha]: success
 [2024-05-30 06:21:34] INFO root fetch - main [MainThread]: Store serial: [23442191]
+[2024-05-30 06:23:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442191]
+[2024-05-30 06:23:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 06:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iac-init
+[2024-05-30 06:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-cnae
+[2024-05-30 06:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beets
+[2024-05-30 06:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: contourplots
+[2024-05-30 06:23:43] WARNING root fetch - processPackages [odoo-addon-l10n-es-cnae]: Skipping, unable to determine old version
+[2024-05-30 06:23:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-cnae] error
+[2024-05-30 06:23:43] INFO root fetch - processPackages [iac-init]: New version: [0.8.8] Old Version: [0.8.7]
+[2024-05-30 06:23:43] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/3b/9b/9e9028f5010d5b1faccb22b78207ba557f74beb6163db32f315475e7d139/iac_init-0.8.7.tar.gz
+[2024-05-30 06:23:43] INFO root fetch - processPackages [contourplots]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-30 06:23:43] INFO root fetch - processPackages [beets]: New version: [2.0.0] Old Version: [1.6.1]
+[2024-05-30 06:23:43] INFO root fetch - processPackages [beets]: Downloading https://files.pythonhosted.org/packages/8e/29/8903e4a2269b360d0104b4551151eece9560875dc6d2945a3dcdd537dc53/beets-1.6.1.tar.gz
+[2024-05-30 06:23:43] INFO root fetch - processPackages [contourplots]: Downloading https://files.pythonhosted.org/packages/f0/0d/2f824f7c449573850e8a2ce8fce2da880bb1a20a79d7834a1e63a160f626/contourplots-0.3.0.tar.gz
+[2024-05-30 06:23:44] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/ec/94/ee43ad5ded58e916ba7eb8eb8166851f9906e1a080b8ceaf68c7534425f2/iac_init-0.8.8.tar.gz
+[2024-05-30 06:23:44] INFO root fetch - processPackages [contourplots]: Downloading https://files.pythonhosted.org/packages/aa/ef/2982b087e9b0b3767662eaf02f5126d6e0646320ec0a8858eca5850c27c1/contourplots-0.3.1.tar.gz
+[2024-05-30 06:23:44] INFO root fetch - processPackages [beets]: Downloading https://files.pythonhosted.org/packages/8f/7d/a6e7fc23af347ce939a1dbca465dc29c6ff91e11b31da0fbae54455d158c/beets-2.0.0.tar.gz
+[2024-05-30 06:23:44] INFO root fetch - processPackages [contourplots]: executing diffoscope
+[2024-05-30 06:23:44] INFO root fetch - processPackages [contourplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contourplots-0.3.0.tar.gz tmp/contourplots-0.3.1.tar.gz --markdown 20240530/c/contourplots/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-30 06:23:44] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-30 06:23:44] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.8.7.tar.gz tmp/iac_init-0.8.8.tar.gz --markdown 20240530/i/iac-init/0.8.7-0.8.8/README.md --exclude *.pyd
+[2024-05-30 06:23:44] INFO root fetch - processPackages [beets]: executing diffoscope
+[2024-05-30 06:23:44] INFO root fetch - processPackages [beets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beets-1.6.1.tar.gz tmp/beets-2.0.0.tar.gz --markdown 20240530/b/beets/1.6.1-2.0.0/README.md --exclude *.pyd
+[2024-05-30 06:23:44] INFO root fetch - processPackages [contourplots]: Remove: archive file [/home/abi/fetcher/tmp/contourplots-0.3.0.tar.gz]
+[2024-05-30 06:23:44] INFO root fetch - processPackages [contourplots]: Remove: archive file [/home/abi/fetcher/tmp/contourplots-0.3.1.tar.gz]
+[2024-05-30 06:23:44] INFO root fetch - main [MainThread]: End processing [contourplots]: success
+[2024-05-30 06:23:46] INFO root fetch - processPackages [beets]: Remove: archive file [/home/abi/fetcher/tmp/beets-1.6.1.tar.gz]
+[2024-05-30 06:23:46] INFO root fetch - processPackages [beets]: Remove: archive file [/home/abi/fetcher/tmp/beets-2.0.0.tar.gz]
+[2024-05-30 06:23:46] INFO root fetch - main [MainThread]: End processing [beets]: success
+[2024-05-30 06:23:54] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.8.7.tar.gz]
+[2024-05-30 06:23:54] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.8.8.tar.gz]
+[2024-05-30 06:23:54] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-30 06:23:54] INFO root fetch - main [MainThread]: Store serial: [23442222]
