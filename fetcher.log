@@ -12945,3 +12945,60 @@ EOFError: EOF read where object expected
 [2024-05-30 07:45:45] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-1.5.7.tar.gz]
 [2024-05-30 07:45:45] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
 [2024-05-30 07:45:45] INFO root fetch - main [MainThread]: Store serial: [23442892]
+[2024-05-30 07:47:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442892]
+[2024-05-30 07:47:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 07:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tesla-fleet-api
+[2024-05-30 07:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: octoflow
+[2024-05-30 07:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Multiclass-interface
+[2024-05-30 07:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decentriq-dcr-compiler
+[2024-05-30 07:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-coder
+[2024-05-30 07:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-timeseries
+[2024-05-30 07:47:53] INFO root fetch - processPackages [torch-timeseries]: New version: [0.0.3b1] Old Version: [0.0.3a3]
+[2024-05-30 07:47:53] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 07:47:53] INFO root fetch - processPackages [octoflow]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-30 07:47:53] INFO root fetch - processPackages [torch-timeseries]: Downloading https://files.pythonhosted.org/packages/34/33/3e06148cd99e50fd316221b28b75f8db9808ec64073a36766fca0e616878/torch_timeseries-0.0.3a3.tar.gz
+[2024-05-30 07:47:53] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-05-30 07:47:53] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/66/e1/afd30c22af1562a0c5c92be6b3eb966ee3e0de7ab68fafa395590d216db8/octoflow-0.1.2.tar.gz
+[2024-05-30 07:47:53] INFO root fetch - processPackages [Multiclass-interface]: New version: [1.4] Old Version: [1.3]
+[2024-05-30 07:47:53] INFO root fetch - processPackages [tesla-fleet-api]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-30 07:47:53] INFO root fetch - processPackages [decentriq-dcr-compiler]: New version: [0.8.0rc1] Old Version: [0.8.0rc0]
+[2024-05-30 07:47:53] INFO root fetch - processPackages [Multiclass-interface]: Downloading https://files.pythonhosted.org/packages/88/07/240090ffa3fc08bf0dd7c21215ed4ddedf98a8df60700cd35d495aa7ea7c/multiclass_interface-1.3.tar.gz
+[2024-05-30 07:47:53] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-05-30 07:47:53] INFO root fetch - processPackages [tesla-fleet-api]: Downloading https://files.pythonhosted.org/packages/a8/43/22557f5eee1dcbb990fc879c88f0eabf17ee6ceed249b0680f354698798e/tesla_fleet_api-0.5.8.tar.gz
+[2024-05-30 07:47:53] INFO root fetch - processPackages [octoflow]: Downloading https://files.pythonhosted.org/packages/99/88/776827a88afba773dd6e17bdd51e125f8f4e93454d200185b465b8b06d5b/octoflow-0.1.3.tar.gz
+[2024-05-30 07:47:54] INFO root fetch - processPackages [decentriq-dcr-compiler]: Downloading https://files.pythonhosted.org/packages/22/85/fb5a1acb08659d64bbf1bdda76c14a36622ff5facc68a965072ccfbf775d/decentriq_dcr_compiler-0.8.0rc0-cp39-none-win_amd64.whl
+[2024-05-30 07:47:54] INFO root fetch - processPackages [torch-timeseries]: Downloading https://files.pythonhosted.org/packages/8a/a7/ee1ee657955609bd1416839970a9de472636ec4947bddf7f15acd9d8fac2/torch_timeseries-0.0.3b1.tar.gz
+[2024-05-30 07:47:54] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-05-30 07:47:54] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240530/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 07:47:54] INFO root fetch - processPackages [octoflow]: executing diffoscope
+[2024-05-30 07:47:54] INFO root fetch - processPackages [octoflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octoflow-0.1.2.tar.gz tmp/octoflow-0.1.3.tar.gz --markdown 20240530/o/octoflow/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-30 07:47:54] INFO root fetch - processPackages [torch-timeseries]: executing diffoscope
+[2024-05-30 07:47:54] INFO root fetch - processPackages [torch-timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_timeseries-0.0.3a3.tar.gz tmp/torch_timeseries-0.0.3b1.tar.gz --markdown 20240530/t/torch-timeseries/0.0.3a3-0.0.3b1/README.md --exclude *.pyd
+[2024-05-30 07:47:54] INFO root fetch - processPackages [Multiclass-interface]: Downloading https://files.pythonhosted.org/packages/97/69/2f100b7bfa8fdbe680d2ce6e05c9929e012b8d9d095dfc8a3912d9c92257/multiclass_interface-1.4.tar.gz
+[2024-05-30 07:47:54] INFO root fetch - processPackages [tesla-fleet-api]: Downloading https://files.pythonhosted.org/packages/05/b5/2095dab08ad055d1a9d7d6fb069e7e1febca6ec8343a72456b3ff6cce41e/tesla_fleet_api-0.5.9.tar.gz
+[2024-05-30 07:47:54] INFO root fetch - processPackages [Multiclass-interface]: executing diffoscope
+[2024-05-30 07:47:54] INFO root fetch - processPackages [Multiclass-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiclass_interface-1.3.tar.gz tmp/multiclass_interface-1.4.tar.gz --markdown 20240530/M/Multiclass-interface/1.3-1.4/README.md --exclude *.pyd
+[2024-05-30 07:47:54] INFO root fetch - processPackages [tesla-fleet-api]: executing diffoscope
+[2024-05-30 07:47:54] INFO root fetch - processPackages [tesla-fleet-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tesla_fleet_api-0.5.8.tar.gz tmp/tesla_fleet_api-0.5.9.tar.gz --markdown 20240530/t/tesla-fleet-api/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-30 07:47:54] INFO root fetch - processPackages [decentriq-dcr-compiler]: Downloading https://files.pythonhosted.org/packages/c2/e3/518fa3d3fe05ac14ff5dbc529949f5d66e75e8850aae242f871fe668cd2b/decentriq_dcr_compiler-0.8.0rc1-cp39-none-win_amd64.whl
+[2024-05-30 07:47:54] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-05-30 07:47:54] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-05-30 07:47:54] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-05-30 07:47:54] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.1.2.tar.gz]
+[2024-05-30 07:47:54] INFO root fetch - processPackages [octoflow]: Remove: archive file [/home/abi/fetcher/tmp/octoflow-0.1.3.tar.gz]
+[2024-05-30 07:47:54] INFO root fetch - main [MainThread]: End processing [octoflow]: success
+[2024-05-30 07:47:54] INFO root fetch - processPackages [decentriq-dcr-compiler]: executing diffoscope
+[2024-05-30 07:47:54] INFO root fetch - processPackages [decentriq-dcr-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq_dcr_compiler-0.8.0rc0-cp39-none-win_amd64.whl.zip tmp/decentriq_dcr_compiler-0.8.0rc1-cp39-none-win_amd64.whl.zip --markdown 20240530/d/decentriq-dcr-compiler/0.8.0rc0-0.8.0rc1/README.md --exclude *.pyd
+[2024-05-30 07:47:54] INFO root fetch - processPackages [torch-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/torch_timeseries-0.0.3a3.tar.gz]
+[2024-05-30 07:47:54] INFO root fetch - processPackages [torch-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/torch_timeseries-0.0.3b1.tar.gz]
+[2024-05-30 07:47:54] INFO root fetch - main [MainThread]: End processing [torch-timeseries]: success
+[2024-05-30 07:47:55] INFO root fetch - processPackages [Multiclass-interface]: Remove: archive file [/home/abi/fetcher/tmp/multiclass_interface-1.3.tar.gz]
+[2024-05-30 07:47:55] INFO root fetch - processPackages [Multiclass-interface]: Remove: archive file [/home/abi/fetcher/tmp/multiclass_interface-1.4.tar.gz]
+[2024-05-30 07:47:55] INFO root fetch - main [MainThread]: End processing [Multiclass-interface]: success
+[2024-05-30 07:47:55] INFO root fetch - processPackages [tesla-fleet-api]: Remove: archive file [/home/abi/fetcher/tmp/tesla_fleet_api-0.5.8.tar.gz]
+[2024-05-30 07:47:55] INFO root fetch - processPackages [tesla-fleet-api]: Remove: archive file [/home/abi/fetcher/tmp/tesla_fleet_api-0.5.9.tar.gz]
+[2024-05-30 07:47:55] INFO root fetch - main [MainThread]: End processing [tesla-fleet-api]: success
+[2024-05-30 07:47:55] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.8.0rc0-cp39-none-win_amd64.whl.zip]
+[2024-05-30 07:47:55] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.8.0rc1-cp39-none-win_amd64.whl.zip]
+[2024-05-30 07:47:55] INFO root fetch - main [MainThread]: End processing [decentriq-dcr-compiler]: success
+[2024-05-30 07:47:55] INFO root fetch - main [MainThread]: Store serial: [23442946]
