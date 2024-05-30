@@ -2764,3 +2764,24 @@ EOFError: EOF read where object expected
 [2024-05-30 02:39:23] INFO root fetch - processPackages [xconf]: Remove: archive file [/home/abi/fetcher/tmp/xconf-0.0.2.tar.gz]
 [2024-05-30 02:39:23] INFO root fetch - main [MainThread]: End processing [xconf]: success
 [2024-05-30 02:39:23] INFO root fetch - main [MainThread]: Store serial: [23439031]
+[2024-05-30 02:41:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439031]
+[2024-05-30 02:41:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 02:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metasequoia-sql
+[2024-05-30 02:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nrtk
+[2024-05-30 02:41:31] INFO root fetch - processPackages [metasequoia-sql]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-30 02:41:32] INFO root fetch - processPackages [nrtk]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-05-30 02:41:32] INFO root fetch - processPackages [metasequoia-sql]: Downloading https://files.pythonhosted.org/packages/4b/23/f3ee822f20dd0d55bbd79deeb5de638e2f37b6f8c3459fcde9b3bcbc3c87/metasequoia-sql-0.5.0.tar.gz
+[2024-05-30 02:41:32] INFO root fetch - processPackages [nrtk]: Downloading https://files.pythonhosted.org/packages/d8/16/92a75b48c2ba8b4797eef621b058149dbfd539762e0f632f1acba5f8b68d/nrtk-0.4.2.tar.gz
+[2024-05-30 02:41:32] INFO root fetch - processPackages [metasequoia-sql]: Downloading https://files.pythonhosted.org/packages/bf/1c/1281413ebc49cac7b896f0720077f2e3ab01b7b8444f492bf3f16bd9c2bd/metasequoia-sql-0.6.0.tar.gz
+[2024-05-30 02:41:32] INFO root fetch - processPackages [nrtk]: Downloading https://files.pythonhosted.org/packages/22/b5/75118c26e7b96708e01d3cdcbd4a61876645c1272f0abfd9ab528438a57e/nrtk-0.5.0.tar.gz
+[2024-05-30 02:41:32] INFO root fetch - processPackages [metasequoia-sql]: executing diffoscope
+[2024-05-30 02:41:32] INFO root fetch - processPackages [metasequoia-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metasequoia-sql-0.5.0.tar.gz tmp/metasequoia-sql-0.6.0.tar.gz --markdown 20240530/m/metasequoia-sql/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-30 02:41:32] INFO root fetch - processPackages [nrtk]: executing diffoscope
+[2024-05-30 02:41:32] INFO root fetch - processPackages [nrtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrtk-0.4.2.tar.gz tmp/nrtk-0.5.0.tar.gz --markdown 20240530/n/nrtk/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-05-30 02:41:33] INFO root fetch - processPackages [metasequoia-sql]: Remove: archive file [/home/abi/fetcher/tmp/metasequoia-sql-0.5.0.tar.gz]
+[2024-05-30 02:41:33] INFO root fetch - processPackages [metasequoia-sql]: Remove: archive file [/home/abi/fetcher/tmp/metasequoia-sql-0.6.0.tar.gz]
+[2024-05-30 02:41:33] INFO root fetch - main [MainThread]: End processing [metasequoia-sql]: success
+[2024-05-30 02:41:33] INFO root fetch - processPackages [nrtk]: Remove: archive file [/home/abi/fetcher/tmp/nrtk-0.4.2.tar.gz]
+[2024-05-30 02:41:33] INFO root fetch - processPackages [nrtk]: Remove: archive file [/home/abi/fetcher/tmp/nrtk-0.5.0.tar.gz]
+[2024-05-30 02:41:33] INFO root fetch - main [MainThread]: End processing [nrtk]: success
+[2024-05-30 02:41:33] INFO root fetch - main [MainThread]: Store serial: [23439034]
