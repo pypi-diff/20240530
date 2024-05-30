@@ -7902,3 +7902,70 @@ EOFError: EOF read where object expected
 [2024-05-30 03:38:28] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-05-30 03:38:28] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-05-30 03:38:28] INFO root fetch - main [MainThread]: Store serial: [23440583]
+[2024-05-30 03:40:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23440583]
+[2024-05-30 03:40:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 03:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-05-30 03:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeassistant-stubs
+[2024-05-30 03:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: culminator
+[2024-05-30 03:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acryl-datahub-airflow-plugin
+[2024-05-30 03:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acryl-datahub
+[2024-05-30 03:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdab
+[2024-05-30 03:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kano-cv
+[2024-05-30 03:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: homeassistant-stubs
+[2024-05-30 03:40:37] WARNING root fetch - processPackages [sdab]: Skipping, unable to determine old version
+[2024-05-30 03:40:37] INFO root fetch - main [MainThread]: End processing [sdab] error
+[2024-05-30 03:40:37] INFO root fetch - processPackages [kano-cv]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-30 03:40:37] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-30 03:40:37] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-30 03:40:37] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-30 03:40:37] INFO root fetch - processPackages [kano-cv]: Downloading https://files.pythonhosted.org/packages/c0/65/6a2e07810ee93f8537d7656e017c6e73af55effc740406c7471bd7c0ef1c/kano-cv-1.9.1.tar.gz
+[2024-05-30 03:40:37] INFO root fetch - processPackages [culminator]: New version: [0.8] Old Version: [0.7]
+[2024-05-30 03:40:37] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-05-30 03:40:37] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-30 03:40:37] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-05-30 03:40:37] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.6.0b1] Old Version: [2024.6.0b0]
+[2024-05-30 03:40:37] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.6.0b1] Old Version: [2024.6.0b0]
+[2024-05-30 03:40:37] INFO root fetch - processPackages [kano-cv]: Downloading https://files.pythonhosted.org/packages/97/97/49939234a345d7336412bb2072f63149b16ee9336a2184688294a6eeb1ab/kano-cv-1.9.2.tar.gz
+[2024-05-30 03:40:37] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-05-30 03:40:38] INFO root fetch - processPackages [culminator]: Downloading https://files.pythonhosted.org/packages/37/f4/e7f7cf70bdf03d223056d4eec5f49513caccf2dd8b5fe43b6a6cd763b033/culminator-0.7.tar.gz
+[2024-05-30 03:40:38] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-05-30 03:40:38] INFO root fetch - processPackages [kano-cv]: executing diffoscope
+[2024-05-30 03:40:38] INFO root fetch - processPackages [kano-cv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kano-cv-1.9.1.tar.gz tmp/kano-cv-1.9.2.tar.gz --markdown 20240530/k/kano-cv/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-30 03:40:38] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/6b/7c/6e42a40c87abe068ffdb03aa418c7a04be65ad5a9087d348676799c9b348/homeassistant_stubs-2024.6.0b0.tar.gz
+[2024-05-30 03:40:38] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/6b/7c/6e42a40c87abe068ffdb03aa418c7a04be65ad5a9087d348676799c9b348/homeassistant_stubs-2024.6.0b0.tar.gz
+[2024-05-30 03:40:38] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-05-30 03:40:38] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240530/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-30 03:40:38] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-30 03:40:38] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-05-30 03:40:38] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240530/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-30 03:40:38] INFO root fetch - processPackages [culminator]: Downloading https://files.pythonhosted.org/packages/20/b0/fb5753400f141516ccceeb59be597de1af3bbe4fe788e8236f76dbb0ec40/culminator-0.8-py3-none-any.whl
+[2024-05-30 03:40:38] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-30 03:40:38] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240530/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-30 03:40:38] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/5b/30/b302820e8b67c4548d8f11016f594013ea1ede5c2d5443387bf57b92497f/homeassistant_stubs-2024.6.0b1.tar.gz
+[2024-05-30 03:40:38] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/5b/30/b302820e8b67c4548d8f11016f594013ea1ede5c2d5443387bf57b92497f/homeassistant_stubs-2024.6.0b1.tar.gz
+[2024-05-30 03:40:38] INFO root fetch - processPackages [culminator]: executing diffoscope
+[2024-05-30 03:40:38] INFO root fetch - processPackages [culminator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/culminator-0.7.tar.gz tmp/culminator-0.8-py3-none-any.whl.zip --markdown 20240530/c/culminator/0.7-0.8/README.md --exclude *.pyd
+[2024-05-30 03:40:38] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-05-30 03:40:38] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-05-30 03:40:38] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-05-30 03:40:38] INFO root fetch - processPackages [kano-cv]: Remove: archive file [/home/abi/fetcher/tmp/kano-cv-1.9.1.tar.gz]
+[2024-05-30 03:40:38] INFO root fetch - processPackages [kano-cv]: Remove: archive file [/home/abi/fetcher/tmp/kano-cv-1.9.2.tar.gz]
+[2024-05-30 03:40:38] INFO root fetch - main [MainThread]: End processing [kano-cv]: success
+[2024-05-30 03:40:39] INFO root fetch - processPackages [culminator]: Remove: archive file [/home/abi/fetcher/tmp/culminator-0.7.tar.gz]
+[2024-05-30 03:40:39] INFO root fetch - processPackages [culminator]: Remove: archive file [/home/abi/fetcher/tmp/culminator-0.8-py3-none-any.whl.zip]
+[2024-05-30 03:40:39] INFO root fetch - main [MainThread]: End processing [culminator]: success
+[2024-05-30 03:40:39] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-05-30 03:40:39] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.6.0b0.tar.gz tmp/homeassistant_stubs-2024.6.0b1.tar.gz --markdown 20240530/h/homeassistant-stubs/2024.6.0b0-2024.6.0b1/README.md --exclude *.pyd
+[2024-05-30 03:40:39] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-05-30 03:40:39] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.6.0b0.tar.gz tmp/homeassistant_stubs-2024.6.0b1.tar.gz --markdown 20240530/h/homeassistant-stubs/2024.6.0b0-2024.6.0b1/README.md --exclude *.pyd
+[2024-05-30 03:40:39] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-30 03:40:39] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-30 03:40:39] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-30 03:40:40] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-05-30 03:40:40] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-05-30 03:40:40] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-05-30 03:40:52] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.6.0b0.tar.gz]
+[2024-05-30 03:40:52] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.6.0b1.tar.gz]
+[2024-05-30 03:40:52] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-05-30 03:40:52] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-05-30 03:40:52] INFO root fetch - main [MainThread]: Store serial: [23440671]
