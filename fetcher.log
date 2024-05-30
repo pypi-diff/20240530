@@ -15317,3 +15317,68 @@ EOFError: EOF read where object expected
 [2024-05-30 08:54:25] INFO root fetch - processPackages [pyontoenv]: Remove: archive file [/home/abi/fetcher/tmp/pyontoenv-0.1.7a6.tar.gz]
 [2024-05-30 08:54:25] INFO root fetch - main [MainThread]: End processing [pyontoenv]: success
 [2024-05-30 08:54:25] INFO root fetch - main [MainThread]: Store serial: [23443788]
+[2024-05-30 08:56:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443788]
+[2024-05-30 08:56:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 08:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ucdp-sv
+[2024-05-30 08:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pseudovisium
+[2024-05-30 08:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-nightly
+[2024-05-30 08:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sequifier
+[2024-05-30 08:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pgadmin4
+[2024-05-30 08:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auto-economics
+[2024-05-30 08:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: YWP
+[2024-05-30 08:56:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: json-repair
+[2024-05-30 08:56:35] WARNING root fetch - processPackages [auto-economics]: Skipping, unable to determine old version
+[2024-05-30 08:56:35] INFO root fetch - main [MainThread]: End processing [auto-economics] error
+[2024-05-30 08:56:35] INFO root fetch - processPackages [Pseudovisium]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 08:56:35] INFO root fetch - processPackages [YWP]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-30 08:56:35] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/ec/02/4f0ff6ebfecb2857195a25c3ca342a7a1af99e21acd71f8a0f89061491f0/Pseudovisium-0.0.8.tar.gz
+[2024-05-30 08:56:35] INFO root fetch - processPackages [sequifier]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-30 08:56:35] INFO root fetch - processPackages [ucdp-sv]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-30 08:56:35] INFO root fetch - processPackages [pgadmin4]: New version: [8.7] Old Version: [8.6]
+[2024-05-30 08:56:35] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-30 08:56:35] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.35.1.dev20240529] Old Version: [1.35.1.dev20240528]
+[2024-05-30 08:56:35] INFO root fetch - processPackages [YWP]: Downloading https://files.pythonhosted.org/packages/13/ab/46eefb5da56c953299c9ad56173ef23156e8d9a3b675fd0c8422ae1bc3af/ywp-0.1.0.tar.gz
+[2024-05-30 08:56:35] INFO root fetch - processPackages [sequifier]: Downloading https://files.pythonhosted.org/packages/cd/d3/d0f355baefe44a25c1a7194898050623cbf94f4e188ffbdf8568ff9a5847/sequifier-2.2.0.tar.gz
+[2024-05-30 08:56:35] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/6a/7f/032756880a4d5dbead5465d90e6d9ef1046690f858021036f62dfcda246a/Pseudovisium-0.0.9.tar.gz
+[2024-05-30 08:56:35] INFO root fetch - processPackages [ucdp-sv]: Downloading https://files.pythonhosted.org/packages/db/34/044e357c9b467212ec2456b0592011817365ebbaf6da032a47bad273f33e/ucdp_sv-0.1.0.tar.gz
+[2024-05-30 08:56:35] INFO root fetch - processPackages [pgadmin4]: Downloading https://files.pythonhosted.org/packages/a9/1c/c6089bc6aef0365be05ef7f3a85b8ede3e1483400f6de202c20b70042df6/pgadmin4-8.6-py3-none-any.whl
+[2024-05-30 08:56:35] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/7b/00/cfe7ffd624d3c06e902b088c2aa61b10bb941e93427d52146fd133dd2e43/streamlit_nightly-1.35.1.dev20240528.tar.gz
+[2024-05-30 08:56:35] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-05-30 08:56:35] WARNING root fetch - processPackages [pgadmin4]: Skipping package: exceeds size limit 98352442>=10485760
+[2024-05-30 08:56:35] INFO root fetch - main [MainThread]: End processing [pgadmin4] error
+[2024-05-30 08:56:35] INFO root fetch - processPackages [Pseudovisium]: executing diffoscope
+[2024-05-30 08:56:35] INFO root fetch - processPackages [YWP]: Downloading https://files.pythonhosted.org/packages/44/81/2387c396c1db598230b261e4325fff02931fc244fa6aff8055cfe2d4cc98/ywp-0.2.0.tar.gz
+[2024-05-30 08:56:35] INFO root fetch - processPackages [Pseudovisium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pseudovisium-0.0.8.tar.gz tmp/Pseudovisium-0.0.9.tar.gz --markdown 20240530/P/Pseudovisium/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 08:56:36] INFO root fetch - processPackages [YWP]: executing diffoscope
+[2024-05-30 08:56:36] INFO root fetch - processPackages [YWP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ywp-0.1.0.tar.gz tmp/ywp-0.2.0.tar.gz --markdown 20240530/Y/YWP/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-30 08:56:36] INFO root fetch - processPackages [ucdp-sv]: Downloading https://files.pythonhosted.org/packages/78/c1/73ee7855c002a473451dfc1ae061a1235c4d146124c05b1c5aa9ba9a4215/ucdp_sv-0.2.0.tar.gz
+[2024-05-30 08:56:36] INFO root fetch - processPackages [sequifier]: Downloading https://files.pythonhosted.org/packages/7f/49/1f4c42caa5fa66fabcf9e217c4251c33ed7f2b7158d7f153c57b74e030f3/sequifier-2.2.1.tar.gz
+[2024-05-30 08:56:36] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-05-30 08:56:36] INFO root fetch - processPackages [ucdp-sv]: executing diffoscope
+[2024-05-30 08:56:36] INFO root fetch - processPackages [ucdp-sv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucdp_sv-0.1.0.tar.gz tmp/ucdp_sv-0.2.0.tar.gz --markdown 20240530/u/ucdp-sv/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-30 08:56:36] INFO root fetch - processPackages [sequifier]: executing diffoscope
+[2024-05-30 08:56:36] INFO root fetch - processPackages [sequifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequifier-2.2.0.tar.gz tmp/sequifier-2.2.1.tar.gz --markdown 20240530/s/sequifier/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-30 08:56:36] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-05-30 08:56:36] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240530/j/json-repair/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-30 08:56:36] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/98/45/c70d3de8ca9b4245bfce311ca76b5e10f0cda6e2e3d58b715ad219df7e7c/streamlit_nightly-1.35.1.dev20240529.tar.gz
+[2024-05-30 08:56:36] INFO root fetch - processPackages [YWP]: Remove: archive file [/home/abi/fetcher/tmp/ywp-0.1.0.tar.gz]
+[2024-05-30 08:56:36] INFO root fetch - processPackages [YWP]: Remove: archive file [/home/abi/fetcher/tmp/ywp-0.2.0.tar.gz]
+[2024-05-30 08:56:36] INFO root fetch - main [MainThread]: End processing [YWP]: success
+[2024-05-30 08:56:36] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.8.tar.gz]
+[2024-05-30 08:56:36] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.9.tar.gz]
+[2024-05-30 08:56:36] INFO root fetch - main [MainThread]: End processing [Pseudovisium]: success
+[2024-05-30 08:56:36] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-05-30 08:56:36] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-05-30 08:56:36] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-05-30 08:56:36] INFO root fetch - processPackages [ucdp-sv]: Remove: archive file [/home/abi/fetcher/tmp/ucdp_sv-0.1.0.tar.gz]
+[2024-05-30 08:56:36] INFO root fetch - processPackages [ucdp-sv]: Remove: archive file [/home/abi/fetcher/tmp/ucdp_sv-0.2.0.tar.gz]
+[2024-05-30 08:56:36] INFO root fetch - main [MainThread]: End processing [ucdp-sv]: success
+[2024-05-30 08:56:37] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-05-30 08:56:37] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.35.1.dev20240528.tar.gz tmp/streamlit_nightly-1.35.1.dev20240529.tar.gz --markdown 20240530/s/streamlit-nightly/1.35.1.dev20240528-1.35.1.dev20240529/README.md --exclude *.pyd
+[2024-05-30 08:56:37] INFO root fetch - processPackages [sequifier]: Remove: archive file [/home/abi/fetcher/tmp/sequifier-2.2.0.tar.gz]
+[2024-05-30 08:56:37] INFO root fetch - processPackages [sequifier]: Remove: archive file [/home/abi/fetcher/tmp/sequifier-2.2.1.tar.gz]
+[2024-05-30 08:56:37] INFO root fetch - main [MainThread]: End processing [sequifier]: success
+[2024-05-30 08:56:40] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.35.1.dev20240528.tar.gz]
+[2024-05-30 08:56:40] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.35.1.dev20240529.tar.gz]
+[2024-05-30 08:56:40] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-05-30 08:56:40] INFO root fetch - main [MainThread]: Store serial: [23443812]
