@@ -17159,3 +17159,89 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:05:20] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.9.0.tar.gz]
 [2024-05-30 10:05:20] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
 [2024-05-30 10:05:20] INFO root fetch - main [MainThread]: Store serial: [23444637]
+[2024-05-30 10:07:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444637]
+[2024-05-30 10:07:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SMASunnyIsland
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dingosdk
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfilecache
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rvvup_python
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crosscompute
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vipas
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tuyul-sdk
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hydra-genetics
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: database-mysql-local
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ansys-tools-visualization-interface
+[2024-05-30 10:07:29] INFO root fetch - processPackages [vipas]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-30 10:07:29] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc9] Old Version: [0.1rc8.post1]
+[2024-05-30 10:07:29] INFO root fetch - processPackages [tuyul-sdk]: New version: [0.0.1rc5] Old Version: [0.0.1rc4]
+[2024-05-30 10:07:29] INFO root fetch - processPackages [SMASunnyIsland]: New version: [0.44] Old Version: [0.43]
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ansys-tools-visualization-interface]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-30 10:07:29] WARNING root fetch - processPackages [rvvup_python]: Skipping, unable to determine old version
+[2024-05-30 10:07:29] INFO root fetch - processPackages [rvvup_python]: Start processing: redbacktechpy
+[2024-05-30 10:07:29] INFO root fetch - main [MainThread]: End processing [rvvup_python] error
+[2024-05-30 10:07:29] INFO root fetch - processPackages [hydra-genetics]: New version: [3.0.0] Old Version: [2.0.1]
+[2024-05-30 10:07:29] WARNING root fetch - processPackages [pyfilecache]: Skipping, unable to determine old version
+[2024-05-30 10:07:29] INFO root fetch - main [MainThread]: End processing [pyfilecache] error
+[2024-05-30 10:07:29] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/99/4c/efd2540132ce0d318d92e3c1bfe54fa9d25f2e554d2986af0c31f3bf7f6f/vipas-0.1.6.tar.gz
+[2024-05-30 10:07:29] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/7b/10/2c6bb88645e870b167392150b76711fb4823aa921ee4bc314ba468f0d5dd/dingosdk-0.1rc8.post1.tar.gz
+[2024-05-30 10:07:29] INFO root fetch - processPackages [SMASunnyIsland]: Downloading https://files.pythonhosted.org/packages/c9/20/8ce1770ede128caf8f06b54d2ab08baeeac6987229585334c20bf42f4b72/smasunnyisland-0.43.tar.gz
+[2024-05-30 10:07:29] INFO root fetch - processPackages [crosscompute]: New version: [0.9.4.9] Old Version: [0.9.4.8]
+[2024-05-30 10:07:29] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.346] Old Version: [0.0.345]
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ansys-tools-visualization-interface]: Downloading https://files.pythonhosted.org/packages/6e/66/e115244631ed370b1f5dd7f4ec4df22557a219df8ae828f5e95857a81232/ansys_tools_visualization_interface-0.2.0.tar.gz
+[2024-05-30 10:07:29] INFO root fetch - processPackages [redbacktechpy]: New version: [0.5.0] Old Version: [0.3.1]
+[2024-05-30 10:07:29] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 63305453>=10485760
+[2024-05-30 10:07:29] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-30 10:07:29] INFO root fetch - processPackages [tuyul-sdk]: Downloading https://files.pythonhosted.org/packages/bc/9f/e3ad86380982d12729ae85c20c9a178c9834d00b3aba1725fc40c353cb97/tuyul_sdk-0.0.1rc4.tar.gz
+[2024-05-30 10:07:29] INFO root fetch - processPackages [hydra-genetics]: Downloading https://files.pythonhosted.org/packages/2e/b3/3130323f4eee75ed2d79181f630d378d8f93f8456a712baf9a970ec4260e/hydra_genetics-2.0.1.tar.gz
+[2024-05-30 10:07:29] INFO root fetch - processPackages [crosscompute]: Downloading https://files.pythonhosted.org/packages/dc/51/6ecfb41b118c845d00d7b518bb40b9ba5e383db5ce8f3a0517190976fc94/crosscompute-0.9.4.8.tar.gz
+[2024-05-30 10:07:29] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/7c/47/761a3a5e8913249d15ba81f96500ab9fbf086e9e178f0021c522695aacfd/database_mysql_local-0.0.345.tar.gz
+[2024-05-30 10:07:29] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/c4/36/08303bf27a45d69a4e2ee88d3aef785c1563388cfa65589f3323980676a2/redbacktechpy-0.3.1.tar.gz
+[2024-05-30 10:07:29] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/cf/d4/cb891923142e88ea494b8f98aba86474266d8a6a1eed2172a5087201435c/vipas-0.1.7.tar.gz
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ansys-tools-visualization-interface]: Downloading https://files.pythonhosted.org/packages/7d/bc/baae898ef62a19ef88bca050e265aa99f648aaddd12671f0289ee52038be/ansys_tools_visualization_interface-0.2.1.tar.gz
+[2024-05-30 10:07:29] INFO root fetch - processPackages [SMASunnyIsland]: Downloading https://files.pythonhosted.org/packages/79/c0/5b99f43c99408885828a72d9ce1dab804debf7a18f490b314181aadc12cc/smasunnyisland-0.44.tar.gz
+[2024-05-30 10:07:29] INFO root fetch - processPackages [vipas]: executing diffoscope
+[2024-05-30 10:07:29] INFO root fetch - processPackages [vipas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vipas-0.1.6.tar.gz tmp/vipas-0.1.7.tar.gz --markdown 20240530/v/vipas/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ansys-tools-visualization-interface]: executing diffoscope
+[2024-05-30 10:07:29] INFO root fetch - processPackages [ansys-tools-visualization-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_tools_visualization_interface-0.2.0.tar.gz tmp/ansys_tools_visualization_interface-0.2.1.tar.gz --markdown 20240530/a/ansys-tools-visualization-interface/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-30 10:07:29] INFO root fetch - processPackages [tuyul-sdk]: Downloading https://files.pythonhosted.org/packages/93/dc/2439e89a1ca107f67b306e993d8a35774b4d8c9d37473e5bcaf6c5687ba6/tuyul_sdk-0.0.1rc5.tar.gz
+[2024-05-30 10:07:29] INFO root fetch - processPackages [crosscompute]: Downloading https://files.pythonhosted.org/packages/5e/6b/76b623828c08bad0f8b9f610453656bea206e68fa627e8a9ce08af87a7a3/crosscompute-0.9.4.9.tar.gz
+[2024-05-30 10:07:29] INFO root fetch - processPackages [hydra-genetics]: Downloading https://files.pythonhosted.org/packages/85/92/cd24b46ac9c07b63c1322267efd932973291933acb1db353943d8978c67f/hydra_genetics-3.0.0.tar.gz
+[2024-05-30 10:07:30] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/5b/ca/762756dfe947de144af3e8bef5b003cdd4bd2c8e6df642cc2b10ea8ba2b0/database_mysql_local-0.0.346.tar.gz
+[2024-05-30 10:07:30] INFO root fetch - processPackages [SMASunnyIsland]: executing diffoscope
+[2024-05-30 10:07:30] INFO root fetch - processPackages [SMASunnyIsland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smasunnyisland-0.43.tar.gz tmp/smasunnyisland-0.44.tar.gz --markdown 20240530/S/SMASunnyIsland/0.43-0.44/README.md --exclude *.pyd
+[2024-05-30 10:07:30] INFO root fetch - processPackages [tuyul-sdk]: executing diffoscope
+[2024-05-30 10:07:30] INFO root fetch - processPackages [tuyul-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuyul_sdk-0.0.1rc4.tar.gz tmp/tuyul_sdk-0.0.1rc5.tar.gz --markdown 20240530/t/tuyul-sdk/0.0.1rc4-0.0.1rc5/README.md --exclude *.pyd
+[2024-05-30 10:07:30] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/21/c9/13831b717999ea5186629e969e67f8a75ceaaade42f5e963c5846f101a5e/redbacktechpy-0.5.0.tar.gz
+[2024-05-30 10:07:30] INFO root fetch - processPackages [crosscompute]: executing diffoscope
+[2024-05-30 10:07:30] INFO root fetch - processPackages [crosscompute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosscompute-0.9.4.8.tar.gz tmp/crosscompute-0.9.4.9.tar.gz --markdown 20240530/c/crosscompute/0.9.4.8-0.9.4.9/README.md --exclude *.pyd
+[2024-05-30 10:07:30] INFO root fetch - processPackages [hydra-genetics]: executing diffoscope
+[2024-05-30 10:07:30] INFO root fetch - processPackages [hydra-genetics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydra_genetics-2.0.1.tar.gz tmp/hydra_genetics-3.0.0.tar.gz --markdown 20240530/h/hydra-genetics/2.0.1-3.0.0/README.md --exclude *.pyd
+[2024-05-30 10:07:30] INFO root fetch - processPackages [redbacktechpy]: executing diffoscope
+[2024-05-30 10:07:30] INFO root fetch - processPackages [redbacktechpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbacktechpy-0.3.1.tar.gz tmp/redbacktechpy-0.5.0.tar.gz --markdown 20240530/r/redbacktechpy/0.3.1-0.5.0/README.md --exclude *.pyd
+[2024-05-30 10:07:30] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-30 10:07:30] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.345.tar.gz tmp/database_mysql_local-0.0.346.tar.gz --markdown 20240530/d/database-mysql-local/0.0.345-0.0.346/README.md --exclude *.pyd
+[2024-05-30 10:07:30] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.1.6.tar.gz]
+[2024-05-30 10:07:30] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.1.7.tar.gz]
+[2024-05-30 10:07:30] INFO root fetch - main [MainThread]: End processing [vipas]: success
+[2024-05-30 10:07:30] INFO root fetch - processPackages [ansys-tools-visualization-interface]: Remove: archive file [/home/abi/fetcher/tmp/ansys_tools_visualization_interface-0.2.0.tar.gz]
+[2024-05-30 10:07:30] INFO root fetch - processPackages [ansys-tools-visualization-interface]: Remove: archive file [/home/abi/fetcher/tmp/ansys_tools_visualization_interface-0.2.1.tar.gz]
+[2024-05-30 10:07:30] INFO root fetch - main [MainThread]: End processing [ansys-tools-visualization-interface]: success
+[2024-05-30 10:07:30] INFO root fetch - processPackages [tuyul-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tuyul_sdk-0.0.1rc4.tar.gz]
+[2024-05-30 10:07:30] INFO root fetch - processPackages [tuyul-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tuyul_sdk-0.0.1rc5.tar.gz]
+[2024-05-30 10:07:30] INFO root fetch - main [MainThread]: End processing [tuyul-sdk]: success
+[2024-05-30 10:07:30] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-0.3.1.tar.gz]
+[2024-05-30 10:07:30] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-0.5.0.tar.gz]
+[2024-05-30 10:07:30] INFO root fetch - main [MainThread]: End processing [redbacktechpy]: success
+[2024-05-30 10:07:31] INFO root fetch - processPackages [hydra-genetics]: Remove: archive file [/home/abi/fetcher/tmp/hydra_genetics-2.0.1.tar.gz]
+[2024-05-30 10:07:31] INFO root fetch - processPackages [hydra-genetics]: Remove: archive file [/home/abi/fetcher/tmp/hydra_genetics-3.0.0.tar.gz]
+[2024-05-30 10:07:31] INFO root fetch - main [MainThread]: End processing [hydra-genetics]: success
+[2024-05-30 10:07:31] INFO root fetch - processPackages [crosscompute]: Remove: archive file [/home/abi/fetcher/tmp/crosscompute-0.9.4.8.tar.gz]
+[2024-05-30 10:07:31] INFO root fetch - processPackages [crosscompute]: Remove: archive file [/home/abi/fetcher/tmp/crosscompute-0.9.4.9.tar.gz]
+[2024-05-30 10:07:31] INFO root fetch - main [MainThread]: End processing [crosscompute]: success
+[2024-05-30 10:07:31] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.345.tar.gz]
+[2024-05-30 10:07:31] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.346.tar.gz]
+[2024-05-30 10:07:31] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-30 10:07:32] INFO root fetch - processPackages [SMASunnyIsland]: Remove: archive file [/home/abi/fetcher/tmp/smasunnyisland-0.43.tar.gz]
+[2024-05-30 10:07:32] INFO root fetch - processPackages [SMASunnyIsland]: Remove: archive file [/home/abi/fetcher/tmp/smasunnyisland-0.44.tar.gz]
+[2024-05-30 10:07:32] INFO root fetch - main [MainThread]: End processing [SMASunnyIsland]: success
+[2024-05-30 10:07:32] INFO root fetch - main [MainThread]: Store serial: [23444678]
