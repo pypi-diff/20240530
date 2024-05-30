@@ -10813,3 +10813,42 @@ EOFError: EOF read where object expected
 [2024-05-30 06:11:06] INFO root fetch - processPackages [PyQuantKit]: Remove: archive file [/home/abi/fetcher/tmp/pyquantkit-0.3.1.tar.gz]
 [2024-05-30 06:11:06] INFO root fetch - main [MainThread]: End processing [PyQuantKit]: success
 [2024-05-30 06:11:06] INFO root fetch - main [MainThread]: Store serial: [23442005]
+[2024-05-30 06:13:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442005]
+[2024-05-30 06:13:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyQuantKit
+[2024-05-30 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acc-feature-store-schema
+[2024-05-30 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ciphergeard
+[2024-05-30 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: watermarkdt2
+[2024-05-30 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: molecular-interaction-rules
+[2024-05-30 06:13:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpu4pyscf
+[2024-05-30 06:13:15] WARNING root fetch - processPackages [watermarkdt2]: Skipping, unable to determine old version
+[2024-05-30 06:13:15] INFO root fetch - main [MainThread]: End processing [watermarkdt2] error
+[2024-05-30 06:13:15] INFO root fetch - processPackages [PyQuantKit]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-30 06:13:15] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.5.92] Old Version: [0.5.91]
+[2024-05-30 06:13:15] WARNING root fetch - processPackages [acc-feature-store-schema]: Skipping, unable to determine old version
+[2024-05-30 06:13:15] INFO root fetch - main [MainThread]: End processing [acc-feature-store-schema] error
+[2024-05-30 06:13:15] INFO root fetch - processPackages [PyQuantKit]: Downloading https://files.pythonhosted.org/packages/99/3a/b20252c475627fc96cd8af7c6444e959a7899e81bb3ff1be3db52976ac2e/pyquantkit-0.3.0.tar.gz
+[2024-05-30 06:13:15] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/a7/33/8edc7cdb3f88cb3d2a812a6e8f359b0da472bec134d2f6d2dd1fa2ff0d39/molecular_interaction_rules-0.5.91.tar.gz
+[2024-05-30 06:13:15] INFO root fetch - processPackages [gpu4pyscf]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-05-30 06:13:15] WARNING root fetch - processPackages [ciphergeard]: Skipping, unable to determine old version
+[2024-05-30 06:13:15] INFO root fetch - main [MainThread]: End processing [ciphergeard] error
+[2024-05-30 06:13:15] INFO root fetch - processPackages [PyQuantKit]: Downloading https://files.pythonhosted.org/packages/8c/8f/318230b2eaa5bd8808c2e5a822b7a9748a6ad180c39dbd721130b089983d/pyquantkit-0.3.1.tar.gz
+[2024-05-30 06:13:15] INFO root fetch - processPackages [gpu4pyscf]: Downloading https://files.pythonhosted.org/packages/94/a6/c5e6cdb40944439c7c7f5b1504ad21df5a7f7043b5a525c36bab899ceb7f/gpu4pyscf-0.7.7.tar.gz
+[2024-05-30 06:13:15] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/fd/3a/a02168be39d9fc3367587fac48cc9bd0c456057ef5ec679a8277629a6a23/molecular_interaction_rules-0.5.92.tar.gz
+[2024-05-30 06:13:15] INFO root fetch - processPackages [PyQuantKit]: executing diffoscope
+[2024-05-30 06:13:15] INFO root fetch - processPackages [PyQuantKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquantkit-0.3.0.tar.gz tmp/pyquantkit-0.3.1.tar.gz --markdown 20240530/P/PyQuantKit/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-30 06:13:15] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 06:13:15] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.91.tar.gz tmp/molecular_interaction_rules-0.5.92.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5.91-0.5.92/README.md --exclude *.pyd
+[2024-05-30 06:13:15] INFO root fetch - processPackages [gpu4pyscf]: Downloading https://files.pythonhosted.org/packages/6f/c0/7252228af57ca5a01f8d6f3c66e5f46eb82154687cf60c8f98d2db0f4605/gpu4pyscf-0.7.8.tar.gz
+[2024-05-30 06:13:16] INFO root fetch - processPackages [gpu4pyscf]: executing diffoscope
+[2024-05-30 06:13:16] INFO root fetch - processPackages [gpu4pyscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpu4pyscf-0.7.7.tar.gz tmp/gpu4pyscf-0.7.8.tar.gz --markdown 20240530/g/gpu4pyscf/0.7.7-0.7.8/README.md --exclude *.pyd
+[2024-05-30 06:13:16] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.91.tar.gz]
+[2024-05-30 06:13:16] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.92.tar.gz]
+[2024-05-30 06:13:16] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 06:13:16] INFO root fetch - processPackages [PyQuantKit]: Remove: archive file [/home/abi/fetcher/tmp/pyquantkit-0.3.0.tar.gz]
+[2024-05-30 06:13:16] INFO root fetch - processPackages [PyQuantKit]: Remove: archive file [/home/abi/fetcher/tmp/pyquantkit-0.3.1.tar.gz]
+[2024-05-30 06:13:16] INFO root fetch - main [MainThread]: End processing [PyQuantKit]: success
+[2024-05-30 06:13:17] INFO root fetch - processPackages [gpu4pyscf]: Remove: archive file [/home/abi/fetcher/tmp/gpu4pyscf-0.7.7.tar.gz]
+[2024-05-30 06:13:17] INFO root fetch - processPackages [gpu4pyscf]: Remove: archive file [/home/abi/fetcher/tmp/gpu4pyscf-0.7.8.tar.gz]
+[2024-05-30 06:13:17] INFO root fetch - main [MainThread]: End processing [gpu4pyscf]: success
+[2024-05-30 06:13:17] INFO root fetch - main [MainThread]: Store serial: [23442024]
