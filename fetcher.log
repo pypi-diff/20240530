@@ -9885,3 +9885,38 @@ EOFError: EOF read where object expected
 [2024-05-30 05:31:39] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2024-05-30 05:31:39] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2024-05-30 05:31:39] INFO root fetch - main [MainThread]: Store serial: [23441708]
+[2024-05-30 05:33:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441708]
+[2024-05-30 05:33:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 05:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molecular-interaction-rules
+[2024-05-30 05:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SC2Spa
+[2024-05-30 05:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-nlp-nightly
+[2024-05-30 05:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlframe
+[2024-05-30 05:33:49] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-30 05:33:49] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/0a/7b/60dc12bd76b0bac8413d161fb9dccd687e7e7472cefe5468241a3698df7b/molecular_interaction_rules-0.5.1.tar.gz
+[2024-05-30 05:33:49] INFO root fetch - processPackages [sqlframe]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-30 05:33:49] INFO root fetch - processPackages [SC2Spa]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-30 05:33:49] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-30 05:33:49] INFO root fetch - processPackages [SC2Spa]: Downloading https://files.pythonhosted.org/packages/84/3e/3e3a112e97fbbd0f4ee274f7509366cfe181115bdd70431dce2f0e3b7eee/sc2spa-1.2.6.tar.gz
+[2024-05-30 05:33:49] INFO root fetch - processPackages [sqlframe]: Downloading https://files.pythonhosted.org/packages/a8/ed/f90e2f2f785066d29354bfa6760243232985800727a5d9f8401a5b94b491/sqlframe-1.3.0.tar.gz
+[2024-05-30 05:33:50] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-30 05:33:50] WARNING root fetch - processPackages [sqlframe]: Skipping package: exceeds size limit 17084549>=10485760
+[2024-05-30 05:33:50] INFO root fetch - main [MainThread]: End processing [sqlframe] error
+[2024-05-30 05:33:50] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/30/94/c5b18dacd6d2e644aa0aaaed2a3a4417d6749ac40d8ee3528166c461061e/molecular_interaction_rules-0.5.2.tar.gz
+[2024-05-30 05:33:50] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 05:33:50] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.1.tar.gz tmp/molecular_interaction_rules-0.5.2.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-30 05:33:50] INFO root fetch - processPackages [SC2Spa]: Downloading https://files.pythonhosted.org/packages/7a/1d/1776c9e70c4b864e681c9f727b51049fa518c245c3183d971023723f52a7/sc2spa-1.2.7.tar.gz
+[2024-05-30 05:33:50] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-30 05:33:50] INFO root fetch - processPackages [SC2Spa]: executing diffoscope
+[2024-05-30 05:33:50] INFO root fetch - processPackages [SC2Spa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc2spa-1.2.6.tar.gz tmp/sc2spa-1.2.7.tar.gz --markdown 20240530/S/SC2Spa/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-30 05:33:50] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-30 05:33:50] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240530/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-30 05:33:50] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.1.tar.gz]
+[2024-05-30 05:33:50] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.2.tar.gz]
+[2024-05-30 05:33:50] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 05:33:50] INFO root fetch - processPackages [SC2Spa]: Remove: archive file [/home/abi/fetcher/tmp/sc2spa-1.2.6.tar.gz]
+[2024-05-30 05:33:50] INFO root fetch - processPackages [SC2Spa]: Remove: archive file [/home/abi/fetcher/tmp/sc2spa-1.2.7.tar.gz]
+[2024-05-30 05:33:50] INFO root fetch - main [MainThread]: End processing [SC2Spa]: success
+[2024-05-30 05:33:51] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-30 05:33:51] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-30 05:33:51] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-30 05:33:51] INFO root fetch - main [MainThread]: Store serial: [23441719]
