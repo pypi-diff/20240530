@@ -10882,3 +10882,138 @@ EOFError: EOF read where object expected
 [2024-05-30 06:15:27] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-05-30 06:15:28] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-05-30 06:15:28] INFO root fetch - main [MainThread]: Store serial: [23442032]
+[2024-05-30 06:17:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442032]
+[2024-05-30 06:17:36] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2024-05-30 06:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai
+[2024-05-30 06:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miniqmt
+[2024-05-30 06:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molecular-interaction-rules
+[2024-05-30 06:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqgamma
+[2024-05-30 06:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqvectorsearch
+[2024-05-30 06:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqcache
+[2024-05-30 06:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: squid-image-analyzer
+[2024-05-30 06:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqprefect-contrib-cash-mlt
+[2024-05-30 06:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sq-feature-blizzard
+[2024-05-30 06:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqenvoy
+[2024-05-30 06:17:36] WARNING root fetch - processPackages [miniqmt]: Skipping, unable to determine old version
+[2024-05-30 06:17:36] INFO root fetch - processPackages [miniqmt]: Start processing: sq-signal-groups
+[2024-05-30 06:17:36] INFO root fetch - main [MainThread]: End processing [miniqmt] error
+[2024-05-30 06:17:36] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.5.94] Old Version: [0.5.93]
+[2024-05-30 06:17:36] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/30/3a/52b3ea0f7b3e03eb6c1d87c0cc63df78a6c1ce204a6cb56dd3888d50016f/molecular_interaction_rules-0.5.93.tar.gz
+[2024-05-30 06:17:36] ERROR root fetch - processPackages [squid-image-analyzer]: Unable to get metadata: No such project 'squid-image-analyzer'
+[2024-05-30 06:17:36] INFO root fetch - processPackages [squid-image-analyzer]: Start processing: sq-snowmd
+[2024-05-30 06:17:36] INFO root fetch - main [MainThread]: End processing [squid-image-analyzer] error
+[2024-05-30 06:17:36] INFO root fetch - processPackages [openai]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-30 06:17:36] ERROR root fetch - processPackages [sqcache]: Unable to get metadata: No such project 'sqcache'
+[2024-05-30 06:17:36] INFO root fetch - processPackages [sqcache]: Start processing: sqprefect-contrib-whylabs
+[2024-05-30 06:17:36] INFO root fetch - main [MainThread]: End processing [sqcache] error
+[2024-05-30 06:17:36] ERROR root fetch - processPackages [sq-feature-blizzard]: Unable to get metadata: No such project 'sq-feature-blizzard'
+[2024-05-30 06:17:36] ERROR root fetch - processPackages [sqprefect-contrib-cash-mlt]: Unable to get metadata: No such project 'sqprefect-contrib-cash-mlt'
+[2024-05-30 06:17:36] INFO root fetch - processPackages [sq-feature-blizzard]: Start processing: hermes-cai
+[2024-05-30 06:17:36] INFO root fetch - processPackages [sqprefect-contrib-cash-mlt]: Start processing: sq-banister
+[2024-05-30 06:17:36] ERROR root fetch - processPackages [sqvectorsearch]: Unable to get metadata: No such project 'sqvectorsearch'
+[2024-05-30 06:17:36] INFO root fetch - main [MainThread]: End processing [sq-feature-blizzard] error
+[2024-05-30 06:17:36] INFO root fetch - processPackages [sqvectorsearch]: Start processing: block-customer-issue-tags
+[2024-05-30 06:17:36] ERROR root fetch - processPackages [sqenvoy]: Unable to get metadata: No such project 'sqenvoy'
+[2024-05-30 06:17:36] WARNING root fetch - processPackages [sqgamma]: Skipping, unable to determine old version
+[2024-05-30 06:17:36] INFO root fetch - main [MainThread]: End processing [sqprefect-contrib-cash-mlt] error
+[2024-05-30 06:17:36] INFO root fetch - processPackages [sqenvoy]: Start processing: sqprefect-conductor-tasks
+[2024-05-30 06:17:36] INFO root fetch - processPackages [sqgamma]: Start processing: sq-protos-py
+[2024-05-30 06:17:36] INFO root fetch - main [MainThread]: End processing [sqvectorsearch] error
+[2024-05-30 06:17:36] INFO root fetch - main [MainThread]: End processing [sqenvoy] error
+[2024-05-30 06:17:36] INFO root fetch - main [MainThread]: End processing [sqgamma] error
+[2024-05-30 06:17:36] ERROR root fetch - processPackages [sq-signal-groups]: Unable to get metadata: No such project 'sq-signal-groups'
+[2024-05-30 06:17:36] INFO root fetch - processPackages [sq-signal-groups]: Start processing: sqartifacts
+[2024-05-30 06:17:37] INFO root fetch - main [MainThread]: End processing [sq-signal-groups] error
+[2024-05-30 06:17:37] INFO root fetch - processPackages [hermes-cai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 06:17:37] ERROR root fetch - processPackages [sq-snowmd]: Unable to get metadata: No such project 'sq-snowmd'
+[2024-05-30 06:17:37] INFO root fetch - processPackages [sq-snowmd]: Start processing: block-cloud-auth
+[2024-05-30 06:17:37] INFO root fetch - main [MainThread]: End processing [sq-snowmd] error
+[2024-05-30 06:17:37] ERROR root fetch - processPackages [sqprefect-contrib-whylabs]: Unable to get metadata: No such project 'sqprefect-contrib-whylabs'
+[2024-05-30 06:17:37] INFO root fetch - processPackages [sqprefect-contrib-whylabs]: Start processing: sqpayment
+[2024-05-30 06:17:37] INFO root fetch - main [MainThread]: End processing [sqprefect-contrib-whylabs] error
+[2024-05-30 06:17:37] ERROR root fetch - processPackages [sqprefect-conductor-tasks]: Unable to get metadata: No such project 'sqprefect-conductor-tasks'
+[2024-05-30 06:17:37] INFO root fetch - processPackages [sqprefect-conductor-tasks]: Start processing: cash-sameface-core
+[2024-05-30 06:17:37] INFO root fetch - main [MainThread]: End processing [sqprefect-conductor-tasks] error
+[2024-05-30 06:17:37] ERROR root fetch - processPackages [sq-banister]: Unable to get metadata: No such project 'sq-banister'
+[2024-05-30 06:17:37] INFO root fetch - processPackages [sq-banister]: Start processing: sq-proto-parser
+[2024-05-30 06:17:37] INFO root fetch - main [MainThread]: End processing [sq-banister] error
+[2024-05-30 06:17:37] WARNING root fetch - processPackages [sq-protos-py]: Skipping, unable to determine old version
+[2024-05-30 06:17:37] INFO root fetch - processPackages [sq-protos-py]: Start processing: aws-cdk.app-staging-synthesizer-alpha
+[2024-05-30 06:17:37] INFO root fetch - main [MainThread]: End processing [sq-protos-py] error
+[2024-05-30 06:17:37] ERROR root fetch - processPackages [block-customer-issue-tags]: Unable to get metadata: No such project 'block-customer-issue-tags'
+[2024-05-30 06:17:37] INFO root fetch - processPackages [block-customer-issue-tags]: Start processing: aws-cdk.aws-amplify-alpha
+[2024-05-30 06:17:37] INFO root fetch - main [MainThread]: End processing [block-customer-issue-tags] error
+[2024-05-30 06:17:37] INFO root fetch - processPackages [hermes-cai]: Downloading https://files.pythonhosted.org/packages/c9/49/97474e8e674b4a25212e52f4667f6ed8090477ad6f09cc4879d99ad76b98/hermes_cai-0.0.8.tar.gz
+[2024-05-30 06:17:37] ERROR root fetch - processPackages [sqartifacts]: Unable to get metadata: No such project 'sqartifacts'
+[2024-05-30 06:17:37] INFO root fetch - processPackages [sqartifacts]: Start processing: aws-cdk.aws-appconfig-alpha
+[2024-05-30 06:17:37] INFO root fetch - main [MainThread]: End processing [sqartifacts] error
+[2024-05-30 06:17:37] WARNING root fetch - processPackages [block-cloud-auth]: Skipping, unable to determine old version
+[2024-05-30 06:17:37] INFO root fetch - processPackages [block-cloud-auth]: Start processing: aws-cdk.aws-apprunner-alpha
+[2024-05-30 06:17:37] INFO root fetch - main [MainThread]: End processing [block-cloud-auth] error
+[2024-05-30 06:17:37] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/9a/25/578115b5b9cf35478ce098a8242ed82741e56b3452ebc171f7dc7b77c433/openai-1.8.0.tar.gz
+[2024-05-30 06:17:37] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/e4/5a/1e05fec177a2d51f853457cd398f4a7ad22e0e6f87e50880196ffeeae122/molecular_interaction_rules-0.5.94.tar.gz
+[2024-05-30 06:17:37] ERROR root fetch - processPackages [sqpayment]: Unable to get metadata: No such project 'sqpayment'
+[2024-05-30 06:17:37] INFO root fetch - processPackages [sqpayment]: Start processing: aws-cdk.aws-cloud9-alpha
+[2024-05-30 06:17:37] INFO root fetch - main [MainThread]: End processing [sqpayment] error
+[2024-05-30 06:17:37] ERROR root fetch - processPackages [cash-sameface-core]: Unable to get metadata: No such project 'cash-sameface-core'
+[2024-05-30 06:17:37] INFO root fetch - main [MainThread]: End processing [cash-sameface-core] error
+[2024-05-30 06:17:37] ERROR root fetch - processPackages [sq-proto-parser]: Unable to get metadata: No such project 'sq-proto-parser'
+[2024-05-30 06:17:37] INFO root fetch - main [MainThread]: End processing [sq-proto-parser] error
+[2024-05-30 06:17:37] INFO root fetch - processPackages [aws-cdk.app-staging-synthesizer-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-05-30 06:17:37] INFO root fetch - processPackages [aws-cdk.aws-appconfig-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-05-30 06:17:37] INFO root fetch - processPackages [aws-cdk.aws-amplify-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-05-30 06:17:37] INFO root fetch - processPackages [aws-cdk.aws-apprunner-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-05-30 06:17:37] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 06:17:37] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.93.tar.gz tmp/molecular_interaction_rules-0.5.94.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5.93-0.5.94/README.md --exclude *.pyd
+[2024-05-30 06:17:37] INFO root fetch - processPackages [hermes-cai]: Downloading https://files.pythonhosted.org/packages/c7/2e/0f088ef52872faa4a462253525bc0bf9426cf9d1003e4f90cbfa2ab55af8/hermes_cai-0.0.9.tar.gz
+[2024-05-30 06:17:37] INFO root fetch - processPackages [hermes-cai]: executing diffoscope
+[2024-05-30 06:17:37] INFO root fetch - processPackages [hermes-cai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermes_cai-0.0.8.tar.gz tmp/hermes_cai-0.0.9.tar.gz --markdown 20240530/h/hermes-cai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 06:17:37] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/98/0d/d97f8c264ba77978754751a83e5e27a7783a5389b8f18da384f616a43bb8/openai-1.9.0.tar.gz
+[2024-05-30 06:17:37] INFO root fetch - processPackages [aws-cdk.aws-cloud9-alpha]: New version: [2.99.1a0] Old Version: [2.99.0a0]
+[2024-05-30 06:17:37] INFO root fetch - processPackages [aws-cdk.app-staging-synthesizer-alpha]: Downloading https://files.pythonhosted.org/packages/d0/20/c533a3e1d9d786de501c4d964135164a29bde61c644ae32ab6a1d8f76e92/aws-cdk.app-staging-synthesizer-alpha-2.99.0a0.tar.gz
+[2024-05-30 06:17:37] INFO root fetch - processPackages [aws-cdk.aws-amplify-alpha]: Downloading https://files.pythonhosted.org/packages/ad/1a/30a2056824b868f279496701a1664ab4251b309c346650490416903e50c7/aws-cdk.aws-amplify-alpha-2.99.0a0.tar.gz
+[2024-05-30 06:17:37] INFO root fetch - processPackages [aws-cdk.aws-appconfig-alpha]: Downloading https://files.pythonhosted.org/packages/0e/73/d58bb33071c3d282e7ee67d17dc33765b846cbcf4f066965f80a43aafda6/aws-cdk.aws-appconfig-alpha-2.99.0a0.tar.gz
+[2024-05-30 06:17:37] INFO root fetch - processPackages [aws-cdk.aws-apprunner-alpha]: Downloading https://files.pythonhosted.org/packages/45/64/781b3b8d16d34f87b5c0de619bb07bd68ac1b73cbd1600bdc24d0106e7be/aws-cdk.aws-apprunner-alpha-2.99.0a0.tar.gz
+[2024-05-30 06:17:37] INFO root fetch - processPackages [openai]: executing diffoscope
+[2024-05-30 06:17:37] INFO root fetch - processPackages [openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-1.8.0.tar.gz tmp/openai-1.9.0.tar.gz --markdown 20240530/o/openai/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-30 06:17:37] INFO root fetch - processPackages [aws-cdk.aws-cloud9-alpha]: Downloading https://files.pythonhosted.org/packages/a3/d2/1ff317653be8119f7097efaafa8c718b0a9d37d65bfbf05e4041be648509/aws-cdk.aws-cloud9-alpha-2.99.0a0.tar.gz
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.aws-apprunner-alpha]: Downloading https://files.pythonhosted.org/packages/9a/88/1e3404a5d4633cc5e59457e4792181e47968321e4968c54dc6c8aa5e9452/aws-cdk.aws-apprunner-alpha-2.99.1a0.tar.gz
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.aws-appconfig-alpha]: Downloading https://files.pythonhosted.org/packages/cc/a1/d021f747f1bde9ff2f6c242755368477fea1405f4582f2ec1dc2b2dbfd5d/aws-cdk.aws-appconfig-alpha-2.99.1a0.tar.gz
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.app-staging-synthesizer-alpha]: Downloading https://files.pythonhosted.org/packages/a8/f8/0affea5aa7fbafcc5e98ec4bf5b9a045b3e6ac405c90e89f539684697733/aws-cdk.app-staging-synthesizer-alpha-2.99.1a0.tar.gz
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.aws-amplify-alpha]: Downloading https://files.pythonhosted.org/packages/35/e6/4a57d449724379370414bc7fd8635c401f524db31485e21d616f9148b081/aws-cdk.aws-amplify-alpha-2.99.1a0.tar.gz
+[2024-05-30 06:17:38] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.8.tar.gz]
+[2024-05-30 06:17:38] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.9.tar.gz]
+[2024-05-30 06:17:38] INFO root fetch - main [MainThread]: End processing [hermes-cai]: success
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.aws-cloud9-alpha]: Downloading https://files.pythonhosted.org/packages/d1/bf/4e9efb14e7ceae6d4393a9929e8099397ee3774bc44085927a3232500598/aws-cdk.aws-cloud9-alpha-2.99.1a0.tar.gz
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.app-staging-synthesizer-alpha]: executing diffoscope
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.app-staging-synthesizer-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.app-staging-synthesizer-alpha-2.99.0a0.tar.gz tmp/aws-cdk.app-staging-synthesizer-alpha-2.99.1a0.tar.gz --markdown 20240530/a/aws-cdk.app-staging-synthesizer-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-05-30 06:17:38] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.93.tar.gz]
+[2024-05-30 06:17:38] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.94.tar.gz]
+[2024-05-30 06:17:38] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.aws-apprunner-alpha]: executing diffoscope
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.aws-apprunner-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-apprunner-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-apprunner-alpha-2.99.1a0.tar.gz --markdown 20240530/a/aws-cdk.aws-apprunner-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.aws-amplify-alpha]: executing diffoscope
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.aws-amplify-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-amplify-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-amplify-alpha-2.99.1a0.tar.gz --markdown 20240530/a/aws-cdk.aws-amplify-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.aws-appconfig-alpha]: executing diffoscope
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.aws-appconfig-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-appconfig-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-appconfig-alpha-2.99.1a0.tar.gz --markdown 20240530/a/aws-cdk.aws-appconfig-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.aws-cloud9-alpha]: executing diffoscope
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.aws-cloud9-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.aws-cloud9-alpha-2.99.0a0.tar.gz tmp/aws-cdk.aws-cloud9-alpha-2.99.1a0.tar.gz --markdown 20240530/a/aws-cdk.aws-cloud9-alpha/2.99.0a0-2.99.1a0/README.md --exclude *.pyd
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.app-staging-synthesizer-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.app-staging-synthesizer-alpha-2.99.0a0.tar.gz]
+[2024-05-30 06:17:38] INFO root fetch - processPackages [aws-cdk.app-staging-synthesizer-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.app-staging-synthesizer-alpha-2.99.1a0.tar.gz]
+[2024-05-30 06:17:38] INFO root fetch - main [MainThread]: End processing [aws-cdk.app-staging-synthesizer-alpha]: success
+[2024-05-30 06:17:39] INFO root fetch - processPackages [aws-cdk.aws-amplify-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-amplify-alpha-2.99.0a0.tar.gz]
+[2024-05-30 06:17:39] INFO root fetch - processPackages [aws-cdk.aws-amplify-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-amplify-alpha-2.99.1a0.tar.gz]
+[2024-05-30 06:17:39] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-amplify-alpha]: success
+[2024-05-30 06:17:39] INFO root fetch - processPackages [aws-cdk.aws-apprunner-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-apprunner-alpha-2.99.0a0.tar.gz]
+[2024-05-30 06:17:39] INFO root fetch - processPackages [aws-cdk.aws-apprunner-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-apprunner-alpha-2.99.1a0.tar.gz]
+[2024-05-30 06:17:39] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-apprunner-alpha]: success
+[2024-05-30 06:17:39] INFO root fetch - processPackages [aws-cdk.aws-appconfig-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-appconfig-alpha-2.99.0a0.tar.gz]
+[2024-05-30 06:17:39] INFO root fetch - processPackages [aws-cdk.aws-appconfig-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-appconfig-alpha-2.99.1a0.tar.gz]
+[2024-05-30 06:17:39] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-appconfig-alpha]: success
+[2024-05-30 06:17:39] INFO root fetch - processPackages [aws-cdk.aws-cloud9-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-cloud9-alpha-2.99.0a0.tar.gz]
+[2024-05-30 06:17:39] INFO root fetch - processPackages [aws-cdk.aws-cloud9-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.aws-cloud9-alpha-2.99.1a0.tar.gz]
+[2024-05-30 06:17:39] INFO root fetch - main [MainThread]: End processing [aws-cdk.aws-cloud9-alpha]: success
+[2024-05-30 06:17:39] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.8.0.tar.gz]
+[2024-05-30 06:17:39] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
+[2024-05-30 06:17:39] INFO root fetch - main [MainThread]: End processing [openai]: success
+[2024-05-30 06:17:39] INFO root fetch - main [MainThread]: Store serial: [23442095]
