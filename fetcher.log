@@ -12344,3 +12344,90 @@ EOFError: EOF read where object expected
 [2024-05-30 07:19:27] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240528181329-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-30 07:19:27] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
 [2024-05-30 07:19:27] INFO root fetch - main [MainThread]: Store serial: [23442581]
+[2024-05-30 07:21:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442581]
+[2024-05-30 07:21:41] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-30 07:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2024-05-30 07:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatllm
+[2024-05-30 07:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CI-CloudConnector
+[2024-05-30 07:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eppo-server-sdk
+[2024-05-30 07:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: molecular-interaction-rules
+[2024-05-30 07:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mouse-jiggler-macos
+[2024-05-30 07:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatllm
+[2024-05-30 07:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gwml
+[2024-05-30 07:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytrading212
+[2024-05-30 07:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-oxmsg
+[2024-05-30 07:21:41] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-30 07:21:41] INFO root fetch - processPackages [CI-CloudConnector]: New version: [0.96] Old Version: [0.95]
+[2024-05-30 07:21:41] INFO root fetch - processPackages [gwml]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 07:21:41] WARNING root fetch - processPackages [mouse-jiggler-macos]: Skipping, unable to determine old version
+[2024-05-30 07:21:41] INFO root fetch - processPackages [mouse-jiggler-macos]: Start processing: molecular-interaction-rules
+[2024-05-30 07:21:41] INFO root fetch - main [MainThread]: End processing [mouse-jiggler-macos] error
+[2024-05-30 07:21:41] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-30 07:21:41] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-30 07:21:41] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-30 07:21:41] INFO root fetch - processPackages [eppo-server-sdk]: New version: [3.1.0] Old Version: [3.0.3]
+[2024-05-30 07:21:41] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-30 07:21:41] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/74/b1/dd13d7aa61b546849dd957ac4f69f05dab5c14922cc210df942bd30f51ce/gwml-0.1.8-py3-none-any.whl
+[2024-05-30 07:21:41] WARNING root fetch - processPackages [python-oxmsg]: Skipping, unable to determine old version
+[2024-05-30 07:21:41] INFO root fetch - processPackages [python-oxmsg]: Start processing: bees-challenge
+[2024-05-30 07:21:41] INFO root fetch - main [MainThread]: End processing [python-oxmsg] error
+[2024-05-30 07:21:41] INFO root fetch - processPackages [pytrading212]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-30 07:21:41] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/6d/0a/48ccd3250166b80a38c3b4b4e9caafeda05a2fba08b9b1a03fe42e0f4ca7/molecular_interaction_rules-0.6.3.tar.gz
+[2024-05-30 07:21:41] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/ac/a9/870a870f97cf44824f4b278d94f75f44019d9b88ad385cedfd4eda7d5fe7/ci_cloudconnector-0.95.tar.gz
+[2024-05-30 07:21:42] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-30 07:21:42] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-30 07:21:42] WARNING root fetch - processPackages [bees-challenge]: Skipping, unable to determine old version
+[2024-05-30 07:21:42] INFO root fetch - main [MainThread]: End processing [bees-challenge] error
+[2024-05-30 07:21:42] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-30 07:21:42] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/6d/0a/48ccd3250166b80a38c3b4b4e9caafeda05a2fba08b9b1a03fe42e0f4ca7/molecular_interaction_rules-0.6.3.tar.gz
+[2024-05-30 07:21:42] INFO root fetch - processPackages [pytrading212]: Downloading https://files.pythonhosted.org/packages/a6/69/f7a095e270ee7ee92c8e6368765ba1204ca95955a998f2a1f58ad8c39824/pytrading212-0.2.7.tar.gz
+[2024-05-30 07:21:42] INFO root fetch - processPackages [eppo-server-sdk]: Downloading https://files.pythonhosted.org/packages/5a/d4/a60f38b902565ff95f7dbb5d0cd363ff383d04bc4a35cd83f438e887b654/eppo_server_sdk-3.0.3.tar.gz
+[2024-05-30 07:21:42] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/3a/0c/f8a96cba8e57cb826eafe85a9f3900402548c20e650346b5215cc9001e54/gwml-0.1.9-py3-none-any.whl
+[2024-05-30 07:21:42] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-30 07:21:42] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-30 07:21:42] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-30 07:21:42] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/ac/25/387edb5143d07a3c59623b04721ce8354c2419b63ed387f5d7326344a43b/molecular_interaction_rules-0.6.4.tar.gz
+[2024-05-30 07:21:42] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/02/54/1aa711beae952c9754d394956aa7589fc69f17a215f340275030299dd38e/ci_cloudconnector-0.96.tar.gz
+[2024-05-30 07:21:42] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/ac/25/387edb5143d07a3c59623b04721ce8354c2419b63ed387f5d7326344a43b/molecular_interaction_rules-0.6.4.tar.gz
+[2024-05-30 07:21:42] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-30 07:21:42] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.1.8-py3-none-any.whl.zip tmp/gwml-0.1.9-py3-none-any.whl.zip --markdown 20240530/g/gwml/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 07:21:42] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-30 07:21:42] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240530/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-30 07:21:42] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-30 07:21:42] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240530/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-30 07:21:42] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 07:21:42] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.6.3.tar.gz tmp/molecular_interaction_rules-0.6.4.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-30 07:21:42] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-30 07:21:42] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-0.95.tar.gz tmp/ci_cloudconnector-0.96.tar.gz --markdown 20240530/C/CI-CloudConnector/0.95-0.96/README.md --exclude *.pyd
+[2024-05-30 07:21:42] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-30 07:21:42] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240530/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-30 07:21:42] INFO root fetch - processPackages [pytrading212]: Downloading https://files.pythonhosted.org/packages/50/5d/dd28d94c169d6651ee2c5cb7e8e2ff43b6dadb82545be00bbe348010675d/pytrading212-0.2.8.tar.gz
+[2024-05-30 07:21:42] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 07:21:42] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.6.3.tar.gz tmp/molecular_interaction_rules-0.6.4.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-30 07:21:42] INFO root fetch - processPackages [eppo-server-sdk]: Downloading https://files.pythonhosted.org/packages/66/f3/2217bd47d385920dac48508e2d3f8a8a60c7f836be1a35534a00f1212a1c/eppo_server_sdk-3.1.0.tar.gz
+[2024-05-30 07:21:42] INFO root fetch - processPackages [eppo-server-sdk]: executing diffoscope
+[2024-05-30 07:21:42] INFO root fetch - processPackages [eppo-server-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eppo_server_sdk-3.0.3.tar.gz tmp/eppo_server_sdk-3.1.0.tar.gz --markdown 20240530/e/eppo-server-sdk/3.0.3-3.1.0/README.md --exclude *.pyd
+[2024-05-30 07:21:42] INFO root fetch - processPackages [pytrading212]: executing diffoscope
+[2024-05-30 07:21:42] INFO root fetch - processPackages [pytrading212]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrading212-0.2.7.tar.gz tmp/pytrading212-0.2.8.tar.gz --markdown 20240530/p/pytrading212/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-30 07:21:43] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.95.tar.gz]
+[2024-05-30 07:21:43] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.96.tar.gz]
+[2024-05-30 07:21:43] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-30 07:21:43] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.8-py3-none-any.whl.zip]
+[2024-05-30 07:21:43] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.9-py3-none-any.whl.zip]
+[2024-05-30 07:21:43] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-30 07:21:43] INFO root fetch - processPackages [eppo-server-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eppo_server_sdk-3.0.3.tar.gz]
+[2024-05-30 07:21:43] INFO root fetch - processPackages [eppo-server-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eppo_server_sdk-3.1.0.tar.gz]
+[2024-05-30 07:21:43] INFO root fetch - main [MainThread]: End processing [eppo-server-sdk]: success
+[2024-05-30 07:21:43] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.6.3.tar.gz]
+[2024-05-30 07:21:43] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.6.4.tar.gz]
+[2024-05-30 07:21:43] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 07:21:43] INFO root fetch - processPackages [pytrading212]: Remove: archive file [/home/abi/fetcher/tmp/pytrading212-0.2.7.tar.gz]
+[2024-05-30 07:21:43] INFO root fetch - processPackages [pytrading212]: Remove: archive file [/home/abi/fetcher/tmp/pytrading212-0.2.8.tar.gz]
+[2024-05-30 07:21:43] INFO root fetch - main [MainThread]: End processing [pytrading212]: success
+[2024-05-30 07:21:43] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 07:21:44] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-30 07:21:44] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-30 07:21:44] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-30 07:21:44] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-30 07:21:44] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-30 07:21:44] INFO root fetch - main [MainThread]: Store serial: [23442635]
