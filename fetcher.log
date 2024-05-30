@@ -21215,3 +21215,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:33:05] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.2.9.tar.gz]
 [2024-05-30 11:33:05] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
 [2024-05-30 11:33:05] INFO root fetch - main [MainThread]: Store serial: [23446242]
+[2024-05-30 11:35:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446242]
+[2024-05-30 11:35:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 11:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kclvm
+[2024-05-30 11:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-fnc
+[2024-05-30 11:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crawlee
+[2024-05-30 11:35:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aicli
+[2024-05-30 11:35:14] INFO root fetch - processPackages [kclvm]: New version: [0.9.0b1] Old Version: [0.8.5]
+[2024-05-30 11:35:14] INFO root fetch - processPackages [crawlee]: New version: [0.0.4b4] Old Version: [0.0.4b3]
+[2024-05-30 11:35:14] INFO root fetch - processPackages [aicli]: New version: [99.0.202405300848] Old Version: [99.0.202405260854]
+[2024-05-30 11:35:14] INFO root fetch - processPackages [kclvm]: Downloading https://files.pythonhosted.org/packages/b5/c9/740284672ecfd62b3d5cb95606c200c328320006b8f339f20fa7810869e0/kclvm-0.8.5.tar.gz
+[2024-05-30 11:35:14] WARNING root fetch - processPackages [easy-fnc]: Skipping, unable to determine old version
+[2024-05-30 11:35:14] INFO root fetch - main [MainThread]: End processing [easy-fnc] error
+[2024-05-30 11:35:14] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/b6/ab/6fc25a446500aea82f6ce281a0a1c46e751bf1cb801951e0919639816882/crawlee-0.0.4b3.tar.gz
+[2024-05-30 11:35:14] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/85/6c/ed407a5813ed177ba2e5bf3af7b5958a3206fdebf6ca50f70acf872c6f61/aicli-99.0.202405260854-py3-none-any.whl
+[2024-05-30 11:35:14] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/38/50/775795a3ae3da16c922c03f69d8c3ba5c7db3b57e933405caaa11d012604/aicli-99.0.202405300848-py3-none-any.whl
+[2024-05-30 11:35:14] INFO root fetch - processPackages [kclvm]: Downloading https://files.pythonhosted.org/packages/81/bd/2ff80c90cc1c72578d225672673173767bc64038a7cdc3093698c0219d1f/kclvm-0.9.0b1.tar.gz
+[2024-05-30 11:35:14] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2024-05-30 11:35:14] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202405260854-py3-none-any.whl.zip tmp/aicli-99.0.202405300848-py3-none-any.whl.zip --markdown 20240530/a/aicli/99.0.202405260854-99.0.202405300848/README.md --exclude *.pyd
+[2024-05-30 11:35:14] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/48/6f/4e69b9ba247e75e2d06ed0169d3f9ede2ae64af3a5a5f35a84081fe0ed82/crawlee-0.0.4b4.tar.gz
+[2024-05-30 11:35:14] INFO root fetch - processPackages [kclvm]: executing diffoscope
+[2024-05-30 11:35:14] INFO root fetch - processPackages [kclvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kclvm-0.8.5.tar.gz tmp/kclvm-0.9.0b1.tar.gz --markdown 20240530/k/kclvm/0.8.5-0.9.0b1/README.md --exclude *.pyd
+[2024-05-30 11:35:14] INFO root fetch - processPackages [crawlee]: executing diffoscope
+[2024-05-30 11:35:14] INFO root fetch - processPackages [crawlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlee-0.0.4b3.tar.gz tmp/crawlee-0.0.4b4.tar.gz --markdown 20240530/c/crawlee/0.0.4b3-0.0.4b4/README.md --exclude *.pyd
+[2024-05-30 11:35:15] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202405260854-py3-none-any.whl.zip]
+[2024-05-30 11:35:15] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202405300848-py3-none-any.whl.zip]
+[2024-05-30 11:35:15] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2024-05-30 11:35:15] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.4b3.tar.gz]
+[2024-05-30 11:35:15] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.4b4.tar.gz]
+[2024-05-30 11:35:15] INFO root fetch - main [MainThread]: End processing [crawlee]: success
+[2024-05-30 11:35:15] INFO root fetch - processPackages [kclvm]: Remove: archive file [/home/abi/fetcher/tmp/kclvm-0.8.5.tar.gz]
+[2024-05-30 11:35:15] INFO root fetch - processPackages [kclvm]: Remove: archive file [/home/abi/fetcher/tmp/kclvm-0.9.0b1.tar.gz]
+[2024-05-30 11:35:15] INFO root fetch - main [MainThread]: End processing [kclvm]: success
+[2024-05-30 11:35:15] INFO root fetch - main [MainThread]: Store serial: [23446254]
