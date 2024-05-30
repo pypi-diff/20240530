@@ -10662,3 +10662,58 @@ EOFError: EOF read where object expected
 [2024-05-30 06:04:21] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240529225110-py3-none-any.whl.zip]
 [2024-05-30 06:04:21] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2024-05-30 06:04:21] INFO root fetch - main [MainThread]: Store serial: [23441962]
+[2024-05-30 06:06:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441962]
+[2024-05-30 06:06:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 06:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yandexcloud
+[2024-05-30 06:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chromedriver-binary
+[2024-05-30 06:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromedriver-binary
+[2024-05-30 06:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anotify
+[2024-05-30 06:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: annoworkcli
+[2024-05-30 06:06:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: beets
+[2024-05-30 06:06:30] INFO root fetch - processPackages [anotify]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-05-30 06:06:30] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-30 06:06:30] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-30 06:06:30] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-30 06:06:30] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/ce/e7/4ff262c8f4d87dbe0f496d2c731d71941b3db9593f4547a8ee375e43cb5c/anotify-0.1.1.tar.gz
+[2024-05-30 06:06:30] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2024-05-30 06:06:30] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-30 06:06:30] INFO root fetch - processPackages [annoworkcli]: New version: [3.7.2] Old Version: [3.7.1]
+[2024-05-30 06:06:30] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-30 06:06:31] INFO root fetch - processPackages [beets]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-30 06:06:31] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-30 06:06:31] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-30 06:06:31] INFO root fetch - processPackages [annoworkcli]: Downloading https://files.pythonhosted.org/packages/46/d3/024f535bf272ffedf33bab95b9e36ad78ce11738ac5a82cc77aa2fc6d1f3/annoworkcli-3.7.1.tar.gz
+[2024-05-30 06:06:31] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/95/fa/44b60fab7734e19ee49191c5fccb804afcc0e991838352054ec752a3499f/anotify-0.1.3.tar.gz
+[2024-05-30 06:06:31] INFO root fetch - processPackages [beets]: Downloading https://files.pythonhosted.org/packages/28/88/9861e37ad40f01406ae32adf11739804b39fbcc5c613012a339515692d9c/beets-1.6.0.tar.gz
+[2024-05-30 06:06:31] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2024-05-30 06:06:31] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-30 06:06:31] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240530/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-30 06:06:31] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-30 06:06:31] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240530/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-30 06:06:31] INFO root fetch - processPackages [anotify]: executing diffoscope
+[2024-05-30 06:06:31] INFO root fetch - processPackages [anotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anotify-0.1.1.tar.gz tmp/anotify-0.1.3.tar.gz --markdown 20240530/a/anotify/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-05-30 06:06:31] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-05-30 06:06:31] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240530/y/yandexcloud/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-30 06:06:31] INFO root fetch - processPackages [annoworkcli]: Downloading https://files.pythonhosted.org/packages/bc/43/f986f568dcb0fb083e3104ee6ab77ab4b33c0d8231f3463a46de055e5bff/annoworkcli-3.7.2.tar.gz
+[2024-05-30 06:06:31] INFO root fetch - processPackages [annoworkcli]: executing diffoscope
+[2024-05-30 06:06:31] INFO root fetch - processPackages [annoworkcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annoworkcli-3.7.1.tar.gz tmp/annoworkcli-3.7.2.tar.gz --markdown 20240530/a/annoworkcli/3.7.1-3.7.2/README.md --exclude *.pyd
+[2024-05-30 06:06:31] INFO root fetch - processPackages [beets]: Downloading https://files.pythonhosted.org/packages/8e/29/8903e4a2269b360d0104b4551151eece9560875dc6d2945a3dcdd537dc53/beets-1.6.1.tar.gz
+[2024-05-30 06:06:31] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-30 06:06:31] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-30 06:06:31] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-30 06:06:32] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.1.1.tar.gz]
+[2024-05-30 06:06:32] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.1.3.tar.gz]
+[2024-05-30 06:06:32] INFO root fetch - main [MainThread]: End processing [anotify]: success
+[2024-05-30 06:06:32] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-30 06:06:32] INFO root fetch - processPackages [annoworkcli]: Remove: archive file [/home/abi/fetcher/tmp/annoworkcli-3.7.1.tar.gz]
+[2024-05-30 06:06:32] INFO root fetch - processPackages [annoworkcli]: Remove: archive file [/home/abi/fetcher/tmp/annoworkcli-3.7.2.tar.gz]
+[2024-05-30 06:06:32] INFO root fetch - main [MainThread]: End processing [annoworkcli]: success
+[2024-05-30 06:06:34] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2024-05-30 06:06:34] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2024-05-30 06:06:34] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-05-30 06:06:34] INFO root fetch - processPackages [beets]: executing diffoscope
+[2024-05-30 06:06:34] INFO root fetch - processPackages [beets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beets-1.6.0.tar.gz tmp/beets-1.6.1.tar.gz --markdown 20240530/b/beets/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-30 06:06:39] INFO root fetch - processPackages [beets]: Remove: archive file [/home/abi/fetcher/tmp/beets-1.6.0.tar.gz]
+[2024-05-30 06:06:39] INFO root fetch - processPackages [beets]: Remove: archive file [/home/abi/fetcher/tmp/beets-1.6.1.tar.gz]
+[2024-05-30 06:06:39] INFO root fetch - main [MainThread]: End processing [beets]: success
+[2024-05-30 06:06:39] INFO root fetch - main [MainThread]: Store serial: [23441975]
