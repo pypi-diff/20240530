@@ -16050,3 +16050,78 @@ EOFError: EOF read where object expected
 [2024-05-30 09:25:25] INFO root fetch - processPackages [aiortc]: Remove: archive file [/home/abi/fetcher/tmp/aiortc-1.8.0.tar.gz]
 [2024-05-30 09:25:25] INFO root fetch - main [MainThread]: End processing [aiortc]: success
 [2024-05-30 09:25:25] INFO root fetch - main [MainThread]: Store serial: [23444082]
+[2024-05-30 09:27:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444082]
+[2024-05-30 09:27:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 09:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bridgecrew
+[2024-05-30 09:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resmda
+[2024-05-30 09:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libreflow.extensions.anpo.export-illustrator
+[2024-05-30 09:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: groqon
+[2024-05-30 09:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-adapter-console
+[2024-05-30 09:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: upcloud-api
+[2024-05-30 09:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tuneapi
+[2024-05-30 09:27:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: injector-collections
+[2024-05-30 09:27:35] INFO root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-30 09:27:35] INFO root fetch - processPackages [resmda]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-30 09:27:35] INFO root fetch - processPackages [groqon]: New version: [0.1.81] Old Version: [0.1.8]
+[2024-05-30 09:27:35] INFO root fetch - processPackages [injector-collections]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 09:27:35] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.99] Old Version: [3.2.98]
+[2024-05-30 09:27:35] INFO root fetch - processPackages [upcloud-api]: New version: [2.6.0] Old Version: [2.5.1]
+[2024-05-30 09:27:35] INFO root fetch - processPackages [tuneapi]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-30 09:27:35] INFO root fetch - processPackages [nonebot-adapter-console]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-30 09:27:35] INFO root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: Downloading https://files.pythonhosted.org/packages/dd/1a/76172e07e60870565afb56cc9c4a4700d58d089eb3d2588e89542b27b156/libreflow_extensions_anpo_export_illustrator-1.0.2.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [resmda]: Downloading https://files.pythonhosted.org/packages/3f/26/b6e9cfebb0d70cd7777f3e2a3bf5d5ee6f1b15e0774738524322d12dc309/resmda-0.0.3.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/5e/b5/7cd86ab5bf038cd7943f580e675768a014b20cb33f33518059ce303b9c9d/bridgecrew-3.2.98.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/f8/02/f0580160a6092d9c0aee00c8d46d009d49a46f1956b270c2d8d976a21a98/groqon-0.1.8.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/ad/7c/b29e15bfd7e43c2c147c7a9c69d222f6a873c3604453608dcd107523c5d8/injector_collections-0.0.8.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [upcloud-api]: Downloading https://files.pythonhosted.org/packages/5d/ce/a7ab15b482e0efa1eff9b6ad8e1f943d41b26163c81fafbbb06bbca94b20/upcloud_api-2.5.1.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [nonebot-adapter-console]: Downloading https://files.pythonhosted.org/packages/0a/d3/e97835f453a582fd203e639ee1466236007178376ef622cdb563fe0634be/nonebot_adapter_console-0.5.0.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/b4/7c/c151dab5987e097c618b00ac04f4aaac90ca75fc96b8a86992c28ebfe044/tuneapi-0.4.1.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/8c/e2/de43e2e6c966fe98c0624abafa7f7374b59b424536aaa809a4d6a8fe4aa1/bridgecrew-3.2.99.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [resmda]: Downloading https://files.pythonhosted.org/packages/93/ed/c319860065856c1bbef433e3ae6a601defc41ebfacf625e59e4bec811d28/resmda-0.0.4.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/1e/fb/9164c6324cc31bc47dff9f9f7d19bdbb6fa2ada63e8442d3bd3364a24bf2/injector_collections-0.0.9.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/05/e9/65de1908eba587dafc09caf7291403b4b04cdddca6f84ddfdda45fcae8bc/groqon-0.1.81.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-30 09:27:35] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.98.tar.gz tmp/bridgecrew-3.2.99.tar.gz --markdown 20240530/b/bridgecrew/3.2.98-3.2.99/README.md --exclude *.pyd
+[2024-05-30 09:27:35] INFO root fetch - processPackages [injector-collections]: executing diffoscope
+[2024-05-30 09:27:35] INFO root fetch - processPackages [injector-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injector_collections-0.0.8.tar.gz tmp/injector_collections-0.0.9.tar.gz --markdown 20240530/i/injector-collections/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 09:27:35] INFO root fetch - processPackages [groqon]: executing diffoscope
+[2024-05-30 09:27:35] INFO root fetch - processPackages [groqon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groqon-0.1.8.tar.gz tmp/groqon-0.1.81.tar.gz --markdown 20240530/g/groqon/0.1.8-0.1.81/README.md --exclude *.pyd
+[2024-05-30 09:27:35] INFO root fetch - processPackages [resmda]: executing diffoscope
+[2024-05-30 09:27:35] INFO root fetch - processPackages [resmda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resmda-0.0.3.tar.gz tmp/resmda-0.0.4.tar.gz --markdown 20240530/r/resmda/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-30 09:27:35] INFO root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: Downloading https://files.pythonhosted.org/packages/98/43/8e3c8de05da10b645ee0c5659ad9b590aede657853c60a5b88e8a7457b0b/libreflow_extensions_anpo_export_illustrator-1.0.3.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [tuneapi]: Downloading https://files.pythonhosted.org/packages/08/a9/cf8ea5ebc0adc9c23db39f0815d9a377e04576d9dfd76d1ed8ef17537122/tuneapi-0.4.2.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [upcloud-api]: Downloading https://files.pythonhosted.org/packages/ea/57/417e84ac8d008424c46e4cefa161cf9b316b3d7a7c797a2d9d871c5c4455/upcloud_api-2.6.0.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [nonebot-adapter-console]: Downloading https://files.pythonhosted.org/packages/25/8d/e7abb677a5bc2c444a8dde1154a69a298f7b290b4b50600a2e568c9ca5ea/nonebot_adapter_console-0.6.0.tar.gz
+[2024-05-30 09:27:35] INFO root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: executing diffoscope
+[2024-05-30 09:27:35] INFO root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreflow_extensions_anpo_export_illustrator-1.0.2.tar.gz tmp/libreflow_extensions_anpo_export_illustrator-1.0.3.tar.gz --markdown 20240530/l/libreflow.extensions.anpo.export-illustrator/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-30 09:27:35] INFO root fetch - processPackages [tuneapi]: executing diffoscope
+[2024-05-30 09:27:35] INFO root fetch - processPackages [tuneapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneapi-0.4.1.tar.gz tmp/tuneapi-0.4.2.tar.gz --markdown 20240530/t/tuneapi/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-30 09:27:35] INFO root fetch - processPackages [nonebot-adapter-console]: executing diffoscope
+[2024-05-30 09:27:35] INFO root fetch - processPackages [nonebot-adapter-console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_console-0.5.0.tar.gz tmp/nonebot_adapter_console-0.6.0.tar.gz --markdown 20240530/n/nonebot-adapter-console/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-30 09:27:36] INFO root fetch - processPackages [upcloud-api]: executing diffoscope
+[2024-05-30 09:27:36] INFO root fetch - processPackages [upcloud-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upcloud_api-2.5.1.tar.gz tmp/upcloud_api-2.6.0.tar.gz --markdown 20240530/u/upcloud-api/2.5.1-2.6.0/README.md --exclude *.pyd
+[2024-05-30 09:27:36] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.98.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.99.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-30 09:27:36] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.8.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.9.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - main [MainThread]: End processing [injector-collections]: success
+[2024-05-30 09:27:36] INFO root fetch - processPackages [resmda]: Remove: archive file [/home/abi/fetcher/tmp/resmda-0.0.3.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - processPackages [resmda]: Remove: archive file [/home/abi/fetcher/tmp/resmda-0.0.4.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - main [MainThread]: End processing [resmda]: success
+[2024-05-30 09:27:36] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.8.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.81.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - main [MainThread]: End processing [groqon]: success
+[2024-05-30 09:27:36] INFO root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_extensions_anpo_export_illustrator-1.0.2.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_extensions_anpo_export_illustrator-1.0.3.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - main [MainThread]: End processing [libreflow.extensions.anpo.export-illustrator]: success
+[2024-05-30 09:27:36] INFO root fetch - processPackages [nonebot-adapter-console]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_console-0.5.0.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - processPackages [nonebot-adapter-console]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_console-0.6.0.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-console]: success
+[2024-05-30 09:27:36] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.4.1.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - processPackages [tuneapi]: Remove: archive file [/home/abi/fetcher/tmp/tuneapi-0.4.2.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - main [MainThread]: End processing [tuneapi]: success
+[2024-05-30 09:27:36] INFO root fetch - processPackages [upcloud-api]: Remove: archive file [/home/abi/fetcher/tmp/upcloud_api-2.5.1.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - processPackages [upcloud-api]: Remove: archive file [/home/abi/fetcher/tmp/upcloud_api-2.6.0.tar.gz]
+[2024-05-30 09:27:36] INFO root fetch - main [MainThread]: End processing [upcloud-api]: success
+[2024-05-30 09:27:36] INFO root fetch - main [MainThread]: Store serial: [23444124]
