@@ -9678,3 +9678,51 @@ EOFError: EOF read where object expected
 [2024-05-30 05:20:41] INFO root fetch - processPackages [graphemy]: Remove: archive file [/home/abi/fetcher/tmp/graphemy-1.0.1.tar.gz]
 [2024-05-30 05:20:41] INFO root fetch - main [MainThread]: End processing [graphemy]: success
 [2024-05-30 05:20:41] INFO root fetch - main [MainThread]: Store serial: [23441647]
+[2024-05-30 05:22:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441647]
+[2024-05-30 05:22:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 05:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mutt-html-reply
+[2024-05-30 05:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-helper
+[2024-05-30 05:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ares-ai
+[2024-05-30 05:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioturing-connector
+[2024-05-30 05:22:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatllm
+[2024-05-30 05:22:50] INFO root fetch - processPackages [ctrip-helper]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-30 05:22:50] INFO root fetch - processPackages [ares-ai]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-30 05:22:50] INFO root fetch - processPackages [mutt-html-reply]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-30 05:22:50] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/26/49/eb294bcce8dddddcdce5538a0826027f9b79ec12f72f928d30e6e88d9d1f/ctrip-helper-0.1.3.tar.gz
+[2024-05-30 05:22:50] INFO root fetch - processPackages [bioturing-connector]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-30 05:22:50] INFO root fetch - processPackages [mutt-html-reply]: Downloading https://files.pythonhosted.org/packages/56/98/261c8499dd37662e782e5cfb373e8803f4721ddd44fcf5ea4abc4ee7b233/mutt_html_reply-0.2.0.tar.gz
+[2024-05-30 05:22:50] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-30 05:22:50] INFO root fetch - processPackages [ares-ai]: Downloading https://files.pythonhosted.org/packages/e1/55/0bd3802738e116c9f9352c23aab579e3501f5e58bd927dbeb52fd97ee4d2/ares_ai-0.5.8.tar.gz
+[2024-05-30 05:22:50] INFO root fetch - processPackages [bioturing-connector]: Downloading https://files.pythonhosted.org/packages/69/fc/424cab58c3d94fdc1ac4dc8a1581e921e6f7468e57a4ee1216cd9b02730d/bioturing_connector-1.9.0.tar.gz
+[2024-05-30 05:22:50] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/51/aa/8407108fcd9a8d44ee998a8e48e1e78e9a01d671d31525ad87e6f2f74f2f/ctrip-helper-0.1.4.tar.gz
+[2024-05-30 05:22:50] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-30 05:22:50] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.1.3.tar.gz tmp/ctrip-helper-0.1.4.tar.gz --markdown 20240530/c/ctrip-helper/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-30 05:22:50] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-30 05:22:50] INFO root fetch - processPackages [mutt-html-reply]: Downloading https://files.pythonhosted.org/packages/3a/f1/dfb5b1dcddac457c122567f48025c7bb3b0ced93597fe00422fadb23dcbc/mutt_html_reply-0.3.0.tar.gz
+[2024-05-30 05:22:50] INFO root fetch - processPackages [bioturing-connector]: Downloading https://files.pythonhosted.org/packages/34/41/3ec499ff4ecfaf9b4db5cf28a8fe62732ecad4add549e40463c7382c1008/bioturing_connector-1.9.1.tar.gz
+[2024-05-30 05:22:51] INFO root fetch - processPackages [ares-ai]: Downloading https://files.pythonhosted.org/packages/cf/ae/e039a67d86b68fe82caafe83d195e3611db624a2b287d26cfcaa9dee286e/ares_ai-0.5.9.tar.gz
+[2024-05-30 05:22:51] INFO root fetch - processPackages [mutt-html-reply]: executing diffoscope
+[2024-05-30 05:22:51] INFO root fetch - processPackages [mutt-html-reply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutt_html_reply-0.2.0.tar.gz tmp/mutt_html_reply-0.3.0.tar.gz --markdown 20240530/m/mutt-html-reply/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-30 05:22:51] INFO root fetch - processPackages [bioturing-connector]: executing diffoscope
+[2024-05-30 05:22:51] INFO root fetch - processPackages [bioturing-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioturing_connector-1.9.0.tar.gz tmp/bioturing_connector-1.9.1.tar.gz --markdown 20240530/b/bioturing-connector/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-30 05:22:51] INFO root fetch - processPackages [ares-ai]: executing diffoscope
+[2024-05-30 05:22:51] INFO root fetch - processPackages [ares-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ares_ai-0.5.8.tar.gz tmp/ares_ai-0.5.9.tar.gz --markdown 20240530/a/ares-ai/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-30 05:22:51] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-30 05:22:51] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.1.3.tar.gz]
+[2024-05-30 05:22:51] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.1.4.tar.gz]
+[2024-05-30 05:22:51] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-30 05:22:51] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-30 05:22:51] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240530/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-30 05:22:51] INFO root fetch - processPackages [mutt-html-reply]: Remove: archive file [/home/abi/fetcher/tmp/mutt_html_reply-0.2.0.tar.gz]
+[2024-05-30 05:22:51] INFO root fetch - processPackages [mutt-html-reply]: Remove: archive file [/home/abi/fetcher/tmp/mutt_html_reply-0.3.0.tar.gz]
+[2024-05-30 05:22:51] INFO root fetch - main [MainThread]: End processing [mutt-html-reply]: success
+[2024-05-30 05:22:51] INFO root fetch - processPackages [bioturing-connector]: Remove: archive file [/home/abi/fetcher/tmp/bioturing_connector-1.9.0.tar.gz]
+[2024-05-30 05:22:51] INFO root fetch - processPackages [bioturing-connector]: Remove: archive file [/home/abi/fetcher/tmp/bioturing_connector-1.9.1.tar.gz]
+[2024-05-30 05:22:51] INFO root fetch - main [MainThread]: End processing [bioturing-connector]: success
+[2024-05-30 05:22:52] INFO root fetch - processPackages [ares-ai]: Remove: archive file [/home/abi/fetcher/tmp/ares_ai-0.5.8.tar.gz]
+[2024-05-30 05:22:52] INFO root fetch - processPackages [ares-ai]: Remove: archive file [/home/abi/fetcher/tmp/ares_ai-0.5.9.tar.gz]
+[2024-05-30 05:22:52] INFO root fetch - main [MainThread]: End processing [ares-ai]: success
+[2024-05-30 05:22:52] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-30 05:22:52] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-30 05:22:52] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-30 05:22:52] INFO root fetch - main [MainThread]: Store serial: [23441660]
