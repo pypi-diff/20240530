@@ -8366,3 +8366,34 @@ EOFError: EOF read where object expected
 [2024-05-30 04:00:40] INFO root fetch - processPackages [deeporigin]: Remove: archive file [/home/abi/fetcher/tmp/deeporigin-1.2.0.tar.gz]
 [2024-05-30 04:00:40] INFO root fetch - main [MainThread]: End processing [deeporigin]: success
 [2024-05-30 04:00:40] INFO root fetch - main [MainThread]: Store serial: [23441109]
+[2024-05-30 04:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441109]
+[2024-05-30 04:02:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 04:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libro
+[2024-05-30 04:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edx-completion
+[2024-05-30 04:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cc-report
+[2024-05-30 04:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-spacex-api
+[2024-05-30 04:02:48] INFO root fetch - processPackages [airbyte-source-spacex-api]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-30 04:02:48] INFO root fetch - processPackages [cc-report]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-30 04:02:48] INFO root fetch - processPackages [libro]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 04:02:48] INFO root fetch - processPackages [edx-completion]: New version: [4.6.1] Old Version: [4.6.0]
+[2024-05-30 04:02:49] INFO root fetch - processPackages [cc-report]: Downloading https://files.pythonhosted.org/packages/5e/bd/20b71bf4dab493aa22a89817b44c4063fbb6195c0b84fba6ca82c7e9d9eb/cc_report-0.0.3.tar.gz
+[2024-05-30 04:02:49] INFO root fetch - processPackages [airbyte-source-spacex-api]: Downloading https://files.pythonhosted.org/packages/37/f0/b80fe0813bb8789b9afa8a62e274520d7fbdd5f1427adb4dffeb6a17c642/airbyte_source_spacex_api-0.1.2.tar.gz
+[2024-05-30 04:02:49] INFO root fetch - processPackages [edx-completion]: Downloading https://files.pythonhosted.org/packages/71/3c/b801dfaf76b3f98565fa87efb90d3b993c6619a9d4e818ec341075fc516a/edx_completion-4.6.0.tar.gz
+[2024-05-30 04:02:49] INFO root fetch - processPackages [cc-report]: Downloading https://files.pythonhosted.org/packages/45/50/9bfaab3a7c2043ea7d28010cafab24e4fe909d9dbc698f1f993b99e30eba/cc_report-0.0.4.tar.gz
+[2024-05-30 04:02:49] INFO root fetch - processPackages [libro]: Downloading https://files.pythonhosted.org/packages/58/75/38bde0cdd5f5b39793da1759eb232c691392215cfde2e7c62dcc45cb4424/libro-0.1.9.tar.gz
+[2024-05-30 04:02:49] ERROR root fetch - processPackages [airbyte-source-spacex-api]: Unable to fetch info: No such project/version 'airbyte-source-spacex-api' 0.1.3
+[2024-05-30 04:02:49] INFO root fetch - main [MainThread]: End processing [airbyte-source-spacex-api] error
+[2024-05-30 04:02:49] INFO root fetch - processPackages [edx-completion]: Downloading https://files.pythonhosted.org/packages/64/1d/f32fa4aa605f53b1a82ba2f733a2d36627854fd9e08920628000a016ca58/edx_completion-4.6.1.tar.gz
+[2024-05-30 04:02:49] WARNING root fetch - processPackages [libro]: Skipping package: exceeds size limit 14870877>=10485760
+[2024-05-30 04:02:49] INFO root fetch - main [MainThread]: End processing [libro] error
+[2024-05-30 04:02:49] INFO root fetch - processPackages [cc-report]: executing diffoscope
+[2024-05-30 04:02:49] INFO root fetch - processPackages [cc-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_report-0.0.3.tar.gz tmp/cc_report-0.0.4.tar.gz --markdown 20240530/c/cc-report/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-30 04:02:49] INFO root fetch - processPackages [edx-completion]: executing diffoscope
+[2024-05-30 04:02:49] INFO root fetch - processPackages [edx-completion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx_completion-4.6.0.tar.gz tmp/edx_completion-4.6.1.tar.gz --markdown 20240530/e/edx-completion/4.6.0-4.6.1/README.md --exclude *.pyd
+[2024-05-30 04:02:50] INFO root fetch - processPackages [cc-report]: Remove: archive file [/home/abi/fetcher/tmp/cc_report-0.0.3.tar.gz]
+[2024-05-30 04:02:50] INFO root fetch - processPackages [cc-report]: Remove: archive file [/home/abi/fetcher/tmp/cc_report-0.0.4.tar.gz]
+[2024-05-30 04:02:50] INFO root fetch - main [MainThread]: End processing [cc-report]: success
+[2024-05-30 04:02:50] INFO root fetch - processPackages [edx-completion]: Remove: archive file [/home/abi/fetcher/tmp/edx_completion-4.6.0.tar.gz]
+[2024-05-30 04:02:50] INFO root fetch - processPackages [edx-completion]: Remove: archive file [/home/abi/fetcher/tmp/edx_completion-4.6.1.tar.gz]
+[2024-05-30 04:02:50] INFO root fetch - main [MainThread]: End processing [edx-completion]: success
+[2024-05-30 04:02:50] INFO root fetch - main [MainThread]: Store serial: [23441121]
