@@ -9108,3 +9108,29 @@ EOFError: EOF read where object expected
 [2024-05-30 04:48:45] INFO root fetch - processPackages [odoo-addon-account-netting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_netting-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2024-05-30 04:48:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-netting]: success
 [2024-05-30 04:48:45] INFO root fetch - main [MainThread]: Store serial: [23441447]
+[2024-05-30 04:50:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441447]
+[2024-05-30 04:50:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 04:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anotify
+[2024-05-30 04:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codeflash
+[2024-05-30 04:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qick
+[2024-05-30 04:50:55] INFO root fetch - processPackages [anotify]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 04:50:55] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/06/25/eaf1b0b816f699ddb8dcf17d1c5a7210b5ce54275f1134eff988a3f171ad/anotify-0.1.0.tar.gz
+[2024-05-30 04:50:55] INFO root fetch - processPackages [codeflash]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-30 04:50:55] INFO root fetch - processPackages [qick]: New version: [0.2.266] Old Version: [0.2.265]
+[2024-05-30 04:50:55] INFO root fetch - processPackages [anotify]: Downloading https://files.pythonhosted.org/packages/ce/e7/4ff262c8f4d87dbe0f496d2c731d71941b3db9593f4547a8ee375e43cb5c/anotify-0.1.1.tar.gz
+[2024-05-30 04:50:55] INFO root fetch - processPackages [codeflash]: Downloading https://files.pythonhosted.org/packages/57/fb/897d6815842cae93cb343a603f6ad088fd4966ae1cb54ea328fa49e8e0b0/codeflash-0.6.3.tar.gz
+[2024-05-30 04:50:55] INFO root fetch - processPackages [qick]: Downloading https://files.pythonhosted.org/packages/c3/74/c6a27ab888368a1d7866229c47fadd8e8a00753602ac353074f0abbafc80/qick-0.2.265.tar.gz
+[2024-05-30 04:50:55] WARNING root fetch - processPackages [qick]: Skipping package: exceeds size limit 16616950>=10485760
+[2024-05-30 04:50:55] INFO root fetch - main [MainThread]: End processing [qick] error
+[2024-05-30 04:50:55] INFO root fetch - processPackages [anotify]: executing diffoscope
+[2024-05-30 04:50:55] INFO root fetch - processPackages [anotify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anotify-0.1.0.tar.gz tmp/anotify-0.1.1.tar.gz --markdown 20240530/a/anotify/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 04:50:55] INFO root fetch - processPackages [codeflash]: Downloading https://files.pythonhosted.org/packages/b7/b6/1cb631321c1acfb90a19600f2b6d09e71383787b030ae04df31ca2432401/codeflash-0.6.4.tar.gz
+[2024-05-30 04:50:56] INFO root fetch - processPackages [codeflash]: executing diffoscope
+[2024-05-30 04:50:56] INFO root fetch - processPackages [codeflash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeflash-0.6.3.tar.gz tmp/codeflash-0.6.4.tar.gz --markdown 20240530/c/codeflash/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-30 04:50:56] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.1.0.tar.gz]
+[2024-05-30 04:50:56] INFO root fetch - processPackages [anotify]: Remove: archive file [/home/abi/fetcher/tmp/anotify-0.1.1.tar.gz]
+[2024-05-30 04:50:56] INFO root fetch - main [MainThread]: End processing [anotify]: success
+[2024-05-30 04:50:56] INFO root fetch - processPackages [codeflash]: Remove: archive file [/home/abi/fetcher/tmp/codeflash-0.6.3.tar.gz]
+[2024-05-30 04:50:56] INFO root fetch - processPackages [codeflash]: Remove: archive file [/home/abi/fetcher/tmp/codeflash-0.6.4.tar.gz]
+[2024-05-30 04:50:56] INFO root fetch - main [MainThread]: End processing [codeflash]: success
+[2024-05-30 04:50:56] INFO root fetch - main [MainThread]: Store serial: [23441456]
