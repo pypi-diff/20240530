@@ -2952,3 +2952,27 @@ EOFError: EOF read where object expected
 [2024-05-30 02:55:01] INFO root fetch - processPackages [gget]: Remove: archive file [/home/abi/fetcher/tmp/gget-0.3.9.tar.gz]
 [2024-05-30 02:55:01] INFO root fetch - main [MainThread]: End processing [gget]: success
 [2024-05-30 02:55:01] INFO root fetch - main [MainThread]: Store serial: [23439102]
+[2024-05-30 02:57:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439102]
+[2024-05-30 02:57:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 02:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Promcode
+[2024-05-30 02:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maestro-compose
+[2024-05-30 02:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2024-05-30 02:57:10] INFO root fetch - processPackages [maestro-compose]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 02:57:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-30 02:57:10] WARNING root fetch - processPackages [Promcode]: Skipping, unable to determine old version
+[2024-05-30 02:57:10] INFO root fetch - main [MainThread]: End processing [Promcode] error
+[2024-05-30 02:57:10] INFO root fetch - processPackages [maestro-compose]: Downloading https://files.pythonhosted.org/packages/ff/82/9c2d2868fdf7cac9871fe5f958c18f09261a8989f6a2d70d386e317d8010/maestro_compose-0.1.8.tar.gz
+[2024-05-30 02:57:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-30 02:57:10] INFO root fetch - processPackages [maestro-compose]: Downloading https://files.pythonhosted.org/packages/bd/07/4c9771472363808886d8ed353209df09d1e70e1e71484f308bf4fa225c88/maestro_compose-0.1.9.tar.gz
+[2024-05-30 02:57:10] INFO root fetch - processPackages [maestro-compose]: executing diffoscope
+[2024-05-30 02:57:10] INFO root fetch - processPackages [maestro-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maestro_compose-0.1.8.tar.gz tmp/maestro_compose-0.1.9.tar.gz --markdown 20240530/m/maestro-compose/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 02:57:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-30 02:57:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-30 02:57:10] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240530/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-30 02:57:11] INFO root fetch - processPackages [maestro-compose]: Remove: archive file [/home/abi/fetcher/tmp/maestro_compose-0.1.8.tar.gz]
+[2024-05-30 02:57:11] INFO root fetch - processPackages [maestro-compose]: Remove: archive file [/home/abi/fetcher/tmp/maestro_compose-0.1.9.tar.gz]
+[2024-05-30 02:57:11] INFO root fetch - main [MainThread]: End processing [maestro-compose]: success
+[2024-05-30 02:57:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-30 02:57:11] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-30 02:57:11] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-30 02:57:11] INFO root fetch - main [MainThread]: Store serial: [23439112]
