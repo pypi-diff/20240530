@@ -9134,3 +9134,15 @@ EOFError: EOF read where object expected
 [2024-05-30 04:50:56] INFO root fetch - processPackages [codeflash]: Remove: archive file [/home/abi/fetcher/tmp/codeflash-0.6.4.tar.gz]
 [2024-05-30 04:50:56] INFO root fetch - main [MainThread]: End processing [codeflash]: success
 [2024-05-30 04:50:56] INFO root fetch - main [MainThread]: Store serial: [23441456]
+[2024-05-30 04:53:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441456]
+[2024-05-30 04:53:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 04:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tccli
+[2024-05-30 04:53:05] INFO root fetch - processPackages [tccli]: New version: [3.0.999.1] Old Version: [3.0.998.1]
+[2024-05-30 04:53:05] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/4b/45/a3b0e2cc7f86f87ffa99bd6f833796de67aee82386f88a6d4a85073532e9/tccli-3.0.998.1.tar.gz
+[2024-05-30 04:53:06] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/06/41/78d3ee9b2ead17ab0876618d203995653100fb27e524f51810d16df1bc97/tccli-3.0.999.1.tar.gz
+[2024-05-30 04:53:07] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2024-05-30 04:53:07] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.998.1.tar.gz tmp/tccli-3.0.999.1.tar.gz --markdown 20240530/t/tccli/3.0.998.1-3.0.999.1/README.md --exclude *.pyd
+[2024-05-30 04:54:25] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.998.1.tar.gz]
+[2024-05-30 04:54:25] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.999.1.tar.gz]
+[2024-05-30 04:54:25] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2024-05-30 04:54:25] INFO root fetch - main [MainThread]: Store serial: [23441459]
