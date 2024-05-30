@@ -9543,3 +9543,69 @@ EOFError: EOF read where object expected
 [2024-05-30 05:14:07] INFO root fetch - processPackages [aqtp]: Remove: archive file [/home/abi/fetcher/tmp/aqtp-0.7.4.tar.gz]
 [2024-05-30 05:14:07] INFO root fetch - main [MainThread]: End processing [aqtp]: success
 [2024-05-30 05:14:07] INFO root fetch - main [MainThread]: Store serial: [23441608]
+[2024-05-30 05:16:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441608]
+[2024-05-30 05:16:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rattail
+[2024-05-30 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazy-schema
+[2024-05-30 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-indices-managed-vectara
+[2024-05-30 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydra-mrtrix3
+[2024-05-30 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-cv-nightly
+[2024-05-30 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-index-readers-gcs
+[2024-05-30 05:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Tailbone
+[2024-05-30 05:16:17] INFO root fetch - processPackages [pydra-mrtrix3]: New version: [3.0.4a4] Old Version: [3.0.3a1]
+[2024-05-30 05:16:17] INFO root fetch - processPackages [Tailbone]: New version: [0.9.96] Old Version: [0.9.95]
+[2024-05-30 05:16:17] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-30 05:16:17] INFO root fetch - processPackages [lazy-schema]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-30 05:16:17] INFO root fetch - processPackages [llama-index-readers-gcs]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-30 05:16:17] INFO root fetch - processPackages [pydra-mrtrix3]: Downloading https://files.pythonhosted.org/packages/08/f3/b50d52f94563bafdc1d2159e4aa0dc4fb1de260575df6c1c3e83b713732c/pydra_mrtrix3-3.0.3a1.tar.gz
+[2024-05-30 05:16:17] INFO root fetch - processPackages [llama-index-indices-managed-vectara]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-30 05:16:17] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-30 05:16:17] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/8a/ab/1d0b66effa702be7aef6de038a0b9a0727d9d4053df5c56aa1ee5b1d9b45/rattail-0.9.98.tar.gz
+[2024-05-30 05:16:17] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d3/f5/6281835322a9736c1e981d64eaedbd9719a7822f9b959938a9e431dfae22/tailbone-0.9.95.tar.gz
+[2024-05-30 05:16:17] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/16/db/1ba8d39cc15ba3dd08837e0080efe72738d1b5c1a83506b5e5e1fa3df3f4/lazy_schema-0.3.0.tar.gz
+[2024-05-30 05:16:17] INFO root fetch - processPackages [llama-index-indices-managed-vectara]: Downloading https://files.pythonhosted.org/packages/ea/09/765126b045dc007c6826ff1dd4ac38a9d100817dba72060f30bf734f4ba7/llama_index_indices_managed_vectara-0.1.4.tar.gz
+[2024-05-30 05:16:17] INFO root fetch - processPackages [llama-index-readers-gcs]: Downloading https://files.pythonhosted.org/packages/3e/5b/8f07356d0f40693e641100d7560ceb081248a76ce723a21078ba58fd6fdf/llama_index_readers_gcs-0.1.6.tar.gz
+[2024-05-30 05:16:17] INFO root fetch - processPackages [pydra-mrtrix3]: Downloading https://files.pythonhosted.org/packages/54/1d/dd31e2832b1608ee109bd325b1aa6749a13b7a3423f44d6d0d859c8d1ab4/pydra_mrtrix3-3.0.4a4.tar.gz
+[2024-05-30 05:16:17] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-30 05:16:18] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/1e/c3/79e6d80f4a830a425f80fae7cf7f242293341bfd63e5d6f25421dfd44465/rattail-0.9.99.tar.gz
+[2024-05-30 05:16:18] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/40/48/d068d15e5c14b9048d5ffad6867d9353d33adf32a71b13b2a439ef5bdb17/tailbone-0.9.96.tar.gz
+[2024-05-30 05:16:18] INFO root fetch - processPackages [pydra-mrtrix3]: executing diffoscope
+[2024-05-30 05:16:18] INFO root fetch - processPackages [pydra-mrtrix3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydra_mrtrix3-3.0.3a1.tar.gz tmp/pydra_mrtrix3-3.0.4a4.tar.gz --markdown 20240530/p/pydra-mrtrix3/3.0.3a1-3.0.4a4/README.md --exclude *.pyd
+[2024-05-30 05:16:18] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/51/4b/dba5a3b6f36cfe826e2b1c5861603399df4e365c29d01ac313c191ec4c61/lazy_schema-0.3.1.tar.gz
+[2024-05-30 05:16:18] INFO root fetch - processPackages [llama-index-indices-managed-vectara]: Downloading https://files.pythonhosted.org/packages/2d/e2/6b58918332a2a2db538a77a699de84fdf0892cf8566230e3a17d76e13d15/llama_index_indices_managed_vectara-0.1.5.tar.gz
+[2024-05-30 05:16:18] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2024-05-30 05:16:18] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20240530/r/rattail/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-30 05:16:18] INFO root fetch - processPackages [llama-index-readers-gcs]: Downloading https://files.pythonhosted.org/packages/26/98/1c475aeac0171852c68a0f696730d10c8511d79d57dde4ad1dc3f02ed497/llama_index_readers_gcs-0.1.7.tar.gz
+[2024-05-30 05:16:18] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2024-05-30 05:16:18] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailbone-0.9.95.tar.gz tmp/tailbone-0.9.96.tar.gz --markdown 20240530/T/Tailbone/0.9.95-0.9.96/README.md --exclude *.pyd
+[2024-05-30 05:16:18] INFO root fetch - processPackages [lazy-schema]: executing diffoscope
+[2024-05-30 05:16:18] INFO root fetch - processPackages [lazy-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_schema-0.3.0.tar.gz tmp/lazy_schema-0.3.1.tar.gz --markdown 20240530/l/lazy-schema/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-30 05:16:18] INFO root fetch - processPackages [llama-index-indices-managed-vectara]: executing diffoscope
+[2024-05-30 05:16:18] INFO root fetch - processPackages [llama-index-indices-managed-vectara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_indices_managed_vectara-0.1.4.tar.gz tmp/llama_index_indices_managed_vectara-0.1.5.tar.gz --markdown 20240530/l/llama-index-indices-managed-vectara/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-30 05:16:18] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-30 05:16:18] INFO root fetch - processPackages [llama-index-readers-gcs]: executing diffoscope
+[2024-05-30 05:16:18] INFO root fetch - processPackages [llama-index-readers-gcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_readers_gcs-0.1.6.tar.gz tmp/llama_index_readers_gcs-0.1.7.tar.gz --markdown 20240530/l/llama-index-readers-gcs/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-30 05:16:18] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-30 05:16:18] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240530/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-30 05:16:18] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.3.0.tar.gz]
+[2024-05-30 05:16:18] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.3.1.tar.gz]
+[2024-05-30 05:16:18] INFO root fetch - main [MainThread]: End processing [lazy-schema]: success
+[2024-05-30 05:16:19] INFO root fetch - processPackages [llama-index-indices-managed-vectara]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_indices_managed_vectara-0.1.4.tar.gz]
+[2024-05-30 05:16:19] INFO root fetch - processPackages [llama-index-indices-managed-vectara]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_indices_managed_vectara-0.1.5.tar.gz]
+[2024-05-30 05:16:19] INFO root fetch - main [MainThread]: End processing [llama-index-indices-managed-vectara]: success
+[2024-05-30 05:16:19] INFO root fetch - processPackages [llama-index-readers-gcs]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_gcs-0.1.6.tar.gz]
+[2024-05-30 05:16:19] INFO root fetch - processPackages [llama-index-readers-gcs]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_gcs-0.1.7.tar.gz]
+[2024-05-30 05:16:19] INFO root fetch - main [MainThread]: End processing [llama-index-readers-gcs]: success
+[2024-05-30 05:16:19] INFO root fetch - processPackages [pydra-mrtrix3]: Remove: archive file [/home/abi/fetcher/tmp/pydra_mrtrix3-3.0.3a1.tar.gz]
+[2024-05-30 05:16:19] INFO root fetch - processPackages [pydra-mrtrix3]: Remove: archive file [/home/abi/fetcher/tmp/pydra_mrtrix3-3.0.4a4.tar.gz]
+[2024-05-30 05:16:19] INFO root fetch - main [MainThread]: End processing [pydra-mrtrix3]: success
+[2024-05-30 05:16:20] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.98.tar.gz]
+[2024-05-30 05:16:20] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.99.tar.gz]
+[2024-05-30 05:16:20] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2024-05-30 05:16:20] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-30 05:16:20] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-30 05:16:20] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-30 05:16:20] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-0.9.95.tar.gz]
+[2024-05-30 05:16:20] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-0.9.96.tar.gz]
+[2024-05-30 05:16:20] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2024-05-30 05:16:20] INFO root fetch - main [MainThread]: Store serial: [23441627]
