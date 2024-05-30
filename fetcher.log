@@ -15021,3 +15021,92 @@ EOFError: EOF read where object expected
 [2024-05-30 08:41:16] INFO root fetch - processPackages [finalcif]: Remove: archive file [/home/abi/fetcher/tmp/finalcif-138.tar.gz]
 [2024-05-30 08:41:16] INFO root fetch - main [MainThread]: End processing [finalcif]: success
 [2024-05-30 08:41:16] INFO root fetch - main [MainThread]: Store serial: [23443659]
+[2024-05-30 08:43:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443659]
+[2024-05-30 08:43:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-30 08:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: olive-ai
+[2024-05-30 08:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gwml
+[2024-05-30 08:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msg91
+[2024-05-30 08:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-prashant
+[2024-05-30 08:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dtfilterthumbor
+[2024-05-30 08:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: YWP
+[2024-05-30 08:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybind11-weaver
+[2024-05-30 08:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dingosdk
+[2024-05-30 08:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: danila-lib
+[2024-05-30 08:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: expmiband2
+[2024-05-30 08:43:26] INFO root fetch - processPackages [olive-ai]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-30 08:43:26] INFO root fetch - processPackages [gwml]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 08:43:26] INFO root fetch - processPackages [dtfilterthumbor]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-30 08:43:26] INFO root fetch - processPackages [expmiband2]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 08:43:26] WARNING root fetch - processPackages [msg91]: Skipping, unable to determine old version
+[2024-05-30 08:43:26] INFO root fetch - processPackages [msg91]: Start processing: pywise
+[2024-05-30 08:43:26] INFO root fetch - main [MainThread]: End processing [msg91] error
+[2024-05-30 08:43:26] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/74/b1/dd13d7aa61b546849dd957ac4f69f05dab5c14922cc210df942bd30f51ce/gwml-0.1.8-py3-none-any.whl
+[2024-05-30 08:43:26] WARNING root fetch - processPackages [test-prashant]: Skipping, unable to determine old version
+[2024-05-30 08:43:26] INFO root fetch - processPackages [test-prashant]: Start processing: synthetic-home
+[2024-05-30 08:43:26] INFO root fetch - main [MainThread]: End processing [test-prashant] error
+[2024-05-30 08:43:26] INFO root fetch - processPackages [pybind11-weaver]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-30 08:43:26] INFO root fetch - processPackages [dtfilterthumbor]: Downloading https://files.pythonhosted.org/packages/2d/b9/b1491c4ea7f7a9bf0f613037bdf31cc58a41a5167c9f4a9282d022218f39/dtfilterthumbor-1.0.5.tar.gz
+[2024-05-30 08:43:26] WARNING root fetch - processPackages [YWP]: Skipping, unable to determine old version
+[2024-05-30 08:43:26] INFO root fetch - main [MainThread]: End processing [YWP] error
+[2024-05-30 08:43:26] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc9] Old Version: [0.1rc8.post1]
+[2024-05-30 08:43:26] INFO root fetch - processPackages [danila-lib]: New version: [1.8.4] Old Version: [1.8.3]
+[2024-05-30 08:43:26] INFO root fetch - processPackages [synthetic-home]: New version: [2.6.0] Old Version: [2.5.1]
+[2024-05-30 08:43:26] INFO root fetch - processPackages [pywise]: New version: [0.6.0] Old Version: [0.4.0]
+[2024-05-30 08:43:26] INFO root fetch - processPackages [olive-ai]: Downloading https://files.pythonhosted.org/packages/67/be/d1cebf003089f725ce20dae835787c7c0ffe7159be078c153dbcb7ac9e0a/olive_ai-0.5.2-py3-none-any.whl
+[2024-05-30 08:43:26] INFO root fetch - processPackages [synthetic-home]: Downloading https://files.pythonhosted.org/packages/6d/79/1fd3e5e744656ef1d46cba8b2f2a4b52d83a68ac6a8cd8f732ea45fdf77f/synthetic_home-2.5.1.tar.gz
+[2024-05-30 08:43:27] INFO root fetch - processPackages [expmiband2]: Downloading https://files.pythonhosted.org/packages/e6/ba/2b8f3595c38172c5ee8fe1ccb264f175ec9699e8323f062b5ed934caa8dd/expmiband2-0.1.0.tar.gz
+[2024-05-30 08:43:27] INFO root fetch - processPackages [pybind11-weaver]: Downloading https://files.pythonhosted.org/packages/40/88/378138bfcb2efd7b752dfee2a8dec03bdb3a5cbe8f94c4d9f15b1c39ef6e/pybind11_weaver-0.1.2.tar.gz
+[2024-05-30 08:43:27] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/3a/0c/f8a96cba8e57cb826eafe85a9f3900402548c20e650346b5215cc9001e54/gwml-0.1.9-py3-none-any.whl
+[2024-05-30 08:43:27] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/7b/10/2c6bb88645e870b167392150b76711fb4823aa921ee4bc314ba468f0d5dd/dingosdk-0.1rc8.post1.tar.gz
+[2024-05-30 08:43:27] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/9e/e3/20f63868c3c8c8c3ad04c17104cab9fb1492a94806644115dae0e160eb0c/danila-lib-1.8.3.tar.gz
+[2024-05-30 08:43:27] INFO root fetch - processPackages [pywise]: Downloading https://files.pythonhosted.org/packages/62/61/1209c4713732779e4875dff9d6c86e2be39a7f4ba7480f1262625cdbfe87/pywise-0.4.0.tar.gz
+[2024-05-30 08:43:27] INFO root fetch - processPackages [dtfilterthumbor]: Downloading https://files.pythonhosted.org/packages/ae/c6/a5d537078bddc2fe7cc62902954110ad058837e9e56f7e7aab52ed7c8090/dtfilterthumbor-1.0.6.tar.gz
+[2024-05-30 08:43:27] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 63305453>=10485760
+[2024-05-30 08:43:27] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-30 08:43:27] INFO root fetch - processPackages [synthetic-home]: Downloading https://files.pythonhosted.org/packages/57/f9/f29ee4eeda1ac19f231a1d2ef3466405d0c511824c34605aad2f3d47ed2f/synthetic_home-2.6.0.tar.gz
+[2024-05-30 08:43:27] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-30 08:43:27] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.1.8-py3-none-any.whl.zip tmp/gwml-0.1.9-py3-none-any.whl.zip --markdown 20240530/g/gwml/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 08:43:27] INFO root fetch - processPackages [dtfilterthumbor]: executing diffoscope
+[2024-05-30 08:43:27] INFO root fetch - processPackages [dtfilterthumbor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfilterthumbor-1.0.5.tar.gz tmp/dtfilterthumbor-1.0.6.tar.gz --markdown 20240530/d/dtfilterthumbor/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-30 08:43:27] INFO root fetch - processPackages [synthetic-home]: executing diffoscope
+[2024-05-30 08:43:27] INFO root fetch - processPackages [synthetic-home]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthetic_home-2.5.1.tar.gz tmp/synthetic_home-2.6.0.tar.gz --markdown 20240530/s/synthetic-home/2.5.1-2.6.0/README.md --exclude *.pyd
+[2024-05-30 08:43:27] INFO root fetch - processPackages [expmiband2]: Downloading https://files.pythonhosted.org/packages/6d/24/e752d1d885bfc7c88a058f0a789735c5b9a53264e93d7b411b029d037301/expmiband2-0.1.1.tar.gz
+[2024-05-30 08:43:27] INFO root fetch - processPackages [olive-ai]: Downloading https://files.pythonhosted.org/packages/21/7e/a2e4bd3763ad0c78fdbdc144f84c051115f76421d7783b4072e9b5aefea1/olive_ai-0.6.0-py3-none-any.whl
+[2024-05-30 08:43:27] INFO root fetch - processPackages [pybind11-weaver]: Downloading https://files.pythonhosted.org/packages/b9/7f/580a6265d2310e459f9316935a0ef5629cc7a85462eb872452c7f5f2e5df/pybind11_weaver-0.1.3.tar.gz
+[2024-05-30 08:43:27] INFO root fetch - processPackages [expmiband2]: executing diffoscope
+[2024-05-30 08:43:27] INFO root fetch - processPackages [expmiband2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expmiband2-0.1.0.tar.gz tmp/expmiband2-0.1.1.tar.gz --markdown 20240530/e/expmiband2/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 08:43:27] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/c5/39/757bca22a449630c4f1b8cadcfa0a32f2b456e0267df3788f99d7d27ed0d/danila-lib-1.8.4.tar.gz
+[2024-05-30 08:43:27] INFO root fetch - processPackages [olive-ai]: executing diffoscope
+[2024-05-30 08:43:27] INFO root fetch - processPackages [olive-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olive_ai-0.5.2-py3-none-any.whl.zip tmp/olive_ai-0.6.0-py3-none-any.whl.zip --markdown 20240530/o/olive-ai/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-05-30 08:43:27] INFO root fetch - processPackages [pywise]: Downloading https://files.pythonhosted.org/packages/3d/05/5a78dc1f047fe2738cb2dfe1b9e2cb451616f5edb775cfa24ae1d32af835/pywise-0.6.0.tar.gz
+[2024-05-30 08:43:27] INFO root fetch - processPackages [pybind11-weaver]: executing diffoscope
+[2024-05-30 08:43:27] INFO root fetch - processPackages [pybind11-weaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybind11_weaver-0.1.2.tar.gz tmp/pybind11_weaver-0.1.3.tar.gz --markdown 20240530/p/pybind11-weaver/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-30 08:43:27] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-30 08:43:27] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.8.3.tar.gz tmp/danila-lib-1.8.4.tar.gz --markdown 20240530/d/danila-lib/1.8.3-1.8.4/README.md --exclude *.pyd
+[2024-05-30 08:43:27] INFO root fetch - processPackages [pywise]: executing diffoscope
+[2024-05-30 08:43:27] INFO root fetch - processPackages [pywise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywise-0.4.0.tar.gz tmp/pywise-0.6.0.tar.gz --markdown 20240530/p/pywise/0.4.0-0.6.0/README.md --exclude *.pyd
+[2024-05-30 08:43:28] INFO root fetch - processPackages [dtfilterthumbor]: Remove: archive file [/home/abi/fetcher/tmp/dtfilterthumbor-1.0.5.tar.gz]
+[2024-05-30 08:43:28] INFO root fetch - processPackages [dtfilterthumbor]: Remove: archive file [/home/abi/fetcher/tmp/dtfilterthumbor-1.0.6.tar.gz]
+[2024-05-30 08:43:28] INFO root fetch - main [MainThread]: End processing [dtfilterthumbor]: success
+[2024-05-30 08:43:28] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.8-py3-none-any.whl.zip]
+[2024-05-30 08:43:28] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.9-py3-none-any.whl.zip]
+[2024-05-30 08:43:28] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-30 08:43:28] INFO root fetch - processPackages [synthetic-home]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_home-2.5.1.tar.gz]
+[2024-05-30 08:43:28] INFO root fetch - processPackages [synthetic-home]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_home-2.6.0.tar.gz]
+[2024-05-30 08:43:28] INFO root fetch - main [MainThread]: End processing [synthetic-home]: success
+[2024-05-30 08:43:28] INFO root fetch - processPackages [expmiband2]: Remove: archive file [/home/abi/fetcher/tmp/expmiband2-0.1.0.tar.gz]
+[2024-05-30 08:43:28] INFO root fetch - processPackages [expmiband2]: Remove: archive file [/home/abi/fetcher/tmp/expmiband2-0.1.1.tar.gz]
+[2024-05-30 08:43:28] INFO root fetch - main [MainThread]: End processing [expmiband2]: success
+[2024-05-30 08:43:28] INFO root fetch - processPackages [pywise]: Remove: archive file [/home/abi/fetcher/tmp/pywise-0.4.0.tar.gz]
+[2024-05-30 08:43:28] INFO root fetch - processPackages [pywise]: Remove: archive file [/home/abi/fetcher/tmp/pywise-0.6.0.tar.gz]
+[2024-05-30 08:43:28] INFO root fetch - main [MainThread]: End processing [pywise]: success
+[2024-05-30 08:43:28] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.8.3.tar.gz]
+[2024-05-30 08:43:28] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.8.4.tar.gz]
+[2024-05-30 08:43:28] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-30 08:43:28] INFO root fetch - processPackages [pybind11-weaver]: Remove: archive file [/home/abi/fetcher/tmp/pybind11_weaver-0.1.2.tar.gz]
+[2024-05-30 08:43:28] INFO root fetch - processPackages [pybind11-weaver]: Remove: archive file [/home/abi/fetcher/tmp/pybind11_weaver-0.1.3.tar.gz]
+[2024-05-30 08:43:28] INFO root fetch - main [MainThread]: End processing [pybind11-weaver]: success
+[2024-05-30 08:43:29] INFO root fetch - processPackages [olive-ai]: Remove: archive file [/home/abi/fetcher/tmp/olive_ai-0.5.2-py3-none-any.whl.zip]
+[2024-05-30 08:43:29] INFO root fetch - processPackages [olive-ai]: Remove: archive file [/home/abi/fetcher/tmp/olive_ai-0.6.0-py3-none-any.whl.zip]
+[2024-05-30 08:43:29] INFO root fetch - main [MainThread]: End processing [olive-ai]: success
+[2024-05-30 08:43:29] INFO root fetch - main [MainThread]: Store serial: [23443697]
