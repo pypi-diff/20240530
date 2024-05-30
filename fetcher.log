@@ -8677,3 +8677,99 @@ EOFError: EOF read where object expected
 [2024-05-30 04:24:34] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.8.1.tar.gz]
 [2024-05-30 04:24:34] INFO root fetch - main [MainThread]: End processing [fileformats-medimage]: success
 [2024-05-30 04:24:34] INFO root fetch - main [MainThread]: Store serial: [23441227]
+[2024-05-30 04:26:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441227]
+[2024-05-30 04:26:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-30 04:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-reportlab
+[2024-05-30 04:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-helper
+[2024-05-30 04:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sapientml-core
+[2024-05-30 04:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yoto-api
+[2024-05-30 04:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mpc-obscodes
+[2024-05-30 04:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: casbin-sqlalchemy-adapter
+[2024-05-30 04:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py-dbchat
+[2024-05-30 04:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llama-index-vector-stores-lancedb
+[2024-05-30 04:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wfstructlog
+[2024-05-30 04:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iam-actions
+[2024-05-30 04:26:43] INFO root fetch - processPackages [types-reportlab]: New version: [4.2.0.20240530] Old Version: [4.2.0.20240525]
+[2024-05-30 04:26:43] INFO root fetch - processPackages [ctrip-helper]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-30 04:26:43] WARNING root fetch - processPackages [wfstructlog]: Skipping, unable to determine old version
+[2024-05-30 04:26:43] INFO root fetch - processPackages [wfstructlog]: Start processing: naif-eop-high-prec
+[2024-05-30 04:26:43] INFO root fetch - main [MainThread]: End processing [wfstructlog] error
+[2024-05-30 04:26:43] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-30 04:26:43] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-05-30 04:26:43] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240529] Old Version: [1.2.20240528]
+[2024-05-30 04:26:43] INFO root fetch - processPackages [mpc-obscodes]: New version: [2024.5.4] Old Version: [2024.5.30]
+[2024-05-30 04:26:43] INFO root fetch - processPackages [types-reportlab]: Downloading https://files.pythonhosted.org/packages/69/68/e4231cf024fe61804b7194fbcff3cd5b91afd3e7dea125312c26a470acb0/types-reportlab-4.2.0.20240525.tar.gz
+[2024-05-30 04:26:43] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2024.5.29] Old Version: [2024.5.28]
+[2024-05-30 04:26:43] INFO root fetch - processPackages [casbin-sqlalchemy-adapter]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-30 04:26:43] INFO root fetch - processPackages [llama-index-vector-stores-lancedb]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-30 04:26:43] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/f6/18/1775d2217b34cf20972da457954b07826f8eee83addaf30cb9f9e56acda7/py_dbchat-0.0.2rc98.post1.tar.gz
+[2024-05-30 04:26:43] INFO root fetch - processPackages [sapientml-core]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-30 04:26:43] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/ce/5c/4e5cde19779e40a4b862c276e266f80aeb670bfcebb6a2bfbe903bd97471/ctrip-helper-0.1.1.tar.gz
+[2024-05-30 04:26:43] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-30 04:26:43] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/37/6b/3caaa4c7a6580de77f3a510822afb69d9c1972a1b57a79535518742a8b5b/iam_actions-1.2.20240528.tar.gz
+[2024-05-30 04:26:43] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/2e/2c/5f144f2028cc4992755289dea577dcb317a0c5b4b8c2af75b7e7459b44bb/naif_eop_high_prec-2024.5.28.tar.gz
+[2024-05-30 04:26:43] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/33/8e/cdb9b42c640be15b20619a2dacbb0bd57d0004bcfc89bd57127dcf1f40fd/mpc_obscodes-2024.5.30.tar.gz
+[2024-05-30 04:26:43] INFO root fetch - processPackages [sapientml-core]: Downloading https://files.pythonhosted.org/packages/45/b4/905e6daa3f3a8840917e9cbe0e2c22c05b125d068f13e2d12289af3f35a3/sapientml_core-0.5.5.tar.gz
+[2024-05-30 04:26:44] INFO root fetch - processPackages [casbin-sqlalchemy-adapter]: Downloading https://files.pythonhosted.org/packages/12/b3/6a433d867b97c0b468faed9d6ff45c2ab1346a880f527e326a8827e0456f/casbin_sqlalchemy_adapter-1.1.0.tar.gz
+[2024-05-30 04:26:44] INFO root fetch - processPackages [types-reportlab]: Downloading https://files.pythonhosted.org/packages/d2/ab/39abc1476ffa78d69c09ec0182b33413a9a7f50ac40b2065ea04eb9de1eb/types-reportlab-4.2.0.20240530.tar.gz
+[2024-05-30 04:26:44] INFO root fetch - processPackages [llama-index-vector-stores-lancedb]: Downloading https://files.pythonhosted.org/packages/87/13/fe80155a3d05c0f21b8d7d1cf6d48b83e500111cc4152d9f5888eb632c2f/llama_index_vector_stores_lancedb-0.1.3.tar.gz
+[2024-05-30 04:26:44] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-30 04:26:44] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/73/d9/44b1e50b7a7349a8172af36226caa9ddf526c5c91c863ce32643ae416507/py_dbchat-0.0.2rc99.post1.tar.gz
+[2024-05-30 04:26:44] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/9a/cd/e994ee2b4db127d0a7bc67be8269e50884b9a20fc5ecfb34d3af25d7dda0/ctrip-helper-0.1.2.tar.gz
+[2024-05-30 04:26:44] INFO root fetch - processPackages [types-reportlab]: executing diffoscope
+[2024-05-30 04:26:44] INFO root fetch - processPackages [types-reportlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-reportlab-4.2.0.20240525.tar.gz tmp/types-reportlab-4.2.0.20240530.tar.gz --markdown 20240530/t/types-reportlab/4.2.0.20240525-4.2.0.20240530/README.md --exclude *.pyd
+[2024-05-30 04:26:44] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-30 04:26:44] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240530/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-30 04:26:44] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-30 04:26:44] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.1.1.tar.gz tmp/ctrip-helper-0.1.2.tar.gz --markdown 20240530/c/ctrip-helper/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-30 04:26:44] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-05-30 04:26:44] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc98.post1.tar.gz tmp/py_dbchat-0.0.2rc99.post1.tar.gz --markdown 20240530/p/py-dbchat/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-05-30 04:26:44] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/65/f5/5d00351a9e68ff5a720c252b489191c91b30cc4b95f66ff232f9d19ab6e4/iam_actions-1.2.20240529.tar.gz
+[2024-05-30 04:26:44] INFO root fetch - processPackages [sapientml-core]: Downloading https://files.pythonhosted.org/packages/cd/5c/e65f9c679172ee11ea0270e27e7871ef891d774a7937bb76ffe23b7ba0e3/sapientml_core-0.5.6.tar.gz
+[2024-05-30 04:26:44] INFO root fetch - processPackages [casbin-sqlalchemy-adapter]: Downloading https://files.pythonhosted.org/packages/d7/10/b6e985c511a4682a23aa1a4b947b4a14cc124a64aabc5084d1dd9d8513d4/casbin_sqlalchemy_adapter-1.2.0.tar.gz
+[2024-05-30 04:26:44] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/74/29/cefeef8a14ed0f6d3111838cce54d1d6f40eb1c78df52027ba7776087c5f/mpc_obscodes-2024.5.4.tar.gz
+[2024-05-30 04:26:44] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/75/3c/f7e14086cce0da00c3f0b2ae686f65680ebc0adb19c47ccd68250b2e877e/naif_eop_high_prec-2024.5.29.tar.gz
+[2024-05-30 04:26:44] INFO root fetch - processPackages [llama-index-vector-stores-lancedb]: Downloading https://files.pythonhosted.org/packages/b6/85/4802e1a888bfad84fd8475abe724691d509c1d57e240c7399a995f3222f7/llama_index_vector_stores_lancedb-0.1.4.tar.gz
+[2024-05-30 04:26:44] INFO root fetch - processPackages [sapientml-core]: executing diffoscope
+[2024-05-30 04:26:44] INFO root fetch - processPackages [sapientml-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapientml_core-0.5.5.tar.gz tmp/sapientml_core-0.5.6.tar.gz --markdown 20240530/s/sapientml-core/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-30 04:26:44] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-30 04:26:44] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240528.tar.gz tmp/iam_actions-1.2.20240529.tar.gz --markdown 20240530/i/iam-actions/1.2.20240528-1.2.20240529/README.md --exclude *.pyd
+[2024-05-30 04:26:44] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2024-05-30 04:26:44] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2024.5.30.tar.gz tmp/mpc_obscodes-2024.5.4.tar.gz --markdown 20240530/m/mpc-obscodes/2024.5.30-2024.5.4/README.md --exclude *.pyd
+[2024-05-30 04:26:44] INFO root fetch - processPackages [casbin-sqlalchemy-adapter]: executing diffoscope
+[2024-05-30 04:26:44] INFO root fetch - processPackages [casbin-sqlalchemy-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casbin_sqlalchemy_adapter-1.1.0.tar.gz tmp/casbin_sqlalchemy_adapter-1.2.0.tar.gz --markdown 20240530/c/casbin-sqlalchemy-adapter/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-30 04:26:44] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2024-05-30 04:26:44] INFO root fetch - processPackages [llama-index-vector-stores-lancedb]: executing diffoscope
+[2024-05-30 04:26:44] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2024.5.28.tar.gz tmp/naif_eop_high_prec-2024.5.29.tar.gz --markdown 20240530/n/naif-eop-high-prec/2024.5.28-2024.5.29/README.md --exclude *.pyd
+[2024-05-30 04:26:44] INFO root fetch - processPackages [llama-index-vector-stores-lancedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_lancedb-0.1.3.tar.gz tmp/llama_index_vector_stores_lancedb-0.1.4.tar.gz --markdown 20240530/l/llama-index-vector-stores-lancedb/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-30 04:26:45] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.1.1.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.1.2.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-30 04:26:45] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-30 04:26:45] INFO root fetch - processPackages [types-reportlab]: Remove: archive file [/home/abi/fetcher/tmp/types-reportlab-4.2.0.20240525.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - processPackages [types-reportlab]: Remove: archive file [/home/abi/fetcher/tmp/types-reportlab-4.2.0.20240530.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - main [MainThread]: End processing [types-reportlab]: success
+[2024-05-30 04:26:45] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc98.post1.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-05-30 04:26:45] INFO root fetch - processPackages [casbin-sqlalchemy-adapter]: Remove: archive file [/home/abi/fetcher/tmp/casbin_sqlalchemy_adapter-1.1.0.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - processPackages [casbin-sqlalchemy-adapter]: Remove: archive file [/home/abi/fetcher/tmp/casbin_sqlalchemy_adapter-1.2.0.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - main [MainThread]: End processing [casbin-sqlalchemy-adapter]: success
+[2024-05-30 04:26:45] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2024.5.30.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - processPackages [mpc-obscodes]: Remove: archive file [/home/abi/fetcher/tmp/mpc_obscodes-2024.5.4.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2024-05-30 04:26:45] INFO root fetch - processPackages [sapientml-core]: Remove: archive file [/home/abi/fetcher/tmp/sapientml_core-0.5.5.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - processPackages [sapientml-core]: Remove: archive file [/home/abi/fetcher/tmp/sapientml_core-0.5.6.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - main [MainThread]: End processing [sapientml-core]: success
+[2024-05-30 04:26:45] INFO root fetch - processPackages [llama-index-vector-stores-lancedb]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_lancedb-0.1.3.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - processPackages [llama-index-vector-stores-lancedb]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_lancedb-0.1.4.tar.gz]
+[2024-05-30 04:26:45] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-lancedb]: success
+[2024-05-30 04:26:48] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.28.tar.gz]
+[2024-05-30 04:26:48] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.29.tar.gz]
+[2024-05-30 04:26:48] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2024-05-30 04:26:49] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240528.tar.gz]
+[2024-05-30 04:26:49] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240529.tar.gz]
+[2024-05-30 04:26:49] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-30 04:26:49] INFO root fetch - main [MainThread]: Store serial: [23441278]
