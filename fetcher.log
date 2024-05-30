@@ -18152,3 +18152,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:39:46] INFO root fetch - processPackages [tensorflow-datasets]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_datasets-4.9.5.tar.gz]
 [2024-05-30 10:39:46] INFO root fetch - main [MainThread]: End processing [tensorflow-datasets]: success
 [2024-05-30 10:39:46] INFO root fetch - main [MainThread]: Store serial: [23445212]
+[2024-05-30 10:41:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23445212]
+[2024-05-30 10:41:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 10:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ms-teams-notify
+[2024-05-30 10:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CI-CloudConnector
+[2024-05-30 10:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fbnconfig
+[2024-05-30 10:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: careamics
+[2024-05-30 10:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyvespa
+[2024-05-30 10:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: textIntegrityInspector
+[2024-05-30 10:41:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlpp-lib
+[2024-05-30 10:41:56] WARNING root fetch - processPackages [ms-teams-notify]: Skipping, unable to determine old version
+[2024-05-30 10:41:56] INFO root fetch - main [MainThread]: End processing [ms-teams-notify] error
+[2024-05-30 10:41:56] INFO root fetch - processPackages [CI-CloudConnector]: New version: [1.8] Old Version: [1.7]
+[2024-05-30 10:41:56] INFO root fetch - processPackages [textIntegrityInspector]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-30 10:41:56] INFO root fetch - processPackages [pyvespa]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-30 10:41:56] INFO root fetch - processPackages [mlpp-lib]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-30 10:41:56] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/03/35/0ccb37d9c5d9cbd0e9a933e5d0c53f08cc620d2aa482563113da2ea701fa/ci_cloudconnector-1.7.tar.gz
+[2024-05-30 10:41:56] INFO root fetch - processPackages [careamics]: New version: [0.1.0rc5] Old Version: [0.1.0rc4]
+[2024-05-30 10:41:56] INFO root fetch - processPackages [fbnconfig]: New version: [0.0.42] Old Version: [0.0.40]
+[2024-05-30 10:41:56] INFO root fetch - processPackages [textIntegrityInspector]: Downloading https://files.pythonhosted.org/packages/ee/ef/31ba040a3993c708425f8dc620fb5eb5d3e92f446703fc4046c196a982ff/textintegrityinspector-0.1.2.tar.gz
+[2024-05-30 10:41:56] INFO root fetch - processPackages [pyvespa]: Downloading https://files.pythonhosted.org/packages/fa/a7/b8ddb63363ad676537d6d2fe0bb57776db1add62129f6c30094d044e8ad2/pyvespa-0.8.1.tar.gz
+[2024-05-30 10:41:56] INFO root fetch - processPackages [fbnconfig]: Downloading https://files.pythonhosted.org/packages/12/37/9df022d02ffee5744c76e6f513a19b4588a5556b79356cc8e1c1fa8f89f4/fbnconfig-0.0.40.tar.gz
+[2024-05-30 10:41:56] INFO root fetch - processPackages [careamics]: Downloading https://files.pythonhosted.org/packages/56/31/9d3257a7238d590928f01fc682054d0706b2a2cedeadfa2b068f34755f46/careamics-0.1.0rc4.tar.gz
+[2024-05-30 10:41:56] INFO root fetch - processPackages [mlpp-lib]: Downloading https://files.pythonhosted.org/packages/7f/0e/8c02adbb0da0be10c95a12f38a9766867de5f40c1b68e714d519840887bb/mlpp_lib-0.7.0.tar.gz
+[2024-05-30 10:41:56] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/4d/a9/95a04b5f34889a3bc817a1e7727cc93f8d37034cc06b9e76540e1ea0200a/ci_cloudconnector-1.8.tar.gz
+[2024-05-30 10:41:56] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-30 10:41:56] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-1.7.tar.gz tmp/ci_cloudconnector-1.8.tar.gz --markdown 20240530/C/CI-CloudConnector/1.7-1.8/README.md --exclude *.pyd
+[2024-05-30 10:41:57] INFO root fetch - processPackages [textIntegrityInspector]: Downloading https://files.pythonhosted.org/packages/85/0b/be6bb5504a71738100c194db082d2f34f9f8eaebf4eed7f4942e0664ebdc/textintegrityinspector-0.1.3.tar.gz
+[2024-05-30 10:41:57] INFO root fetch - processPackages [pyvespa]: Downloading https://files.pythonhosted.org/packages/38/7c/c1343e050b9b534173a78967b52854b4de31b5cd08648091a70363bda661/pyvespa-0.9.0.tar.gz
+[2024-05-30 10:41:57] INFO root fetch - processPackages [fbnconfig]: Downloading https://files.pythonhosted.org/packages/cf/7d/88a2ed50c5b7d0f01e74b2e3de6dd1e511d6af1fbda60e8d4d6de0e9c961/fbnconfig-0.0.42.tar.gz
+[2024-05-30 10:41:57] INFO root fetch - processPackages [careamics]: Downloading https://files.pythonhosted.org/packages/8b/55/0ddb90609847662ec73db7b3249c3183135a5bf217b0d509a4b1ee728293/careamics-0.1.0rc5.tar.gz
+[2024-05-30 10:41:57] INFO root fetch - processPackages [pyvespa]: executing diffoscope
+[2024-05-30 10:41:57] INFO root fetch - processPackages [pyvespa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvespa-0.8.1.tar.gz tmp/pyvespa-0.9.0.tar.gz --markdown 20240530/p/pyvespa/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-30 10:41:57] INFO root fetch - processPackages [textIntegrityInspector]: executing diffoscope
+[2024-05-30 10:41:57] INFO root fetch - processPackages [textIntegrityInspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textintegrityinspector-0.1.2.tar.gz tmp/textintegrityinspector-0.1.3.tar.gz --markdown 20240530/t/textIntegrityInspector/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-30 10:41:57] INFO root fetch - processPackages [fbnconfig]: executing diffoscope
+[2024-05-30 10:41:57] INFO root fetch - processPackages [fbnconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbnconfig-0.0.40.tar.gz tmp/fbnconfig-0.0.42.tar.gz --markdown 20240530/f/fbnconfig/0.0.40-0.0.42/README.md --exclude *.pyd
+[2024-05-30 10:41:57] INFO root fetch - processPackages [mlpp-lib]: Downloading https://files.pythonhosted.org/packages/0e/53/2e4e1d34e3a03784a989674ae3f62d3e0494ef26fc6ae32290380e779a4a/mlpp_lib-0.8.0.tar.gz
+[2024-05-30 10:41:57] INFO root fetch - processPackages [careamics]: executing diffoscope
+[2024-05-30 10:41:57] INFO root fetch - processPackages [careamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/careamics-0.1.0rc4.tar.gz tmp/careamics-0.1.0rc5.tar.gz --markdown 20240530/c/careamics/0.1.0rc4-0.1.0rc5/README.md --exclude *.pyd
+[2024-05-30 10:41:57] INFO root fetch - processPackages [mlpp-lib]: executing diffoscope
+[2024-05-30 10:41:57] INFO root fetch - processPackages [mlpp-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpp_lib-0.7.0.tar.gz tmp/mlpp_lib-0.8.0.tar.gz --markdown 20240530/m/mlpp-lib/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-30 10:41:57] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.7.tar.gz]
+[2024-05-30 10:41:57] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.8.tar.gz]
+[2024-05-30 10:41:57] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-30 10:41:57] INFO root fetch - processPackages [textIntegrityInspector]: Remove: archive file [/home/abi/fetcher/tmp/textintegrityinspector-0.1.2.tar.gz]
+[2024-05-30 10:41:57] INFO root fetch - processPackages [textIntegrityInspector]: Remove: archive file [/home/abi/fetcher/tmp/textintegrityinspector-0.1.3.tar.gz]
+[2024-05-30 10:41:57] INFO root fetch - main [MainThread]: End processing [textIntegrityInspector]: success
+[2024-05-30 10:41:57] INFO root fetch - processPackages [fbnconfig]: Remove: archive file [/home/abi/fetcher/tmp/fbnconfig-0.0.40.tar.gz]
+[2024-05-30 10:41:57] INFO root fetch - processPackages [fbnconfig]: Remove: archive file [/home/abi/fetcher/tmp/fbnconfig-0.0.42.tar.gz]
+[2024-05-30 10:41:57] INFO root fetch - main [MainThread]: End processing [fbnconfig]: success
+[2024-05-30 10:41:57] INFO root fetch - processPackages [pyvespa]: Remove: archive file [/home/abi/fetcher/tmp/pyvespa-0.8.1.tar.gz]
+[2024-05-30 10:41:57] INFO root fetch - processPackages [pyvespa]: Remove: archive file [/home/abi/fetcher/tmp/pyvespa-0.9.0.tar.gz]
+[2024-05-30 10:41:57] INFO root fetch - main [MainThread]: End processing [pyvespa]: success
+[2024-05-30 10:41:58] INFO root fetch - processPackages [mlpp-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlpp_lib-0.7.0.tar.gz]
+[2024-05-30 10:41:58] INFO root fetch - processPackages [mlpp-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlpp_lib-0.8.0.tar.gz]
+[2024-05-30 10:41:58] INFO root fetch - main [MainThread]: End processing [mlpp-lib]: success
+[2024-05-30 10:41:58] INFO root fetch - processPackages [careamics]: Remove: archive file [/home/abi/fetcher/tmp/careamics-0.1.0rc4.tar.gz]
+[2024-05-30 10:41:58] INFO root fetch - processPackages [careamics]: Remove: archive file [/home/abi/fetcher/tmp/careamics-0.1.0rc5.tar.gz]
+[2024-05-30 10:41:58] INFO root fetch - main [MainThread]: End processing [careamics]: success
+[2024-05-30 10:41:58] INFO root fetch - main [MainThread]: Store serial: [23445246]
