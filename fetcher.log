@@ -20549,3 +20549,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:11:39] INFO root fetch - processPackages [BTrees]: Remove: archive file [/home/abi/fetcher/tmp/BTrees-6.0.tar.gz]
 [2024-05-30 11:11:39] INFO root fetch - main [MainThread]: End processing [BTrees]: success
 [2024-05-30 11:11:39] INFO root fetch - main [MainThread]: Store serial: [23445956]
+[2024-05-30 11:13:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23445956]
+[2024-05-30 11:13:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 11:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astra-haystack
+[2024-05-30 11:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: romms-glaficplots
+[2024-05-30 11:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Persistence
+[2024-05-30 11:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elasticsearch-haystack
+[2024-05-30 11:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mongodb-atlas-haystack
+[2024-05-30 11:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovsdbapp
+[2024-05-30 11:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-invoice-report-header-repeater
+[2024-05-30 11:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vbinsta
+[2024-05-30 11:13:48] INFO root fetch - processPackages [romms-glaficplots]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 11:13:48] INFO root fetch - processPackages [vbinsta]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 11:13:48] INFO root fetch - processPackages [ovsdbapp]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-05-30 11:13:48] INFO root fetch - processPackages [astra-haystack]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-30 11:13:48] INFO root fetch - processPackages [romms-glaficplots]: Downloading https://files.pythonhosted.org/packages/38/4e/571af2e2fd0229bc978af83fd27331e105ea2fc535287b7a23309f68056c/romms_glaficplots-0.0.8.tar.gz
+[2024-05-30 11:13:48] INFO root fetch - processPackages [vbinsta]: Downloading https://files.pythonhosted.org/packages/34/1b/a770a0febc1a2d19b7d9a721adfb39152147bce4e087123175de41511c7b/vbinsta-0.1.8.tar.gz
+[2024-05-30 11:13:48] INFO root fetch - processPackages [mongodb-atlas-haystack]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-30 11:13:48] INFO root fetch - processPackages [elasticsearch-haystack]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-30 11:13:48] INFO root fetch - processPackages [ovsdbapp]: Downloading https://files.pythonhosted.org/packages/40/9a/99f38577935a209c975c02dec266738c943377367c95c7ea4a0df4a093eb/ovsdbapp-2.7.0.tar.gz
+[2024-05-30 11:13:48] WARNING root fetch - processPackages [odoo-addon-account-invoice-report-header-repeater]: Skipping, unable to determine old version
+[2024-05-30 11:13:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-report-header-repeater] error
+[2024-05-30 11:13:48] INFO root fetch - processPackages [Persistence]: New version: [5.0] Old Version: [4.1]
+[2024-05-30 11:13:48] INFO root fetch - processPackages [astra-haystack]: Downloading https://files.pythonhosted.org/packages/ef/33/502da9623ef545603583fa181cdd31b58e449c70d6eedf522cc1261252b9/astra_haystack-0.7.0.tar.gz
+[2024-05-30 11:13:48] INFO root fetch - processPackages [mongodb-atlas-haystack]: Downloading https://files.pythonhosted.org/packages/b8/8b/d67e09692b79b2a3b078cf66a3e21088cd5be05abe921639dbae6a06ec7e/mongodb_atlas_haystack-0.2.1.tar.gz
+[2024-05-30 11:13:48] INFO root fetch - processPackages [romms-glaficplots]: Downloading https://files.pythonhosted.org/packages/be/5f/ec560e93e981ecb2c7e391063bbd16c36e6b90b5273f41bbb9d7daf4eee0/romms_glaficplots-0.0.9.tar.gz
+[2024-05-30 11:13:48] INFO root fetch - processPackages [Persistence]: Downloading https://files.pythonhosted.org/packages/e5/4d/5d05caeb8449dcc44a84bc331f2901ede1fe7921aa01aa892cfe1b9e34b8/Persistence-4.1.tar.gz
+[2024-05-30 11:13:48] INFO root fetch - processPackages [elasticsearch-haystack]: Downloading https://files.pythonhosted.org/packages/07/b4/1d5d6adfc61cf918ca9bc1c05ab21ea82db80b0ee6b08f1ac36e3b67d8da/elasticsearch_haystack-0.5.0.tar.gz
+[2024-05-30 11:13:48] INFO root fetch - processPackages [vbinsta]: Downloading https://files.pythonhosted.org/packages/a7/d2/35fbd21f92c75b6742fd430bfeef190dbc05dd8b654cd957f6d558179064/vbinsta-0.1.9.tar.gz
+[2024-05-30 11:13:49] INFO root fetch - processPackages [ovsdbapp]: Downloading https://files.pythonhosted.org/packages/7c/82/c0b18766e1ebee0d899f8aeb6e9e45189aad472f25618688e06304e24448/ovsdbapp-2.7.1.tar.gz
+[2024-05-30 11:13:49] INFO root fetch - processPackages [romms-glaficplots]: executing diffoscope
+[2024-05-30 11:13:49] INFO root fetch - processPackages [romms-glaficplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/romms_glaficplots-0.0.8.tar.gz tmp/romms_glaficplots-0.0.9.tar.gz --markdown 20240530/r/romms-glaficplots/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 11:13:49] INFO root fetch - processPackages [vbinsta]: executing diffoscope
+[2024-05-30 11:13:49] INFO root fetch - processPackages [vbinsta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbinsta-0.1.8.tar.gz tmp/vbinsta-0.1.9.tar.gz --markdown 20240530/v/vbinsta/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 11:13:49] INFO root fetch - processPackages [ovsdbapp]: executing diffoscope
+[2024-05-30 11:13:49] INFO root fetch - processPackages [ovsdbapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovsdbapp-2.7.0.tar.gz tmp/ovsdbapp-2.7.1.tar.gz --markdown 20240530/o/ovsdbapp/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-05-30 11:13:49] INFO root fetch - processPackages [mongodb-atlas-haystack]: Downloading https://files.pythonhosted.org/packages/4b/3a/736b73c08e90bce3101a35c9a48a9da80c4cd3a3351148d3f8c7ade0bfd4/mongodb_atlas_haystack-0.3.0.tar.gz
+[2024-05-30 11:13:49] INFO root fetch - processPackages [astra-haystack]: Downloading https://files.pythonhosted.org/packages/5a/68/58b2056af2a8f8ade2fbdf019234cb3602df18e59b86f258d400cb6680f6/astra_haystack-0.8.0.tar.gz
+[2024-05-30 11:13:49] INFO root fetch - processPackages [elasticsearch-haystack]: Downloading https://files.pythonhosted.org/packages/9b/54/26adf57d979bbf15e5226815dee27dc03fea9880b69eb1e2f2158715c431/elasticsearch_haystack-0.6.0.tar.gz
+[2024-05-30 11:13:49] INFO root fetch - processPackages [Persistence]: Downloading https://files.pythonhosted.org/packages/66/f2/c69034a2663b8fd313e9c5cb3698d9beab58eb9ee705d79d1418528bc24b/Persistence-5.0.tar.gz
+[2024-05-30 11:13:49] INFO root fetch - processPackages [mongodb-atlas-haystack]: executing diffoscope
+[2024-05-30 11:13:49] INFO root fetch - processPackages [mongodb-atlas-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_atlas_haystack-0.2.1.tar.gz tmp/mongodb_atlas_haystack-0.3.0.tar.gz --markdown 20240530/m/mongodb-atlas-haystack/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-30 11:13:49] INFO root fetch - processPackages [astra-haystack]: executing diffoscope
+[2024-05-30 11:13:49] INFO root fetch - processPackages [astra-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astra_haystack-0.7.0.tar.gz tmp/astra_haystack-0.8.0.tar.gz --markdown 20240530/a/astra-haystack/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-30 11:13:49] INFO root fetch - processPackages [elasticsearch-haystack]: executing diffoscope
+[2024-05-30 11:13:49] INFO root fetch - processPackages [elasticsearch-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticsearch_haystack-0.5.0.tar.gz tmp/elasticsearch_haystack-0.6.0.tar.gz --markdown 20240530/e/elasticsearch-haystack/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-30 11:13:49] INFO root fetch - processPackages [Persistence]: executing diffoscope
+[2024-05-30 11:13:49] INFO root fetch - processPackages [Persistence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Persistence-4.1.tar.gz tmp/Persistence-5.0.tar.gz --markdown 20240530/P/Persistence/4.1-5.0/README.md --exclude *.pyd
+[2024-05-30 11:13:49] INFO root fetch - processPackages [vbinsta]: Remove: archive file [/home/abi/fetcher/tmp/vbinsta-0.1.8.tar.gz]
+[2024-05-30 11:13:49] INFO root fetch - processPackages [vbinsta]: Remove: archive file [/home/abi/fetcher/tmp/vbinsta-0.1.9.tar.gz]
+[2024-05-30 11:13:49] INFO root fetch - main [MainThread]: End processing [vbinsta]: success
+[2024-05-30 11:13:49] INFO root fetch - processPackages [romms-glaficplots]: Remove: archive file [/home/abi/fetcher/tmp/romms_glaficplots-0.0.8.tar.gz]
+[2024-05-30 11:13:49] INFO root fetch - processPackages [romms-glaficplots]: Remove: archive file [/home/abi/fetcher/tmp/romms_glaficplots-0.0.9.tar.gz]
+[2024-05-30 11:13:49] INFO root fetch - main [MainThread]: End processing [romms-glaficplots]: success
+[2024-05-30 11:13:50] INFO root fetch - processPackages [ovsdbapp]: Remove: archive file [/home/abi/fetcher/tmp/ovsdbapp-2.7.0.tar.gz]
+[2024-05-30 11:13:50] INFO root fetch - processPackages [ovsdbapp]: Remove: archive file [/home/abi/fetcher/tmp/ovsdbapp-2.7.1.tar.gz]
+[2024-05-30 11:13:50] INFO root fetch - main [MainThread]: End processing [ovsdbapp]: success
+[2024-05-30 11:13:50] INFO root fetch - processPackages [astra-haystack]: Remove: archive file [/home/abi/fetcher/tmp/astra_haystack-0.7.0.tar.gz]
+[2024-05-30 11:13:50] INFO root fetch - processPackages [Persistence]: Remove: archive file [/home/abi/fetcher/tmp/Persistence-4.1.tar.gz]
+[2024-05-30 11:13:50] INFO root fetch - processPackages [astra-haystack]: Remove: archive file [/home/abi/fetcher/tmp/astra_haystack-0.8.0.tar.gz]
+[2024-05-30 11:13:50] INFO root fetch - processPackages [Persistence]: Remove: archive file [/home/abi/fetcher/tmp/Persistence-5.0.tar.gz]
+[2024-05-30 11:13:50] INFO root fetch - main [MainThread]: End processing [astra-haystack]: success
+[2024-05-30 11:13:50] INFO root fetch - main [MainThread]: End processing [Persistence]: success
+[2024-05-30 11:13:50] INFO root fetch - processPackages [elasticsearch-haystack]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_haystack-0.5.0.tar.gz]
+[2024-05-30 11:13:50] INFO root fetch - processPackages [elasticsearch-haystack]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_haystack-0.6.0.tar.gz]
+[2024-05-30 11:13:50] INFO root fetch - main [MainThread]: End processing [elasticsearch-haystack]: success
+[2024-05-30 11:13:50] INFO root fetch - processPackages [mongodb-atlas-haystack]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_atlas_haystack-0.2.1.tar.gz]
+[2024-05-30 11:13:50] INFO root fetch - processPackages [mongodb-atlas-haystack]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_atlas_haystack-0.3.0.tar.gz]
+[2024-05-30 11:13:50] INFO root fetch - main [MainThread]: End processing [mongodb-atlas-haystack]: success
+[2024-05-30 11:13:50] INFO root fetch - main [MainThread]: Store serial: [23446008]
