@@ -22929,3 +22929,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 12:24:40] INFO root fetch - processPackages [mistral-common]: Remove: archive file [/home/abi/fetcher/tmp/mistral_common-1.2.0.tar.gz]
 [2024-05-30 12:24:40] INFO root fetch - main [MainThread]: End processing [mistral-common]: success
 [2024-05-30 12:24:40] INFO root fetch - main [MainThread]: Store serial: [23447002]
+[2024-05-30 12:26:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23447002]
+[2024-05-30 12:26:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-cryptomus-test1
+[2024-05-30 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kebbie
+[2024-05-30 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyE2
+[2024-05-30 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eventum-studio
+[2024-05-30 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-cryptomus-test1
+[2024-05-30 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autoderm
+[2024-05-30 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BarteSDK
+[2024-05-30 12:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumiverse-pulumi-dynatrace
+[2024-05-30 12:26:49] INFO root fetch - processPackages [BarteSDK]: New version: [1.0.1] Old Version: [1.0]
+[2024-05-30 12:26:49] WARNING root fetch - processPackages [django-cryptomus-test1]: Skipping, unable to determine old version
+[2024-05-30 12:26:49] INFO root fetch - main [MainThread]: End processing [django-cryptomus-test1] error
+[2024-05-30 12:26:49] WARNING root fetch - processPackages [django-cryptomus-test1]: Skipping, unable to determine old version
+[2024-05-30 12:26:49] INFO root fetch - main [MainThread]: End processing [django-cryptomus-test1] error
+[2024-05-30 12:26:49] WARNING root fetch - processPackages [eventum-studio]: Skipping, unable to determine old version
+[2024-05-30 12:26:49] INFO root fetch - main [MainThread]: End processing [eventum-studio] error
+[2024-05-30 12:26:49] INFO root fetch - processPackages [PyE2]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-30 12:26:49] WARNING root fetch - processPackages [autoderm]: Skipping, unable to determine old version
+[2024-05-30 12:26:49] INFO root fetch - main [MainThread]: End processing [autoderm] error
+[2024-05-30 12:26:49] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1f/7e/74c6a1bf7e717836e2fef201c9dd28f0daef3b06bcae17af2359497c069e/BarteSDK-1.0.tar.gz
+[2024-05-30 12:26:49] ERROR root fetch - processPackages [pulumiverse-pulumi-dynatrace]: Unable to get metadata: No such project 'pulumiverse-pulumi-dynatrace'
+[2024-05-30 12:26:49] INFO root fetch - main [MainThread]: End processing [pulumiverse-pulumi-dynatrace] error
+[2024-05-30 12:26:49] INFO root fetch - processPackages [kebbie]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-30 12:26:49] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/fb/7b/20cd37a1968b75085222bf1e0afcc30ac5ec1dea21aeef3826a1ed718e28/pye2-0.8.8.tar.gz
+[2024-05-30 12:26:50] INFO root fetch - processPackages [kebbie]: Downloading https://files.pythonhosted.org/packages/5c/7b/b82850520f23dc4303ce3a313b0b740f3ece5ebc03fb94cba727b994ce86/kebbie-0.3.0.tar.gz
+[2024-05-30 12:26:50] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/b3/6c/4f3af23f2ebf4a0dacc1b75aeba89f39f85550df77e7a29c57b5ab5f1824/pye2-0.8.9.tar.gz
+[2024-05-30 12:26:50] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/dc/f5/2f62d77008f8a3a1697a3c430a163d4691179fca09744220041952be0bb0/BarteSDK-1.0.1.tar.gz
+[2024-05-30 12:26:50] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-30 12:26:50] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.8.8.tar.gz tmp/pye2-0.8.9.tar.gz --markdown 20240530/P/PyE2/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-30 12:26:50] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-30 12:26:50] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BarteSDK-1.0.tar.gz tmp/BarteSDK-1.0.1.tar.gz --markdown 20240530/B/BarteSDK/1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-30 12:26:50] INFO root fetch - processPackages [kebbie]: Downloading https://files.pythonhosted.org/packages/26/1e/27458ebde1fe355895e3639cf9bfbe12c2edb7b70df61e0d0fb61f29556e/kebbie-0.3.1.tar.gz
+[2024-05-30 12:26:50] INFO root fetch - processPackages [kebbie]: executing diffoscope
+[2024-05-30 12:26:50] INFO root fetch - processPackages [kebbie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kebbie-0.3.0.tar.gz tmp/kebbie-0.3.1.tar.gz --markdown 20240530/k/kebbie/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-30 12:26:50] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/BarteSDK-1.0.tar.gz]
+[2024-05-30 12:26:50] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/BarteSDK-1.0.1.tar.gz]
+[2024-05-30 12:26:50] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-30 12:26:50] INFO root fetch - processPackages [kebbie]: Remove: archive file [/home/abi/fetcher/tmp/kebbie-0.3.0.tar.gz]
+[2024-05-30 12:26:50] INFO root fetch - processPackages [kebbie]: Remove: archive file [/home/abi/fetcher/tmp/kebbie-0.3.1.tar.gz]
+[2024-05-30 12:26:50] INFO root fetch - main [MainThread]: End processing [kebbie]: success
+[2024-05-30 12:26:51] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.8.tar.gz]
+[2024-05-30 12:26:51] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.9.tar.gz]
+[2024-05-30 12:26:51] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-30 12:26:51] INFO root fetch - main [MainThread]: Store serial: [23447028]
