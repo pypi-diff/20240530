@@ -10852,3 +10852,33 @@ EOFError: EOF read where object expected
 [2024-05-30 06:13:17] INFO root fetch - processPackages [gpu4pyscf]: Remove: archive file [/home/abi/fetcher/tmp/gpu4pyscf-0.7.8.tar.gz]
 [2024-05-30 06:13:17] INFO root fetch - main [MainThread]: End processing [gpu4pyscf]: success
 [2024-05-30 06:13:17] INFO root fetch - main [MainThread]: Store serial: [23442024]
+[2024-05-30 06:15:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442024]
+[2024-05-30 06:15:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 06:15:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyAlgoEngine
+[2024-05-30 06:15:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litellm
+[2024-05-30 06:15:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molecular-interaction-rules
+[2024-05-30 06:15:25] INFO root fetch - processPackages [PyAlgoEngine]: New version: [0.4.0.post1] Old Version: [0.4.0]
+[2024-05-30 06:15:25] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.5.93] Old Version: [0.5.92]
+[2024-05-30 06:15:26] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-05-30 06:15:26] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/fd/3a/a02168be39d9fc3367587fac48cc9bd0c456057ef5ec679a8277629a6a23/molecular_interaction_rules-0.5.92.tar.gz
+[2024-05-30 06:15:26] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-05-30 06:15:26] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/fc/f6/5b819cd830f711ff540e989da44f30f896e1d9ba7257478f104dc1426e7b/pyalgoengine-0.4.0.tar.gz
+[2024-05-30 06:15:26] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/30/3a/52b3ea0f7b3e03eb6c1d87c0cc63df78a6c1ce204a6cb56dd3888d50016f/molecular_interaction_rules-0.5.93.tar.gz
+[2024-05-30 06:15:26] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-05-30 06:15:26] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/6d/c8/795331b0f9c21c1cd12c73542045ce9952c404ac1df714480e7f278d83a2/pyalgoengine-0.4.0.post1.tar.gz
+[2024-05-30 06:15:26] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 06:15:26] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.92.tar.gz tmp/molecular_interaction_rules-0.5.93.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5.92-0.5.93/README.md --exclude *.pyd
+[2024-05-30 06:15:26] INFO root fetch - processPackages [PyAlgoEngine]: executing diffoscope
+[2024-05-30 06:15:26] INFO root fetch - processPackages [PyAlgoEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalgoengine-0.4.0.tar.gz tmp/pyalgoengine-0.4.0.post1.tar.gz --markdown 20240530/P/PyAlgoEngine/0.4.0-0.4.0.post1/README.md --exclude *.pyd
+[2024-05-30 06:15:26] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-05-30 06:15:26] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240530/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-05-30 06:15:27] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/pyalgoengine-0.4.0.tar.gz]
+[2024-05-30 06:15:27] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/pyalgoengine-0.4.0.post1.tar.gz]
+[2024-05-30 06:15:27] INFO root fetch - main [MainThread]: End processing [PyAlgoEngine]: success
+[2024-05-30 06:15:27] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.92.tar.gz]
+[2024-05-30 06:15:27] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.93.tar.gz]
+[2024-05-30 06:15:27] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 06:15:27] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-05-30 06:15:27] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-05-30 06:15:28] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-05-30 06:15:28] INFO root fetch - main [MainThread]: Store serial: [23442032]
