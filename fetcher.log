@@ -3442,3 +3442,71 @@ EOFError: EOF read where object expected
 [2024-05-30 03:14:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-05-30 03:14:44] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-05-30 03:14:44] INFO root fetch - main [MainThread]: Store serial: [23439387]
+[2024-05-30 03:16:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439387]
+[2024-05-30 03:16:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-30 03:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myfunction-ViktoriyaXIII
+[2024-05-30 03:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myfunctions-echervenko
+[2024-05-30 03:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myfunctions-thejondaw
+[2024-05-30 03:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myfunctions-andreibelous16
+[2024-05-30 03:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roboto
+[2024-05-30 03:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: girder-slicer-cli-web
+[2024-05-30 03:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-osubot
+[2024-05-30 03:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sl-dbserver
+[2024-05-30 03:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: myfunctions-EMIL8708
+[2024-05-30 03:16:52] WARNING root fetch - processPackages [myfunctions-echervenko]: Skipping, unable to determine old version
+[2024-05-30 03:16:52] INFO root fetch - main [MainThread]: End processing [myfunctions-echervenko] error
+[2024-05-30 03:16:52] INFO root fetch - processPackages [myfunctions-andreibelous16]: New version: [0.0.10] Old Version: [0.0.1]
+[2024-05-30 03:16:52] INFO root fetch - processPackages [myfunction-ViktoriyaXIII]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 03:16:52] WARNING root fetch - processPackages [myfunctions-EMIL8708]: Skipping, unable to determine old version
+[2024-05-30 03:16:52] INFO root fetch - main [MainThread]: End processing [myfunctions-EMIL8708] error
+[2024-05-30 03:16:52] INFO root fetch - processPackages [myfunctions-thejondaw]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 03:16:52] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.4.1] Old Version: [6.4.0]
+[2024-05-30 03:16:52] INFO root fetch - processPackages [sl-dbserver]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2024-05-30 03:16:52] INFO root fetch - processPackages [roboto]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-30 03:16:52] INFO root fetch - processPackages [girder-slicer-cli-web]: New version: [1.5.5.dev4] Old Version: [1.5.5.dev2]
+[2024-05-30 03:16:52] INFO root fetch - processPackages [myfunction-ViktoriyaXIII]: Downloading https://files.pythonhosted.org/packages/f4/6e/8d9267af7aa6c0b2ca0b830578a621162a2d66b5312981723f4478992fdd/myfunction_ViktoriyaXIII-0.0.1.tar.gz
+[2024-05-30 03:16:52] INFO root fetch - processPackages [myfunctions-thejondaw]: Downloading https://files.pythonhosted.org/packages/ec/79/48f3966bb23216e3d9caef04e6ea64d4a3052e32854beb08dbe88ec104a4/myfunctions_thejondaw-0.0.1.tar.gz
+[2024-05-30 03:16:53] INFO root fetch - processPackages [myfunctions-andreibelous16]: Downloading https://files.pythonhosted.org/packages/75/89/661814ce7a963074e1477a4b6d08b26110de897beb3225a582c72cfa6103/myfunctions_andreibelous16-0.0.1.tar.gz
+[2024-05-30 03:16:53] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/25/d8/52d9dea5bd018228ab78e92b0890c6eeaf53c54ede1f3a060c6474ae9cc4/nonebot-plugin-osubot-6.4.0.tar.gz
+[2024-05-30 03:16:53] INFO root fetch - processPackages [girder-slicer-cli-web]: Downloading https://files.pythonhosted.org/packages/d7/70/fd7fb8894010ada92b3a75e58392924f9bb16013446761ba0c726efaaa56/girder_slicer_cli_web-1.5.5.dev2.tar.gz
+[2024-05-30 03:16:53] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29721444>=10485760
+[2024-05-30 03:16:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-30 03:16:53] INFO root fetch - processPackages [roboto]: Downloading https://files.pythonhosted.org/packages/ab/77/24f5e982214dc35017556b93362197806ca6149f74ce22f5612c1049beb4/roboto-0.3.0.tar.gz
+[2024-05-30 03:16:53] INFO root fetch - processPackages [sl-dbserver]: Downloading https://files.pythonhosted.org/packages/7b/e0/c21d7bbc0c68391a89777655fbe3b63d4be5a98320e81e54ae28c91ffbfd/sl-dbserver-0.0.1a1.tar.gz
+[2024-05-30 03:16:53] INFO root fetch - processPackages [myfunction-ViktoriyaXIII]: Downloading https://files.pythonhosted.org/packages/c1/63/25e3ca58f167bdb190d7dee752f5facdf981ef8e9d1619211f01be68fb3e/myfunction_ViktoriyaXIII-0.0.2.tar.gz
+[2024-05-30 03:16:53] INFO root fetch - processPackages [myfunctions-thejondaw]: Downloading https://files.pythonhosted.org/packages/1d/5a/3754cbef99d629b0500582dd062ed51d7b345abb18b9db7a13f25d8e2c3b/myfunctions_thejondaw-0.0.2.tar.gz
+[2024-05-30 03:16:53] INFO root fetch - processPackages [myfunction-ViktoriyaXIII]: executing diffoscope
+[2024-05-30 03:16:53] INFO root fetch - processPackages [myfunction-ViktoriyaXIII]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunction_ViktoriyaXIII-0.0.1.tar.gz tmp/myfunction_ViktoriyaXIII-0.0.2.tar.gz --markdown 20240530/m/myfunction-ViktoriyaXIII/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 03:16:53] INFO root fetch - processPackages [myfunctions-andreibelous16]: Downloading https://files.pythonhosted.org/packages/a1/43/03c11be0d834bf416cbcfeef0500fe6005ddbe4359962250c45a4545b0d4/myfunctions_andreibelous16-0.0.10.tar.gz
+[2024-05-30 03:16:53] INFO root fetch - processPackages [myfunctions-thejondaw]: executing diffoscope
+[2024-05-30 03:16:53] INFO root fetch - processPackages [myfunctions-thejondaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_thejondaw-0.0.1.tar.gz tmp/myfunctions_thejondaw-0.0.2.tar.gz --markdown 20240530/m/myfunctions-thejondaw/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 03:16:53] INFO root fetch - processPackages [girder-slicer-cli-web]: Downloading https://files.pythonhosted.org/packages/cf/41/d8fa3ceb7b3115a26dd82381a272cad1f122d909ea93fc0df8d391338f8f/girder_slicer_cli_web-1.5.5.dev4.tar.gz
+[2024-05-30 03:16:53] INFO root fetch - processPackages [myfunctions-andreibelous16]: executing diffoscope
+[2024-05-30 03:16:53] INFO root fetch - processPackages [myfunctions-andreibelous16]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_andreibelous16-0.0.1.tar.gz tmp/myfunctions_andreibelous16-0.0.10.tar.gz --markdown 20240530/m/myfunctions-andreibelous16/0.0.1-0.0.10/README.md --exclude *.pyd
+[2024-05-30 03:16:53] INFO root fetch - processPackages [sl-dbserver]: Downloading https://files.pythonhosted.org/packages/9e/ba/4f3ab06e7e49a8b66313c6dedd93acc266e15be4652c193cdb118a097caf/sl_dbserver-0.0.1a2.tar.gz
+[2024-05-30 03:16:53] INFO root fetch - processPackages [girder-slicer-cli-web]: executing diffoscope
+[2024-05-30 03:16:53] INFO root fetch - processPackages [girder-slicer-cli-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder_slicer_cli_web-1.5.5.dev2.tar.gz tmp/girder_slicer_cli_web-1.5.5.dev4.tar.gz --markdown 20240530/g/girder-slicer-cli-web/1.5.5.dev2-1.5.5.dev4/README.md --exclude *.pyd
+[2024-05-30 03:16:53] INFO root fetch - processPackages [roboto]: Downloading https://files.pythonhosted.org/packages/11/7e/cc44b3831271c6d0e8e0494db13d4bccaf3793f27adab68994f936ae951f/roboto-0.3.1.tar.gz
+[2024-05-30 03:16:53] INFO root fetch - processPackages [sl-dbserver]: executing diffoscope
+[2024-05-30 03:16:53] INFO root fetch - processPackages [sl-dbserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sl-dbserver-0.0.1a1.tar.gz tmp/sl_dbserver-0.0.1a2.tar.gz --markdown 20240530/s/sl-dbserver/0.0.1a1-0.0.1a2/README.md --exclude *.pyd
+[2024-05-30 03:16:53] INFO root fetch - processPackages [myfunction-ViktoriyaXIII]: Remove: archive file [/home/abi/fetcher/tmp/myfunction_ViktoriyaXIII-0.0.1.tar.gz]
+[2024-05-30 03:16:53] INFO root fetch - processPackages [myfunction-ViktoriyaXIII]: Remove: archive file [/home/abi/fetcher/tmp/myfunction_ViktoriyaXIII-0.0.2.tar.gz]
+[2024-05-30 03:16:53] INFO root fetch - main [MainThread]: End processing [myfunction-ViktoriyaXIII]: success
+[2024-05-30 03:16:53] INFO root fetch - processPackages [roboto]: executing diffoscope
+[2024-05-30 03:16:53] INFO root fetch - processPackages [roboto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto-0.3.0.tar.gz tmp/roboto-0.3.1.tar.gz --markdown 20240530/r/roboto/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-30 03:16:54] INFO root fetch - processPackages [myfunctions-thejondaw]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_thejondaw-0.0.1.tar.gz]
+[2024-05-30 03:16:54] INFO root fetch - processPackages [myfunctions-thejondaw]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_thejondaw-0.0.2.tar.gz]
+[2024-05-30 03:16:54] INFO root fetch - main [MainThread]: End processing [myfunctions-thejondaw]: success
+[2024-05-30 03:16:54] INFO root fetch - processPackages [myfunctions-andreibelous16]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_andreibelous16-0.0.1.tar.gz]
+[2024-05-30 03:16:54] INFO root fetch - processPackages [myfunctions-andreibelous16]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_andreibelous16-0.0.10.tar.gz]
+[2024-05-30 03:16:54] INFO root fetch - main [MainThread]: End processing [myfunctions-andreibelous16]: success
+[2024-05-30 03:16:54] INFO root fetch - processPackages [sl-dbserver]: Remove: archive file [/home/abi/fetcher/tmp/sl-dbserver-0.0.1a1.tar.gz]
+[2024-05-30 03:16:54] INFO root fetch - processPackages [sl-dbserver]: Remove: archive file [/home/abi/fetcher/tmp/sl_dbserver-0.0.1a2.tar.gz]
+[2024-05-30 03:16:54] INFO root fetch - main [MainThread]: End processing [sl-dbserver]: success
+[2024-05-30 03:16:54] INFO root fetch - processPackages [girder-slicer-cli-web]: Remove: archive file [/home/abi/fetcher/tmp/girder_slicer_cli_web-1.5.5.dev2.tar.gz]
+[2024-05-30 03:16:54] INFO root fetch - processPackages [girder-slicer-cli-web]: Remove: archive file [/home/abi/fetcher/tmp/girder_slicer_cli_web-1.5.5.dev4.tar.gz]
+[2024-05-30 03:16:54] INFO root fetch - main [MainThread]: End processing [girder-slicer-cli-web]: success
+[2024-05-30 03:16:56] INFO root fetch - processPackages [roboto]: Remove: archive file [/home/abi/fetcher/tmp/roboto-0.3.0.tar.gz]
+[2024-05-30 03:16:56] INFO root fetch - processPackages [roboto]: Remove: archive file [/home/abi/fetcher/tmp/roboto-0.3.1.tar.gz]
+[2024-05-30 03:16:56] INFO root fetch - main [MainThread]: End processing [roboto]: success
+[2024-05-30 03:16:56] INFO root fetch - main [MainThread]: Store serial: [23439416]
