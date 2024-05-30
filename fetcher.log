@@ -11690,3 +11690,18 @@ EOFError: EOF read where object expected
 [2024-05-30 06:41:25] INFO root fetch - processPackages [stencila_plugin]: Remove: archive file [/home/abi/fetcher/tmp/stencila_plugin-2.0.0a34.tar.gz]
 [2024-05-30 06:41:25] INFO root fetch - main [MainThread]: End processing [stencila_plugin]: success
 [2024-05-30 06:41:25] INFO root fetch - main [MainThread]: Store serial: [23442296]
+[2024-05-30 06:43:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442296]
+[2024-05-30 06:43:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-30 06:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molecular-interaction-rules
+[2024-05-30 06:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nogard
+[2024-05-30 06:43:34] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.5.97] Old Version: [0.5.96]
+[2024-05-30 06:43:34] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/f0/ed/6e7bebd7cbf98df07a1b122b478dfcf2ae4f2692deec1c38384c0c011e0e/molecular_interaction_rules-0.5.96.tar.gz
+[2024-05-30 06:43:34] WARNING root fetch - processPackages [nogard]: Skipping, unable to determine old version
+[2024-05-30 06:43:34] INFO root fetch - main [MainThread]: End processing [nogard] error
+[2024-05-30 06:43:34] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/2f/0a/011930cb0fc311a9b5e0e77a693ab250362ea2be1ba0652585af167f3a1d/molecular_interaction_rules-0.5.97.tar.gz
+[2024-05-30 06:43:34] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 06:43:34] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.5.96.tar.gz tmp/molecular_interaction_rules-0.5.97.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.5.96-0.5.97/README.md --exclude *.pyd
+[2024-05-30 06:43:35] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.96.tar.gz]
+[2024-05-30 06:43:35] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.5.97.tar.gz]
+[2024-05-30 06:43:35] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 06:43:35] INFO root fetch - main [MainThread]: Store serial: [23442303]
