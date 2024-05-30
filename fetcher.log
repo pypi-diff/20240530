@@ -17488,3 +17488,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:16:41] INFO root fetch - processPackages [pg-bulk-ingest]: Remove: archive file [/home/abi/fetcher/tmp/pg_bulk_ingest-0.0.9.tar.gz]
 [2024-05-30 10:16:41] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
 [2024-05-30 10:16:41] INFO root fetch - main [MainThread]: Store serial: [23444803]
+[2024-05-30 10:18:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444803]
+[2024-05-30 10:18:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 10:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nef-pipelines
+[2024-05-30 10:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Common
+[2024-05-30 10:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: indykite-sdk-python
+[2024-05-30 10:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aily-code-sdk-core
+[2024-05-30 10:18:49] INFO root fetch - processPackages [aily-code-sdk-core]: New version: [0.1.0b4] Old Version: [0.1.0b3]
+[2024-05-30 10:18:50] INFO root fetch - processPackages [aily-code-sdk-core]: Downloading https://files.pythonhosted.org/packages/f0/04/a7ea165727de301cd01bf13c8447ba71147fde3edd7f21fe17d52b488fde/aily_code_sdk_core-0.1.0b3.tar.gz
+[2024-05-30 10:18:50] INFO root fetch - processPackages [nef-pipelines]: New version: [0.1.75] Old Version: [0.1.74]
+[2024-05-30 10:18:50] INFO root fetch - processPackages [indykite-sdk-python]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-30 10:18:50] INFO root fetch - processPackages [Geode-Common]: New version: [31.2.0rc1] Old Version: [31.1.0rc2]
+[2024-05-30 10:18:50] INFO root fetch - processPackages [aily-code-sdk-core]: Downloading https://files.pythonhosted.org/packages/b8/11/2c770b4c524999cfdff6eda72ded4884bf81ecb9be69c00e2d6f4b251b04/aily_code_sdk_core-0.1.0b4.tar.gz
+[2024-05-30 10:18:50] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/5c/5e/f3feb05f0e6e32522b187d75db6a4c1b0f5d9ad7eece28ff1d88237fbd79/nef_pipelines-0.1.74.tar.gz
+[2024-05-30 10:18:50] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/f0/46/437faa982368b5d43ed9fbda613415c79b0f536a43818331a120aa717cae/Geode_Common-31.1.0rc2-cp39-cp39-win_amd64.whl
+[2024-05-30 10:18:50] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/50/f3/0a2a0a7f8486f219a6a319ede3c2de5288cb2e115cd7139571b4cd724d82/indykite-sdk-python-1.8.0.tar.gz
+[2024-05-30 10:18:50] INFO root fetch - processPackages [aily-code-sdk-core]: executing diffoscope
+[2024-05-30 10:18:50] INFO root fetch - processPackages [aily-code-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_code_sdk_core-0.1.0b3.tar.gz tmp/aily_code_sdk_core-0.1.0b4.tar.gz --markdown 20240530/a/aily-code-sdk-core/0.1.0b3-0.1.0b4/README.md --exclude *.pyd
+[2024-05-30 10:18:50] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/89/44/37170c94f8dcf882d3d8f1a90d61bb439ebd9806792386a94a355c0f0904/nef_pipelines-0.1.75.tar.gz
+[2024-05-30 10:18:50] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/d6/3f/81b2c04156683aa700d70739f73cfea8aad9c6e53e660056c57e7389769d/Geode_Common-31.2.0rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-30 10:18:50] INFO root fetch - processPackages [aily-code-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk_core-0.1.0b3.tar.gz]
+[2024-05-30 10:18:50] INFO root fetch - processPackages [aily-code-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk_core-0.1.0b4.tar.gz]
+[2024-05-30 10:18:50] INFO root fetch - main [MainThread]: End processing [aily-code-sdk-core]: success
+[2024-05-30 10:18:51] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/1d/24/d3c0f1913c780f3c300d6d0606ce03543a97b03f19a6fc0be3c53e1b8774/indykite-sdk-python-1.9.0.tar.gz
+[2024-05-30 10:18:51] INFO root fetch - processPackages [nef-pipelines]: executing diffoscope
+[2024-05-30 10:18:51] INFO root fetch - processPackages [nef-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nef_pipelines-0.1.74.tar.gz tmp/nef_pipelines-0.1.75.tar.gz --markdown 20240530/n/nef-pipelines/0.1.74-0.1.75/README.md --exclude *.pyd
+[2024-05-30 10:18:51] INFO root fetch - processPackages [indykite-sdk-python]: executing diffoscope
+[2024-05-30 10:18:51] INFO root fetch - processPackages [indykite-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indykite-sdk-python-1.8.0.tar.gz tmp/indykite-sdk-python-1.9.0.tar.gz --markdown 20240530/i/indykite-sdk-python/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-30 10:18:51] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2024-05-30 10:18:51] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-31.1.0rc2-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-31.2.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240530/G/Geode-Common/31.1.0rc2-31.2.0rc1/README.md --exclude *.pyd
+[2024-05-30 10:18:52] INFO root fetch - processPackages [indykite-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/indykite-sdk-python-1.8.0.tar.gz]
+[2024-05-30 10:18:52] INFO root fetch - processPackages [indykite-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/indykite-sdk-python-1.9.0.tar.gz]
+[2024-05-30 10:18:52] INFO root fetch - main [MainThread]: End processing [indykite-sdk-python]: success
+[2024-05-30 10:18:52] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.1.0rc2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 10:18:52] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.2.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-30 10:18:52] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2024-05-30 10:18:53] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.74.tar.gz]
+[2024-05-30 10:18:53] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.75.tar.gz]
+[2024-05-30 10:18:53] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
+[2024-05-30 10:18:53] INFO root fetch - main [MainThread]: Store serial: [23444826]
