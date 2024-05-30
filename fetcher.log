@@ -16421,3 +16421,78 @@ EOFError: EOF read where object expected
 [2024-05-30 09:43:19] INFO root fetch - processPackages [robotframework-ghareports]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_ghareports-0.2.0-py3-none-any.whl.zip]
 [2024-05-30 09:43:19] INFO root fetch - main [MainThread]: End processing [robotframework-ghareports]: success
 [2024-05-30 09:43:19] INFO root fetch - main [MainThread]: Store serial: [23444360]
+[2024-05-30 09:45:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444360]
+[2024-05-30 09:45:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 09:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatllm
+[2024-05-30 09:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CI-CloudConnector
+[2024-05-30 09:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: switch-api
+[2024-05-30 09:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyDolarVenezuela
+[2024-05-30 09:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywise
+[2024-05-30 09:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nmross
+[2024-05-30 09:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: injector-collections
+[2024-05-30 09:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: groqon
+[2024-05-30 09:45:28] INFO root fetch - processPackages [pyDolarVenezuela]: New version: [1.6.0] Old Version: [1.5.9]
+[2024-05-30 09:45:28] INFO root fetch - processPackages [groqon]: New version: [0.1.9] Old Version: [0.1.82]
+[2024-05-30 09:45:28] INFO root fetch - processPackages [injector-collections]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 09:45:28] INFO root fetch - processPackages [pywise]: New version: [0.6.0] Old Version: [0.4.0]
+[2024-05-30 09:45:28] INFO root fetch - processPackages [CI-CloudConnector]: New version: [1.1] Old Version: [1.0]
+[2024-05-30 09:45:28] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-30 09:45:28] INFO root fetch - processPackages [nmross]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-30 09:45:28] INFO root fetch - processPackages [switch-api]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-30 09:45:28] INFO root fetch - processPackages [pywise]: Downloading https://files.pythonhosted.org/packages/62/61/1209c4713732779e4875dff9d6c86e2be39a7f4ba7480f1262625cdbfe87/pywise-0.4.0.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/fa/69/ac4cb4d649debb631d342850e0d90cf8e4b0f9f7ad5833bf422d22cdfae9/pydolarvenezuela-1.5.9.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/ad/7c/b29e15bfd7e43c2c147c7a9c69d222f6a873c3604453608dcd107523c5d8/injector_collections-0.0.8.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/7b/3f/35cfa012a2a35898d1a09ccdca92470b6b22df01e4f53efa351f94069082/groqon-0.1.82.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/93/aa/28eabe4593c4bc4d7892c7a53a6cae7559b04364737dc2aa8cf729b700a7/ci_cloudconnector-1.0.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [nmross]: Downloading https://files.pythonhosted.org/packages/31/3a/350c18200eff8d798c6a4ee54c26b93e33dab46be3f5bb1592902865037e/nmross-0.0.0.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/be/c8/73babd0a4e6db631de566dceaa706ff4ad6b98a47e9a937bcf72cdabb775/switch_api-0.5.8.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [pywise]: Downloading https://files.pythonhosted.org/packages/3d/05/5a78dc1f047fe2738cb2dfe1b9e2cb451616f5edb775cfa24ae1d32af835/pywise-0.6.0.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/1e/fb/9164c6324cc31bc47dff9f9f7d19bdbb6fa2ada63e8442d3bd3364a24bf2/injector_collections-0.0.9.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [pyDolarVenezuela]: Downloading https://files.pythonhosted.org/packages/b5/0e/9fb80ff15bc051a148db1772eca1b06e0f38516d83ca02e81ecc6622a7c2/pydolarvenezuela-1.6.0.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [pywise]: executing diffoscope
+[2024-05-30 09:45:28] INFO root fetch - processPackages [pywise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywise-0.4.0.tar.gz tmp/pywise-0.6.0.tar.gz --markdown 20240530/p/pywise/0.4.0-0.6.0/README.md --exclude *.pyd
+[2024-05-30 09:45:28] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-30 09:45:28] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240530/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-30 09:45:28] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/19/53/19f3603d392530860cf09ca005988932863a13de480e982d6497c21f0603/ci_cloudconnector-1.1.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/e0/31/1b611464b165591e0ee22350cbe8d3aa445754cb68abc623b7ebdd20df91/groqon-0.1.9.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [injector-collections]: executing diffoscope
+[2024-05-30 09:45:28] INFO root fetch - processPackages [injector-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injector_collections-0.0.8.tar.gz tmp/injector_collections-0.0.9.tar.gz --markdown 20240530/i/injector-collections/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 09:45:28] INFO root fetch - processPackages [pyDolarVenezuela]: executing diffoscope
+[2024-05-30 09:45:28] INFO root fetch - processPackages [pyDolarVenezuela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydolarvenezuela-1.5.9.tar.gz tmp/pydolarvenezuela-1.6.0.tar.gz --markdown 20240530/p/pyDolarVenezuela/1.5.9-1.6.0/README.md --exclude *.pyd
+[2024-05-30 09:45:28] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-30 09:45:28] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-1.0.tar.gz tmp/ci_cloudconnector-1.1.tar.gz --markdown 20240530/C/CI-CloudConnector/1.0-1.1/README.md --exclude *.pyd
+[2024-05-30 09:45:28] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/a3/34/11a0472ec0859e75b2c91942249585cd7dd9de1200e03555d2aeff8dad1e/switch_api-0.5.9.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [groqon]: executing diffoscope
+[2024-05-30 09:45:28] INFO root fetch - processPackages [groqon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groqon-0.1.82.tar.gz tmp/groqon-0.1.9.tar.gz --markdown 20240530/g/groqon/0.1.82-0.1.9/README.md --exclude *.pyd
+[2024-05-30 09:45:28] INFO root fetch - processPackages [nmross]: Downloading https://files.pythonhosted.org/packages/00/60/ae777c8e2691f029d6eef2747b9a25fadcfe6b33dc398d89ba42293ed5ca/nmross-0.0.1.tar.gz
+[2024-05-30 09:45:28] INFO root fetch - processPackages [switch-api]: executing diffoscope
+[2024-05-30 09:45:28] INFO root fetch - processPackages [switch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switch_api-0.5.8.tar.gz tmp/switch_api-0.5.9.tar.gz --markdown 20240530/s/switch-api/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-30 09:45:28] INFO root fetch - processPackages [nmross]: executing diffoscope
+[2024-05-30 09:45:28] INFO root fetch - processPackages [nmross]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmross-0.0.0.tar.gz tmp/nmross-0.0.1.tar.gz --markdown 20240530/n/nmross/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-30 09:45:29] INFO root fetch - processPackages [pywise]: Remove: archive file [/home/abi/fetcher/tmp/pywise-0.4.0.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - processPackages [pywise]: Remove: archive file [/home/abi/fetcher/tmp/pywise-0.6.0.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - main [MainThread]: End processing [pywise]: success
+[2024-05-30 09:45:29] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.8.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.9.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - main [MainThread]: End processing [injector-collections]: success
+[2024-05-30 09:45:29] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.5.9.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - processPackages [pyDolarVenezuela]: Remove: archive file [/home/abi/fetcher/tmp/pydolarvenezuela-1.6.0.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - main [MainThread]: End processing [pyDolarVenezuela]: success
+[2024-05-30 09:45:29] INFO root fetch - processPackages [nmross]: Remove: archive file [/home/abi/fetcher/tmp/nmross-0.0.0.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - processPackages [nmross]: Remove: archive file [/home/abi/fetcher/tmp/nmross-0.0.1.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - main [MainThread]: End processing [nmross]: success
+[2024-05-30 09:45:29] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.0.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-1.1.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-30 09:45:29] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.8.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.9.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - main [MainThread]: End processing [switch-api]: success
+[2024-05-30 09:45:29] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-30 09:45:29] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.82.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.9.tar.gz]
+[2024-05-30 09:45:29] INFO root fetch - main [MainThread]: End processing [groqon]: success
+[2024-05-30 09:45:29] INFO root fetch - main [MainThread]: Store serial: [23444386]
