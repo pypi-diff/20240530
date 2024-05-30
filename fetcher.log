@@ -1968,3 +1968,152 @@ EOFError: EOF read where object expected
 [2024-05-30 02:05:15] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.1.0.20240530.440.tar.gz]
 [2024-05-30 02:05:15] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-05-30 02:05:15] INFO root fetch - main [MainThread]: Store serial: [23438651]
+[2024-05-30 02:07:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23438651]
+[2024-05-30 02:07:24] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-05-30 02:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ailment
+[2024-05-30 02:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: angr
+[2024-05-30 02:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mesop
+[2024-05-30 02:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: angr-management
+[2024-05-30 02:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: archinfo
+[2024-05-30 02:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: archr
+[2024-05-30 02:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: claripy
+[2024-05-30 02:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sphinxcontrib-typer
+[2024-05-30 02:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cle
+[2024-05-30 02:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyvex
+[2024-05-30 02:07:24] INFO root fetch - processPackages [mesop]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-30 02:07:24] INFO root fetch - processPackages [mesop]: Downloading https://files.pythonhosted.org/packages/c2/7a/772d508006f27bbb2c8c1df179d4544fb04072e6b45c6cae6b08ea69d910/mesop-0.6.0-py3-none-any.whl
+[2024-05-30 02:07:24] INFO root fetch - processPackages [angr]: New version: [9.2.99] Old Version: [9.2.98]
+[2024-05-30 02:07:24] INFO root fetch - processPackages [sphinxcontrib-typer]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-30 02:07:24] INFO root fetch - processPackages [archinfo]: New version: [9.2.99] Old Version: [9.2.98]
+[2024-05-30 02:07:24] INFO root fetch - processPackages [ailment]: New version: [9.2.99] Old Version: [9.2.98]
+[2024-05-30 02:07:24] INFO root fetch - processPackages [claripy]: New version: [9.2.99] Old Version: [9.2.98]
+[2024-05-30 02:07:24] INFO root fetch - processPackages [angr-management]: New version: [9.2.99] Old Version: [9.2.98]
+[2024-05-30 02:07:24] INFO root fetch - processPackages [archr]: New version: [9.2.99] Old Version: [9.2.98]
+[2024-05-30 02:07:24] INFO root fetch - processPackages [cle]: New version: [9.2.99] Old Version: [9.2.98]
+[2024-05-30 02:07:24] INFO root fetch - processPackages [pyvex]: New version: [9.2.99] Old Version: [9.2.98]
+[2024-05-30 02:07:24] INFO root fetch - processPackages [ailment]: Downloading https://files.pythonhosted.org/packages/40/9a/6dbc1260922247d764823853be3b8cea71d91b27b92ea108bbdd5c642c22/ailment-9.2.98.tar.gz
+[2024-05-30 02:07:24] INFO root fetch - processPackages [angr]: Downloading https://files.pythonhosted.org/packages/1d/65/e1d273bba0c7dc8682cd14bbb82af65fa65a560519b43dce51221a5c73bf/angr-9.2.98.tar.gz
+[2024-05-30 02:07:24] INFO root fetch - processPackages [sphinxcontrib-typer]: Downloading https://files.pythonhosted.org/packages/12/b5/4a24e38a4ecdc33a04f13844fc10bae3ea91a55caee6003d47cdbd4ff990/sphinxcontrib_typer-0.2.4.tar.gz
+[2024-05-30 02:07:24] INFO root fetch - processPackages [archinfo]: Downloading https://files.pythonhosted.org/packages/6d/42/2dc2b6546e833d0d6cdf40e53f0fa3c7a5d07f59af30a41a7d624c080653/archinfo-9.2.98.tar.gz
+[2024-05-30 02:07:24] INFO root fetch - processPackages [pyvex]: Downloading https://files.pythonhosted.org/packages/11/57/eedb3a80cdf183158ce6eb86b08457299817e98db98c67831c5b2636e936/pyvex-9.2.98.tar.gz
+[2024-05-30 02:07:24] INFO root fetch - processPackages [cle]: Downloading https://files.pythonhosted.org/packages/e7/b9/c007f839499df51a191ad0294965527b74185e17fc9f4104783c91acb53b/cle-9.2.98.tar.gz
+[2024-05-30 02:07:24] INFO root fetch - processPackages [archr]: Downloading https://files.pythonhosted.org/packages/e6/89/4e92dc147029c72b9f70e3c942592576281eeeffd33de33d3ebc9b5da160/archr-9.2.98.tar.gz
+[2024-05-30 02:07:24] INFO root fetch - processPackages [angr-management]: Downloading https://files.pythonhosted.org/packages/3e/d7/ab70f729c1e08728b506c099c168ca8016f0a35765a3182ed9b8e1420268/angr-management-9.2.98.tar.gz
+[2024-05-30 02:07:24] INFO root fetch - processPackages [claripy]: Downloading https://files.pythonhosted.org/packages/b3/29/c984eac5f2c85f2264c793480cee6863799a32a5981ceb7e22a4a31180f8/claripy-9.2.98.tar.gz
+[2024-05-30 02:07:25] INFO root fetch - processPackages [ailment]: Downloading https://files.pythonhosted.org/packages/87/36/557acb5fca3bdd53a769e70f93c6ea539a2082fcff0705224439be72868d/ailment-9.2.99.tar.gz
+[2024-05-30 02:07:25] INFO root fetch - processPackages [mesop]: Downloading https://files.pythonhosted.org/packages/ac/02/9613beea81708066fabec818ddd6e9442c8e8bcdc9098a838b7aeb4e98f3/mesop-0.7.0-py3-none-any.whl
+[2024-05-30 02:07:25] INFO root fetch - processPackages [sphinxcontrib-typer]: Downloading https://files.pythonhosted.org/packages/3b/95/61664129163cd47c8fa71482be38c66bbdb84a1ab76cfdf05ecc08a195ad/sphinxcontrib_typer-0.2.5.tar.gz
+[2024-05-30 02:07:25] INFO root fetch - processPackages [ailment]: executing diffoscope
+[2024-05-30 02:07:25] INFO root fetch - processPackages [ailment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailment-9.2.98.tar.gz tmp/ailment-9.2.99.tar.gz --markdown 20240530/a/ailment/9.2.98-9.2.99/README.md --exclude *.pyd
+[2024-05-30 02:07:25] INFO root fetch - processPackages [archinfo]: Downloading https://files.pythonhosted.org/packages/5c/4f/b615c8ed5d5fc2c4d724f2c3cbd6ad92e908017a6a0a898101dcaa132f59/archinfo-9.2.99.tar.gz
+[2024-05-30 02:07:25] INFO root fetch - processPackages [sphinxcontrib-typer]: executing diffoscope
+[2024-05-30 02:07:25] INFO root fetch - processPackages [sphinxcontrib-typer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib_typer-0.2.4.tar.gz tmp/sphinxcontrib_typer-0.2.5.tar.gz --markdown 20240530/s/sphinxcontrib-typer/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-30 02:07:25] INFO root fetch - processPackages [archr]: Downloading https://files.pythonhosted.org/packages/21/27/bde5260729db8639b115166137d8da022309879c282b2dc6ab800df6f484/archr-9.2.99.tar.gz
+[2024-05-30 02:07:25] INFO root fetch - processPackages [claripy]: Downloading https://files.pythonhosted.org/packages/1e/6e/056a846ff7d04c03cfe7f7cf2f30c50668e9c178883bcffc971e71673378/claripy-9.2.99.tar.gz
+[2024-05-30 02:07:25] INFO root fetch - processPackages [cle]: Downloading https://files.pythonhosted.org/packages/96/57/ba47bdf8f0f3eedc1876011e0e40e285ee654c58380688ab5f3135dd313d/cle-9.2.99.tar.gz
+[2024-05-30 02:07:25] INFO root fetch - processPackages [archinfo]: executing diffoscope
+[2024-05-30 02:07:25] INFO root fetch - processPackages [archinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archinfo-9.2.98.tar.gz tmp/archinfo-9.2.99.tar.gz --markdown 20240530/a/archinfo/9.2.98-9.2.99/README.md --exclude *.pyd
+[2024-05-30 02:07:25] INFO root fetch - processPackages [angr]: Downloading https://files.pythonhosted.org/packages/f0/fb/222eb00ddd222072e1c2fab8595bcc5500d9e849c0c00d0b18cf44d00f54/angr-9.2.99.tar.gz
+[2024-05-30 02:07:25] INFO root fetch - processPackages [mesop]: executing diffoscope
+[2024-05-30 02:07:25] INFO root fetch - processPackages [mesop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesop-0.6.0-py3-none-any.whl.zip tmp/mesop-0.7.0-py3-none-any.whl.zip --markdown 20240530/m/mesop/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-30 02:07:25] INFO root fetch - processPackages [archr]: executing diffoscope
+[2024-05-30 02:07:25] INFO root fetch - processPackages [archr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archr-9.2.98.tar.gz tmp/archr-9.2.99.tar.gz --markdown 20240530/a/archr/9.2.98-9.2.99/README.md --exclude *.pyd
+[2024-05-30 02:07:25] INFO root fetch - processPackages [claripy]: executing diffoscope
+[2024-05-30 02:07:25] INFO root fetch - processPackages [claripy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claripy-9.2.98.tar.gz tmp/claripy-9.2.99.tar.gz --markdown 20240530/c/claripy/9.2.98-9.2.99/README.md --exclude *.pyd
+[2024-05-30 02:07:25] INFO root fetch - processPackages [cle]: executing diffoscope
+[2024-05-30 02:07:25] INFO root fetch - processPackages [cle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cle-9.2.98.tar.gz tmp/cle-9.2.99.tar.gz --markdown 20240530/c/cle/9.2.98-9.2.99/README.md --exclude *.pyd
+[2024-05-30 02:07:25] INFO root fetch - processPackages [angr-management]: Downloading https://files.pythonhosted.org/packages/4b/46/08f5e92e7609fbb81a0d712884ad49b2d64295b256b9156569b3abd790d4/angr_management-9.2.99.tar.gz
+[2024-05-30 02:07:25] INFO root fetch - processPackages [angr]: executing diffoscope
+[2024-05-30 02:07:25] INFO root fetch - processPackages [angr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angr-9.2.98.tar.gz tmp/angr-9.2.99.tar.gz --markdown 20240530/a/angr/9.2.98-9.2.99/README.md --exclude *.pyd
+[2024-05-30 02:07:25] INFO root fetch - processPackages [pyvex]: Downloading https://files.pythonhosted.org/packages/04/a8/49d592e2f59308696ae9170412eabc42cebffcca8964268bd9b1efc96708/pyvex-9.2.99.tar.gz
+[2024-05-30 02:07:25] INFO root fetch - processPackages [angr-management]: executing diffoscope
+[2024-05-30 02:07:25] INFO root fetch - processPackages [angr-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angr-management-9.2.98.tar.gz tmp/angr_management-9.2.99.tar.gz --markdown 20240530/a/angr-management/9.2.98-9.2.99/README.md --exclude *.pyd
+[2024-05-30 02:07:26] INFO root fetch - processPackages [ailment]: Remove: archive file [/home/abi/fetcher/tmp/ailment-9.2.98.tar.gz]
+[2024-05-30 02:07:26] INFO root fetch - processPackages [ailment]: Remove: archive file [/home/abi/fetcher/tmp/ailment-9.2.99.tar.gz]
+[2024-05-30 02:07:26] INFO root fetch - processPackages [ailment]: Start processing: highcharts-core
+[2024-05-30 02:07:26] INFO root fetch - main [MainThread]: End processing [ailment]: success
+[2024-05-30 02:07:26] INFO root fetch - processPackages [sphinxcontrib-typer]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_typer-0.2.4.tar.gz]
+[2024-05-30 02:07:26] INFO root fetch - processPackages [sphinxcontrib-typer]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_typer-0.2.5.tar.gz]
+[2024-05-30 02:07:26] INFO root fetch - processPackages [sphinxcontrib-typer]: Start processing: onnxscript
+[2024-05-30 02:07:26] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-typer]: success
+[2024-05-30 02:07:26] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240529] Old Version: [0.1.0.dev20240528]
+[2024-05-30 02:07:26] INFO root fetch - processPackages [highcharts-core]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-05-30 02:07:26] INFO root fetch - processPackages [archinfo]: Remove: archive file [/home/abi/fetcher/tmp/archinfo-9.2.98.tar.gz]
+[2024-05-30 02:07:26] INFO root fetch - processPackages [archinfo]: Remove: archive file [/home/abi/fetcher/tmp/archinfo-9.2.99.tar.gz]
+[2024-05-30 02:07:26] INFO root fetch - processPackages [archinfo]: Start processing: jaxutils-nightly
+[2024-05-30 02:07:26] INFO root fetch - main [MainThread]: End processing [archinfo]: success
+[2024-05-30 02:07:26] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/47/83/899af17ab8e3040523fac0adf7c23cab58b5cb05d7ad887ca261704a3c63/onnxscript-0.1.0.dev20240528.tar.gz
+[2024-05-30 02:07:26] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240529] Old Version: [0.0.8.dev20240528]
+[2024-05-30 02:07:26] INFO root fetch - processPackages [highcharts-core]: Downloading https://files.pythonhosted.org/packages/eb/26/e2c1c0c98720c0af27c3d8554253db7e9270605addfe52a5e48dbee65d78/highcharts_core-1.7.1.tar.gz
+[2024-05-30 02:07:26] WARNING root fetch - processPackages [highcharts-core]: Skipping package: exceeds size limit 12098902>=10485760
+[2024-05-30 02:07:26] INFO root fetch - processPackages [highcharts-core]: Start processing: biomimetic
+[2024-05-30 02:07:26] INFO root fetch - main [MainThread]: End processing [highcharts-core] error
+[2024-05-30 02:07:26] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/ba/3b/3d1ea17c23ba8988af5592d6d8f778c2379cf7256aa1d0eb15ef291d18dc/jaxutils-nightly-0.0.8.dev20240528.tar.gz
+[2024-05-30 02:07:26] INFO root fetch - processPackages [archr]: Remove: archive file [/home/abi/fetcher/tmp/archr-9.2.98.tar.gz]
+[2024-05-30 02:07:26] INFO root fetch - processPackages [archr]: Remove: archive file [/home/abi/fetcher/tmp/archr-9.2.99.tar.gz]
+[2024-05-30 02:07:26] INFO root fetch - processPackages [archr]: Start processing: compressed-tensors-nightly
+[2024-05-30 02:07:26] INFO root fetch - main [MainThread]: End processing [archr]: success
+[2024-05-30 02:07:26] INFO root fetch - processPackages [compressed-tensors-nightly]: New version: [0.3.3.20240529] Old Version: [0.3.3.20240528]
+[2024-05-30 02:07:26] WARNING root fetch - processPackages [biomimetic]: Skipping, unable to determine old version
+[2024-05-30 02:07:26] INFO root fetch - processPackages [biomimetic]: Start processing: xtn-tools-pro
+[2024-05-30 02:07:26] INFO root fetch - main [MainThread]: End processing [biomimetic] error
+[2024-05-30 02:07:26] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/4a/0e/d81fe785e1b90187c6484c47bf8e6705539251c75b0bd588bf4121d8035d/onnxscript-0.1.0.dev20240529.tar.gz
+[2024-05-30 02:07:26] INFO root fetch - processPackages [pyvex]: executing diffoscope
+[2024-05-30 02:07:26] INFO root fetch - processPackages [pyvex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvex-9.2.98.tar.gz tmp/pyvex-9.2.99.tar.gz --markdown 20240530/p/pyvex/9.2.98-9.2.99/README.md --exclude *.pyd
+[2024-05-30 02:07:26] INFO root fetch - processPackages [claripy]: Remove: archive file [/home/abi/fetcher/tmp/claripy-9.2.98.tar.gz]
+[2024-05-30 02:07:26] INFO root fetch - processPackages [claripy]: Remove: archive file [/home/abi/fetcher/tmp/claripy-9.2.99.tar.gz]
+[2024-05-30 02:07:26] INFO root fetch - processPackages [claripy]: Start processing: palimpzest
+[2024-05-30 02:07:26] INFO root fetch - main [MainThread]: End processing [claripy]: success
+[2024-05-30 02:07:26] INFO root fetch - processPackages [compressed-tensors-nightly]: Downloading https://files.pythonhosted.org/packages/5c/ea/d0b07b6a05a05f56c514590f275bd77ae7f8d30b3ed6bbad4e568bfc5f29/compressed_tensors_nightly-0.3.3.20240528-py3-none-any.whl
+[2024-05-30 02:07:26] INFO root fetch - processPackages [xtn-tools-pro]: New version: [1.0.0.1.9] Old Version: [1.0.0.1.8]
+[2024-05-30 02:07:27] INFO root fetch - processPackages [palimpzest]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-30 02:07:27] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-30 02:07:27] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240528.tar.gz tmp/onnxscript-0.1.0.dev20240529.tar.gz --markdown 20240530/o/onnxscript/0.1.0.dev20240528-0.1.0.dev20240529/README.md --exclude *.pyd
+[2024-05-30 02:07:27] INFO root fetch - processPackages [cle]: Remove: archive file [/home/abi/fetcher/tmp/cle-9.2.98.tar.gz]
+[2024-05-30 02:07:27] INFO root fetch - processPackages [cle]: Remove: archive file [/home/abi/fetcher/tmp/cle-9.2.99.tar.gz]
+[2024-05-30 02:07:27] INFO root fetch - processPackages [cle]: Start processing: audioclass
+[2024-05-30 02:07:27] INFO root fetch - main [MainThread]: End processing [cle]: success
+[2024-05-30 02:07:27] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/60/ca/b1bb66023edc8d814598cafeae166d69e16ddd2239e94c2bded6b01dad71/palimpzest-0.1.3.tar.gz
+[2024-05-30 02:07:27] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/d9/7e/39103e391b0ea6ddf9982a4049fd1714daf5f82c559c434da08dedaad50e/xtn-tools-pro-1.0.0.1.8.tar.gz
+[2024-05-30 02:07:27] WARNING root fetch - processPackages [audioclass]: Skipping, unable to determine old version
+[2024-05-30 02:07:27] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/59/ec/132290fc46c2d242b1a2463ff78831b0de3df84558a4cfb718b37649e4e0/jaxutils-nightly-0.0.8.dev20240529.tar.gz
+[2024-05-30 02:07:27] INFO root fetch - main [MainThread]: End processing [audioclass] error
+[2024-05-30 02:07:27] INFO root fetch - processPackages [compressed-tensors-nightly]: Downloading https://files.pythonhosted.org/packages/a2/88/24a8e747732588cf116b31e278abe351686ff8c4efc1c473992b3a14180d/compressed_tensors_nightly-0.3.3.20240529-py3-none-any.whl
+[2024-05-30 02:07:27] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-05-30 02:07:27] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240528.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240529.tar.gz --markdown 20240530/j/jaxutils-nightly/0.0.8.dev20240528-0.0.8.dev20240529/README.md --exclude *.pyd
+[2024-05-30 02:07:27] INFO root fetch - processPackages [compressed-tensors-nightly]: executing diffoscope
+[2024-05-30 02:07:27] INFO root fetch - processPackages [compressed-tensors-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compressed_tensors_nightly-0.3.3.20240528-py3-none-any.whl.zip tmp/compressed_tensors_nightly-0.3.3.20240529-py3-none-any.whl.zip --markdown 20240530/c/compressed-tensors-nightly/0.3.3.20240528-0.3.3.20240529/README.md --exclude *.pyd
+[2024-05-30 02:07:27] INFO root fetch - processPackages [palimpzest]: Downloading https://files.pythonhosted.org/packages/4d/d6/f5127d5ca338a1ece5412b13edb45cfa6fa78bc8f43e066880ca3b02cb75/palimpzest-0.1.4.tar.gz
+[2024-05-30 02:07:27] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/a5/6a/557f21f2d4e53940f6d5afa2472a1efc8ed6bba63e5a7fa9a458f2d58476/xtn-tools-pro-1.0.0.1.9.tar.gz
+[2024-05-30 02:07:27] INFO root fetch - processPackages [palimpzest]: executing diffoscope
+[2024-05-30 02:07:27] INFO root fetch - processPackages [palimpzest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palimpzest-0.1.3.tar.gz tmp/palimpzest-0.1.4.tar.gz --markdown 20240530/p/palimpzest/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-30 02:07:27] INFO root fetch - processPackages [xtn-tools-pro]: executing diffoscope
+[2024-05-30 02:07:27] INFO root fetch - processPackages [xtn-tools-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtn-tools-pro-1.0.0.1.8.tar.gz tmp/xtn-tools-pro-1.0.0.1.9.tar.gz --markdown 20240530/x/xtn-tools-pro/1.0.0.1.8-1.0.0.1.9/README.md --exclude *.pyd
+[2024-05-30 02:07:28] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240528.tar.gz]
+[2024-05-30 02:07:28] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240529.tar.gz]
+[2024-05-30 02:07:28] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-05-30 02:07:28] INFO root fetch - processPackages [angr-management]: Remove: archive file [/home/abi/fetcher/tmp/angr-management-9.2.98.tar.gz]
+[2024-05-30 02:07:28] INFO root fetch - processPackages [angr-management]: Remove: archive file [/home/abi/fetcher/tmp/angr_management-9.2.99.tar.gz]
+[2024-05-30 02:07:28] INFO root fetch - main [MainThread]: End processing [angr-management]: success
+[2024-05-30 02:07:28] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240528-py3-none-any.whl.zip]
+[2024-05-30 02:07:28] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240529-py3-none-any.whl.zip]
+[2024-05-30 02:07:28] INFO root fetch - main [MainThread]: End processing [compressed-tensors-nightly]: success
+[2024-05-30 02:07:28] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240528.tar.gz]
+[2024-05-30 02:07:28] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240529.tar.gz]
+[2024-05-30 02:07:28] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-30 02:07:28] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.3.tar.gz]
+[2024-05-30 02:07:28] INFO root fetch - processPackages [palimpzest]: Remove: archive file [/home/abi/fetcher/tmp/palimpzest-0.1.4.tar.gz]
+[2024-05-30 02:07:28] INFO root fetch - main [MainThread]: End processing [palimpzest]: success
+[2024-05-30 02:07:28] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.1.8.tar.gz]
+[2024-05-30 02:07:28] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.1.9.tar.gz]
+[2024-05-30 02:07:28] INFO root fetch - main [MainThread]: End processing [xtn-tools-pro]: success
+[2024-05-30 02:07:29] INFO root fetch - processPackages [pyvex]: Remove: archive file [/home/abi/fetcher/tmp/pyvex-9.2.98.tar.gz]
+[2024-05-30 02:07:29] INFO root fetch - processPackages [pyvex]: Remove: archive file [/home/abi/fetcher/tmp/pyvex-9.2.99.tar.gz]
+[2024-05-30 02:07:29] INFO root fetch - main [MainThread]: End processing [pyvex]: success
+[2024-05-30 02:07:32] INFO root fetch - processPackages [angr]: Remove: archive file [/home/abi/fetcher/tmp/angr-9.2.98.tar.gz]
+[2024-05-30 02:07:32] INFO root fetch - processPackages [angr]: Remove: archive file [/home/abi/fetcher/tmp/angr-9.2.99.tar.gz]
+[2024-05-30 02:07:32] INFO root fetch - main [MainThread]: End processing [angr]: success
+[2024-05-30 02:10:11] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.6.0-py3-none-any.whl.zip]
+[2024-05-30 02:10:11] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.7.0-py3-none-any.whl.zip]
+[2024-05-30 02:10:11] INFO root fetch - main [MainThread]: End processing [mesop]: success
+[2024-05-30 02:10:11] INFO root fetch - main [MainThread]: Store serial: [23438716]
