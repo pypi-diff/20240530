@@ -15275,3 +15275,45 @@ EOFError: EOF read where object expected
 [2024-05-30 08:52:13] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-3.0b0.tar.gz]
 [2024-05-30 08:52:13] INFO root fetch - main [MainThread]: End processing [webscout]: success
 [2024-05-30 08:52:13] INFO root fetch - main [MainThread]: Store serial: [23443770]
+[2024-05-30 08:54:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443770]
+[2024-05-30 08:54:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 08:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ucdp
+[2024-05-30 08:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dashport
+[2024-05-30 08:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ucdp-glbl
+[2024-05-30 08:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msg-test
+[2024-05-30 08:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyontoenv
+[2024-05-30 08:54:22] INFO root fetch - processPackages [ucdp]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-30 08:54:22] INFO root fetch - processPackages [ucdp]: Downloading https://files.pythonhosted.org/packages/67/4b/3a43ab414e6f16ede70c5fda6b4696461b4968295289e15c1b75d76dc191/ucdp-0.3.0.tar.gz
+[2024-05-30 08:54:22] WARNING root fetch - processPackages [msg-test]: Skipping, unable to determine old version
+[2024-05-30 08:54:22] INFO root fetch - main [MainThread]: End processing [msg-test] error
+[2024-05-30 08:54:22] INFO root fetch - processPackages [ucdp-glbl]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-30 08:54:22] INFO root fetch - processPackages [dashport]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-05-30 08:54:22] INFO root fetch - processPackages [pyontoenv]: New version: [0.1.7a6] Old Version: [0.1.7a5]
+[2024-05-30 08:54:23] INFO root fetch - processPackages [ucdp-glbl]: Downloading https://files.pythonhosted.org/packages/fd/79/a6051b909ce9966ef77a329b3dbf4f0fabcc8acbdae4f035c94f68991bef/ucdp_glbl-0.1.0.tar.gz
+[2024-05-30 08:54:23] INFO root fetch - processPackages [ucdp]: Downloading https://files.pythonhosted.org/packages/14/a5/f8af6e6b73d028a2889e01903e3dd88213cac1a56a367dcc91a759ffd0ed/ucdp-0.4.0.tar.gz
+[2024-05-30 08:54:23] INFO root fetch - processPackages [dashport]: Downloading https://files.pythonhosted.org/packages/37/16/6a6ad01b452f19d058648a7671d7d6c9bae6bd2422a683267776da73252a/dashport-0.7.7.tar.gz
+[2024-05-30 08:54:23] INFO root fetch - processPackages [pyontoenv]: Downloading https://files.pythonhosted.org/packages/c6/2e/db3b3b2920c7b589de3e9bfa67d87e9d14fae837cd5b25cd02cf0366214f/pyontoenv-0.1.7a5.tar.gz
+[2024-05-30 08:54:23] INFO root fetch - processPackages [ucdp]: executing diffoscope
+[2024-05-30 08:54:23] INFO root fetch - processPackages [ucdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucdp-0.3.0.tar.gz tmp/ucdp-0.4.0.tar.gz --markdown 20240530/u/ucdp/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-30 08:54:23] INFO root fetch - processPackages [ucdp-glbl]: Downloading https://files.pythonhosted.org/packages/36/1f/03ef972b21dd41f9a6fa3581cbe1bb5b6e9afdda0d2375b18936e2e67e02/ucdp_glbl-0.2.0.tar.gz
+[2024-05-30 08:54:23] INFO root fetch - processPackages [dashport]: Downloading https://files.pythonhosted.org/packages/fc/a3/47b7701ec5437fc989f97aecaf64d88e5b2957cecffef0c00728c1b6a9fc/dashport-0.7.8.tar.gz
+[2024-05-30 08:54:23] INFO root fetch - processPackages [ucdp-glbl]: executing diffoscope
+[2024-05-30 08:54:23] INFO root fetch - processPackages [ucdp-glbl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucdp_glbl-0.1.0.tar.gz tmp/ucdp_glbl-0.2.0.tar.gz --markdown 20240530/u/ucdp-glbl/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-30 08:54:23] INFO root fetch - processPackages [pyontoenv]: Downloading https://files.pythonhosted.org/packages/85/33/fda9d406ffe29a6fda0d54601bb6d5241a582dd313a7650f5c49f83685fb/pyontoenv-0.1.7a6.tar.gz
+[2024-05-30 08:54:23] INFO root fetch - processPackages [dashport]: executing diffoscope
+[2024-05-30 08:54:23] INFO root fetch - processPackages [dashport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashport-0.7.7.tar.gz tmp/dashport-0.7.8.tar.gz --markdown 20240530/d/dashport/0.7.7-0.7.8/README.md --exclude *.pyd
+[2024-05-30 08:54:24] INFO root fetch - processPackages [pyontoenv]: executing diffoscope
+[2024-05-30 08:54:24] INFO root fetch - processPackages [pyontoenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyontoenv-0.1.7a5.tar.gz tmp/pyontoenv-0.1.7a6.tar.gz --markdown 20240530/p/pyontoenv/0.1.7a5-0.1.7a6/README.md --exclude *.pyd
+[2024-05-30 08:54:24] INFO root fetch - processPackages [ucdp-glbl]: Remove: archive file [/home/abi/fetcher/tmp/ucdp_glbl-0.1.0.tar.gz]
+[2024-05-30 08:54:24] INFO root fetch - processPackages [ucdp-glbl]: Remove: archive file [/home/abi/fetcher/tmp/ucdp_glbl-0.2.0.tar.gz]
+[2024-05-30 08:54:24] INFO root fetch - main [MainThread]: End processing [ucdp-glbl]: success
+[2024-05-30 08:54:24] INFO root fetch - processPackages [ucdp]: Remove: archive file [/home/abi/fetcher/tmp/ucdp-0.3.0.tar.gz]
+[2024-05-30 08:54:24] INFO root fetch - processPackages [ucdp]: Remove: archive file [/home/abi/fetcher/tmp/ucdp-0.4.0.tar.gz]
+[2024-05-30 08:54:24] INFO root fetch - main [MainThread]: End processing [ucdp]: success
+[2024-05-30 08:54:24] INFO root fetch - processPackages [dashport]: Remove: archive file [/home/abi/fetcher/tmp/dashport-0.7.7.tar.gz]
+[2024-05-30 08:54:24] INFO root fetch - processPackages [dashport]: Remove: archive file [/home/abi/fetcher/tmp/dashport-0.7.8.tar.gz]
+[2024-05-30 08:54:24] INFO root fetch - main [MainThread]: End processing [dashport]: success
+[2024-05-30 08:54:25] INFO root fetch - processPackages [pyontoenv]: Remove: archive file [/home/abi/fetcher/tmp/pyontoenv-0.1.7a5.tar.gz]
+[2024-05-30 08:54:25] INFO root fetch - processPackages [pyontoenv]: Remove: archive file [/home/abi/fetcher/tmp/pyontoenv-0.1.7a6.tar.gz]
+[2024-05-30 08:54:25] INFO root fetch - main [MainThread]: End processing [pyontoenv]: success
+[2024-05-30 08:54:25] INFO root fetch - main [MainThread]: Store serial: [23443788]
