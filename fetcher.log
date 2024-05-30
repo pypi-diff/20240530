@@ -9363,3 +9363,51 @@ EOFError: EOF read where object expected
 [2024-05-30 05:05:22] INFO root fetch - processPackages [AutoRAG]: Remove: archive file [/home/abi/fetcher/tmp/autorag-0.2.2.tar.gz]
 [2024-05-30 05:05:22] INFO root fetch - main [MainThread]: End processing [AutoRAG]: success
 [2024-05-30 05:05:22] INFO root fetch - main [MainThread]: Store serial: [23441561]
+[2024-05-30 05:07:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441561]
+[2024-05-30 05:07:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 05:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdab
+[2024-05-30 05:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ooo-dev-tools
+[2024-05-30 05:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: molecular-interaction-rules
+[2024-05-30 05:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xplainable-client
+[2024-05-30 05:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-payment-purchase
+[2024-05-30 05:07:30] INFO root fetch - processPackages [sdab]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 05:07:30] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.2] Old Version: [0.1]
+[2024-05-30 05:07:30] INFO root fetch - processPackages [xplainable-client]: New version: [1.2.5.post7] Old Version: [1.2.5.post6]
+[2024-05-30 05:07:30] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-30 05:07:30] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/41/44/3184c5212ea19d64e5dcf92dc1f7e0c08bda64a5787bdf62a49038d1b40a/ooo_dev_tools-0.9.7.tar.gz
+[2024-05-30 05:07:30] INFO root fetch - processPackages [xplainable-client]: Downloading https://files.pythonhosted.org/packages/6c/c8/768ef492afa5cda9a331c2741b7bc433c8d145f76f9326c7628cb693c249/xplainable_client-1.2.5.post6.tar.gz
+[2024-05-30 05:07:30] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: New version: [17.0.1.1.0.3] Old Version: [17.0.1.1.0.2]
+[2024-05-30 05:07:30] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/ce/c3/35c38c32d94c86b1132ce7da9c50aa44614529e05dd8cc91be1f2ef70d76/molecular_interaction_rules-0.1.tar.gz
+[2024-05-30 05:07:30] INFO root fetch - processPackages [sdab]: Downloading https://files.pythonhosted.org/packages/46/32/56911b089d938edfbcaad2a0902bec18080310a216d52cb88dbdb31aa608/sdab-0.1.0.tar.gz
+[2024-05-30 05:07:30] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Downloading https://files.pythonhosted.org/packages/25/8a/5abf665f4d9de1531abc4c7209e78c75342eb88aa8dbc64a39be2b189b3c/odoo_addon_account_payment_purchase-17.0.1.1.0.2-py3-none-any.whl
+[2024-05-30 05:07:31] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/20/e8/b38a2ad24f414b81985e10c35e1192cb22350ca6b0dc68f0104509e3c0bf/ooo_dev_tools-0.9.8.tar.gz
+[2024-05-30 05:07:31] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/41/31/7f749754cd4d8a6a9ef76765d4f4fd79175699ef1bea48bdea351387eff6/molecular_interaction_rules-0.2.tar.gz
+[2024-05-30 05:07:31] INFO root fetch - processPackages [xplainable-client]: Downloading https://files.pythonhosted.org/packages/71/90/9b07e5113de9d1662481aaa0c6918e766f13b32b79f1758220b486f11294/xplainable_client-1.2.5.post7.tar.gz
+[2024-05-30 05:07:31] INFO root fetch - processPackages [sdab]: Downloading https://files.pythonhosted.org/packages/de/39/4d16c011a0b7b74dd82a42a9980b8de9fee4c31124fbddbc793e22f238e8/sdab-0.1.1.tar.gz
+[2024-05-30 05:07:31] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 05:07:31] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.1.tar.gz tmp/molecular_interaction_rules-0.2.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.1-0.2/README.md --exclude *.pyd
+[2024-05-30 05:07:31] INFO root fetch - processPackages [sdab]: executing diffoscope
+[2024-05-30 05:07:31] INFO root fetch - processPackages [sdab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdab-0.1.0.tar.gz tmp/sdab-0.1.1.tar.gz --markdown 20240530/s/sdab/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 05:07:31] INFO root fetch - processPackages [xplainable-client]: executing diffoscope
+[2024-05-30 05:07:31] INFO root fetch - processPackages [xplainable-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplainable_client-1.2.5.post6.tar.gz tmp/xplainable_client-1.2.5.post7.tar.gz --markdown 20240530/x/xplainable-client/1.2.5.post6-1.2.5.post7/README.md --exclude *.pyd
+[2024-05-30 05:07:31] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Downloading https://files.pythonhosted.org/packages/94/2c/522b56c092384d62677f90a2babb1f9adfc0e9b55ea3abbfc2dc80780583/odoo_addon_account_payment_purchase-17.0.1.1.0.3-py3-none-any.whl
+[2024-05-30 05:07:31] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2024-05-30 05:07:31] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.7.tar.gz tmp/ooo_dev_tools-0.9.8.tar.gz --markdown 20240530/o/ooo-dev-tools/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-30 05:07:31] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: executing diffoscope
+[2024-05-30 05:07:31] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_purchase-17.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_payment_purchase-17.0.1.1.0.3-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-account-payment-purchase/17.0.1.1.0.2-17.0.1.1.0.3/README.md --exclude *.pyd
+[2024-05-30 05:07:31] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.1.tar.gz]
+[2024-05-30 05:07:31] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.2.tar.gz]
+[2024-05-30 05:07:31] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 05:07:31] INFO root fetch - processPackages [sdab]: Remove: archive file [/home/abi/fetcher/tmp/sdab-0.1.0.tar.gz]
+[2024-05-30 05:07:31] INFO root fetch - processPackages [sdab]: Remove: archive file [/home/abi/fetcher/tmp/sdab-0.1.1.tar.gz]
+[2024-05-30 05:07:31] INFO root fetch - main [MainThread]: End processing [sdab]: success
+[2024-05-30 05:07:32] INFO root fetch - processPackages [xplainable-client]: Remove: archive file [/home/abi/fetcher/tmp/xplainable_client-1.2.5.post6.tar.gz]
+[2024-05-30 05:07:32] INFO root fetch - processPackages [xplainable-client]: Remove: archive file [/home/abi/fetcher/tmp/xplainable_client-1.2.5.post7.tar.gz]
+[2024-05-30 05:07:32] INFO root fetch - main [MainThread]: End processing [xplainable-client]: success
+[2024-05-30 05:07:32] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_purchase-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-30 05:07:32] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_purchase-17.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-05-30 05:07:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-purchase]: success
+[2024-05-30 05:07:34] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.7.tar.gz]
+[2024-05-30 05:07:34] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
+[2024-05-30 05:07:34] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2024-05-30 05:07:34] INFO root fetch - main [MainThread]: Store serial: [23441571]
