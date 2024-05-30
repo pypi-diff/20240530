@@ -12314,3 +12314,33 @@ EOFError: EOF read where object expected
 [2024-05-30 07:16:49] INFO root fetch - processPackages [lxdbapi]: Remove: archive file [/home/abi/fetcher/tmp/lxdbapi-2.3.202405291717.tar.gz]
 [2024-05-30 07:16:49] INFO root fetch - main [MainThread]: End processing [lxdbapi]: success
 [2024-05-30 07:16:49] INFO root fetch - main [MainThread]: Store serial: [23442569]
+[2024-05-30 07:18:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442569]
+[2024-05-30 07:18:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-30 07:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molecular-interaction-rules
+[2024-05-30 07:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidpe-rift-pipe
+[2024-05-30 07:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfra-nightly
+[2024-05-30 07:18:58] INFO root fetch - processPackages [molecular-interaction-rules]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-30 07:18:58] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-05-30 07:18:58] INFO root fetch - processPackages [tfra-nightly]: New version: [0.6.1.dev20240528181329] Old Version: [0.6.1.dev20240524195431]
+[2024-05-30 07:18:58] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/da/70/5242672ac64a35f1c29e447bb3d56655848afcd233019294c589e76bfd11/molecular_interaction_rules-0.6.2.tar.gz
+[2024-05-30 07:18:58] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-05-30 07:18:58] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/ed/60/d68842430fb899092fc441f311dba701bf1f6beed001dbd4d5e8a1c5b7fc/tfra_nightly-0.6.1.dev20240524195431-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 07:18:58] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-05-30 07:18:58] INFO root fetch - processPackages [molecular-interaction-rules]: Downloading https://files.pythonhosted.org/packages/6d/0a/48ccd3250166b80a38c3b4b4e9caafeda05a2fba08b9b1a03fe42e0f4ca7/molecular_interaction_rules-0.6.3.tar.gz
+[2024-05-30 07:18:58] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-05-30 07:18:58] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240530/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-05-30 07:18:58] INFO root fetch - processPackages [molecular-interaction-rules]: executing diffoscope
+[2024-05-30 07:18:58] INFO root fetch - processPackages [molecular-interaction-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecular_interaction_rules-0.6.2.tar.gz tmp/molecular_interaction_rules-0.6.3.tar.gz --markdown 20240530/m/molecular-interaction-rules/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-30 07:18:59] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/1b/9c/caf2302be8278fdad9ac17de1c4f57484bfbed779b45b16288898707c066/tfra_nightly-0.6.1.dev20240528181329-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-30 07:18:59] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-05-30 07:18:59] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-05-30 07:18:59] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-05-30 07:18:59] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.6.2.tar.gz]
+[2024-05-30 07:18:59] INFO root fetch - processPackages [molecular-interaction-rules]: Remove: archive file [/home/abi/fetcher/tmp/molecular_interaction_rules-0.6.3.tar.gz]
+[2024-05-30 07:18:59] INFO root fetch - main [MainThread]: End processing [molecular-interaction-rules]: success
+[2024-05-30 07:19:00] INFO root fetch - processPackages [tfra-nightly]: executing diffoscope
+[2024-05-30 07:19:00] INFO root fetch - processPackages [tfra-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfra_nightly-0.6.1.dev20240524195431-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tfra_nightly-0.6.1.dev20240528181329-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240530/t/tfra-nightly/0.6.1.dev20240524195431-0.6.1.dev20240528181329/README.md --exclude *.pyd
+[2024-05-30 07:19:27] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240524195431-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-30 07:19:27] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240528181329-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-30 07:19:27] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
+[2024-05-30 07:19:27] INFO root fetch - main [MainThread]: Store serial: [23442581]
