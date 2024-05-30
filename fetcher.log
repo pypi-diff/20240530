@@ -22850,3 +22850,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 12:22:29] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b9.tar.gz]
 [2024-05-30 12:22:29] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
 [2024-05-30 12:22:29] INFO root fetch - main [MainThread]: Store serial: [23446969]
+[2024-05-30 12:24:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446969]
+[2024-05-30 12:24:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-30 12:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pear-ebi
+[2024-05-30 12:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: markdownfeedgenerator
+[2024-05-30 12:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mistral-common
+[2024-05-30 12:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Dresvip
+[2024-05-30 12:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opensees
+[2024-05-30 12:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: csvtex
+[2024-05-30 12:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sentiment-analysis-model
+[2024-05-30 12:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keyring-proxy
+[2024-05-30 12:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: k8ctl
+[2024-05-30 12:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: organizations-local
+[2024-05-30 12:24:39] INFO root fetch - processPackages [markdownfeedgenerator]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-05-30 12:24:39] INFO root fetch - processPackages [pear-ebi]: New version: [1.0.0] Old Version: [0.1.88]
+[2024-05-30 12:24:39] INFO root fetch - processPackages [mistral-common]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-30 12:24:39] INFO root fetch - processPackages [sentiment-analysis-model]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-30 12:24:39] INFO root fetch - processPackages [keyring-proxy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-30 12:24:39] INFO root fetch - processPackages [csvtex]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-30 12:24:39] INFO root fetch - processPackages [organizations-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 12:24:39] INFO root fetch - processPackages [k8ctl]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-30 12:24:39] INFO root fetch - processPackages [opensees]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 12:24:39] WARNING root fetch - processPackages [Dresvip]: Skipping, unable to determine old version
+[2024-05-30 12:24:39] INFO root fetch - main [MainThread]: End processing [Dresvip] error
+[2024-05-30 12:24:39] INFO root fetch - processPackages [markdownfeedgenerator]: Downloading https://files.pythonhosted.org/packages/93/3a/0b4aca625bbebd5ee2d22badfb1a50234c4c127dae6a8d454f292d702261/markdownfeedgenerator-2.6.0-py3-none-any.whl
+[2024-05-30 12:24:39] INFO root fetch - processPackages [pear-ebi]: Downloading https://files.pythonhosted.org/packages/4b/74/50301ad3ddacca37ebed136555756f8ca11a3b095e930c854b9ff5049ce3/pear_ebi-0.1.88.tar.gz
+[2024-05-30 12:24:39] INFO root fetch - processPackages [mistral-common]: Downloading https://files.pythonhosted.org/packages/33/36/1a690b58d7b6d53f9c1990540505ffd9090eb4a4231ecaf75f31d14ea5b7/mistral_common-1.1.0.tar.gz
+[2024-05-30 12:24:39] INFO root fetch - processPackages [sentiment-analysis-model]: Downloading https://files.pythonhosted.org/packages/33/d1/cf46da9db4335f845a4a9a411d68e365d101af1b2a745953dfd730a6d38e/sentiment_analysis_model-0.0.5.tar.gz
+[2024-05-30 12:24:39] INFO root fetch - processPackages [csvtex]: Downloading https://files.pythonhosted.org/packages/7b/12/3fa230ae30405dd52bfc57c4a26cbed320e3aacf272d13d6a65e3084f319/csvtex-1.0.2.tar.gz
+[2024-05-30 12:24:39] INFO root fetch - processPackages [keyring-proxy]: Downloading https://files.pythonhosted.org/packages/1e/4c/de2eb1c25a290efef77bed2e7f719db0df8ab19c681b753f4fb475aeba00/keyring_proxy-0.1.3.tar.gz
+[2024-05-30 12:24:39] INFO root fetch - processPackages [k8ctl]: Downloading https://files.pythonhosted.org/packages/eb/1d/95ddc138e2fc05138b99d6a960a23f387b1cc7e1ec11040676edb9f75f29/k8ctl-0.0.1-py3-none-any.whl
+[2024-05-30 12:24:39] WARNING root fetch - processPackages [pear-ebi]: Skipping package: exceeds size limit 11241106>=10485760
+[2024-05-30 12:24:39] INFO root fetch - main [MainThread]: End processing [pear-ebi] error
+[2024-05-30 12:24:39] INFO root fetch - processPackages [organizations-local]: Downloading https://files.pythonhosted.org/packages/5b/7e/09b4d410b99d4d4b3d10725e50ba481bd8741acca902b216e9368c50f4aa/organizations-local-0.0.8.tar.gz
+[2024-05-30 12:24:39] INFO root fetch - processPackages [k8ctl]: Downloading https://files.pythonhosted.org/packages/5b/ee/f4dd477544e05b14a2981687d31dbafff1a303c6f1e9fa6c6278f151a4ca/k8ctl-0.0.3-py3-none-any.whl
+[2024-05-30 12:24:39] INFO root fetch - processPackages [opensees]: Downloading https://files.pythonhosted.org/packages/89/07/b8f08c9d4567b2986131cfb7613ef5601c16b2a3c0ac5f22dd8e82eec99d/opensees-0.0.9.tar.gz
+[2024-05-30 12:24:39] INFO root fetch - processPackages [markdownfeedgenerator]: Downloading https://files.pythonhosted.org/packages/c1/a3/872d1bb9961e1e6be017a9ef1760311ca50a90721f5e223b0b4f841fcbc2/markdownfeedgenerator-2.6.1-py3-none-any.whl
+[2024-05-30 12:24:39] INFO root fetch - processPackages [sentiment-analysis-model]: Downloading https://files.pythonhosted.org/packages/6d/2b/17097b8acd75e565c55c4e8588d673a3f2f60e7da04f5560b128dc5d9c5d/sentiment_analysis_model-0.0.6.tar.gz
+[2024-05-30 12:24:39] INFO root fetch - processPackages [mistral-common]: Downloading https://files.pythonhosted.org/packages/32/9c/aad004ca516eee5359991f1823547455ef62f441a12dd3fc3bad09090339/mistral_common-1.2.0.tar.gz
+[2024-05-30 12:24:39] INFO root fetch - processPackages [csvtex]: Downloading https://files.pythonhosted.org/packages/21/50/e64434286ab6a7c695a751f097199b2af7f2947f1d383d9861d95b6e49c2/csvtex-1.0.3.tar.gz
+[2024-05-30 12:24:39] WARNING root fetch - processPackages [opensees]: Skipping package: exceeds size limit 22392766>=10485760
+[2024-05-30 12:24:39] INFO root fetch - main [MainThread]: End processing [opensees] error
+[2024-05-30 12:24:39] INFO root fetch - processPackages [keyring-proxy]: Downloading https://files.pythonhosted.org/packages/59/e5/5b90b2a18fc142028bfb61117ef218ef46a110a1ea8afe316aa1c29b5192/keyring_proxy-0.1.4.tar.gz
+[2024-05-30 12:24:39] INFO root fetch - processPackages [organizations-local]: Downloading https://files.pythonhosted.org/packages/fc/80/42cde22657fe954391a6e80fc840bcfd4599230f000e8eaaa14ac36177a7/organizations-local-0.0.9.tar.gz
+[2024-05-30 12:24:39] INFO root fetch - processPackages [k8ctl]: executing diffoscope
+[2024-05-30 12:24:39] INFO root fetch - processPackages [k8ctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8ctl-0.0.1-py3-none-any.whl.zip tmp/k8ctl-0.0.3-py3-none-any.whl.zip --markdown 20240530/k/k8ctl/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-30 12:24:39] INFO root fetch - processPackages [sentiment-analysis-model]: executing diffoscope
+[2024-05-30 12:24:39] INFO root fetch - processPackages [sentiment-analysis-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analysis_model-0.0.5.tar.gz tmp/sentiment_analysis_model-0.0.6.tar.gz --markdown 20240530/s/sentiment-analysis-model/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-30 12:24:39] INFO root fetch - processPackages [csvtex]: executing diffoscope
+[2024-05-30 12:24:39] INFO root fetch - processPackages [csvtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csvtex-1.0.2.tar.gz tmp/csvtex-1.0.3.tar.gz --markdown 20240530/c/csvtex/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-30 12:24:39] INFO root fetch - processPackages [keyring-proxy]: executing diffoscope
+[2024-05-30 12:24:39] INFO root fetch - processPackages [keyring-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyring_proxy-0.1.3.tar.gz tmp/keyring_proxy-0.1.4.tar.gz --markdown 20240530/k/keyring-proxy/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-30 12:24:39] INFO root fetch - processPackages [organizations-local]: executing diffoscope
+[2024-05-30 12:24:39] INFO root fetch - processPackages [organizations-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/organizations-local-0.0.8.tar.gz tmp/organizations-local-0.0.9.tar.gz --markdown 20240530/o/organizations-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 12:24:39] INFO root fetch - processPackages [markdownfeedgenerator]: executing diffoscope
+[2024-05-30 12:24:39] INFO root fetch - processPackages [markdownfeedgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownfeedgenerator-2.6.0-py3-none-any.whl.zip tmp/markdownfeedgenerator-2.6.1-py3-none-any.whl.zip --markdown 20240530/m/markdownfeedgenerator/2.6.0-2.6.1/README.md --exclude *.pyd
+[2024-05-30 12:24:39] INFO root fetch - processPackages [mistral-common]: executing diffoscope
+[2024-05-30 12:24:39] INFO root fetch - processPackages [mistral-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistral_common-1.1.0.tar.gz tmp/mistral_common-1.2.0.tar.gz --markdown 20240530/m/mistral-common/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-30 12:24:40] INFO root fetch - processPackages [k8ctl]: Remove: archive file [/home/abi/fetcher/tmp/k8ctl-0.0.1-py3-none-any.whl.zip]
+[2024-05-30 12:24:40] INFO root fetch - processPackages [k8ctl]: Remove: archive file [/home/abi/fetcher/tmp/k8ctl-0.0.3-py3-none-any.whl.zip]
+[2024-05-30 12:24:40] INFO root fetch - main [MainThread]: End processing [k8ctl]: success
+[2024-05-30 12:24:40] INFO root fetch - processPackages [sentiment-analysis-model]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_model-0.0.5.tar.gz]
+[2024-05-30 12:24:40] INFO root fetch - processPackages [sentiment-analysis-model]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_model-0.0.6.tar.gz]
+[2024-05-30 12:24:40] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-model]: success
+[2024-05-30 12:24:40] INFO root fetch - processPackages [markdownfeedgenerator]: Remove: archive file [/home/abi/fetcher/tmp/markdownfeedgenerator-2.6.0-py3-none-any.whl.zip]
+[2024-05-30 12:24:40] INFO root fetch - processPackages [markdownfeedgenerator]: Remove: archive file [/home/abi/fetcher/tmp/markdownfeedgenerator-2.6.1-py3-none-any.whl.zip]
+[2024-05-30 12:24:40] INFO root fetch - main [MainThread]: End processing [markdownfeedgenerator]: success
+[2024-05-30 12:24:40] INFO root fetch - processPackages [keyring-proxy]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy-0.1.3.tar.gz]
+[2024-05-30 12:24:40] INFO root fetch - processPackages [keyring-proxy]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy-0.1.4.tar.gz]
+[2024-05-30 12:24:40] INFO root fetch - main [MainThread]: End processing [keyring-proxy]: success
+[2024-05-30 12:24:40] INFO root fetch - processPackages [organizations-local]: Remove: archive file [/home/abi/fetcher/tmp/organizations-local-0.0.8.tar.gz]
+[2024-05-30 12:24:40] INFO root fetch - processPackages [organizations-local]: Remove: archive file [/home/abi/fetcher/tmp/organizations-local-0.0.9.tar.gz]
+[2024-05-30 12:24:40] INFO root fetch - main [MainThread]: End processing [organizations-local]: success
+[2024-05-30 12:24:40] INFO root fetch - processPackages [csvtex]: Remove: archive file [/home/abi/fetcher/tmp/csvtex-1.0.2.tar.gz]
+[2024-05-30 12:24:40] INFO root fetch - processPackages [csvtex]: Remove: archive file [/home/abi/fetcher/tmp/csvtex-1.0.3.tar.gz]
+[2024-05-30 12:24:40] INFO root fetch - main [MainThread]: End processing [csvtex]: success
+[2024-05-30 12:24:40] INFO root fetch - processPackages [mistral-common]: Remove: archive file [/home/abi/fetcher/tmp/mistral_common-1.1.0.tar.gz]
+[2024-05-30 12:24:40] INFO root fetch - processPackages [mistral-common]: Remove: archive file [/home/abi/fetcher/tmp/mistral_common-1.2.0.tar.gz]
+[2024-05-30 12:24:40] INFO root fetch - main [MainThread]: End processing [mistral-common]: success
+[2024-05-30 12:24:40] INFO root fetch - main [MainThread]: Store serial: [23447002]
