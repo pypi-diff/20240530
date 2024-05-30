@@ -15960,3 +15960,45 @@ EOFError: EOF read where object expected
 [2024-05-30 09:18:49] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.9.tar.gz]
 [2024-05-30 09:18:49] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2024-05-30 09:18:49] INFO root fetch - main [MainThread]: Store serial: [23444021]
+[2024-05-30 09:20:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444021]
+[2024-05-30 09:20:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 09:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyprocessors-reconciliation
+[2024-05-30 09:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yappr
+[2024-05-30 09:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phope
+[2024-05-30 09:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fuzzquery
+[2024-05-30 09:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: injector-collections
+[2024-05-30 09:21:00] INFO root fetch - processPackages [injector-collections]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 09:21:00] INFO root fetch - processPackages [phope]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 09:21:00] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/ad/7c/b29e15bfd7e43c2c147c7a9c69d222f6a873c3604453608dcd107523c5d8/injector_collections-0.0.8.tar.gz
+[2024-05-30 09:21:00] WARNING root fetch - processPackages [pyprocessors-reconciliation]: Skipping, unable to determine old version
+[2024-05-30 09:21:00] INFO root fetch - main [MainThread]: End processing [pyprocessors-reconciliation] error
+[2024-05-30 09:21:00] INFO root fetch - processPackages [fuzzquery]: New version: [24.5.28] Old Version: [24.5.26]
+[2024-05-30 09:21:00] INFO root fetch - processPackages [phope]: Downloading https://files.pythonhosted.org/packages/69/24/445abc6a08271ceb16e2ebda28c9034f5c0661aa60e9408ea9909fba296f/phope-0.0.8.tar.gz
+[2024-05-30 09:21:00] INFO root fetch - processPackages [yappr]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-30 09:21:00] INFO root fetch - processPackages [injector-collections]: Downloading https://files.pythonhosted.org/packages/1e/fb/9164c6324cc31bc47dff9f9f7d19bdbb6fa2ada63e8442d3bd3364a24bf2/injector_collections-0.0.9.tar.gz
+[2024-05-30 09:21:00] INFO root fetch - processPackages [phope]: Downloading https://files.pythonhosted.org/packages/40/49/89f53b21c66d7ee0138964ed980c921b8213ec58c1c1b32128a54bad5964/phope-0.0.9-py3-none-any.whl
+[2024-05-30 09:21:00] INFO root fetch - processPackages [fuzzquery]: Downloading https://files.pythonhosted.org/packages/0a/09/b8c5e87e4bd62ca79f0e977a5362ad2e593d862ef945f4ea14101d673b62/fuzzquery-24.5.26.tar.gz
+[2024-05-30 09:21:00] INFO root fetch - processPackages [yappr]: Downloading https://files.pythonhosted.org/packages/dd/2e/8d1d862198de38672ab724e33b30f38b23717ae4eec700f1697a66fab72e/yappr-1.0.6.tar.gz
+[2024-05-30 09:21:00] INFO root fetch - processPackages [injector-collections]: executing diffoscope
+[2024-05-30 09:21:00] INFO root fetch - processPackages [injector-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/injector_collections-0.0.8.tar.gz tmp/injector_collections-0.0.9.tar.gz --markdown 20240530/i/injector-collections/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 09:21:00] INFO root fetch - processPackages [phope]: executing diffoscope
+[2024-05-30 09:21:00] INFO root fetch - processPackages [phope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phope-0.0.8.tar.gz tmp/phope-0.0.9-py3-none-any.whl.zip --markdown 20240530/p/phope/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 09:21:00] INFO root fetch - processPackages [fuzzquery]: Downloading https://files.pythonhosted.org/packages/2c/b6/f9158879f2047f9f7779c4cb577047f8ddd51bb20b9573570c4d7e0b104d/fuzzquery-24.5.28.tar.gz
+[2024-05-30 09:21:00] INFO root fetch - processPackages [fuzzquery]: executing diffoscope
+[2024-05-30 09:21:00] INFO root fetch - processPackages [fuzzquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzquery-24.5.26.tar.gz tmp/fuzzquery-24.5.28.tar.gz --markdown 20240530/f/fuzzquery/24.5.26-24.5.28/README.md --exclude *.pyd
+[2024-05-30 09:21:00] INFO root fetch - processPackages [yappr]: Downloading https://files.pythonhosted.org/packages/85/1b/7b261b8aaacbf7a2aeffa3b7001729f4de1797237332b8a4da1d5cc491e8/yappr-1.0.7.tar.gz
+[2024-05-30 09:21:00] INFO root fetch - processPackages [yappr]: executing diffoscope
+[2024-05-30 09:21:00] INFO root fetch - processPackages [yappr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yappr-1.0.6.tar.gz tmp/yappr-1.0.7.tar.gz --markdown 20240530/y/yappr/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-30 09:21:00] INFO root fetch - processPackages [phope]: Remove: archive file [/home/abi/fetcher/tmp/phope-0.0.8.tar.gz]
+[2024-05-30 09:21:01] INFO root fetch - processPackages [phope]: Remove: archive file [/home/abi/fetcher/tmp/phope-0.0.9-py3-none-any.whl.zip]
+[2024-05-30 09:21:01] INFO root fetch - main [MainThread]: End processing [phope]: success
+[2024-05-30 09:21:01] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.8.tar.gz]
+[2024-05-30 09:21:01] INFO root fetch - processPackages [injector-collections]: Remove: archive file [/home/abi/fetcher/tmp/injector_collections-0.0.9.tar.gz]
+[2024-05-30 09:21:01] INFO root fetch - main [MainThread]: End processing [injector-collections]: success
+[2024-05-30 09:21:01] INFO root fetch - processPackages [fuzzquery]: Remove: archive file [/home/abi/fetcher/tmp/fuzzquery-24.5.26.tar.gz]
+[2024-05-30 09:21:01] INFO root fetch - processPackages [fuzzquery]: Remove: archive file [/home/abi/fetcher/tmp/fuzzquery-24.5.28.tar.gz]
+[2024-05-30 09:21:01] INFO root fetch - main [MainThread]: End processing [fuzzquery]: success
+[2024-05-30 09:21:01] INFO root fetch - processPackages [yappr]: Remove: archive file [/home/abi/fetcher/tmp/yappr-1.0.6.tar.gz]
+[2024-05-30 09:21:01] INFO root fetch - processPackages [yappr]: Remove: archive file [/home/abi/fetcher/tmp/yappr-1.0.7.tar.gz]
+[2024-05-30 09:21:01] INFO root fetch - main [MainThread]: End processing [yappr]: success
+[2024-05-30 09:21:01] INFO root fetch - main [MainThread]: Store serial: [23444041]
