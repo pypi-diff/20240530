@@ -18462,3 +18462,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:51:04] INFO root fetch - processPackages [steinbock]: Remove: archive file [/home/abi/fetcher/tmp/steinbock-0.9.1.tar.gz]
 [2024-05-30 10:51:04] INFO root fetch - main [MainThread]: End processing [steinbock]: success
 [2024-05-30 10:51:04] INFO root fetch - main [MainThread]: Store serial: [23445340]
+[2024-05-30 10:53:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23445340]
+[2024-05-30 10:53:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 10:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lyra-v2-client
+[2024-05-30 10:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: browserxt
+[2024-05-30 10:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yahoo-fin-cheese
+[2024-05-30 10:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enigma-workflow-14
+[2024-05-30 10:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auto-round
+[2024-05-30 10:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chainlit
+[2024-05-30 10:53:13] INFO root fetch - processPackages [chainlit]: New version: [1.1.300rc2] Old Version: [1.1.300rc1]
+[2024-05-30 10:53:13] INFO root fetch - processPackages [auto-round]: New version: [0.2] Old Version: [0.11]
+[2024-05-30 10:53:13] INFO root fetch - processPackages [yahoo-fin-cheese]: New version: [0.8.9.6] Old Version: [0.8.9.5]
+[2024-05-30 10:53:13] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/26/b5/dc06494e117b75937f8ce87f2ba16d84230dca09735812bafbc5b20d8127/chainlit-1.1.300rc1.tar.gz
+[2024-05-30 10:53:14] WARNING root fetch - processPackages [browserxt]: Skipping, unable to determine old version
+[2024-05-30 10:53:14] INFO root fetch - main [MainThread]: End processing [browserxt] error
+[2024-05-30 10:53:14] INFO root fetch - processPackages [lyra-v2-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-30 10:53:14] INFO root fetch - processPackages [enigma-workflow-14]: New version: [14.0.5] Old Version: [14.0.4]
+[2024-05-30 10:53:14] INFO root fetch - processPackages [auto-round]: Downloading https://files.pythonhosted.org/packages/70/ea/f928ed21da9a377287e58ac669782f730925526b2d6b75288ba64f049c00/auto_round-0.11.tar.gz
+[2024-05-30 10:53:14] INFO root fetch - processPackages [lyra-v2-client]: Downloading https://files.pythonhosted.org/packages/ef/4e/3f2e45cea0b780ab4314b5c69d7df22cc40c5a3369a8e55bc0ce6524b09d/lyra_v2_client-0.2.8.tar.gz
+[2024-05-30 10:53:14] INFO root fetch - processPackages [yahoo-fin-cheese]: Downloading https://files.pythonhosted.org/packages/50/01/51d6283e69a49acb63c90c2f29f7782159a81aa0d4500b51378031a6f428/yahoo_fin_cheese-0.8.9.5.tar.gz
+[2024-05-30 10:53:14] INFO root fetch - processPackages [enigma-workflow-14]: Downloading https://files.pythonhosted.org/packages/20/96/67147cb53ec261f0acb3be07e7936ed7e664cf88d5d3fe10e4ebf9d78f8d/enigma_workflow_14-14.0.4-cp39-cp39-win_amd64.whl
+[2024-05-30 10:53:14] INFO root fetch - processPackages [lyra-v2-client]: Downloading https://files.pythonhosted.org/packages/b7/a5/eca82a701f4f7d19762612f98f2525563244c9fad22e6477bfce139a8202/lyra_v2_client-0.2.9.tar.gz
+[2024-05-30 10:53:14] INFO root fetch - processPackages [auto-round]: Downloading https://files.pythonhosted.org/packages/e6/93/ed2efb5bb9fa9523519a7f46b9accad073223c92edacdbbc5e9490bbb43a/auto_round-0.2.tar.gz
+[2024-05-30 10:53:14] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/c6/76/2deaa159c09925b6085509aecb72e241678f2072522aa3e468f1f3c721c8/chainlit-1.1.300rc2.tar.gz
+[2024-05-30 10:53:14] INFO root fetch - processPackages [yahoo-fin-cheese]: Downloading https://files.pythonhosted.org/packages/a1/ee/c0ac0a608aae319409916ef21b093e7466539a025bb0cfe06bfcbe0de5e8/yahoo_fin_cheese-0.8.9.6.tar.gz
+[2024-05-30 10:53:14] INFO root fetch - processPackages [enigma-workflow-14]: Downloading https://files.pythonhosted.org/packages/db/7a/2e872e5f9dff8e1bcc47a01ab0f4a3fc4d9af87c388d3722a2e1c1bcb6a0/enigma_workflow_14-14.0.5-cp39-cp39-macosx_11_0_arm64.whl
+[2024-05-30 10:53:14] INFO root fetch - processPackages [lyra-v2-client]: executing diffoscope
+[2024-05-30 10:53:14] INFO root fetch - processPackages [lyra-v2-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyra_v2_client-0.2.8.tar.gz tmp/lyra_v2_client-0.2.9.tar.gz --markdown 20240530/l/lyra-v2-client/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-30 10:53:14] INFO root fetch - processPackages [auto-round]: executing diffoscope
+[2024-05-30 10:53:14] INFO root fetch - processPackages [auto-round]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_round-0.11.tar.gz tmp/auto_round-0.2.tar.gz --markdown 20240530/a/auto-round/0.11-0.2/README.md --exclude *.pyd
+[2024-05-30 10:53:14] INFO root fetch - processPackages [yahoo-fin-cheese]: executing diffoscope
+[2024-05-30 10:53:14] INFO root fetch - processPackages [yahoo-fin-cheese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yahoo_fin_cheese-0.8.9.5.tar.gz tmp/yahoo_fin_cheese-0.8.9.6.tar.gz --markdown 20240530/y/yahoo-fin-cheese/0.8.9.5-0.8.9.6/README.md --exclude *.pyd
+[2024-05-30 10:53:14] INFO root fetch - processPackages [enigma-workflow-14]: executing diffoscope
+[2024-05-30 10:53:14] INFO root fetch - processPackages [enigma-workflow-14]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enigma_workflow_14-14.0.4-cp39-cp39-win_amd64.whl.zip tmp/enigma_workflow_14-14.0.5-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20240530/e/enigma-workflow-14/14.0.4-14.0.5/README.md --exclude *.pyd
+[2024-05-30 10:53:15] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2024-05-30 10:53:15] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-1.1.300rc1.tar.gz tmp/chainlit-1.1.300rc2.tar.gz --markdown 20240530/c/chainlit/1.1.300rc1-1.1.300rc2/README.md --exclude *.pyd
+[2024-05-30 10:53:15] INFO root fetch - processPackages [lyra-v2-client]: Remove: archive file [/home/abi/fetcher/tmp/lyra_v2_client-0.2.8.tar.gz]
+[2024-05-30 10:53:15] INFO root fetch - processPackages [lyra-v2-client]: Remove: archive file [/home/abi/fetcher/tmp/lyra_v2_client-0.2.9.tar.gz]
+[2024-05-30 10:53:15] INFO root fetch - main [MainThread]: End processing [lyra-v2-client]: success
+[2024-05-30 10:53:15] INFO root fetch - processPackages [enigma-workflow-14]: Remove: archive file [/home/abi/fetcher/tmp/enigma_workflow_14-14.0.4-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 10:53:15] INFO root fetch - processPackages [enigma-workflow-14]: Remove: archive file [/home/abi/fetcher/tmp/enigma_workflow_14-14.0.5-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-05-30 10:53:15] INFO root fetch - main [MainThread]: End processing [enigma-workflow-14]: success
+[2024-05-30 10:53:15] INFO root fetch - processPackages [yahoo-fin-cheese]: Remove: archive file [/home/abi/fetcher/tmp/yahoo_fin_cheese-0.8.9.5.tar.gz]
+[2024-05-30 10:53:15] INFO root fetch - processPackages [yahoo-fin-cheese]: Remove: archive file [/home/abi/fetcher/tmp/yahoo_fin_cheese-0.8.9.6.tar.gz]
+[2024-05-30 10:53:15] INFO root fetch - main [MainThread]: End processing [yahoo-fin-cheese]: success
+[2024-05-30 10:53:15] INFO root fetch - processPackages [auto-round]: Remove: archive file [/home/abi/fetcher/tmp/auto_round-0.11.tar.gz]
+[2024-05-30 10:53:15] INFO root fetch - processPackages [auto-round]: Remove: archive file [/home/abi/fetcher/tmp/auto_round-0.2.tar.gz]
+[2024-05-30 10:53:15] INFO root fetch - main [MainThread]: End processing [auto-round]: success
+[2024-05-30 10:55:00] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.300rc1.tar.gz]
+[2024-05-30 10:55:00] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.300rc2.tar.gz]
+[2024-05-30 10:55:00] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2024-05-30 10:55:00] INFO root fetch - main [MainThread]: Store serial: [23445363]
