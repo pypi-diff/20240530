@@ -14887,3 +14887,74 @@ EOFError: EOF read where object expected
 [2024-05-30 08:34:28] INFO root fetch - processPackages [apache-airflow-providers-google]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-google-9.0.0rc2.tar.gz]
 [2024-05-30 08:34:28] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-google]: success
 [2024-05-30 08:34:28] INFO root fetch - main [MainThread]: Store serial: [23443530]
+[2024-05-30 08:36:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443530]
+[2024-05-30 08:36:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 08:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2024-05-30 08:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apache-airflow-providers-yandex
+[2024-05-30 08:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apache-airflow-providers-zendesk
+[2024-05-30 08:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mecord-cli
+[2024-05-30 08:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyDicomGrouping
+[2024-05-30 08:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Multiclass-interface
+[2024-05-30 08:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-dashboard
+[2024-05-30 08:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pynumint
+[2024-05-30 08:36:40] INFO root fetch - processPackages [PyDicomGrouping]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-30 08:36:40] INFO root fetch - processPackages [pytest-dashboard]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 08:36:40] INFO root fetch - processPackages [Multiclass-interface]: New version: [1.4] Old Version: [1.3]
+[2024-05-30 08:36:40] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-30 08:36:40] INFO root fetch - processPackages [checkov]: New version: [3.2.99] Old Version: [3.2.98]
+[2024-05-30 08:36:40] INFO root fetch - processPackages [apache-airflow-providers-zendesk]: New version: [4.7.1rc1] Old Version: [4.7.1]
+[2024-05-30 08:36:40] INFO root fetch - processPackages [apache-airflow-providers-yandex]: New version: [3.9.1rc1] Old Version: [3.9.0rc1]
+[2024-05-30 08:36:40] INFO root fetch - processPackages [pynumint]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 08:36:40] INFO root fetch - processPackages [pytest-dashboard]: Downloading https://files.pythonhosted.org/packages/8f/71/a832f0ef0f743a1022d19b35504c780d249d220fde12f221de901bb1454a/pytest_dashboard-0.1.0.tar.gz
+[2024-05-30 08:36:40] INFO root fetch - processPackages [Multiclass-interface]: Downloading https://files.pythonhosted.org/packages/88/07/240090ffa3fc08bf0dd7c21215ed4ddedf98a8df60700cd35d495aa7ea7c/multiclass_interface-1.3.tar.gz
+[2024-05-30 08:36:40] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-05-30 08:36:40] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/a9/34/826b2df19c26007adefb008f273e87b94019bf5e27747efea796070c2da5/checkov-3.2.98.tar.gz
+[2024-05-30 08:36:40] INFO root fetch - processPackages [PyDicomGrouping]: Downloading https://files.pythonhosted.org/packages/61/d4/1127f498308727cb5efcf845aefaa0c7290685c1354b515abb9576da88a0/PyDicomGrouping-0.1.5.tar.gz
+[2024-05-30 08:36:41] WARNING root fetch - processPackages [PyDicomGrouping]: Skipping package: exceeds size limit 37060832>=10485760
+[2024-05-30 08:36:41] INFO root fetch - main [MainThread]: End processing [PyDicomGrouping] error
+[2024-05-30 08:36:41] INFO root fetch - processPackages [apache-airflow-providers-zendesk]: Downloading https://files.pythonhosted.org/packages/15/ad/5290d8ecd3df2bc60456294fc89107b26cb7f5f621dd2e82b7d0e902d981/apache_airflow_providers_zendesk-4.7.1-py3-none-any.whl
+[2024-05-30 08:36:41] INFO root fetch - processPackages [apache-airflow-providers-yandex]: Downloading https://files.pythonhosted.org/packages/74/3a/74696360b5444744e6f48048a534e005565a9f55c462cba67833eff1701c/apache_airflow_providers_yandex-3.9.0rc1.tar.gz
+[2024-05-30 08:36:41] INFO root fetch - processPackages [pynumint]: Downloading https://files.pythonhosted.org/packages/a5/8b/aa52621a14e5896fa9c3812a5b94fb7ddcda1f8dd1176eb9389b5c7c763c/pynumint-0.0.1.tar.gz
+[2024-05-30 08:36:41] INFO root fetch - processPackages [Multiclass-interface]: Downloading https://files.pythonhosted.org/packages/97/69/2f100b7bfa8fdbe680d2ce6e05c9929e012b8d9d095dfc8a3912d9c92257/multiclass_interface-1.4.tar.gz
+[2024-05-30 08:36:41] INFO root fetch - processPackages [Multiclass-interface]: executing diffoscope
+[2024-05-30 08:36:41] INFO root fetch - processPackages [Multiclass-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiclass_interface-1.3.tar.gz tmp/multiclass_interface-1.4.tar.gz --markdown 20240530/M/Multiclass-interface/1.3-1.4/README.md --exclude *.pyd
+[2024-05-30 08:36:41] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-05-30 08:36:41] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/ff/ff/5ccc1f214d2e0bf1a97393d8f14eb1cda0f7675d0fedc54a6e5b09841a02/checkov-3.2.99.tar.gz
+[2024-05-30 08:36:41] INFO root fetch - processPackages [pytest-dashboard]: Downloading https://files.pythonhosted.org/packages/10/da/e0bd620f49e92311fd0823999ff8881b0e9831f8ef7006a768fd57df4a6f/pytest_dashboard-0.1.1.tar.gz
+[2024-05-30 08:36:41] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-05-30 08:36:41] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240530/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-30 08:36:41] INFO root fetch - processPackages [pynumint]: Downloading https://files.pythonhosted.org/packages/57/45/056e34a56921bc134efbae89a01621a7aad54fcbcec4f110363eaa7417d5/pynumint-0.0.2.tar.gz
+[2024-05-30 08:36:41] INFO root fetch - processPackages [apache-airflow-providers-zendesk]: Downloading https://files.pythonhosted.org/packages/59/73/0a339a50b802f374538945ec7f0174e40b702c6239182dddea3715588f60/apache_airflow_providers_zendesk-4.7.1rc1.tar.gz
+[2024-05-30 08:36:41] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-30 08:36:41] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.98.tar.gz tmp/checkov-3.2.99.tar.gz --markdown 20240530/c/checkov/3.2.98-3.2.99/README.md --exclude *.pyd
+[2024-05-30 08:36:41] INFO root fetch - processPackages [apache-airflow-providers-yandex]: Downloading https://files.pythonhosted.org/packages/b8/35/427d826572313a744dfe5c9c5f82b2cdbf68a062057912b9a1dd9783753e/apache_airflow_providers_yandex-3.9.1rc1.tar.gz
+[2024-05-30 08:36:41] INFO root fetch - processPackages [pytest-dashboard]: executing diffoscope
+[2024-05-30 08:36:41] INFO root fetch - processPackages [pytest-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_dashboard-0.1.0.tar.gz tmp/pytest_dashboard-0.1.1.tar.gz --markdown 20240530/p/pytest-dashboard/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 08:36:41] INFO root fetch - processPackages [apache-airflow-providers-zendesk]: executing diffoscope
+[2024-05-30 08:36:41] INFO root fetch - processPackages [apache-airflow-providers-zendesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_zendesk-4.7.1-py3-none-any.whl.zip tmp/apache_airflow_providers_zendesk-4.7.1rc1.tar.gz --markdown 20240530/a/apache-airflow-providers-zendesk/4.7.1-4.7.1rc1/README.md --exclude *.pyd
+[2024-05-30 08:36:41] INFO root fetch - processPackages [pynumint]: executing diffoscope
+[2024-05-30 08:36:41] INFO root fetch - processPackages [pynumint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynumint-0.0.1.tar.gz tmp/pynumint-0.0.2.tar.gz --markdown 20240530/p/pynumint/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 08:36:41] INFO root fetch - processPackages [apache-airflow-providers-yandex]: executing diffoscope
+[2024-05-30 08:36:41] INFO root fetch - processPackages [apache-airflow-providers-yandex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_yandex-3.9.0rc1.tar.gz tmp/apache_airflow_providers_yandex-3.9.1rc1.tar.gz --markdown 20240530/a/apache-airflow-providers-yandex/3.9.0rc1-3.9.1rc1/README.md --exclude *.pyd
+[2024-05-30 08:36:41] INFO root fetch - processPackages [Multiclass-interface]: Remove: archive file [/home/abi/fetcher/tmp/multiclass_interface-1.3.tar.gz]
+[2024-05-30 08:36:41] INFO root fetch - processPackages [Multiclass-interface]: Remove: archive file [/home/abi/fetcher/tmp/multiclass_interface-1.4.tar.gz]
+[2024-05-30 08:36:41] INFO root fetch - main [MainThread]: End processing [Multiclass-interface]: success
+[2024-05-30 08:36:42] INFO root fetch - processPackages [pynumint]: Remove: archive file [/home/abi/fetcher/tmp/pynumint-0.0.1.tar.gz]
+[2024-05-30 08:36:42] INFO root fetch - processPackages [pynumint]: Remove: archive file [/home/abi/fetcher/tmp/pynumint-0.0.2.tar.gz]
+[2024-05-30 08:36:42] INFO root fetch - main [MainThread]: End processing [pynumint]: success
+[2024-05-30 08:36:42] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-05-30 08:36:42] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-05-30 08:36:42] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-05-30 08:36:42] INFO root fetch - processPackages [apache-airflow-providers-zendesk]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_zendesk-4.7.1-py3-none-any.whl.zip]
+[2024-05-30 08:36:42] INFO root fetch - processPackages [apache-airflow-providers-zendesk]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_zendesk-4.7.1rc1.tar.gz]
+[2024-05-30 08:36:42] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-zendesk]: success
+[2024-05-30 08:36:42] INFO root fetch - processPackages [pytest-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dashboard-0.1.0.tar.gz]
+[2024-05-30 08:36:42] INFO root fetch - processPackages [pytest-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/pytest_dashboard-0.1.1.tar.gz]
+[2024-05-30 08:36:42] INFO root fetch - main [MainThread]: End processing [pytest-dashboard]: success
+[2024-05-30 08:36:42] INFO root fetch - processPackages [apache-airflow-providers-yandex]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_yandex-3.9.0rc1.tar.gz]
+[2024-05-30 08:36:42] INFO root fetch - processPackages [apache-airflow-providers-yandex]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_yandex-3.9.1rc1.tar.gz]
+[2024-05-30 08:36:42] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-yandex]: success
+[2024-05-30 08:36:49] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.98.tar.gz]
+[2024-05-30 08:36:49] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.99.tar.gz]
+[2024-05-30 08:36:49] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-30 08:36:49] INFO root fetch - main [MainThread]: Store serial: [23443626]
