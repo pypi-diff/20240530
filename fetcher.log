@@ -11678,3 +11678,15 @@ EOFError: EOF read where object expected
 [2024-05-30 06:39:15] INFO root fetch - processPackages [stencila_types]: Remove: archive file [/home/abi/fetcher/tmp/stencila_types-2.0.0a31.tar.gz]
 [2024-05-30 06:39:15] INFO root fetch - main [MainThread]: End processing [stencila_types]: success
 [2024-05-30 06:39:15] INFO root fetch - main [MainThread]: Store serial: [23442293]
+[2024-05-30 06:41:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442293]
+[2024-05-30 06:41:24] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 06:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stencila_plugin
+[2024-05-30 06:41:24] INFO root fetch - processPackages [stencila_plugin]: New version: [2.0.0a34] Old Version: [2.0.0a33]
+[2024-05-30 06:41:24] INFO root fetch - processPackages [stencila_plugin]: Downloading https://files.pythonhosted.org/packages/25/1f/b6562561f6e7945af5eecef511e758e264e72582a231678ebc7d4a57e92a/stencila_plugin-2.0.0a33.tar.gz
+[2024-05-30 06:41:24] INFO root fetch - processPackages [stencila_plugin]: Downloading https://files.pythonhosted.org/packages/ac/12/633db852ba4a91e00f169526907eceda2789b9b6d9eb7e393bc8189095af/stencila_plugin-2.0.0a34.tar.gz
+[2024-05-30 06:41:25] INFO root fetch - processPackages [stencila_plugin]: executing diffoscope
+[2024-05-30 06:41:25] INFO root fetch - processPackages [stencila_plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stencila_plugin-2.0.0a33.tar.gz tmp/stencila_plugin-2.0.0a34.tar.gz --markdown 20240530/s/stencila_plugin/2.0.0a33-2.0.0a34/README.md --exclude *.pyd
+[2024-05-30 06:41:25] INFO root fetch - processPackages [stencila_plugin]: Remove: archive file [/home/abi/fetcher/tmp/stencila_plugin-2.0.0a33.tar.gz]
+[2024-05-30 06:41:25] INFO root fetch - processPackages [stencila_plugin]: Remove: archive file [/home/abi/fetcher/tmp/stencila_plugin-2.0.0a34.tar.gz]
+[2024-05-30 06:41:25] INFO root fetch - main [MainThread]: End processing [stencila_plugin]: success
+[2024-05-30 06:41:25] INFO root fetch - main [MainThread]: Store serial: [23442296]
