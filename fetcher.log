@@ -12014,3 +12014,63 @@ EOFError: EOF read where object expected
 [2024-05-30 07:01:05] INFO root fetch - processPackages [odoo-addon-partner-industry-secondary]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_industry_secondary-17.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-05-30 07:01:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-industry-secondary]: success
 [2024-05-30 07:01:05] INFO root fetch - main [MainThread]: Store serial: [23442458]
+[2024-05-30 07:03:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442458]
+[2024-05-30 07:03:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-30 07:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: busycat
+[2024-05-30 07:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pgc-finder
+[2024-05-30 07:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unittestreport-yami
+[2024-05-30 07:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: few-shot-priming
+[2024-05-30 07:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agency-swarm
+[2024-05-30 07:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RapidanAPI
+[2024-05-30 07:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bsl-appcli
+[2024-05-30 07:03:14] INFO root fetch - processPackages [unittestreport-yami]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-30 07:03:14] INFO root fetch - processPackages [pgc-finder]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 07:03:14] INFO root fetch - processPackages [RapidanAPI]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-30 07:03:14] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/df/a1/68515c504182918b6a6378d36ecaada3f3cf3ae8f66239de747312ab9b15/unittestreport_yami-0.1.5.tar.gz
+[2024-05-30 07:03:14] INFO root fetch - processPackages [agency-swarm]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-30 07:03:14] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/93/42/530b45ac027c5f91b5711e3d6014a2adcc6906c1e7ccff21129896dc6634/RapidanAPI-1.0.8.tar.gz
+[2024-05-30 07:03:14] INFO root fetch - processPackages [bsl-appcli]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-30 07:03:14] WARNING root fetch - processPackages [busycat]: Skipping, unable to determine old version
+[2024-05-30 07:03:14] INFO root fetch - main [MainThread]: End processing [busycat] error
+[2024-05-30 07:03:14] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-30 07:03:14] INFO root fetch - processPackages [pgc-finder]: Downloading https://files.pythonhosted.org/packages/35/d8/03fa605f6add47f91f90ef47e3299dee0518b4741e090dbbe0a1c7c3c1be/pgc-finder-0.0.1.tar.gz
+[2024-05-30 07:03:14] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/31/c4/fd0a17d6977bd50c099ee5743521513f2944b312b050a17d798383313a5f/unittestreport_yami-0.1.6.tar.gz
+[2024-05-30 07:03:14] INFO root fetch - processPackages [RapidanAPI]: Downloading https://files.pythonhosted.org/packages/12/fc/9a6cc2d05c47996e22f3b623bac3d3ce1627cc066955d8aa06751112d121/RapidanAPI-1.0.9.tar.gz
+[2024-05-30 07:03:14] INFO root fetch - processPackages [agency-swarm]: Downloading https://files.pythonhosted.org/packages/d4/d8/beba2c686f9bcd4534393976312b5107fcd15a71e0a62b97ecb97e690ec2/agency_swarm-0.2.3.tar.gz
+[2024-05-30 07:03:14] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/37/32/e346bc66b4cd72d7bfbca14b02257dd188af8cbd84daf257538f858ebdf6/bsl_appcli-3.0.0.tar.gz
+[2024-05-30 07:03:14] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-30 07:03:14] INFO root fetch - processPackages [RapidanAPI]: executing diffoscope
+[2024-05-30 07:03:14] INFO root fetch - processPackages [RapidanAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RapidanAPI-1.0.8.tar.gz tmp/RapidanAPI-1.0.9.tar.gz --markdown 20240530/R/RapidanAPI/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-30 07:03:14] INFO root fetch - processPackages [unittestreport-yami]: executing diffoscope
+[2024-05-30 07:03:14] INFO root fetch - processPackages [unittestreport-yami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unittestreport_yami-0.1.5.tar.gz tmp/unittestreport_yami-0.1.6.tar.gz --markdown 20240530/u/unittestreport-yami/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-30 07:03:14] INFO root fetch - processPackages [pgc-finder]: Downloading https://files.pythonhosted.org/packages/bc/e0/5d78f5418283c821aa34ed767ce6d104d1e1b4fae91c557b2ac2cb145b8e/pgc-finder-0.0.2.tar.gz
+[2024-05-30 07:03:14] INFO root fetch - processPackages [pgc-finder]: executing diffoscope
+[2024-05-30 07:03:14] INFO root fetch - processPackages [pgc-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgc-finder-0.0.1.tar.gz tmp/pgc-finder-0.0.2.tar.gz --markdown 20240530/p/pgc-finder/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 07:03:14] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/c8/26/676ce83a37b7251de3681c043dbe5b48dd84bcdc5ad9b0f77c2be35b8915/bsl_appcli-3.1.0.tar.gz
+[2024-05-30 07:03:14] INFO root fetch - processPackages [agency-swarm]: Downloading https://files.pythonhosted.org/packages/46/54/d08c0eb2b429c6247b7a98419846c821a62f33bb96cb071f9a4c4759a067/agency_swarm-0.2.4.tar.gz
+[2024-05-30 07:03:15] INFO root fetch - processPackages [bsl-appcli]: executing diffoscope
+[2024-05-30 07:03:15] INFO root fetch - processPackages [bsl-appcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsl_appcli-3.0.0.tar.gz tmp/bsl_appcli-3.1.0.tar.gz --markdown 20240530/b/bsl-appcli/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-30 07:03:15] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-30 07:03:15] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.8.tar.gz]
+[2024-05-30 07:03:15] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.9.tar.gz]
+[2024-05-30 07:03:15] INFO root fetch - main [MainThread]: End processing [RapidanAPI]: success
+[2024-05-30 07:03:15] INFO root fetch - processPackages [agency-swarm]: executing diffoscope
+[2024-05-30 07:03:15] INFO root fetch - processPackages [agency-swarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agency_swarm-0.2.3.tar.gz tmp/agency_swarm-0.2.4.tar.gz --markdown 20240530/a/agency-swarm/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-30 07:03:15] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.5.tar.gz]
+[2024-05-30 07:03:15] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.6.tar.gz]
+[2024-05-30 07:03:15] INFO root fetch - main [MainThread]: End processing [unittestreport-yami]: success
+[2024-05-30 07:03:15] INFO root fetch - processPackages [pgc-finder]: Remove: archive file [/home/abi/fetcher/tmp/pgc-finder-0.0.1.tar.gz]
+[2024-05-30 07:03:15] INFO root fetch - processPackages [pgc-finder]: Remove: archive file [/home/abi/fetcher/tmp/pgc-finder-0.0.2.tar.gz]
+[2024-05-30 07:03:15] INFO root fetch - main [MainThread]: End processing [pgc-finder]: success
+[2024-05-30 07:03:15] INFO root fetch - processPackages [bsl-appcli]: Remove: archive file [/home/abi/fetcher/tmp/bsl_appcli-3.0.0.tar.gz]
+[2024-05-30 07:03:15] INFO root fetch - processPackages [bsl-appcli]: Remove: archive file [/home/abi/fetcher/tmp/bsl_appcli-3.1.0.tar.gz]
+[2024-05-30 07:03:15] INFO root fetch - main [MainThread]: End processing [bsl-appcli]: success
+[2024-05-30 07:03:15] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-30 07:03:15] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240530/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-30 07:03:16] INFO root fetch - processPackages [agency-swarm]: Remove: archive file [/home/abi/fetcher/tmp/agency_swarm-0.2.3.tar.gz]
+[2024-05-30 07:03:16] INFO root fetch - processPackages [agency-swarm]: Remove: archive file [/home/abi/fetcher/tmp/agency_swarm-0.2.4.tar.gz]
+[2024-05-30 07:03:16] INFO root fetch - main [MainThread]: End processing [agency-swarm]: success
+[2024-05-30 07:03:16] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-30 07:03:16] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-30 07:03:16] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-30 07:03:16] INFO root fetch - main [MainThread]: Store serial: [23442481]
