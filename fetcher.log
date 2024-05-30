@@ -16002,3 +16002,36 @@ EOFError: EOF read where object expected
 [2024-05-30 09:21:01] INFO root fetch - processPackages [yappr]: Remove: archive file [/home/abi/fetcher/tmp/yappr-1.0.7.tar.gz]
 [2024-05-30 09:21:01] INFO root fetch - main [MainThread]: End processing [yappr]: success
 [2024-05-30 09:21:01] INFO root fetch - main [MainThread]: Store serial: [23444041]
+[2024-05-30 09:23:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444041]
+[2024-05-30 09:23:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 09:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: groqon
+[2024-05-30 09:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pseudovisium
+[2024-05-30 09:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xlfly
+[2024-05-30 09:23:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xingpyc
+[2024-05-30 09:23:12] INFO root fetch - processPackages [xingpyc]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-30 09:23:12] WARNING root fetch - processPackages [xlfly]: Skipping, unable to determine old version
+[2024-05-30 09:23:12] INFO root fetch - main [MainThread]: End processing [xlfly] error
+[2024-05-30 09:23:12] INFO root fetch - processPackages [Pseudovisium]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 09:23:12] INFO root fetch - processPackages [groqon]: New version: [0.1.81] Old Version: [0.1.8]
+[2024-05-30 09:23:12] INFO root fetch - processPackages [xingpyc]: Downloading https://files.pythonhosted.org/packages/ea/33/b3ee9ce990523d2f14918c3683ace746b79a67f6962b1ba1f16bc2f14158/xingpyc-0.2.5.tar.gz
+[2024-05-30 09:23:12] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/ec/02/4f0ff6ebfecb2857195a25c3ca342a7a1af99e21acd71f8a0f89061491f0/Pseudovisium-0.0.8.tar.gz
+[2024-05-30 09:23:13] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/f8/02/f0580160a6092d9c0aee00c8d46d009d49a46f1956b270c2d8d976a21a98/groqon-0.1.8.tar.gz
+[2024-05-30 09:23:13] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/6a/7f/032756880a4d5dbead5465d90e6d9ef1046690f858021036f62dfcda246a/Pseudovisium-0.0.9.tar.gz
+[2024-05-30 09:23:13] INFO root fetch - processPackages [xingpyc]: Downloading https://files.pythonhosted.org/packages/56/0b/972a8585e53498d7761cd319c29c26a59c549fa7887926fa7abd1895e359/xingpyc-0.2.6.tar.gz
+[2024-05-30 09:23:13] INFO root fetch - processPackages [Pseudovisium]: executing diffoscope
+[2024-05-30 09:23:13] INFO root fetch - processPackages [Pseudovisium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pseudovisium-0.0.8.tar.gz tmp/Pseudovisium-0.0.9.tar.gz --markdown 20240530/P/Pseudovisium/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 09:23:13] INFO root fetch - processPackages [xingpyc]: executing diffoscope
+[2024-05-30 09:23:13] INFO root fetch - processPackages [xingpyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xingpyc-0.2.5.tar.gz tmp/xingpyc-0.2.6.tar.gz --markdown 20240530/x/xingpyc/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-30 09:23:13] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/05/e9/65de1908eba587dafc09caf7291403b4b04cdddca6f84ddfdda45fcae8bc/groqon-0.1.81.tar.gz
+[2024-05-30 09:23:13] INFO root fetch - processPackages [groqon]: executing diffoscope
+[2024-05-30 09:23:13] INFO root fetch - processPackages [groqon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groqon-0.1.8.tar.gz tmp/groqon-0.1.81.tar.gz --markdown 20240530/g/groqon/0.1.8-0.1.81/README.md --exclude *.pyd
+[2024-05-30 09:23:13] INFO root fetch - processPackages [xingpyc]: Remove: archive file [/home/abi/fetcher/tmp/xingpyc-0.2.5.tar.gz]
+[2024-05-30 09:23:13] INFO root fetch - processPackages [xingpyc]: Remove: archive file [/home/abi/fetcher/tmp/xingpyc-0.2.6.tar.gz]
+[2024-05-30 09:23:13] INFO root fetch - main [MainThread]: End processing [xingpyc]: success
+[2024-05-30 09:23:14] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.8.tar.gz]
+[2024-05-30 09:23:14] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.9.tar.gz]
+[2024-05-30 09:23:14] INFO root fetch - main [MainThread]: End processing [Pseudovisium]: success
+[2024-05-30 09:23:14] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.8.tar.gz]
+[2024-05-30 09:23:14] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.81.tar.gz]
+[2024-05-30 09:23:14] INFO root fetch - main [MainThread]: End processing [groqon]: success
+[2024-05-30 09:23:14] INFO root fetch - main [MainThread]: Store serial: [23444056]
