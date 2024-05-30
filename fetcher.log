@@ -3234,3 +3234,9 @@ EOFError: EOF read where object expected
 [2024-05-30 03:01:35] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.9.3.tar.gz]
 [2024-05-30 03:01:35] INFO root fetch - main [MainThread]: End processing [pdm]: success
 [2024-05-30 03:01:35] INFO root fetch - main [MainThread]: Store serial: [23439251]
+[2024-05-30 03:03:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23439251]
+[2024-05-30 03:03:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-30 03:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wfstructlog
+[2024-05-30 03:03:43] WARNING root fetch - processPackages [wfstructlog]: Skipping, unable to determine old version
+[2024-05-30 03:03:43] INFO root fetch - main [MainThread]: End processing [wfstructlog] error
+[2024-05-30 03:03:43] INFO root fetch - main [MainThread]: Store serial: [23439256]
