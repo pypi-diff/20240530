@@ -21866,3 +21866,167 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:54:49] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.86.1.tar.gz]
 [2024-05-30 11:54:49] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
 [2024-05-30 11:54:49] INFO root fetch - main [MainThread]: Store serial: [23446560]
+[2024-05-30 11:56:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446560]
+[2024-05-30 11:56:59] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-05-30 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2024-05-30 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apiamo
+[2024-05-30 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genomehubs
+[2024-05-30 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybalance
+[2024-05-30 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dav-tools
+[2024-05-30 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MilPython
+[2024-05-30 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyE2
+[2024-05-30 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aliyun-python-sdk-videoenhan
+[2024-05-30 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pms-encoder
+[2024-05-30 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: few-shot-priming
+[2024-05-30 11:56:59] INFO root fetch - processPackages [pybalance]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-30 11:56:59] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-30 11:56:59] INFO root fetch - processPackages [genomehubs]: New version: [2.8.9] Old Version: [2.8.8]
+[2024-05-30 11:56:59] INFO root fetch - processPackages [PyE2]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-30 11:56:59] INFO root fetch - processPackages [MilPython]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-30 11:56:59] WARNING root fetch - processPackages [apiamo]: Skipping, unable to determine old version
+[2024-05-30 11:56:59] INFO root fetch - processPackages [apiamo]: Start processing: lsst-felis
+[2024-05-30 11:56:59] INFO root fetch - main [MainThread]: End processing [apiamo] error
+[2024-05-30 11:56:59] INFO root fetch - processPackages [pybalance]: Downloading https://files.pythonhosted.org/packages/d1/f4/7c78d315b19d3afce6b27b10dcb7f5de017fe7242620ac9cca43570d3482/pybalance-0.1.3.tar.gz
+[2024-05-30 11:56:59] INFO root fetch - processPackages [dav-tools]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-30 11:56:59] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-30 11:56:59] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-30 11:56:59] INFO root fetch - processPackages [moto]: New version: [5.0.9.dev8] Old Version: [5.0.9.dev5]
+[2024-05-30 11:56:59] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-30 11:56:59] INFO root fetch - processPackages [genomehubs]: Downloading https://files.pythonhosted.org/packages/9c/4c/608f36cc05d99a88aecbc115585b3036e5f3fd827984673d4952589b0d54/genomehubs-2.8.8.tar.gz
+[2024-05-30 11:56:59] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/fb/7b/20cd37a1968b75085222bf1e0afcc30ac5ec1dea21aeef3826a1ed718e28/pye2-0.8.8.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [lsst-felis]: New version: [27.2024.2200] Old Version: [27.2024.2100]
+[2024-05-30 11:57:00] INFO root fetch - processPackages [MilPython]: Downloading https://files.pythonhosted.org/packages/ab/b2/8bb7c657996ede63b4657c4965bd730724df2058d015f713f2d269afe475/MilPython-0.2.0.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: Downloading https://files.pythonhosted.org/packages/fc/34/9b929bafdc92909b56fe410d4e6b329aa0134005611d5304878138686c1e/aliyun-python-sdk-videoenhan-1.0.8.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/12/60/6908e0e701a3e3f61ef6f01273422024a8ca32053a423add454c2e2df998/moto-5.0.9.dev5.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [dav-tools]: Downloading https://files.pythonhosted.org/packages/95/40/e485fc60806bc66b4030425e6ac1c017bd6965eb8645daf2638ea3d8dfb1/dav_tools-0.1.4.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/84/51/ce7da0e31d390641874c2f74eb9b7aab61af8771e82df2f8f7d6b8a626e4/lsst_felis-27.2024.2100.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [genomehubs]: Downloading https://files.pythonhosted.org/packages/9b/1c/5edbddec749d7db76dc18c7261b63960fe42a1071d339f713cd5eeb898df/genomehubs-2.8.9.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/b3/6c/4f3af23f2ebf4a0dacc1b75aeba89f39f85550df77e7a29c57b5ab5f1824/pye2-0.8.9.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [genomehubs]: executing diffoscope
+[2024-05-30 11:57:00] INFO root fetch - processPackages [genomehubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomehubs-2.8.8.tar.gz tmp/genomehubs-2.8.9.tar.gz --markdown 20240530/g/genomehubs/2.8.8-2.8.9/README.md --exclude *.pyd
+[2024-05-30 11:57:00] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-30 11:57:00] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-30 11:57:00] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.8.8.tar.gz tmp/pye2-0.8.9.tar.gz --markdown 20240530/P/PyE2/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-30 11:57:00] ERROR root fetch - processPackages [pybalance]: Unable to fetch info: No such project/version 'pybalance' 0.1.4
+[2024-05-30 11:57:00] INFO root fetch - processPackages [pybalance]: Start processing: lsst-pex-config
+[2024-05-30 11:57:00] INFO root fetch - main [MainThread]: End processing [pybalance] error
+[2024-05-30 11:57:00] INFO root fetch - processPackages [dav-tools]: Downloading https://files.pythonhosted.org/packages/ce/e2/801df895d4c05c4de64ff913770ff8db378f6733ec7aca7168975a0400a8/dav_tools-0.2.0.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [MilPython]: Downloading https://files.pythonhosted.org/packages/ef/68/2e988eff34a804e9788423b516adfaa2a7e94ce153fe43b0818466747a8b/MilPython-0.2.1.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/aa/a4/c21bd6319375b46f3b609ba3bff8aa9ba7480456c5ba16b2438adec9353a/lsst_felis-27.2024.2200.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: Downloading https://files.pythonhosted.org/packages/dd/23/84d9f24ba1fa8628f191dcd63d00a984da8f5a85415b755b4090bba3683d/aliyun-python-sdk-videoenhan-1.0.9.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [lsst-pex-config]: New version: [27.2024.2200] Old Version: [27.0.0rc2]
+[2024-05-30 11:57:00] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/74/6a/691f8117aba58f45da36de57406430d2a7ff0822cbc28ea6de3f53414044/moto-5.0.9.dev8.tar.gz
+[2024-05-30 11:57:00] INFO root fetch - processPackages [dav-tools]: executing diffoscope
+[2024-05-30 11:57:00] INFO root fetch - processPackages [dav-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dav_tools-0.1.4.tar.gz tmp/dav_tools-0.2.0.tar.gz --markdown 20240530/d/dav-tools/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-30 11:57:00] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-30 11:57:00] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240530/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-30 11:57:00] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-30 11:57:00] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240530/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-30 11:57:00] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: executing diffoscope
+[2024-05-30 11:57:00] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-videoenhan-1.0.8.tar.gz tmp/aliyun-python-sdk-videoenhan-1.0.9.tar.gz --markdown 20240530/a/aliyun-python-sdk-videoenhan/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-30 11:57:00] INFO root fetch - processPackages [lsst-felis]: executing diffoscope
+[2024-05-30 11:57:00] INFO root fetch - processPackages [lsst-felis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_felis-27.2024.2100.tar.gz tmp/lsst_felis-27.2024.2200.tar.gz --markdown 20240530/l/lsst-felis/27.2024.2100-27.2024.2200/README.md --exclude *.pyd
+[2024-05-30 11:57:01] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/ed/23/c201ce21d1ffd46980cf022e421b9ddf62fc99884ac87eb9a7f73af28b74/lsst_pex_config-27.0.0rc2.tar.gz
+[2024-05-30 11:57:01] INFO root fetch - processPackages [genomehubs]: Remove: archive file [/home/abi/fetcher/tmp/genomehubs-2.8.8.tar.gz]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [genomehubs]: Remove: archive file [/home/abi/fetcher/tmp/genomehubs-2.8.9.tar.gz]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [genomehubs]: Start processing: vipas
+[2024-05-30 11:57:01] INFO root fetch - main [MainThread]: End processing [genomehubs]: success
+[2024-05-30 11:57:01] INFO root fetch - processPackages [vipas]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.8.tar.gz]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.9.tar.gz]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [PyE2]: Start processing: gcp-pal
+[2024-05-30 11:57:01] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-30 11:57:01] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/b4/6e/24443a99c16a7401d8fb26ef55a4483056853e0d4f3a4205d7c70b873243/lsst_pex_config-27.2024.2200.tar.gz
+[2024-05-30 11:57:01] INFO root fetch - processPackages [MilPython]: executing diffoscope
+[2024-05-30 11:57:01] INFO root fetch - processPackages [MilPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MilPython-0.2.0.tar.gz tmp/MilPython-0.2.1.tar.gz --markdown 20240530/M/MilPython/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-30 11:57:01] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/cf/d4/cb891923142e88ea494b8f98aba86474266d8a6a1eed2172a5087201435c/vipas-0.1.7.tar.gz
+[2024-05-30 11:57:01] INFO root fetch - processPackages [dav-tools]: Remove: archive file [/home/abi/fetcher/tmp/dav_tools-0.1.4.tar.gz]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [dav-tools]: Remove: archive file [/home/abi/fetcher/tmp/dav_tools-0.2.0.tar.gz]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [dav-tools]: Start processing: lsst-ctrl-bps-htcondor
+[2024-05-30 11:57:01] INFO root fetch - main [MainThread]: End processing [dav-tools]: success
+[2024-05-30 11:57:01] INFO root fetch - processPackages [gcp-pal]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [pms-encoder]: Start processing: lsst-ctrl-bps
+[2024-05-30 11:57:01] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-30 11:57:01] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst_felis-27.2024.2100.tar.gz]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst_felis-27.2024.2200.tar.gz]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [lsst-felis]: Start processing: escape-captivity
+[2024-05-30 11:57:01] INFO root fetch - main [MainThread]: End processing [lsst-felis]: success
+[2024-05-30 11:57:01] INFO root fetch - processPackages [lsst-pex-config]: executing diffoscope
+[2024-05-30 11:57:01] INFO root fetch - processPackages [lsst-pex-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_pex_config-27.0.0rc2.tar.gz tmp/lsst_pex_config-27.2024.2200.tar.gz --markdown 20240530/l/lsst-pex-config/27.0.0rc2-27.2024.2200/README.md --exclude *.pyd
+[2024-05-30 11:57:01] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [27.2024.2200] Old Version: [27.2024.2100]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-videoenhan-1.0.8.tar.gz]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-videoenhan-1.0.9.tar.gz]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [aliyun-python-sdk-videoenhan]: Start processing: lsst-utils
+[2024-05-30 11:57:01] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-videoenhan]: success
+[2024-05-30 11:57:01] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [27.2024.2200] Old Version: [27.2024.2100]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [escape-captivity]: New version: [1.1.0] Old Version: [0.1.0]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/b9/53/0499b1bdad8e79c84118cbf501ebb26b70c8b5b60bce463c4a8d0618fe81/gcp_pal-1.0.8.tar.gz
+[2024-05-30 11:57:01] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-30 11:57:01] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-30 11:57:02] INFO root fetch - processPackages [few-shot-priming]: Start processing: lsst-pipe-base
+[2024-05-30 11:57:02] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-30 11:57:02] INFO root fetch - processPackages [vipas]: Downloading https://files.pythonhosted.org/packages/cf/30/35358d3e6a4dc1d4c81449a26ff98f7d6cc4bf481ca7e5622960dc5bbe9a/vipas-0.1.8.tar.gz
+[2024-05-30 11:57:02] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-05-30 11:57:02] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.9.dev5.tar.gz tmp/moto-5.0.9.dev8.tar.gz --markdown 20240530/m/moto/5.0.9.dev5-5.0.9.dev8/README.md --exclude *.pyd
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-utils]: New version: [27.2024.2200] Old Version: [27.0.0rc2]
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/d9/ac/dfd598bec0878f3622bee001b07a2ec67e476838ee545d852b1c62aa873e/lsst_ctrl_bps_htcondor-27.2024.2100.tar.gz
+[2024-05-30 11:57:02] INFO root fetch - processPackages [vipas]: executing diffoscope
+[2024-05-30 11:57:02] INFO root fetch - processPackages [vipas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vipas-0.1.7.tar.gz tmp/vipas-0.1.8.tar.gz --markdown 20240530/v/vipas/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-pipe-base]: New version: [27.2024.2200] Old Version: [27.2024.2100]
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/d5/c3/a04c2555730ee48027e8fbb282fbb9f3d80196e29d4a65ff495d67012e0e/lsst_ctrl_bps-27.2024.2100.tar.gz
+[2024-05-30 11:57:02] INFO root fetch - processPackages [escape-captivity]: Downloading https://files.pythonhosted.org/packages/ad/8d/b379479db233173d75a16108bfd1a10a1b59eac31bcc2c04b893a73f9c77/escape_captivity-0.1.0.tar.gz
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/14/3d/890493132b5811b4665956720c2c7eb9b5c0252eabd35a2da8f68d8c60ed/lsst_utils-27.0.0rc2.tar.gz
+[2024-05-30 11:57:02] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/8c/b8/2efa9600008859fa691d602891fa9c6bb228fd92cd7f0036d55241b68620/gcp_pal-1.0.9.tar.gz
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/62/df/c7a01bc1efad184445d1365991935f6228a9b87c7a39ae611fa465c9d08e/lsst_pipe_base-27.2024.2100.tar.gz
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/3b/23/38da3edea99c25b7f6a78b16cf544f5fe166186d8197439daa6b8a025725/lsst_ctrl_bps_htcondor-27.2024.2200.tar.gz
+[2024-05-30 11:57:02] INFO root fetch - processPackages [gcp-pal]: executing diffoscope
+[2024-05-30 11:57:02] INFO root fetch - processPackages [gcp-pal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pal-1.0.8.tar.gz tmp/gcp_pal-1.0.9.tar.gz --markdown 20240530/g/gcp-pal/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-30 11:57:02] INFO root fetch - processPackages [escape-captivity]: Downloading https://files.pythonhosted.org/packages/ed/49/ce42dd7fc006555d601a4b18b2fc65dab4c9a882bcdc2633d7893d7f895c/escape_captivity-1.1.0.tar.gz
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/7c/bc/a4f14fe86857e8813a48e5c8008c1a674cedaf4d583d4ef279a25ec987f8/lsst_ctrl_bps-27.2024.2200.tar.gz
+[2024-05-30 11:57:02] INFO root fetch - processPackages [MilPython]: Remove: archive file [/home/abi/fetcher/tmp/MilPython-0.2.0.tar.gz]
+[2024-05-30 11:57:02] INFO root fetch - processPackages [MilPython]: Remove: archive file [/home/abi/fetcher/tmp/MilPython-0.2.1.tar.gz]
+[2024-05-30 11:57:02] INFO root fetch - main [MainThread]: End processing [MilPython]: success
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_ctrl_bps_htcondor-27.2024.2100.tar.gz tmp/lsst_ctrl_bps_htcondor-27.2024.2200.tar.gz --markdown 20240530/l/lsst-ctrl-bps-htcondor/27.2024.2100-27.2024.2200/README.md --exclude *.pyd
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/74/c5/0aea72d569f12ab509baaaac35c9360e96b6d38211bfcfefe2ce640756ef/lsst_utils-27.2024.2200.tar.gz
+[2024-05-30 11:57:02] INFO root fetch - processPackages [escape-captivity]: executing diffoscope
+[2024-05-30 11:57:02] INFO root fetch - processPackages [escape-captivity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/escape_captivity-0.1.0.tar.gz tmp/escape_captivity-1.1.0.tar.gz --markdown 20240530/e/escape-captivity/0.1.0-1.1.0/README.md --exclude *.pyd
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_ctrl_bps-27.2024.2100.tar.gz tmp/lsst_ctrl_bps-27.2024.2200.tar.gz --markdown 20240530/l/lsst-ctrl-bps/27.2024.2100-27.2024.2200/README.md --exclude *.pyd
+[2024-05-30 11:57:02] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.1.7.tar.gz]
+[2024-05-30 11:57:02] INFO root fetch - processPackages [vipas]: Remove: archive file [/home/abi/fetcher/tmp/vipas-0.1.8.tar.gz]
+[2024-05-30 11:57:02] INFO root fetch - main [MainThread]: End processing [vipas]: success
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/60/a8/b66d7ee7404bdf36a7691ea5ad54fccc203a12736fc636f60251eb240dcf/lsst_pipe_base-27.2024.2200.tar.gz
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_utils-27.0.0rc2.tar.gz tmp/lsst_utils-27.2024.2200.tar.gz --markdown 20240530/l/lsst-utils/27.0.0rc2-27.2024.2200/README.md --exclude *.pyd
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst_pex_config-27.0.0rc2.tar.gz]
+[2024-05-30 11:57:02] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst_pex_config-27.2024.2200.tar.gz]
+[2024-05-30 11:57:02] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
+[2024-05-30 11:57:03] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2024-05-30 11:57:03] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst_pipe_base-27.2024.2100.tar.gz tmp/lsst_pipe_base-27.2024.2200.tar.gz --markdown 20240530/l/lsst-pipe-base/27.2024.2100-27.2024.2200/README.md --exclude *.pyd
+[2024-05-30 11:57:03] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.8.tar.gz]
+[2024-05-30 11:57:03] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.9.tar.gz]
+[2024-05-30 11:57:03] INFO root fetch - main [MainThread]: End processing [gcp-pal]: success
+[2024-05-30 11:57:03] INFO root fetch - processPackages [escape-captivity]: Remove: archive file [/home/abi/fetcher/tmp/escape_captivity-0.1.0.tar.gz]
+[2024-05-30 11:57:03] INFO root fetch - processPackages [escape-captivity]: Remove: archive file [/home/abi/fetcher/tmp/escape_captivity-1.1.0.tar.gz]
+[2024-05-30 11:57:03] INFO root fetch - main [MainThread]: End processing [escape-captivity]: success
+[2024-05-30 11:57:03] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps_htcondor-27.2024.2100.tar.gz]
+[2024-05-30 11:57:03] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps_htcondor-27.2024.2200.tar.gz]
+[2024-05-30 11:57:03] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2024-05-30 11:57:03] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps-27.2024.2100.tar.gz]
+[2024-05-30 11:57:03] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst_ctrl_bps-27.2024.2200.tar.gz]
+[2024-05-30 11:57:03] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2024-05-30 11:57:03] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst_utils-27.0.0rc2.tar.gz]
+[2024-05-30 11:57:03] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst_utils-27.2024.2200.tar.gz]
+[2024-05-30 11:57:03] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2024-05-30 11:57:04] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst_pipe_base-27.2024.2100.tar.gz]
+[2024-05-30 11:57:04] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst_pipe_base-27.2024.2200.tar.gz]
+[2024-05-30 11:57:04] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2024-05-30 11:57:13] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.9.dev5.tar.gz]
+[2024-05-30 11:57:13] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.9.dev8.tar.gz]
+[2024-05-30 11:57:13] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-05-30 11:57:13] INFO root fetch - main [MainThread]: Store serial: [23446626]
