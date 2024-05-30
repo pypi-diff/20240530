@@ -16933,3 +16933,151 @@ EOFError: EOF read where object expected
 [2024-05-30 10:00:56] INFO root fetch - processPackages [SMASunnyIsland]: Remove: archive file [/home/abi/fetcher/tmp/smasunnyisland-0.43.tar.gz]
 [2024-05-30 10:00:56] INFO root fetch - main [MainThread]: End processing [SMASunnyIsland]: success
 [2024-05-30 10:00:56] INFO root fetch - main [MainThread]: Store serial: [23444556]
+[2024-05-30 10:02:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444556]
+[2024-05-30 10:03:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 10:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SMASunnyIsland
+[2024-05-30 10:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: retackAI-sdk-django
+[2024-05-30 10:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asyncCommunication
+[2024-05-30 10:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nicknames
+[2024-05-30 10:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aily-code-sdk-core
+[2024-05-30 10:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dolphindb
+[2024-05-30 10:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: upgini
+[2024-05-30 10:03:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: siat
+[2024-05-30 10:03:05] INFO root fetch - processPackages [SMASunnyIsland]: New version: [0.43] Old Version: [0.42]
+[2024-05-30 10:03:05] INFO root fetch - processPackages [asyncCommunication]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-30 10:03:05] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-30 10:03:05] INFO root fetch - processPackages [aily-code-sdk-core]: New version: [0.1.0b4] Old Version: [0.1.0b3]
+[2024-05-30 10:03:05] INFO root fetch - processPackages [SMASunnyIsland]: Downloading https://files.pythonhosted.org/packages/a6/d7/0f2a84e0ea75b740d1bff25f0526a028c29077d5ee3144dd4ac07ce2fb8e/smasunnyisland-0.42.tar.gz
+[2024-05-30 10:03:05] INFO root fetch - processPackages [nicknames]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 10:03:05] WARNING root fetch - processPackages [retackAI-sdk-django]: Skipping, unable to determine old version
+[2024-05-30 10:03:05] INFO root fetch - main [MainThread]: End processing [retackAI-sdk-django] error
+[2024-05-30 10:03:05] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-05-30 10:03:05] ERROR root fetch - processPackages [asyncCommunication]: Unable to fetch info: No such project/version 'asyncCommunication' 0.2.3
+[2024-05-30 10:03:05] INFO root fetch - main [MainThread]: End processing [asyncCommunication] error
+[2024-05-30 10:03:05] INFO root fetch - processPackages [siat]: New version: [3.1.6] Old Version: [3.1.5]
+[2024-05-30 10:03:05] INFO root fetch - processPackages [nicknames]: Downloading https://files.pythonhosted.org/packages/42/29/b6b73cf67c8e2cfae1adee1d7c7ccc7be518bf6088b3daaba29657ce540d/nicknames-0.1.8.tar.gz
+[2024-05-30 10:03:05] INFO root fetch - processPackages [dolphindb]: New version: [3.0.0.1] Old Version: [3.0.0.0]
+[2024-05-30 10:03:05] INFO root fetch - processPackages [aily-code-sdk-core]: Downloading https://files.pythonhosted.org/packages/f0/04/a7ea165727de301cd01bf13c8447ba71147fde3edd7f21fe17d52b488fde/aily_code_sdk_core-0.1.0b3.tar.gz
+[2024-05-30 10:03:05] INFO root fetch - processPackages [SMASunnyIsland]: Downloading https://files.pythonhosted.org/packages/c9/20/8ce1770ede128caf8f06b54d2ab08baeeac6987229585334c20bf42f4b72/smasunnyisland-0.43.tar.gz
+[2024-05-30 10:03:05] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-05-30 10:03:05] INFO root fetch - processPackages [SMASunnyIsland]: executing diffoscope
+[2024-05-30 10:03:05] INFO root fetch - processPackages [SMASunnyIsland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smasunnyisland-0.42.tar.gz tmp/smasunnyisland-0.43.tar.gz --markdown 20240530/S/SMASunnyIsland/0.42-0.43/README.md --exclude *.pyd
+[2024-05-30 10:03:05] INFO root fetch - processPackages [dolphindb]: Downloading https://files.pythonhosted.org/packages/11/49/f724847abc1bbde1d6197641558f710acbd52dc0958c2ea1a142fce4bde7/dolphindb-3.0.0.0-cp39-cp39-win_amd64.whl
+[2024-05-30 10:03:05] INFO root fetch - processPackages [aily-code-sdk-core]: Downloading https://files.pythonhosted.org/packages/b8/11/2c770b4c524999cfdff6eda72ded4884bf81ecb9be69c00e2d6f4b251b04/aily_code_sdk_core-0.1.0b4.tar.gz
+[2024-05-30 10:03:05] INFO root fetch - processPackages [nicknames]: Downloading https://files.pythonhosted.org/packages/d1/7d/57ce44e8bcf73c069a3a8ede9f9cb96c1807463cd55b5d0b4c7cd2e67984/nicknames-0.1.9.tar.gz
+[2024-05-30 10:03:05] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-05-30 10:03:05] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240530/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-30 10:03:05] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/04/4a/4a2cada16831456c85d9b26bbf6a407a60ae33855a1fe065451094bbb4e6/siat-3.1.6-py3-none-any.whl
+[2024-05-30 10:03:05] INFO root fetch - processPackages [nicknames]: executing diffoscope
+[2024-05-30 10:03:05] INFO root fetch - processPackages [nicknames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicknames-0.1.8.tar.gz tmp/nicknames-0.1.9.tar.gz --markdown 20240530/n/nicknames/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 10:03:05] INFO root fetch - processPackages [aily-code-sdk-core]: executing diffoscope
+[2024-05-30 10:03:05] INFO root fetch - processPackages [aily-code-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_code_sdk_core-0.1.0b3.tar.gz tmp/aily_code_sdk_core-0.1.0b4.tar.gz --markdown 20240530/a/aily-code-sdk-core/0.1.0b3-0.1.0b4/README.md --exclude *.pyd
+[2024-05-30 10:03:06] INFO root fetch - processPackages [dolphindb]: Downloading https://files.pythonhosted.org/packages/af/b3/bcf6fb8c47177c6269caf5023a750d8ac5ca2efc60cb5eb38a5644326e15/dolphindb-3.0.0.1-cp310-cp310-win_amd64.whl
+[2024-05-30 10:03:06] INFO root fetch - processPackages [siat]: executing diffoscope
+[2024-05-30 10:03:06] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-3.1.5-py3-none-any.whl.zip tmp/siat-3.1.6-py3-none-any.whl.zip --markdown 20240530/s/siat/3.1.5-3.1.6/README.md --exclude *.pyd
+[2024-05-30 10:03:06] INFO root fetch - processPackages [nicknames]: Remove: archive file [/home/abi/fetcher/tmp/nicknames-0.1.8.tar.gz]
+[2024-05-30 10:03:06] INFO root fetch - processPackages [nicknames]: Remove: archive file [/home/abi/fetcher/tmp/nicknames-0.1.9.tar.gz]
+[2024-05-30 10:03:06] INFO root fetch - main [MainThread]: End processing [nicknames]: success
+[2024-05-30 10:03:06] INFO root fetch - processPackages [aily-code-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk_core-0.1.0b3.tar.gz]
+[2024-05-30 10:03:06] INFO root fetch - processPackages [aily-code-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk_core-0.1.0b4.tar.gz]
+[2024-05-30 10:03:06] INFO root fetch - main [MainThread]: End processing [aily-code-sdk-core]: success
+[2024-05-30 10:03:06] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-05-30 10:03:06] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-05-30 10:03:06] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-05-30 10:03:06] INFO root fetch - processPackages [dolphindb]: executing diffoscope
+[2024-05-30 10:03:06] INFO root fetch - processPackages [dolphindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolphindb-3.0.0.0-cp39-cp39-win_amd64.whl.zip tmp/dolphindb-3.0.0.1-cp310-cp310-win_amd64.whl.zip --markdown 20240530/d/dolphindb/3.0.0.0-3.0.0.1/README.md --exclude *.pyd
+[2024-05-30 10:03:06] ERROR root fetch - processPackages [siat]: Diffoscope failed: time="2024-05-30T10:03:06+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+[2024-05-30 10:03:06] INFO root fetch - main [MainThread]: End processing [siat] error
+[2024-05-30 10:03:07] INFO root fetch - processPackages [dolphindb]: Remove: archive file [/home/abi/fetcher/tmp/dolphindb-3.0.0.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-30 10:03:07] INFO root fetch - processPackages [dolphindb]: Remove: archive file [/home/abi/fetcher/tmp/dolphindb-3.0.0.1-cp310-cp310-win_amd64.whl.zip]
+[2024-05-30 10:03:07] INFO root fetch - main [MainThread]: End processing [dolphindb]: success
+[2024-05-30 10:03:07] INFO root fetch - processPackages [SMASunnyIsland]: Remove: archive file [/home/abi/fetcher/tmp/smasunnyisland-0.42.tar.gz]
+[2024-05-30 10:03:07] INFO root fetch - processPackages [SMASunnyIsland]: Remove: archive file [/home/abi/fetcher/tmp/smasunnyisland-0.43.tar.gz]
+[2024-05-30 10:03:07] INFO root fetch - main [MainThread]: End processing [SMASunnyIsland]: success
+[2024-05-30 10:03:07] INFO root fetch - main [MainThread]: Store serial: [23444581]
