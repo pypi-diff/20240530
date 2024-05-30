@@ -10288,3 +10288,51 @@ EOFError: EOF read where object expected
 [2024-05-30 05:49:07] INFO root fetch - processPackages [pyoptinterface]: Remove: archive file [/home/abi/fetcher/tmp/pyoptinterface-0.2.3-cp39-cp39-win_amd64.whl.zip]
 [2024-05-30 05:49:07] INFO root fetch - main [MainThread]: End processing [pyoptinterface]: success
 [2024-05-30 05:49:07] INFO root fetch - main [MainThread]: Store serial: [23441856]
+[2024-05-30 05:51:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441856]
+[2024-05-30 05:51:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-delivery-auto-refresh
+[2024-05-30 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-delivery-purchase
+[2024-05-30 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-delivery-carrier
+[2024-05-30 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composio-core
+[2024-05-30 05:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyeconomics
+[2024-05-30 05:51:16] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2024-05-30 05:51:16] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: New version: [16.0.20240401.0] Old Version: [16.0.20240215.0]
+[2024-05-30 05:51:16] INFO root fetch - processPackages [odoo-addon-delivery-purchase]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.1.0.1]
+[2024-05-30 05:51:16] INFO root fetch - processPackages [pyeconomics]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-30 05:51:16] INFO root fetch - processPackages [composio-core]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-30 05:51:16] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Downloading https://files.pythonhosted.org/packages/dd/8c/70f3bed81c46a0a54675a270ef808daa96a47cba6d0284f9f30aeeaee5ac/odoo_addons_oca_delivery_carrier-16.0.20240215.0-py3-none-any.whl
+[2024-05-30 05:51:16] INFO root fetch - processPackages [odoo-addon-delivery-purchase]: Downloading https://files.pythonhosted.org/packages/fc/88/07027924bcd5c62e67ad376b3b5ad27c245ab535be17c72ecac5c0a5f311/odoo_addon_delivery_purchase-15.0.1.1.0.1-py3-none-any.whl
+[2024-05-30 05:51:16] INFO root fetch - processPackages [pyeconomics]: Downloading https://files.pythonhosted.org/packages/e2/13/39eb19991360ae81857afc7c301998e2a0dd5b04c6043075bfd2295a0772/pyeconomics-0.1.0.tar.gz
+[2024-05-30 05:51:16] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: Downloading https://files.pythonhosted.org/packages/99/ca/f7cfb04661c9a88c105fd9fd6f0d78ef1a8a2698f479b2722857c8252362/odoo_addon_delivery_auto_refresh-16.0.1.0.1-py3-none-any.whl
+[2024-05-30 05:51:16] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-05-30 05:51:16] INFO root fetch - processPackages [pyeconomics]: Downloading https://files.pythonhosted.org/packages/49/a1/db0fd3bf507fff809122dff74eef8d02b0f685671d1450dd03cc2c5e6dc6/pyeconomics-0.2.0.tar.gz
+[2024-05-30 05:51:16] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Downloading https://files.pythonhosted.org/packages/37/bd/2441910e253bf344b324c06a71ad99c3716b96867573e30d888deb4914bd/odoo_addons_oca_delivery_carrier-16.0.20240401.0-py3-none-any.whl
+[2024-05-30 05:51:16] INFO root fetch - processPackages [odoo-addon-delivery-purchase]: Downloading https://files.pythonhosted.org/packages/2f/e5/9864b611d4ce85d6dbe2a314cf58ef65742d16147eb6ca0541fe32b46a10/odoo_addon_delivery_purchase-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-30 05:51:16] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: executing diffoscope
+[2024-05-30 05:51:16] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_delivery_carrier-16.0.20240215.0-py3-none-any.whl.zip tmp/odoo_addons_oca_delivery_carrier-16.0.20240401.0-py3-none-any.whl.zip --markdown 20240530/o/odoo-addons-oca-delivery-carrier/16.0.20240215.0-16.0.20240401.0/README.md --exclude *.pyd
+[2024-05-30 05:51:16] INFO root fetch - processPackages [pyeconomics]: executing diffoscope
+[2024-05-30 05:51:16] INFO root fetch - processPackages [pyeconomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeconomics-0.1.0.tar.gz tmp/pyeconomics-0.2.0.tar.gz --markdown 20240530/p/pyeconomics/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-30 05:51:16] INFO root fetch - processPackages [odoo-addon-delivery-purchase]: executing diffoscope
+[2024-05-30 05:51:16] INFO root fetch - processPackages [odoo-addon-delivery-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_purchase-15.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_delivery_purchase-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-delivery-purchase/15.0.1.1.0.1-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-30 05:51:17] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/6c/2a/078d79ade6b58e700d7d6f2c2f123c651e4c9b0386448290447b23dcb1ef/composio_core-0.3.0.tar.gz
+[2024-05-30 05:51:17] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: Downloading https://files.pythonhosted.org/packages/3d/ff/7de02383918673213ffa26c2ba5ecb510cd13051fcce15d4e37b25c3e539/odoo_addon_delivery_auto_refresh-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-30 05:51:17] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: executing diffoscope
+[2024-05-30 05:51:17] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_auto_refresh-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_delivery_auto_refresh-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-delivery-auto-refresh/16.0.1.0.1-16.0.1.0.1.1/README.md --exclude *.pyd
+[2024-05-30 05:51:17] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-05-30 05:51:17] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.9.tar.gz tmp/composio_core-0.3.0.tar.gz --markdown 20240530/c/composio-core/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-30 05:51:17] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_delivery_carrier-16.0.20240215.0-py3-none-any.whl.zip]
+[2024-05-30 05:51:17] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_delivery_carrier-16.0.20240401.0-py3-none-any.whl.zip]
+[2024-05-30 05:51:17] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-delivery-carrier]: success
+[2024-05-30 05:51:17] INFO root fetch - processPackages [odoo-addon-delivery-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_purchase-15.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-30 05:51:17] INFO root fetch - processPackages [odoo-addon-delivery-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_purchase-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-30 05:51:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-purchase]: success
+[2024-05-30 05:51:17] INFO root fetch - processPackages [pyeconomics]: Remove: archive file [/home/abi/fetcher/tmp/pyeconomics-0.1.0.tar.gz]
+[2024-05-30 05:51:17] INFO root fetch - processPackages [pyeconomics]: Remove: archive file [/home/abi/fetcher/tmp/pyeconomics-0.2.0.tar.gz]
+[2024-05-30 05:51:17] INFO root fetch - main [MainThread]: End processing [pyeconomics]: success
+[2024-05-30 05:51:17] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-05-30 05:51:17] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.3.0.tar.gz]
+[2024-05-30 05:51:17] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-05-30 05:51:17] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_auto_refresh-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-30 05:51:17] INFO root fetch - processPackages [odoo-addon-delivery-auto-refresh]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_auto_refresh-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-30 05:51:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-auto-refresh]: success
+[2024-05-30 05:51:17] INFO root fetch - main [MainThread]: Store serial: [23441868]
