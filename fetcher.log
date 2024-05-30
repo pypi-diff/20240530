@@ -16242,3 +16242,51 @@ EOFError: EOF read where object expected
 [2024-05-30 09:34:10] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
 [2024-05-30 09:34:10] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-05-30 09:34:10] INFO root fetch - main [MainThread]: Store serial: [23444204]
+[2024-05-30 09:36:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23444204]
+[2024-05-30 09:36:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-30 09:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dead-simple-cache
+[2024-05-30 09:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-dingtalk
+[2024-05-30 09:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: groqon
+[2024-05-30 09:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recce
+[2024-05-30 09:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepfos
+[2024-05-30 09:36:19] INFO root fetch - processPackages [groqon]: New version: [0.1.82] Old Version: [0.1.81]
+[2024-05-30 09:36:19] INFO root fetch - processPackages [dead-simple-cache]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-30 09:36:19] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.1.16] Old Version: [2.1.15]
+[2024-05-30 09:36:19] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/05/e9/65de1908eba587dafc09caf7291403b4b04cdddca6f84ddfdda45fcae8bc/groqon-0.1.81.tar.gz
+[2024-05-30 09:36:19] INFO root fetch - processPackages [deepfos]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-30 09:36:19] INFO root fetch - processPackages [dead-simple-cache]: Downloading https://files.pythonhosted.org/packages/12/7a/12935ad3562c1005aa9db3719a9254ec327af2dab105fa7a1e23d103567f/dead_simple_cache-1.2.0-py3-none-any.whl
+[2024-05-30 09:36:19] INFO root fetch - processPackages [recce]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-30 09:36:19] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/7b/4c/c03b04ed07c895bd2147146850e369779867f435d8a490ae23a2ef7fdea2/alibabacloud_dingtalk-2.1.15.tar.gz
+[2024-05-30 09:36:19] INFO root fetch - processPackages [recce]: Downloading https://files.pythonhosted.org/packages/21/df/adca101db9b99292c6610c06f9f9f9dba09307c59db7b48b0c3b9ecb4c47/recce-0.8.2.tar.gz
+[2024-05-30 09:36:19] INFO root fetch - processPackages [deepfos]: Downloading https://files.pythonhosted.org/packages/6c/b9/ab1c6d8eeab69fea66b16089ccb4bf1f1ea6b6329aa5f4b454166e22c8eb/deepfos-1.1.8.tar.gz
+[2024-05-30 09:36:20] INFO root fetch - processPackages [dead-simple-cache]: Downloading https://files.pythonhosted.org/packages/00/e3/e0da4fda5bc84609559ca013736d9b96fbde239a25ff50ca5f273f2af728/dead_simple_cache-1.2.1-py3-none-any.whl
+[2024-05-30 09:36:20] INFO root fetch - processPackages [groqon]: Downloading https://files.pythonhosted.org/packages/7b/3f/35cfa012a2a35898d1a09ccdca92470b6b22df01e4f53efa351f94069082/groqon-0.1.82.tar.gz
+[2024-05-30 09:36:20] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/aa/18/5cf0b4eb70f41a7ca792ab9282680426ae354e82a8fd9c382c1f066553e2/alibabacloud_dingtalk-2.1.16.tar.gz
+[2024-05-30 09:36:20] INFO root fetch - processPackages [dead-simple-cache]: executing diffoscope
+[2024-05-30 09:36:20] INFO root fetch - processPackages [dead-simple-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dead_simple_cache-1.2.0-py3-none-any.whl.zip tmp/dead_simple_cache-1.2.1-py3-none-any.whl.zip --markdown 20240530/d/dead-simple-cache/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-30 09:36:20] INFO root fetch - processPackages [groqon]: executing diffoscope
+[2024-05-30 09:36:20] INFO root fetch - processPackages [groqon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groqon-0.1.81.tar.gz tmp/groqon-0.1.82.tar.gz --markdown 20240530/g/groqon/0.1.81-0.1.82/README.md --exclude *.pyd
+[2024-05-30 09:36:20] INFO root fetch - processPackages [recce]: Downloading https://files.pythonhosted.org/packages/1f/7b/6a960c2015316c08df9c69a378c80579bd00ffa654316ef62781e6e4ac3c/recce-0.9.0.tar.gz
+[2024-05-30 09:36:20] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2024-05-30 09:36:20] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.1.15.tar.gz tmp/alibabacloud_dingtalk-2.1.16.tar.gz --markdown 20240530/a/alibabacloud-dingtalk/2.1.15-2.1.16/README.md --exclude *.pyd
+[2024-05-30 09:36:20] INFO root fetch - processPackages [recce]: executing diffoscope
+[2024-05-30 09:36:20] INFO root fetch - processPackages [recce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recce-0.8.2.tar.gz tmp/recce-0.9.0.tar.gz --markdown 20240530/r/recce/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-30 09:36:20] INFO root fetch - processPackages [deepfos]: Downloading https://files.pythonhosted.org/packages/1c/7e/e2a63a40bfcbce55924df8339621c31f502551f86e9e3ba4a6bc74f91f9b/deepfos-1.1.9.tar.gz
+[2024-05-30 09:36:20] INFO root fetch - processPackages [deepfos]: executing diffoscope
+[2024-05-30 09:36:20] INFO root fetch - processPackages [deepfos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepfos-1.1.8.tar.gz tmp/deepfos-1.1.9.tar.gz --markdown 20240530/d/deepfos/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-30 09:36:20] INFO root fetch - processPackages [dead-simple-cache]: Remove: archive file [/home/abi/fetcher/tmp/dead_simple_cache-1.2.0-py3-none-any.whl.zip]
+[2024-05-30 09:36:20] INFO root fetch - processPackages [dead-simple-cache]: Remove: archive file [/home/abi/fetcher/tmp/dead_simple_cache-1.2.1-py3-none-any.whl.zip]
+[2024-05-30 09:36:20] INFO root fetch - main [MainThread]: End processing [dead-simple-cache]: success
+[2024-05-30 09:36:20] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.81.tar.gz]
+[2024-05-30 09:36:20] INFO root fetch - processPackages [groqon]: Remove: archive file [/home/abi/fetcher/tmp/groqon-0.1.82.tar.gz]
+[2024-05-30 09:36:20] INFO root fetch - main [MainThread]: End processing [groqon]: success
+[2024-05-30 09:36:21] INFO root fetch - processPackages [deepfos]: Remove: archive file [/home/abi/fetcher/tmp/deepfos-1.1.8.tar.gz]
+[2024-05-30 09:36:21] INFO root fetch - processPackages [deepfos]: Remove: archive file [/home/abi/fetcher/tmp/deepfos-1.1.9.tar.gz]
+[2024-05-30 09:36:21] INFO root fetch - main [MainThread]: End processing [deepfos]: success
+[2024-05-30 09:36:23] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.15.tar.gz]
+[2024-05-30 09:36:23] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.16.tar.gz]
+[2024-05-30 09:36:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2024-05-30 09:36:31] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.8.2.tar.gz]
+[2024-05-30 09:36:31] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.9.0.tar.gz]
+[2024-05-30 09:36:31] INFO root fetch - main [MainThread]: End processing [recce]: success
+[2024-05-30 09:36:31] INFO root fetch - main [MainThread]: Store serial: [23444226]
