@@ -13332,3 +13332,42 @@ EOFError: EOF read where object expected
 [2024-05-30 08:01:11] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.7.tar.gz]
 [2024-05-30 08:01:11] INFO root fetch - main [MainThread]: End processing [python-115]: success
 [2024-05-30 08:01:11] INFO root fetch - main [MainThread]: Store serial: [23443110]
+[2024-05-30 08:03:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23443110]
+[2024-05-30 08:03:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-exception
+[2024-05-30 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-fetchmail-attach-from-folder
+[2024-05-30 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-auto-backup
+[2024-05-30 08:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smdb-api
+[2024-05-30 08:03:19] INFO root fetch - processPackages [odoo-addon-base-exception]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.6]
+[2024-05-30 08:03:19] INFO root fetch - processPackages [odoo-addon-auto-backup]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-30 08:03:19] INFO root fetch - processPackages [odoo-addon-base-exception]: Downloading https://files.pythonhosted.org/packages/a9/ed/4bc169cb089bebd874787f907e05c6589959bfc70f7983d7119b3baafff0/odoo_addon_base_exception-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-30 08:03:19] INFO root fetch - processPackages [odoo-addon-auto-backup]: Downloading https://files.pythonhosted.org/packages/ae/fd/742a155849fe2588418f6907e43193cd14a8b7476511874c9a9f51ed70ca/odoo_addon_auto_backup-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-30 08:03:19] INFO root fetch - processPackages [odoo-addon-fetchmail-attach-from-folder]: New version: [16.0.1.1.0.8] Old Version: [16.0.1.1.0.7]
+[2024-05-30 08:03:19] INFO root fetch - processPackages [smdb-api]: New version: [0.9.12] Old Version: [0.9.1]
+[2024-05-30 08:03:20] INFO root fetch - processPackages [odoo-addon-base-exception]: Downloading https://files.pythonhosted.org/packages/42/20/7e8828b31ef8e4956b6f42a9e7aad5ce077a700e36ac29ec577bb4e29c9d/odoo_addon_base_exception-17.0.1.0.1-py3-none-any.whl
+[2024-05-30 08:03:20] INFO root fetch - processPackages [odoo-addon-auto-backup]: Downloading https://files.pythonhosted.org/packages/60/ef/f17f358b0b592ddb448a43ca2a2b9a8f7a0c5713a72ac27a02951eef5531/odoo_addon_auto_backup-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-30 08:03:20] INFO root fetch - processPackages [odoo-addon-fetchmail-attach-from-folder]: Downloading https://files.pythonhosted.org/packages/2d/8a/eaaca45be0bb1c02fa7c48845ba0fa28e3e6aa47e0c0db9802a8427d1d2a/odoo_addon_fetchmail_attach_from_folder-16.0.1.1.0.7-py3-none-any.whl
+[2024-05-30 08:03:20] INFO root fetch - processPackages [smdb-api]: Downloading https://files.pythonhosted.org/packages/8b/7c/462aee1f0b31705fd270ae4f3e269115e2d4d915b3f0af107c97f2e51531/smdb_api-0.9.1.tar.gz
+[2024-05-30 08:03:20] INFO root fetch - processPackages [odoo-addon-base-exception]: executing diffoscope
+[2024-05-30 08:03:20] INFO root fetch - processPackages [odoo-addon-base-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_exception-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_base_exception-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-base-exception/17.0.1.0.0.6-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-30 08:03:20] INFO root fetch - processPackages [odoo-addon-auto-backup]: executing diffoscope
+[2024-05-30 08:03:20] INFO root fetch - processPackages [odoo-addon-auto-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auto_backup-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_auto_backup-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-auto-backup/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-30 08:03:20] INFO root fetch - processPackages [smdb-api]: Downloading https://files.pythonhosted.org/packages/7c/40/4f246c09d870d252aea285313cdb40d34031bafd148e7448cd55500393fa/smdb_api-0.9.12.tar.gz
+[2024-05-30 08:03:20] INFO root fetch - processPackages [odoo-addon-fetchmail-attach-from-folder]: Downloading https://files.pythonhosted.org/packages/c2/e3/c23bd98a34842001022435370b72080a4dabadeb68885db0c511980f08d7/odoo_addon_fetchmail_attach_from_folder-16.0.1.1.0.8-py3-none-any.whl
+[2024-05-30 08:03:20] INFO root fetch - processPackages [smdb-api]: executing diffoscope
+[2024-05-30 08:03:20] INFO root fetch - processPackages [smdb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smdb_api-0.9.1.tar.gz tmp/smdb_api-0.9.12.tar.gz --markdown 20240530/s/smdb-api/0.9.1-0.9.12/README.md --exclude *.pyd
+[2024-05-30 08:03:20] INFO root fetch - processPackages [odoo-addon-fetchmail-attach-from-folder]: executing diffoscope
+[2024-05-30 08:03:20] INFO root fetch - processPackages [odoo-addon-fetchmail-attach-from-folder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fetchmail_attach_from_folder-16.0.1.1.0.7-py3-none-any.whl.zip tmp/odoo_addon_fetchmail_attach_from_folder-16.0.1.1.0.8-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-fetchmail-attach-from-folder/16.0.1.1.0.7-16.0.1.1.0.8/README.md --exclude *.pyd
+[2024-05-30 08:03:21] INFO root fetch - processPackages [odoo-addon-base-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_exception-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-30 08:03:21] INFO root fetch - processPackages [odoo-addon-base-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_exception-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-30 08:03:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-exception]: success
+[2024-05-30 08:03:21] INFO root fetch - processPackages [odoo-addon-auto-backup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auto_backup-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-30 08:03:21] INFO root fetch - processPackages [odoo-addon-auto-backup]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auto_backup-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-30 08:03:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-auto-backup]: success
+[2024-05-30 08:03:21] INFO root fetch - processPackages [smdb-api]: Remove: archive file [/home/abi/fetcher/tmp/smdb_api-0.9.1.tar.gz]
+[2024-05-30 08:03:21] INFO root fetch - processPackages [smdb-api]: Remove: archive file [/home/abi/fetcher/tmp/smdb_api-0.9.12.tar.gz]
+[2024-05-30 08:03:21] INFO root fetch - main [MainThread]: End processing [smdb-api]: success
+[2024-05-30 08:03:21] INFO root fetch - processPackages [odoo-addon-fetchmail-attach-from-folder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fetchmail_attach_from_folder-16.0.1.1.0.7-py3-none-any.whl.zip]
+[2024-05-30 08:03:21] INFO root fetch - processPackages [odoo-addon-fetchmail-attach-from-folder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fetchmail_attach_from_folder-16.0.1.1.0.8-py3-none-any.whl.zip]
+[2024-05-30 08:03:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-fetchmail-attach-from-folder]: success
+[2024-05-30 08:03:21] INFO root fetch - main [MainThread]: Store serial: [23443116]
