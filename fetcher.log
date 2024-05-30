@@ -21144,3 +21144,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 11:28:39] INFO root fetch - processPackages [napari-skimage]: Remove: archive file [/home/abi/fetcher/tmp/napari_skimage-0.1.1.tar.gz]
 [2024-05-30 11:28:39] INFO root fetch - main [MainThread]: End processing [napari-skimage]: success
 [2024-05-30 11:28:39] INFO root fetch - main [MainThread]: Store serial: [23446208]
+[2024-05-30 11:30:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23446208]
+[2024-05-30 11:30:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 11:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbgpt
+[2024-05-30 11:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YWP
+[2024-05-30 11:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: themachinethatgoesping
+[2024-05-30 11:30:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TaskBridge
+[2024-05-30 11:30:49] INFO root fetch - processPackages [YWP]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-30 11:30:49] INFO root fetch - processPackages [YWP]: Downloading https://files.pythonhosted.org/packages/61/5b/9a8b153b2a9b4a4d448a7e3dc770df53ff2b23a8f85733fcf90a8c820c6f/ywp-0.3.0.tar.gz
+[2024-05-30 11:30:49] INFO root fetch - processPackages [dbgpt]: New version: [0.5.7rc0] Old Version: [0.5.6rc0]
+[2024-05-30 11:30:49] INFO root fetch - processPackages [themachinethatgoesping]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-30 11:30:49] INFO root fetch - processPackages [TaskBridge]: New version: [0.1.2b1] Old Version: [0.1.2b0]
+[2024-05-30 11:30:49] INFO root fetch - processPackages [dbgpt]: Downloading https://files.pythonhosted.org/packages/36/07/61fc97a1559794fe8772c3ff36bc94e0d4ad46397096a628dd7948d77343/dbgpt-0.5.6rc0.tar.gz
+[2024-05-30 11:30:49] INFO root fetch - processPackages [TaskBridge]: Downloading https://files.pythonhosted.org/packages/87/28/a8cea21b2eb9f7ede8adcd1d2a5176f0720659ef7717520656b36ebfd090/taskbridge-0.1.2b0.tar.gz
+[2024-05-30 11:30:50] INFO root fetch - processPackages [YWP]: Downloading https://files.pythonhosted.org/packages/32/a4/6cb7fcc5211cdc8d20f46528bb7881ba06db746d4a239191e73cd3d06d99/ywp-0.4.0.tar.gz
+[2024-05-30 11:30:50] INFO root fetch - processPackages [YWP]: executing diffoscope
+[2024-05-30 11:30:50] INFO root fetch - processPackages [YWP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ywp-0.3.0.tar.gz tmp/ywp-0.4.0.tar.gz --markdown 20240530/Y/YWP/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-30 11:30:50] INFO root fetch - processPackages [themachinethatgoesping]: Downloading https://files.pythonhosted.org/packages/4d/44/6f6ab06e4b1e7ad7e5d41454bb470d12cc64ed362904a4dba2fd3d6a1f44/themachinethatgoesping-0.9.0-cp39-cp39-win_amd64.whl
+[2024-05-30 11:30:50] INFO root fetch - processPackages [dbgpt]: Downloading https://files.pythonhosted.org/packages/3f/8d/3f797c5fefc99ab9862cebaa9531fc294ca06592fd43592b889292984f39/dbgpt-0.5.7rc0.tar.gz
+[2024-05-30 11:30:50] INFO root fetch - processPackages [dbgpt]: executing diffoscope
+[2024-05-30 11:30:50] INFO root fetch - processPackages [dbgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbgpt-0.5.6rc0.tar.gz tmp/dbgpt-0.5.7rc0.tar.gz --markdown 20240530/d/dbgpt/0.5.6rc0-0.5.7rc0/README.md --exclude *.pyd
+[2024-05-30 11:30:50] INFO root fetch - processPackages [YWP]: Remove: archive file [/home/abi/fetcher/tmp/ywp-0.3.0.tar.gz]
+[2024-05-30 11:30:50] INFO root fetch - processPackages [YWP]: Remove: archive file [/home/abi/fetcher/tmp/ywp-0.4.0.tar.gz]
+[2024-05-30 11:30:50] INFO root fetch - main [MainThread]: End processing [YWP]: success
+[2024-05-30 11:30:50] WARNING root fetch - processPackages [themachinethatgoesping]: Skipping package: exceeds size limit 16251129>=10485760
+[2024-05-30 11:30:50] INFO root fetch - main [MainThread]: End processing [themachinethatgoesping] error
+[2024-05-30 11:30:50] INFO root fetch - processPackages [TaskBridge]: Downloading https://files.pythonhosted.org/packages/31/53/714c529fe94154d86be3e71e46a44542638c7b230b6d73f7bd208cbb7c6f/taskbridge-0.1.2b1-py3-none-any.whl
+[2024-05-30 11:30:52] INFO root fetch - processPackages [dbgpt]: Remove: archive file [/home/abi/fetcher/tmp/dbgpt-0.5.6rc0.tar.gz]
+[2024-05-30 11:30:52] INFO root fetch - processPackages [dbgpt]: Remove: archive file [/home/abi/fetcher/tmp/dbgpt-0.5.7rc0.tar.gz]
+[2024-05-30 11:30:52] INFO root fetch - main [MainThread]: End processing [dbgpt]: success
+[2024-05-30 11:30:52] INFO root fetch - processPackages [TaskBridge]: executing diffoscope
+[2024-05-30 11:30:52] INFO root fetch - processPackages [TaskBridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskbridge-0.1.2b0.tar.gz tmp/taskbridge-0.1.2b1-py3-none-any.whl.zip --markdown 20240530/T/TaskBridge/0.1.2b0-0.1.2b1/README.md --exclude *.pyd
+[2024-05-30 11:30:53] INFO root fetch - processPackages [TaskBridge]: Remove: archive file [/home/abi/fetcher/tmp/taskbridge-0.1.2b0.tar.gz]
+[2024-05-30 11:30:53] INFO root fetch - processPackages [TaskBridge]: Remove: archive file [/home/abi/fetcher/tmp/taskbridge-0.1.2b1-py3-none-any.whl.zip]
+[2024-05-30 11:30:53] INFO root fetch - main [MainThread]: End processing [TaskBridge]: success
+[2024-05-30 11:30:53] INFO root fetch - main [MainThread]: Store serial: [23446222]
