@@ -18212,3 +18212,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:41:58] INFO root fetch - processPackages [careamics]: Remove: archive file [/home/abi/fetcher/tmp/careamics-0.1.0rc5.tar.gz]
 [2024-05-30 10:41:58] INFO root fetch - main [MainThread]: End processing [careamics]: success
 [2024-05-30 10:41:58] INFO root fetch - main [MainThread]: Store serial: [23445246]
+[2024-05-30 10:44:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23445246]
+[2024-05-30 10:44:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-30 10:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-evolution
+[2024-05-30 10:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datamarket
+[2024-05-30 10:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dtfilterthumbor2
+[2024-05-30 10:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jmock
+[2024-05-30 10:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygcap
+[2024-05-30 10:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apify
+[2024-05-30 10:44:07] INFO root fetch - processPackages [datamarket]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-30 10:44:07] WARNING root fetch - processPackages [pygcap]: Skipping, unable to determine old version
+[2024-05-30 10:44:07] INFO root fetch - main [MainThread]: End processing [pygcap] error
+[2024-05-30 10:44:07] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/ce/ea/a4fbc93ef1bfa26be26a91524eb373c9e6c5451a74213d73c642fff65f5a/datamarket-0.5.8.tar.gz
+[2024-05-30 10:44:07] WARNING root fetch - processPackages [jmock]: Skipping, unable to determine old version
+[2024-05-30 10:44:07] INFO root fetch - main [MainThread]: End processing [jmock] error
+[2024-05-30 10:44:07] INFO root fetch - processPackages [django-evolution]: New version: [2.4] Old Version: [2.3]
+[2024-05-30 10:44:07] WARNING root fetch - processPackages [dtfilterthumbor2]: Skipping, unable to determine old version
+[2024-05-30 10:44:07] INFO root fetch - main [MainThread]: End processing [dtfilterthumbor2] error
+[2024-05-30 10:44:07] INFO root fetch - processPackages [apify]: New version: [1.7.2b2] Old Version: [1.7.2b1]
+[2024-05-30 10:44:07] INFO root fetch - processPackages [django-evolution]: Downloading https://files.pythonhosted.org/packages/13/de/50ddf4f42dd327ee7babe8e1ebd12ccf91fa8d67fe82488e97c8f39af010/django_evolution-2.3.tar.gz
+[2024-05-30 10:44:07] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/16/8e/507a86263e1f893be2b058029d3591f30f2b280b549f398c3137a18b5af2/datamarket-0.5.9.tar.gz
+[2024-05-30 10:44:07] INFO root fetch - processPackages [datamarket]: executing diffoscope
+[2024-05-30 10:44:07] INFO root fetch - processPackages [datamarket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamarket-0.5.8.tar.gz tmp/datamarket-0.5.9.tar.gz --markdown 20240530/d/datamarket/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-30 10:44:08] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/c8/97/db327b9d628701fd0828fd6e68e5ec739770ffc44ae14767f1f801bd3d6a/apify-1.7.2b1.tar.gz
+[2024-05-30 10:44:08] INFO root fetch - processPackages [django-evolution]: Downloading https://files.pythonhosted.org/packages/27/7c/b5c775a8cca65ce23c026383f39eedf4eb032909dbb65804c62da7d2506a/django_evolution-2.4.tar.gz
+[2024-05-30 10:44:08] INFO root fetch - processPackages [django-evolution]: executing diffoscope
+[2024-05-30 10:44:08] INFO root fetch - processPackages [django-evolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_evolution-2.3.tar.gz tmp/django_evolution-2.4.tar.gz --markdown 20240530/d/django-evolution/2.3-2.4/README.md --exclude *.pyd
+[2024-05-30 10:44:08] INFO root fetch - processPackages [apify]: Downloading https://files.pythonhosted.org/packages/d8/15/a0b771bdc0ba6236df9e50074eaea604d7b4e60b49ccb60739d11183487c/apify-1.7.2b2.tar.gz
+[2024-05-30 10:44:08] INFO root fetch - processPackages [datamarket]: Remove: archive file [/home/abi/fetcher/tmp/datamarket-0.5.8.tar.gz]
+[2024-05-30 10:44:08] INFO root fetch - processPackages [datamarket]: Remove: archive file [/home/abi/fetcher/tmp/datamarket-0.5.9.tar.gz]
+[2024-05-30 10:44:08] INFO root fetch - main [MainThread]: End processing [datamarket]: success
+[2024-05-30 10:44:09] INFO root fetch - processPackages [apify]: executing diffoscope
+[2024-05-30 10:44:09] INFO root fetch - processPackages [apify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify-1.7.2b1.tar.gz tmp/apify-1.7.2b2.tar.gz --markdown 20240530/a/apify/1.7.2b1-1.7.2b2/README.md --exclude *.pyd
+[2024-05-30 10:44:09] INFO root fetch - processPackages [django-evolution]: Remove: archive file [/home/abi/fetcher/tmp/django_evolution-2.3.tar.gz]
+[2024-05-30 10:44:09] INFO root fetch - processPackages [django-evolution]: Remove: archive file [/home/abi/fetcher/tmp/django_evolution-2.4.tar.gz]
+[2024-05-30 10:44:09] INFO root fetch - main [MainThread]: End processing [django-evolution]: success
+[2024-05-30 10:44:09] INFO root fetch - processPackages [apify]: Remove: archive file [/home/abi/fetcher/tmp/apify-1.7.2b1.tar.gz]
+[2024-05-30 10:44:09] INFO root fetch - processPackages [apify]: Remove: archive file [/home/abi/fetcher/tmp/apify-1.7.2b2.tar.gz]
+[2024-05-30 10:44:09] INFO root fetch - main [MainThread]: End processing [apify]: success
+[2024-05-30 10:44:09] INFO root fetch - main [MainThread]: Store serial: [23445264]
