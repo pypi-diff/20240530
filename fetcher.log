@@ -8812,3 +8812,32 @@ EOFError: EOF read where object expected
 [2024-05-30 04:29:11] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240530011955.tar.gz]
 [2024-05-30 04:29:11] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-30 04:29:11] INFO root fetch - main [MainThread]: Store serial: [23441291]
+[2024-05-30 04:31:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441291]
+[2024-05-30 04:31:21] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-30 04:33:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441292]
+[2024-05-30 04:33:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-30 04:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-commcare
+[2024-05-30 04:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SpotToBee
+[2024-05-30 04:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oahspe
+[2024-05-30 04:33:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hellobc
+[2024-05-30 04:33:28] INFO root fetch - processPackages [oahspe]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-30 04:33:28] INFO root fetch - processPackages [oahspe]: Downloading https://files.pythonhosted.org/packages/f1/2f/0d69ae5cc957a9385c090417c461736e608213b03b104f76f3b3e0ede9f7/oahspe-0.0.7.tar.gz
+[2024-05-30 04:33:28] WARNING root fetch - processPackages [SpotToBee]: Skipping, unable to determine old version
+[2024-05-30 04:33:28] INFO root fetch - main [MainThread]: End processing [SpotToBee] error
+[2024-05-30 04:33:28] WARNING root fetch - processPackages [hellobc]: Skipping, unable to determine old version
+[2024-05-30 04:33:28] INFO root fetch - main [MainThread]: End processing [hellobc] error
+[2024-05-30 04:33:28] INFO root fetch - processPackages [airbyte-source-commcare]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-30 04:33:28] INFO root fetch - processPackages [airbyte-source-commcare]: Downloading https://files.pythonhosted.org/packages/d3/8b/61d1287bfc24d062a7ccfac72fd35f1d78051fe039128aea152a15f6fc01/airbyte-source-commcare-0.1.0.tar.gz
+[2024-05-30 04:33:28] INFO root fetch - processPackages [oahspe]: Downloading https://files.pythonhosted.org/packages/4b/74/d4e56352cf9c4bcbdb9def76baacfa0f8f561d2056675a7966bca54343aa/oahspe-0.0.8.tar.gz
+[2024-05-30 04:33:29] INFO root fetch - processPackages [airbyte-source-commcare]: Downloading https://files.pythonhosted.org/packages/cb/bb/9044302cbd9066c2eb1cf9b04ca9fe8c9c7ed386dbe999586e34618c5215/airbyte_source_commcare-0.1.1.tar.gz
+[2024-05-30 04:33:29] INFO root fetch - processPackages [oahspe]: executing diffoscope
+[2024-05-30 04:33:29] INFO root fetch - processPackages [oahspe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oahspe-0.0.7.tar.gz tmp/oahspe-0.0.8.tar.gz --markdown 20240530/o/oahspe/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-30 04:33:29] INFO root fetch - processPackages [airbyte-source-commcare]: executing diffoscope
+[2024-05-30 04:33:29] INFO root fetch - processPackages [airbyte-source-commcare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-commcare-0.1.0.tar.gz tmp/airbyte_source_commcare-0.1.1.tar.gz --markdown 20240530/a/airbyte-source-commcare/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-30 04:33:29] INFO root fetch - processPackages [oahspe]: Remove: archive file [/home/abi/fetcher/tmp/oahspe-0.0.7.tar.gz]
+[2024-05-30 04:33:29] INFO root fetch - processPackages [oahspe]: Remove: archive file [/home/abi/fetcher/tmp/oahspe-0.0.8.tar.gz]
+[2024-05-30 04:33:29] INFO root fetch - main [MainThread]: End processing [oahspe]: success
+[2024-05-30 04:33:29] INFO root fetch - processPackages [airbyte-source-commcare]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-commcare-0.1.0.tar.gz]
+[2024-05-30 04:33:29] INFO root fetch - processPackages [airbyte-source-commcare]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_commcare-0.1.1.tar.gz]
+[2024-05-30 04:33:29] INFO root fetch - main [MainThread]: End processing [airbyte-source-commcare]: success
+[2024-05-30 04:33:29] INFO root fetch - main [MainThread]: Store serial: [23441306]
