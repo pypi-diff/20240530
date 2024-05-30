@@ -10437,3 +10437,78 @@ EOFError: EOF read where object expected
 [2024-05-30 05:55:38] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_direct_debit-16.0.2.0.0.2-py3-none-any.whl.zip]
 [2024-05-30 05:55:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation-direct-debit]: success
 [2024-05-30 05:55:38] INFO root fetch - main [MainThread]: Store serial: [23441897]
+[2024-05-30 05:57:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23441897]
+[2024-05-30 05:57:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baidu-serp-api
+[2024-05-30 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composio-langchain
+[2024-05-30 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composio-lyzr
+[2024-05-30 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-website-sale-hide-price
+[2024-05-30 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-website-sale-checkout-skip-payment
+[2024-05-30 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smaht-submitr
+[2024-05-30 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-product-template-multi-link
+[2024-05-30 05:57:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-openai
+[2024-05-30 05:57:46] INFO root fetch - processPackages [odoo-addon-website-sale-checkout-skip-payment]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2024-05-30 05:57:46] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.3]
+[2024-05-30 05:57:46] INFO root fetch - processPackages [baidu-serp-api]: New version: [0.2] Old Version: [0.1]
+[2024-05-30 05:57:46] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-30 05:57:46] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.2.1b9] Old Version: [0.8.2.1b8]
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-lyzr]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-langchain]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-30 05:57:47] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/94/70/b34d2d34c394fc3e3b347e32bec8900b8b8643db5842d59991c4e84ea528/smaht_submitr-0.8.2.1b8.tar.gz
+[2024-05-30 05:57:47] INFO root fetch - processPackages [baidu-serp-api]: Downloading https://files.pythonhosted.org/packages/a1/f4/3c1d5c2f9d55da97c6b58aea3b8de4e6e821e621db37f420fad667981b18/baidu_serp_api-0.1.tar.gz
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-openai]: New version: [0.3.0] Old Version: [0.2.64]
+[2024-05-30 05:57:47] INFO root fetch - processPackages [odoo-addon-website-sale-checkout-skip-payment]: Downloading https://files.pythonhosted.org/packages/3a/1f/96753cef43cce9ac2ededf9f0e4424a0f968fea254cd0fc8a9bf1a0b787f/odoo_addon_website_sale_checkout_skip_payment-16.0.1.1.0-py3-none-any.whl
+[2024-05-30 05:57:47] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Downloading https://files.pythonhosted.org/packages/9c/20/a23a773608da1acd965a2b545fcefe2b9958e4402487077cd0e7346c652e/odoo_addon_website_sale_hide_price-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-30 05:57:47] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: Downloading https://files.pythonhosted.org/packages/82/cc/c496ee72a8bd021da75bc03dd68acdbe6e08876187ec0dbb1cf6169c8cfe/odoo_addon_product_template_multi_link-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-05-30 05:57:47] INFO root fetch - processPackages [baidu-serp-api]: Downloading https://files.pythonhosted.org/packages/94/18/e8eb0680d77c8811eba33e8190df4596db78a81d524b4370e4c3403fc94f/baidu_serp_api-0.2.tar.gz
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/06/21/51e0c2c7e86b6349421cdb10eb29184429ae76e680320ccc5d574530d3dd/composio_openai-0.2.64.tar.gz
+[2024-05-30 05:57:47] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/49/5f/4a0cbcc953b126fd89e8d3c5beafcab7cf195845995d05395f40952ad23c/smaht_submitr-0.8.2.1b9.tar.gz
+[2024-05-30 05:57:47] INFO root fetch - processPackages [baidu-serp-api]: executing diffoscope
+[2024-05-30 05:57:47] INFO root fetch - processPackages [baidu-serp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baidu_serp_api-0.1.tar.gz tmp/baidu_serp_api-0.2.tar.gz --markdown 20240530/b/baidu-serp-api/0.1-0.2/README.md --exclude *.pyd
+[2024-05-30 05:57:47] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-05-30 05:57:47] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.2.1b8.tar.gz tmp/smaht_submitr-0.8.2.1b9.tar.gz --markdown 20240530/s/smaht-submitr/0.8.2.1b8-0.8.2.1b9/README.md --exclude *.pyd
+[2024-05-30 05:57:47] INFO root fetch - processPackages [odoo-addon-website-sale-checkout-skip-payment]: Downloading https://files.pythonhosted.org/packages/f1/4f/85d8877fc7c355c2ade38d51bac119d8ae269ff372e82745420be17b90ae/odoo_addon_website_sale_checkout_skip_payment-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/e6/fa/344d72b11046189d6b8e76f344f3cf4df9bf2d3f5b3ecf613bb365e9578b/composio_langchain-0.3.0.tar.gz
+[2024-05-30 05:57:47] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Downloading https://files.pythonhosted.org/packages/81/dd/581f513e3babf0bac6cbadf3e432b53f541be3ebeff747100ad568faf3a3/odoo_addon_website_sale_hide_price-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/3a/6b/c08978dd046429ddf27ef83e1380ae2e0ae385a1107aa9189632d85efa43/composio_lyzr-0.3.0.tar.gz
+[2024-05-30 05:57:47] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: Downloading https://files.pythonhosted.org/packages/6d/8e/ca2b9b96d2e09bd3efda583f892d21218a59ec5b2aa35aaf4e6d45b2e562/odoo_addon_product_template_multi_link-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-30 05:57:47] INFO root fetch - processPackages [odoo-addon-website-sale-checkout-skip-payment]: executing diffoscope
+[2024-05-30 05:57:47] INFO root fetch - processPackages [odoo-addon-website-sale-checkout-skip-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_checkout_skip_payment-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_website_sale_checkout_skip_payment-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-website-sale-checkout-skip-payment/16.0.1.1.0-16.0.1.1.0.1/README.md --exclude *.pyd
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/9c/ca/b4535a889aa9acfa6cf21dceb2ac04fb2291e7e58f0718bec69399676879/composio_openai-0.3.0.tar.gz
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.9.tar.gz tmp/composio_langchain-0.3.0.tar.gz --markdown 20240530/c/composio-langchain/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-30 05:57:47] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: executing diffoscope
+[2024-05-30 05:57:47] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_hide_price-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_website_sale_hide_price-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-website-sale-hide-price/17.0.1.0.0.3-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.9.tar.gz tmp/composio_lyzr-0.3.0.tar.gz --markdown 20240530/c/composio-lyzr/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-30 05:57:47] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: executing diffoscope
+[2024-05-30 05:57:47] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_template_multi_link-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_product_template_multi_link-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240530/o/odoo-addon-product-template-multi-link/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-openai]: executing diffoscope
+[2024-05-30 05:57:47] INFO root fetch - processPackages [composio-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_openai-0.2.64.tar.gz tmp/composio_openai-0.3.0.tar.gz --markdown 20240530/c/composio-openai/0.2.64-0.3.0/README.md --exclude *.pyd
+[2024-05-30 05:57:48] INFO root fetch - processPackages [baidu-serp-api]: Remove: archive file [/home/abi/fetcher/tmp/baidu_serp_api-0.1.tar.gz]
+[2024-05-30 05:57:48] INFO root fetch - processPackages [baidu-serp-api]: Remove: archive file [/home/abi/fetcher/tmp/baidu_serp_api-0.2.tar.gz]
+[2024-05-30 05:57:48] INFO root fetch - main [MainThread]: End processing [baidu-serp-api]: success
+[2024-05-30 05:57:48] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b8.tar.gz]
+[2024-05-30 05:57:48] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b9.tar.gz]
+[2024-05-30 05:57:48] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-05-30 05:57:48] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-05-30 05:57:48] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.3.0.tar.gz]
+[2024-05-30 05:57:48] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-05-30 05:57:48] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-05-30 05:57:48] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.3.0.tar.gz]
+[2024-05-30 05:57:48] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-05-30 05:57:48] INFO root fetch - processPackages [odoo-addon-website-sale-checkout-skip-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_checkout_skip_payment-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-30 05:57:48] INFO root fetch - processPackages [odoo-addon-website-sale-checkout-skip-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_checkout_skip_payment-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-30 05:57:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-checkout-skip-payment]: success
+[2024-05-30 05:57:48] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.64.tar.gz]
+[2024-05-30 05:57:48] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.3.0.tar.gz]
+[2024-05-30 05:57:48] INFO root fetch - main [MainThread]: End processing [composio-openai]: success
+[2024-05-30 05:57:48] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_template_multi_link-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-30 05:57:48] INFO root fetch - processPackages [odoo-addon-product-template-multi-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_template_multi_link-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-30 05:57:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-template-multi-link]: success
+[2024-05-30 05:57:49] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_hide_price-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-30 05:57:49] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_hide_price-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-30 05:57:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-hide-price]: success
+[2024-05-30 05:57:49] INFO root fetch - main [MainThread]: Store serial: [23441917]
