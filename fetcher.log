@@ -12182,3 +12182,56 @@ EOFError: EOF read where object expected
 [2024-05-30 07:09:50] INFO root fetch - processPackages [RapidanAPI]: Remove: archive file [/home/abi/fetcher/tmp/RapidanAPI-1.0.9.tar.gz]
 [2024-05-30 07:09:50] INFO root fetch - main [MainThread]: End processing [RapidanAPI]: success
 [2024-05-30 07:09:50] INFO root fetch - main [MainThread]: Store serial: [23442519]
+[2024-05-30 07:11:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23442519]
+[2024-05-30 07:12:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-30 07:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-product-attribute
+[2024-05-30 07:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-timeseries
+[2024-05-30 07:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybsm
+[2024-05-30 07:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatllm
+[2024-05-30 07:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mouse-jiggler-macos
+[2024-05-30 07:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: busycat
+[2024-05-30 07:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mem-client
+[2024-05-30 07:12:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: recycling
+[2024-05-30 07:12:00] INFO root fetch - processPackages [torch-timeseries]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-30 07:12:00] WARNING root fetch - processPackages [busycat]: Skipping, unable to determine old version
+[2024-05-30 07:12:00] INFO root fetch - main [MainThread]: End processing [busycat] error
+[2024-05-30 07:12:00] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: New version: [16.0.20240517.1] Old Version: [16.0.20240511.0]
+[2024-05-30 07:12:00] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-30 07:12:00] INFO root fetch - processPackages [torch-timeseries]: Downloading https://files.pythonhosted.org/packages/b0/a2/029bc3aa47ade87f571ced4ee05014a179e86759e690b4746fa061d7d582/torch_timeseries-0.0.1.tar.gz
+[2024-05-30 07:12:00] WARNING root fetch - processPackages [mouse-jiggler-macos]: Skipping, unable to determine old version
+[2024-05-30 07:12:00] INFO root fetch - main [MainThread]: End processing [mouse-jiggler-macos] error
+[2024-05-30 07:12:00] INFO root fetch - processPackages [recycling]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-30 07:12:00] WARNING root fetch - processPackages [mem-client]: Skipping, unable to determine old version
+[2024-05-30 07:12:00] INFO root fetch - main [MainThread]: End processing [mem-client] error
+[2024-05-30 07:12:00] INFO root fetch - processPackages [pybsm]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-30 07:12:00] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-30 07:12:00] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/c3/fc/b70fd4562a1d6e9a6fcf09c79e0a3abcb2114eda376625e204c0b977a158/odoo_addons_oca_product_attribute-16.0.20240511.0-py3-none-any.whl
+[2024-05-30 07:12:00] INFO root fetch - processPackages [pybsm]: Downloading https://files.pythonhosted.org/packages/98/9f/4a421d09f4334f7e1ff8c2b7f57ed91fb7a2c09edb434eb928d3b090a616/pybsm-0.3.1.tar.gz
+[2024-05-30 07:12:00] INFO root fetch - processPackages [torch-timeseries]: Downloading https://files.pythonhosted.org/packages/b5/70/0c44c5adf6dea36a15b5fef021fd9f0100d245fd75aae634519f9b27e393/torch_timeseries-0.0.2.tar.gz
+[2024-05-30 07:12:00] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-30 07:12:00] INFO root fetch - processPackages [recycling]: Downloading https://files.pythonhosted.org/packages/5a/fd/0112b8697dd6bcd6b1e7aa8905120f347835a1b3e452426cf7c3512431b9/recycling-1.0.0.tar.gz
+[2024-05-30 07:12:00] WARNING root fetch - processPackages [pybsm]: Skipping package: exceeds size limit 76462656>=10485760
+[2024-05-30 07:12:00] INFO root fetch - main [MainThread]: End processing [pybsm] error
+[2024-05-30 07:12:00] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/42/53/e12d0c2227d957575af004cbd4db2b29c18c4384d931affcdc35473fd715/odoo_addons_oca_product_attribute-16.0.20240517.1-py3-none-any.whl
+[2024-05-30 07:12:00] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-30 07:12:00] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240530/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-30 07:12:00] INFO root fetch - processPackages [torch-timeseries]: executing diffoscope
+[2024-05-30 07:12:00] INFO root fetch - processPackages [torch-timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_timeseries-0.0.1.tar.gz tmp/torch_timeseries-0.0.2.tar.gz --markdown 20240530/t/torch-timeseries/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-30 07:12:00] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: executing diffoscope
+[2024-05-30 07:12:00] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_product_attribute-16.0.20240511.0-py3-none-any.whl.zip tmp/odoo_addons_oca_product_attribute-16.0.20240517.1-py3-none-any.whl.zip --markdown 20240530/o/odoo-addons-oca-product-attribute/16.0.20240511.0-16.0.20240517.1/README.md --exclude *.pyd
+[2024-05-30 07:12:01] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_attribute-16.0.20240511.0-py3-none-any.whl.zip]
+[2024-05-30 07:12:01] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_attribute-16.0.20240517.1-py3-none-any.whl.zip]
+[2024-05-30 07:12:01] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-product-attribute]: success
+[2024-05-30 07:12:01] INFO root fetch - processPackages [torch-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/torch_timeseries-0.0.1.tar.gz]
+[2024-05-30 07:12:01] INFO root fetch - processPackages [torch-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/torch_timeseries-0.0.2.tar.gz]
+[2024-05-30 07:12:01] INFO root fetch - main [MainThread]: End processing [torch-timeseries]: success
+[2024-05-30 07:12:01] INFO root fetch - processPackages [recycling]: Downloading https://files.pythonhosted.org/packages/1e/5a/fa818c353ce824691fc16bc252f38d692938995137f53aff473c3f20fd65/recycling-1.1.0.tar.gz
+[2024-05-30 07:12:01] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-30 07:12:01] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-30 07:12:01] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-30 07:12:02] INFO root fetch - processPackages [recycling]: executing diffoscope
+[2024-05-30 07:12:02] INFO root fetch - processPackages [recycling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recycling-1.0.0.tar.gz tmp/recycling-1.1.0.tar.gz --markdown 20240530/r/recycling/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-30 07:12:15] INFO root fetch - processPackages [recycling]: Remove: archive file [/home/abi/fetcher/tmp/recycling-1.0.0.tar.gz]
+[2024-05-30 07:12:15] INFO root fetch - processPackages [recycling]: Remove: archive file [/home/abi/fetcher/tmp/recycling-1.1.0.tar.gz]
+[2024-05-30 07:12:15] INFO root fetch - main [MainThread]: End processing [recycling]: success
+[2024-05-30 07:12:15] INFO root fetch - main [MainThread]: Store serial: [23442543]
