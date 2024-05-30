@@ -17956,3 +17956,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-30 10:35:06] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.30.0-cp38-abi3-win_amd64.whl.zip]
 [2024-05-30 10:35:06] INFO root fetch - main [MainThread]: End processing [baml-py]: success
 [2024-05-30 10:35:06] INFO root fetch - main [MainThread]: Store serial: [23445101]
+[2024-05-30 10:37:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23445101]
+[2024-05-30 10:37:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-30 10:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: googleads-housekeeper
+[2024-05-30 10:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onion-clustering
+[2024-05-30 10:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rockai-cli-app
+[2024-05-30 10:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ussl
+[2024-05-30 10:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: JSDG
+[2024-05-30 10:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djangocms-blog-agenda
+[2024-05-30 10:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datajunction-server
+[2024-05-30 10:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agilerl
+[2024-05-30 10:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lemniscat.runtime
+[2024-05-30 10:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cryptoadvance.specter
+[2024-05-30 10:37:16] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-30 10:37:16] INFO root fetch - processPackages [onion-clustering]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-30 10:37:16] INFO root fetch - processPackages [datajunction-server]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2024-05-30 10:37:16] INFO root fetch - processPackages [agilerl]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-30 10:37:16] INFO root fetch - processPackages [cryptoadvance.specter]: New version: [2.0.5rc9] Old Version: [2.0.5rc8]
+[2024-05-30 10:37:16] INFO root fetch - processPackages [lemniscat.runtime]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-30 10:37:16] INFO root fetch - processPackages [ussl]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-30 10:37:16] WARNING root fetch - processPackages [JSDG]: Skipping, unable to determine old version
+[2024-05-30 10:37:16] INFO root fetch - main [MainThread]: End processing [JSDG] error
+[2024-05-30 10:37:16] INFO root fetch - processPackages [googleads-housekeeper]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2024-05-30 10:37:16] INFO root fetch - processPackages [djangocms-blog-agenda]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-05-30 10:37:16] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/ae/7b/ac6b2ad77811b76d2ca7d2c877a138c20950cfef6cd82e605a9e098e55f5/rockai_cli_app-0.2.3.tar.gz
+[2024-05-30 10:37:16] INFO root fetch - processPackages [agilerl]: Downloading https://files.pythonhosted.org/packages/cd/04/c0b2d5132a58a541c9585b788e4b6802e918fcc135af86ccfeeae5a42666/agilerl-0.1.8.tar.gz
+[2024-05-30 10:37:17] INFO root fetch - processPackages [cryptoadvance.specter]: Downloading https://files.pythonhosted.org/packages/ca/a2/dd58466fc83bc1434cd4cec6b5a37992b469c1ace8a01d6dbdc2b31c357f/cryptoadvance.specter-2.0.5rc8.tar.gz
+[2024-05-30 10:37:17] INFO root fetch - processPackages [onion-clustering]: Downloading https://files.pythonhosted.org/packages/a3/4f/25d8b386fabe24e54e363cb6fe55f541f81a9aaae4173ba511e95211b165/onion_clustering-0.2.5.tar.gz
+[2024-05-30 10:37:17] WARNING root fetch - processPackages [cryptoadvance.specter]: Skipping package: exceeds size limit 13742204>=10485760
+[2024-05-30 10:37:17] INFO root fetch - main [MainThread]: End processing [cryptoadvance.specter] error
+[2024-05-30 10:37:17] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/5e/74/837b55d32da7e6b69cec7b2da69fbb3dcc2a71dc1ee1e0d3dd407363f091/datajunction_server-0.0.1a8.tar.gz
+[2024-05-30 10:37:17] INFO root fetch - processPackages [ussl]: Downloading https://files.pythonhosted.org/packages/39/f5/b7885faeae7405fcaf7376be5f8a8335b6cf856e78eea72181c66698de73/ussl-1.2.0.tar.gz
+[2024-05-30 10:37:17] INFO root fetch - processPackages [googleads-housekeeper]: Downloading https://files.pythonhosted.org/packages/72/75/8fec6c94f8d851b937e5569bbf946bf3b932c1414c694ef2ab9e72efc3e6/googleads-housekeeper-0.1.0.dev8.tar.gz
+[2024-05-30 10:37:17] WARNING root fetch - processPackages [datajunction-server]: Skipping package: exceeds size limit 25698763>=10485760
+[2024-05-30 10:37:17] INFO root fetch - main [MainThread]: End processing [datajunction-server] error
+[2024-05-30 10:37:17] INFO root fetch - processPackages [djangocms-blog-agenda]: Downloading https://files.pythonhosted.org/packages/56/c3/0002bf05bea1c69e8c39c8bab55d87319c713a297b18479e6e75249e8d55/djangocms_blog_agenda-0.6.2.tar.gz
+[2024-05-30 10:37:17] INFO root fetch - processPackages [lemniscat.runtime]: Downloading https://files.pythonhosted.org/packages/f9/50/752ff459696854abf5e87679fe47a239005ff09666f5168a39d8639f459f/lemniscat.runtime-0.5.2.tar.gz
+[2024-05-30 10:37:17] INFO root fetch - processPackages [agilerl]: Downloading https://files.pythonhosted.org/packages/69/c5/89d0c8d25ee1f1aa49019e466a6408ab3b700afb790bf35c965d9f6a4ee3/agilerl-0.1.9.tar.gz
+[2024-05-30 10:37:17] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/32/19/20d53d074ed347de4ba5e90737bef3336c55a3d495dd35a6c9d70e9bec31/rockai_cli_app-0.2.4.tar.gz
+[2024-05-30 10:37:17] INFO root fetch - processPackages [onion-clustering]: Downloading https://files.pythonhosted.org/packages/e1/f0/b3a07f5bb7d2cf73a84ae295f176d92a17271661b6ff7a3ca96dfb2a8595/onion_clustering-0.2.6.tar.gz
+[2024-05-30 10:37:17] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-30 10:37:17] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.3.tar.gz tmp/rockai_cli_app-0.2.4.tar.gz --markdown 20240530/r/rockai-cli-app/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-30 10:37:17] INFO root fetch - processPackages [ussl]: Downloading https://files.pythonhosted.org/packages/52/f1/bf7cc58bffa6f510d2f1588c94cc5f055d691f78d30202337290c54f78a3/ussl-1.2.1.tar.gz
+[2024-05-30 10:37:17] INFO root fetch - processPackages [googleads-housekeeper]: Downloading https://files.pythonhosted.org/packages/fc/3a/7d5847390fa1978f5fa9c787415a49920ac7254fec7f7d0c0b6830542f94/googleads-housekeeper-0.1.0.dev9.tar.gz
+[2024-05-30 10:37:17] INFO root fetch - processPackages [lemniscat.runtime]: Downloading https://files.pythonhosted.org/packages/86/a6/e2e125d5fcef5fbde035d92b9d188f15286773260be9f98c8593adc1d547/lemniscat_runtime-0.6.0.tar.gz
+[2024-05-30 10:37:17] INFO root fetch - processPackages [djangocms-blog-agenda]: Downloading https://files.pythonhosted.org/packages/ce/2b/135f8b24a0012eccb54f05dd168a9135aa9d32d9f64f5d73689b969222d6/djangocms_blog_agenda-0.7.0.tar.gz
+[2024-05-30 10:37:17] INFO root fetch - processPackages [onion-clustering]: executing diffoscope
+[2024-05-30 10:37:17] INFO root fetch - processPackages [onion-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onion_clustering-0.2.5.tar.gz tmp/onion_clustering-0.2.6.tar.gz --markdown 20240530/o/onion-clustering/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-30 10:37:17] INFO root fetch - processPackages [agilerl]: executing diffoscope
+[2024-05-30 10:37:17] INFO root fetch - processPackages [agilerl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilerl-0.1.8.tar.gz tmp/agilerl-0.1.9.tar.gz --markdown 20240530/a/agilerl/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-30 10:37:17] INFO root fetch - processPackages [ussl]: executing diffoscope
+[2024-05-30 10:37:17] INFO root fetch - processPackages [ussl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ussl-1.2.0.tar.gz tmp/ussl-1.2.1.tar.gz --markdown 20240530/u/ussl/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-30 10:37:17] INFO root fetch - processPackages [googleads-housekeeper]: executing diffoscope
+[2024-05-30 10:37:17] INFO root fetch - processPackages [googleads-housekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleads-housekeeper-0.1.0.dev8.tar.gz tmp/googleads-housekeeper-0.1.0.dev9.tar.gz --markdown 20240530/g/googleads-housekeeper/0.1.0.dev8-0.1.0.dev9/README.md --exclude *.pyd
+[2024-05-30 10:37:17] INFO root fetch - processPackages [djangocms-blog-agenda]: executing diffoscope
+[2024-05-30 10:37:17] INFO root fetch - processPackages [djangocms-blog-agenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_blog_agenda-0.6.2.tar.gz tmp/djangocms_blog_agenda-0.7.0.tar.gz --markdown 20240530/d/djangocms-blog-agenda/0.6.2-0.7.0/README.md --exclude *.pyd
+[2024-05-30 10:37:17] INFO root fetch - processPackages [lemniscat.runtime]: executing diffoscope
+[2024-05-30 10:37:17] INFO root fetch - processPackages [lemniscat.runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240530:/home/abi/fetcher/20240530:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemniscat.runtime-0.5.2.tar.gz tmp/lemniscat_runtime-0.6.0.tar.gz --markdown 20240530/l/lemniscat.runtime/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-05-30 10:37:18] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.3.tar.gz]
+[2024-05-30 10:37:18] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.4.tar.gz]
+[2024-05-30 10:37:18] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-30 10:37:18] INFO root fetch - processPackages [lemniscat.runtime]: Remove: archive file [/home/abi/fetcher/tmp/lemniscat.runtime-0.5.2.tar.gz]
+[2024-05-30 10:37:18] INFO root fetch - processPackages [lemniscat.runtime]: Remove: archive file [/home/abi/fetcher/tmp/lemniscat_runtime-0.6.0.tar.gz]
+[2024-05-30 10:37:18] INFO root fetch - main [MainThread]: End processing [lemniscat.runtime]: success
+[2024-05-30 10:37:18] INFO root fetch - processPackages [onion-clustering]: Remove: archive file [/home/abi/fetcher/tmp/onion_clustering-0.2.5.tar.gz]
+[2024-05-30 10:37:18] INFO root fetch - processPackages [onion-clustering]: Remove: archive file [/home/abi/fetcher/tmp/onion_clustering-0.2.6.tar.gz]
+[2024-05-30 10:37:18] INFO root fetch - processPackages [ussl]: Remove: archive file [/home/abi/fetcher/tmp/ussl-1.2.0.tar.gz]
+[2024-05-30 10:37:18] INFO root fetch - processPackages [ussl]: Remove: archive file [/home/abi/fetcher/tmp/ussl-1.2.1.tar.gz]
+[2024-05-30 10:37:18] INFO root fetch - main [MainThread]: End processing [onion-clustering]: success
+[2024-05-30 10:37:18] INFO root fetch - main [MainThread]: End processing [ussl]: success
+[2024-05-30 10:37:18] INFO root fetch - processPackages [djangocms-blog-agenda]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_blog_agenda-0.6.2.tar.gz]
+[2024-05-30 10:37:18] INFO root fetch - processPackages [djangocms-blog-agenda]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_blog_agenda-0.7.0.tar.gz]
+[2024-05-30 10:37:18] INFO root fetch - main [MainThread]: End processing [djangocms-blog-agenda]: success
+[2024-05-30 10:37:18] INFO root fetch - processPackages [googleads-housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/googleads-housekeeper-0.1.0.dev8.tar.gz]
+[2024-05-30 10:37:18] INFO root fetch - processPackages [googleads-housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/googleads-housekeeper-0.1.0.dev9.tar.gz]
+[2024-05-30 10:37:18] INFO root fetch - main [MainThread]: End processing [googleads-housekeeper]: success
+[2024-05-30 10:37:18] INFO root fetch - processPackages [agilerl]: Remove: archive file [/home/abi/fetcher/tmp/agilerl-0.1.8.tar.gz]
+[2024-05-30 10:37:18] INFO root fetch - processPackages [agilerl]: Remove: archive file [/home/abi/fetcher/tmp/agilerl-0.1.9.tar.gz]
+[2024-05-30 10:37:18] INFO root fetch - main [MainThread]: End processing [agilerl]: success
+[2024-05-30 10:37:18] INFO root fetch - main [MainThread]: Store serial: [23445133]
